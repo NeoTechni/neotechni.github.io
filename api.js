@@ -1,6 +1,6 @@
-String.prototype.replaceAll = function (search, replacement, insensitive) {
+String.prototype.replaceAll = function (search, replacement) {
     var target = this;
-	  var esc = escapeRegExp(search);// search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    var esc = escapeRegExp(search);// search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
     var reg = new RegExp(esc, 'ig');
     return this.replace(reg, replacement);
 };
@@ -13,6 +13,11 @@ function isUndefined(variable) {
 function isArray(variable) {
     return Array.isArray(variable);
 }
+
+var escapeRegExp = function(strToEscape) {
+	// Escape special characters for use in a regular expression
+	return strToEscape.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+};
 
 var anames = document.querySelectorAll("header");
 if(anames.length > 0){
