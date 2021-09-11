@@ -20,12 +20,12 @@
 }
 
 @media (max-width: 943px) {
-	#body, header{
+	#body, header, #bodywrapper{
 		width: 100% !important;
 	}
 }
 @media (min-width: 944px) {
-	#body{
+	#body, #bodywrapper{
 		width: calc(100% - 250px) !important;
 	}
 }
