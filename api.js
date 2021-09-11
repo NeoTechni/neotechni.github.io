@@ -19,7 +19,7 @@ var escapeRegExp = function(strToEscape) {
 	return strToEscape.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 };
 
-var anames = document.querySelectorAll("header");
+var anames = document.querySelectorAll(".header");
 if(anames.length > 0){
   document.getElementById('body').insertAdjacentHTML('beforestart', '<H1>Table of Contents</H1><UL ID="tos"></UL>');
   var tos = document.getElementById("tos");
