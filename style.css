@@ -18,7 +18,16 @@
 .table .image img{
 	max-width: 300px;
 }
-
+#stickyheader{
+	position: sticky;
+	top: 0;
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+body{
+	margin-top: 50px;
+}
 @media (max-width: 943px) {
 	#body, header, #bodywrapper{
 		width: 100% !important;
