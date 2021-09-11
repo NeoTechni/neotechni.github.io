@@ -1,6 +1,8 @@
 .table{
-	border-color: rgb(173,216,230);
 	border: 3px solid #add8e6;
 	border-collapse: collapse;
 	width: 100%;
+}
+.table .header{
+	background-color: #add8e6;
 }
