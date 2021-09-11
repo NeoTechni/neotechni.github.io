@@ -3,6 +3,7 @@
 	border-collapse: collapse;
 	width: 100%;
 	margin-bottom: 20px;
+	vertical-align: text-top;
 }
 .table td, .table tr{
 	border: 1px solid #add8e6;	
