@@ -3,6 +3,15 @@
 	border-collapse: collapse;
 	width: 100%;
 }
+.table td, .table tr{
+	border: 1px solid #add8e6;	
+}
 .table .header{
 	background-color: #add8e6;
+}
+.table .image{
+	text-align: center;
+}
+.table .image img{
+	max-width: 300px;
 }
