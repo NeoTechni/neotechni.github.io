@@ -18,3 +18,14 @@
 .table .image img{
 	max-width: 300px;
 }
+
+@media (max-width: 943px) {
+	#body, header{
+		width: 100% !important;
+	}
+}
+@media (min-width: 944px) {
+	#body{
+		width: calc(100% - 250px) !important;
+	}
+}
