@@ -21,7 +21,7 @@ var escapeRegExp = function(strToEscape) {
 
 var anames = document.querySelectorAll(".header");
 if(anames.length > 0){
-  document.getElementById('body').insertAdjacentHTML('beforestart', '<H1>Table of Contents</H1><UL ID="tos"></UL>');
+  document.getElementById('body').insertAdjacentHTML('afterbegin', '<H1>Table of Contents</H1><UL ID="tos"></UL>');
   var tos = document.getElementById("tos");
   for(var i = 0; i < anames.length; i++){
     var element = anames[i];
