@@ -12,6 +12,7 @@
 }
 .table .image{
 	text-align: center;
+	width: 300px;
 }
 .table .image img{
 	max-width: 300px;
