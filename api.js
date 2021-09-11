@@ -25,7 +25,7 @@ if(anames.length > 0){
   var tos = document.getElementById("tos");
   for(var i = 0; i < anames.length; i++){
     var element = anames[i];
-    var name = element.textContent.toLowerCase().replaceAll(" ", "-");
+    var name = element.textContent.toLowerCase().trim().replaceAll(" ", "-");
     element.innerHTML += '<A NAME="' + name + '">';
     tos.innerHTML += '<LI><A HREF="#' + name + '">' + element.textContent + '</A></LI>';
   }
