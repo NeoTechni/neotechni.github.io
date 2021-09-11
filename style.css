@@ -2,6 +2,7 @@
 	border: 3px solid #add8e6;
 	border-collapse: collapse;
 	width: 100%;
+	margin-bottom: 20px;
 }
 .table td, .table tr{
 	border: 1px solid #add8e6;	
