@@ -45,7 +45,7 @@ var controllers = [{
 		"systems": "XBOX360",
 		"cost": 100,
 		"description": "Joystick, a clickable thumbstick, a throttle, 3 dpads, 2 dials, rudder control, 3 triggers, 4 buttons, a mode select switch, rumble, a cool box, Headset port, USB (Xinput)",
-		"games": "Ace Combat 6 (360), All 360 Games"
+		"games": "Ace Combat 6 (360), All 360 Games",
 		"photographed": "on"
 	},
 	{
