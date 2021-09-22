@@ -1,4 +1,4 @@
-[{
+var controllers = [{
 		"peripheral": "000-01",
 		"company": "Capcom",
 		"peripheralName": "Steel Battalion Behemoth",
