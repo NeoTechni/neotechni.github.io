@@ -31,6 +31,10 @@ if(anames.length > 0){
   }
 }
 
+function set_HTML(elementID, HTML){
+	document.getElementById(elementID).innerHTML = HTML;
+}
+
 function enum_consoles(){
     var ret = [];
     for(var i = 0; i < controllers.length; i++){
