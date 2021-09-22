@@ -4333,34 +4333,34 @@
 		"company": "AtGames",
 		"peripheralName": "Legends BitPixel",
 		"systems": "PC/Pi",
-		"obtained": "2021-05-14T04:00:00.000Z"
+		"obtained": "2021-05-14"
 	},
 	{
 		"peripheral": 440,
 		"company": "Sinden",
 		"peripheralName": "Lightgun",
 		"systems": "PC",
-		"obtained": "2021-06-24T04:00:00.000Z"
+		"obtained": "2021-06-24"
 	},
 	{
 		"peripheral": 441,
 		"company": "Blue Ocrean",
 		"peripheralName": "Sonic Screwdriver",
 		"systems": "Wii",
-		"obtained": "2021-07-02T04:00:00.000Z"
+		"obtained": "2021-07-02"
 	},
 	{
 		"peripheral": 442,
 		"company": "Nintendo",
 		"peripheralName": "Mario Kart Live",
 		"systems": "Switch",
-		"obtained": "2021-07-08T04:00:00.000Z"
+		"obtained": "2021-07-08"
 	},
 	{
 		"peripheral": 443,
 		"company": "Govee",
 		"peripheralName": "Immersion",
 		"systems": "Multi",
-		"obtained": "2021-07-27T04:00:00.000Z"
+		"obtained": "2021-07-27"
 	}
 ]
