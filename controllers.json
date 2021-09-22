@@ -793,7 +793,7 @@ var controllers = [{
 		"peripheral": "098",
 		"company": "HORI",
 		"peripheralName": "Hyper Stick Pro",
-		"systems": "XBOX'360",
+		"systems": "XBOX360",
 		"obtained": "2010-04-06",
 		"cost": 230,
 		"description": "1 non-clickable analog stick, 7 buttons (4 face, 2 system, 1 OS), laptop touch pad (acts as Right analog), Headset port, USB (Xinput), a cool box, 6 character pin buttons",
@@ -812,7 +812,7 @@ var controllers = [{
 		"peripheral": "100",
 		"company": "HORI",
 		"peripheralName": "Twin Stick Ex",
-		"systems": "360",
+		"systems": "XBOX360",
 		"obtained": "2010-04-01",
 		"cost": 500,
 		"description": "Non-standard headset port. 2 digital joysticks with 1 top-mounted button (L1/R1) and 1 trigger (L2/R2) on each, 7 buttons (4 face, Start/Back/Guide), USB (Xinput), a not-so-cool box",
@@ -1348,7 +1348,7 @@ var controllers = [{
 		"peripheral": "159",
 		"company": "Activision",
 		"peripheralName": "Cabela's Big Hunt Gun",
-		"systems": "360",
+		"systems": "XBOX360",
 		"obtained": "2012-02-18",
 		"cost": 10,
 		"description": "Trigger, reload pump, flip-up crosshairs, extendible stock and bipod, opens up like a real shotgun would to reveal the battery compartment, takes 2xAAs\nUses 4 LEDs on the front to triangulate it's position via Kinect's camera.\n\nHold both the trigger and reload pump for 5 seconds to turn it off",
@@ -1421,7 +1421,7 @@ var controllers = [{
 		"peripheral": "167",
 		"company": "MadCatz",
 		"peripheralName": "Beat Pad",
-		"systems": "360",
+		"systems": "XBOX360",
 		"obtained": "2012-06-23",
 		"cost": 5,
 		"description": "10 buttons (4 dpad, 4 action, 2 system), Guide button, headset port, XInput, USB",
@@ -1464,7 +1464,7 @@ var controllers = [{
 		"peripheral": "172",
 		"company": "ControllerMAX",
 		"peripheralName": "Cronus device",
-		"systems": "PC/PS3/360/PS4/X1/VitaTV/AND",
+		"systems": "PC/PS3/XBOX360/PS4/X1/VitaTV/AND",
 		"obtained": "2012-07-24",
 		"photographed": "on"
 	},
@@ -1763,7 +1763,7 @@ var controllers = [{
 		"peripheral": "207",
 		"company": "Datel",
 		"peripheralName": "Wildfire gaming dock",
-		"systems": "PSP (2K/3K only)",
+		"systems": "PSP (2K+3K only)",
 		"obtained": "2013-07-30",
 		"photographed": "on"
 	},
@@ -2302,7 +2302,7 @@ var controllers = [{
 		"peripheral": "232",
 		"company": "HORI",
 		"peripheralName": "FPS G.E.A.R.",
-		"systems": "360",
+		"systems": "XBOX360",
 		"obtained": "2014-02-10",
 		"cost": 20,
 		"description": "Dpad, 2 analog clickable thumbsticks with replaceable tops, 2 system buttons, 1 OS button, 6 triggers, 4 face buttons, 2 settings buttons, remappable controls, 3 LED bars, headset port, rumble, USB (Xinput)",
@@ -2375,7 +2375,7 @@ var controllers = [{
 		"peripheral": "241",
 		"company": "Microsoft",
 		"peripheralName": "Kinect",
-		"systems": "360",
+		"systems": "XBOX360",
 		"obtained": "2014-07-22",
 		"cost": 20,
 		"description": "A webcam with infrared depth-sensing and a microphone",
@@ -2663,7 +2663,7 @@ var controllers = [{
 		"peripheral": "251",
 		"company": "Advantage",
 		"peripheralName": "Delta Six",
-		"systems": "PS3/360/PC",
+		"systems": "PS3/XBOX360/PC",
 		"obtained": "2015-03-05",
 		"photographed": "on"
 	},
@@ -3143,7 +3143,7 @@ var controllers = [{
 	{
 		"peripheral": "302-A",
 		"peripheralName": "Titan Two",
-		"systems": "PS3/PS4/360/X1/PSTV/PC/AND",
+		"systems": "PS3/PS4/XBOX360/X1/PSTV/PC/AND",
 		"obtained": "2017-02-22",
 		"photographed": "on"
 	},
@@ -3392,7 +3392,7 @@ var controllers = [{
 		"peripheral": "332",
 		"company": "Spherex",
 		"peripheralName": "5.1 Surround Sound",
-		"systems": "XBOX/360/PS2/PS3/PS4"
+		"systems": "XBOX/XBOX360/PS2/PS3/PS4"
 	},
 	{
 		"peripheral": "333",
@@ -3453,7 +3453,7 @@ var controllers = [{
 		"peripheral": "341",
 		"company": "Microsoft",
 		"peripheralName": "Chatpad",
-		"systems": "360",
+		"systems": "XBOX360",
 		"obtained": "2017-10-02",
 		"cost": 10,
 		"description": "Plugs into the EXT port at the bottom of 360 controllers, headset port pass-through, 41 backlit buttons",
@@ -3587,7 +3587,7 @@ var controllers = [{
 		"obtained": "2018-02-05"
 	},
 	{
-		"peripheral": "360",
+		"peripheral": "XBOX360",
 		"company": "Mattel",
 		"peripheralName": "Power Glove",
 		"systems": "NES",
