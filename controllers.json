@@ -18,15 +18,6 @@ var controllers = [{
 		"photographed": "on"
 	},
 	{
-		"peripheral": "000-02B",
-		"company": "HORI",
-		"peripheralName": "Ace Edge Flight Stick",
-		"systems": "XBOX360",
-		"cost": 100,
-		"description": "Joystick, a clickable thumbstick, a throttle, 3 dpads, 2 dials, rudder control, 3 triggers, 4 buttons, a mode select switch, rumble, a cool box, Headset port, USB (Xinput)",
-		"games": "Ace Combat 6 (360), All 360 Games"
-	},
-	{
 		"peripheral": "000-03A",
 		"company": "Novint",
 		"peripheralName": "Falcon",
@@ -51,7 +42,10 @@ var controllers = [{
 		"peripheral": "000-05",
 		"company": "HORI",
 		"peripheralName": "Ace-Edge Flight Stick",
-		"systems": "360",
+		"systems": "XBOX360",
+		"cost": 100,
+		"description": "Joystick, a clickable thumbstick, a throttle, 3 dpads, 2 dials, rudder control, 3 triggers, 4 buttons, a mode select switch, rumble, a cool box, Headset port, USB (Xinput)",
+		"games": "Ace Combat 6 (360), All 360 Games"
 		"photographed": "on"
 	},
 	{
@@ -837,7 +831,7 @@ var controllers = [{
 		"peripheral": "102",
 		"company": "Datel",
 		"peripheralName": "TiltFX",
-		"systems": "PSP (2K/3K only)",
+		"systems": "PSP (2K+3K only)",
 		"obtained": "2010-04-16",
 		"photographed": "on"
 	},
@@ -1580,7 +1574,7 @@ var controllers = [{
 		"peripheral": "184",
 		"company": "G-Mate",
 		"peripheralName": "MAG II",
-		"systems": "PS3\\PC",
+		"systems": "PS3/PC",
 		"obtained": "2012-11-20",
 		"photographed": "on"
 	},
@@ -1612,7 +1606,7 @@ var controllers = [{
 		"peripheral": "188",
 		"company": "InterWorks",
 		"peripheralName": "Pro Controller U",
-		"systems": "Wii\\Wii U",
+		"systems": "Wii/Wii U",
 		"obtained": "2013-01-28",
 		"photographed": "on"
 	},
@@ -1809,7 +1803,7 @@ var controllers = [{
 		"peripheral": "212",
 		"company": "DOSO",
 		"peripheralName": "PSW-303",
-		"systems": "PSP (1K/2K/3K only)",
+		"systems": "PSP (1K+2K+3K only)",
 		"obtained": "2013-08-13",
 		"photographed": "on"
 	},
@@ -2451,7 +2445,7 @@ var controllers = [{
 		"peripheral": "247-02",
 		"company": "Datel",
 		"peripheralName": "PowerSaves",
-		"systems": "3DS,Wii U,Switch",
+		"systems": "3DS/Wii U/Switch",
 		"obtained": "2020-10-10"
 	},
 	{
@@ -3020,7 +3014,7 @@ var controllers = [{
 		"peripheral": "286-B",
 		"company": "Nintendo",
 		"peripheralName": "NES Classic controller",
-		"systems": "NES+SNES classic/Wii/WiiU",
+		"systems": "NES Classic/SNES Classic/Wii/WiiU",
 		"obtained": "2018-10-06"
 	},
 	{
@@ -3042,7 +3036,7 @@ var controllers = [{
 		"peripheral": "289",
 		"company": "EMIO",
 		"peripheralName": "EDGE Joystick",
-		"systems": "NES+SNES Classic/Wii/WiiU",
+		"systems": "NES Classic/SNES Classic/Wii/WiiU",
 		"obtained": "2016-11-23",
 		"photographed": "on"
 	},
@@ -3478,7 +3472,7 @@ var controllers = [{
 		"peripheral": "343",
 		"company": "HORI",
 		"peripheralName": "Wireless Fighting Commander",
-		"systems": "NES+SNES Classic/Wii/Wii U",
+		"systems": "NES Classic/SNES Classic/Wii/Wii U",
 		"obtained": "2017-10-05"
 	},
 	{
