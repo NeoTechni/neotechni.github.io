@@ -5,9 +5,9 @@ classes: wide
 ---
 <SCRIPT>
    controllers = enum_controllers_by_console("GEN,SAT,DC");
-   document.onload = function(){
+   window.addEventListener('load', function () {
       set_HTML("controllers", make_controller());
-   };
+   });
 </SCRIPT>
 
 <DIV ID="controllers"></DIV>
