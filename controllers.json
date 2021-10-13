@@ -4356,5 +4356,26 @@ var controllers = [{
 		"peripheralName": "Immersion",
 		"systems": "Multi",
 		"obtained": "2021-07-27"
+	},
+	{
+		"peripheral": 444,
+		"company": "Bandai Namco",
+		"peripheralName": "DigiVice V",
+		"systems": "SYS",
+		"obtained": "2021-10-09"
+	},
+	{
+		"peripheral": 445-A,
+		"company": "New Wave Toys",
+		"peripheralName": "1942 Replicade",
+		"systems": "SYS",
+		"obtained": "2021-10-13"
+	},
+	{
+		"peripheral": 445-B,
+		"company": "New Wave Toys",
+		"peripheralName": "1943 Mini Arcade Stick",
+		"systems": "1942/1943",
+		"obtained": "2021-10-13"
 	}
 ];
