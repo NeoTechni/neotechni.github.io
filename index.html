@@ -4,14 +4,8 @@ layout: default
 <BODY>
     This site contains all the novelty controllers/peripherals I own and want to own<P>
 
-    Recent acquisitions (Peripherals): 443
-    <P><UL>
-        <LI>Govee Immersion (Multi) - July 27</LI>
-        <LI>Mario Kart Live (SW) - July 15</LI>
-        <LI>Sonic Screwdriver (Wii), GPi Mate Plus for CM4 lite (GPi) - July 2</LI>
-        <LI>Sinden Lightgun (PC) - June 24</LI>
-        <LI>Legends BitPixel (PC) - May 14</LI>
-    </UL>
+    Recent acquisitions (Peripherals): <SPAN ID="count"></SPAN>
+    <P><UL ID="controllers"></UL>
 
     Recent acquisitions (Collectibles):<P>
     <UL>
@@ -21,5 +15,30 @@ layout: default
         <LI>Death Stranding (PS4)</LI>
         <LI>Super Neptunia RPG (SW)</LI>
     </UL>
-      
+        
+    <SCRIPT>
+        var first = true;
+        var controllers = enum_controllers_by_dates();
+        window.addEventListener('load', function () {
+            var HTML = "";
+            for(var date in controllers){
+                if(controllers.hasOwnProperty(date)){
+                    HTML += '<LI>';
+                    for(var i = 0; i < controllers[date].length; i++){
+                        var controller = controllers[date][i];
+                        if(first){
+                            first = false;
+                            set_HTML("count", filternonnumeric(controller.peripheral));
+                        }
+                        if(i > 0){
+                            HTML += ', ';
+                        }
+                        HTML += controller.company + " - " + controller.peripheralName + " (" + controller.systems + ")";
+                    }
+                    HTML += ' - ' + date + '</LI>';
+                }
+            }
+            set_HTML("controllers", HTML);
+        });
+    </SCRIPT>
 </BODY>
