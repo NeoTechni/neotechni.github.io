@@ -31,6 +31,8 @@
 }
 body{
 	margin-top: 50px;
+	padding-top: 0;
+	padding-right: 0;
 }
 @media (max-width: 943px) {
 	#body, header, #bodywrapper{
@@ -44,4 +46,9 @@ body{
 	#body, #bodywrapper{
 		width: calc(100% - 250px) !important;
 	}
+}
+header{
+	margin-top: 0;
+	height: calc(100% - 50px);
+	padding: 10px !important;
 }
