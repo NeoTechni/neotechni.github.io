@@ -17,6 +17,12 @@ if(is_chrome){
 	var log = console.log;
 }
 
+function iif(value, iftrue, iffalse) {
+    if (value) {return iftrue;}
+    if (isUndefined(iffalse)) {return "";}
+    return iffalse;
+}
+
 String.prototype.replaceAll = function (search, replacement) {
     var target = this;
     var esc = escapeRegExp(search);// search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
