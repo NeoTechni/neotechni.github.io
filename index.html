@@ -35,7 +35,7 @@ layout: default
                         }
                         HTML += controller.company + " - " + controller.peripheralName + " (" + controller.systems + ")";
                     }
-                    HTML += ' - ' + date + '</LI>';
+                    HTML += ' - ' + formattednow(date, "M j") + '</LI>';
                 }
             }
             set_HTML("controllers", HTML);
