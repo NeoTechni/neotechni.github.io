@@ -30,6 +30,26 @@ String.prototype.replaceAll = function (search, replacement) {
     return this.replace(reg, replacement);
 };
 
+function dynamicSortMultiple() {
+    /*
+     save the arguments object as it will be overwritten
+     note that arguments object is an array-like object consisting of the names of the properties to sort by
+     ie: People.sort(dynamicSortMultiple("Name", "-Surname"));
+     */
+    var props = arguments;
+    return function (obj1, obj2) {
+        var i = 0, result = 0, numberOfProperties = props.length;
+        /* try getting a different result from 0 (equal)
+         * as long as we have extra properties to compare
+         */
+        while(result === 0 && i < numberOfProperties) {
+            result = dynamicSort(props[i])(obj1, obj2);
+            i++;
+        }
+        return result;
+    }
+}
+
 function isUndefined(variable) {
 	if(typeof variable == "number" && isNaN(variable)){return true;}
     return typeof variable === 'undefined' || variable == null;
@@ -384,6 +404,7 @@ function enum_controllers_by_console(consoles = false, include = true){
 			ret.push(controllers[i]);
 		}
 	}
+	ret.sort(dynamicSortMultiple("peripheralName"));
 	return ret;
 }
 
