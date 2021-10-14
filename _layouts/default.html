@@ -16,7 +16,8 @@
     {% include head-custom.html %}
   </head>
     <DIV ID="stickyheader">
-        <A HREF="/"><IMG ID="favicon" SRC="/favicon.ico"> {{ site.title | default: site.github.repository_name }}</A>
+        <A HREF="/" ID="iconwrapper"><IMG ID="favicon" SRC="/favicon.ico"></A> <A HREF="/" ID="titlewrapper">{{ site.title | default: site.github.repository_name }}</A>
+        <INPUT TYPE="text" ID="search" PLACEHOLDER="Search" STYLE="display: none;">
     </DIV>
   <body>
     <div class="wrapper" ID="bodywrapper">
