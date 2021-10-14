@@ -30,6 +30,13 @@ String.prototype.replaceAll = function (search, replacement) {
     return this.replace(reg, replacement);
 };
 
+function dynamicSort(property) { 
+    return function (obj1,obj2) {
+        return obj1[property] > obj2[property] ? 1
+            : obj1[property] < obj2[property] ? -1 : 0;
+    }
+}
+
 function dynamicSortMultiple() {
     /*
      save the arguments object as it will be overwritten
