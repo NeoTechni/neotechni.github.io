@@ -23,7 +23,7 @@
 	max-width: 300px;
 }
 #stickyheader{
-	position: sticky;
+	position: fixed;
 	top: 0;
 	height: 50px;
 	background-color: black;
