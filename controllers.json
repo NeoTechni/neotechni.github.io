@@ -741,7 +741,7 @@ var controllers = [{
 		"systems": "SNES/GEN",
 		"obtained": "2010-02-09",
 		"photographed": true,
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "093",
@@ -2711,7 +2711,7 @@ var controllers = [{
 		"peripheral": "255-GN",
 		"company": "Activision",
 		"peripheralName": "Skylander (Ninjini Giant figure)",
-		"systems": "MISC",
+		"systems": "misc",
 		"obtained": "2017-03-08"
 	},
 	{
@@ -3262,7 +3262,8 @@ var controllers = [{
 		"company": "Dempa Micomsoft",
 		"peripheralName": "XE1-AP",
 		"systems": "GEN/SEGACD/32X/PCE/MSX/NEC PC-88/Sharp 68000/FM Towns",
-		"obtained": "2017-04-08"
+		"obtained": "2017-04-08",
+		"section": "sega",
 	},
 	{
 		"peripheral": "316",
@@ -3769,7 +3770,8 @@ var controllers = [{
 		"description": "Dpad, 2 clickable analog sticks, wired (via microUSB), 6 face buttons, 4 triggers (2 mirror the white/black face buttons), 2 system buttons, 1 OS button with an OLED screen that plays the XBOX boot animation when pressed, rumble",
 		"games": "All X1/PC games",
 		"specificVersion": "Black",
-		"otherVersions": "Green"
+		"otherVersions": "Green",
+		"section": "misc",
 	},
 	{
 		"peripheral": "381-A",
@@ -3876,7 +3878,8 @@ var controllers = [{
 		"obtained": "2018-09-14",
 		"cost": 150,
 		"description": "1 OS button, 2 system buttons, 1 profile switcher button, 2 face buttons, dpad, Wireless, wired and charges the built-in battery via USB-C, headphone connector, connectors for accessibility devices (1 connector for each button, and direction on the dpad, 2 extra connectors for the X button), 2 USB master ports for analog sticks",
-		"games": "All X1/PC games"
+		"games": "All X1/PC games",
+		"section": "misc",
 	},
 	{
 		"peripheral": "389-B",
@@ -3886,7 +3889,8 @@ var controllers = [{
 		"obtained": "2019-08-17",
 		"cost": 25,
 		"description": "1 clickable analog stick, 2 shoulder buttons, connects via USB HID",
-		"games": "All X1/PC games"
+		"games": "All X1/PC games",
+		"section": "misc",
 	},
 	{
 		"peripheral": "389-C",
@@ -3896,7 +3900,8 @@ var controllers = [{
 		"obtained": "2020-01-09",
 		"cost": 130,
 		"description": "4x Light touch buttons, 3x Small buttons, 3x Big buttons, 2x Variable triggers, Rigid hook and loop game board, Flexible hook and loop game board, hook and loop ties, Colo-coded labels",
-		"games": "All X1/PC games"
+		"games": "All X1/PC games",
+		"section": "misc",
 	},
 	{
 		"peripheral": "390",
@@ -3911,7 +3916,7 @@ var controllers = [{
 		"peripheralName": "Starlink Starter Kit (Game, Base, Poster, Mason Rana, Zenith, Flamethrower, Shredder, and Frost Barrage)",
 		"systems": "PS4",
 		"obtained": "2018-10-16",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "391-B",
@@ -3919,7 +3924,7 @@ var controllers = [{
 		"peripheralName": "Cerberus Starship Pack (Razor Lemay pilot, Cerberus ship, Shockwave weapon)",
 		"systems": "PS4/X1/Switch",
 		"obtained": "2018-10-20",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "391-C",
@@ -3927,7 +3932,7 @@ var controllers = [{
 		"peripheralName": "Starlink Starter Kit (Game, Base, Poster, Mason Rana, Fox McCloud, Arwing, Flamethrower, Shredder, and Frost Barrage)",
 		"systems": "Switch",
 		"obtained": "2018-11-22",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "391-D",
@@ -3935,7 +3940,7 @@ var controllers = [{
 		"peripheralName": "Eli Arborwood, (Shredder Mk. 2, Crusher), (Hailstorm, Meteor Mk. 2)",
 		"systems": "PS4/X1/Switch",
 		"obtained": "2018-12-17",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "391-E",
@@ -3943,22 +3948,22 @@ var controllers = [{
 		"peripheralName": "Neptune Starship Pack (Neptune, Judge, Levitator)",
 		"systems": "PS4/X1/Switch",
 		"obtained": "2018-12-18",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "391-F",
 		"company": "Ubisoft",
 		"peripheralName": "Pulse Starship Pack (Calisto Chase Da Silva, Volcano), Kharl Zeon (pilot), Freeze Ray Mk. 2, Iron Fist (Weapons)",
 		"obtained": "2019-03-24",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "391-G",
 		"company": "Ubisoft",
 		"peripheralName": "Lance starship pack (Hunter Hakka, Imploder), Nadir starship pack (Shaid, Nullifier), Gauss Gun Mk. 2 (weapon)",
-		"systems": "MISC",
+		"systems": "misc",
 		"obtained": "2019-03-26",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "391-H",
@@ -3966,7 +3971,7 @@ var controllers = [{
 		"peripheralName": "Controller Mount",
 		"systems": "PS4",
 		"obtained": "2019-03-30",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "391-I",
@@ -3974,7 +3979,7 @@ var controllers = [{
 		"peripheralName": "Startail pilot",
 		"systems": "PS4/X1/Switch",
 		"obtained": "2019-04-20",
-		"section": "MISC",
+		"section": "misc",
 	},
 	{
 		"peripheral": "392",
@@ -4276,7 +4281,7 @@ var controllers = [{
 		"peripheral": "431",
 		"company": "LEGO",
 		"peripheralName": "Mario",
-		"systems": "MISC",
+		"systems": "misc",
 		"obtained": "2020-08-21"
 	},
 	{
