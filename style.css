@@ -59,8 +59,15 @@ body{
 	}
 }
 @media (min-width: 944px) {
-	#body, #bodywrapper{
+	/*#body, #bodywrapper{
 		width: calc(100% - 250px) !important;
+	}*/
+	#bodywrapper{
+    		width: calc(100% - 100px) !important;
+	}
+	#body{
+		position: relative;
+		left: 100px;
 	}
 }
 header{
