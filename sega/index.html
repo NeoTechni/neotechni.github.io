@@ -4,7 +4,7 @@ layout: default
 classes: wide 
 ---
 <SCRIPT>
-   controllers = enum_controllers_by_console("GEN,SAT,DC");
+   controllers = enum_controllers_by_console(sections.sega);
    window.addEventListener('load', function () {
       set_HTML("controllers", make_controller());
    });
