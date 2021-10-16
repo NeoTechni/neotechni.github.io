@@ -32,6 +32,9 @@
 }
 #stickyheader .header{
 	display: inline !important;
+	line-height: 50px;
+	top: 0;
+	position: absolute;
 }
 body{
 	padding-top: 50px !important;
