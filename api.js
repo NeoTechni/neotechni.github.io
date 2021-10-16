@@ -35,6 +35,15 @@ function console_section(console){
 	return false;
 }
 
+function _GET(name, def = "", url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return def;
+    if (!results[2]) return def;
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
 function enum_controllers_by_section(section = false, include = true){
 	var ret = [];
 	for(var i = 0; i < controllers.length; i++){
@@ -516,8 +525,18 @@ if(anames.length > 0){
   }
 }
 
-function set_HTML(elementID, HTML){
-	document.getElementById(elementID).innerHTML = HTML;
+function set_HTML(elementID, HTML, param = "html"){
+	var element = document.getElementById(elementID);
+	if(isUndefined(HTML)){
+		switch(param){
+			case "html": return element.innerHTML;
+			case "val": return element.value;
+		}
+	} 
+	switch(param){
+		case "html": element.innerHTML = HTML; break;
+		case "val": element.value = HTML; break;
+	}
 }
 
 function enum_consoles(){
