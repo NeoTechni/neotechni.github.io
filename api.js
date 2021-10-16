@@ -606,7 +606,7 @@ function make_controller(controller = false, stat = false, name = false){
 		}
 		switch(style){
 			case "normal":
-				HTML = '<A NAME="' + toclassname(controller.peripheralName) + '">';
+				HTML = '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
 				HTML += '<TABLE CLASS="table"><TBODY><TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR><TD ROWSPAN="2" CLASS="image">';
 				HTML += '<IMG SRC="/images/' + controller.peripheral + '.jpg" CLASS="controllerimage" ONERROR="">';
 				HTML += '</TD><TD>';
@@ -619,7 +619,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "otherVersions", 	"Other Version(s)");
 				HTML += '</TD></TR><TR><TD>';
 				HTML += make_controller(controller, "description");
-				HTML += '</TD></TR></TBODY></TABLE></A>';
+				HTML += '</TD></TR></TBODY></TABLE>';
 				break;
 		}
 	}
