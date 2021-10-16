@@ -1,0 +1,79 @@
+---
+title: List
+layout: default
+classes: wide 
+---
+<SCRIPT>
+   window.addEventListener('load', function () {
+      set_HTML("controllers", query());
+      makeselect("companies", enum_property("company"), "Companies");
+      makeselect("systems", enum_consoles(), "Systems");
+      makeselect("sections", Object.keys(sections), "Sections");
+   });
+
+  function query(){
+      var HTML = "";
+      var TD = '</TD><TD>';
+      for(var i = 0; i < controllers.length; i++){
+        var controller = controllers[i];
+        var ismatch = true;
+        if(ismatch){
+          HTML += '<TR><TD ALIGN="center">' + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + gp(controller, "peripheralName") + TD + gp(controller, "systems") + '</TD></TR>'
+        }
+      }
+      return HTML;
+  }
+  
+  function gp(controller, property, def = ""){
+      if(controller.hasOwnProperty(property)){
+          return controller[property];
+      }
+      return def;
+  }
+  
+  function makeselect(ID, options, name = false){
+    var HTML = "";
+    if(name){
+      HTML = '<OPTION VALUE="" CLASS="bold">' + name + '</OPTION>';
+    }
+    options.sort();
+    for(var i = 0; i < options.length; i++){
+      HTML += '<OPTION>' + options[i] + '</OPTION>';
+    }
+    return HTML;
+  }
+  
+  function enum_property(name){
+    var ret = [];
+    for(var i = 0; i < controllers.length; i++){
+      if(controllers[i].hasOwnProperty(name)){
+        if(ret.indexOf(controllers[i][name]) == -1){
+          ret.push(controllers[i][name];
+        }
+      }
+    }
+    return ret;
+  }
+</SCRIPT>
+
+<TABLE CLASS="table">
+  <THEAD>
+      <TR>
+         <TD COLSPAN="5">
+           <SELECT ID="sections" ONCHANGE="query();"></SELECT>
+           <SELECT ID="companies" ONCHANGE="query();"></SELECT>
+           <SELECT ID="systems" ONCHANGE="query();"></SELECT>
+           
+        </TD>
+      </TR>
+      <TR>
+        <TH>ID</TH>
+        <TH>Company</TH>
+        <TH>Peripheral Name</TH>
+        <TH>Obtained</TH>
+        <TH>Systems</TH>
+      </TR>
+  </THEAD>
+  <TBODY ID="controllers"></TBODY>
+  <TFOOT ID="footer"></TFOOT>
+</TABLE>
