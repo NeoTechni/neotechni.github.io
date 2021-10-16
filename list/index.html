@@ -4,22 +4,66 @@ layout: default
 classes: wide 
 ---
 <SCRIPT>
+   var sortby = "peripheral";
+   var ascending = true;
+   
    window.addEventListener('load', function () {
       set_HTML("controllers", query());
       makeselect("companies", enum_property("company"), "Companies");
       makeselect("systems", enum_consoles(), "Systems");
       makeselect("sections", Object.keys(sections), "Sections");
    });
+   
+  function sortby(column){
+      if(column == sortby){
+         ascending = !ascending;
+      } else {
+         ascending = true;
+         sortby = column;
+      }
+      query();
+  }
+   
+  function enum_controllers(){
+      var ret = [];
+      var text = set_HTML("searchtext", null, "val");
+      var sect = set_HTML("sections", null, "val");
+      var comp = set_HTML("companies", null, "val");
+      var syst = set_HTML("systems", null, "val");
+      for(var i = 0; i < controllers.length; i++){
+         var ismatch = true;
+         var controller = controllers[i];
+         
+         if(text.length > 0){
+            ismatch = gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text);
+         }
+         if(sect.length > 0){
+            ismatch = controller_section(controller) == sect && ismatch;
+         }
+         if(comp.length > 0){
+            ismatch = gp(controller, "company") == comp && ismatch;
+         }
+         if(syst.length > 0){
+            ismatch = gp(controller, "systems").split("/").indexOf(syst) > -1 && ismatch;
+         }
+         if(ismatch){
+            ret.push(controller);
+         }
+      }
+      ret.sort(dynamicSortMultiple(sortby));
+      if(!ascending){
+         ret.reverse();
+      }
+      return ret;
+  }
 
   function query(){
       var HTML = "";
       var TD = '</TD><TD>';
-      for(var i = 0; i < controllers.length; i++){
-        var controller = controllers[i];
-        var ismatch = true;
-        if(ismatch){
-          HTML += '<TR><TD ALIGN="center">' + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + gp(controller, "peripheralName") + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</TD></TR>'
-        }
+      var ret = enum_controllers(controllers);
+      for(var i = 0; i < ret.length; i++){
+        var controller = ret[i];
+        HTML += '<TR><TD ALIGN="center">' + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + gp(controller, "peripheralName") + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</TD></TR>'
       }
       return HTML;
   }
@@ -66,18 +110,18 @@ classes: wide
   <THEAD>
       <TR>
          <TD COLSPAN="5">
+           <INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
            <SELECT ID="sections" ONCHANGE="query();"></SELECT>
            <SELECT ID="companies" ONCHANGE="query();"></SELECT>
            <SELECT ID="systems" ONCHANGE="query();"></SELECT>
-           
         </TD>
       </TR>
       <TR>
-        <TH>ID</TH>
-        <TH>Company</TH>
-        <TH>Peripheral Name</TH>
-        <TH>Obtained</TH>
-        <TH>Systems</TH>
+        <TH ONCLICK="sortby('peripheral');">ID</TH>
+        <TH ONCLICK="sortby('company');">Company</TH>
+        <TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
+        <TH ONCLICK="sortby('obtained');">Obtained</TH>
+        <TH ONCLICK="sortby('systems');">Systems</TH>
       </TR>
   </THEAD>
   <TBODY ID="controllers"></TBODY>
