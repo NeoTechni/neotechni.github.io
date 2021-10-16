@@ -28,7 +28,7 @@
 .top td, .top{
 	vertical-align: top;
 }
-.image{
+.image, .controllerimage{
 	padding: 0 !important;
 }
 #stickyheader{
