@@ -1,0 +1,13 @@
+---
+title: Miscellaneous 
+layout: default
+classes: wide 
+---
+<SCRIPT>
+   controllers = enum_controllers_by_console(sections.misc);
+   window.addEventListener('load', function () {
+      set_HTML("controllers", make_controller());
+   });
+</SCRIPT>
+
+<DIV ID="controllers"></DIV>
