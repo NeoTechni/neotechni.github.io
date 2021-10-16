@@ -33,7 +33,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "000-04",
-		"company": "Sega",
+		"company": "SEGA",
 		"peripheralName": "Twin Sticks",
 		"systems": "Saturn",
 		"photographed": true,
@@ -125,7 +125,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "000-15",
-		"company": "Sega",
+		"company": "SEGA",
 		"peripheralName": "VMU",
 		"systems": "DC",
 		"photographed": true,
@@ -160,7 +160,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "000-19",
-		"company": "Sega",
+		"company": "SEGA",
 		"peripheralName": "NiGHTS",
 		"systems": "Saturn",
 		"photographed": true,
@@ -256,7 +256,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "00X-05",
-		"company": "Sega",
+		"company": "SEGA",
 		"peripheralName": "Oshare Majo",
 		"systems": "DS",
 		"obtained": "2007-04-02",
@@ -386,21 +386,21 @@ var controllers = [{
 	},
 	{
 		"peripheral": "00Y-03A",
-		"company": "Nubytech",
+		"company": "NubyTech",
 		"peripheralName": "Megaman X mini",
 		"systems": "GCN",
 		"photographed": true,
 	},
 	{
 		"peripheral": "00Y-03B",
-		"company": "Nubytech",
+		"company": "NubyTech",
 		"peripheralName": "Shadow the Hedgehog mini controller",
 		"systems": "PS2",
 		"photographed": true,
 	},
 	{
 		"peripheral": "00Y-04",
-		"company": "Sega",
+		"company": "SEGA",
 		"peripheralName": "Twin Sticks",
 		"systems": "Arcade",
 		"photographed": true,
@@ -977,7 +977,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "120",
-		"company": "Dragonplus",
+		"company": "DragonPlus",
 		"peripheralName": "RPG DuoCon 2",
 		"systems": "PS2",
 		"obtained": "2010-10-05",
@@ -1121,7 +1121,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "137",
-		"company": "Quickshot",
+		"company": "QuickShot",
 		"peripheralName": "Joystick",
 		"systems": "Other",
 		"obtained": "2011-04-18",
@@ -1372,7 +1372,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "161",
-		"company": "Pdp",
+		"company": "PDP",
 		"peripheralName": "Trigger grip",
 		"systems": "PSP2",
 		"obtained": "2012-04-04",
@@ -2318,7 +2318,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "234",
-		"company": "BandaiNamco",
+		"company": "Bandai Namco",
 		"peripheralName": "Gundam controller",
 		"systems": "PC",
 		"obtained": "2014-03-25",
@@ -2502,7 +2502,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "247-CP",
-		"company": "Ninteno",
+		"company": "Nintendo",
 		"peripheralName": "Cat Peach amiibo",
 		"systems": "Wii U/3DS/Switch",
 		"obtained": "2021-02-13"
@@ -2654,7 +2654,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "250",
-		"company": "8BITDO",
+		"company": "8bitdo",
 		"peripheralName": "NES30",
 		"systems": "PC/AND/iOS",
 		"obtained": "2015-02-13",
@@ -2731,7 +2731,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "258",
-		"company": "Steam",
+		"company": "Valve",
 		"peripheralName": "Steam Controller",
 		"systems": "PC",
 		"obtained": "2015-10-17",
@@ -2739,7 +2739,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "259",
-		"company": "8BITDO",
+		"company": "8bitdo",
 		"peripheralName": "NES30 Pro",
 		"systems": "PC/AND/iOS",
 		"obtained": "2015-10-25",
@@ -2747,7 +2747,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "260",
-		"company": "8BITDO",
+		"company": "8bitdo",
 		"peripheralName": "SNES30",
 		"systems": "PC/AND/iOS",
 		"obtained": "2015-11-25",
@@ -2807,7 +2807,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "265",
-		"company": "Mad Catz",
+		"company": "MadCatz",
 		"peripheralName": "SURFR",
 		"systems": "AND",
 		"obtained": "2016-04-03",
@@ -3027,7 +3027,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "288",
-		"company": "Coleco",
+		"company": "ColecoVision",
 		"peripheralName": "Super Action Controller",
 		"systems": "COL",
 		"obtained": "2016-11-19",
@@ -3261,7 +3261,7 @@ var controllers = [{
 		"peripheral": "315",
 		"company": "Dempa Micomsoft",
 		"peripheralName": "XE1-AP",
-		"systems": "GEN/SegaCD/32X/PCE/MSX/NEC PC-88/Sharp 68000/FM Towns",
+		"systems": "GEN/SEGACD/32X/PCE/MSX/NEC PC-88/Sharp 68000/FM Towns",
 		"obtained": "2017-04-08"
 	},
 	{
@@ -3541,7 +3541,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "353",
-		"company": "8Bitdo",
+		"company": "8bitdo",
 		"peripheralName": "SF30 Pro",
 		"systems": "PC/AND/iOS/Switch",
 		"obtained": "2017-12-26",
@@ -3549,7 +3549,7 @@ var controllers = [{
 	},
 	{
 		"peripheral": "354",
-		"company": "8Bitdo",
+		"company": "8bitdo",
 		"peripheralName": "Retro Receiver",
 		"systems": "Wii/Wii U/NES Classic/SNES Classic/PC",
 		"obtained": "2017-12-26",
