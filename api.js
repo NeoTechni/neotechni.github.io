@@ -72,12 +72,7 @@ function enum_controllers_by_section(section = false, include = true){
 	var ret = [];
 	for(var i = 0; i < controllers.length; i++){
 		if(controllers[i].hasOwnProperty("systems") && section){
-			var systems = controller_section(controllers[i]);
-			if(systems == "sub"){
-				systems = "systems";
-			} else if(systems == "multiple"){
-				systems = "misc";
-			}
+			var systems = controller_section(controllers[i], true);
 			var included = systems == section;
 			if(included == include){
 				ret.push(controllers[i]);
@@ -90,7 +85,7 @@ function enum_controllers_by_section(section = false, include = true){
 	return ret;
 }
 
-function controller_section(controller){
+function controller_section(controller, normal = false){
 	if(isNumeric(controller)){
 		controller = controllers[controller];
 		controller.source = "number";
@@ -111,12 +106,15 @@ function controller_section(controller){
 			var section2 = console_section(systems[i]);
 			if(section){
 				if(section != section2){
-					return "multiple";
+					return iif(normal, "misc", "multiple");
 				}
 			} else {
 				section = section2;
 			}
 		}
+	}
+	if(normal && section == "sub"){
+		section = "systems";
 	}
 	return section;
 }
