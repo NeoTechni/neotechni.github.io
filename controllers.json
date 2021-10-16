@@ -741,6 +741,7 @@ var controllers = [{
 		"systems": "SNES/GEN",
 		"obtained": "2010-02-09",
 		"photographed": true,
+		"section": "MISC",
 	},
 	{
 		"peripheral": "093",
@@ -3543,14 +3544,16 @@ var controllers = [{
 		"company": "8Bitdo",
 		"peripheralName": "SF30 Pro",
 		"systems": "PC/AND/iOS/Switch",
-		"obtained": "2017-12-26"
+		"obtained": "2017-12-26",
+		"section": "pc",
 	},
 	{
 		"peripheral": "354",
 		"company": "8Bitdo",
 		"peripheralName": "Retro Receiver",
 		"systems": "Wii/Wii U/NES Classic/SNES Classic/PC",
-		"obtained": "2017-12-26"
+		"obtained": "2017-12-26",
+		"section": "nintendo",
 	},
 	{
 		"peripheral": "355",
@@ -3907,69 +3910,78 @@ var controllers = [{
 		"company": "Ubisoft",
 		"peripheralName": "Starlink Starter Kit (Game, Base, Poster, Mason Rana, Zenith, Flamethrower, Shredder, and Frost Barrage)",
 		"systems": "PS4",
-		"obtained": "2018-10-16"
+		"obtained": "2018-10-16",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "391-B",
 		"company": "Ubisoft",
 		"peripheralName": "Cerberus Starship Pack (Razor Lemay pilot, Cerberus ship, Shockwave weapon)",
 		"systems": "PS4/X1/Switch",
-		"obtained": "2018-10-20"
+		"obtained": "2018-10-20",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "391-C",
 		"company": "Ubisoft",
 		"peripheralName": "Starlink Starter Kit (Game, Base, Poster, Mason Rana, Fox McCloud, Arwing, Flamethrower, Shredder, and Frost Barrage)",
 		"systems": "Switch",
-		"obtained": "2018-11-22"
+		"obtained": "2018-11-22",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "391-D",
 		"company": "Ubisoft",
 		"peripheralName": "Eli Arborwood, (Shredder Mk. 2, Crusher), (Hailstorm, Meteor Mk. 2)",
 		"systems": "PS4/X1/Switch",
-		"obtained": "2018-12-17"
+		"obtained": "2018-12-17",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "391-E",
 		"company": "Ubisoft",
 		"peripheralName": "Neptune Starship Pack (Neptune, Judge, Levitator)",
 		"systems": "PS4/X1/Switch",
-		"obtained": "2018-12-18"
+		"obtained": "2018-12-18",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "391-F",
 		"company": "Ubisoft",
 		"peripheralName": "Pulse Starship Pack (Calisto Chase Da Silva, Volcano), Kharl Zeon (pilot), Freeze Ray Mk. 2, Iron Fist (Weapons)",
-		"obtained": "2019-03-24"
+		"obtained": "2019-03-24",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "391-G",
 		"company": "Ubisoft",
 		"peripheralName": "Lance starship pack (Hunter Hakka, Imploder), Nadir starship pack (Shaid, Nullifier), Gauss Gun Mk. 2 (weapon)",
 		"systems": "MISC",
-		"obtained": "2019-03-26"
+		"obtained": "2019-03-26",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "391-H",
 		"company": "Ubisoft",
 		"peripheralName": "Controller Mount",
 		"systems": "PS4",
-		"obtained": "2019-03-30"
+		"obtained": "2019-03-30",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "391-I",
 		"company": "Ubisoft",
 		"peripheralName": "Startail pilot",
 		"systems": "PS4/X1/Switch",
-		"obtained": "2019-04-20"
+		"obtained": "2019-04-20",
+		"section": "MISC",
 	},
 	{
 		"peripheral": "392",
 		"company": "Nintendo",
 		"peripheralName": "Donkey Kong Bongos",
 		"systems": "GCN/Wii",
-		"obtained": "2018-10-20"
+		"obtained": "2018-10-20",
 	},
 	{
 		"peripheral": "393",
@@ -4159,7 +4171,8 @@ var controllers = [{
 		"company": "8bitdo",
 		"peripheralName": "SN30 Pro+",
 		"systems": "PC/AND/MAC/Switch/Pi",
-		"obtained": "2019-08-15"
+		"obtained": "2019-08-15",
+		"section": "pc",
 	},
 	{
 		"peripheral": "417-A",
