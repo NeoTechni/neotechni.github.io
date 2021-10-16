@@ -6,6 +6,7 @@ classes: wide
 <SCRIPT>
    var sortby = "peripheral";
    var ascending = true;
+   var reason = "";
    
    window.addEventListener('load', function () {
       set_HTML("controllers", query());
@@ -24,50 +25,59 @@ classes: wide
       query();
   }
    
+  function test_controller(controller, text = "", sect = "", comp = "", syst = ""){
+      var istext = text.length == 0, issect = sect.length == 0, iscomp = comp.length == 0, issyst = syst.length == 0, ismatch = istext && issect && iscomp && issyst;
+      if(!istext){
+         istext = gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text);
+      }
+      if(!issect){
+         issect = controller_section(controller) == sect;
+      }
+      if(!iscomp){
+         iscomp = gp(controller, "company") == comp;
+      }
+      if(!issyst){
+         issyst = gp(controller, "systems").split("/").indexOf(syst) > -1;
+      }
+
+      if(ismatch || (istext && issect && iscomp && issyst)){
+         reason = [];
+         if(ismatch){
+            reason.push("no search");
+         } else {
+            if(text.length > 0){
+               reason.push("text (" + text + ")");
+            }
+            if(sect.length > 0){
+               reason.push("section (" + sect + ")");
+            }
+            if(comp.length > 0){
+               reason.push("company (" + comp + ")");
+            }
+            if(syst.length > 0){
+               reason.push("systems (" + syst + ")");
+            }
+         }
+         reason = reason.join(", ");
+         return true;
+      }
+      return false;
+  }
+   
   function enum_controllers(){
       var ret = [];
       var text = set_HTML("searchtext", null, "val");
       var sect = set_HTML("sections", null, "val");
       var comp = set_HTML("companies", null, "val");
       var syst = set_HTML("systems", null, "val");
-      var ismatch = text.length == 0 && sect.length == 0 && comp.length == 0 && syst.length == 0;
       console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "'");
-      for(var i = 0; i < controllers.length; i++){   
-         var istext = text.length == 0, issect = sect.length == 0, iscomp = comp.length == 0, issyst = syst.length == 0;
+      for(var i = 0; i < controllers.length; i++){
          var controller = controllers[i];
-         if(!istext){
-            istext = gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text);
-         }
-         if(!issect){
-            issect = controller_section(controller) == sect;
-         }
-         if(!iscomp){
-            iscomp = gp(controller, "company") == comp;
-         }
-         if(!issyst){
-            issyst = gp(controller, "systems").split("/").indexOf(syst) > -1;
-         }
-         
-         if(ismatch || (istext && issect && iscomp && issyst)){
-            controller.reasons = [];
-            if(ismatch){
-               controller.reasons.push("no search");
-            } else {
-               if(text.length > 0){
-                  controller.reasons.push("text (" + text + ")");
-               }
-               if(sect.length > 0){
-                  controller.reasons.push("section (" + sect + ")");
-               }
-               if(comp.length > 0){
-                  controller.reasons.push("company (" + comp + ")");
-               }
-               if(syst.length > 0){
-                  controller.reasons.push("systems (" + syst + ")");
-               }
-            }
-            controller.reasons = controller.reasons.join(", ");
+         if(test_controller(controller)){
+            controller.reason = reason;
             ret.push(controller);
+         } else {
+            console.log(controller.peripheralName + ": " + reason);
          }
       }
       ret.sort(dynamicSortMultiple(sortby));
