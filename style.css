@@ -30,6 +30,9 @@
 	background-color: black;
 	color: white;
 }
+#stickyheader .header{
+	display: inline !important;
+}
 body{
 	padding-top: 50px !important;
 	padding-right: 0;
