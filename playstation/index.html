@@ -4,7 +4,7 @@ layout: default
 classes: wide 
 ---
 <SCRIPT>
-   controllers = enum_controllers_by_console(sections.playstation);
+   controllers = enum_controllers_by_section("playstation");
    window.addEventListener('load', function () {
       set_HTML("controllers", make_controller());
    });
