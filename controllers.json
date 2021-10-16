@@ -3590,7 +3590,7 @@ var controllers = [{
 		"obtained": "2018-02-05"
 	},
 	{
-		"peripheral": "XBOX360",
+		"peripheral": "360",
 		"company": "Mattel",
 		"peripheralName": "Power Glove",
 		"systems": "NES",
