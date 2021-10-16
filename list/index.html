@@ -91,11 +91,12 @@ classes: wide
 
   function query(){
       var HTML = "";
-      var TD = '</TD><TD>';
       var ret = enum_controllers(controllers);
       for(var i = 0; i < ret.length; i++){
         var controller = ret[i];
-        HTML += '<TR TITLE="' + controller.reasons + '"><TD ALIGN="center">' + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + gp(controller, "peripheralName") + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</TD></TR>'
+        var A = '<A HREF="/' + controller_section(controller, true) + "#" + toclassname(controller.peripheralName) + '">';
+        var TD = '</A></TD><TD>' + A;
+        HTML += '<TR TITLE="' + controller.reasons + '"><TD ALIGN="center">' + A + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + controller.peripheralName + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</A></TD></TR>'
       }
       set_HTML("controllers", HTML);
       set_HTML("footer", "Found " + found + " out of " + controllers.length + " peripherals");
