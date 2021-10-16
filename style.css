@@ -54,3 +54,6 @@ header{
 	height: calc(100% - 60px);
 	padding: 10px !important;
 }
+footer{
+	padding-left: 10px !important;
+}
