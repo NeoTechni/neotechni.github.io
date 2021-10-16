@@ -13,6 +13,81 @@ function isMobileOrTablet() {
 }
 window.isMobileOrTablet = window.isMobileOrTablet || isMobileOrTablet;
 
+var sections = {
+	pc: "PC,AND,iOS,Android,iPad,WIN,Pi,Pi 0,Pi 0 W,MAC",
+	playstation: "PS1,PS2,PS3,PS4,PS5,PSP,Vita,PSP Go,PSP (2K+3K only),PSP go,PSP2,VitaTV,PocketStation,PSP (1K+2K+3K only),slim,PSone,PSP2 2K,PS3 (slim),PSP2 1000,PSTV",
+	nintendo: "GB,GBA,GBC,GCN,Virtual Boy,N64,NES,SNES,DS,2DS,3DS,Wii,Wii U,WiiU,SNES Classic,NES Classic,DS lite,3DS XL,FAM,Switch,n3DS",
+	sega: "GEN,SAT,DC,Saturn,Genesis,32X,SegaCD",
+	xbox: "XBOX,XBOX360,X1,XSS,XSX",
+	systems: "SYS",
+	misc: "Zodiac,Arcade,WSC,WS,Atari,Sinclair,Other,Playdia,Pippin,Pair Match,Misc,Sharp X68000,MISC,GS,COL,Multi,VCS,PCE,MSX,NEC PC-88,Sharp 68000,FM Towns",
+	sub: "Astro City Mini,Neo Geo Mini,Pokitto,1942,1943",
+};
+
+function console_section(console){
+	for(var section in sections){
+		if(sections.hasOwnProperty(section)){
+			if(sections[section].indexOf(console) > -1){
+				return section;
+			}
+		}
+	}
+	return false;
+}
+
+function controller_section(controller){
+	if(isNumeric(controller)){
+		controller = controllers[controller];
+		controller.source = "number";
+	} else if(typeof controller == "string"){
+		controller = find(controllers, ["peripheral", "peripheralName"], controller, true);
+		controller.source = "name";
+	} else {
+		controller.source = "object";
+	}
+	var section = false;
+	if(!controller){
+		return null;
+	} else if(controller.hasOwnProperty("section")){
+		section = controller.section;
+	} else if(controller.hasOwnProperty("systems")){
+		var systems = controller.systems.replaceAll(",", "/").split("/");
+		for(var i = 0; i < systems.length; i++){
+			var section2 = console_section(systems[i]);
+			if(section){
+				if(section != section2){
+					return "multiple";
+				}
+			} else {
+				section = section2;
+			}
+		}
+	}
+	return section;
+}
+	
+function isArray(variable) {
+    return Array.isArray(variable);
+}
+	
+function find(data, keys, value, asvalue = false){
+	if(!isArray(keys)){
+		keys = [keys];
+	}
+	for(var i = 0; i < data.length; i++){
+		for(var z = 0; z < keys.length; z++){
+			var key = keys[z];
+			if(data[i].hasOwnProperty(key) && data[i][key].isEqual(value)){
+				if(asvalue){
+					return data[i];
+				}
+				return i;
+			}
+		}
+	}
+	return -1;
+}
+
 if(is_chrome){
 	var log = console.log;
 }
@@ -23,6 +98,58 @@ function iif(value, iftrue, iffalse) {
     return iffalse;
 }
 
+Number.prototype.isEqual = function (str) {
+	return this.toString().isEqual(str);
+};
+
+String.prototype.replaceAll = function (search, replacement, insensitive) {
+    var target = this;
+    if (isArray(search)) {
+        for (var i = 0; i < search.length; i++) {
+            if (isArray(replacement)) {
+                target = target.replaceAll(search[i], replacement[i], insensitive);
+            } else {
+                target = target.replaceAll(search[i], replacement, insensitive);
+            }
+        }
+        return target;
+    }
+	if(isUndefined(insensitive)){
+		return target.replace(new RegExp(search, 'g'), replacement);
+	} 
+	var esc = escapeRegExp(search);// search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    var reg = new RegExp(esc, 'ig');
+    return this.replace(reg, replacement);
+};
+
+String.prototype.between = function (leftside, rightside) {
+    var target = this;
+    var start = target.indexOf(leftside);
+    if (start > -1) {
+        var finish = target.indexOf(rightside, start);
+        if (finish > -1) {
+            return target.substring(start + leftside.length, finish);
+        }
+    }
+};
+
+String.prototype.isEqual = function (str) {
+    if (isUndefined(str)) {
+        return false;
+    }
+    if (isNumeric(str) || isNumeric(this)) {
+        return parseFloat(this) == parseFloat(str);
+    }
+    return this.toUpperCase().trim() == str.toUpperCase().trim();
+};
+	
+String.prototype.startswith = function (str) {
+    return this.substring(0, str.length).isEqual(str);
+};
+String.prototype.endswith = function (str) {
+    return this.right(str.length).isEqual(str);
+};
+	
 String.prototype.replaceAll = function (search, replacement) {
     var target = this;
     var esc = escapeRegExp(search);// search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
@@ -440,7 +567,8 @@ function make_controller(controller = false, stat = false, name = false){
 		}
 		switch(style){
 			case "normal":
-				HTML = '<TABLE CLASS="table"><TBODY><TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR><TD ROWSPAN="2" CLASS="image">';
+				HTML = '<A NAME="' + toclassname(controller.peripheralName) + '">';
+				HTML += '<TABLE CLASS="table"><TBODY><TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR><TD ROWSPAN="2" CLASS="image">';
 				HTML += 'INSERT IMAGE';
 				HTML += '</TD><TD>';
 				HTML += make_controller(controller, "peripheral", 	"Peripheral ID");
@@ -451,7 +579,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "otherVersions", 	"Other Version(s)");
 				HTML += '</TD></TR><TR><TD>';
 				HTML += make_controller(controller, "description");
-				HTML += '</TD></TR></TBODY></TABLE>';
+				HTML += '</TD></TR></TBODY></TABLE></A>';
 				break;
 		}
 	}
@@ -461,3 +589,30 @@ function make_controller(controller = false, stat = false, name = false){
 function nl2br(str) {
     return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1<BR>$2');
 }
+
+function toclassname(text) {
+	if(isUndefined(text)){return "";}
+	text = text + "";
+	text = text.toLowerCase().replaceAll("-", "MINUS");
+	text = text.replaceAllbrute("#", "").replaceAllbrute("/", "");
+    text = text.replace(/[\W]+/g,"_").replaceAll("__", "_").replaceAll("MINUS", "-");
+	if(isNumeric(text.left(1))){
+		text = "n" + text;
+	}
+	return trimChar(text, "_").left(64);
+}
+
+String.prototype.replaceAllbrute = function (search, replacement) {
+	var target = this;
+	while(target.indexOf(search) > -1){
+	//while(target.contains(search)){
+		target = target.replace(search, replacement);
+	}
+	return target;
+}; 
+
+var trimChar = function(origString, charToTrim) {
+	charToTrim = escapeRegExp(charToTrim);
+	var regEx = new RegExp("^[" + charToTrim + "]+|[" + charToTrim + "]+$", "g");
+	return origString.replace(regEx, "");
+};
