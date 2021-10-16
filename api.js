@@ -612,6 +612,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += '</TD><TD CLASS="controllerinfo top">';
 				HTML += make_controller(controller, "peripheral", 	"Peripheral ID");
 				HTML += make_controller(controller, "games", 		"Games Supported");
+				HTML += make_controller(controller, "systems", 		"Systems Supported");
 				HTML += make_controller(controller, "obtained", 	"Obtained");
 				HTML += make_controller(controller, "cost", 		"Can be found for");
 				HTML += make_controller(controller, "company", 		"Made by");
