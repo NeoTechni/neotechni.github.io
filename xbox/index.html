@@ -4,7 +4,7 @@ layout: default
 classes: wide 
 ---
 <SCRIPT>
-   controllers = enum_controllers_by_console("XBOX,XBOX360,X1,XSS,XSX");
+   controllers = enum_controllers_by_console(sections.xbox);
    window.addEventListener('load', function () {
       set_HTML("controllers", make_controller());
    });
