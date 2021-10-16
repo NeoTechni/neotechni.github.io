@@ -1873,8 +1873,8 @@ var controllers = [{
 		"company": "Nintendo",
 		"peripheralName": "Balance Board",
 		"systems": "Wii/Wii U",
-		"photographed": true,,
-		"byProxy": "on"
+		"photographed": true,
+		"byProxy": "on",
 	},
 	{
 		"peripheral": "222",
