@@ -68,7 +68,7 @@ body{
 	}
 	#body{
 		position: relative;
-		left: 200px;
+		/*left: 200px;*/
 		width: calc(100% - 200px) !important;
 	}
 }
