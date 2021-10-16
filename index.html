@@ -33,7 +33,8 @@ layout: default
                         if(i > 0){
                             HTML += ', ';
                         }
-                        HTML += controller.company + " - " + controller.peripheralName + " (" + controller.systems + ")";
+                        var URL = "/" + controller_section(controller) + "#" + toclassname(controller.peripheralName)
+                        HTML += '<A HREF="' + URL + '">' + controller.company + " - " + controller.peripheralName + " (" + controller.systems + ")</A>";
                     }
                     HTML += ' - ' + formattednow(date, "M j") + '</LI>';
                 }
