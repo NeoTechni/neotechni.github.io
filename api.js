@@ -35,6 +35,26 @@ function console_section(console){
 	return false;
 }
 
+function enum_controllers_by_section(section = false, include = true){
+	var ret = [];
+	for(var i = 0; i < controllers.length; i++){
+		if(controllers[i].hasOwnProperty("systems") && Array.isArray(consoles)){
+			var systems = controller_section(controllers[i]);
+			if(systems == "sub"){
+				systems = "systems";
+			}
+			var included = systems == section;
+			if(included == include){
+				ret.push(controllers[i]);
+			}
+		} else if(section === false && include) {
+			ret.push(controllers[i]);
+		}
+	}
+	ret.sort(dynamicSortMultiple("peripheralName"));
+	return ret;
+}
+
 function controller_section(controller){
 	if(isNumeric(controller)){
 		controller = controllers[controller];
