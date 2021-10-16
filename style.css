@@ -50,6 +50,7 @@ body{
 }
 header{
 	margin-top: 0;
-	height: calc(100% - 50px);
+	top: 60px !important;
+	height: calc(100% - 60px);
 	padding: 10px !important;
 }
