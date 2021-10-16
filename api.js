@@ -47,7 +47,7 @@ function _GET(name, def = "", url = window.location.href) {
 function enum_controllers_by_section(section = false, include = true){
 	var ret = [];
 	for(var i = 0; i < controllers.length; i++){
-		if(controllers[i].hasOwnProperty("systems") && Array.isArray(consoles)){
+		if(controllers[i].hasOwnProperty("systems") && section){
 			var systems = controller_section(controllers[i]);
 			if(systems == "sub"){
 				systems = "systems";
