@@ -31,8 +31,7 @@
 	color: white;
 }
 body{
-	margin-top: 50px;
-	padding-top: 50px;
+	padding-top: 50px !important;
 	padding-right: 0;
 }
 @media (max-width: 943px) {
@@ -50,7 +49,7 @@ body{
 }
 header{
 	margin-top: 20px;
-	top: 0 !important;
+	top: 20px !important;
 	height: calc(100% - 60px);
 	padding: 10px !important;
 }
