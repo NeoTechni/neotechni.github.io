@@ -31,6 +31,7 @@ classes: wide
       var comp = set_HTML("companies", null, "val");
       var syst = set_HTML("systems", null, "val");
       var ismatch = text.length == 0 && sect.length == 0 && comp.length == 0 && syst.length == 0;
+      console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "'");
       for(var i = 0; i < controllers.length; i++){   
          var istext = text.length == 0, issect = sect.length == 0, iscomp = comp.length == 0, issyst = syst.length == 0;
          var controller = controllers[i];
