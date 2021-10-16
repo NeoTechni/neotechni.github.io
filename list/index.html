@@ -82,7 +82,7 @@ classes: wide
       var ret = enum_controllers(controllers);
       for(var i = 0; i < ret.length; i++){
         var controller = ret[i];
-        HTML += '<TR><TD ALIGN="center">' + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + gp(controller, "peripheralName") + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</TD></TR>'
+        HTML += '<TR TITLE="' + controller.reasons + '"><TD ALIGN="center">' + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + gp(controller, "peripheralName") + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</TD></TR>'
       }
       return HTML;
   }
