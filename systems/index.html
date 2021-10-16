@@ -4,7 +4,7 @@ layout: default
 classes: wide 
 ---
 <SCRIPT>
-   controllers = enum_controllers_by_console("SYS");
+   controllers = enum_controllers_by_console(sections.systems + "," + systems.sub);
    window.addEventListener('load', function () {
       set_HTML("controllers", make_controller());
    });
