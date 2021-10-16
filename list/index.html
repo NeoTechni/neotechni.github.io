@@ -4,7 +4,7 @@ layout: default
 classes: wide 
 ---
 <SCRIPT>
-   var sortby = "peripheral";
+   var sortcol = "peripheral";
    var ascending = true;
    var reason = "";
    var found = 0;
@@ -17,11 +17,11 @@ classes: wide
    });
    
   function sortby(column){
-      if(column == sortby){
+      if(column == sortcol){
          ascending = !ascending;
       } else {
          ascending = true;
-         sortby = column;
+         sortcol = column;
       }
       query();
   }
