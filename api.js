@@ -6,7 +6,6 @@ var is_edge = window.navigator.userAgent.indexOf("Edge/") > -1;
 var is_firefox_for_android = is_firefox && is_android;
 var is_IOS = (/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) && !window.MSStream;
 var newline = "\r\n";
-var modal = document.getElementById("modal");
 
 function isMobileOrTablet() {
 	var check = false;
@@ -36,6 +35,7 @@ function toast(text){
 function msgbox(title, text){
 	set_HTML("modalhead", title);
 	set_HTML("modalbody", text);
+	var modal = document.getElementById("modal");
 	modal.style.display = "block";
 	document.getElementsByClassName("close")[0].onclick = function() {
   		modal.style.display = "none";
@@ -43,6 +43,7 @@ function msgbox(title, text){
 }
 
 window.onclick = function(event) {
+	var modal = document.getElementById("modal");
   if (event.target == modal) {
     modal.style.display = "none";
   }
