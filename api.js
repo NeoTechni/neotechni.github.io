@@ -22,7 +22,7 @@ var sections = {
 	sega: "GEN,SAT,DC,Saturn,Genesis,32X,SegaCD",
 	xbox: "XBOX,XBOX360,X1,XSS,XSX",
 	systems: "SYS",
-	misc: "Zodiac,Arcade,WSC,WS,Atari,Sinclair,Other,Playdia,Pippin,Pair Match,Misc,Sharp X68000,MISC,GS,COL,Multi,VCS,PCE,MSX,NEC PC-88,Sharp 68000,FM Towns",
+	misc: "Zodiac,Arcade,WSC,WS,Atari,Sinclair,Other,Playdia,Pippin,Pair Match,Misc,misc,Sharp X68000,MISC,GS,COL,Multi,VCS,PCE,MSX,NEC PC-88,Sharp 68000,FM Towns",
 	sub: "Astro City Mini,Neo Geo Mini,Pokitto,1942,1943",
 };
 
