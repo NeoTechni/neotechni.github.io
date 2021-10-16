@@ -48,7 +48,7 @@ classes: wide
             issyst = gp(controller, "systems").split("/").indexOf(syst) > -1;
          }
          
-         if(ismatch || (text || sect || comp || syst)){
+         if(ismatch || (istext && issect && iscomp && issyst)){
             controller.reasons = [];
             if(ismatch){
                controller.reasons.push("no search");
