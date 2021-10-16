@@ -25,6 +25,9 @@
 .table .image img{
 	max-width: 300px;
 }
+.top td, .top{
+	vertical-align: top;
+}
 #stickyheader{
 	position: fixed;
 	top: 0;
