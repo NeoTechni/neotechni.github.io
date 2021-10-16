@@ -151,7 +151,7 @@ classes: wide
            <SELECT ID="systems" ONCHANGE="query();"></SELECT>
         </TD>
       </TR>
-      <TR>
+      <TR STYLE="cursor: pointer;">
         <TH ONCLICK="sortby('peripheral');">ID</TH>
         <TH ONCLICK="sortby('company');">Company</TH>
         <TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
@@ -160,5 +160,9 @@ classes: wide
       </TR>
   </THEAD>
   <TBODY ID="controllers"></TBODY>
-  <TFOOT ID="footer"></TFOOT>
+  <TFOOT>
+      <TR>
+         <TD COLSPAN="5" ID="footer"></TD>
+     </TR>
+  </TFOOT>
 </TABLE>
