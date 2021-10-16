@@ -33,12 +33,17 @@ classes: wide
   
   function makeselect(ID, options, name = false){
     var HTML = "";
+    var value = _GET(ID);
     if(name){
       HTML = '<OPTION VALUE="" CLASS="bold">' + name + '</OPTION>';
     }
     options.sort();
     for(var i = 0; i < options.length; i++){
-      HTML += '<OPTION>' + options[i] + '</OPTION>';
+      HTML += '<OPTION';
+      if(value == options[i]){
+         HTML += " SELECTED";
+      }
+      HTML += '>' + options[i] + '</OPTION>';
     }
     return HTML;
   }
