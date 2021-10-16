@@ -75,6 +75,8 @@ function enum_controllers_by_section(section = false, include = true){
 			var systems = controller_section(controllers[i]);
 			if(systems == "sub"){
 				systems = "systems";
+			} else if(systems == "multiple"){
+				systems = "misc";
 			}
 			var included = systems == section;
 			if(included == include){
