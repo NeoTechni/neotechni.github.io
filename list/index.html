@@ -7,9 +7,10 @@ classes: wide
    var sortby = "peripheral";
    var ascending = true;
    var reason = "";
+   var found = 0;
    
    window.addEventListener('load', function () {
-      set_HTML("controllers", query());
+      query();
       makeselect("companies", enum_property("company"), "Companies");
       makeselect("systems", enum_consoles(), "Systems");
       makeselect("sections", Object.keys(sections), "Sections");
@@ -80,6 +81,7 @@ classes: wide
             console.log(controller.peripheralName + ": " + reason);
          }
       }
+      found = ret.length;
       ret.sort(dynamicSortMultiple(sortby));
       if(!ascending){
          ret.reverse();
@@ -95,6 +97,8 @@ classes: wide
         var controller = ret[i];
         HTML += '<TR TITLE="' + controller.reasons + '"><TD ALIGN="center">' + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + gp(controller, "peripheralName") + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</TD></TR>'
       }
+      set_HTML("controllers", HTML);
+      set_HTML("footer", "Found " + found + " out of " + controllers.length + " peripherals");
       return HTML;
   }
   
