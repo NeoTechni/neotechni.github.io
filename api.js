@@ -609,7 +609,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML = '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
 				HTML += '<TABLE CLASS="table"><TBODY><TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR><TD ROWSPAN="2" CLASS="image">';
 				HTML += '<IMG SRC="/images/' + controller.peripheral + '.jpg" CLASS="controllerimage" ONERROR="">';
-				HTML += '</TD><TD>';
+				HTML += '</TD><TD CLASS="controllerinfo top">';
 				HTML += make_controller(controller, "peripheral", 	"Peripheral ID");
 				HTML += make_controller(controller, "games", 		"Games Supported");
 				HTML += make_controller(controller, "obtained", 	"Obtained");
