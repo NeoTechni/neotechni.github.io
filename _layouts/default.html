@@ -16,15 +16,15 @@
     {% include head-custom.html %}
   </head>
     <DIV ID="stickyheader">
-        <A HREF="/" ID="iconwrapper"><IMG ID="favicon" SRC="/favicon.ico"></A> <A HREF="/" ID="titlewrapper">{{ site.title | default: site.github.repository_name }}</A>
+        <A HREF="/" ID="iconwrapper"><IMG ID="favicon" SRC="/favicon.ico"></A> 
+          <H1 CLASS="header">
+            <A HREF="/" ID="titlewrapper">{{ site.title | default: site.github.repository_name }}</A>
+          </H1>
         <INPUT TYPE="text" ID="search" PLACEHOLDER="Search" STYLE="display: none;">
     </DIV>
   <body>
     <div class="wrapper" ID="bodywrapper">
       <header>
-        <h1 class="header"><A HREF="/">{{ site.title | default: site.github.repository_name }}</A></h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-
         <ul>
           <li><a class="buttons" href="/list">List</a></li>
           <li><a class="buttons" href="/misc">Misc</a></li>
@@ -36,7 +36,9 @@
           <li><a class="buttons" href="/xbox">XBOX</a></li>
         </ul>
         
-        <a href="https://github.com/NeoTechni/neotechni.github.io/edit/main/{{page.path}}">Edit this page</a>
+        <footer>
+           <a href="https://github.com/NeoTechni/neotechni.github.io/edit/main/{{page.path}}">Edit this page</a>
+        </footer>
       </header>
 
       <section ID="body">
