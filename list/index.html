@@ -74,7 +74,7 @@ classes: wide
       console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "'");
       for(var i = 0; i < controllers.length; i++){
          var controller = controllers[i];
-         if(test_controller(controller)){
+         if(test_controller(controller, text, sect, comp, syst)){
             controller.reason = reason;
             ret.push(controller);
          } else {
