@@ -1218,14 +1218,14 @@ var controllers = [{
 		"peripheral": "148-A",
 		"company": "Gametech",
 		"peripheralName": "Bear",
-		"systems": "PSP go",
+		"systems": "PSP Go",
 		"obtained": "2011-07-15",
 		"photographed": true,
 	},
 	{
 		"peripheral": "148-B",
 		"peripheralName": "Game Klip",
-		"systems": "PSP go/AND/iOS",
+		"systems": "PSP Go/AND/iOS",
 		"obtained": "2018-05-05"
 	},
 	{
@@ -1359,16 +1359,16 @@ var controllers = [{
 	{
 		"peripheral": "160-A",
 		"company": "Sony",
-		"peripheralName": "PSP go",
-		"systems": "PSP go",
+		"peripheralName": "PSP Go",
+		"systems": "PSP Go",
 		"obtained": "2010-05-31",
 		"photographed": true,
 	},
 	{
 		"peripheral": "160-B",
 		"company": "Sony",
-		"peripheralName": "PSP go dock",
-		"systems": "PSP go"
+		"peripheralName": "PSP Go dock",
+		"systems": "PSP Go"
 	},
 	{
 		"peripheral": "161",
