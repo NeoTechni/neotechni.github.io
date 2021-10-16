@@ -620,6 +620,12 @@ function make_controller(controller = false, stat = false, name = false){
 			}
 		}
 	} else if(controller === false){
+		HTML = '<UL>';
+		for(var i = 0; i < controllers.length; i++){
+			var controller = controllers[i];
+			HTML += '<LI><A HREF="#' + toclassname(controller.peripheralName) + '">' + controller.peripheralName + '</A></LI>';
+		}
+		HTML += '</UL>';
 		for(var i = 0; i < controllers.length; i++){
 			HTML += make_controller(controllers[i]);
 		}
