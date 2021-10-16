@@ -61,6 +61,13 @@ header{
 	top: 20px !important;
 	height: calc(100% - 60px);
 	padding: 10px !important;
+	
+	-webkit-border-top-right-radius: 0 !important;
+	-webkit-border-bottom-right-radius: 0 !important;
+	-moz-border-radius-topright: 0 !important;
+	-moz-border-radius-bottomright: 0 !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
 }
 footer{
 	padding-left: 10px !important;
