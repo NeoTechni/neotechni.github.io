@@ -1,0 +1,575 @@
+000-01 	Capcom 	Steel Battalion Behemoth 	XBOX 	 	 	 	 
+000-02 	HORI 	Flight Stick 2 	PS2 	 	 	 	 
+000-03A 	Novint 	Falcon 	PC 	 	 	 	 
+000-03B 	Novint 	Pistol Grip 	PC 	 	 	 	 
+000-04 	Sega 	Twin Sticks 	Saturn 	 	 	 	 
+000-05 	HORI 	Ace-Edge Flight Stick 	360 	 	 	 	 
+000-06 	Pelican 	Silent Scope Light Rifle 	XBOX 	 	 	 	 
+000-07 	Namco Bandai 	GunCon 2 	PS2 	 	 	 	 
+000-08 	RedOctane 	Reload Pedal 	PS2 	 	 	 	 
+000-09 	Nintendo 	NES GBA SP 	GBA 	 	 	 	 
+000-10 	Tapwave 	Zodiac² 	Zodiac 	 	 	 	 
+000-11 	NubyTech 	Resident Evil 4 Chainsaw 	PS2 	 	 	 	 
+000-12 	HORI 	Onimusha 3: Soul Katana 	PS2 	 	 	 	 
+000-13 	Nintendo 	Virtual Boy 	Virtual Boy 	 	 	 	 
+000-14-A 	Sony 	PocketStation (White) 	PS1 	 	 	 	 
+000-14-B 	Sony 	PocketStation (Crystal) 	PS1 	 	November 22, 2017 	 	 
+000-15 	Sega 	VMU 	DC 	 	 	 	 
+000-16A 	Nintendo 	Pocket Pikachu 	GBC 	 	 	 	 
+000-16B 	Nintendo 	Pocket Sakura 	GBC 	 	 	 	 
+000-17 	HORI 	Digital Controller 	GCN 	 	 	 	 
+000-18 	DragonPlus 	one 	PS1/PS2 	 	 	 	 
+000-19 	Sega 	NiGHTS 	Saturn 	 	 	 	 
+000-20 	Zalman 	FPS mouse 	PC 	 	 	 	 
+000-21 	NubyTech 	Chun Li Street Fighter Collectors Edition 	PS2 	 	 	 	 
+000-22 	Nintendo 	VRS 	N64 	 	 	 	 
+001-A 	Nintendo 	Zapper 	NES 	 	 	 	 
+001-B 	QuickShot 	Zapper Scope 	NES 	 	March 11, 2013 	 	 
+002 	Nintendo 	Super Scope 6 	SNES 	 	 	 	 
+003 	Nintendo 	Mario Paint Mouse 	SNES 	 	 	 	 
+00X-01 	Sony 	Chotto Shot 	PSP 	 	November 27, 2006 	 	 
+00X-02 	HORI 	Tiny Bee 	PS2 	 	December 20, 2006 	 	 
+00X-03-A 	HORI 	Dragon Quest Slime (Blue) 	PS2 	 	January 8, 2007 	 	 
+00X-03-B 	HORI 	Dragon Quest Slime (Blue)Metal 	PS1/PS2 	 	November 22, 2017 	 	 
+00X-04 	Sony 	Analog Flight Stick SCPH-1100 	PS1 	 	January 30, 2007 	 	 
+00X-05 	Sega 	Oshare Majo  	DS 	 	April 2, 2007 	 	 
+00X-06 	MadCatz 	RetroCON 	PS2 	 	November 28, 2007 	 	 
+00X-07 	NamcoBandai 	GunCon3 	PS3 	 	November 28, 2007 	 	 
+00X-08 	SEGA 	TwinSticks 	DC 	 	December 1, 2007 	 	 
+00X-09 	Sony 	Dual Shock 3 	PS3/PSP Go 	 	December 14, 2007 	 	 
+00X-10 	Taito 	Arkanoid DS Paddle 	DS 	 	January 31, 2008 	 	 
+00X-11 	ASCII 	Resident Evil Pad SLEH-00011 	PS1 	 	February 29, 2008 	 	 
+00X-12 	Sony 	Proto-Shock SCPH-1150 	PS1 	 	February 29, 2008 	 	 
+00X-13 	Nyko 	Perfect Shot 	Wii 	 	February 29, 2008 	 	 
+00X-14 	Nintendo 	SNES Classic 	Wii 	 	May 16, 2008 	 	 
+00X-15A 	RedOctane 	Fretster Grip 	DS 	 	June 23, 2008 	 	 
+00X-15B 	RedOctane 	Fretster Grip 	DS 	 	July 13, 2011 	 	 
+00X-16 	Nintendo 	DS Slide 	DS 	 	November 21, 2008 	 	 
+00Y-01 	Namco 	neGcon 	PS1 	 	 	 	 
+00Y-02 	Namco 	JogCon 	PS1 	 	 	 	 
+00Y-03A 	Nubytech 	Megaman X mini 	GCN 	 	 	 	 
+00Y-03B 	Nubytech 	Shadow the Hedgehog mini controller 	PS2 	 	 	 	 
+00Y-04 	Sega 	Twin sticks 	Arcade 	 	 	 	 
+00Y-05 	Nintendo 	Zapper 	Wii 	 	 	 	 
+00Y-06 	Nintendo 	Microphone 	GCN 	 	 	 	 
+00Y-06 	Nintendo 	eReader 	GBA 	 	 	 	 
+00Y-07 	ASCII 	Grip 	PS1 	 	 	 	 
+00Y-08 	Gamester Radica 	FPS Master 	PS2 	 	 	 	 
+00Y-09A 	Cybiko 	Cybiko 	 	 	 	 	 
+00Y-09B 	Cybiko 	Cybiko Extreme 	 	 	 	 	 
+00Y-10 	Nintendo 	Transfer Pack 	N64 	 	 	 	 
+00Y-11 	Sony 	PSeye 	PS3 	 	 	 	 
+00Y-12 	Nintendo 	Wheel 	Wii 	 	 	 	 
+00Y-13 	ASCII 	Rez Synthesasia Device 	PS2 	 	 	 	 
+00Y-14 	Namco 	Volume controller 	PS1 	 	 	 	 
+00Y-15 	Sony 	USB Headset 	PS2 	 	 	 	 
+063 	Sony 	Wireless Keypad 	PS3 	 	January 14, 2009 	 	 
+064 	Generic 	PS-890 	PS2 	 	January 17, 2009 	 	 
+065-A 	SplitFish 	FragFX 	PS3 	 	February 27, 2009 	 	 
+065-B 	SplitFish 	FragFX v.2 	PS3 	 	October 5, 2010 	 	 
+066 	Legacy Engineering 	Gene Simmons Axe Guitar 	PS2/PS3 	 	March 23, 2009 	 	 
+067 	MadCatz 	Chun Li Fight Pad Collectors Edition 	PS3 	 	March 23, 2009 	 	 
+068 	NERF 	Nerf N-Strike 	Wii 	 	April 17, 2009 	 	 
+069 	EAGLE 	Resident Evil Shot Blaster 	Wii 	 	May 14, 2009 	 	 
+070 	BanPresto 	8 Bit Retro Mario Mouse (Power Star) 	PC 	 	May 23, 2009 	 	 
+071 	SETA 	Bio-sensor 	N64 	 	June 5, 2009 	 	 
+072 	HORI 	Dragon Quest Slime DS Speaker Stand 	DS 	 	July 17, 2009 	 	 
+073 	HORI 	Super Game Boy Commander 	SNES 	 	July 20, 2009 	 	 
+074 	Taito 	Power Shovel Controller 	PS1 	 	August 4, 2009 	 	 
+075 	Nintendo 	Kuro Wii Classic Pro 	Wii/Wii U/SNES Classic/NES Classic 	 	August 14, 2009 	 	 
+076 	ASCII 	CubeBoard 	GCN 	 	September 3, 2009 	 	 
+077 	Saitek 	Pro Gamer Command Pad 	PC 	 	September 28, 2009 	 	 
+078 	DreamGEAR 	Arcade Fighter Classic Pad 	PS3 	 	October 6, 2009 	 	 
+079 	GioTeck 	RealTriggers 	PS3 	 	October 15, 2009 	 	 
+080 	Bandai 	WonderSwan Color 	WSC 	 	October 26, 2009 	 	 
+081 	Taito 	Space Invaders 25th Anniversary Controller 	PS2 	 	November 9, 2009 	 	 
+082 	Bandai 	WonderWave 	PS1/WS 	 	November 9, 2009 	 	 
+083 	Bandai 	WonderBorg 	WS 	 	November 17, 2009 	 	 
+084 	Bandai 	WonderSwan 	WS 	 	November 17, 2009 	 	 
+085 	HORI 	Super Robot Wars/Taisen Controller 	PS2 	 	November 18, 2009 	 	 
+086 	Sony 	PSone LCD 	PS1 	 	November 24, 2009 	 	 
+087 	Spacetec 	SpaceOrb 360 	PC 	 	December 21, 2009 	 	 
+088 	Singer 	IZEK Computerized Sewing Machine 	GBC 	 	December 21, 2009 	 	 
+089 	Bandai 	ZXE-D: Legend of Plasmalite 	PS1 	 	January 6, 2010 	 	 
+090 	Essential Reality 	P5 Glove 	PC 	 	January 9, 2010 	 	 
+091 	Super Soft 	Terminator 	Atari/Sinclair 	 	January 15, 2010 	 	 
+092 	Beeshu 	JetFighter 	SNES/Genesis 	 	February 9, 2010 	 	 
+093 	Nyko 	Classic Trackball 	PS1 	 	February 12, 2010 	 	 
+094 	ASCII/Agetec/Sammy 	Grip v2 	PS2 	 	February 16, 2010 	 	 
+095 	Namco 	Easy Piano 	DS 	 	February 23, 2010 	 	 
+096-A 	Nintendo 	PokéWalker 	DS 	 	March 14, 2010 	 	 
+096-B 	Nintendo 	Wii Fit Meter 	Wii U 	 	November 6, 2013 	 	 
+097 	ASCII 	Sphere 360 	PS1 	 	May 4, 2010 	 	 
+098 	HORI 	Hyper Stick Pro 	360 	 	April 6, 2010 	 	 
+099 	InterAct 	StarFire LightBlaster 	DC 	 	April 6, 2010 	 	 
+100 	HORI 	Twin Stick Ex 	360 	 	April 1, 2010 	 	 
+101 	Reality Quest 	Glove  	PS1 	 	April 20, 2010 	 	 
+102 	Datel 	TiltFX 	PSP (2K/3K only) 	 	April 16, 2010 	 	 
+103 	EMS 	LCD TopGun 	XBOX/PC/PS2 	 	May 1, 2010 	 	 
+104 	BanPresto 	8 Bit Retro Mario Mouse (Mario) 	PC 	 	June 7, 2010 	 	 
+105 	XCM 	XFPS Fire 	PS3 	 	July 6, 2010 	 	 
+106 	Atari 	LeStick 	Atari 	 	July 20, 2010 	 	 
+107 	Taito 	Vaus 	NES 	 	July 21, 2010 	 	 
+108 	Sony 	DTL-H development controller 	PS1 	 	July 27, 2010 	 	 
+109 	Sony 	Prototype SNESCD controller DTL-H500, codename MW.3 	PS1 	 	July 30, 2010 	 	 
+110 	HORI 	Dragon Quest Battle Road Victory Controller 	Wii 	 	August 3, 2010 	 	 
+111 	Nintendo 	3D System 	NES 	 	August 5, 2010 	 	 
+112 	CTA Digital 	Assault Rifle 	PS3 	 	August 10, 2010 	 	 
+113 	Sony 	BUZZ! Buzzers  	PS2/PS3 	 	September 3, 2010 	 	 
+114 	Atlus 	KidsStation 	PS1 	 	September 15, 2010 	 	 
+115 	Sony 	Move 	PS3 	 	September 17, 2010 	 	 
+116 	Sony 	NavCon 	PS3/PSP Go 	 	September 17, 2010 	 	 
+117 	HORI 	JogDial 	PS1 	 	September 20, 2010 	 	 
+118 	Takara 	EX Jinsei/Game of Life 	PS2 	 	September 20, 2010 	 	 
+119 	Microsoft 	Big Button Pad 	XBOX360 	 	September 24, 2010 	 	 
+120 	Dragonplus 	RPG DuoCon 2 	PS2 	 	October 5, 2010 	 	 
+121 	Sony 	PiStol3 	PS3 	 	October 12, 2010 	 	 
+122 	Activision 	Top Shot Elite 	PS3 	 	October 29, 2010 	 	 
+123 	THQ 	uDraw Game Tablet 	Wii 	 	November 14, 2010 	 	 
+124 	Venom 	Mini D.D.R. Fingerpad 	PS1/PS2 	 	November 15, 2010 	 	 
+125 	Eagle3 	HKS Racing Controller 	PS3 	 	December 8, 2010 	 	 
+126 	Techni 	NEScade 	Wii/NES Classic 	 	December 9, 2010 	 	 
+127-A 	Ubisoft 	BattleTag 	PC 	 	December 13, 2010 	 	 
+127-B 	Ubisoft 	MedKit (for BattleTag) 	PC 	 	April 26, 2011 	 	 
+128 	PowerA 	3-in-1 Remote 	PS3 	 	December 22, 2010 	 	 
+129 	Zalman 	FPSGUN 	PC 	 	January 4, 2011 	 	 
+130 	Activision 	RIDE 	PS3 	 	January 8, 2011 	 	 
+131 	Techni 	NES Paul 	PC 	 	February 15, 2011 	 	 
+132 	ASCII 	Super Stick L5 	SNES 	 	February 16, 2011 	 	 
+133 	Sony 	Move Sharp Shooter 	PS3 	 	February 18, 2011 	 	 
+134 	In2Games 	GameTrak 	PS2 	 	February 18, 2011 	 	 
+135 	Techni 	Rampart 	PC 	 	March 9, 2011 	 	 
+136 	TAM 	Barcode Boy 	GBC 	 	April 11, 2011 	 	 
+137 	Quickshot  	Joystick 	Other 	 	April 18, 2011 	 	 
+138 	HORI 	Grip 	PS1 	 	April 28, 2011 	 	 
+139 	Sony Ericcson 	Xperia Play 	AND 	 	April 29, 2011 	 	 
+140 	Xwerx 	XtendPlay 	PS3 	 	May 3, 2011 	 	 
+141 	Suncom 	FX 1000 x2 	PC 	 	May 9, 2011 	 	 
+142-A 	Interact 	V3 Steering Wheel 	PC 	 	May 9, 2011 	 	 
+142-B 	Interact 	V3 Steering Wheel 2 	PS1 	 	April 1, 2017 	 	 
+143 	Nintendo 	Pokéyboard 	DS 	 	May 19, 2011 	 	 
+144 	SEGA 	Mouse 	DC 	 	May 29, 2011 	 	 
+145 	Logitech 	G15 Gaming Keyboard 	PC 	 	June 10, 2011 	 	 
+146 	Sony 	Chotto Shot Mark II 	PSP 	 	June 13, 2011 	 	 
+147 	RedOctane 	Band Hero Drum grip 	DS lite 	 	July 13, 2011 	 	 
+148-A 	Gametech 	Bear 	PSP go 	 	July 15, 2011 	 	 
+148-B 	 	Game Klip 	PSP go/AND/iOS 	 	May 5, 2018 	 	 
+149 	MadCatz 	Tatsunoku vs Capcom Fight Stick 	Wii 	 	July 21, 2011 	 	 
+150 	Sony 	LiveView 	AND 	 	August 10, 2011 	 	 
+151 	Sifteo 	Sifteo Cubes 	PC 	 	October 6, 2011 	 	 
+152 	GoEasily/Shogun Bros 	Chameleon X-1 	PC 	 	October 9, 2011 	 	 
+153 	HORI 	Tactical Assault Commander 3 	PS3 	 	October 25, 2011 	 	 
+154 	Sony 	3DTV 	PS3 	 	November 15, 2011 	 	 
+155 	THQ 	uDraw Gametablet II 	PS3 	 	November 15, 2011 	 	 
+156-A 	Nintendo 	Gold Wiimote Plus 	Wii 	 	November 20, 2011 	 	 
+156-B 	Nintendo 	Gold Nunchuck 	Wii 	 	February 28, 2012 	 	 
+156-C 	Nintendo 	Gold Classic Pro 	Wii/NES Classic/SNES Classic 	 	March 3, 2012 	 	 
+156-D 	Nintendo 	Gold Nintendo64 controller 	N64 	 	 	 	 
+156-E 	Nintendo 	Wii Wheel 	Wii 	 	May 29, 2015 	 	 
+157 	SEGA 	Wappy Dog 	DS 	 	November 23, 2011 	 	 
+158-A 	Nintendo 	Expansion Analog Nub 	3DS 	 	January 2, 2012 	 	 
+158-B 	Nintendo 	Expansion Analog Nub 	3DS XL 	 	May 23, 2014 	 	 
+159 	Activision 	Cabela's Big Hunt Gun 	360 	 	February 18, 2012 	 	 
+160-A 	Sony 	PSP go 	PSP go 	 	May 31, 2010 	 	 
+160-B 	Sony 	PSP go dock 	PSP go 	 	 	 	 
+161 	Pdp 	Trigger grip 	PSP2 	 	April 4, 2012 	 	 
+162 	Innovation 	Smash Controller 	Genesis 	 	May 8, 2012 	 	 
+163 	Global A Entertainment 	Maestro Baton 	PS1 	 	May 17, 2012 	 	 
+164 	Bandai 	Sailor Moon's Wand 	Playdia 	 	May 23, 2012 	 	 
+165 	Microsoft 	Sidewinder Dual Strike 	PC 	 	June 19, 2012 	 	 
+166 	Zeemote 	JS1 	AND 	 	June 20, 2012 	 	 
+167 	MadCatz 	Beat Pad 	360 	 	June 23, 2012 	 	 
+168 	Taito 	Stepper 	PS1 	 	July 3, 2012 	 	 
+169 	BanPresto 	8-Bit Goomba Mouse 	PC 	 	July 4, 2012 	 	 
+170 	New Potato Technologies, Inc 	Pinball Magic 	iOS 	 	July 4, 2012 	 	 
+171 	New Potato Technologies, Inc 	Jackpot Slots 	iOS 	 	July 5, 2012 	 	 
+172 	ControllerMAX 	Cronus device 	PC/PS3/360/PS4/X1/VitaTV/AND 	 	July 24, 2012 	 	 
+173 	 	Rumble Pack 	DS lite 	 	August 7, 2012 	 	 
+174 	Bandai 	Pair Match 	Pair Match 	 	October 9, 2012 	 	 
+175 	Atmark 	AppleJack 	Pippin 	 	October 18, 2012 	 	 
+176 	Sony 	Move Racing Wheel 	PS3 	 	October 23, 2012 	 	 
+177 	Activision 	FearMaster 	PS3 	 	October 29, 2012 	 	 
+178 	Epoch 	Barcode Battler BB-II Interface 	SNES 	 	October 29, 2012 	 	 
+179 	Atlus 	Hello Kitty 	PS1 	 	October 29, 2012 	 	 
+180 	Atlus 	Guru Guru Town Hanamaru-kun 	PS1 	 	October 29, 2012 	 	 
+181-A 	ASCII 	Seamic 	PS2 	 	 	 	 
+181-B 	ASCII 	Gold Seamic 	PS2 	 	October 29, 2012 	 	 
+182 	Nintendo 	Famicom Network controller 	FAM 	 	October 29, 2012 	 	 
+183-A 	Nintendo 	Wii U Gamepad 	WiiU 	 	November 18, 2012 	 	 
+183-B 	Nintendo 	Pro Controller 	WiiU 	 	November 18, 2012 	 	 
+184 	G-Mate 	MAG II 	PS3\PC 	 	November 20, 2012 	 	 
+185 	Sony 	WonderBook 	PS3 	 	December 19, 2012 	 	 
+186 	PowerA 	MOGA 	Android 	 	December 24, 2012 	 	 
+187 	Thrustmaster 	Wizzard Pinball Controller 	PC 	 	January 2, 2013 	 	 
+188 	InterWorks 	Pro Controller U 	Wii\Wii U 	 	January 28, 2013 	 	 
+189 	GreenThrottle 	Atlus 	Android 	 	January 28, 2013 	 	 
+190 	Dream Cheeky 	Big Red Panic Button 	PC 	 	March 10, 2013 	 	 
+191 	Global A Entertainment 	TamTam Paradise 	PS2 	 	March 11, 2013 	 	 
+192 	ASCII 	Dance Summit 	PS2 	 	March 11, 2013 	 	 
+193 	Konami 	DDR Hand Controller 	PS2 	 	March 11, 2013 	 	 
+194 	 	V-pick 	PS2 	 	 	 	 
+195 	Kickstarter 	Pebble 	Android/iOS 	 	April 8, 2013 	 	 
+196 	Kickstarter 	Oculus Rift 	PC 	 	April 12, 2013 	 	 
+197 	HORI 	Hatsune Miku -Project Diva- F Mini 	PS3 	 	May 25, 2013 	 	 
+198 	Kickstarter 	OUYA 	Android 	 	May 27, 2013 	 	 
+199 	Razer 	Koopa Mouse 	PC 	 	June 11, 2013 	 	 
+200 	Thrustmaster 	Fragmaster 	PC 	 	July 2, 2013 	 	 
+201 	Sony 	NSZ-GS7 Remote 	Android 	 	July 2, 2013 	 	 
+202-A 	Intel 	Wireless series gamepad 	PC 	 	July 3, 2013 	 	 
+202-B 	Intel 	Wireless series mouse 	PC 	 	 	 	 
+203 	Razer 	Hydra 	PC 	 	July 15, 2013 	 	 
+204 	Vintion Electronics Co., Ltd. 	MS-757 Multi-System Handstick 	PC 	 	July 16, 2013 	 	 
+205 	HORI 	FPS Battle Stick 	PC 	 	July 17, 2013 	 	 
+206 	Leap Motion 	Leap 	PC 	 	July 29, 2013 	 	 
+207 	Datel 	Wildfire gaming dock 	PSP (2K/3K only) 	 	July 30, 2013 	 	 
+208 	Black Powder Media Inc. 	iMpulse 	PC/AND/iOS 	 	August 7, 2013 	 	 
+209 	Logitech 	Cyberman 2 	PC 	 	August 7, 2013 	 	 
+210 	Big Ben Interactive 	Cyberbike 	Wii 	 	August 8, 2013 	 	 
+211 	Nintendo 	Pokemon Tretta Lab 	3DS 	 	August 13, 2013 	 	 
+212 	DOSO 	PSW-303 	PSP (1K/2K/3K only) 	 	August 13, 2013 	 	 
+213 	 	Mickey Mouse controller 	PS1 	 	August 19, 2013 	 	 
+214 	 	Winnie the Pooh controller 	PS1 	 	August 19, 2013 	 	 
+215 	Media Factory 	Zok Zok Heroes 	GBC 	 	August 19, 2013 	 	 
+216 	Takara 	Pluster World 	GBA 	 	August 19, 2013 	 	 
+217 	Bandai 	Soul Dollz 	GBA 	 	August 19, 2013 	 	 
+218 	Stelulu Technology 	Stinky Footboard 	PC 	 	August 26, 2013 	 	 
+219 	Nintendo 	Pokemon Rumble U figures 	Wii U 	 	August 29, 2013 	 	 
+220 	Game Technologies S.A. 	Dice+ 	Android/iOS 	 	September 10, 2013 	 	 
+221 	Nintendo 	Balance Board 	Wii/Wii U 	 	 	 	 
+222 	 	Ju C Air 	PC 	 	October 22, 2013 	 	 
+223-A 	Sony 	DualShock 4 	PS4 	 	October 25, 2013 	 	 
+223-B 	Sony 	Camera 	PS4 	 	October 25, 2013 	 	 
+223-C 	Sony 	PS4 Camera Adapter 	PS5 	 	November 17, 2020 	 	 
+224 	Hyperkin 	Pixel Art 	PC 	 	November 19, 2013 	 	 
+225 	Sony 	Vita TV 	PSP2 	 	November 21, 2013 	 	 
+226-1A 	Disney 	Infinity (Rapunzel figure) 	Misc 	 	November 26, 2013 	 	 
+226-1B 	Disney 	Infinity Frozen set (Anna and Elsa figures) 	Misc 	 	November 27, 2013 	 	 
+226-1C 	Disney 	Infinity Starter kit (Mr. Incredible, Sulley, Jack Sparrow, figures. Incredibles/Pirates of the Caribbean/Monsters Inc playset. Alice in Wonderland power disc), Mrs. Incredible, Violet Incredible, Vanellope Von Sweet figures 	Misc 	 	December 21, 2013 	 	 
+226-1D 	Disney 	Infinity (Captain Barbossa, Davey Jones figures) 	Misc 	 	December 31, 2013 	 	 
+226-1E 	Disney 	Infinity (Mater, Mike Wazowski figures) 	Misc 	 	January 1, 2014 	 	 
+226-1F 	Disney 	Infinity (Mr. Incredible, Sulley, Jack Sparrow, Lightning McQueen, Buzz Lightyear, Lone Ranger crystal figures) 	Misc 	 	January 6, 2014 	 	 
+226-1G 	Disney 	Infinity (Toy Story set (Buzz Lightyear & Jesse), Cars set (Lightning McQueen & Holley Shiftwell), Lone Ranger set (Lone Ranger & Tonto), Syndrome, Randy, Woody, Ralph, Jack Skellington figures) 	Misc 	 	January 8, 2014 	 	 
+226-1H 	Disney 	Infinity (Dash, Francesco figures) 	Misc 	 	January 22, 2014 	 	 
+226-1I 	Disney 	Infinity (Sorcerer's Apprentice Mickey) 	Misc 	 	February 13, 2014 	 	 
+226-1J 	Disney 	Infinity (Agent P and Phineas figures) 	Misc 	 	March 17, 2014 	 	 
+226-1K 	Disney 	Infinity (Crystal Agent P figure) 	Misc 	 	July 16, 2015 	 	 
+226-1L 	Disney 	Infinity game and base 	3DS 	 	September 28, 2017 	 	 
+226-2A 	Disney 	Infinity 2.0 (Starter kit (Iron Man, Thor, Black Widow), Spiderman set (Spiderman, Nova), Venom, Hulk, Captain America, Hawkeye figures) 	Misc 	 	October 5, 2014 	 	 
+226-2B 	Disney 	Infinity 2.0 (Tinkerbell, Merida figures) 	Misc 	 	December 29, 2014 	 	 
+226-2C 	Disney 	Infinity 2.0 (Crystal Mickey figure) 	Misc 	 	January 27, 2015 	 	 
+226-2D 	Disney 	Infinity 2.0 (Stitch, Aladdin, Drax, Nick Fury, Iron Fist figures) 	Misc 	 	February 19, 2015 	 	 
+226-2E 	Disney 	Infinity 2.0 (Maleficent figure) 	Misc 	 	April 4, 2015 	 	 
+226-2F 	Disney 	Infinity 2.0 (Guardians of the Galaxy set (Star-Lord, Gamora figures) 	Misc 	 	April 27, 2015 	 	 
+226-2G 	Disney 	Infinity 2.0 (Princess Jasmine figure) 	Misc 	 	May 3, 2015 	 	 
+226-2H 	Disney 	Infinity 2.0 (Baymax figure) 	Misc 	 	May 7, 2015 	 	 
+226-2I 	Disney 	Infinity 2.0 (Hiro, Green Goblin, Loki, Yondu, Falcon, Donald Duck Figures) 	Misc 	 	June 2, 2015 	 	 
+226-2J 	Disney 	Infinity 2.0 Starter Kit (Black piderman figure, Spiderman playset, bluetooth base) 	PSP2 	 	June 12, 2015 	 	 
+226-2K 	Disney 	Infinity 2.0 (Ronan, Groot figures) 	Misc 	 	July 7, 2015 	 	 
+226-2L 	Disney 	Infinity 2.0 (Rocket Racoon figure) 	Misc 	 	July 11, 2015 	 	 
+226-3A 	Disney 	Infinity 3.0 Starter kit 	PS4 	 	September 4, 2015 	 	 
+226-3B 	Disney 	Infinity 3.0 (Quorra figure) 	Misc 	 	October 25, 2015 	 	 
+226-3C 	Disney 	Infinity 3.0 (Darth Maul, Hulkbuster, Ezra Bridger, Sam Flynn, Olaf, Han Solo, Ultron, Minnie Mouse figures) 	Misc 	 	December 2, 2015 	 	 
+226-3D 	Disney 	Infinity 3.0 (Chewbacca, Zeb Orrelios figures) 	Misc 	 	December 6, 2015 	 	 
+226-3E 	Disney 	Infinity 3.0 (Obi-wan, Luke Skywalker Light FX figures) 	Misc 	 	December 12, 2015 	 	 
+226-3F 	Disney 	Infinity 3.0 (Anakin Skywalker, Kanan Jarrus Light FX figures, Mulan figure) 	Misc 	 	December 21, 2015 	 	 
+226-3G 	Disney 	Infinity 3.0 (Anger, Disgust, Fear, Joy, Sadness, Sabine Wren figures. Inside Out playset. Yoda, Darth Vader Light FX figures) 	Misc 	 	December 26, 2015 	 	 
+226-3H 	Disney 	Infinity 3.0 (Rise Against the Empire and The Force Awakens playsets. Finn, Luke, Leia and Rey figures) 	Misc 	 	January 30, 2016 	 	 
+226-3I 	Disney 	Infinity 3.0 (Mickey Mouse figure) 	Misc 	 	February 15, 2016 	 	 
+226-3J 	Disney 	Infinity 3.0 (Judy Hopps, Nick Wilde, Spot figures) 	Misc 	 	March 12, 2016 	 	 
+226-3K 	Disney 	Infinity 3.0 (Marvel Battlegrounds playset, Captain America figure) 	Misc 	 	March 19, 2016 	 	 
+226-3L 	Disney 	Infinity 3.0 (Baloo figure) 	Misc 	 	April 11, 2016 	 	 
+226-3M 	Disney 	Infinity 3.0 (Ant-man figure) 	Misc 	 	May 2, 2016 	 	 
+226-3N 	Disney 	Infiniy 3.0 (Boba Fett figure) 	Misc 	 	May 5, 2016 	 	 
+226-3O 	Disney 	Infinity 3.0 (Vision, Black Panther, Poe Dameron figures) 	Misc 	 	May 14, 2016 	 	 
+226-3P 	Disney 	Infinity 3.0 (Time, Alice, Mad Hatter figures) 	Misc 	 	May 24, 2016 	 	 
+226-3Q 	Disney 	Infinity 3.0 (Finding Dory playset, Nemo figure) 	Misc 	 	June 30, 2016 	 	 
+226-3R 	Disney 	Infinity 3.0 (Kylo Ren Light FX figure) 	Misc 	 	July 5, 2016 	 	 
+226-3S 	Disney 	Infinity 3.0 (Peter Pan figure) 	Misc 	 	February 3, 2018 	 	 
+227 	Nintendo 	NJS-3D1 	PC 	 	November 27, 2013 	 	 
+228 	Nintendo 	Super Famicom network controller 	SNES 	 	December 4, 2013 	 	 
+229 	Caterpillar 	Construction Zone controller 	PC 	 	January 7, 2014 	 	 
+230 	Kickstarter 	Lightpack 	PC/AND 	 	January 14, 2014 	 	 
+231 	Intec 	Wireless racing wheel 	Wii 	 	January 22, 2014 	 	 
+232 	HORI 	FPS GEAR 	360 	 	February 10, 2014 	 	 
+233 	HORI 	ZeroTech 	PS1 	 	 	 	 
+234 	BandaiNamco 	Gundam controller 	PC 	 	March 25, 2014 	 	 
+235 	Atlus 	Meka Pokeler 	PocketStation 	 	April 21, 2014 	 	 
+236 	Logitech 	Cyberman I 	PC 	 	May 3, 2014 	 	 
+237 	Interact 	Xccelerator 	PS1 	 	May 12, 2014 	 	 
+238 	Nyko 	Smart Clip 	PS4 	 	May 14, 2014 	 	 
+239 	HORI 	Fighting Commander 	SNES 	 	May 23, 2014 	 	 
+240 	Kickstarter 	Mycestro 	PC 	 	July 15, 2014 	 	 
+241 	Microsoft 	Kinect 	360 	 	July 22, 2014 	 	 
+242 	HDE 	Jet Mouse 	PC 	 	August 1, 2014 	 	 
+243 	PDP 	Epic Mickey 2: Clicker 	Wii\Wii U 	 	August 26, 2014 	 	 
+244 	Kickstarter 	Touch+ 	PC 	 	October 5, 2014 	 	 
+245 	PDP 	Epic Mickey 2: Paintbrush 	Wii 	 	October 29, 2014 	 	 
+246-A 	Google 	Cardboard 	AND 	 	October 29, 2014 	 	 
+246-B 	 	Cardboard Plastic 	AND 	 	 	 	 
+246-C 	 	VR BOX 	AND 	 	August 20, 2016 	 	 
+247-01 	Nintendo 	Amiibo reader 	3DS 	 	October 25, 2015 	 	 
+247-02 	Datel 	PowerSaves 	3DS,Wii U,Switch 	 	October 10, 2020 	 	 
+247-8L 	Nintendo 	Link (8-Bit) 	Wii U/3DS/Switch 	 	December 9, 2016 	 	 
+247-8M 	Nintendo 	Mario (8-Bit) amiibo 	Wii U/3DS/Switch 	 	September 15, 2015 	 	 
+247-BY 	Nintendo 	Yoshi (Blue) amiibo 	Wii U/3DS/Switch 	 	October 17, 2015 	 	 
+247-CE 	Nintendo 	Celeste amiibo 	Wii U/3DS/Switch 	 	February 8, 2017 	 	 
+247-CF 	Nintendo 	Cloud amiibo 	Wii U/3DS/Switch 	 	August 5, 2017 	 	 
+247-CKR 	Nintendo 	Cyrus/K.K./Reese amiibo 3-pack 	Wii U/3DS/Switch 	 	September 29, 2017 	 	 
+247-CM 	Nintendo 	Callie & Marie amiibos 	Wii U/3DS/Switch 	 	July 31, 2016 	 	 
+247-CP 	Ninteno 	Cat Peach amiibo 	Wii U/3DS/Switch 	 	February 13, 2021 	 	 
+247-CR 	Nintendo 	Chibi-robo amiibo 	Wii U/3DS/Switch 	 	February 18, 2016 	 	 
+247-DA 	Nintendo 	Daisy amiibo 	Wii U/3DS/Switch 	 	November 10, 2016 	 	 
+247-DB 	Nintendo 	Isabelle (Winter Outfit), Digby amiibos 	Wii U/3DS/Switch 	 	March 17, 2018 	 	 
+247-IG 	Nintendo 	Inkling girl amiibo 	Wii U/3DS/Switch 	 	June 1, 2015 	 	 
+247-IS 	Nintendo 	Isabelle (Summer Outfit) amiibo 	Wii U/3DS/Switch 	 	December 15, 2016 	 	 
+247-IW 	Nintendo 	Isabelle (Winter Outfit) amiibo 	Wii U/3DS/Switch 	 	December 25, 2016 	 	 
+247-LA 	Nintendo 	Link's Awakening amiibo 	3DS/Wii U/Switch 	 	October 12, 2019 	 	 
+247-LI 	Nintendo 	Link amiibo 	Wii U/3DS/Switch 	 	November 26, 2014 	 	 
+247-LM 	Nintendo 	Little Mac amiibo 	Wii U/3DS/Switch 	 	March 8, 2017 	 	 
+247-LU 	Nintendo 	Luigi amiibo 	Wii U/3DS/Switch 	 	March 8, 2017 	 	 
+247-LZ 	Nintendo 	Link & Zelda (Toon) amiibos 	Wii U/3DS/Switch 	 	December 9, 2016 	 	 
+247-PE 	Nintendo 	Peach amiibo 	Wii U/3DS/Switch 	 	November 26, 2014 	 	 
+247-RR 	Nintendo 	Rosalina/Rosetta amiibo 	Wii U/3DS/Switch 	 	February 13, 2015 	 	 
+247-S0 	Nintendo 	Samus (Zero-Suit) amiibo 	Wii U/3DS/Switch 	 	September 15, 2015 	 	 
+247-WL 	Nintendo 	Link (Wolf) amiibo 	Wii U/3DS/Switch 	 	March 4, 2016 	 	 
+247-WP 	Nintendo 	Wedding Peach amiibo 	Wii U/3DS/Switch 	 	October 30, 2017 	 	 
+247-ZB 	Nintendo 	Zelda (Breath of the Wild) amiibo 	Wii U/3DS/Switch 	 	March 3, 2017 	 	 
+247-ZE 	Nintendo 	Zelda amiibo 	Wii U/3DS/Switch 	 	December 29, 2014 	 	 
+248 	Evollve, Inc. 	OZOBOT 	AND/iOS 	 	December 29, 2014 	 	 
+249 	Thalmic Labs 	Myo armband 	PC 	 	January 27, 2015 	 	 
+250 	8BITDO 	NES30 	PC/AND/iOS 	 	February 13, 2015 	 	 
+251 	Advantage 	Delta Six 	PS3/360/PC 	 	March 5, 2015 	 	 
+252-A 	Nintendo 	Cosmo Black 3DS 	3DS 	 	March 27, 2011 	 	 
+252-B 	Nintendo 	Majora's Mask new 3DS 	n3DS 	 	March 31, 2015 	 	 
+253 	Sharp 	Cyber Stick CZ-8NJ2 	Sharp X68000 	 	April 19, 2015 	 	 
+254 	Kickstarter 	NanoArcade 	SYS 	 	April 19, 2015 	 	 
+255-AN 	Activision 	Skylanders 	AND/iOS 	 	April 19, 2015 	 	 
+255-GN 	Activision 	Skylander (Ninjini Giant figure) 	MISC 	 	March 8, 2017 	 	 
+256 	Collective Minds 	Chat Boost 	PS4/PSP2/VitaTV 	 	July 7, 2015 	 	 
+257 	Shanda 	SNDA EZ Remote 	PC 	 	September 29, 2015 	 	 
+258 	Steam 	Steam Controller 	PC 	 	October 17, 2015 	 	 
+259 	8BITDO 	NES30 Pro 	PC/AND/iOS 	 	October 25, 2015 	 	 
+260 	8BITDO 	SNES30 	PC/AND/iOS 	 	November 25, 2015 	 	 
+261 	 	DerpyCon 	PC 	 	December 31, 2015 	 	 
+262-A 	JOETSU Electronics 	L2/R2 Grip Cover 	PSP2 1000 	 	January 11, 2016 	 	 
+262-B 	JOETSU Electronics 	L2/R2 Grip Cover Case 	PSP2 	 	June 16, 2017 	 	 
+262-C 	Top Player 	L3/R3 Module 	PSP2 	 	December 18, 2017 	 	 
+262-D 	JOETSU Electronics 	L3/R3 faceplate replacement 	PSP2 	 	July 31, 2019 	 	 
+263 	Blue Orb 	Orbitouch 	PC 	 	February 22, 2016 	 	 
+264 	HORI 	Pokken Tournament 	Wii U 	 	April 3, 2016 	 	 
+265 	Mad Catz 	SURFR 	AND 	 	April 3, 2016 	 	 
+266 	Sports Sciences Inc. 	BatterUP 	SNES 	 	April 3, 2016 	 	 
+267 	Saitek 	X45 	PC 	 	 	 	 
+268-A 	Samsung 	Q1 	PC 	 	 	 	 
+268-B 	Amtek 	u560 	PC 	 	 	 	 
+269-A 	Oculus 	Rift CV1 	PC 	 	April 28, 2016 	 	 
+269-B 	Microsoft 	Wireless controller 	X1 	 	April 28, 2016 	 	 
+270 	Ipega 	Bluetooth telescopic controller 	PC/AND 	 	May 9, 2016 	 	 
+271 	Logic3 	TopDrive Space Wheel 	PS1/PS2 	 	June 2, 2016 	 	 
+272 	 	Wireless gamepad and selfie shutter remote 	AND/PC/iOS 	 	June 8, 2016 	 	 
+273-A 	 	Retrode 	PC/AND 	 	June 9, 2016 	 	 
+273-B 	 	Retrode N64 module 	PC/AND 	 	December 28, 2016 	 	 
+273-C 	 	Retrode GBx module 	PC/AND 	 	December 28, 2016 	 	 
+274 	GPD 	Q88+ RK3188 	SYS 	 	June 15, 2016 	 	 
+275 	Serafim 	ODiN laser projection mouse 	PC 	 	June 22, 2016 	 	 
+276 	Logitech 	Netplay 	PS2 	 	July 9, 2016 	 	 
+277 	MadCatz 	Panther 	DC 	 	July 9, 2016 	 	 
+278 	Activision 	DJ Hero 	PS2 	 	July 18, 2016 	 	 
+279 	Maksco Toy Ltd. 	ARliens attack 	iOS/AND 	 	August 13, 2016 	 	 
+280-A 	NextThing Co. 	PocketCHIP 	SYS 	 	August 31, 2016 	 	 
+280-B 	3D Hubs 	PocketCHIP keyboard 	SYS 	 	August 13, 2016 	 	 
+281 	3D Rudder 	3D Rudder 	PC 	 	September 16, 2016 	 	 
+282 	Nintendo 	Pokemon Go Plus 	iOS/AND 	 	September 18, 2016 	 	 
+283 	Sony 	PSVR 	PS4 	 	October 13, 2016 	 	 
+284 	Kickstarter 	Arduboy 	SYS 	 	October 20, 2016 	 	 
+285 	HORI 	TAC Pro 	PS3/PS4 	 	November 7, 2016 	 	 
+286-A 	Nintendo 	NES Classic 	SYS 	 	November 11, 2016 	 	 
+286-B 	Nintendo 	NES Classic controller 	NES+SNES classic/Wii/WiiU 	 	October 6, 2018 	 	 
+287 	Nintendo 	Gameboy Camera 	GB/GBC 	 	 	 	 
+288 	Coleco 	Super Action Controller 	COL 	 	November 19, 2016 	 	 
+289 	EMIO 	EDGE Joystick 	NES+SNES Classic/Wii/WiiU 	 	November 23, 2016 	 	 
+290 	Samsung 	Galaxy Note 10.1 	AND 	 	March 25, 2015 	 	 
+291 	Nintendo 	Z-ring 	3DS/2DS 	 	November 25, 2016 	 	 
+292-A 	Kickstarter 	IoT pHAT 	Pi 	 	December 2, 2016 	 	 
+292-B 	8bitdo 	Red Bear Zero 	Pi 	 	December 2, 2016 	 	 
+293 	Microsoft 	X1 Analog Stick Caps 	X1/PS4 	 	November 23, 2016 	 	 
+294 	Daou Infosys Corp 	Stealth 	SNES 	 	December 25, 2016 	 	 
+295 	Capcom 	Soldier Pad 	SNES 	 	January 11, 2017 	 	 
+296 	Sanwa 	Super Racer 	PC 	 	January 21, 2017 	 	 
+297 	SEGA 	Pods 	SYS 	 	February 9, 2017 	 	 
+298 	HAL Labs 	Joy Ball 	FAM 	 	February 9, 2017 	 	 
+299-L 	Kickstarter 	Grifta Morphing Pad 	PC 	 	February 9, 2017 	 	 
+300 	8bitdo 	N64 controller 	PC/AND/iOS 	 	February 9, 2017 	 	 
+301 	BanPresto 	Kids Station Drawing Tablet 	PS1 	 	February 22, 2017 	 	 
+302-A 	 	Titan Two 	PS3/PS4/360/X1/PSTV/PC/AND 	 	February 22, 2017 	 	 
+302-B 	 	Titan Two Bluetooth Module 	 	 	January 25, 2018 	 	 
+302-C 	Brook 	Gam3Gear Super USB Adapter for PS3/PS4 Controller Converter Adapter 	PS1/PS2/PC 	 	December 6, 2018 	 	 
+302-D 	Brook 	Gam3Gear Super USB Adapter for PS3/PS4 Controller Converter Adapter  	DC 	 	December 24, 2019 	 	 
+303 	Motorola 	Moto 360 (1st gen) 	AND 	 	November 22, 2016 	 	 
+304 	Agetec 	Bass Landing 	PS1 	 	February 25, 2017 	 	 
+305 	Bandai 	Bass Rise 	PS1 	 	March 8, 2017 	 	 
+306 	Performance 	UltraRacer 	PS1 	 	March 8, 2017 	 	 
+307 	ASUS 	Eee Stick 	PC 	 	March 8, 2017 	 	 
+308 	Oculus 	Touch 	PC 	 	March 8, 2017 	 	 
+309 	KidzPLAY 	Wireless Adventure Game Pad 	PS3 	 	March 8, 2017 	 	 
+310 	KidzPLAY 	Wireless Motion Racing Wheel 	PS3 	 	March 8, 2017 	 	 
+311 	 	Airpad 	PS1 	 	March 24, 2017 	 	 
+312 	Belkin 	Nostromo n40 	PC 	 	April 6, 2017 	 	 
+313 	Interact 	Pool Shark 	PC 	 	April 6, 2017 	 	 
+314 	Phantom 	Lapboard 	PC/PS3 	 	April 6, 2017 	 	 
+315 	Dempa Micomsoft 	XE1-AP 	GEN/SegaCD/32X/PCE/MSX/NEC PC-88/Sharp 68000/FM Towns 	 	April 8, 2017 	 	 
+316 	Yamaha 	Racing MX-1 Motocross Jetski ATV controller  	PS2 	 	May 4, 2017 	 	 
+317 	EMIO 	Elite controller 	PS3/PS4 	 	May 4, 2017 	 	 
+318 	Microsoft 	Sidewinder Strategic Commander 	PC 	 	May 6, 2017 	 	 
+319 	Mindscape 	Miracle Piano 	NES/SNES 	 	May 13, 2017 	 	 
+320 	Fanatec 	Gameboard 	PC 	 	May 13, 2017 	 	 
+321 	HORI 	Separate 	PS2 	 	May 13, 2017 	 	 
+322 	Nintendo 	Max 	NES 	 	May 16, 2017 	 	 
+323 	Sony 	Aim 	PS4 	 	May 16, 2017 	 	 
+324 	RealPlay 	Puzzle Sphere 	PS2 	 	May 18, 2017 	 	 
+325-A 	RealPlay 	Pool 	PS2 	 	May 18, 2017 	 	 
+325-B 	RealPlay 	Golf 	PS2 	 	May 18, 2017 	 	 
+326-A 	Play Fusion 	Lightseekers (Mari Starter Pack) 	PC/AND/iOS 	 	May 18, 2017 	 	 
+326-B 	Play Fusion 	Skyrider flight pack 	PC/AND/iOS 	 	August 5, 2017 	 	 
+327 	Logitech 	G-13 	PC 	 	May 18, 2017 	 	 
+328 	 	Flying Circus RC controller 	PS2 	 	June 16, 2017 	 	 
+329 	DragonCast 	Cyber Metal Gun 	DC 	 	June 17, 2017 	 	 
+330 	Hudson 	Teku Teku Angel Pocket 	DS 	 	June 19, 2017 	 	 
+331 	InterAct 	Vortex 	N64 	 	June 24, 2017 	 	 
+332 	Spherex 	5.1 Surround Sound 	XBOX/360/PS2/PS3/PS4 	 	 	 	 
+333 	 	R1 	AND/iOS 	 	July 20, 2017 	 	 
+334 	QuickShot  	MasterPilot 	PC 	 	August 5, 2017 	 	 
+335 	Capcom 	Mahjong controller 	FAM 	 	August 5, 2017 	 	 
+336 	HORI 	Project DIVA F 	PS3 	 	September 1, 2017 	 	 
+337 	HORI 	Dragon Quest Slime 	PS4 	 	September 1, 2017 	 	 
+338 	Konami 	Pop'n Music 	PS1/PS2 	 	September 1, 2017 	 	 
+339 	JXD 	JXD S7300C 	SYS 	 	September 1, 2017 	 	 
+340 	Nintendo 	SNES mini 	SYS 	 	September 29, 2017 	 	 
+341 	Microsoft 	Chatpad 	360 	 	October 2, 2017 	 	 
+342 	Sony 	PSone 	SYS 	 	October 2, 2017 	 	 
+343 	HORI 	Wireless Fighting Commander 	NES+SNES Classic/Wii/Wii U 	 	October 5, 2017 	 	 
+344 	Tomy 	EVIO 	SYS 	 	October 27, 2017 	 	 
+345 	Sony 	Tokimeki Memorial mouse 	PS1 	 	October 27, 2017 	 	 
+346 	Hyperkin 	Hyper Click Mouse 	SNES 	 	October 31, 2017 	 	 
+347 	DreamGEAR 	My Arcade 	SYS 	 	November 13, 2017 	 	 
+348 	game-elements 	Control Element 	PSone 	 	November 22, 2017 	 	 
+349 	HORI 	Remote Play Assistant 	PSP2 2K/slim 	 	November 22, 2017 	 	 
+350 	Nintendo 	Pokémon Mini 	SYS 	 	November 22, 2017 	 	 
+351 	Sony 	PS4 Pro 	SYS 	 	November 25, 2017 	 	 
+352 	Kickstarter 	Infinitton 	PC 	 	December 4, 2017 	 	 
+353 	8Bitdo 	SF30 Pro 	PC/AND/iOS/Switch 	 	December 26, 2017 	 	 
+354 	8Bitdo 	Retro Receiver 	Wii/Wii U/NES Classic/SNES Classic/PC 	 	December 26, 2017 	 	 
+355 	QuickShot 	3D Striker QS 6222 	PC 	 	January 20, 2018 	 	 
+356 	 	RetroMini 	SYS 	 	January 20, 2018 	 	 
+357 	HORI 	Wired Controller Light 	PS4 	 	January 25, 2018 	 	 
+358 	iGUGU 	iGUGU 8079015 Gamecore 	PC 	 	January 25, 2018 	 	 
+359 	Nintendo 	Switch 	SYS 	 	February 5, 2018 	 	 
+360 	Mattel 	Power Glove 	NES 	 	February 10, 2018 	 	 
+361 	Discovery Bay Games, Inc. 	duo Pinball 	iPad 	 	February 21, 2018 	 	 
+362 	SEGA 	VMU 	DC 	 	 	 	 
+363-A 	Nintendo 	Rumble Cart (Pokemon Pinball) 	GBC 	 	April 16, 1999 	 	 
+363-B 	Nintendo 	Rumble Cart (Perfect Dark) 	GBC 	 	 	 	 
+363-C 	Nintendo 	Rumble Cart (The Little Mermaid: Pinball Frenzy) 	GBC 	 	March 5, 2018 	 	 
+364 	Whirlwind FX 	Vortx 	PC 	 	March 6, 2018 	 	 
+365 	Kickstarter 	Gamebuino META 	SYS 	 	March 9, 2018 	 	 
+366 	 	Link Cable 	DC 	 	March 9, 2018 	 	 
+367 	 	Pocket Voltex 	PC 	 	March 9, 2018 	 	 
+368 	SNK 	NeoGeo Pocket Color 	SYS 	 	March 9, 2018 	 	 
+369 	Sony 	GPS 	PSP 	 	March 29, 2018 	 	 
+370 	Kickstarter 	Brawler64 	N64 	 	March 29, 2018 	 	 
+371 	Kickstarter 	Pokitto 	SYS 	 	March 29, 2018 	 	 
+372 	Columbus Circle 	Family Pocket 	SYS 	 	October 6, 2017 	 	 
+373 	Columbus Circle 	Arcade Stand 	Switch 	 	April 12, 2018 	 	 
+374 	NamcoBandai 	Baku Tsuri Bar Hunter 	n3DS 	 	April 12, 2018 	 	 
+375 	EMIO 	Switch Pad 	Switch 	 	April 22, 2018 	 	 
+376 	Wild Things 	Energiser 	GEN 	 	May 5, 2018 	 	 
+377 	Nintendo 	Gameboy Printer 	GB/GBC 	 	May 17, 2018 	 	 
+378 	GameSir 	G5 	AND/iOS 	 	May 17, 2018 	 	 
+379-A 	Basic Fun 	Oregon Trail Portable 	SYS 	 	May 20, 2018 	 	 
+379-B 	Basic Fun 	Fix-it Felix Jr. 	SYS 	 	November 24, 2018 	 	 
+379-C 	 	Bubble Bobble Mini Arcade 	SYS 	 	September 10, 2019 	 	 
+380 	Hyperkin 	Duke 	X1/PC 	 	May 24, 2018 	 	 
+381-A 	SuperImpulse 	Pac-Man Tiny Arcade 	SYS 	 	May 30, 2018 	 	 
+381-B 	SuperImpulse 	Ms. Pac-Man Tiny Arcade 	SYS 	 	June 28, 2018 	 	 
+381-C 	SuperImpulse 	Space Invaders Tiny Arcade 	SYS 	 	June 28, 2018 	 	 
+381-D 	SuperImpulse 	Galaxian Tiny Arcade 	SYS 	 	June 28, 2018 	 	 
+381-E 	SuperImpulse 	Frogger, Galaga, Dig Dug, Pole Position Tiny Arcades 	SYS 	 	September 7, 2019 	 	 
+381-F 	SuperImpulse 	Tetris Tiny Arcade 	SYS 	 	September 10, 2019 	 	 
+382 	 	Pocket Sprite 	SYS 	 	June 28, 2018 	 	 
+383 	QuickShot 	Aviator 	NES 	 	July 7, 2018 	 	 
+384 	Odroid 	Odroid Go 	SYS 	 	July 15, 2018 	 
+385-A 	Clockwork 	GameShell 	SYS 	 	August 4, 2018 	 	 
+385-B 	Clockwork 	GameShell dev board 3.1 	GS 	 	December 24, 2018 	 	 
+386 	Clockwork 	Lightkey 	GS 	 	August 4, 2018 	 	 
+387 	HORI 	Border Break Controller 	PS4 	 	August 9, 2018 	 	 
+388 	HORI 	Cross Controller 	Switch 	 	August 27, 2018 	 	 
+389-A 	Microsoft 	Adaptive Controller 	X1/PC 	 	September 14, 2018 	 	 
+389-B 	PDP 	One-handed joystick 	X1/PC 	 	August 17, 2019 	 	 
+389-C 	Logitech 	Adaptive Gaming Kit 	X1/PC 	 	January 9, 2020 	 	 
+390 	Konami 	Pop'n Music Be-Mouse  	PC 	 	October 1, 2018 	 	 
+391-A 	Ubisoft 	Starlink Starter Kit (Game, Base, Poster, Mason Rana, Zenith, Flamethrower, Shredder, and Frost Barrage) 	PS4 	 	October 16, 2018 	 	 
+391-B 	Ubisoft 	Cerberus Starship Pack (Razor Lemay pilot, Cerberus ship, Shockwave weapon) 	PS4/X1/Switch 	 	October 20, 2018 	 	 
+391-C 	Ubisoft 	Starlink Starter Kit (Game, Base, Poster, Mason Rana, Fox McCloud, Arwing, Flamethrower, Shredder, and Frost Barrage) 	Switch 	 	November 22, 2018 	 	 
+391-D 	Ubisoft 	Eli Arborwood, (Shredder Mk. 2, Crusher), (Hailstorm, Meteor Mk. 2) 	PS4/X1/Switch 	 	December 17, 2018 	 	 
+391-E 	Ubisoft 	Neptune Starship Pack (Neptune, Judge, Levitator) 	PS4/X1/Switch 	 	December 18, 2018 	 	 
+391-F 	Ubisoft 	Pulse Starship Pack (Calisto Chase Da Silva, Volcano), Kharl Zeon (pilot), Freeze Ray Mk. 2, Iron Fist (Weapons) 	 	 	March 24, 2019 	 	 
+391-G 	Ubisoft 	Lance starship pack (Hunter Hakka, Imploder), Nadir starship pack (Shaid, Nullifier), Gauss Gun Mk. 2 (weapon) 	MISC 	 	March 26, 2019 	 	 
+391-H 	Ubisoft 	Controller Mount 	PS4 	 	March 30, 2019 	 	 
+391-I 	Ubisoft 	Startail pilot 	PS4/X1/Switch 	 	April 20, 2019 	 	 
+392 	Nintendo 	Donkey Kong Bongos 	GCN/Wii 	 	October 20, 2018 	 	 
+393 	SEGA 	Saturn Controller 	PS2 	 	October 21, 2018 	 	 
+394-A 	SNK 	Neo Geo Mini 	Neo Geo Mini 	 	October 28, 2018 	 	 
+394-B 	SNK 	Neo Geo Mini controller (white) 	Neo Geo Mini 	 	October 28, 2018 	 	 
+394-C 	SNK 	Neo Geo Mini controller (black) 	Neo Geo Mini 	 	November 2, 2018 	 	 
+395 	Nintendo 	Pokéball Plus 	Switch 	 	November 16, 2018 	 	 
+396 	GameTech 	Deka Vita 7 	VitaTV 	 	November 24, 2018 	 	 
+397 	Sony 	PlayStation Classic 	SYS 	 	December 3, 2018 	 	 
+398 	Kickstarter 	Flip Grip 	Switch 	 	December 17, 2018 	 	 
+399-A 	Nintendo 	Super Gameboy 	SNES 	 	 	 	 
+399-B 	Nintendo 	Gameboy Player 	GCN 	 	 	 	 
+400 	Nintendo 	GameCube – Game Boy Advance link cable 	GCN/GBA 	 	February 12, 2002 	 	 
+401 	Kickstarter 	Tilted 	PC 	 	January 20, 2019 	 	 
+402 	Linx 	Vision 8 	WIN 	 	January 20, 2019 	 	 
+403 	Kickstarter 	LEXIP mouse 	PC 	 	February 8, 2019 	 	 
+404 	Kickstarter 	Hunter 	PC 	 	February 25, 2019 	 	 
+405 	Uniplay 	Smart U6 Gamepad 	PC/AND 	 	March 14, 2019 	 	 
+406 	ColecoVision 	Rainbow Brite 	SYS 	 	March 18, 2019 	 	 
+407 	HORI 	HD LCD 	PS3 (slim) 	 	April 4, 2019 	 	 
+408 	Pokitto 	JoyHat 	Pokitto 	 	April 4, 2019 	 	 
+409 	Nintendo 	NES Controllers 	Switch 	 	May 19, 2019 	 	 
+410 	Retro bit 	Tribute64 	N64 	 	June 19, 2019 	 	 
+411-A 	Retroflag 	GPi case 	Pi 0/Pi 0 W 	 	June 19, 2019 	 	 
+411-B 	Retro Game Restore 	GPi Mate Plus for CM4 lite 	gPi 	 	July 2, 2021 	 	 
+412 	Bandai 	Tamagotchi On 	SYS 	 	July 11, 2019 	 	 
+413 	Fidgetly Inc. 	Fidgetly CTRL 	iOS/AND 	 	July 18, 2019 	 	 
+414 	Hyperkin 	Smartboy 	AND 	 	July 27, 2019 	 	 
+415 	Aduro 	AR Gaming Gun 	iOS/AND 	 	August 6, 2019 	 	 
+416 	8bitdo 	SN30 Pro+ 	PC/AND/MAC/Switch/Pi 	 	August 15, 2019 	 	 
+417-A 	Super Impulse 	Pacman - Micro Arcade 	SYS 	 	August 17, 2019 	 	 
+418 	SEGA 	Genesis Mini 	SYS 	 	September 19, 2019 	 	 
+419 	8bitdo 	NES Mouse 	PC 	 	November 30, 2019 	 	 
+420 	New Wave Toys 	Street Fighter II Mini Fight Stick 	PC 	 	December 14, 2019 	 	 
+421 	NamcoBandai 	Bakutsuri Gigarod 	Switch 	 	December 14, 2019 	 	 
+422 	PDP 	Mars 	PS4 	 	December 23, 2019 	 	 
+423 	Sony 	Back Button Attachment 	PS4/PS3/VitaTV 	 	January 24, 2020 	 	 
+424 	Kickstarter 	All Controller 	Misc 	 	February 29, 2020 	 	 
+425 	Nintendo 	SNES Controller 	Switch 	 	March 27, 2020 	 	 
+426 	Smilesoft 	Telefang 	GBA 	 	May 8, 2020 	 	 
+427 	Datel 	TurboFire 	PS3 	 	May 29, 2020 	 	 
+428 	Blaze Entertainment 	Evercade 	SYS 	 	June 24, 2020 	 	 
+429 	Kickstarter 	StrikerDC 	DC 	 	July 10, 2020 	 	 
+430 	Divoom 	Ditoo 	SYS 	 	August 21, 2020 	 	 
+431 	LEGO 	Mario 	MISC 	 	August 21, 2020 	 	 
+432 	SEGA 	Game Gear Micro 	SYS 	 	October 10, 2020 	 	 
+433 	Nintendo 	Mario Game & Watch 	SYS 	 	November 13, 2020 	 	 
+434 	Kickstarter 	Colors Live Sonar Pen 	Switch 	 	November 17, 2020 	 	 
+435 	Sony 	DualSense 	PS5 	 	November 20, 2020 	 	 
+436-A 	SEGA 	Astro City Mini 	SYS 	 	December 22, 2020 	 	 
+436-B 	SEGA 	Controller 	Astro City Mini 	 	March 31, 2021 	 	 
+437 	Atari 	Classic Joystick 	VCS 	 	January 7, 2021 	 	 
+438 	Rufus Labs 	Rufus Cuff 	Android 	 	March 2, 2021 	 	 
+439 	AtGames 	Legends BitPixel 	PC/Pi 	 	May 14, 2021 	 	 
+440 	Sinden 	Lightgun 	PC 	 	June 24, 2021 	 	 
+441 	Blue Ocrean 	Sonic Screwdriver 	Wii 	 	July 2, 2021 	 	 
+442 	Nintendo 	Mario Kart Live 	Switch 	 	July 8, 2021 	 	 
+443 	Govee 	Immersion 	Multi 	 	July 27, 2021 	 

@@ -1,0 +1,634 @@
+[COLLECTIBLES]
+
+2 PlayStation 1
+
+    2.1 Lunar
+    2.2 Parasite Eve 2
+    2.3 Puchi Carat
+    2.4 Rhapsody
+
+3 PlayStation 2
+
+    3.1 Ace Combat 5
+    3.2 Final Fantasy 12
+    3.3 Growlanser
+    3.4 Phantom Brave
+    3.5 Resident Evil 4
+    3.6 Space Invaders Anniversary
+    3.7 Star Ocean - Till the End of Time: Director's Cut
+    3.8 Xenosaga
+
+4 PlayStation 3
+
+    4.1 Assassin's Creed III
+    4.2 Atelier Meruru: The Apprentice of Arland Limited Edition: Grand Finale Set
+    4.3 Awakened Fate Ultimatum, The
+    4.4 BioShock 2: Collector's Edition
+    4.5 Call of Duty Black Ops: Prestige Edition
+    4.6 Call of Duty Black Ops II: Care Package Edition
+    4.7 Dead Island II: Riptide
+    4.8 Dead Space
+    4.9 Dead Space 2: Collector's Edition
+    4.10 Dead Space 3: Developer's Edition
+    4.11 Final Fantasy 13: Lightning Returns
+    4.12 God of War III: Ultimate Edition
+    4.13 Grand Theft Auto 4: Collector's Edition
+    4.14 Guided Fate Paradox, The
+    4.15 Hyper Dimension Neptunia: Gamindustri Edition
+    4.16 Hyper Dimension Neptunia mk 2 Limited Edition: Gamindustri Savior Set
+    4.17 Hyper Dimension Neptunia V: Limited Edition
+    4.18 inFamous 2: Hero Edition
+    4.19 Killzone 3: Helghast Edition
+    4.20 Last of Us: Survival Edition
+    4.21 LittleBigPlanet 2: Collector's Edition
+    4.22 Metal Gear Rising: Revengeance Limited Edition
+    4.23 Metal Gear Solid HD: Collector's Edition
+    4.24 Metal Gear Solid 4: Collector's Edition
+    4.25 Modern Warfare 2: Prestige Edition
+    4.26 Resistance 2: Collector's Edition
+    4.27 Saints Row 4
+    4.28 Splinter Cell: Blacklist
+    4.29 Uncharted 3: Collector's Edition
+    4.30 Zone of the Enders HD: Collector's Edition
+
+5 PlayStation 4
+
+    5.1 Arkham Knight
+    5.2 Call of Duty: Ghosts - Prestige Edition
+    5.3 Cyberdimension Neptunia
+    5.4 Death Stranding
+    5.5 Destiny: Limited Edition
+    5.6 Fallout 4: Pip-boy edition
+    5.7 Final Fantasy 7: Remake
+    5.8 inFamous 3: Second Son
+    5.9 Infinity 2.0
+    5.10 Just Cause 4
+    5.11 Langrisser I & II
+    5.12 Last Guardian
+    5.13 Megadimension Neptunia VII Limited Edition
+    5.14 Megadimension Neptunia VIIR Limited Edition
+    5.15 MGS:V
+    5.16 Neptunia Virtual Stars
+    5.17 Omega Quintet
+    5.18 Oneechanbara ZII: Chaos
+    5.19 Sword Art Online: Fatal Bullet
+    5.20 Sword Art Online: Hollow Realization
+    5.21 Uncharted 4
+    5.22 Valkyria Chronicles
+    5.23 Valkyria Chronicles 4
+    5.24 Watch_Dogs
+    5.25 Watch_Dogs 2
+
+6 PlayStation Portable
+
+    6.1 Final Fantasy 7 - Crisis Core
+    6.2 Metal Gear AC!D 2
+    6.3 Metal Gear Solid - Peace Walker: Limited Edition
+    6.4 Parasite Eve 3/3rd Birthday: Twisted Edition
+    6.5 Prinny 2
+
+7 PlayStation Vita
+
+    7.1 Gal*Gun
+    7.2 Neptunia PP (JPN and USA)
+    7.3 Neptunia Re;birth
+    7.4 Neptunia Re;birth 2
+    7.5 Neptunia Re;birth 3
+    7.6 Neptunia Noire
+    7.7 Neptunia U
+    7.8 Psycho Pass
+    7.9 Ragnarok Odyssey: Mercenary Edition
+    7.10 Senran Kagura
+    7.11 Sorcery Saga: Curse of the Great Curry God: Sugar and Spicey, Everything Nicey Edition
+    7.12 Superdimension Neptune VS Sega Hard Girls
+    7.13 Yomari
+
+8 Gamecube, Wii & Wii U
+
+    8.1 Legend of Zelda: Four Swords Adventures Plus
+    8.2 Legend of Zelda: Twilight Princess
+    8.3 Legend of Zelda: Skyward Sword
+    8.4 Legend of Zelda: Collector's Editions
+    8.5 Legend of Zelda: Majora's Mask
+    8.6 Legend of Zelda: Twilight Princess HD
+    8.7 Legend of Zelda: The Wind Waker HD
+    8.8 Legend of Zelda: Prima Guide Box Set
+    8.9 Pokemon Box
+    8.10 Rototech
+    8.11 Tales of Symphonia
+
+9 Gameboy, DS, 3DS and Switch
+
+    9.1 Bravely Default
+    9.2 Corpse Party
+    9.3 Legend of Zelda
+    9.4 Pokemon Sun & Moon
+    9.5 Project X
+    9.6 Sakura Wars
+    9.7 Super Neptunia RPG
+
+10 XBOX
+
+    10.1 Doom 3
+    10.2 Fable
+    10.3 Halo 2
+
+11 XBOX 360
+
+    11.1 Ace Combat 6
+    11.2 Dead Rising 2
+    11.3 DeathSmiles
+    11.4 Gears of War
+    11.5 Gears of War 2
+    11.6 Fable 2
+    11.7 Halo 3: Legendary Edition
+    11.8 Halo 4: Collector's Edition
+    11.9 Halo Reach: Legendary Edition
+    11.10 Otomedius Excellent
+    11.11 Perfect Dark Zero
+    11.12 Prey
+    11.13 Virtual On
+
+12 PC
+
+    12.1 Fallout Anthology
+    12.2 Star Trek: Online
+
+[OTHER]
+
+    1 All Controller
+    2 Cronus Device
+    3 Cyber Stick
+    4 Delta Six
+    5 Disney Infinity figures
+    6 Duo Pinball
+    7 iOT pHAT + Red Bear Zero
+    8 Jackpot Slots
+    9 JetFighter
+    10 JoyHat
+    11 LeStick
+    12 LEGO Mario
+        12.1 Starter Course
+        12.2 Needed:
+        12.3 Expansion sets
+        12.4 Power-up Packs
+        12.5 Character Packs
+    13 Lightkey
+    14 Ozobot
+    15 Pinball Magic
+    16 Sailor Moon's Wand
+    17 SF30 Pro
+    18 Skylander figures
+    19 Spherex 5.1 Surround Sound System
+    20 Starlink
+    21 Super Action Controller
+    22 Terminator
+    23 Titan Two
+    24 TopGun
+    25 WonderBorg
+    26 Virtual On Arcade TwinSticks
+	
+[NINTENDO]
+    1 3D System
+    2 Amiibos
+    3 Arcade Stand
+    4 Arkanoid DS Paddle
+    5 Aviator
+    6 Baku Tsuri Bar Hunter
+    7 Baku Tsuri Giga Rod
+    8 Balance Board
+    9 Barcode Battler BB-II Interface
+    10 Barcode Boy
+    11 BatterUP
+    12 Bio-sensor
+    13 Brawler64
+    14 Cross Controller
+    15 CubeBoard
+    16 Cyberbike
+    17 Donkey Kong Bongos
+    18 Dragon Quest Battle Road Victory Controller
+    19 Dragon Quest Slime DS Speaker Stand
+    20 Drum Grip
+    21 DS Slide
+    22 e-Reader
+    23 Easy Piano
+    24 EDGE Joystick
+    25 Epic Mickey 2: Clicker
+    26 Epic Mickey 2: Paintbrush
+    27 Expansion Analog Nub
+    28 Famicom Network
+    29 Fighting Commander
+    30 Flip Grip
+    31 Fretster Grip
+    32 Gameboy Camera
+    33 Gameboy Player
+    34 Gameboy Printer
+    35 GameCube – Game Boy Advance link cable
+    36 GCN Microphone
+    37 Golden controllers
+    38 Hori Digital
+    39 Hyper Click Mouse
+    40 IZEK Computerized Sewing Machine
+    41 Joy Ball
+    42 Kuro Wii Classic Pro
+    43 Mahjong
+    44 Mario Paint Mouse
+    45 Max
+    46 Megaman X Mini
+    47 Miracle Piano
+    48 Nerf N-Strike
+    49 NES Controllers
+    50 NEScade
+    51 N64 Transfer Pak
+    52 Oshare Majo
+    53 Perfect Shot
+    54 Pluster World
+    55 Pokéball Plus
+    56 Pokémon Go Plus
+    57 Pokémon Rumble U Figures
+    58 Pokémon Tretta Lab
+    59 Pokkén Tournament Controller
+    60 Pokéyboard
+    61 Power Glove
+    62 Pro Controller U
+    63 Resident Evil Shot Blaster
+    64 Retro Receiver
+    65 Rumble Carts
+    66 Rumble Pack
+    67 SNES Classic
+    68 SNES Classic II
+    69 Sonar Pen
+    70 Stealth
+    71 Soldier Pad
+    72 Soul Dollz
+    73 Super Famicom Network
+    74 Super GameBoy
+    75 Super GameBoy Commander
+    76 Super Scope 6
+    77 Super Stick L5
+    78 Switch Pad
+    79 Tatsunoku vs Capcom Fight Stick
+    80 Teku Teku Angel Pocket
+    81 TeleFang
+    82 Tribute64
+    83 uDraw Game Tablet
+    84 Vaus
+    85 Vortex
+    86 VRS
+    87 Wappy dog
+    88 Wii Wheel
+    89 Wii U Gamepad and Pro Controllers
+    90 Wii Zapper
+    91 Wireless Fighting Commander
+    92 Wireless Racing Wheel
+    93 Zapper
+    94 Zok Zok Heroes
+    95 Z-Ring
+    96 Misc/Common/Adapters
+	
+[PC ANDROID]
+    1 3D Rudder
+    2 3D Striker QS-6222
+    3 8-Bit Dot Design Series Mice
+    4 AppleJack
+    5 ARliens Attack
+    6 AR Gaming Gun
+    7 Atlus
+    8 BattleTag
+    9 Big Red Panic Button
+    10 BitPixel
+    11 Cardboard
+    12 Chameleon X-1
+    13 Classic Joystick
+    14 Construction Zone
+    15 Cyberman 1
+    16 Cyberman 2
+    17 DerpyCon
+    18 Dice+
+    19 Eee Stick
+    20 Falcon
+    21 Falcon Pistol Grip
+    22 FidgetlyCTRL
+    23 FPS Battlestick
+    24 FPSGUN
+    25 Fragmaster
+    26 FX 1000 x2
+    27 G13 Gaming Keyboard
+    28 G15 Gaming Keyboard
+    29 Gameboard
+    30 GameSir G5
+    31 Grifta Morphing Gamepad
+    32 Hunter
+    33 Hydra
+    34 iGUGU 8079015 Gamecore
+    35 iMpulse
+    36 Infinitton
+    37 Jet Mouse
+    38 Ju C Air
+    39 Koopa Mouse
+    40 Lapboard
+    41 Leap
+    42 Lexip
+    43 Lightpack
+    44 LightSeekers
+        44.1 Mari Starter Pack
+        44.2 Mari Flight Pack
+        44.3 Other Versions (I don't own)
+    45 MasterPilot
+    46 Mobile Suit Gundam Premium Controller
+    47 MOGA
+    48 Multi-System Handstick (MS-757)
+    49 Mycestro
+    50 Myo Armband
+    51 N64
+    52 NES30
+    53 NES30 Pro
+    54 NES Paul
+    55 NES Mouse
+    56 Nintendo Joy Stick (NJS-3D1)
+    57 Nostromo n40
+    58 NSZ-GS7 Remote
+    59 Oculus Rift CV1
+    60 Oculus Rift DK1
+    61 Oculus Touch
+    62 ODiN mouse
+    63 Orbitouch
+    64 OZOBOT
+    65 P5 Glove
+    66 PistolMouse FPS
+    67 Pixel Art
+    68 Pocket Voltex
+    69 Pool Shark
+    70 Pop'n Music Be-Mouse
+    71 Pro Gamer Command Pad
+    72 R1
+    73 Ractive Touch+
+    74 Rampart
+    75 Retrode
+    76 Sidewinder Dual Strike
+    77 Sidewinder Strategic Commander
+    78 Sifteo Cubes
+    79 Skylanders
+    80 Smartboy
+    81 Smart U6 Gamepad
+    82 SN30 Pro+
+    83 SNDA EZ-remote
+    84 SNES30
+    85 SpaceOrb 360
+    86 Steam controller
+    87 Stinky Footboard
+    88 Street Fighter II Mini Fight Stick
+    89 Super Racer
+    90 SURFR
+    91 Telescopic Controller
+    92 Tilted
+    93 V3 Steering Wheel
+    94 VortX
+    95 Wireless gamepad and selfie shutter remote
+    96 Wireless Series Gamepad
+    97 Wizzard Pinball Controller
+    98 X45
+    99 Zeemote JS1
+    100 Misc/Common/Adapters
+	
+[PLAYSTATION]
+    1 3-in-1 Remote
+    2 3DTV
+    3 Ace Combat 5 Flight Stick 2
+    4 Aim
+    5 Airpad
+    6 Analog Flight Stick
+    7 Arcade Fighter Classic Pad
+    8 Assault Rifle
+    9 Back Button Attachment
+    10 Bass Landing
+    11 Bass Rise
+    12 Bear
+    13 Border Break Controller
+    14 BUZZ! Buzzers
+    15 Chat Boost
+    16 Chotto Shot
+    17 Chun Li Fight Pad Collectors Edition
+    18 Chun Li Street Fighter Collectors Edition
+    19 Classic Trackball
+    20 Control Element
+    21 Dance Summit
+    22 DDR Hand Controller
+    23 DekaVita 7
+    24 DJ Hero
+    25 Dragon Quest Slime
+    26 Dragon Quest Slime 2
+    27 DragonPlus one
+    28 DTL-H
+    29 DualSense
+    30 DualShock 3
+    31 DualShock 4 + Camera + Adapter
+    32 Elite Controller
+    33 EX Jinsei/Game of Life Roulette Controller
+    34 FearMaster
+    35 Flying Circus RC
+    36 FPS Master
+    37 FragFX
+    38 GameTrak
+    39 Game Klip
+    40 Gene Simmons Axe Guitar
+    41 Glove
+    42 GPS
+    43 Grip
+    44 Grip v2
+    45 Grip (Hori)
+    46 GunCon 2
+    47 GunCon 3
+    48 Hatsune Miku F Mini
+    49 HD LCD
+    50 HKS Racing Controller
+    51 Jogcon
+    52 JogDial
+    53 KidStation
+        53.1 Drawing Tablet
+        53.2 Guru Guru Town Hanamaru-kun
+        53.3 Hello Kitty
+        53.4 Mickey Mouse
+        53.5 Sailor Moon
+        53.6 Winnie the Pooh
+    54 L2/R2 Grip Cover
+        54.1 L2/R2 Grip Cover Case
+        54.2 L3/R3 Module
+        54.3 L3/R3 Faceplate
+    55 Maestro Baton
+    56 MAG II
+    57 Mars Lightcon
+    58 Meka Pokeler
+    59 Mini D.D.R. Fingerpad
+    60 Mouse
+    61 Move
+    62 NavCon
+    63 neGcon
+    64 Netplay
+    65 Onimusha 3: Soul Katana
+    66 PiStol3
+    67 Pop'n Music Controller
+    68 Power Shovel Controller
+    69 Project Diva
+    70 Prototype SNESCD controller (codename MW.3)
+    71 Proto-Shock
+    72 Proto-Shock-less
+    73 PS-890
+    74 PSeye
+    75 PSone LCD
+    76 PSVR
+    77 PSW-303
+    78 Racing Wheel
+    79 RealPlay
+        79.1 Golf
+        79.2 Pool
+        79.3 Puzzle Sphere
+        79.4 Other Versions (I don't own)
+    80 RealTriggers
+    81 Reload Pedal
+    82 Remote Play Assistant
+    83 Resident Evil 4 Chainsaw
+    84 Resident Evil Pad
+    85 RetroCON
+    86 Rez Synthesasia device
+    87 RIDE
+    88 RPG Duo Con 2
+    89 Saturn Controller
+    90 Seaman 2 Gold Seamic
+    91 Seaman 2 Seamic
+    92 Separate
+    93 Shadow, The Hedgehog Mini Controller
+    94 Sharp Shooter
+    95 Smart Clip
+    96 Space Invaders 25th Anniversary Controller
+    97 Sphere 360
+    98 Solid Eye
+    99 Stepper
+    100 Super Robot Wars/Taisen Controller
+    101 Tactical Assault Commander 3
+    102 Tactical Assault Commander Pro
+    103 Tam Tam Paradise
+    104 TiltFX
+    105 Tiny Bee
+    106 TopDrive Space Wheel 
+    107 Top Shot Elite
+    108 Trigger Grips
+    109 TurboFire
+    110 uDraw Game Tablet II
+    111 UltraRacer
+    112 USB Headset
+    113 Volume Controller
+    114 V-Pick
+    115 V3 Steering Wheel 2
+    116 Wildfire Gaming Dock
+    117 Wired Controller Light
+    118 Wireless Adventure Pad
+    119 Wireless Keypad
+    120 Wireless Motion Racing Wheel
+    121 WonderWave
+    122 Wonder Book
+    123 X1 Analog Stick Caps
+    124 Xccelerator
+    125 XFPS Fire
+    126 XtendPlay
+    127 Yamaha Racing MX-1 Motocross Jetski ATV controller
+    128 Zero Tech
+    129 ZXE-D: Legend of Plasmalite
+    130 Misc/Common/Adapters
+	
+[SEGA]
+    1 Cyber Metal Gun
+    2 Dreamcast Mouse
+    3 Dreamcast Twinsticks
+    4 Energiser
+    5 Link Cable
+    6 Panther
+    7 Saturn NiGHTS 3D controller
+    8 Saturn Twinsticks
+    9 Smash Controller
+    10 StarFire LightBlaster
+    11 StrikerDC
+    12 VMU
+    13 XE1-AP
+    14 Misc/Common/Adapters
+	
+[SYSTEMS]
+    1 Arduboy
+    2 Astro City Mini
+    3 Cybiko
+    4 Cybiko Extreme
+    5 Ditoo
+    6 DS Lite
+    7 Evercade
+    8 EVIO Violin
+    9 Family Pocket
+    10 Galaxy Note 10.1
+    11 Gamebuino META
+    12 GameGear micro
+    13 GameShell
+    14 GBA NES SP
+    15 Genesis Mini
+    16 GPi Case
+    17 JXD-S7300C
+    18 LiveView
+    19 Majora's Mask new 3DS/Cosmo Black 3DS
+    20 Mario Game & Watch
+    21 Mini Arcade Cabinets
+    22 Moto 360
+    23 My Arcade
+    24 NanoArcade
+    25 Neo Geo Mini
+    26 Neo Geo Pocket Color
+    27 NES Classic
+    28 Odroid Go
+    29 OUYA
+    30 Pair Match
+    31 Pebble
+    32 PlayStation Classic
+    33 Pocket Sakura/Pikachu/Hello Kitty
+    34 PocketCHIP
+    35 PocketStation
+    36 Pocket Sprite
+    37 Pods
+    38 Pokémon Mini
+    39 PokéWalker/Wii Fit Meter
+    40 Pokitto
+    41 PS4 Pro
+    42 PSone
+    43 PSP Go
+    44 PSP Slim and Light
+    45 Q88+ RK3188
+    46 Rainbow Brite
+    47 Retro Mini
+    48 Rufus Cuff
+    49 SNES Classic
+    50 Switch
+    51 Tamagotchi On
+    52 Tiny/Micro Arcades
+    53 UMPCs
+    54 Virtual Boy
+    55 Vita TV
+    56 WonderSwan
+    57 WonderSwan Color
+    58 Xperia Play
+    59 Zodiac
+	
+[XBOX]
+    1 Ace Combat Flight Stick
+    2 Adaptive Controller
+        2.1 One-handed Joystick
+        2.2 Adaptive Gaming Kit
+    3 Beat Pad
+    4 Big Button Pad
+    5 Cabela's Big Hunt Gun
+    6 Chatpad
+    7 Duke
+    8 FPS G.E.A.R.
+    9 GameStick
+    10 Hyper Stick Pro
+    11 Kinect
+    12 Linx Vision 8
+    13 Silent Scope - Sniper Rifle
+    14 Steel Battalion - Behemoth
+    15 Twin Stick Ex
+    16 Misc/Common/Adapters

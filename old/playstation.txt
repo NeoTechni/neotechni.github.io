@@ -1,0 +1,5004 @@
+<img src="https://www.google.com/chart?chc=sites&amp;cht=d&amp;chdp=sites&amp;chl=%5B%5BTable+of+contents%27%3D20%27f%5Cv%27a%5C%3D0%2710%27%3D499%270%27dim%27%5Cbox1%27b%5CF6F6F6%27fC%5CF6F6F6%27eC%5C0%27sk%27%5C%5B%27%5D%27a%5CV%5C%3D12%27f%5C%5DV%5Cta%5C%3D10%27%3D0%27%3D500%27%3D297%27dim%27%5C%3D10%27%3D10%27%3D500%27%3D297%27vdim%27%5Cbox1%27b%5Cva%5CF6F6F6%27fC%5CC8C8C8%27eC%5C%27a%5C%5Do%5CLauto%27f%5C&amp;sig=2Hc_ZY2KYBqeCGfKy9ckIdwqQaI" data-origsrc="http://www.google.com/chart?chc=sites&amp;cht=d&amp;chdp=sites&amp;chl=%5B%5BTable+of+contents%27%3D16%27f%5Cbf%5Chv%27a%5C%3D398%270%27%3D397%270%27dim%27%5Cbox1%27b%5CDBD9BB%27fC%5CDBD9BB%27eC%5C15%27sk%27%5C%5B%27%5Dh%27a%5CV%5C%3D12%27f%5Cbf%5C%5DV%5Cta%5C%3D399%27%3D0%27%3D398%27%3D297%27dim%27%5C%3D399%27%3D0%27%3D398%27%3D297%27vdim%27%5Cbox1%27b%5Cva%5CFFFEF0%27fC%5CDBD9BB%27eC%5Csites_toc%27i%5Chv-0-0%27a%5C%5Do%5CLauto%27f%5C&amp;sig=F6DdXv__6NcTf1ppYhxMA1bmBmw" data-type="toc" data-props="" style="display:block;text-align:left;margin-right:auto;" width="500" height="300">
+        
+      
+        
+      
+        
+      
+        
+      
+<p>
+        
+      
+        
+      
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>3-in-1 Remote<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:6e3c4eaf2d741df4&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:6e3c4eaf2d741df4" class="disabled" width="200" height="145" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: Some PS3 games<br>
+Obtained: December 22, 2010<br>
+Can be found for: ~$35<br>
+Made by: PowerA<br>
+Peripheral #: 128<br>
+</td>
+</tr>
+<tr>
+<td>Wireless (USB HID dongle), Dpad rotation button (for landscape/portrait modes), backlit sliding 51-key keyboard, Dpad, 2 shoulder buttons (L1/R1), 4 face buttons, PS/Start/Select buttons, cardboard packaging that has to be destroyed to open it, 12 DVD buttons (Display, Play, Top menu, Prev, Pause, Next, Rew, Stop, FF, L2, Enter, R2), 4 player indicator lights, charging light, built in rechargeable battery, charges via standard USB<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-PowerA-3-in-1-Remote">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+        
+      
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>3DTV<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" style="text-align:center" width="300">
+<img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:163fedfd2432dfd3" class="disabled" width="200" height="124">
+<img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5e5237fd3ce1bb52" class="disabled" width="200" height="84">
+ </td>
+<td>Games Supported: <a href="http://en.wikipedia.org/wiki/List_of_3D_PlayStation_3_games">List</a>&nbsp;<a href="http://blog.us.playstation.com/2011/07/01/stereoscopic-3d-on-ps3-updated-list-of-all-3d-games-and-movies/">Sony's List</a> (PS3)<br>
+Obtained: November 15, 2011<br>
+Can be found for: $499 (3D TV), $69 (extra glasses)<br>
+Made by: Sony<br>
+Peripheral #: 154<br>
+Quantity: 2 pairs of glasses</td>
+</tr>
+<tr>
+<td>3DTV: A 24", 1080p, 240HZ 3D TV, 1 Component and 2 HDMI inputs, includes a 2 meter HDMI cable, 1 pair of 3D glasses, and a copy of Resistance 3 and MotorStorm: Pacific Rift<br>
+Supports a new kind of split screen, where using 3D mode, Player 1 gets the left frame, and Player 2 gets the right frame. So each player only sees their screen<br>
+Glasses: Work with multiple brands of 3D TVs, has a built-in rechargeable (via USB) battery<br>
+There is a hidden USB port on the bottom left-hand corner when looking at the back<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-3DTV">My Review</a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+     
+      
+        
+      
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Ace Combat 5 Flight Stick 2</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/playstation/FScont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/FScont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Ace Combat 5, Ace Combat Zero (PS2)<br>
+Can be found for: ~$100<br>
+Made by: HORI<br>
+Specific version: Black<br>
+Other versions: Blue (prototype), Red<br>
+Favorite<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>Joystick, a clickable thumbstick, a throttle, 3 dpads, 2 dials, rudder control, 3 triggers, 4 buttons, a mode select switch, rumble, a cool box<br>
+</div>
+<div>&nbsp;</div>
+<div><a href="http://gearmedia.ign.com/gear/image/article/562/562988/ace-combat-flight-stick-2-20041102054311956.jpg" rel="nofollow">Hi res</a> 
+ <a href="https://sites.google.com/site/neotechni/Home/adadpters#TOC-Drivers-for-PC">PC Drivers</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Aim</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:20e3c1a093a1b3cf&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:20e3c1a093a1b3cf&amp;attredirects=0" class="disabled" width="200" height="95" border="0"></a></div>
+
+</td>
+<td>Games supported: Arizona Sunshine, Brookhaven, Demon Grade, Dick Wilde, Farpoint, ROM: Extraction (PS4)<br>
+Obtained: May 16, 2017<br>
+Can be found for: ~$60<br>
+Made by: Sony<br>
+Peripheral #: 323
+</td>
+</tr>
+<tr>
+<td>
+<div>Dpad, 4 face buttons, 3 triggers, 2 OS buttons, 2 system buttons, motion sensing, ambidextrous, built-in rechargeable battery (via MicroUSB), wireless via Bluetooth, 2 clickable analog sticks, rumble<br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Airpad</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:73e41855036c07e6&amp;attredirects=0" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:73e41855036c07e6&amp;attredirects=0" style="display:block;margin-right:auto;margin-left:auto;text-align:center" class="disabled" width="200" height="193"></a>
+</td>
+<td>Games supported: Most PS1 games (pre-dualshock)<br>
+Obtained: March 24, 2017<br>
+Can be found for: ~$20<br>
+Made by: ???<br>
+Peripheral #: 311
+</td>
+</tr>
+<tr>
+<td>
+<div>Dpad, 4 face buttons, 4 triggers, 2 system buttons, motion sensing<br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Analog Flight Stick</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/SFcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/SFcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-Analog-Flight-Stick-mode-SCPH-1" rel="nofollow">List</a> (PS1)<br>
+Obtained: ~January 30, 2007<br>
+Can be found for: ~$35<br>
+Made by: Sony<br>
+Favorite<br>
+</td>
+</tr>
+<tr>
+<td>1 digital thumbstick, 2 analog sticks, 1 mode switch, 2 system buttons, 8 face buttons (4 as triggers, 4 as thumb), The face buttons are also on the sticks<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-SCPH-1110-PS1-Flightstick">My Review</a><br>
+<br>
+A historical artifact: Had analog control and a thumbstick before the N64 came out, was announced before N64 was<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2><b>Arcade Fighter Classic Pad</b></h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/AFCcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/AFCcont.jpg" width="200" height="200" border="0"></a></div>
+</td>
+<td>Games supported: Some PS3 games, Fighters and RPGs in particular<br>
+Obtained: October 6, 2009<br>
+Can be found for: ~$15<br>
+Made by:  DreamGEAR
+&nbsp;
+<br>
+Peripheral #: 078<br>
+Specific version: PS3<br>
+Other versions: Wii<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>USB, 1 dpad, 3 system buttons, 6 face buttons, 2 analog triggers, a cool box, 4 Player indicator LEDs
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+      
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Assault Rifle</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PS3-SRG.JPG?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/PS3-SRG.JPG" width="200" height="71" border="0"></a></div>
+
+</td>
+<td>Games supported: Most PS3 games<br>
+Obtained: August 10, 2010<br>
+Can be found for: ~$65<br>
+Made by: CTA Digital<br>
+Peripheral #: 112<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>Wireless via USB dongle, USB HID, speaker with on/off switch, 2 clickable
+ thumbsticks (GCN C-stick style), 4 triggers, dpad, turbo switch, rumble, 7 
+buttons (4 face, Start/Select/Home). 4 Player indicator LEDs, removable 
+stock and scope, batteries not included, a cool box<br>
+<br>
+<a href="http://www.ctadigital.com/catalog.asp?menuid=Catalog&amp;display=itemdetail&amp;parentid=12&amp;categoryid=82&amp;groupid=82&amp;id=2606">More Information</a>&nbsp; <a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Assault-Rifle">My Review</a><br>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Back Button Attachment<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:6af706381cb5ba67&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:6af706381cb5ba67&amp;attredirects=0" class="disabled" width="320" height="163" border="0"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PS3-SRG.JPG?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+
+</div>
+
+</div>
+
+</td>
+<td>Games supported: Most PS4/PS3/VitaTV games<br>
+Obtained: January 24, 2020<br>
+Can be found for: ~$40<br>
+Made by: Sony<br>
+Peripheral #: 423<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>Attaches to the Dualshock 4's EXT and headset ports, Adds 2 remappable back buttons, a rear clickable OLED screen for changing the button mappings in 3 profiles<br>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Bass Landing<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:37e5a9729ec8aced&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:37e5a9729ec8aced&amp;attredirects=0" class="disabled" width="200" height="320" border="0"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PS3-SRG.JPG?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+
+</div>
+
+</div>
+
+</td>
+<td>Games supported: Fishing games (PS1)<br>
+Obtained: February 25, 2017<br>
+Can be found for: ~$10<br>
+Made by: Agetec<br>
+Peripheral #: 304<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>1 clickable analog stick, 8 face buttons (4 act as PS1's face buttons, 4 as the triggers), 2 system buttons, 1 dial<br>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Bass Rise<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:238d7135aaf1f5c4&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:238d7135aaf1f5c4&amp;attredirects=0" class="disabled" width="200" height="157" border="0"></a></div>
+
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PS3-SRG.JPG?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+
+</div>
+
+</div>
+
+</td>
+<td>Games supported: Fishing games (PS1)<br>
+Obtained: March 8, 2017<br>
+Can be found for: Gift<br>
+Made by: Bandai<br>
+Peripheral #: 305<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>1 non-clickable analog stick, 2 face button, 1 system button, 1 dial<br>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Bear<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PS3-SRG.JPG?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3afe1bf7d78e222c&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3afe1bf7d78e222c" class="disabled" width="155" height="200" border="0"></a></div>
+</div>
+
+</div>
+
+</td>
+<td>Games supported: All PSP go games<br>
+Obtained: July 15, 2011<br>
+Can be found for: ~$55<br>
+Made by: Gametech<br>
+Peripheral #: 148-A<br>
+Specific version: Black<br>
+Other versions: White<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>A device to attach a SIXAXIS/Dualshock3 to a PSP Go<br>
+Exactly like my idea I submitted to DreamGear and they rejected<br>
+<br>
+<a href="http://www.gametech.co.jp/preorder/pspgo/" rel="nofollow">More Info</a>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Border Break Controller<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:520977da61112fbe&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:520977da61112fbe&amp;attredirects=0" class="disabled" width="320" height="226" border="0"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PS3-SRG.JPG?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+
+</div>
+
+</div>
+
+</td>
+<td>Games supported: Border Break (PS4)<br>
+Obtained: August 9, 2018<br>
+Can be found for: ~$200 (import/online only)<br>
+Made by: HORI<br>
+Peripheral #: 387<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>A non-clickable translucent thumbstick, RGB LED that lights the thumbstick, wired (via USB), headphone port, clickable touchpad, dpad, 2 triggers, 7 face buttons (1 side-mounted on the non-moveable stick, a spare one is included), 1 system button, 2 OS buttons, a non-cool box, <br>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>BUZZ! Buzzers<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PS3-SRG.JPG?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:760683aefd554ddf&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:760683aefd554ddf" class="disabled" width="200" height="133" border="0"></a></div>
+<br>
+</div>
+
+</td>
+<td>Games supported: The <a href="http://en.wikipedia.org/wiki/Buzz%21">BUZZ! series of games</a> (PS2 and PS3), Who Wants to be a Millionaire - Party Edition (PS2)<br>
+Obtained: September 3, 2010<br>
+Can be found for: ~$5<br>
+Made by: Sony<br>
+Peripheral #: 113<br>
+Specific version: Junior (not shown, the buttons are colored in)<br>
+Other versions: Regular (shown), wireless<br>
+Quantity: 2 sets of 4 controllers
+</td>
+</tr>
+<tr>
+<td>
+<div>4 controllers, each with a big button and 4 smaller ones, USB HID (shows up as 1 controller with 20 buttons), Unidextrous, Ambidextrous<br>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Chat Boost<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:1486c5754778b9d&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:1486c5754778b9d&amp;attredirects=0" class="disabled" width="200" height="140" border="0"></a></div>
+
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+</div>
+</td>
+<td>Games supported: Any PS4/VitaTV game that uses text entry<br>
+Obtained: July 7, 2015<br>
+Can be found for: ~$30<br>
+Made by: Collective Minds<br>
+
+Peripheral #: 256<br>
+</td>
+</tr>
+<tr>
+<td>Plugs into the EXT port of a Dualshock 4 controller to provide power to the controller, Wireless (via Bluetooth), built-in rechargeable battery (via microUSB), backlit mini-keyboard, headset bypass connector<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Chotto Shot</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:4bfd16926fc42361&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:4bfd16926fc42361" class="disabled" width="163" height="200" border="0"></a></div>
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+</div>
+</td>
+<td>Games supported: PSP's firmware, Invizimals, Eyepet, Go!Edit/Chotto Edit [Video] Talkman [Audio] (PSP)<br>
+Obtained: November 27, 2006<br>
+Can be found for: ~$50<br>
+Made by: Sony<br>
+Specific version: PSP-300 (1.3 MP/1280x960, silver, included with Go!Edit/Chotto Edit, requires firmware 2.82 or higher)<br>
+<br>
+Obtained: June 13, 2011<br>
+Specific version: PSP-450x (0.3 MP/640x480, black, included with Invizimals or Eyepet, requires firmware 6.00 or higher)
+<br>
+Can be found for: ~$40<br>
+
+Peripheral #: 146<br>
+</td>
+</tr>
+<tr>
+<td>A small camera and microphone for PSP. Can record video at 320x240 and 480x272 at 15 and 30 fps. Used in augmented reality games. The software needed to use it was built into PSP's firmware at 3.09
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Chun Li Fight Pad Collectors Edition</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/CLFPcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/CLFPcont.jpg" width="200" height="200" border="0"></a></div>
+</div>
+</div>
+</div>
+</td>
+<td>Games supported: Some PS3 games, PC<br>
+Obtained: March 23, 2009<br>
+Can be found for: ~$50<br>
+Made by: 
+ MadCatz
+&nbsp;
+<br>
+
+Peripheral #: 070<br>
+Specific version: Chun Li (wireless PS3)<br>
+Other versions: Blanka, Akuma, Ken, Ryu, Guile, Bison, Cammy, Zangeif, Viper, Sagat (wired 360 versions for each)<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad (can act as an analog stick via the switch), 2 triggers, 11 buttons (6 face, 1 home, 4 system), wireless, analog/dpad mode switch, USB (HID) receiver, clamshell casing that must be destroyed to open, batteries not included<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Wireless-PS3-Street-Fighter-Fight-P">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue">
+<center>
+<h2>Chun Li Street Fighter Collectors Edition</h2>
+</center>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="430">
+
+<div style="margin:5px auto 0pt;display:block;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/CLcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/CLcont.jpg" width="200" height="118" border="0"></a><a href="https://sites.google.com/site/neotechni/Home/playstation/CLcontboxopen.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/CLcontboxopen.jpg" width="183" height="200" border="0"></a></div>
+
+
+
+</td>
+<td>Games supported: Some PS1/2 games<br>
+Can be found for: ~$20<br>
+Made by:  NubyTech<br>
+Specific version: Chun Li (wired PS2)<br>
+Other versions: Ryu, Akuma, Ken (wired PS2)<br>
+Evil Ken, Cammy, Sagat (wireless PS2)<br>
+M Bison, Guile, Akuma (XBOX)</td>
+</tr>
+<tr>
+<td>1 dpad, 2 triggers, 8 buttons, a cool box, comic book, hologram, and 2 stickers<br>
+<br>
+<a href="http://www.behance.net/alfredotato" rel="nofollow">Creator's Website</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Classic Trackball</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/trackball.png?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/trackball.png" width="200" height="127" border="0"></a></div>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-Mouse-SCPH-1090-" rel="nofollow">List</a> (PS1)<br>
+Obtained: February 12, 2010<br>
+Can be found for: ~$1<br>
+Made by: Nyko <br>
+Peripheral #: 093<br>
+</td>
+</tr>
+<tr>
+<td>4 face buttons (2 redundant), turbo switch, trackball, a cool box<br>
+Unidextrous, ambidextrous<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Classic-Trackball">Review</a> <a href="http://www.psillustrated.com/psillustrated/hard_rev.php/287">PSillustrated</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Control Element</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:66b6ab9c1c6d079b&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:66b6ab9c1c6d079b&amp;attredirects=0" class="disabled" width="200" height="126" border="0"></a></div>
+
+</td>
+<td>Games supported: Most PS1 games<br>
+Obtained: November 22, 2017<br>
+Can be found for: ~$20<br>
+Made by: game-elements<br>
+Peripheral #: 348<br>
+</td>
+</tr>
+<tr>
+<td>dpad/joystick, 8 face buttons, 2 system buttons, memory card bypass connector (the memory card plugs into the middle, beneath START/SELECT), made specifically for PSone, includes an extension cable for non-PSone models<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Dance Summit<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3c44d4eae4b3478a&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3c44d4eae4b3478a" class="disabled" width="200" height="111" border="0"></a></div>
+
+</td>
+<td>Games supported: Dance Summit (PS1 or 2?)<br>
+Obtained: March 11, 2013<br>
+Can be found for: ~$?<br>
+Made by:&nbsp;<span style="font-family:arial,sans-serif;font-size:small;line-height:18.2000007629395px">ASCII</span><br>
+Peripheral #: 192<br>
+</td>
+</tr>
+<tr>
+<td>A tiny controller lacking analog sticks, along with 2 wrist controllers that have 2 buttons each<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>DDR Hand Controller<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:67d44b46709c1958&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:67d44b46709c1958" class="disabled" width="200" height="104" border="0"></a></div>
+
+
+</td>
+<td>Games supported: Various DDR games (PS1/PS2)<br>
+Obtained: March 11, 2013<br>
+Can be found for: ~$?<br>
+Made by: Konami<br>
+Peripheral #: 193<br>
+</td>
+</tr>
+<tr>
+<td>Start/Select, 12 back-lit face buttons<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>DekaVita 7<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+
+
+
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:1b61a3acc59643a1&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:1b61a3acc59643a1&amp;attredirects=0" class="disabled" width="200" height="133" border="0"></a></div>
+</td>
+<td>Games supported: All VitaTV games<br>
+Obtained: November 24, 2018<br>
+Can be found for: ~$620<br>
+Made by: GameTech<br>
+Peripheral #: 396<br>
+Search: <a href="http://buyee.jp/item/search/query/dekavita7?translationType=1">[1]</a> <a href="https://www.mercari.com/jp/search/?keyword=DEKAVITA7">[2]</a> <a href="https://auctions.yahoo.co.jp/search/search?auccat=&amp;tab_ex=commerce&amp;ei=utf-8&amp;aq=-1&amp;oq=&amp;sc_i=&amp;exflg=1&amp;p=dekavita7&amp;x=0&amp;y=0&amp;fixed=0">[3]</a> <a href="http://www.sekaimon.com/s/dekavita7/-/all/?searchLocationType=all">[4]</a><br>
+</td>
+</tr>
+<tr>
+<td>7" 1024×600 LCD, 2 speakers, built-in battery (charges via the VitaTV/PSP AC adapter), headphone port, 4 triggers, 4 face buttons, 2 clickable analog sticks, dpad, 2 system buttons, 1 OS button, connects to the VitaTV via USB and the HDMI port (so with an HDMI L connector and a USB extension cable, it can work on PS3 or other systems that can take PS3 controllers)<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>DJ Hero<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:4badaa81fd7f1cc8&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:4badaa81fd7f1cc8&amp;attredirects=0" class="disabled" width="200" height="174" border="0"></a></div>
+
+
+
+</td>
+<td>Games supported: DJ Hero (PS2)<br>
+Obtained: July 18, 2016<br>
+Can be found for: ~$15<br>
+Made by: Activision<br>
+Peripheral #: 278<br>
+</td>
+</tr>
+<tr>
+<td>Ambidextrous (the connector on the black part is on both sides of it), turntable with 3 face buttons, wireless via USB dongle, takes 2xAA batteries (included), a cool box, a dial, a slider, 1 system button<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Dragon Quest Slime</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/DQcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/DQcont.jpg" border="0"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:5d5b8d219700797c&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:5d5b8d219700797c&amp;attredirects=0" class="disabled" width="200" height="181" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: All PS1/PS2 games<br>
+Can be found for: ~$20 Import only<br>
+Made by:  HORI<br>
+<br>
+Specific version: Blue<br>
+Peripheral ID#:&nbsp;00X-03-A<br>
+Obtained: ~January 08, 2007<br>
+<br>
+Specific version: Grey/Metal<br>
+Peripheral ID#:&nbsp;00X-03-B<br>
+Obtained: November 22, 2017</td>
+</tr>
+<tr>
+<td>
+<div>1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, cool base, Removable cable, rumble<br>
+</div>
+<div>&nbsp;</div>
+<div><a href="http://ps2media.ign.com/ps2/image/article/559/559886/dqviii-gets-slimy-20041025063542415_640w.jpg" rel="nofollow">Hi res </a><a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Dragon-Warrior-Quest-Slime-Controll">My Review</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Dragon Quest Slime 2</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:4fd3b38e3449781f&amp;attredirects=0" imageanchor="1" style="background-color:rgb(255,255,255);font-size:13.3333px" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:4fd3b38e3449781f&amp;attredirects=0" style="display:block;margin-right:auto;margin-left:auto;text-align:center" class="disabled" width="200" height="99" border="0"></a>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>
+<div style="display:block;text-align:left"><span style="background-color:transparent;font-size:10pt">Games supported: Most PS4 games</span></div>
+Obtained: September 1, 2017<br>
+Can be found for: ~$100 Import only<br>
+Made by:  HORI<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>1 dpad, 2 clickable thumbsticks, 4 face buttons, 1 system button, 2 OS buttons, 4 shoulder buttons, rumble, clickable touchpad, wireless via Bluetooth, built-in rechargeable battery (via microUSB), Turbo button</div>
+<div><br>
+</div>
+<div>Hold Share+PS for 5 seconds when turning it on to put it in Pairing Mode, then go to PS4's Settings screen, and go to Devices, Bluetooth, to pair it with the [Slime Controller] when it shows up at the bottom</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>DragonPlus one</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/dp2.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/dp2.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: All PS1/most PS2 games<br>
+Can be found for: ~$10 Import only<br>
+Made by:  DragonPlus<br>
+</td>
+</tr>
+<tr>
+<td>4 shoulder buttons, dpad, 2 clickable analog sticks, 4 face buttons, 2 system buttons, turbo+slow<br>
+<br>
+A historical artifact: What Nintendo copied for the Wii Classic controller<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+ 
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>DTL-H<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/playstation/FScont.jpg?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3e5e987e04205441&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3e5e987e04205441" class="disabled" width="200" height="130" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: None<br>
+Obtained: July 27, 2010<br>
+Can be found for: ~$30<br>
+Made by: Sony<br>
+
+
+Peripheral #: 108<br>
+
+</td>
+</tr>
+<tr>
+<td>1 dpad, 4 shoulder buttons, 4 face buttons, 2 system buttons, parallel interface<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>DualSense<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:19b7be8e72ca063c&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:19b7be8e72ca063c&amp;attredirects=0" class="disabled" width="200" height="137" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: All PS5 games<br>
+Can be found for: ~$65<br>
+Made by:  Sony<br>
+Peripheral #: 435<br>
+Quantity: 2<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, rumble, motion sensing, 2 clickable thumbsticks, 1 system button, 2 OS buttons, 4 face buttons, 2 digital triggers, 2 
+analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute button, headset port, force feedback triggers, clickable touchpad, speaker
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>DualShock 3<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/ds3cont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/ds3cont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: All PS3 games<br>
+Can be found for: ~$50 (Import only for this color)<br>
+Made by:  Sony<br>
+Specific versions: White, Black, Army Camo<br>
+Other versions: Multiple colors<br>
+Quantity: 3
+</td>
+</tr>
+<tr>
+<td>1 dpad, rumble, motion sensing, clamshell casing that must be destroyed to open, can sync with PSP Go and PS Vita TV<br>
+2 clickable thumbsticks, 2 system buttons, 1 OS button, 4 analog face buttons, 4 analog triggers, Bluetooth, built in battery, USB (mini) charging<br>
+<br>
+<a href="http://ps3media.ign.com/ps3/image/article/836/836073/testing-the-dualshock-3-20071116045851436.jpg" rel="nofollow">Hires</a> <a href="http://www.play-asia.com/SOap-23-83-kzl-71-zl-77-3-49-en-15-dualshock+3-84-j-70-2nx4.html" rel="nofollow"></a>
+<a href="https://sites.google.com/site/neotechni/Home/adadpters#TOC-Drivers-for-PC">PC Drivers</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>DualShock 4 + Camera + Adapter<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:78adccc62b809f70&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:78adccc62b809f70&amp;attredirects=0" class="disabled" width="200" height="132" border="0"></a><br>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3e2a03dd2f991fd3&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3e2a03dd2f991fd3&amp;attredirects=0" class="disabled" width="200" height="112" border="0"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:68f830d6a13edcb0&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:68f830d6a13edcb0&amp;attredirects=0" class="disabled" width="200" height="46" border="0"></a></div>
+</div>
+</div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported (DualShock 4): All PS4, PC games. Many PS3 games<br>
+Games supported (Camera): Misc PS4 games<br>
+Obtained: October 25, 2014<br>
+Can be found for: ~$60 each<br>
+Made by:  Sony<br>
+Peripheral #: 223-A (DualShock 4) 223-B (Camera) <br>
+<br>
+Games supported (Adapter): Any game that supports the Camera, but on PS5<br>
+Obtained: November 17, 2020<br>
+Can be found for: Free<br>
+Made by: Sony<br>
+Peripheral #: 223-C (Adapter) <br>
+</td>
+</tr>
+<tr>
+<td>DualShock 4: <br>
+1 dpad, rumble, motion sensing, cool box, can sync with PS Vita TV<br>
+2 clickable thumbsticks, 1 system button, 2 OS buttons, 4 digital face buttons, 2 analog and 2 digital triggers, Bluetooth, built in battery, USB (micro) charging<br>
+Clickable 2-touch touchpad, lightbar for position tracking via the camera, EXT port, headset port, mono speaker, USB HID (driverless)<br>
+To put it into sync mode: Press and hold the Share and PS buttons until the light on the back begins a rhythmic, double flash.<br>
+<br>
+Camera: Dual 1280 x 800 web cam with a 4-mic array, uses PS4's AUX port<br>
+<br>
+Adapter: Lets you use the Camera on PS5 by plugging it into a USB port<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Elite Controller<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/JCcont.JPG?attredirects=0" imageanchor="1"></a>
+
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:13fbeeaf9e5cf68f&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:13fbeeaf9e5cf68f&amp;attredirects=0" class="disabled" width="200" height="200" border="0"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:7eff5cb873a02a49&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:7eff5cb873a02a49&amp;attredirects=0" class="disabled" width="200" height="200" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: Most PS3/PS4 games<br>
+Obtained: May 4, 2017<br>
+Can be found for: ~$80<br>
+Made by: EMIO<br>
+
+
+Peripheral #: 317<br>
+</td>
+</tr>
+<tr>
+<td>Dualshock 4 layout (missing the headset/ext ports but does have the speaker), removable dpad/analog stick caps/rear flippers. Wireless via dongle, wired via micro USB, reconfigurable by PC, built-in rechargeable battery, hair-trigger switches (makes L2/R2 require less travel to click), a cool box and braided micro USB cable<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>EX Jinsei/Game of Life Roulette Controller</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/JCcont.JPG?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:4b341318772bd05c&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:4b341318772bd05c" class="disabled" width="200" height="133" border="0"></a></div>
+<br>
+</div>
+</div>
+</td>
+<td>Games supported: EX Jinsei/Game of Life (PS2)<br>
+Obtained: September 20, 2010<br>
+Can be found for: ~$80<br>
+Made by: Takara<br>
+
+
+Peripheral #: 118<br>
+Kanji: <b style="font-weight:normal">EX人生ゲーム・ルーレットコントローラ同梱版</b><br>
+Quantity: 4<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 10 face buttons (4 face, 4 shoulder, start\select), a roulette wheel and mode switch (A mode: wheel repeatedly presses a button as it spins, B mode: it maps to an axis of the right analog stick, neither mode actually represents what color it is on or even which direction you spun it in), a cool box. How it works: The back of the wheel is white, with black squares (think a circle barcode) and 1 optical sensor that detects those boxes as it spins<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>FearMaster</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/JCcont.JPG?attredirects=0" imageanchor="1"></a>
+
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:2ff4024be2714b12&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:2ff4024be2714b12" class="disabled" width="200" height="102" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: Cabela's Dangerous Hunts 2013 (PS3)<br>
+Obtained: October 29, 2012<br>
+Can be found for: ~$80<br>
+Made by: Activision<br>
+
+
+Peripheral #: 177<br>
+</td>
+</tr>
+<tr>
+<td>Clickable analog thumbstick, trigger, dpad, 4 face buttons, Start\Select\Home, Wireless Sensor bar/pointing device with automatic shut-off timer, a cool box, display-independent lightgun (SD and HD), wireless (USB dongle, can be hidden inside the scope), batteries not included, USB HID (buttons/analog sticks only, not the pointing device)</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Flying Circus RC<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:707c31d96e2518c&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:707c31d96e2518c&amp;attredirects=0" class="disabled" width="200" height="149" border="0"></a></div>
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/JCcont.JPG?attredirects=0" imageanchor="1"></a>
+
+
+</div>
+</div>
+</td>
+<td>Games supported: Flying Circus RC Copter Adventure Championship (PS2)<br>
+Obtained: June 16, 2017<br>
+Can be found for: ~$50<br>
+Made by: Unknown<br>
+
+
+Peripheral #: 328<br>
+</td>
+</tr>
+<tr>
+<td>Dualshock layout but the right stick doesn't re-center and neither stick clicks<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>FPS Master</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/fpscont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/fpscont.jpg" width="194" height="200" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: All PS1/PS2 games, FPSs/TPSs in particular<br>
+Can be found for: ~$20<br>
+Made by:  Gamester Radica<br>
+Specific version: PS2 Blue<br>
+Other versions: XBOX Camoflouge<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 2 clickable thumbsticks, 2 face buttons, 2 system buttons, 6 shoulder buttons, rumble, LCD with 5 buttons, clamshell casing that must be destroyed to open<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>FragFX</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/FGcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/FGcont.jpg" width="200" height="160" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: All PS3 games, FPSs in particular<br>
+Obtained: February 27, 2009 (V.1, Sony blocked them) October 5, 2010 (V.2)<br>
+Can be found for: ~$60<br>
+Made by: 
+ SplitFish<br>
+Specific version: Black (not shown)<br>
+Other versions: White
+&nbsp;
+<br>
+
+
+Peripheral #: 065-A and 065-B<br>
+Quantity: 2</td>
+</tr>
+<tr>
+<td>
+<div>USB (HID) optical mouse with 4 face buttons (R1, R2, R3 and Start) 4 side buttons. A left handed controller with a dpad, SIXAXIS, clickable analog thumbstick, 3 triggers, select button, mode select button and a sensitivity dial, hard mousepad with soft padding, clamshell casing that must be destroyed to open<br>
+<br>
+ <a href="https://sites.google.com/site/neotechni/Home/adadpters#TOC-Drivers-for-PC">PC Drivers</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>GameTrak</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:7a0bd5363360dcb1&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:7a0bd5363360dcb1" class="disabled" width="200" height="179" border="0"></a></div>
+</td>
+<td>Games supported: Real World Golf 2007 (PS2), Dark Wind (PC?)<br>
+Obtained: February 18, 2011<br>
+Can be found for: ~$3<br>
+Made by: In2Games&nbsp;
+<br>
+
+Peripheral #: 134<br>
+Specific version: PS2<br>
+Other versions: PC, XBOX<br>
+</td>
+</tr>
+<tr>
+<td>A foot pedal, 2 retractable cables that measure angle and distance from the connector, USB<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Game Klip</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:1c3d8f3ea62f0b3b&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:1c3d8f3ea62f0b3b&amp;attredirects=0" class="disabled" width="200" height="200" border="0"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+
+</div>
+</td>
+<td>Games supported: PSP go and misc Android games<br>
+Obtained: May 5, 2018<br>
+Can be found for: ~$10<br>
+Made by: ???<br>
+Peripheral #: 148-B<br>
+</td>
+</tr>
+<tr>
+<td>Attaches a PS3 controller to a PSP go/Android/iOS device<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Gene Simmons Axe Guitar</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/GScont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/GScont.jpg" width="200" height="200" border="0"></a></div>
+</div>
+</div>
+</div>
+</td>
+<td>Games supported: Guitar Hero and Rock Band for PS2/PS3<br>
+Obtained: March 23, 2009 (Tax return)<br>
+Can be found for: ~$60<br>
+Made by:&nbsp;<span style="font-family:arial,sans-serif;font-size:12.8000001907349px">Legacy Engineering</span>&nbsp; &nbsp;<br>
+
+Peripheral #: 066<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, whammy bar, tilt sensor, wireless, 13 buttons (5 redundant, start, select, Home), USB (HID) + PS2 receiver, a cool box, batteries included (requires a screwdriver to install), the worst neck strap ever<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Wireless-PS2-PS3-Gene-Simmons-Axe-G">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Glove<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PS1Glove2.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/PS1Glove2.jpg" width="200" height="130" border="0"></a></div>
+</td>
+<td>Games supported: All PS1/PS2 games<br>
+Obtained: April 20, 2010<br>
+Can be found for: ~$40<br>
+Made by: Reality Quest<br>
+Peripheral #: 101<br>
+Specific version: PS1<br>
+Other versions: N64<br>
+</td>
+</tr>
+<tr>
+<td>Dpad/Analog stick (wrist sensor) Switch (Analog, Simulated Analog, Digital), Mode button (Sensitivity, Invert Y) <br>
+ 13 Buttons (L1/L2/R1/R2, 2 redundant L1/R2, Square/X/O/Triangle, Start/Select/Analog) Unidextrous<br>
+<br>
+<a href="http://www.psillustrated.com/psillustrated/hard_rev.php/292/glove-playstation.html">More Information</a> <a href="http://www.psillustrated.com/psillustrated/hard_rev.php/292/glove-playstation.html">PSillustrated</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>GPS<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:6235929de9f3b49c&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:6235929de9f3b49c&amp;attredirects=0" class="disabled" border="0"></a></div>
+
+</td>
+<td>Games supported: Metal Gear Solid Portable Ops, HomeStar Portable, Everybody's Golf (PSP)<br>
+Obtained: March 29, 2018<br>
+Can be found for: ~$20<br>
+Made by: Sony<br>
+Peripheral #: 369<br>
+</td>
+</tr>
+<tr>
+<td>Adds GPS to PSP's USB port<a href="http://www.psillustrated.com/psillustrated/hard_rev.php/292/glove-playstation.html"></a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Grip<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/AGcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/AGcont.jpg" width="127" height="200" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: Most PS1 games, RPGs in particular<br>
+Obtained: February 27, 2009<br>
+Can be found for: ~$5<br>
+Made by: ASCII/Agetec<br>
+Kanji: グリップ
+</td>
+</tr>
+<tr>
+<td>
+<div>Dpad, 10 face buttons (2 redundant) 2 triggers<br>
+</div>
+<div>&nbsp;<br>
+Unidextrous, ambidextrous<br>
+</div>
+<div><br>
+</div>
+<div><a href="https://sites.google.com/site/neotechni/Home/supported#TOC-ASCII-Grip">More Information</a>&nbsp;(about key settings)</div>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Grip v2<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<img src="https://sites.google.com/site/neotechni/Home/hires/grip2.jpg" style="display:block;margin-right:auto;margin-left:auto;text-align:center" border="0">
+
+
+</td>
+<td>Games supported: Most PS1/PS2 games, RPGs in particular<br>
+Obtained: February 16, 2010<br>
+Can be found for: ~$50<br>
+Made by: ASCII/Agetec/Sammy<br>
+Peripheral #: 094<br>
+Kanji: グリップＶ２<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>Clickable Analog stick (switches between Left/Right analog or the dpad somehow), 10 face buttons (2 redundant) 2 triggers, a cool box
+</div>
+<br>
+Unidextrous, ambidextrous<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Grip (Hori)<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:135a8888f928c11e" style="display:block;margin-right:auto;margin-left:auto;text-align:center" class="disabled" width="200" height="142" border="0">
+
+
+</td>
+<td>Games supported: Most PS1/PS2 games, RPGs in particular<br>
+Obtained: April 28, 2011<br>
+Can be found for: ~$18<br>
+Made by: Hori<br>
+Peripheral #: 138<br>
+Kanji: ﾘｯﾌﾟｺﾝﾄﾛｰ<br>
+Specific version: Grey, Pink (Gift from Sharkie)<br>
+Other versions: Black, clear<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>
+<div>Dpad, 10 face buttons (2 redundant) 2 triggers<br>
+</div>
+</div>
+<br>
+Unidextrous, ambidextrous<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>GunCon 2</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/GCcont.gif?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/GCcont.gif" width="200" height="200" border="0"></a></div>
+</div>
+</td>
+<td>
+<div>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS2-Guncon2" rel="nofollow">List</a> (PS2)<br>
+Can be found for: ~$10<br>
+Made by: 
+ Namco<br>
+Quantity: 2</div>
+
+</td>
+</tr>
+<tr>
+<td>
+<div>1 trigger, 1 dpad, 4 buttons, a cool box, CRT display only lightgun (SD only), Unidextrous, Ambidextrous
+</div>
+<div>&nbsp;</div>
+<div><a href="http://gearmedia.ign.com/gear/image/guncon2big.jpg" rel="nofollow">Hi res</a> <a href="http://xoomer.virgilio.it/guncon2/">PC Drivers</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>GunCon 3</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/GCcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/GCcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: SOCOM: U.S. Navy SEALs Confrontation, Time Crisis 4, Time Crisis: Blazing Storm (PS3)<br>
+Can be found for: ~$25<br>
+Made by: NamcoBandai<br>
+Specific version: Orange (not shown)<br>
+Other versions: Black<br>
+</td>
+</tr>
+<tr>
+<td>2 Depressable analog sticks, 6 buttons, Sensor bars/pointing device, a cool box, display-independent lightgun (SD and HD) <br>
+<br>
+<a href="http://gearmedia.ign.com/gear/image/article/804/804425/e3-2007-guncon-3-hands-on-impressions-20070712043415009.jpg" rel="nofollow">Hi res</a> <a href="http://www.play-asia.com/SOap-23-83-kzl-71-zo-49-en-15-guncon-84-j-70-2bn6.html" rel="nofollow"></a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+
+
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Hatsune Miku F Mini</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:a4ae918df632b9f&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:a4ae918df632b9f&amp;attredirects=0" class="disabled" width="200" height="121" border="0"></a></div>
+
+</td>
+<td>Games supported: Project Diva (PS3)<br>
+Obtained: May 25, 2013<br>
+Can be found for: ~$180, Import Only<br>
+Made by: HORI<br>
+Peripheral #: 197
+</td>
+</tr>
+<tr>
+<td>2 clickable analog sticks, 15 buttons, USB (HID)<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>HD LCD<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+
+
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:34186d052bb6cf61&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:34186d052bb6cf61&amp;attredirects=0" class="disabled" width="200" height="198" border="0"></a></div>
+</td>
+<td>Games supported: All PS3/PS2/PS1 games<br>
+Obtained: April 4, 2019<br>
+Can be found for: ~$100<br>
+Made by: HORI<br>
+Peripheral #: 407</td>
+</tr>
+<tr>
+<td>11.6" 1366×768 LCD, connects via the PlayStation MultiAV port, also has composite connectors and 2 headphone ports. Powered via an AC adapter. Shaped specifically for the PS3 slim<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>HKS Racing Controller<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:79c160714c1f67a8&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:79c160714c1f67a8" class="disabled" width="200" height="125" border="0"></a></div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported: Racing games (PS3)<br>
+Obtained: December 8, 2010<br>
+Can be found for: ~$45<br>
+Made by: Eagle3<br>
+Peripheral #: 125<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, analog jog wheel, 2 face buttons, 2 'foot pedal' buttons, 4 shoulder buttons, rumble, USB (HID), 1 clickable analog stick,4 system buttons (Start/Select/Home/Macro), digital pressure readout<br>
+Macro button lets you reassign any button to another, 2 switches on the back which let you switch which stick the thumbstick acts as (left or right) and switches the foot pedal buttons between X/Square and L2/R2<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-HKS-Racing-Controller">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Jogcon</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/JCcont.JPG?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/JCcont.JPG" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-Jogcon-neGcon-SLEH-0003-Volume-">List</a> (PS1)<br>
+Can be found for: ~$30<br>
+Made by:  Namco</td>
+</tr>
+<tr>
+<td>1 dpad, analog jog wheel, 4 face buttons, 2 system buttons, 4 shoulder buttons, force feedback<br>
+<br>
+How to enable neGcon mode: Center the dial,&nbsp; hold mode button before turning the system on.
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>JogDial</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/JCcont.JPG?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:46c3242770cc2f49&amp;attredirects=0" imageanchor="1" class="disabled"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:2ab60c54f6ee23b8&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:2ab60c54f6ee23b8" class="disabled" width="200" height="141" border="0"></a></div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</td>
+<td>Games supported: Unknown<br>
+Obtained: September 20, 2010<br>
+Can be found for: ~$50<br>
+Made by: Hori<br>
+Peripheral #: 117<br>
+Specific version: Orange<br>
+Other versions: Red, Blue<br>
+Kanji: ジョ
+グダイヤルコントローラ<br>
+</td>
+</tr>
+<tr>
+<td>12 face buttons (4 face buttons, L1/L2/R1/R2, Start/Select, 2 mode switches), a clickable jogdial/scrollwheel embedded in the middle of a dpad (the wheel maps to up/down on the dpad), 1 trigger, a cool box, Unidextrous, Ambidextrous
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+      
+    
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>KidStation</h2>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Drawing Tablet<br>
+</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:62cc06da25098441&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:62cc06da25098441&amp;attredirects=0" class="disabled" width="320" height="281" border="0"></a></div>
+
+</td>
+<td>Games supported: Included<br>
+Obtained: February 22, 2016<br>
+Can be found for: 100 yen, Import Only&nbsp;<br>
+Made by: Ban Presto<br>
+Peripheral #: 301
+</td>
+</tr>
+<tr>
+<td>4 face buttons, drawing tablet, wired stylus, slot on the back to hold paper to trace<br>
+</td>
+</tr>
+
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Guru Guru Town Hanamaru-kun</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:6c7e1fd582d332f5&amp;attredirects=0" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:6c7e1fd582d332f5" style="display:block;margin-right:auto;margin-left:auto;text-align:center" class="disabled" width="185" height="200"></a>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-KidsStation">Link</a><br>
+Obtained: October 29, 2012<br>
+Can be found for:&nbsp;Unknown, Import Only&nbsp;<br>
+Made by: Atlus<br>
+Peripheral #: 180
+</td>
+</tr>
+<tr>
+<td>6 face buttons, microphone
+</td>
+</tr>
+
+
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Hello Kitty</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1aea03a30cf566c7&amp;attredirects=0" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1aea03a30cf566c7" style="display:block;margin-right:auto;margin-left:auto;text-align:center" class="disabled" width="187" height="200"></a>
+</td>
+<td>Games supported:&nbsp;<a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-KidsStation">Link</a>&nbsp;<br>
+Obtained: October 29, 2012&nbsp;<br>
+Can be found for: Unknown, Import Only<br>
+Made by:&nbsp;Atlus&nbsp;<br>
+Peripheral #: 179
+</td>
+</tr>
+<tr>
+<td>6 face buttons, microphone
+
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Mickey Mouse</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1277a235857081de&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1277a235857081de&amp;attredirects=0" class="disabled" width="200" height="113" border="0"></a></div>
+</div>
+</td>
+<td>Games supported:&nbsp;<a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-KidsStation">Link</a>&nbsp;<br>
+Obtained:&nbsp;August 19, 2013<br>
+Can be found for: Unknown, Import Only<br>
+Made by:&nbsp;?<br>
+Peripheral #: 213</td>
+</tr>
+<tr>
+<td>6 face buttons, microphone
+
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Sailor Moon</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/playstation/FScont.jpg?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:260e5db62ae852ab&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:260e5db62ae852ab" class="disabled" width="200" height="150" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-KidsStation">List</a><br>
+Obtained: September 15, 2010<br>
+Can be found for: ~$20<br>
+Made by: Bandai<br>
+Peripheral #: 114<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>4 giant buttons, Unidextrous, Ambidextrous
+
+
+</div>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Winnie the Pooh</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:7278026990797994&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:7278026990797994&amp;attredirects=0" class="disabled" width="195" height="200" border="0"></a></div>
+</td>
+<td>Games supported:&nbsp;<a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-KidsStation">Link</a>&nbsp;<br>
+Obtained:&nbsp;August 19, 2013&nbsp;<br>
+Can be found for: Unknown, Import Only<br>
+Made by:&nbsp;?<br>
+Peripheral #: 214</td>
+</tr>
+<tr>
+<td>6 face buttons, microphone
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+    
+      
+
+
+      
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>L2/R2 Grip Cover<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:54f7a7becb450d57&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:54f7a7becb450d57&amp;attredirects=0" class="disabled" width="198" height="200" border="0"></a></div>
+</td>
+<td>Games supported: Most Vita games<br>
+Obtained: <span>January 11, 2016</span><br>
+Can be found for: ~$35<br>
+Made by: JOETSU Electronics<br>
+Peripheral #: 262-A<br>
+Specific version: PCH-1000<br>
+Other version: PCH-2000<br>
+</td>
+</tr>
+<tr>
+<td>Adds L2/R2 to 1K/Original model Vita using the rear touch panel, adds grips<br>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>L2/R2 Grip Cover Case<br>
+</h3>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:4c40f79d9dd2faf5&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:4c40f79d9dd2faf5&amp;attredirects=0" class="disabled" width="200" height="127" border="0"></a></div>
+
+</td>
+<td>
+Obtained: June 16, 2017<br>
+Can be found for: ~$25<br>
+Made by: JOETSU Electronics<br>
+Peripheral #: 262-B<br>
+Specific version: Blue<br>
+Other version: Black</td>
+</tr>
+<tr>
+<td>A case designed to fit the L2/R2 Grip Cover (without any of the L3/R3 addons)<br>
+</td>
+</tr>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>L3/R3 Module<br>
+</h3>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:5589e88ee38345e2&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:5589e88ee38345e2&amp;attredirects=0" class="disabled" width="200" height="146" border="0"></a></div>
+
+
+</td>
+<td>
+Obtained: December 18, 2017<br>
+Can be found for: ~$15<br>
+Made by: Top Player<br>
+Peripheral #: 262-C<br>
+Specific version: Black<br>
+Other version: White</td>
+</tr>
+<tr>
+<td>Adds L3/R3 to the back of the 1K/Original model Vita L2/R2 Trigger Grips<br>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>L3/R3 Faceplate<br>
+</h3>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2" width="300">
+
+
+
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:229b590cf03544ec&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:229b590cf03544ec" class="disabled" width="200" height="101" border="0"></a></div>
+</td>
+<td>
+Obtained: July 31, 2019<br>
+Can be found for: ~$15<br>
+Made by: JOETSU Electronics<br>
+Peripheral #: 262-D<br>
+</td>
+</tr>
+<tr>
+<td>Replaces the faceplate of the 1K/Original model Vita L2/R2 Trigger Grips to add L3/R3 to the front<br>
+</td>
+</tr>
+
+
+
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Maestro Baton</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<div style="display:block;margin-right:auto;margin-left:auto;text-align:center"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:2398a9cff7b2ff5d&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:2398a9cff7b2ff5d" class="disabled" width="200" height="150" border="0"></a></div>
+</div>
+</div>
+</div>
+</td>
+<td>Games supported: The <span style="font-family:verdana,lucida grande,arial,sans-serif;font-size:12px;line-height:14px">Maestromusic</span>&nbsp;series (PS1)<br>
+Obtained: May 17, 2012<br>
+Can be found for: ~$18<br>
+Made by: Global A Entertainment<br>
+Peripheral #: 163</td>
+</tr>
+<tr>
+<td>2 buttons, motion sensing
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>MAG II</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5f631b28005ac3b7&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5f631b28005ac3b7" class="disabled" width="200" height="159" border="0"></a></div>
+</td>
+<td>Games supported: All PS3+PC games<br>
+Obtained: November 20, 2012<br>
+Can be found for: ~$150<br>
+Made by: G-Mate&nbsp;<br>
+Peripheral #: 184</td>
+</tr>
+<tr>
+<td>Motion sensing, wireless (via USB dongle) works as a PS3 controller or mouse/keyboard depending on what system it's connected to, dial to switch which mode it's in, upgradable firmware via USB, takes 4xAAs (not included) 4 face buttons, 5 triggers (maps to the shoulder buttons, and 1 to recalibrate the motion sensor), dpad, Start\Select\Home, 1 clickable analog thumbstick<br>
+<br>
+<a href="http://www.g-mate.net.cn/E_list.asp?id=20" rel="nofollow">Link</a> <a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:373ff65e10a83d03&amp;attredirects=0" class="disabled">More Information</a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+
+
+
+
+
+</p>
+      
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Mars Lightcon<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:68b3bdf6eb15708c&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:68b3bdf6eb15708c&amp;attredirects=0" class="disabled" width="186" height="200" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Voyage of the Dead, Qubit's Quest, Big Buck Hunter: Arcade (PS4)<br>
+Obtained: December 23, 2019<br>
+Can be found for: ~$130 for a starter kit, ~$40 for another Lightcon<br>
+Made by: PDP<br>
+Peripheral #: 422<br>
+Specific version: PS4<br>
+Other versions: XBOX1<br>
+</td>
+</tr>
+<tr>
+<td>Base: an infrared camera, connects via USB (microUSB on X1, not removable on PS4)<br>
+Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trigger, back button, pump action, takes 2xAAs (not included)<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Meka Pokeler</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;margin-right:auto;margin-left:auto;text-align:center"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3d0204e56d4e4d1b&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3d0204e56d4e4d1b&amp;attredirects=0" class="disabled" width="200" height="172" border="0"></a></div>
+
+</td>
+<td>Games supported: Included PS1 game for PocketStation<br>
+Obtained: April 21, 2014<br>
+Can be found for: ~$? Import Only<br>
+Made by:&nbsp;
+Atlus<br>
+Peripheral #: 235<br>
+Specific version: Pink<br>
+Other versions: Misc. colors</td>
+</tr>
+<tr>
+<td>A flimsy plastic stand with customizable parts (like Mr. Potato Head)&nbsp;<br>
+An infrared remote with the same button layout as PocketStation that only works with games programmed to use it<br>
+Uses PocketStation's built-in infrared port</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Mini D.D.R. Fingerpad<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1c59190ba044f2b8&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1c59190ba044f2b8" class="disabled" width="186" height="200" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS2-Mini-D.D.R.-Fingerpad">Link</a><br>
+Obtained: November 15, 2010<br>
+Can be found for: ~$40<br>
+Made by: Venom (Seems to be the same OEM)<br>
+Peripheral #: 124
+</td>
+</tr>
+<tr>
+<td>
+14 face buttons (4 backlit for the dpad, X/O/Square/Triangle/Start/Select/L1/L2/R1/R2)<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Mini-D.D.R.-Fingerpad">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Mouse</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:17834132c45ddfbb&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:17834132c45ddfbb&amp;attredirects=0" class="disabled" width="200" height="149" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-Mouse-SCPH-1090-">List</a>&nbsp;(PS1)<br>
+Obtained: October 27, 2017<br>
+Can be found for: ~$30<br>
+Made by: Sony<br>
+Peripheral #: 345<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>2 buttons, wheeled mouse<br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Move</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/move.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/move.jpg" width="48" height="200" border="0"></a></div>
+</td>
+<td>Games supported: <a href="http://en.wikipedia.org/wiki/List_of_games_compatible_with_PlayStation_Move">List</a><br>
+Obtained: September 17, 2010<br>
+Can be found for: ~$50<br>
+Made by: Sony<br>
+Peripheral #: 115<br>
+Quantity: 2
+</td>
+</tr>
+<tr>
+<td>
+<div>3 axis 1:1 absolute positioning via PSeye tracking the glowing orb which
+ can change color to either stand out from the 
+background or for the game to indicate something (ie: flash red for low 
+health) 3 axis gyroscope, 3 axis accelerometer, terrestrial magnetic 
+field sensor, 8 buttons (1 analog, 4 face, Start/Select/Home), 1 analog 
+trigger, USB charging, built-in battery, bluetooth, EXT port, rumble, 10
+ bit analog-digital conversion (vs Wii's 8 bit), clamshell casing that must be destroyed to open, Unidextrous, Ambidextrous
+
+<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Move-Navcon">My Review</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>NavCon</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/playstation/FScont.jpg?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/subcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/subcont.jpg" width="65" height="200" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: <a href="http://en.wikipedia.org/wiki/List_of_games_compatible_with_PlayStation_Move">List</a><br>
+Obtained: September 17, 2010<br>
+Can be found for: ~$30<br>
+Made by: Sony<br>
+Peripheral #: 116<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>1 clickable analog stick, 1 dpad, 3 buttons (2 face, Home), 2 triggers 
+(1 analog, 1 digital), USB charging, built-in battery, bluetooth, can sync with PSP Go, clamshell casing that must be destroyed to open, Unidextrous, Ambidextrous
+
+<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Move-Navcon">My Review</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>neGcon<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/NGcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/NGcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-Jogcon-neGcon-SLEH-0003-Volume-">List</a> (PS1)<br>
+Can be found for: ~$15<br>
+Made by: Namco<br>
+Specific version: White<br>
+Other versions: Black<br>
+</td>
+</tr>
+<tr>
+<td>4 analog buttons, 2 triggers (1 analog), analog jog wheel, 1 dpad, 1 system button, a cool box
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Netplay<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:52447bb56e3e6cdc&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:52447bb56e3e6cdc&amp;attredirects=0" class="disabled" width="200" height="161" border="0"></a></div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported: Any PS2 game that supported a USB keyboard<br>
+Obtained: July 9, 2016<br>
+Can be found for: ~$50<br>
+Made by: Logitech<br>
+Peripheral #: 276<br>
+<br>
+</td>
+</tr>
+<tr>
+<td>PS2 controller: Connects via PS1/PS2 controller port, standard dualshock layout<br>
+Keyboard: Connects via USB, detachable from the controller, standard QWERTY layout<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Onimusha 3: Soul Katana</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/playstation/SCcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/SCcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Onimusha 3, All PS1/2 games<br>
+Can be found for: ~$35<br>
+Made by:  HORI<br>
+Favorite</td>
+</tr>
+<tr>
+<td>
+<div>tilt sensor, 2 clickable thumbsticks,, 4 face buttons, 2 system buttons, 4 shoulder buttons, 1 dpad, wireless, a cool box and base, rumble, batteries included (requires a screwdriver to install)<br>
+</div>
+<div>&nbsp;</div>
+<div><a href="http://gearmedia.ign.com/gear/image/hori_katana_prev_1_big.jpg" rel="nofollow">Hi res</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>PiStol3</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:480dc84cded3f81a&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:480dc84cded3f81a" class="disabled" width="200" height="149" border="0"></a></div>
+<br>
+</div>
+</div>
+</td>
+<td>Games supported: <a href="http://en.wikipedia.org/wiki/List_of_games_compatible_with_PlayStation_Move">List</a>, particularly arcade shooters<br>
+Obtained: October 12, 2010<br>
+Can be found for: ~$20<br>
+Made by: Sony<br>
+Peripheral #: 121<br>
+</td>
+</tr>
+<tr>
+<td>
+None, it's a holster for Move. A cool box.&nbsp;<br>
+<br>
+Unidextrous, ambidextrous<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-PiStol3">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Pop'n Music Controller</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:5dd41917edd3c432&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:5dd41917edd3c432&amp;attredirects=0" class="disabled" width="200" height="174" border="0"></a></div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported: Pop'n Music (PS1/PS2)<br>
+Obtained: September 1, 2017<br>
+Can be found for: ~$40 Import only<br>
+Made by: Konami<br>
+Peripheral #: 338</td>
+</tr>
+<tr>
+<td>9 face buttons, 2 system buttons
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Power Shovel Controller</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/PScont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/PScont.jpg" width="157" height="200" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Power Shovel ni Norou!! (PS1)<br>
+Obtained: August 4, 2009<br>
+Can be found for: ~$130 Import only<br>
+Made by: Taito<br>
+Specific version: Yellow<br>
+Other versions: Black
+&nbsp;
+<br>
+
+Peripheral #: 074
+
+</td>
+</tr>
+<tr>
+<td>2 analog joysticks, 13 face buttons (5 per joystick, 3 on the base 1 of which being the analog mode toggle), 4 triggers (2 per joystick)<br>
+a switch to select if No sticks, the left stick, or the right stick is digital<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Power-Shovel-Controller">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Project Diva</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:2827974b63a6b159&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:2827974b63a6b159&amp;attredirects=0" class="disabled" width="200" height="173" border="0"></a></div>
+
+
+</td>
+<td>Games supported: Project Diva (PS3)<br>
+Obtained: September 1, 2017<br>
+Can be found for: ~$180, Import Only<br>
+Made by: HORI<br>
+Peripheral #: 336</td>
+</tr>
+<tr>
+<td>Individual buttons for each dpad direction, 6 face buttons (dpad and face buttons light up), touchpad (mapped to an analog stick) 2 switches to change how the controls map/which analog stick is used
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Prototype SNESCD controller (codename MW.3)</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="430">
+
+<div style="display:inline;float:left;margin:5px 10px 0pt 0pt"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:6e5e7b8228319301&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:6e5e7b8228319301" class="disabled" width="200" height="151" border="0"></a><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5d204fe076921de1&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5d204fe076921de1" class="disabled" width="200" height="150" border="0"></a></div>
+
+</td>
+<td>Games supported: None<br>
+Obtained: <font size="2" face="Tahoma">July 30, 2010</font><br>
+Can be found for: ~$350 Not available to the public<br>
+Made by:  Sony<br>
+Specific version: Unlabeled buttons and no logos<br>
+Peripheral #: 109<br>
+HID: DTL-H500<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 6 face buttons, 2 system buttons, 2 shoulder buttons, serial interface<br>
+<br>
+A historical artifact: Never released prototype <a href="http://www.n-sider.com/contentview.php?contentid=231">More Information</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Proto-Shock</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/DAcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/DAcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: All PS1/most PS2 games and <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-Analog-Flight-Stick-mode-SCPH-1" rel="nofollow">List</a><br>
+Obtained: ~February 29, 2008<br>
+Can be found for: ~$50 Import only<br>
+Made by:  Sony<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, rumble, Flightstick (SCPH-1110) compatability<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-SCPH-1150-dual-analog-Proto-Shock-">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Proto-Shock-less</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/DAcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/DAcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: All PS1/most PS2 games and <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-Analog-Flight-Stick-mode-SCPH-1" rel="nofollow">List</a><br>
+Can be found for: ~$50<br>
+Made by:  Sony<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, Flightstick (SCPH-1110) compatability<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-SCPH-1150-dual-analog-Proto-Shock-">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>PS-890</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/PS-890-box.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/PS-890-box.jpg" width="200" height="200" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: All PS1/PS2 games<br>
+Obtained: January 17, 2009<br>
+Can be found for: ~$20 Import only<br>
+Made by: Generic
+&nbsp;
+<br>
+
+
+Peripheral #: 064
+<br>
+Quantity: 2</td>
+</tr>
+<tr>
+<td>
+<div>1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, rumble, red ring of death analog switch, clamshell casing that must be destroyed to open
+</div>
+<div>&nbsp;<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-PS890">My review</a><br>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2><b>PSeye</b></h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:61fa33ca554c20f&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:61fa33ca554c20f&amp;attredirects=0" class="disabled" width="183" height="200" border="0"></a></div>
+
+</td>
+<td>Games supported: Misc games (PS3)<br>
+Obtained: ?<br>
+Can be found for: ~$20<br>
+Made by: Sony&nbsp;
+<br>
+Peripheral #: ?</td>
+</tr>
+<tr>
+<td>
+<div>640×480, USB (2.0) web cam with a 4-mic array<br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2><b>PSone LCD</b></h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/LCD.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/LCD.jpg" width="200" height="200" border="0"></a></div>
+</td>
+<td>Games supported: All games (All systems)<br>
+Obtained: November 24, 2009<br>
+Can be found for: ~$30<br>
+Made by: Sony&nbsp;
+<br>
+Peripheral #: 086</td>
+</tr>
+<tr>
+<td>
+<div>640i LCD, composite in via minijack, TV in and out via PS multi-AV, speakers, headphone port, brightness and volume controls<br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>PSVR</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:21f405ef767725e0&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:21f405ef767725e0&amp;attredirects=0" class="disabled" width="200" height="167" border="0"></a></div>
+
+
+</td>
+<td>Games supported: PSVR games for PS4<br>
+Obtained: October 13, 2016<br>
+Can be found for: ~$550<br>
+Made by: Sony<br>
+Peripheral #: 283</td>
+</tr>
+<tr>
+<td>
+<div>A 5" 1080p OLED RGB screen, head tracking via LEDs (requires PS Camera to work), microphone, a cool box, headphone port (includes earbuds), inline remote (controls power, microphone, volume +/-), connects via HDMI and USB 3.0, infrared wearer detection<br>
+breakout box handles 3D audio, output to TV (undistorts VR vision to mirror it to the TV, as well as allowing for dual-screen output in some games) as well as cinema mode which lets all non-VR games display as a giant TV on the headset (capable of running on any HDMI device so long as the PS4 is still connected via USB)<br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>PSW-303</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:561f67feedb961b0&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:561f67feedb961b0&amp;attredirects=0" class="disabled" width="200" height="200" border="0"></a></div>
+
+</td>
+<td>Games supported: All games (PSP 1K/2K/3K models, PSP go with an adapter)<br>
+Obtained: August 13, 2013<br>
+Can be found for: ~$30<br>
+Made by: DOSO<br>
+Peripheral #: 212</td>
+</tr>
+<tr>
+<td>
+<div>An after-market wireless PS2 controller that connects to a small adapter that plugs into the PSP's USB port. Requires custom firmware. Unlike PSP go and the Wildfire gaming dock, this one actually uses the right analog stick<br>
+</div>
+<div>The controller uses 2xAAAs (not included) the adapter uses a Y-cord to take power from the PSP's AC adapter</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Racing Wheel<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:7e9627882fb78acb&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:7e9627882fb78acb" class="disabled" width="200" height="145" border="0"></a></div>
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+</td>
+<td>Games supported:&nbsp; Little Big Planet Karting, Gran Turismo 5, Need for Speed: Hot Pursuit, Burnout Paradise, MotorStorm Apocalypse (PS3)<br>
+Obtained: October 23, 2012<br>
+Can be found for: ~$40<br>
+Made by: Sony <br>
+Peripheral #: 176</td>
+</tr>
+<tr>
+<td>4 triggers, dpad, 4 face buttons, 2 system buttons, 2 gear flippers, 1 motorcycle grip (right side), the handle positions are adjustable, rumble in each handle, requires Move<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+    
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>RealPlay</h2>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Golf<br>
+</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:4a315c6c73ebdd88&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:4a315c6c73ebdd88" class="disabled" width="200" height="141" border="0"></a></div>
+
+
+</td>
+<td>Games supported: RealPlay Golf<br>
+Obtained: May 18, 2017<br>
+Can be found for: $80 with Pool and Puzzle Sphere, Import Only&nbsp;<br>
+Made by: <br>
+Peripheral #: 325-B
+</td>
+</tr>
+<tr>
+<td>Wireless (via USB dongle), dpad, 3 buttons, motion sensing<br>
+</td>
+</tr>
+
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Pool</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:3c199233e736263f&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:3c199233e736263f" class="disabled" width="200" height="126" border="0"></a></div>
+
+</td>
+<td>Games supported: RealPlay Pool<br>
+Obtained: May 18, 2017<br>
+Can be found for: $80 with Gold and Puzzle Sphere, Import Only&nbsp;<br>
+Made by: <br>
+Peripheral #: 325-A
+</td>
+</tr>
+<tr>
+<td>Wireless (via USB dongle), dpad, 3 buttons, motion sensing</td>
+</tr>
+
+
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Puzzle Sphere<br>
+</h3>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:1360c18405a38a3c&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:1360c18405a38a3c" class="disabled" width="200" height="141" border="0"></a></div>
+
+</td>
+<td>Games supported: RealPlay Puzzle Sphere<br>
+Obtained: May 18, 2017<br>
+Can be found for: $80 with Golf and Pool, Import Only<br>
+Made by: <br>
+Peripheral #: 324
+</td>
+</tr>
+<tr>
+<td>Wireless (via USB dongle), dpad, unknown<br>
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h3>Other Versions (I don't own)<br>
+</h3>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+<td width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:3a308f659b1e43ae&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:3a308f659b1e43ae" class="disabled" width="200" height="141" border="0"></a></div>
+
+</td>
+<td>Bowling<br>
+</td>
+</tr>
+<tr>
+<td>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:70273a24018200f3&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:70273a24018200f3" class="disabled" width="200" height="126" border="0"></a></div>
+</td>
+<td>Racing</td>
+</tr>
+<tr>
+<td>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:ff63f432e1f69ad&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:ff63f432e1f69ad" class="disabled" width="200" height="141" border="0"></a></div>
+</td>
+<td>Tennis</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+    
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>RealTriggers</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/RTcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/RTcont.jpg" width="200" height="115" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: All PS3 games<br>
+Obtained: October 15, 2009<br>
+Can be found for: ~$5<br>
+Made by:  GioTeck&nbsp;
+<br>
+Peripheral #: 079<br>
+Quantity: 3 pairs</td>
+</tr>
+<tr>
+<td>Nothing. It's more of an ergonomic improvement<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Reload Pedal</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="margin:5px auto 0px;display:block;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/RPcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/RPcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Most Guncon2 games (PS1/PS2)<br>
+Can be found for: ~$20<br>
+Made by: 
+ RedOctane</td>
+</tr>
+<tr>
+<td>1 aluminum foot pedal<br>
+<br>
+<a href="http://gearmedia.ign.com/gear/image/article/582/582096/redoctane-reload-pedal-20050121043602035.jpg" rel="nofollow">Hi res</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Remote Play Assistant</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:6bb02f06df73383&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:6bb02f06df73383&amp;attredirects=0" class="disabled" width="278" height="320" border="0"></a></div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported: Most Vita games<br>
+Obtained:&nbsp;November 22, 2017<br>
+Can be found for: ~$20<br>
+Made by: 
+ HORI<br>
+Peripheral #: 349</td>
+</tr>
+<tr>
+<td>Adds L2/L3/R2/R3 buttons to the 2K/slim model
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Resident Evil 4 Chainsaw</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/playstation/R4cont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/R4cont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Resident Evil 4, All PS1/2 games<br>
+Can be found for: ~$10<br>
+Made by:  NubyTech<br>
+Specific version: PS2 Orange<br>
+Other versions: Gamecube Yellow<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>rip cord, tilt sensor, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, 1 dpad, a cool box/base with hidden compartments, Removable cable, rumble, Sound chip, individually numbered<br>
+</div>
+<div>&nbsp;</div>
+<div><a href="http://gearmedia.ign.com/gear/image/article/666/666317/resident-evil-4-chainsaw-controller-ps2-20051111053655541.jpg" rel="nofollow">Hi res</a> <a href="http://www.behance.net/alfredotato" rel="nofollow">Creator's Website</a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Resident Evil Pad<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/REcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/REcont.jpg" width="96" height="72" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Most PS1 games, Resident Evil 1/2/3<br>
+Obtained: ~ February 29, 2008<br>
+Can be found for: ~$65 Import only<br>
+Made by:  ASCII<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 8 face buttons, 2 system buttons, Turbo switch for 1 shoulder-button<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-SLPH-00060-ASC-0509BH-ASCII-BioHaza">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>RetroCON</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/RCcont.JPG?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/RCcont.JPG" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: All PS1/PS2 games<br>
+Can be found for: ~$20<br>
+Made by:  MadCatz</td>
+</tr>
+<tr>
+<td>
+<div>1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, rumble, Backlit buttons, clamshell casing that must be destroyed to open<br>
+<br>
+</div>
+<div><a href="http://gearmedia.ign.com/gear/image/mad_catz_retro_dark_big.jpg" rel="nofollow">Hi res</a>  <a href="https://sites.google.com/site/neotechni/Home/faq#TOC-RetroCon">My Review</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Rez Synthesasia device</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/RVcont%5B1%5D.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/RVcont%5B1%5D.jpg" border="0"></a></div>
+</td>
+<td>Games supported: Rez, Space Channel 5: Part 2, 
+Japanese version of Disaster Report (PS2)<br>
+Can be found for: ~$50 Import only<br>
+Made by: ASCII<br>
+</td>
+</tr>
+<tr>
+<td>Rumble, a cool box<br>
+<br>
+ <a href="https://sites.google.com/site/neotechni/Home/adadpters#TOC-Drivers-for-PC">PC Drivers</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>RIDE</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:114fb11b3d22e0bd&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:114fb11b3d22e0bd" class="disabled" width="200" height="126" border="0"></a></div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported: Tony Hawk RIDE (PS3)<br>
+Obtained: January 8, 2011<br>
+Can be found for: ~$20<br>
+Made by: Activision<br>
+
+Peripheral #: 130
+<br>
+Specific version: PS3<br>
+Other versions: Wii, 360
+&nbsp;
+<br>
+</td>
+</tr>
+<tr>
+<td>Dpad, 7 buttons (Select/Home/X/O/Square/Triangle/Start), player indicator lights, batteries included (requires a screwdriver to install), wireless (USB HID dongle), a cool box, 4 infrared sensors that act as buttons, 2 axis motion sensor<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>RPG Duo Con 2<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1022b53ef97e3dfb&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1022b53ef97e3dfb" class="disabled" width="186" height="200" border="0"></a></div>
+</td>
+<td>Games supported: All PS1/PS2 games, particularly RPGs<br>
+Obtained: October 5, 2010<br>
+Can be found for: ~$30 Import only<br>
+Made by: Dragonplus<br>
+
+Peripheral #: 120
+<br>
+Specific version: Blue (not shown)<br>
+Other versions: Black
+&nbsp;
+<br>
+</td>
+</tr>
+<tr>
+<td>2 dpads (1 is redundant), 2 clickable analog sticks, 12 face buttons (X,O, Square, Triangle, L1, L2, R1, R2, Start, Select, analog mode button, console reset button) rumble, LEDs, clamshell packaging that must be destroyed to open<br>
+<br>
+Unidextrous, ambidextrous</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Saturn Controller<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:4ea54e3aa016d3b0&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:4ea54e3aa016d3b0&amp;attredirects=0" class="disabled" width="320" height="223" border="0"></a></div>
+</td>
+<td>Games supported: Misc PS2 games<br>
+Obtained: October 21, 2018<br>
+Can be found for: $100<br>
+Made by: SEGA<br>
+Peripheral #: 393<br>
+Japanese: PS2用 復刻版 サターンパッド<br>
+Specific version: Beige with colored buttons (Top-right)<br>
+Other versions: Beige with grey buttons, black with black buttons, purple with black buttons, black with black and blue buttons<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 2 shoulder buttons, 6 face buttons, 2 system buttons<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Seaman 2&nbsp;Gold Seamic</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5361ecc7532ed551&amp;attredirects=0" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5361ecc7532ed551" style="display:block;margin-right:auto;margin-left:auto;text-align:center" class="disabled" width="163" height="200"></a>
+</td>
+<td>Games supported: Seaman 2 (PS2)<br>
+Obtained: October 29, 2012<br>
+Can be found for: Gift from Sharkie<br>
+Made by: ASCII/Agetec/Sammy<br>
+Peripheral #: 181-B<br>
+No: 7005037</td>
+</tr>
+<tr>
+<td>1 dpad, 1 non-clickable thumbstick, 6 face buttons, 2 system buttons, 2 shoulder buttons, microphone, USB HID
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Seaman 2 Seamic</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/SMcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/SMcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Seaman 2 (PS2)<br>
+Can be found for: ~$50 Import only with game<br>
+Made by: 
+ ASCII<br>
+<span style="font-size:13.3333330154419px">Peripheral #: 181-A</span>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 1 non-clickable thumbstick, 6 face buttons, 2 system buttons, 2 shoulder buttons, microphone, a cool box, USB HID<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Separate</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:3c143a03364a7fe&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:3c143a03364a7fe&amp;attredirects=0" class="disabled" width="200" height="113" border="0"></a></div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported: All PS2 games<br>
+Obtained: May 13, 2017<br>
+Can be found for: ~$50<br>
+Made by: 
+HORI<br>
+<span style="font-size:13.3333330154419px">Peripheral #: 321<br>
+Specific version: Black (not pictured)<br>
+Japanese: </span><span style="font-family:trebuchet ms;font-size:130%">セパレートコントローラ</span>
+</td>
+</tr>
+<tr>
+<td>Dualshock 2 layout, a switch to control the right analog stick (to act as Left, Right and N which is either neutral or the Dpad), redundant L1/L2 buttons, the controller breaks apart in the middle (only the right side can be used when apart)<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Shadow, The Hedgehog Mini Controller</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/SKcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/SKcont.jpg" border="0"></a></div>
+</td>
+<td>Games supported: All PS1/2 games<br>
+Can be found for: ~$20<br>
+Made by: NubyTech</td>
+</tr>
+<tr>
+<td>1 dpad, 4 shoulders (2 trigger-style), a cool sphere, 4 face buttons, 3 system buttons, 2 clickable thumbsticks<br>
+
+<br>
+<a href="http://www.nubytech.com/" rel="nofollow">Hi res</a> <a href="http://www.behance.net/alfredotato" rel="nofollow">Creator's Website</a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Sharp Shooter</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:57dd0b8ca5373ab3&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:57dd0b8ca5373ab3" class="disabled" width="200" height="97" border="0"></a></div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported: All Move games, Killzone3, SOCOM 4, Time Crisis 4, Dead Space Extraction (PS3)<br>
+Obtained: February 18, 2011<br>
+Can be found for: ~$40<br>
+Made by: Sony <br>
+Peripheral #: 133<br>
+Quantity: 2</td>
+</tr>
+<tr>
+<td>Plugs into the PS Move's EXT port, dual triggers (one is the Move button), Lock for the Move button, adjustable shoulder 
+stock, firing mode selector, realistic pump-action (mechanically pushes Move's trigger), reload button (bottom of the grip), 
+triangle/square (on both sides of the gun) Removable scope (hopefully lets you attach a PSP), a cool box, ambidextrous. (Required a Move and a NavCon)<br>
+<br>
+<a href="http://blog.us.playstation.com/2010/12/09/new-playstation-move-sharp-shooter-attachment/">More Info</a> <a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Sharp-Shooter">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Smart Clip</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:e2f3b1e2502b9a8&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:e2f3b1e2502b9a8&amp;attredirects=0" class="disabled" width="200" height="195" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Misc PS4 and Android games&nbsp;<br>
+Obtained: May 14, 2014<br>
+Can be found for: ~$10<br>
+Made by:  Nyko<br>
+Peripheral #: 238<br>
+</td>
+</tr>
+<tr>
+<td>A small/flimsy clip that attaches a phone to a Dualshock 4 using rubber bands
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Space Invaders 25th Anniversary Controller</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/SIcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/SIcont.jpg" width="200" height="200" border="0"></a></div>
+</td>
+<td>Games supported: Space Invaders 25th Anniversary (PS2)<br>
+Obtained: November 9, 2009<br>
+Can be found for: ~$60 with game, Import only<br>
+Made by:  Taito
+&nbsp;
+<br>
+Peripheral #: 081
+</td>
+</tr>
+<tr>
+<td>
+<div>None. It's more of a holster for a controller, a cool box<br>
+You put a PS2 Dualshock inside of it, and the knobs/buttons use the Dualshocks left and right on the dpad, start, select, and triangle buttons<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Space-Invaders-25th-Anniversary-Con">Review</a><br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Sphere 360</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/spherecont.gif?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/spherecont.gif" width="200" height="189" border="0"></a></div>
+</td>
+<td>Games supported: All PS1 games, NFL Blitz, Forsaken, Duke Nukem: Time to Kill, Descent (PS1), some PS2 games <br>
+Obtained: May 4, 2010<br>
+Can be found for: ~$30<br>
+Made by:  ASCII<br>
+Peripheral #: 097<br>
+</td>
+</tr>
+<tr>
+<td>1 dpad, 6 face buttons, 2 triggers, 2 system buttons, calibration button, mode switch,  track sphere with 6 degrees of freedom, a cool box, training game disc<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Sphere-360">Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Solid Eye</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/solid-eye2.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/solid-eye2.jpg" width="150" height="200" border="0"></a></div>
+</td>
+<td>Games supported: Metal Gear AC!D 2 (PSP)<br>
+Can be found for: ~$30 (with game)<br>
+Made by: Konami</td>
+</tr>
+<tr>
+<td>The game uses this to give the illusion of 3D (like Virtual Boy), by splitting the screen in half <br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Stepper</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;margin-right:auto;margin-left:auto;text-align:center"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:34ae9cb16eee7f3a&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:34ae9cb16eee7f3a" class="disabled" width="200" height="175" border="0"></a></div>
+
+</td>
+<td>Games supported: Happy Diet (PS2)<br>
+Obtained: July 3, 2012<br>
+Can be found for: ~$5 Import only<br>
+Made by: &nbsp;Taito
+<br>
+Peripheral #: 168<br>
+Specific version: Orange (not shown)<br>
+Other versions: Blue&nbsp; <br>
+</td>
+</tr>
+<tr>
+<td>
+<div>A stairmaster controller, with a female controller port to use a controller for menus
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Super Robot Wars/Taisen Controller<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/SRWcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/SRWcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Super Robot Wars, all PS1/PS2 games (particularly RPGs)<br>
+Obtained: November 18, 2009<br>
+Can be found for: ~$60 Import only<br>
+Made by: 
+ HORI<br>
+Peripheral #: 085<br>
+Specific version: Limited Collector's Edition (not shown)<br>
+Other versions: Black (shown)<br>
+Japanese: スーパーロボット大戦コントローラ<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>dpad, 2 clickable thumbsticks and a switch to swap them, 8 face buttons (4 face, 2 system, analog mode button, console reset button) rumble, a cool box, 4 triggers (they are hidden inside the gap on the picture)<br>
+</div>
+<br>
+Unidextrous<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Tactical Assault Commander 3</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" style="text-align:center" width="300"><span><span>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:41417c4e9eb5c951&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:41417c4e9eb5c951" class="disabled" width="200" height="158" border="0"></a></div>
+</span></span></td>
+<td>Genres Supported: FPSs (PS3)<br>
+Can be found for: $99<br>
+Made by: HORI<br>
+Obtained: October 25, 2011<br>
+Peripheral #: 153<br>
+Specific version: Black (not shown)<br>
+Other versions: Best Buy Camouflage (shown)<br>
+</td>
+</tr>
+<tr>
+<td>Converts Mouse/Keyboard movements into standard controller data, a cool box<br>
+Keyboard: 3 meter wire, USB (HID), concave dpad, 12 border-lit buttons, 1 speed setting button, re-assignable buttons via a switch and an indicator LED per button, removable wrist pad. 2 other switches for controlling the speed of the movement when the speed setting button isnt held, and the other for the mouse sensitivity<br>
+Mouse: 1/3 meter wire, 6 buttons (also re-assignable), optical, weighted, a mouse pad<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Tactical-Assault-Commander-3">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Tactical Assault Commander Pro<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" style="text-align:center" width="300"><span><span>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:39f124155c9ec5f1&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:39f124155c9ec5f1&amp;attredirects=0" class="disabled" width="161" height="200" border="0"></a></div>
+
+</span></span></td>
+<td>Genres Supported: FPSs (PS3/PS4)<br>
+Can be found for: $199<br>
+Made by: HORI<br>
+Obtained: November 7, 2016<br>
+Peripheral #: 285<br>
+</td>
+</tr>
+<tr>
+<td>Converts Mouse/Keyboard movements into standard controller data, a cool box, button remapping<br>
+mouse: USB, variable DPI (400-3200) via 2 buttons, optical, 4 buttons, clickable scrollwheel<br>
+keyboard: adjustable wristpad, clickable analog stick, 1 thumb button, 20 backlit (red) face buttons, 1 OS button, clickable touchpad, red LED display for settings<br>
+4 switches (profiles (1/2/3), console (PS3/PS4/PC), stick alignment (right on kb/left on kb), mode (assign/off/adjust))<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Tam Tam Paradise<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" style="text-align:center" width="300"><span><span>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:b38676ae8f726a3&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:b38676ae8f726a3" class="disabled" width="200" height="102" border="0"></a></div>
+
+</span></span></td>
+<td>Genres Supported: Tam Tam Paradise (PS2)<br>
+Can be found for: $20<br>
+Made by: Global A Entertainment<br>
+Obtained: March 11, 2013<br>
+Peripheral #: 191</td>
+</tr>
+<tr>
+<td>2 controllers, each with a big shoulder button, and 2 big face buttons<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>TiltFX<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/tiltfx.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/tiltfx.jpg" width="200" height="169" border="0"></a></div>
+</td>
+<td>Games supported: None<br>
+Obtained: April 16, 2010<br>
+Can be found for: $20<br>
+Made by: Datel<br>
+Peripheral #: 102
+<br>
+Specific version: 2x/3x model<br>
+Other versions: 1x model<br>
+</td>
+</tr>
+<tr>
+<td>Plugs into the headset port, 3 axis motion sensing, reconfigurable profiles<br>
+<br>
+Completely non-functional, blocks sound as well.<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Tiny Bee</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/FFcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/FFcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: Final Fantasy X-2, All PS1/ most PS2 games<br>
+Obtained: ~December 20, 2006<br>
+Can be found for: ~$300 Import only<br>
+Made by: HORI<br>
+Specific version: First run (red box)<br>
+Other versions: Second run (silver box) for Final Fantasy X-2: International + Last Mission<br>
+Favorite<br>
+</td>
+</tr>
+<tr>
+<td>4 triggers, 1 dpad, a clickable thumbstick, 4 buttons, 2 system buttons and a cool box and base, Removable cables<br>
+<br>
+
+The (thick) wires connect to the bottom of the gun handles via an old keyboard style connector (pre-PS/2) they then connect to a small box with a switch on it, which controls which stick the analog stick acts as<br>
+<br>
+<a href="http://ps2media.ign.com/ps2/image/diagram_inline.jpg" rel="nofollow">Hi res</a> <a href="http://www.play-asia.com/SOap-23-83-kzl-71-m-49-en-15-tiny+bee-84-j-70-25w.html" rel="nofollow"></a><a href="https://sites.google.com/site/neotechni/Home/faq#TOC-FFX2-Tiny-Bee-Controller">My Review</a>&nbsp;<a href="https://sites.google.com/site/neotechni/Home/supported#TOC-HORI-Tiny-Bee">More Information</a> (about key settings)<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+      
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>TopDrive Space Wheel<span style="font-size:10pt;font-weight:normal;background-color:transparent">&nbsp;</span></h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:45f8f0fd2064f783&amp;attredirects=0" imageanchor="1" style="font-size:13.3333px;background-color:rgb(255,255,255)" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:45f8f0fd2064f783&amp;attredirects=0" style="display:block;margin-right:auto;margin-left:auto;text-align:center" class="disabled" width="180" height="200" border="0"></a>
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+</td>
+<td>
+<div style="display:block;text-align:left"><span style="font-size:10pt;background-color:transparent">Games supported: Racing games (PS1/PS2)</span></div>
+Obtained: June 2, 2016<br>
+Can be found for: ~$90<br>
+Made by:&nbsp;Logic3<br>
+Peripheral #: 271</td>
+</tr>
+<tr>
+<td>dpad, 4 face buttons, 2 system buttons,analog mode toggle, 4 triggers, 2 foot pedals, tiltable steering wheel
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+      
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Top Shot Elite<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1a5846fa8a80d456&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1a5846fa8a80d456" class="disabled" width="200" height="81" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: Cabela’s Dangerous Hunts 2011 (PS3)<br>
+Obtained: October 29, 2010<br>
+Can be found for: ~$90<br>
+Made by: Activision<br>
+Peripheral #: 122
+
+<br>
+Specific version: PS3<br>
+Other versions: 360, Wii<br>
+</td>
+</tr>
+<tr>
+<td>dpad, 2 depressable analog sticks, trigger, X/O/Triangle/Square/PS/Start/Select, pump-action reloader, Wireless Sensor bar/pointing device with automatic shut-off timer, a cool box, display-independent lightgun (SD and HD), wireless (USB dongle, can be hidden inside the scope), removable stock and scope, batteries included (needs a screwdriver to open), wrist strap, USB HID (buttons/analog sticks only, not the pointing device)<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-Top-Shot-Elite">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Trigger Grips<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:46743dad81a30238&amp;attredirects=0" imageanchor="1" class="disabled"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1e704e0d1e30d3d6&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1e704e0d1e30d3d6" class="disabled" width="200" height="166" border="0"></a></div>
+</div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+
+</div>
+</td>
+<td>Games Supported: All Vita games (PSP2)<br>
+Obtained: April 4, 2012<br>
+Can be found for: ?<br>
+Made by: Pdp<br>
+Peripheral #: 161<br>
+</td>
+</tr>
+<tr>
+<td>
+A shell for Vita that makes it more comfortable to hold<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>TurboFire<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:67f5aaae993bfa8e&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:67f5aaae993bfa8e&amp;attredirects=0" class="disabled" width="200" height="165" border="0"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:46743dad81a30238&amp;attredirects=0" imageanchor="1" class="disabled"></a>
+
+</div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+
+</div>
+</td>
+<td>Games Supported: All PS3 games<br>
+Obtained: May 29, 2020<br>
+Can be found for: 40<br>
+Made by: Datel<br>
+Peripheral #: 427<br>
+</td>
+</tr>
+<tr>
+<td>A standard dualshock layout, an LCD for changing settings, uses 2xAA batteries (not included) uses the XBOX360 battery pack, not compatible with the VitaTV<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>uDraw Game Tablet II<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:46743dad81a30238&amp;attredirects=0" imageanchor="1" class="disabled"></a>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5b34247e4a8cd0e1&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:5b34247e4a8cd0e1" class="disabled" width="200" height="114" border="0"></a></div>
+</div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
+
+</div>
+</td>
+<td>Games Supported: uDraw Studio Instant Artist (PS3)<br>
+Obtained: November 15, 2011<br>
+Can be found for: $30<br>
+Made by: THQ<br>
+Peripheral #: 155<br>
+Specific version: PS3<br>
+
+Other versions: 360, Wii<br>
+</td>
+</tr>
+<tr>
+<td>
+A wireless (via a USB dongle which can be stored inside the battery compartment) multitouch, <span><span>2000x1600, active-digitizer (stylus) tablet with </span></span>built-in tilt sensors, dpad, 4 face buttons, Start/Select/Home, takes 3 AA batteries (not included)<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-uDraw-Game-Tablet-II">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+
+
+
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>UltraRacer</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:2ab3d9107735fc9a&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:2ab3d9107735fc9a&amp;attredirects=0" class="disabled" width="200" height="158" border="0"></a></div>
+
+</td>
+<td>Games supported: Racing games (PS1)<br>
+Obtained: March 8, 2017<br>
+Can be found for: Gift<br>
+Made by: Performance<br>
+Peripheral #: 306<br>
+Specific version: PS1<br>
+
+Other versions: N64<br>
+<br>
+</td>
+</tr>
+<tr>
+<td>Wheel, 12 face buttons (4 act as the triggers, 4 are unknown, 4 are A/B/L/I or II (toggle-able via a switch) which implies it is NegCon compatible), 2 system buttons, 1 bi-directional trigger, wheel<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>USB Headset<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/vantage.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/vantage.jpg" width="200" height="168" border="0"></a></div>
+</td>
+<td>Games supported: Lifeline (PS2)<br>
+Can be found for: ~$10<br>
+Made by: Logitech<br>
+</td>
+</tr>
+<tr>
+<td>A simple USB headset</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Volume Controller<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="https://sites.google.com/site/neotechni/Home/playstation/NVcont.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/NVcont.jpg" border="0"></a></div>
+</div>
+</td>
+<td>Games supported: <a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS1-Jogcon-neGcon-SLEH-0003-Volume-">List</a> (PS1)<br>
+Can be found for: ~$25 Import only<br>
+Made by:  Namco<br>
+Specific version: Green/Purple (not shown)<br>
+Other versions: White<br>
+</td>
+</tr>
+<tr>
+<td>2 buttons, analog jog wheel, a cool box, Unidextrous, Ambidextrous
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+</p>
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>V-Pick<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1205668de9c02867&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:1205668de9c02867" class="disabled" width="200" height="161" border="0"></a></div>
+<div style="display:block;text-align:left">
+
+</div>
+</td>
+<td>Games supported: Stolen Song (PS1 or 2?)<br>
+Obtained: March 11, 2013<br>
+Can be found for: ~$?<br>
+Made by: ?<br>
+
+
+Peripheral #: 194
+</td>
+</tr>
+<tr>
+<td>I don't even know...<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>V3 Steering Wheel 2<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:443d9f6aaeaa992" style="display:block;margin-right:auto;margin-left:auto;text-align:center" class="disabled" width="200" height="145">
+</td>
+<td>Games Supported: Racing games (PS1)<br>
+Obtained: April 1, 2016<br>
+Can be found for: ~$15<br>
+Made by: Interact<br>
+Peripheral #: 142-B
+</td>
+</tr>
+<tr>
+<td>
+<div>A steering wheel with 2 foot pedals, a dpad, 8 face buttons, turbo and remapping buttons
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Wildfire Gaming Dock<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:295964d928e41f5d&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:295964d928e41f5d&amp;attredirects=0" class="disabled" width="200" height="150" border="0"></a></div>
+
+</td>
+<td>Games supported: PSP (2000/3000 models only)<br>
+Obtained: July 30, 2013<br>
+Can be found for: ~$100<br>
+Made by: Datel<br>
+
+
+Peripheral #: 207<br>
+Specific version: White (not pictured)<br>
+Other versions: Multiple colors<br>
+</td>
+</tr>
+<tr>
+<td>Lets you use PS2 (but not PS1) controllers on (a non-hacked) PSP, has AC-adapter and TV-out bypass connectors (so you can charge it and use TV-out at the same time)<br>
+</td>
+</tr>
+
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Wired Controller Light<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:1953d809e4b8b977&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:1953d809e4b8b977&amp;attredirects=0" class="disabled" width="200" height="200" border="0"></a></div>
+
+
+</td>
+<td>Games supported: PS4 games that don't need the trackbar or touchpad's X/Y coordinates<br>
+Obtained: January 25, 2018<br>
+Can be found for: ~$40<br>
+Made by: HORI<br>
+
+
+Peripheral #: 357<br>
+Specific version: Dragon Warrior/Quest Slime<br>
+Other versions: White, Blue, Black, Red<br>
+</td>
+</tr>
+<tr>
+<td>4 triggers, touchpad button (doesn't detect X/Y coordinates though, similar to the button on the Aim controller), 4 face buttons, Share/Options/PS, dpad, 2 clickable analog thumbsticks, wired via USB<br>
+</td>
+</tr>
+
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Wireless Adventure Pad<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:724c96130d90f6ec&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:724c96130d90f6ec&amp;attredirects=0" class="disabled" width="175" height="200" border="0"></a></div>
+
+</td>
+<td>Games supported: PS3<br>
+Obtained: March 8, 2017<br>
+Can be found for: Gift<br>
+Made by: Sony
+&nbsp;
+<br>
+
+
+Peripheral #: 309<br>
+Specific Version: Pink<br>
+Other Versions: Blue<br>
+</td>
+</tr>
+<tr>
+<td>
+<div>4 triggers, 2 clickable analog sticks, dpad, 4 face buttons, 2 system buttons, 1 OS button, takes 2xAA batteries (not included), wireless via dongle, battery compartment needs a screwdriver<br>
+</div>
+</td>
+</tr>
+
+</tbody>
+</table>
+<p>
+
+</p>
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Wireless Keypad</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/keypad.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/keypad.jpg" width="200" height="167" border="0"></a></div>
+</td>
+<td>Games supported: PS3 and PC<br>
+Obtained: January 14, 2009 (Sold Killzone 2 to pay for it)<br>
+Can be found for: ~$40<br>
+Made by: Sony
+&nbsp;
+<br>
+
+
+Peripheral #: 063
+</td>
+</tr>
+<tr>
+<td>
+<div>54 buttons (2 shoulder, 3 system, 49 alpha-numeric) touch/track pad, wireless (Bluetooth), USB charging built in battery, clamshell casing that must be destroyed to open<br>
+</div>
+<div>&nbsp;</div>
+<div><a href="https://sites.google.com/site/neotechni/Home/faq#TOC-PS3-Wireless-Keypad-Keyboard">My Review</a>&nbsp;<a href="https://sites.google.com/site/neotechni/Home/supported#TOC-PS3-Wireless-Keypad">More Information</a>&nbsp;(about key settings)
+</div>
+</td>
+</tr>
+
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Wireless Motion Racing Wheel<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:3b09617714acc939&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:3b09617714acc939&amp;attredirects=0" class="disabled" width="200" height="174" border="0"></a></div>
+
+</td>
+<td>Games supported: Racing games (PS3)<br>
+Obtained: March 8, 2017<br>
+Can be found for: Gift<br>
+Made by: KidzPLAY<br>
+
+
+Peripheral #: 310<br>
+Specific Version: Pink<br>
+Other Versions: Blue</td>
+</tr>
+<tr>
+<td>
+<div>4 digital triggers (L1/R1 on the back of the middle part, L2/R2), 2 analog triggers (act as L2/Square and R1/X) disc dpad, 4 face buttons, 2 system buttons, 1 OS button, takes 2xAA batteries (not included), wireless via dongle, battery compartment needs a screwdriver, motion sensing<br>
+</div>
+</td>
+</tr>
+
+</tbody>
+</table>
+<p>
+
+</p>
+
+  
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>WonderWave</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/playstation/wwave.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/wwave.jpg" width="111" height="200" border="0"></a></div>
+</div>
+</div>
+</td>
+<td>Games supported: Digimon <font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">Digital Partner, SD Gundam Eiyuden Musya (WS)<br>
+Obtained: </font>November 9, 2009<br>
+Can be found for: ~$15 with a game,  Import only<br>
+Made by: Bandai
+&nbsp;
+<br>
+Peripheral #: 082
+</td>
+</tr>
+<tr>
+<td>Adds an infrared port to the WonderSwan to allow wireless communication with PocketStation and other WonderSwans, a cool box<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+<p>
+
+
+
+
+</p>
+
+
+
+
+
+
+
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Wonder Book</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;margin-right:auto;margin-left:auto;text-align:center"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3a4fd10c1a51820a&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:3a4fd10c1a51820a" class="disabled" width="146" height="200" border="0"></a></div>
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+</td>
+<td>Games supported: Harry Potter: Book of Spells (PS3)<font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000"><br>
+Obtained: December 19, 2012</font><br>
+Can be found for: ~$59 with a game, PSeye and Move<br>
+Made by: Sony<br>
+Peripheral #: 185</td>
+</tr>
+<tr>
+<td>A large hard-cover book of 14 augmented reality tracking tags<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>X1 Analog Stick Caps<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:3d0da09b57a9797&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:3d0da09b57a9797&amp;attredirects=0" class="disabled" width="200" height="124" border="0"></a></div>
+
+
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+</td>
+<td>Games supported: PS4 games<br>
+Obtained: November 23, 2016<br>
+Installed: December 3, 2016<br>
+Can be found for: ~$4<br>
+Made by: MicroSoft<br>
+Peripheral #: 293</td>
+</tr>
+<tr>
+<td>Replacement analog stick caps for XBOX1 controllers, that also fit in PS4 controllers<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Xccelerator</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:4e5b7bb2143f95d5&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/emhbackupmodule/system/errors/NodeNotFound?suri=wuid://defaultdomain/emhbackupmodule/gx:4e5b7bb2143f95d5&amp;attredirects=0" class="disabled" width="200" height="145" border="0"></a></div>
+
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+</td>
+<td>Games supported: PS1/PS2 driving games<br>
+Obtained: May 12, 2014<br>
+Can be found for: ~$20<br>
+Made by: InterAct<br>
+Peripheral #: 237</td>
+</tr>
+<tr>
+<td>A steering wheel, 3 system buttons, dpad, 4 face button, the right handle is a throttle, 2 brake handlebars/flippers (the left one clicks)<br>
+It's powered which implies it has forcefeed back of some sort (rumble or the ability to turn itself) and what appears to be a light on top
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2 style="text-align:center">XFPS Fire<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/hires/aimtrak.jpg?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/neotechni/Home/hires/XFPS%20light%20gun%20fire.2.gif?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/hires/XFPS%20light%20gun%20fire.2.gif" width="200" height="150" border="0"></a></div>
+</div>
+</div>
+ </td>
+<td>
+Games supported: All PS3 games, particularly FPSs<br>
+Obtained: July 6, 2010 <br>
+Can be found for: ~$90<br>
+Made by: XCM<br>
+Specific version: PS3<br>
+Other versions: PC, 360<br>
+Peripheral #: 105<br>
+</td>
+</tr>
+<tr>
+<td>
+
+2 clickable analog thumbsticks, dpad, 3 triggers (one of which is used to ignore IR sensor data), 10 buttons (start/select/home, R1/L2/Face buttons/System), 
+SIXAXIS, USB, works as a standard HID controller instead of a lightgun (ie: 
+maps the aiming/motion sensing to the right analog stick) Turbo switch, detachable left-hand grip, USB sensor bar, a cool box<br>
+<br>
+<a href="http://gizmodo.com/5450173/xcm-ps3-motion-control-light-gun-addresses-consoles-wii-complex" rel="nofollow">More Information</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2 style="text-align:center">XtendPlay<br>
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:70c8ab29b725fb2d&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:70c8ab29b725fb2d" class="disabled" width="177" height="200" border="0"></a></div>
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/hires/aimtrak.jpg?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+ </td>
+<td>
+Games supported: All PS3 games<br>
+Obtained: May 3, 2011<br>
+Can be found for: ~$20<br>
+Made by: Xwerx<br>
+Specific version: PS3<br>
+Other versions: 360 (Green)<br>
+Peripheral #: 140<br>
+Quantity: 3
+</td>
+</tr>
+<tr>
+<td>
+
+A silicone skin or plastic clip-on thing for Dualshock3 or XBOX360 controllers to make them more ergonomic<br>
+Similar to my ErgoShock idea that I submitted to DreamGear and they rejected<br>
+<br>
+<a href="http://www.xwerxonline.com/products/xtend-play-for-playstation" rel="nofollow">More Information</a> <a href="https://sites.google.com/site/neotechni/Home/faq#TOC-XtendPlay">My Review</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2 style="text-align:center">Yamaha Racing MX-1 Motocross Jetski ATV controller 
+</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:7db96897e98bc4c7&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/vkwidgetskins/system/errors/NodeNotFound?suri=wuid://defaultdomain/vkwidgetskins/gx:7db96897e98bc4c7" class="disabled" border="0"></a></div>
+
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/hires/aimtrak.jpg?attredirects=0" imageanchor="1"></a>
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+ </td>
+<td>
+Games supported: PS2 Racing games<br>
+Obtained: May 4, 2017<br>
+Can be found for: ~$30<br>
+Made by: Yamaha<br>
+Peripheral #: 316<br>
+</td>
+</tr>
+<tr>
+<td>Switch to control the lights, dualshock layout (with Start/Select/Mode buttons that look like metal bolts) but without the 2 analog sticks, 2 flippers, steering wheel, rotating grip<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Zero Tech</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;margin-right:auto;margin-left:auto;text-align:center">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:76484a8ac9bd0363&amp;attredirects=0" imageanchor="1" class="disabled"><img src="https://sites.google.com/site/programalpha11/system/errors/NodeNotFound?suri=wuid://defaultdomain/programalpha11/gx:76484a8ac9bd0363&amp;attredirects=0" class="disabled" width="200" height="200" border="0"></a></div>
+</div>
+<div style="display:block;text-align:left">
+<div style="display:block;text-align:left">
+
+</div>
+</div>
+</td>
+<td>Games supported: Various racing games (PS1)<font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000"><br>
+Obtained: En route</font><br>
+Can be found for: ~$8<br>
+Made by: HORI<br>
+Peripheral #: 233</td>
+</tr>
+<tr>
+<td>mini-steering wheel, 2 triggers, dpad, 4 face buttons, 1 system button, range switch<br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+
+
+
+</p>
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2 style="text-align:center">ZXE-D: Legend of Plasmalite</h2>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="300">
+<div style="display:block;text-align:left"><a href="https://sites.google.com/site/neotechni/Home/playstation/ZXEmem2.jpg?attredirects=0" imageanchor="1"><img src="https://sites.google.com/site/neotechni/Home/playstation/ZXEmem2.jpg" width="320" height="240" border="0"></a></div>
+</td>
+<td>Games supported: <font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">ZXE-D: Legend of Plasmalite (PS1)<br>
+Obtained: </font>January 6, 2010<br>
+Can be found for: ~$15 with a game,  Import only<br>
+Made by: Bandai<br>
+Peripheral #: 081<br>
+UPC: 4902425 49379 4<br>
+Favorite<br>
+</td>
+</tr>
+<tr>
+<td>2 memory card like devices that plug into an original model PS1 only that tell the game how you've assembled your custom mech based on what parts you used<br>
+<br>
+<a href="https://sites.google.com/site/neotechni/Home/faq#TOC-ZXE-D:-Legend-of-Plasmalite">My Review</a>&nbsp;<a href="http://www.ncsx.com/www/zxed/zxed.htm" rel="nofollow">More Information</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+
+
+<table style="border-color:rgb(173,216,230);border-width:3px;border-collapse:collapse" width="100%" cellspacing="0%" cellpadding="0" bordercolor="#add8e6" border="3" bgcolor="white">
+
+<tbody>
+<tr>
+<td colspan="2" bgcolor="lightblue" align="center">
+<h2>Misc/Common/Adapters</h2>
+</td>
+</tr>
+
+<tr>
+<td>PS1</td>
+<td>Original Controller, Dual Shock 1<br>
+PS1 can use any PS2 controller (that doesn't use USB)<br>
+</td>
+</tr>
+<tr>
+<td>PS2</td>
+<td>Dual Shock 2<br>
+PS2 can use any PS1 controller<br>
+</td>
+</tr>
+<tr>
+<td>PS3</td>
+<td>SIXAXIS, Bluray remote<br>
+Adapter for: Playstation 1 &amp; 2 (memory card)<br>
+PS3 can use any of the PC USB HID compliant adapters<br>
+</td>
+</tr>
+<tr>
+<td>PSP</td>
+<td>Grip (adds dualshock's wings+rechargeable battery), PlayGear protective case for original PSPs, transparent cases for Slim PSPs, component cable, composite+Svideo cable, PSP Go A/V Cradle/Dock<br>
+Adapter for: Micro SD cards<br>
+</td>
+</tr>
+
+</tbody>
+</table>
+<p>
+
+
+</p>

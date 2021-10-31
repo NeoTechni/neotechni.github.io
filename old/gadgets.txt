@@ -1,0 +1,168 @@
+
+Changes that you make here won't be reflected in the converted site.Learn moreOpen new site
+Gadgets Updated 21 Feb 2019, 02:16
+Techni's Controller and Peripheral Museum
+Techni's Controller and Peripheral Museum
+	
+Navigation
+
+    Home
+        As seen on TV
+        Chronologically
+        Chronologically II
+        FAQs
+        Gadgets
+        LCARS
+        My Programs
+        Other Collectors
+        Photo Gallery
+        Reviews
+        Supported Games
+        Wanted
+    Apps & Drivers
+    Collectibles
+    Other
+    Nintendo
+    PC+Android
+    PlayStation
+    Sega
+    Systems
+    XBOX
+
+	
+Home‎ > ‎
+Gadgets
+These are devices I own that don't really count as novelty peripherals
+
+Contents
+
+    1 Canary Security Camera
+    2 Consoles
+    3 Handhelds
+    4 Harmony 525 Remote
+    5 HDMI cable for PS1/PS2
+    6 Jumpgate
+    7 Micro Controllers/Computers
+    8 Projector
+    9 Tablets
+
+
+Canary Security Camera
+	Can be found for: ~$100
+Made by: Canary
+A 1080p HD camera with nightvision, 90 decibel siren, climate monitor, ethernet, wifi, indicator ring light on the bottom, a headphone port for a secure direct connection to your phone for authorization purposes
+Connects to the internet to warn you when motion is detected
+
+Consoles
+
+	PS1
+
+	PStwo
+
+	PS3 slim
+
+	NES
+
+	SNES
+
+	N64
+
+	Gamecube
+
+	Wii
+  	XBOX
+  	XBOX360
+  	Saturn
+  	Dreamcast
+
+Handhelds
+
+	PSP (1K)
+
+	Vita (1K)
+
+	Gameboy Color (Clear Purple, Turquoise)
+
+	Gameboy Advance (Purple)
+
+	Game Gear
+
+	NeoGeo Pocket Color (Grey)
+
+Harmony 525 Remote
+	Can be found for: ~$100
+Made by: Logitech
+A programmable IR remote with learning capabilities and a miniUSB port
+47 backlit buttons and monochrome LCD, triggered by a motion sensor
+Takes 4xAAA batteries
+
+HDMI cable for PS1/PS2
+	Can be found for: ~$30
+Made by: Pound
+Obtained: January 20, 2019
+Converts PS1/PS2 AV output in RGB mode to 720p HDMI (meaning it does not support HD resolutions on the PS2)
+Powered by a microUSB port (meaning it requires a separate power source for PS1)
+
+Jumpgate
+	Can be found for: ~$50
+Made by: Kickstarter
+Obtained: February 8. 2019
+Specific version: NES-themed
+Other versions: Plain, Famicom, Super NES, Super Famicom
+The Core adds: 2 USB 3.0 master ports, HDMI out, microSD and full SD slots, connects to the Switch or cellphones via USB-C, and charges via USB-C
+The Dock: press on the large top surface to make it pop up/down to add more stability to the Switch, connects to the Core's USB-C connector and extends it to the Switch's USB-C port
+
+Micro Controllers/Computers
+
+	Digistump Oak
+
+	Stellaris Launchpad
+
+	HC6811
+
+	Pine A64
+
+	Digispark
+
+	KADE miniArcade (which once used, would count as a controller)
+
+	Raspberry Pi Zero (both the original, and Wifi+Bluetooth model)
+
+	Onion Omega2
+
+Projector
+	Obtained: Jan 6, 2019
+Can be found for: ~$80
+Made by: RCA
+An 800×480 LED projector with HDMI, VGA, composite (via 3.5mm headphone connector) inputs, microSD slot, USB port
+
+Tablets
+	Nexus 7 (2012)
+Specific version: 32 GB with 3g
+1 GB RAM, wifi, bluetooth, micro USB port, NFC, 7" 1280×800 capacitive LCD, POGO pins for a dock, magnetic sensor to detect when it's case is closed, GPS
+Came with Android 4.1
+	Galaxy Tab p1000
+Specific version: 32 GB with 3g
+512 MB RAM, wifi, bluetooth, 1024×600 capacitive LCD, proprietary Samsung connector (capable of USB data/power, component/composite out), microSD slot, GPS
+Came with Android 2.3
+	Blackberry Playbook
+Specific version: I forget...
+1 GB RAM, wifi, bluetooth, 1024×600 capacitive LCD, microUSB port, mini HDMI port, capacitive bezel
+Can also run Android apps
+
+	Amazon Fire HD
+The box: outputs at 720p/1080p via HDMI, ethernet, wifi, bluetooth, powered via AC adapter, 2 GB RAM, 8 GB flash, microSD slot, 1 USB master port (can also act as a slave port with a USB A-A cable, for development)
+The remote: connects via bluetooth, takes 2xAAA batteries, has a microphone, dpad with a button in the middle, 7 buttons
+Runs Android
+	Linx Vision 8
+Can be found for: $100
+Obtained: January 20, 2019
+1280x800 capacitive LCD, 1 GB RAM, 32 GB flash, microSD slot, capacitive Windows button
+2 USB ports (the microUSB port for charging supports USB OTG, and POGO pins for connecting the controller)
+Runs Windows 8.1
+
+Č
+Comments
+You do not have permission to add comments.
+
+Recent Site Activity|Report Abuse|Print Page|Remove Access|Powered By Google Sites

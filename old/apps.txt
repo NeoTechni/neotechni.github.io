@@ -1,0 +1,107 @@
+	ActionReplayGBA.zip
+Download 	Drivers and software for the GBA Action Replay/GameShark  	2382k 	v. 1 	May 10, 2011, 7:00 PM 	Techni Myoko
+
+	ARDSfirmware1.55.bin
+Download 	Action Replay DS Firmware 1.55 (Needed for new Pokemon games)  	217k 	v. 1 	Jan 18, 2013, 2:08 AM 	Techni Myoko
+
+	chocobo.rar
+Download 	Chocobo World from Final Fantasy 8  	763k 	v. 3 	May 1, 2010, 8:47 PM 	Techni Myoko
+
+	DCLink20.zip
+Download 	Drivers for the DCLink Nexus memory card cable  	440k 	v. 1 	May 8, 2011, 5:44 PM 	Techni Myoko
+
+	DexDriveDexter.zip
+Download 	Fan-made Dex Drive software  	211k 	v. 2 	May 1, 2010, 8:54 PM 	Techni Myoko
+
+	DexDriveOriginal.zip
+Download 	Version 1 of InterAct's DexDrive software (less bloated)  	2000k 	v. 3 	May 1, 2010, 8:50 PM 	Techni Myoko
+
+	DexDrivePSXGameEdit.zip
+Download 	Software that works with multiple PS1 memory card adapters. Lets you edit icons.  	364k 	v. 2 	May 1, 2010, 8:51 PM 	Techni Myoko
+
+	DexDriveUpdated.zip
+Download 	Version 2 of InterAct's DexDrive software  	8844k 	v. 2 	May 1, 2010, 8:50 PM 	Techni Myoko
+
+	DS3Remapper.zip
+Download 	A plugin for PSP go to let it use the right analog stick of a Dualshock 3  	89k 	v. 1 	Jan 27, 2015, 4:32 PM 	Techni Myoko
+
+	DualShock3.zip
+Download 	SIXAXIS/DualShock 3 drivers  	16k 	v. 2 	May 1, 2010, 8:49 PM 	Techni Myoko
+
+	FusaGamePad.zip
+Download 	Lets you use PSP as a controller for PC/PS3 games  	73k 	v. 2 	May 1, 2010, 8:49 PM 	Techni Myoko
+
+	FuSaSD.zip
+Download 	Lets you play PSP games using TV out on interlaced displays, and fullscreen (PSP 2000 models only) (Press both volume buttons to open the menu)  	108k 	v. 2 	May 1, 2010, 8:49 PM 	Techni Myoko
+
+	GameboyPrinter.zip
+Download 	Emulates the GB Printer  	357k 	v. 1 	May 7, 2010, 3:58 PM 	Techni Myoko
+
+	hidtopgun.inf
+Download 	HID TopGun setup INF for Vista/Win7  	5k 	v. 1 	May 3, 2010, 8:05 PM 	Techni Myoko
+
+	HORIFlightStick2.zip
+Download 	Drivers for the Ace Combat 5 (PS2) FlightStick  	84k 	v. 2 	May 1, 2010, 8:51 PM 	Techni Myoko
+
+	Intel wireless series.zip
+Download 	XP drivers for the Intel wireless base station  	1246k 	v. 1 	Jun 28, 2013, 12:10 AM 	Techni Myoko
+
+	joystick.prx
+Download 	SEplugin (for custom firmware) for the DOSO PSW-303 (PSP)  	17k 	v. 1 	Aug 14, 2013, 12:27 AM 	Techni Myoko
+
+	NVIDIA-UN-3DTV.inf
+Download 	Allows use of the PS3 3DTV with Nvidia 3DPLAY software http://us.download.nvidia.com/Windows/3dtv_play/NVIDIA_3DTV_Play_Activation_Utility.exe  	3k 	v. 2 	Mar 5, 2019, 8:50 PM 	Techni Myoko
+
+	paddle.xml
+View Download 	Action Replay codes for using the Arkanoid Wheel on Mario Kart DS, and the dpad/buttons in Legend of Zelda: Phantom Hourglass  	6k 	v. 3 	Aug 14, 2013, 10:30 PM 	Techni Myoko
+
+	PocketStationGames.rar
+Download 	Some PocketStation games  	3035k 	v. 2 	May 1, 2010, 8:53 PM 	Techni Myoko
+
+	PocketStationLab.zip
+Download 	Lets you extract PocketStation games from DexDrive/GME saves, and emulate them on PC  	899k 	v. 2 	May 1, 2010, 8:49 PM 	Techni Myoko
+
+	pokerumbleu.zip
+Download 	  	15k 	v. 1 	Aug 29, 2013, 9:53 PM 	Techni Myoko
+
+	PS3memorycard.rar
+Download 	Software and drivers for the PS3 memory card adapter (PS1 saves only)  	332k 	v. 1 	Jan 18, 2013, 2:05 AM 	Techni Myoko
+
+	ps4auth.key
+Download 	Move to the TITAN TWO folder on the SD card to no longer need a PS4 controller for authorization.  	1k 	v. 1 	Jun 10, 2018, 7:14 PM 	Techni Myoko
+
+	PSeye.rar
+Download 	Drivers for PSEye (PS3)  	462k 	v. 2 	May 1, 2010, 8:52 PM 	Techni Myoko
+
+	PSPdisp.zip
+Download 	Lets you use PSP as a second monitor (XP/Vista/7)     	7702k 	v. 5 	Feb 15, 2011, 10:38 PM 	Techni Myoko
+
+	RemoteJoyLite.zip
+Download 	Lets you use a controller connected to your PC, to control your PSP. As well as send video to your PC monitor  	122k 	v. 2 	May 1, 2010, 8:48 PM 	Techni Myoko
+
+	RemotePlayPatch.zip
+Download 	Allows any PC to connect to PS3 for RemotePlay  	367k 	v. 1 	Jun 18, 2010, 2:21 PM 	Techni Myoko
+
+	REZ.zip
+Download 	Drivers and a test app for the Rez Trance Synthesia device  	323k 	v. 4 	Apr 18, 2015, 4:56 AM 	Techni Myoko
+
+	SixaxisPairTool.zip
+Download 	Lets you tell a PS3 controller what Bluetooth MAC to pair with  	228k 	v. 1 	Aug 8, 2011, 10:18 PM 	Techni Myoko
+
+	SteelBattalionDriver_0.2.zip
+Download 	Modern Drivers for the Steel Battalion Behemoth controller (XBOX)   	17k 	v. 1 	Sep 19, 2019, 4:47 PM 	Techni Myoko
+
+	SteelBattalion.zip
+Download 	Drivers for the Steel Battalion Behemoth controller (XBOX)  	93k 	v. 2 	May 1, 2010, 8:53 PM 	Techni Myoko
+
+	TrioLinkerPlusII.zip
+Download 	Drivers for the Trio Linker Plus II adapter (multi)  	772k 	v. 2 	May 1, 2010, 8:53 PM 	Techni Myoko
+
+	uDraw.zip
+Download 	Drivers for the PS3 uDraw GameTablet  	161k 	v. 2 	May 8, 2012, 5:40 AM 	Techni Myoko
+
+	Wildfire.zip
+Download 	The eboot needed for the Wildfire gaming dock for PSP. Extract it into the ?:\PSP\GAME folder  	920k 	v. 1 	Aug 2, 2013, 1:45 AM 	Techni Myoko
+
+	XBOX.zip
+Download 	Drivers for Original XBOX controllers and the InfraRed/Remote Control adapter  	724k 	v. 2 	Aug 20, 2012, 4:04 PM 	Techni Myoko
