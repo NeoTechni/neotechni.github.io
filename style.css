@@ -1,6 +1,8 @@
 #favicon{
 	margin-bottom: 0px;
-	background-color: #add8e6;
+	margin-top: 0px;
+	padding-top: 0px;
+	border: none;
 }
 .table{
 	border: 3px solid #add8e6;
