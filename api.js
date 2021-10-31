@@ -609,13 +609,20 @@ function enum_controllers_by_console(consoles = false, include = true){
 function make_controller(controller = false, stat = false, name = false){
 	var HTML = "";
 	if(stat !== false){
-		if(controller.hasOwnProperty(stat)){
+		if(controller.hasOwnProperty(stat) && controller[stat]){
 			if(name){
 				HTML = "<B>" + name + "</B>: "
 				switch(stat){
-					case "cost": HTML += "~$"; break;
+					case "cost": 
+						HTML += "~$" + controller[stat]; 
+						if(controller.hasOwnProperty("importOnly")){
+							HTML += " (Import Only)";
+						}
+						break;
+					default:
+						HTML += controller[stat];
 				}
-				HTML += controller[stat] + "<BR>";
+				HTML += "<BR>";
 			} else {
 				HTML = nl2br(controller[stat]);
 			}
@@ -638,8 +645,14 @@ function make_controller(controller = false, stat = false, name = false){
 		switch(style){
 			case "normal":
 				HTML = '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
-				HTML += '<TABLE CLASS="table"><TBODY><TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR><TD ROWSPAN="2" CLASS="image">';
-				HTML += '<IMG SRC="/images/' + controller.peripheral + '.jpg" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + controller.peripheralName + '">';
+				HTML += '<TABLE CLASS="table"><TBODY><TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR>';
+				HTML += '<TR><TD ROWSPAN="2" CLASS="image">';
+				HTML += makeimg(controller.peripheral + '.jpg', controller.peripheralName);
+				if(controller.hasOwnProperty("images")){
+					for(var i = 0; i < controller.images.length; i++){
+						HTML += makeimg(controller.images[i], controller.peripheralName);
+					}
+				}
 				HTML += '</TD><TD CLASS="controllerinfo top">';
 				HTML += make_controller(controller, "peripheral", 	"Peripheral ID");
 				HTML += make_controller(controller, "games", 		"Games Supported");
@@ -656,6 +669,10 @@ function make_controller(controller = false, stat = false, name = false){
 		}
 	}
 	return HTML;
+}
+
+function makeimg(filename, description){
+	return '<IMG SRC="/images/' + filename + '" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + description + '">';
 }
 
 function imgError(image) {
