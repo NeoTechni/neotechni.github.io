@@ -124,7 +124,7 @@ footer{
 }
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #add8e6;
   color: white;
 }
 .modal-body {
@@ -135,7 +135,7 @@ footer{
   visibility: hidden; /* Hidden by default. Visible on click */
   min-width: 250px; /* Set a default minimum width */
   margin-left: -125px; /* Divide value of min-width by 2 */
-  background-color: #5cb85c; /* background color */
+  background-color: #add8e6; /* background color */
   color: #fff; /* White text color */
   text-align: center; /* Centered text */
   border-radius: 2px; /* Rounded borders */
