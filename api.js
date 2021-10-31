@@ -639,7 +639,7 @@ function make_controller(controller = false, stat = false, name = false){
 			case "normal":
 				HTML = '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
 				HTML += '<TABLE CLASS="table"><TBODY><TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR><TD ROWSPAN="2" CLASS="image">';
-				HTML += '<IMG SRC="/images/' + controller.peripheral + '.jpg" CLASS="controllerimage" ONERROR="">';
+				HTML += '<IMG SRC="/images/' + controller.peripheral + '.jpg" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + controller.peripheralName + '">';
 				HTML += '</TD><TD CLASS="controllerinfo top">';
 				HTML += make_controller(controller, "peripheral", 	"Peripheral ID");
 				HTML += make_controller(controller, "games", 		"Games Supported");
@@ -656,6 +656,17 @@ function make_controller(controller = false, stat = false, name = false){
 		}
 	}
 	return HTML;
+}
+
+function imgError(image) {
+    image.onerror = "";
+    image.onclick = "";
+    image.src = "/images/noimage.png";
+    return true;
+}
+
+function expandimage(element){
+    msgbox(element.getAttribute("alt"), '<CENTER><IMG SRC="' + element.src + '"></CENTER>');
 }
 
 function nl2br(str) {
