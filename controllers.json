@@ -9,36 +9,49 @@ var controllers = [{
 		"specificVersion": "Green Buttons",
 		"otherVersions": "Blue Buttons",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-02A",
 		"company": "HORI",
 		"peripheralName": "Flight Stick 2",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-03A",
 		"company": "Novint",
 		"peripheralName": "Falcon",
 		"systems": "PC",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-03B",
 		"company": "Novint",
 		"peripheralName": "Pistol Grip",
 		"systems": "PC",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-04",
 		"company": "SEGA",
 		"peripheralName": "Twin Sticks",
 		"systems": "Saturn",
 		"photographed": true,
-	},
-	{
+		"cost": "150",
+		"importOnly": true,
+		"description": "2 triggers, 2 joysticks, 1 button, a cool box",
+		"games": "Virtual On: Operation Moonbase",
+		"specificVersion": "Saturn",
+		"otherVersions": "PC",
+	},{
 		"peripheral": "000-05",
 		"company": "HORI",
 		"peripheralName": "Ace-Edge Flight Stick",
@@ -47,8 +60,10 @@ var controllers = [{
 		"description": "Joystick, a clickable thumbstick, a throttle, 3 dpads, 2 dials, rudder control, 3 triggers, 4 buttons, a mode select switch, rumble, a cool box, Headset port, USB (Xinput)",
 		"games": "Ace Combat 6 (360), All 360 Games",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-06",
 		"company": "Pelican",
 		"peripheralName": "Silent Scope Light Rifle",
@@ -59,162 +74,201 @@ var controllers = [{
 		"specificVersion": "Black",
 		"otherVersions": "Green",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-07",
 		"company": "Namco Bandai",
 		"peripheralName": "GunCon 2",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-08",
 		"company": "RedOctane",
 		"peripheralName": "Reload Pedal",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-09",
 		"company": "Nintendo",
 		"peripheralName": "NES GBA SP",
 		"systems": "SYS",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-10",
 		"company": "Tapwave",
 		"peripheralName": "Zodiac²",
 		"systems": "Zodiac",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-11",
 		"company": "NubyTech",
 		"peripheralName": "Resident Evil 4 Chainsaw",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-12",
 		"company": "HORI",
 		"peripheralName": "Onimusha 3: Soul Katana",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-13",
 		"company": "Nintendo",
 		"peripheralName": "Virtual Boy",
 		"systems": "Virtual Boy",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-14-A",
 		"company": "Sony",
 		"peripheralName": "PocketStation (White)",
 		"systems": "PS1",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "000-14-B",
 		"company": "Sony",
 		"peripheralName": "PocketStation (Crystal)",
 		"systems": "PS1",
-		"obtained": "2017-11-22"
-	},
-	{
-		"peripheral": "000-15",
-		"company": "SEGA",
-		"peripheralName": "VMU",
-		"systems": "DC",
-		"photographed": true,
-	},
-	{
-		"peripheral": "000-16A",
+		"obtained": "2017-11-22",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
+		"peripheral": "000-15A",
 		"company": "Nintendo",
 		"peripheralName": "Pocket Pikachu",
 		"systems": "GBC",
 		"photographed": true,
-	},
-	{
-		"peripheral": "000-16B",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
+		"peripheral": "000-15B",
 		"company": "Nintendo",
 		"peripheralName": "Pocket Sakura",
 		"systems": "GBC",
 		"photographed": true,
-	},
-	{
-		"peripheral": "000-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
+		"peripheral": "000-16",
 		"company": "HORI",
 		"peripheralName": "Digital Controller",
 		"systems": "GCN",
 		"photographed": true,
-	},
-	{
-		"peripheral": "000-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
+		"peripheral": "000-17",
 		"company": "DragonPlus",
 		"peripheralName": "one",
 		"systems": "PS1/PS2",
 		"photographed": true,
-	},
-	{
-		"peripheral": "000-19",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
+		"peripheral": "000-18",
 		"company": "SEGA",
-		"peripheralName": "NiGHTS",
+		"peripheralName": "NiGHTS 3D",
 		"systems": "Saturn",
 		"photographed": true,
-	},
-	{
-		"peripheral": "000-20",
+		"cost": "40 with game, $20 without",
+		"description": "1 dpad, 2 triggers, 7 buttons (6 face, 1 system), 1 analog stick thing, a cool box. The switch toggles between the analog stick or dpad. Only one can be active at a time",
+		"games": "Christmas NiGHTS, NiGHTS, Sky Target",
+		"specificVersion": "Black",
+		"otherVersions": "White",
+	},{
+		"peripheral": "000-19",
 		"company": "Zalman",
 		"peripheralName": "FPS mouse",
 		"systems": "PC",
 		"photographed": true,
-	},
-	{
-		"peripheral": "000-21",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
+		"peripheral": "000-20",
 		"company": "NubyTech",
 		"peripheralName": "Chun Li Street Fighter Collectors Edition",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
-		"peripheral": "000-22",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
+		"peripheral": "000-21",
 		"company": "Nintendo",
 		"peripheralName": "VRS",
 		"systems": "N64",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "001-A",
 		"company": "Nintendo",
 		"peripheralName": "Zapper",
-		"systems": "NES"
-	},
-	{
+		"systems": "NES",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "001-B",
 		"company": "QuickShot",
 		"peripheralName": "Zapper Scope",
 		"systems": "NES",
 		"obtained": "2013-03-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "002",
 		"company": "Nintendo",
 		"peripheralName": "Super Scope 6",
 		"systems": "SNES",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "003",
 		"company": "Nintendo",
 		"peripheralName": "Mario Paint Mouse",
 		"systems": "SNES",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-01",
 		"company": "Sony",
 		"peripheralName": "Chotto Shot",
@@ -222,39 +276,49 @@ var controllers = [{
 		"obtained": "2006-11-27",
 		"shipped": "on",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-02",
 		"company": "HORI",
 		"peripheralName": "Tiny Bee",
 		"systems": "PS2",
 		"obtained": "2006-12-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-03-A",
 		"company": "HORI",
 		"peripheralName": "Dragon Quest Slime (Blue)",
 		"systems": "PS2",
 		"obtained": "2007-01-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-03-B",
 		"company": "HORI",
 		"peripheralName": "Dragon Quest Slime (Metal)",
 		"systems": "PS1/PS2",
-		"obtained": "2017-11-22"
-	},
-	{
+		"obtained": "2017-11-22",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-04",
 		"company": "Sony",
 		"peripheralName": "Analog Flight Stick SCPH-1100",
 		"systems": "PS1",
 		"obtained": "2007-01-30",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-05",
 		"company": "SEGA",
 		"peripheralName": "Oshare Majo",
@@ -262,24 +326,30 @@ var controllers = [{
 		"obtained": "2007-04-02",
 		"shipped": "on",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-06",
 		"company": "MadCatz",
 		"peripheralName": "RetroCON",
 		"systems": "PS2",
 		"obtained": "2007-11-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-07",
 		"company": "NamcoBandai",
 		"peripheralName": "GunCon3",
 		"systems": "PS3",
 		"obtained": "2007-11-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-08",
 		"company": "SEGA",
 		"peripheralName": "TwinSticks",
@@ -287,8 +357,14 @@ var controllers = [{
 		"obtained": "2007-12-01",
 		"shipped": "on",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+		"cost": "150",
+		"importOnly": true,
+		"description": "2 analog sticks, 4 triggers, a system button, VMU slot, a cool box",
+		"games": "Virtual On Oratario Tangram",
+	},{
 		"peripheral": "00X-09",
 		"company": "Sony",
 		"peripheralName": "Dual Shock 3",
@@ -296,501 +372,631 @@ var controllers = [{
 		"obtained": "2007-12-14",
 		"shipped": "on",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-10",
 		"company": "Taito",
 		"peripheralName": "Arkanoid DS Paddle",
 		"systems": "DS",
 		"obtained": "2008-01-31",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-11",
 		"company": "ASCII",
 		"peripheralName": "Resident Evil Pad SLEH-00011",
 		"systems": "PS1",
 		"obtained": "2008-02-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-12",
 		"company": "Sony",
 		"peripheralName": "Proto-Shock SCPH-1150",
 		"systems": "PS1",
 		"obtained": "2008-02-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-13",
 		"company": "Nyko",
 		"peripheralName": "Perfect Shot",
 		"systems": "Wii",
 		"obtained": "2008-02-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-14",
 		"company": "Nintendo",
 		"peripheralName": "SNES Classic",
 		"systems": "Wii",
 		"obtained": "2008-05-16",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-15A",
 		"company": "RedOctane",
 		"peripheralName": "Fretster Grip",
 		"systems": "DS",
 		"obtained": "2008-06-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-15B",
 		"company": "RedOctane",
 		"peripheralName": "Fretster Grip",
 		"systems": "DS",
 		"obtained": "2011-07-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-16",
 		"company": "Nintendo",
 		"peripheralName": "DS Slide",
 		"systems": "DS",
 		"obtained": "2008-11-21",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00X-17",
 		"company": "MadCatz",
 		"peripheralName": "GameStick",
 		"systems": "XBOX360",
 		"cost": 20,
 		"description": "Dpad, Joystick with a button on top, spinner with on/off switch (acts as left/right on the dpad), thumbstick, turbo button with 3 speed settings, 7 face buttons (ABXY, Start, Back, Guide), 4 shoulder buttons, Headset port, USB (Xinput)",
-		"games": "Misc Games (360)"
-	},
-	{
+		"games": "Misc Games (360)",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-01",
 		"company": "Namco",
 		"peripheralName": "neGcon",
 		"systems": "PS1",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-02",
 		"company": "Namco",
 		"peripheralName": "JogCon",
 		"systems": "PS1",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-03A",
 		"company": "NubyTech",
 		"peripheralName": "Megaman X mini",
 		"systems": "GCN",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-03B",
 		"company": "NubyTech",
 		"peripheralName": "Shadow the Hedgehog mini controller",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-04",
 		"company": "SEGA",
 		"peripheralName": "Twin Sticks",
 		"systems": "Arcade",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-05",
 		"company": "Nintendo",
 		"peripheralName": "Zapper",
 		"systems": "Wii",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-06",
 		"company": "Nintendo",
 		"peripheralName": "Microphone",
 		"systems": "GCN",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-06",
 		"company": "Nintendo",
 		"peripheralName": "eReader",
 		"systems": "GBA",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-07",
 		"company": "ASCII",
 		"peripheralName": "Grip",
 		"systems": "PS1",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-08",
 		"company": "Gamester Radica",
 		"peripheralName": "FPS Master",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-09A",
 		"company": "Cybiko",
 		"peripheralName": "Cybiko",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-09B",
 		"company": "Cybiko",
 		"peripheralName": "Cybiko Extreme",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-10",
 		"company": "Nintendo",
 		"peripheralName": "Transfer Pack",
 		"systems": "N64",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-11",
 		"company": "Sony",
 		"peripheralName": "PSeye",
 		"systems": "PS3",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-12",
 		"company": "Nintendo",
 		"peripheralName": "Wheel",
 		"systems": "Wii",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-13",
 		"company": "ASCII",
 		"peripheralName": "Rez Synthesasia Device",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-14",
 		"company": "Namco",
 		"peripheralName": "Volume controller",
 		"systems": "PS1",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "00Y-15",
 		"company": "Sony",
 		"peripheralName": "USB Headset",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "063",
 		"company": "Sony",
 		"peripheralName": "Wireless Keypad",
 		"systems": "PS3",
 		"obtained": "2009-01-14",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "064",
 		"company": "Generic",
 		"peripheralName": "PS-890",
 		"systems": "PS2",
 		"obtained": "2009-01-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "065-A",
 		"company": "SplitFish",
 		"peripheralName": "FragFX",
 		"systems": "PS3",
 		"obtained": "2009-02-27",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "065-B",
 		"company": "SplitFish",
 		"peripheralName": "FragFX v.2",
 		"systems": "PS3",
 		"obtained": "2010-10-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "066",
 		"company": "Legacy Engineering",
 		"peripheralName": "Gene Simmons Axe Guitar",
 		"systems": "PS2/PS3",
 		"obtained": "2009-03-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "067",
 		"company": "MadCatz",
 		"peripheralName": "Chun Li Fight Pad Collectors Edition",
 		"systems": "PS3",
 		"obtained": "2009-03-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "068",
 		"company": "NERF",
 		"peripheralName": "Nerf N-Strike",
 		"systems": "Wii",
 		"obtained": "2009-04-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "069",
 		"company": "EAGLE",
 		"peripheralName": "Resident Evil Shot Blaster",
 		"systems": "Wii",
 		"obtained": "2009-05-14",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "070",
 		"company": "BanPresto",
 		"peripheralName": "8 Bit Retro Mario Mouse (Power Star)",
 		"systems": "PC",
 		"obtained": "2009-05-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "071",
 		"company": "SETA",
 		"peripheralName": "Bio-sensor",
 		"systems": "N64",
 		"obtained": "2009-06-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "072",
 		"company": "HORI",
 		"peripheralName": "Dragon Quest Slime DS Speaker Stand",
 		"systems": "DS",
 		"obtained": "2009-07-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "073",
 		"company": "HORI",
 		"peripheralName": "Super Game Boy Commander",
 		"systems": "SNES",
 		"obtained": "2009-07-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "074",
 		"company": "Taito",
 		"peripheralName": "Power Shovel Controller",
 		"systems": "PS1",
 		"obtained": "2009-08-04",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "075",
 		"company": "Nintendo",
 		"peripheralName": "Kuro Wii Classic Pro",
 		"systems": "Wii/Wii U/SNES Classic/NES Classic",
 		"obtained": "2009-08-14",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "076",
 		"company": "ASCII",
 		"peripheralName": "CubeBoard",
 		"systems": "GCN",
 		"obtained": "2009-09-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "077",
 		"company": "Saitek",
 		"peripheralName": "Pro Gamer Command Pad",
 		"systems": "PC",
 		"obtained": "2009-09-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "078",
 		"company": "DreamGEAR",
 		"peripheralName": "Arcade Fighter Classic Pad",
 		"systems": "PS3",
 		"obtained": "2009-10-06",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "079",
 		"company": "GioTeck",
 		"peripheralName": "RealTriggers",
 		"systems": "PS3",
 		"obtained": "2009-10-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "080",
 		"company": "Bandai",
 		"peripheralName": "WonderSwan Color",
 		"systems": "WSC",
 		"obtained": "2009-10-26",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "081",
 		"company": "Taito",
 		"peripheralName": "Space Invaders 25th Anniversary Controller",
 		"systems": "PS2",
 		"obtained": "2009-11-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "082",
 		"company": "Bandai",
 		"peripheralName": "WonderWave",
 		"systems": "PS1/WS",
 		"obtained": "2009-11-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "083",
 		"company": "Bandai",
 		"peripheralName": "WonderBorg",
 		"systems": "WS",
 		"obtained": "2009-11-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "084",
 		"company": "Bandai",
 		"peripheralName": "WonderSwan",
 		"systems": "WS",
 		"obtained": "2009-11-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "085",
 		"company": "HORI",
 		"peripheralName": "Super Robot Wars/Taisen Controller",
 		"systems": "PS2",
 		"obtained": "2009-11-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "086",
 		"company": "Sony",
 		"peripheralName": "PSone LCD",
 		"systems": "PS1",
 		"obtained": "2009-11-24",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "087",
 		"company": "Spacetec",
 		"peripheralName": "SpaceOrb 360",
 		"systems": "PC",
 		"obtained": "2009-12-21",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "088",
 		"company": "Singer",
 		"peripheralName": "IZEK Computerized Sewing Machine",
 		"systems": "GBC",
 		"obtained": "2009-12-21",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "089",
 		"company": "Bandai",
 		"peripheralName": "ZXE-D: Legend of Plasmalite",
 		"systems": "PS1",
 		"obtained": "2010-01-06",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "090",
 		"company": "Essential Reality",
 		"peripheralName": "P5 Glove",
 		"systems": "PC",
 		"obtained": "2010-01-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "091",
 		"company": "Super Soft",
 		"peripheralName": "Terminator",
 		"systems": "Atari/Sinclair",
 		"obtained": "2010-01-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "092",
 		"company": "Beeshu",
 		"peripheralName": "JetFighter",
 		"systems": "SNES/GEN",
 		"obtained": "2010-02-09",
 		"photographed": true,
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "093",
 		"company": "Nyko",
 		"peripheralName": "Classic Trackball",
 		"systems": "PS1",
 		"obtained": "2010-02-12",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "094",
 		"company": "ASCII/Agetec/Sammy",
 		"peripheralName": "Grip v2",
 		"systems": "PS2",
 		"obtained": "2010-02-16",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "095",
 		"company": "Namco",
 		"peripheralName": "Easy Piano",
 		"systems": "DS",
 		"obtained": "2010-02-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "096-A",
 		"company": "Nintendo",
 		"peripheralName": "PokéWalker",
 		"systems": "DS",
 		"obtained": "2010-03-14",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "096-B",
 		"company": "Nintendo",
 		"peripheralName": "Wii Fit Meter",
 		"systems": "Wii U",
-		"obtained": "2013-11-06"
-	},
-	{
+		"obtained": "2013-11-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "097",
 		"company": "ASCII",
 		"peripheralName": "Sphere 360",
 		"systems": "PS1",
 		"obtained": "2010-05-04",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "098",
 		"company": "HORI",
 		"peripheralName": "Hyper Stick Pro",
@@ -800,16 +1006,20 @@ var controllers = [{
 		"description": "1 non-clickable analog stick, 7 buttons (4 face, 2 system, 1 OS), laptop touch pad (acts as Right analog), Headset port, USB (Xinput), a cool box, 6 character pin buttons",
 		"games": "Otomedius Gorgeous (360)",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "099",
 		"company": "InterAct",
 		"peripheralName": "StarFire LightBlaster",
 		"systems": "DC",
 		"obtained": "2010-04-06",
 		"photographed": true,
-	},
-	{
+		"cost": 15,
+		"description": "2 triggers, dpad, VMU/Vibration pack slot, Start and B buttons on each side, CRT display only lightgun (SD only)",
+		"games": "DC Lightgun games",
+	},{
 		"peripheral": "100",
 		"company": "HORI",
 		"peripheralName": "Twin Stick Ex",
@@ -819,152 +1029,190 @@ var controllers = [{
 		"description": "Non-standard headset port. 2 digital joysticks with 1 top-mounted button (L1/R1) and 1 trigger (L2/R2) on each, 7 buttons (4 face, Start/Back/Guide), USB (Xinput), a not-so-cool box",
 		"games": "Virtual On: Oratario Tangram and Force (360)",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "101",
 		"company": "Reality Quest",
 		"peripheralName": "Glove",
 		"systems": "PS1",
 		"obtained": "2010-04-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "102",
 		"company": "Datel",
 		"peripheralName": "TiltFX",
 		"systems": "PSP (2K+3K only)",
 		"obtained": "2010-04-16",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "103",
 		"company": "EMS",
 		"peripheralName": "LCD TopGun",
 		"systems": "XBOX/PC/PS2",
 		"obtained": "2010-05-01",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "104",
 		"company": "BanPresto",
 		"peripheralName": "8 Bit Retro Mario Mouse (Mario)",
 		"systems": "PC",
 		"obtained": "2010-06-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "105",
 		"company": "XCM",
 		"peripheralName": "XFPS Fire",
 		"systems": "PS3",
 		"obtained": "2010-07-06",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "106",
 		"company": "Atari",
 		"peripheralName": "LeStick",
 		"systems": "Atari",
 		"obtained": "2010-07-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "107",
 		"company": "Taito",
 		"peripheralName": "Vaus",
 		"systems": "NES",
 		"obtained": "2010-07-21",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "108",
 		"company": "Sony",
 		"peripheralName": "DTL-H development controller",
 		"systems": "PS1",
 		"obtained": "2010-07-27",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "109",
 		"company": "Sony",
 		"peripheralName": "Prototype SNESCD controller DTL-H500, codename MW.3",
 		"systems": "PS1",
 		"obtained": "2010-07-30",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "110",
 		"company": "HORI",
 		"peripheralName": "Dragon Quest Battle Road Victory Controller",
 		"systems": "Wii",
 		"obtained": "2010-08-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "111",
 		"company": "Nintendo",
 		"peripheralName": "3D System",
 		"systems": "NES",
 		"obtained": "2010-08-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "112",
 		"company": "CTA Digital",
 		"peripheralName": "Assault Rifle",
 		"systems": "PS3",
 		"obtained": "2010-08-10",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "113",
 		"company": "Sony",
 		"peripheralName": "BUZZ! Buzzers",
 		"systems": "PS2/PS3",
 		"obtained": "2010-09-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "114",
 		"company": "Atlus",
 		"peripheralName": "KidsStation",
 		"systems": "PS1",
 		"obtained": "2010-09-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "115",
 		"company": "Sony",
 		"peripheralName": "Move",
 		"systems": "PS3",
 		"obtained": "2010-09-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "116",
 		"company": "Sony",
 		"peripheralName": "NavCon",
 		"systems": "PS3/PSP Go",
 		"obtained": "2010-09-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "117",
 		"company": "HORI",
 		"peripheralName": "JogDial",
 		"systems": "PS1",
 		"obtained": "2010-09-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "118",
 		"company": "Takara",
 		"peripheralName": "EX Jinsei/Game of Life",
 		"systems": "PS2",
 		"obtained": "2010-09-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "119",
 		"company": "Microsoft",
 		"peripheralName": "Big Button Pad",
@@ -974,378 +1222,479 @@ var controllers = [{
 		"description": "Wireless (USB IR dongle), 4 controllers each with: Big circular dpad, 4 face buttons, Back/Start/Guide buttons, takes 2 AA batteries each, does not use USB HID or XInput\nThey will bind themselves to the corresponding regular XBOX360 controller, so pressing a button on BBP 1 or Controller 1 will both work as Player 1.",
 		"games": "Uno, 1 vs. 100, Wits and Wagers, Scene It? Box Office Smash, Scene It? Lights, Camera, Action (360)",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "120",
 		"company": "DragonPlus",
 		"peripheralName": "RPG DuoCon 2",
 		"systems": "PS2",
 		"obtained": "2010-10-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "121",
 		"company": "Sony",
 		"peripheralName": "PiStol3",
 		"systems": "PS3",
 		"obtained": "2010-10-12",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "122",
 		"company": "Activision",
 		"peripheralName": "Top Shot Elite",
 		"systems": "PS3",
 		"obtained": "2010-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "123",
 		"company": "THQ",
 		"peripheralName": "uDraw Game Tablet",
 		"systems": "Wii",
 		"obtained": "2010-11-14",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "124",
 		"company": "Venom",
 		"peripheralName": "Mini D.D.R. Fingerpad",
 		"systems": "PS1/PS2",
 		"obtained": "2010-11-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "125",
 		"company": "Eagle3",
 		"peripheralName": "HKS Racing Controller",
 		"systems": "PS3",
 		"obtained": "2010-12-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "126",
 		"company": "Techni",
 		"peripheralName": "NEScade",
 		"systems": "Wii/NES Classic",
 		"obtained": "2010-12-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "127-A",
 		"company": "Ubisoft",
 		"peripheralName": "BattleTag",
 		"systems": "PC",
 		"obtained": "2010-12-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "127-B",
 		"company": "Ubisoft",
 		"peripheralName": "MedKit (for BattleTag)",
 		"systems": "PC",
 		"obtained": "2011-04-26",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "128",
 		"company": "PowerA",
 		"peripheralName": "3-in-1 Remote",
 		"systems": "PS3",
 		"obtained": "2010-12-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "129",
 		"company": "Zalman",
 		"peripheralName": "FPSGUN",
 		"systems": "PC",
 		"obtained": "2011-01-04",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "130",
 		"company": "Activision",
 		"peripheralName": "RIDE",
 		"systems": "PS3",
 		"obtained": "2011-01-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "131",
 		"company": "Techni",
 		"peripheralName": "NES Paul",
 		"systems": "PC",
 		"obtained": "2011-02-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "132",
 		"company": "ASCII",
 		"peripheralName": "Super Stick L5",
 		"systems": "SNES",
 		"obtained": "2011-02-16",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "133",
 		"company": "Sony",
 		"peripheralName": "Move Sharp Shooter",
 		"systems": "PS3",
 		"obtained": "2011-02-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "134",
 		"company": "In2Games",
 		"peripheralName": "GameTrak",
 		"systems": "PS2",
 		"obtained": "2011-02-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "135",
 		"company": "Techni",
 		"peripheralName": "Rampart",
 		"systems": "PC",
 		"obtained": "2011-03-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "136",
 		"company": "TAM",
 		"peripheralName": "Barcode Boy",
 		"systems": "GBC",
 		"obtained": "2011-04-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "137",
 		"company": "QuickShot",
 		"peripheralName": "Joystick",
 		"systems": "Other",
 		"obtained": "2011-04-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "138",
 		"company": "HORI",
 		"peripheralName": "Grip",
 		"systems": "PS1",
 		"obtained": "2011-04-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "139",
 		"company": "Sony Ericcson",
 		"peripheralName": "Xperia Play",
 		"systems": "AND",
 		"obtained": "2011-04-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "140",
 		"company": "Xwerx",
 		"peripheralName": "XtendPlay",
 		"systems": "PS3",
 		"obtained": "2011-05-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "141",
 		"company": "Suncom",
 		"peripheralName": "FX 1000 x2",
 		"systems": "PC",
 		"obtained": "2011-05-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "142-A",
 		"company": "Interact",
 		"peripheralName": "V3 Steering Wheel",
 		"systems": "PC",
 		"obtained": "2011-05-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "142-B",
 		"company": "Interact",
 		"peripheralName": "V3 Steering Wheel 2",
 		"systems": "PS1",
-		"obtained": "2017-04-01"
-	},
-	{
+		"obtained": "2017-04-01",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "143",
 		"company": "Nintendo",
 		"peripheralName": "Pokéyboard",
 		"systems": "DS",
 		"obtained": "2011-05-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "144",
 		"company": "SEGA",
 		"peripheralName": "Mouse",
 		"systems": "DC",
 		"obtained": "2011-05-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+		"cost": 10,
+		"description": "3 buttons, a scroll wheel, an XY axis solid-state/wheel (not optical) sensor",
+		"specificVersion": "White",
+		"otherVersions": "Clear",
+		"games": "The Typing of the Dead, Quake 3, Phantasy Star Online, Railroad Tycoon 2, REZ",
+	},{
 		"peripheral": "145",
 		"company": "Logitech",
 		"peripheralName": "G15 Gaming Keyboard",
 		"systems": "PC",
 		"obtained": "2011-06-10",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "146",
 		"company": "Sony",
 		"peripheralName": "Chotto Shot Mark II",
 		"systems": "PSP",
 		"obtained": "2011-06-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "147",
 		"company": "RedOctane",
 		"peripheralName": "Band Hero Drum grip",
 		"systems": "DS lite",
 		"obtained": "2011-07-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "148-A",
 		"company": "Gametech",
 		"peripheralName": "Bear",
 		"systems": "PSP Go",
 		"obtained": "2011-07-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "148-B",
 		"peripheralName": "Game Klip",
 		"systems": "PSP Go/AND/iOS",
-		"obtained": "2018-05-05"
-	},
-	{
+		"obtained": "2018-05-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "149",
 		"company": "MadCatz",
 		"peripheralName": "Tatsunoku vs Capcom Fight Stick",
 		"systems": "Wii",
 		"obtained": "2011-07-21",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "150",
 		"company": "Sony",
 		"peripheralName": "LiveView",
 		"systems": "AND",
 		"obtained": "2011-08-10",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "151",
 		"company": "Sifteo",
 		"peripheralName": "Sifteo Cubes",
 		"systems": "PC",
 		"obtained": "2011-10-06",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "152",
 		"company": "GoEasily/Shogun Bros",
 		"peripheralName": "Chameleon X-1",
 		"systems": "PC",
 		"obtained": "2011-10-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "153",
 		"company": "HORI",
 		"peripheralName": "Tactical Assault Commander 3",
 		"systems": "PS3",
 		"obtained": "2011-10-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "154",
 		"company": "Sony",
 		"peripheralName": "3DTV",
 		"systems": "PS3",
 		"obtained": "2011-11-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "155",
 		"company": "THQ",
 		"peripheralName": "uDraw Gametablet II",
 		"systems": "PS3",
 		"obtained": "2011-11-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "156-A",
 		"company": "Nintendo",
 		"peripheralName": "Gold Wiimote Plus",
 		"systems": "Wii",
 		"obtained": "2011-11-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "156-B",
 		"company": "Nintendo",
 		"peripheralName": "Gold Nunchuck",
 		"systems": "Wii",
 		"obtained": "2012-02-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "156-C",
 		"company": "Nintendo",
 		"peripheralName": "Gold Classic Pro",
 		"systems": "Wii/NES Classic/SNES Classic",
 		"obtained": "2012-03-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "156-D",
 		"company": "Nintendo",
 		"peripheralName": "Gold Nintendo64 controller",
-		"systems": "N64"
-	},
-	{
+		"systems": "N64",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "156-E",
 		"company": "Nintendo",
 		"peripheralName": "Wii Wheel",
 		"systems": "Wii",
-		"obtained": "2015-05-29"
-	},
-	{
+		"obtained": "2015-05-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "157",
 		"company": "SEGA",
 		"peripheralName": "Wappy Dog",
 		"systems": "DS",
 		"obtained": "2011-11-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "158-A",
 		"company": "Nintendo",
 		"peripheralName": "Expansion Analog Nub",
 		"systems": "3DS",
 		"obtained": "2012-01-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "158-B",
 		"company": "Nintendo",
 		"peripheralName": "Expansion Analog Nub",
 		"systems": "3DS XL",
 		"obtained": "2014-05-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "159",
 		"company": "Activision",
 		"peripheralName": "Cabela's Big Hunt Gun",
@@ -1355,70 +1704,88 @@ var controllers = [{
 		"description": "Trigger, reload pump, flip-up crosshairs, extendible stock and bipod, opens up like a real shotgun would to reveal the battery compartment, takes 2xAAs\nUses 4 LEDs on the front to triangulate it's position via Kinect's camera.\n\nHold both the trigger and reload pump for 5 seconds to turn it off",
 		"games": "Cabela's Big Game Hunter: Hunting Party (360+Kinect)",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "160-A",
 		"company": "Sony",
 		"peripheralName": "PSP Go",
 		"systems": "PSP Go",
 		"obtained": "2010-05-31",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "160-B",
 		"company": "Sony",
 		"peripheralName": "PSP Go dock",
-		"systems": "PSP Go"
-	},
-	{
+		"systems": "PSP Go",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "161",
 		"company": "PDP",
 		"peripheralName": "Trigger grip",
 		"systems": "PSP2",
 		"obtained": "2012-04-04",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "162",
 		"company": "Innovation",
 		"peripheralName": "Smash Controller",
 		"systems": "GEN",
 		"obtained": "2012-05-08",
 		"photographed": true,
-	},
-	{
+		"cost": 25,
+		"description": "9 big buttons",
+		"games": "Whac-a-Critter",
+	},{
 		"peripheral": "163",
 		"company": "Global A Entertainment",
 		"peripheralName": "Maestro Baton",
 		"systems": "PS1",
 		"obtained": "2012-05-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "164",
 		"company": "Bandai",
 		"peripheralName": "Sailor Moon's Wand",
 		"systems": "Playdia",
 		"obtained": "2012-05-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "165",
 		"company": "Microsoft",
 		"peripheralName": "Sidewinder Dual Strike",
 		"systems": "PC",
 		"obtained": "2012-06-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "166",
 		"company": "Zeemote",
 		"peripheralName": "JS1",
 		"systems": "AND",
 		"obtained": "2012-06-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "167",
 		"company": "MadCatz",
 		"peripheralName": "Beat Pad",
@@ -1428,878 +1795,1102 @@ var controllers = [{
 		"description": "10 buttons (4 dpad, 4 action, 2 system), Guide button, headset port, XInput, USB",
 		"games": "Misc Dance games (360)",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "168",
 		"company": "Taito",
 		"peripheralName": "Stepper",
 		"systems": "PS1",
 		"obtained": "2012-07-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "169",
 		"company": "BanPresto",
 		"peripheralName": "8-Bit Goomba Mouse",
 		"systems": "PC",
 		"obtained": "2012-07-04",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "170",
 		"company": "New Potato Technologies, Inc",
 		"peripheralName": "Pinball Magic",
 		"systems": "iOS",
 		"obtained": "2012-07-04",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "171",
 		"company": "New Potato Technologies, Inc",
 		"peripheralName": "Jackpot Slots",
 		"systems": "iOS",
 		"obtained": "2012-07-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "172",
 		"company": "ControllerMAX",
 		"peripheralName": "Cronus device",
 		"systems": "PC/PS3/XBOX360/PS4/X1/VitaTV/AND",
 		"obtained": "2012-07-24",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "173",
 		"peripheralName": "Rumble Pack",
 		"systems": "DS lite",
 		"obtained": "2012-08-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "174",
 		"company": "Bandai",
 		"peripheralName": "Pair Match",
 		"systems": "Pair Match",
 		"obtained": "2012-10-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "175",
 		"company": "Atmark",
 		"peripheralName": "AppleJack",
 		"systems": "Pippin",
 		"obtained": "2012-10-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "176",
 		"company": "Sony",
 		"peripheralName": "Move Racing Wheel",
 		"systems": "PS3",
 		"obtained": "2012-10-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "177",
 		"company": "Activision",
 		"peripheralName": "FearMaster",
 		"systems": "PS3",
 		"obtained": "2012-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "178",
 		"company": "Epoch",
 		"peripheralName": "Barcode Battler BB-II Interface",
 		"systems": "SNES",
 		"obtained": "2012-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "179",
 		"company": "Atlus",
 		"peripheralName": "Hello Kitty",
 		"systems": "PS1",
 		"obtained": "2012-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "180",
 		"company": "Atlus",
 		"peripheralName": "Guru Guru Town Hanamaru-kun",
 		"systems": "PS1",
 		"obtained": "2012-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "181-A",
 		"company": "ASCII",
 		"peripheralName": "Seamic",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "181-B",
 		"company": "ASCII",
 		"peripheralName": "Gold Seamic",
 		"systems": "PS2",
 		"obtained": "2012-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "182",
 		"company": "Nintendo",
 		"peripheralName": "Famicom Network controller",
 		"systems": "FAM",
 		"obtained": "2012-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "183-A",
 		"company": "Nintendo",
 		"peripheralName": "Wii U Gamepad",
 		"systems": "Wii U",
 		"obtained": "2012-11-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "183-B",
 		"company": "Nintendo",
 		"peripheralName": "Pro Controller",
 		"systems": "Wii U",
 		"obtained": "2012-11-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "184",
 		"company": "G-Mate",
 		"peripheralName": "MAG II",
 		"systems": "PS3/PC",
 		"obtained": "2012-11-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "185",
 		"company": "Sony",
 		"peripheralName": "WonderBook",
 		"systems": "PS3",
 		"obtained": "2012-12-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "186",
 		"company": "PowerA",
 		"peripheralName": "MOGA",
 		"systems": "Android",
 		"obtained": "2012-12-24",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "187",
 		"company": "Thrustmaster",
 		"peripheralName": "Wizzard Pinball Controller",
 		"systems": "PC",
 		"obtained": "2013-01-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "188",
 		"company": "InterWorks",
 		"peripheralName": "Pro Controller U",
 		"systems": "Wii/Wii U",
 		"obtained": "2013-01-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "189",
 		"company": "GreenThrottle",
 		"peripheralName": "Atlus",
 		"systems": "Android",
 		"obtained": "2013-01-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "190",
 		"company": "Dream Cheeky",
 		"peripheralName": "Big Red Panic Button",
 		"systems": "PC",
 		"obtained": "2013-03-10",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "191",
 		"company": "Global A Entertainment",
 		"peripheralName": "TamTam Paradise",
 		"systems": "PS2",
 		"obtained": "2013-03-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "192",
 		"company": "ASCII",
 		"peripheralName": "Dance Summit",
 		"systems": "PS2",
 		"obtained": "2013-03-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "193",
 		"company": "Konami",
 		"peripheralName": "DDR Hand Controller",
 		"systems": "PS2",
 		"obtained": "2013-03-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "194",
 		"peripheralName": "V-pick",
 		"systems": "PS2",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "195",
 		"company": "Kickstarter",
 		"peripheralName": "Pebble",
 		"systems": "Android/iOS",
 		"obtained": "2013-04-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "196",
 		"company": "Kickstarter",
 		"peripheralName": "Oculus Rift",
 		"systems": "PC",
 		"obtained": "2013-04-12",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "197",
 		"company": "HORI",
 		"peripheralName": "Hatsune Miku -Project Diva- F Mini",
 		"systems": "PS3",
 		"obtained": "2013-05-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "198",
 		"company": "Kickstarter",
 		"peripheralName": "OUYA",
 		"systems": "Android",
 		"obtained": "2013-05-27",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "199",
 		"company": "Razer",
 		"peripheralName": "Koopa Mouse",
 		"systems": "PC",
 		"obtained": "2013-06-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "200",
 		"company": "Thrustmaster",
 		"peripheralName": "Fragmaster",
 		"systems": "PC",
 		"obtained": "2013-07-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "201",
 		"company": "Sony",
 		"peripheralName": "NSZ-GS7 Remote",
 		"systems": "Android",
 		"obtained": "2013-07-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "202-A",
 		"company": "Intel",
 		"peripheralName": "Wireless series gamepad",
 		"systems": "PC",
 		"obtained": "2013-07-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "202-B",
 		"company": "Intel",
 		"peripheralName": "Wireless series mouse",
 		"systems": "PC",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "203",
 		"company": "Razer",
 		"peripheralName": "Hydra",
 		"systems": "PC",
 		"obtained": "2013-07-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "204",
 		"company": "Vintion Electronics Co., Ltd.",
 		"peripheralName": "MS-757 Multi-System Handstick",
 		"systems": "PC",
 		"obtained": "2013-07-16",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "205",
 		"company": "HORI",
 		"peripheralName": "FPS Battle Stick",
 		"systems": "PC",
 		"obtained": "2013-07-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "206",
 		"company": "Leap Motion",
 		"peripheralName": "Leap",
 		"systems": "PC",
 		"obtained": "2013-07-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "207",
 		"company": "Datel",
 		"peripheralName": "Wildfire gaming dock",
 		"systems": "PSP (2K+3K only)",
 		"obtained": "2013-07-30",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "208",
 		"company": "Black Powder Media Inc.",
 		"peripheralName": "iMpulse",
 		"systems": "PC/AND/iOS",
 		"obtained": "2013-08-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "209",
 		"company": "Logitech",
 		"peripheralName": "Cyberman 2",
 		"systems": "PC",
 		"obtained": "2013-08-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "210",
 		"company": "Big Ben Interactive",
 		"peripheralName": "Cyberbike",
 		"systems": "Wii",
 		"obtained": "2013-08-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "211",
 		"company": "Nintendo",
 		"peripheralName": "Pokemon Tretta Lab",
 		"systems": "3DS",
 		"obtained": "2013-08-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "212",
 		"company": "DOSO",
 		"peripheralName": "PSW-303",
 		"systems": "PSP (1K+2K+3K only)",
 		"obtained": "2013-08-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "213",
 		"peripheralName": "Mickey Mouse controller",
 		"systems": "PS1",
 		"obtained": "2013-08-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "214",
 		"peripheralName": "Winnie the Pooh controller",
 		"systems": "PS1",
 		"obtained": "2013-08-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "215",
 		"company": "Media Factory",
 		"peripheralName": "Zok Zok Heroes",
 		"systems": "GBC",
 		"obtained": "2013-08-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "216",
 		"company": "Takara",
 		"peripheralName": "Pluster World",
 		"systems": "GBA",
 		"obtained": "2013-08-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "217",
 		"company": "Bandai",
 		"peripheralName": "Soul Dollz",
 		"systems": "GBA",
 		"obtained": "2013-08-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "218",
 		"company": "Stelulu Technology",
 		"peripheralName": "Stinky Footboard",
 		"systems": "PC",
 		"obtained": "2013-08-26",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "219",
 		"company": "Nintendo",
 		"peripheralName": "Pokemon Rumble U figures",
 		"systems": "Wii U",
-		"obtained": "2013-08-29"
-	},
-	{
+		"obtained": "2013-08-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "220",
 		"company": "Game Technologies S.A.",
 		"peripheralName": "Dice+",
 		"systems": "Android/iOS",
-		"obtained": "2013-09-10"
-	},
-	{
+		"obtained": "2013-09-10",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "221",
 		"company": "Nintendo",
 		"peripheralName": "Balance Board",
 		"systems": "Wii/Wii U",
 		"photographed": true,
+		"cost": "",
+		"description": "",
+		"games": "",
 		"byProxy": "on",
-	},
-	{
+	},{
 		"peripheral": "222",
 		"peripheralName": "Ju C Air",
 		"systems": "PC",
 		"obtained": "2013-10-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "223-A",
 		"company": "Sony",
 		"peripheralName": "DualShock 4",
 		"systems": "PS4",
 		"obtained": "2013-10-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "223-B",
 		"company": "Sony",
 		"peripheralName": "Camera",
 		"systems": "PS4",
 		"obtained": "2013-10-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "223-C",
 		"company": "Sony",
 		"peripheralName": "PS4 Camera Adapter",
 		"systems": "PS5",
-		"obtained": "2020-11-17"
-	},
-	{
+		"obtained": "2020-11-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "224",
 		"company": "Hyperkin",
 		"peripheralName": "Pixel Art",
 		"systems": "PC",
 		"obtained": "2013-11-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "225",
 		"company": "Sony",
 		"peripheralName": "Vita TV",
 		"systems": "PSP2",
-		"obtained": "2013-11-21"
-	},
-	{
+		"obtained": "2013-11-21",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1A",
 		"company": "Disney",
 		"peripheralName": "Infinity (Rapunzel figure)",
 		"systems": "Misc",
 		"obtained": "2013-11-26",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1B",
 		"company": "Disney",
 		"peripheralName": "Infinity Frozen set (Anna and Elsa figures)",
 		"systems": "Misc",
 		"obtained": "2013-11-27",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1C",
 		"company": "Disney",
 		"peripheralName": "Infinity Starter kit (Mr. Incredible, Sulley, Jack Sparrow, figures. Incredibles/Pirates of the Caribbean/Monsters Inc playset. Alice in Wonderland power disc), Mrs. Incredible, Violet Incredible, Vanellope Von Sweet figures",
 		"systems": "Misc",
 		"obtained": "2013-12-21",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1D",
 		"company": "Disney",
 		"peripheralName": "Infinity (Captain Barbossa, Davey Jones figures)",
 		"systems": "Misc",
 		"obtained": "2013-12-31",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1E",
 		"company": "Disney",
 		"peripheralName": "Infinity (Mater, Mike Wazowski figures)",
 		"systems": "Misc",
 		"obtained": "2014-01-01",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1F",
 		"company": "Disney",
 		"peripheralName": "Infinity (Mr. Incredible, Sulley, Jack Sparrow, Lightning McQueen, Buzz Lightyear, Lone Ranger crystal figures)",
 		"systems": "Misc",
 		"obtained": "2014-01-06",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1G",
 		"company": "Disney",
 		"peripheralName": "Infinity (Toy Story set (Buzz Lightyear & Jesse), Cars set (Lightning McQueen & Holley Shiftwell), Lone Ranger set (Lone Ranger & Tonto), Syndrome, Randy, Woody, Ralph, Jack Skellington figures)",
 		"systems": "Misc",
 		"obtained": "2014-01-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1H",
 		"company": "Disney",
 		"peripheralName": "Infinity (Dash, Francesco figures)",
 		"systems": "Misc",
 		"obtained": "2014-01-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1I",
 		"company": "Disney",
 		"peripheralName": "Infinity (Sorcerer's Apprentice Mickey)",
 		"systems": "Misc",
 		"obtained": "2014-02-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1J",
 		"company": "Disney",
 		"peripheralName": "Infinity (Agent P and Phineas figures)",
 		"systems": "Misc",
 		"obtained": "2014-03-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1K",
 		"company": "Disney",
 		"peripheralName": "Infinity (Crystal Agent P figure)",
 		"systems": "Misc",
-		"obtained": "2015-07-16"
-	},
-	{
+		"obtained": "2015-07-16",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-1L",
 		"company": "Disney",
 		"peripheralName": "Infinity game and base",
 		"systems": "3DS",
-		"obtained": "2017-09-28"
-	},
-	{
+		"obtained": "2017-09-28",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2A",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Starter kit (Iron Man, Thor, Black Widow), Spiderman set (Spiderman, Nova), Venom, Hulk, Captain America, Hawkeye figures)",
 		"systems": "Misc",
 		"obtained": "2014-10-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2B",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Tinkerbell, Merida figures)",
 		"systems": "Misc",
 		"obtained": "2014-12-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2C",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Crystal Mickey figure)",
 		"systems": "Misc",
 		"obtained": "2015-01-27",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2D",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Stitch, Aladdin, Drax, Nick Fury, Iron Fist figures)",
 		"systems": "Misc",
 		"obtained": "2015-02-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2E",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Maleficent figure)",
 		"systems": "Misc",
 		"obtained": "2015-04-04",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2F",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Guardians of the Galaxy set (Star-Lord, Gamora figures)",
 		"systems": "Misc",
 		"obtained": "2015-04-27",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2G",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Princess Jasmine figure)",
 		"systems": "Misc",
 		"obtained": "2015-05-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2H",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Baymax figure)",
 		"systems": "Misc",
 		"obtained": "2015-05-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2I",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Hiro, Green Goblin, Loki, Yondu, Falcon, Donald Duck Figures)",
 		"systems": "Misc",
 		"obtained": "2015-06-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2J",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 Starter Kit (Black piderman figure, Spiderman playset, bluetooth base)",
 		"systems": "PSP2",
 		"obtained": "2015-06-12",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2K",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Ronan, Groot figures)",
 		"systems": "Misc",
 		"obtained": "2015-07-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-2L",
 		"company": "Disney",
 		"peripheralName": "Infinity 2.0 (Rocket Racoon figure)",
 		"systems": "Misc",
 		"obtained": "2015-07-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3A",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 Starter kit",
 		"systems": "PS4",
 		"obtained": "2015-09-04",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3B",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Quorra figure)",
 		"systems": "Misc",
 		"obtained": "2015-10-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3C",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Darth Maul, Hulkbuster, Ezra Bridger, Sam Flynn, Olaf, Han Solo, Ultron, Minnie Mouse figures)",
 		"systems": "Misc",
 		"obtained": "2015-12-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3D",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Chewbacca, Zeb Orrelios figures)",
 		"systems": "Misc",
 		"obtained": "2015-12-06",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3E",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Obi-wan, Luke Skywalker Light FX figures)",
 		"systems": "Misc",
 		"obtained": "2015-12-12",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3F",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Anakin Skywalker, Kanan Jarrus Light FX figures, Mulan figure)",
 		"systems": "Misc",
 		"obtained": "2015-12-21",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3G",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Anger, Disgust, Fear, Joy, Sadness, Sabine Wren figures. Inside Out playset. Yoda, Darth Vader Light FX figures)",
 		"systems": "Misc",
-		"obtained": "2015-12-26"
-	},
-	{
+		"obtained": "2015-12-26",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3H",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Rise Against the Empire and The Force Awakens playsets. Finn, Luke, Leia and Rey figures)",
 		"systems": "Misc",
 		"obtained": "2016-01-30",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3I",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Mickey Mouse figure)",
 		"systems": "Misc",
 		"obtained": "2016-02-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3J",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Judy Hopps, Nick Wilde, Spot figures)",
 		"systems": "Misc",
 		"obtained": "2016-03-12",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3K",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Marvel Battlegrounds playset, Captain America figure)",
 		"systems": "Misc",
 		"obtained": "2016-03-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3L",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Baloo figure)",
 		"systems": "Misc",
 		"obtained": "2016-04-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3M",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Ant-man figure)",
 		"systems": "Misc",
 		"obtained": "2016-05-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3N",
 		"company": "Disney",
 		"peripheralName": "Infiniy 3.0 (Boba Fett figure)",
 		"systems": "Misc",
 		"obtained": "2016-05-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3O",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Vision, Black Panther, Poe Dameron figures)",
 		"systems": "Misc",
 		"obtained": "2016-05-14",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3P",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Time, Alice, Mad Hatter figures)",
 		"systems": "Misc",
 		"obtained": "2016-05-24",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3Q",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Finding Dory playset, Nemo figure)",
 		"systems": "Misc",
 		"obtained": "2016-06-30",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3R",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Kylo Ren Light FX figure)",
 		"systems": "Misc",
 		"obtained": "2016-07-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "226-3S",
 		"company": "Disney",
 		"peripheralName": "Infinity 3.0 (Peter Pan figure)",
 		"systems": "Misc",
-		"obtained": "2018-02-03"
-	},
-	{
+		"obtained": "2018-02-03",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "227",
 		"company": "Nintendo",
 		"peripheralName": "NJS-3D1",
 		"systems": "PC",
 		"obtained": "2013-11-27",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "228",
 		"company": "Nintendo",
 		"peripheralName": "Super Famicom network controller",
 		"systems": "SNES",
-		"obtained": "2013-12-04"
-	},
-	{
+		"obtained": "2013-12-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "229",
 		"company": "Caterpillar",
 		"peripheralName": "Construction Zone controller",
 		"systems": "PC",
 		"obtained": "2014-01-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "230",
 		"company": "Kickstarter",
 		"peripheralName": "Lightpack",
 		"systems": "PC/AND",
-		"obtained": "2014-01-14"
-	},
-	{
+		"obtained": "2014-01-14",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "231",
 		"company": "Intec",
 		"peripheralName": "Wireless racing wheel",
 		"systems": "Wii",
 		"obtained": "2014-01-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "232",
 		"company": "HORI",
 		"peripheralName": "FPS G.E.A.R.",
@@ -2307,72 +2898,90 @@ var controllers = [{
 		"obtained": "2014-02-10",
 		"cost": 20,
 		"description": "Dpad, 2 analog clickable thumbsticks with replaceable tops, 2 system buttons, 1 OS button, 6 triggers, 4 face buttons, 2 settings buttons, remappable controls, 3 LED bars, headset port, rumble, USB (Xinput)",
-		"games": "All 360 games, but optimized for FPSs"
-	},
-	{
+		"games": "All 360 games, but optimized for FPSs",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "233",
 		"company": "HORI",
 		"peripheralName": "ZeroTech",
 		"systems": "PS1",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "234",
 		"company": "Bandai Namco",
 		"peripheralName": "Gundam controller",
 		"systems": "PC",
 		"obtained": "2014-03-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "235",
 		"company": "Atlus",
 		"peripheralName": "Meka Pokeler",
 		"systems": "PocketStation",
 		"obtained": "2014-04-21",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "236",
 		"company": "Logitech",
 		"peripheralName": "Cyberman I",
 		"systems": "PC",
 		"obtained": "2014-05-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "237",
 		"company": "Interact",
 		"peripheralName": "Xccelerator",
 		"systems": "PS1",
 		"obtained": "2014-05-12",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "238",
 		"company": "Nyko",
 		"peripheralName": "Smart Clip",
 		"systems": "PS4",
 		"obtained": "2014-05-14",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "239",
 		"company": "HORI",
 		"peripheralName": "Fighting Commander",
 		"systems": "SNES",
 		"obtained": "2014-05-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "240",
 		"company": "Kickstarter",
 		"peripheralName": "Mycestro",
 		"systems": "PC",
 		"obtained": "2014-07-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "241",
 		"company": "Microsoft",
 		"peripheralName": "Kinect",
@@ -2384,1074 +2993,1368 @@ var controllers = [{
 		"specificVersion": "USB",
 		"otherVersions": "Proprietary slim-360-only connector",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "242",
 		"company": "HDE",
 		"peripheralName": "Jet Mouse",
 		"systems": "PC",
 		"obtained": "2014-08-01",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "243",
 		"company": "PDP",
 		"peripheralName": "Epic Mickey 2: Clicker",
 		"systems": "Wii\\Wii U",
 		"obtained": "2014-08-26",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "244",
 		"company": "Kickstarter",
 		"peripheralName": "Touch+",
 		"systems": "PC",
-		"obtained": "2014-10-05"
-	},
-	{
+		"obtained": "2014-10-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "245",
 		"company": "PDP",
 		"peripheralName": "Epic Mickey 2: Paintbrush",
 		"systems": "Wii",
 		"obtained": "2014-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "246-A",
 		"company": "Google",
 		"peripheralName": "Cardboard",
 		"systems": "AND",
 		"obtained": "2014-10-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "246-B",
 		"peripheralName": "Cardboard Plastic",
-		"systems": "AND"
-	},
-	{
+		"systems": "AND",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "246-C",
 		"peripheralName": "VR BOX",
 		"systems": "AND",
-		"obtained": "2016-08-20"
-	},
-	{
+		"obtained": "2016-08-20",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-01",
 		"company": "Nintendo",
 		"peripheralName": "Amiibo reader",
 		"systems": "3DS",
-		"obtained": "2015-10-25"
-	},
-	{
+		"obtained": "2015-10-25",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-02",
 		"company": "Datel",
 		"peripheralName": "PowerSaves",
 		"systems": "3DS/Wii U/Switch",
-		"obtained": "2020-10-10"
-	},
-	{
+		"obtained": "2020-10-10",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-8L",
 		"company": "Nintendo",
 		"peripheralName": "Link (8-Bit)",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2016-12-09"
-	},
-	{
+		"obtained": "2016-12-09",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-8M",
 		"company": "Nintendo",
 		"peripheralName": "Mario (8-Bit) amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2015-09-15"
-	},
-	{
+		"obtained": "2015-09-15",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-BY",
 		"company": "Nintendo",
 		"peripheralName": "Yoshi (Blue) amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2015-10-17"
-	},
-	{
+		"obtained": "2015-10-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-CE",
 		"company": "Nintendo",
 		"peripheralName": "Celeste amiibo",
 		"systems": "Wii U/3DS/Switch",
 		"obtained": "2017-02-08",
-		"byProxy": "on"
-	},
-	{
+		"byProxy": "on",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-CF",
 		"company": "Nintendo",
 		"peripheralName": "Cloud amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2017-08-05"
-	},
-	{
+		"obtained": "2017-08-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-CKR",
 		"company": "Nintendo",
 		"peripheralName": "Cyrus/K.K./Reese amiibo 3-pack",
 		"systems": "Wii U/3DS/Switch",
 		"obtained": "2017-09-29",
-		"byProxy": "on"
-	},
-	{
+		"byProxy": "on",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-CM",
 		"company": "Nintendo",
 		"peripheralName": "Callie & Marie amiibos",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2016-07-31"
-	},
-	{
+		"obtained": "2016-07-31",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-CP",
 		"company": "Nintendo",
 		"peripheralName": "Cat Peach amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2021-02-13"
-	},
-	{
+		"obtained": "2021-02-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-CR",
 		"company": "Nintendo",
 		"peripheralName": "Chibi-robo amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2016-02-18"
-	},
-	{
+		"obtained": "2016-02-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-DA",
 		"company": "Nintendo",
 		"peripheralName": "Daisy amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2016-11-10"
-	},
-	{
+		"obtained": "2016-11-10",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-DB",
 		"company": "Nintendo",
 		"peripheralName": "Isabelle (Winter Outfit), Digby amiibos",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2018-03-17"
-	},
-	{
+		"obtained": "2018-03-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-IG",
 		"company": "Nintendo",
 		"peripheralName": "Inkling girl amiibo",
 		"systems": "Wii U/3DS/Switch",
 		"obtained": "2015-06-01",
-		"shipped": "on"
-	},
-	{
+		"shipped": "on",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-IS",
 		"company": "Nintendo",
 		"peripheralName": "Isabelle (Summer Outfit) amiibo",
 		"systems": "Wii U/3DS/Switch",
 		"obtained": "2016-12-15",
-		"byProxy": "on"
-	},
-	{
+		"byProxy": "on",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-IW",
 		"company": "Nintendo",
 		"peripheralName": "Isabelle (Winter Outfit) amiibo",
 		"systems": "Wii U/3DS/Switch",
 		"obtained": "2016-12-25",
-		"byProxy": "on"
-	},
-	{
+		"byProxy": "on",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-LA",
 		"company": "Nintendo",
 		"peripheralName": "Link's Awakening amiibo",
 		"systems": "3DS/Wii U/Switch",
-		"obtained": "2019-10-12"
-	},
-	{
+		"obtained": "2019-10-12",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-LI",
 		"company": "Nintendo",
 		"peripheralName": "Link amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2014-11-26"
-	},
-	{
+		"obtained": "2014-11-26",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-LM",
 		"company": "Nintendo",
 		"peripheralName": "Little Mac amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2017-03-08"
-	},
-	{
+		"obtained": "2017-03-08",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-LU",
 		"company": "Nintendo",
 		"peripheralName": "Luigi amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2017-03-08"
-	},
-	{
+		"obtained": "2017-03-08",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-LZ",
 		"company": "Nintendo",
 		"peripheralName": "Link & Zelda (Toon) amiibos",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2016-12-09"
-	},
-	{
+		"obtained": "2016-12-09",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-PE",
 		"company": "Nintendo",
 		"peripheralName": "Peach amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2014-11-26"
-	},
-	{
+		"obtained": "2014-11-26",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-RR",
 		"company": "Nintendo",
 		"peripheralName": "Rosalina/Rosetta amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2015-02-13"
-	},
-	{
+		"obtained": "2015-02-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-S0",
 		"company": "Nintendo",
 		"peripheralName": "Samus (Zero-Suit) amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2015-09-15"
-	},
-	{
+		"obtained": "2015-09-15",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-WL",
 		"company": "Nintendo",
 		"peripheralName": "Link (Wolf) amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2016-03-04"
-	},
-	{
+		"obtained": "2016-03-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-WP",
 		"company": "Nintendo",
 		"peripheralName": "Wedding Peach amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2017-10-30"
-	},
-	{
+		"obtained": "2017-10-30",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-ZB",
 		"company": "Nintendo",
 		"peripheralName": "Zelda (Breath of the Wild) amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2017-03-03"
-	},
-	{
+		"obtained": "2017-03-03",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "247-ZE",
 		"company": "Nintendo",
 		"peripheralName": "Zelda amiibo",
 		"systems": "Wii U/3DS/Switch",
-		"obtained": "2014-12-29"
-	},
-	{
+		"obtained": "2014-12-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "248",
 		"company": "Evollve, Inc.",
 		"peripheralName": "OZOBOT",
 		"systems": "AND/iOS",
 		"obtained": "2014-12-29",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "249",
 		"company": "Thalmic Labs",
 		"peripheralName": "Myo armband",
 		"systems": "PC",
 		"obtained": "2015-01-27",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "250",
 		"company": "8bitdo",
 		"peripheralName": "NES30",
 		"systems": "PC/AND/iOS",
 		"obtained": "2015-02-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "251",
 		"company": "Advantage",
 		"peripheralName": "Delta Six",
 		"systems": "PS3/XBOX360/PC",
 		"obtained": "2015-03-05",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "252-A",
 		"company": "Nintendo",
 		"peripheralName": "Cosmo Black 3DS",
 		"systems": "3DS",
-		"obtained": "2011-03-27"
-	},
-	{
+		"obtained": "2011-03-27",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "252-B",
 		"company": "Nintendo",
 		"peripheralName": "Majora's Mask new 3DS",
 		"systems": "n3DS",
 		"obtained": "2015-03-31",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "253",
 		"company": "Sharp",
 		"peripheralName": "Cyber Stick CZ-8NJ2",
 		"systems": "Sharp X68000",
 		"obtained": "2015-04-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "254",
 		"company": "Kickstarter",
 		"peripheralName": "NanoArcade",
 		"systems": "SYS",
 		"obtained": "2015-04-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "255-AN",
 		"company": "Activision",
 		"peripheralName": "Skylanders",
 		"systems": "AND/iOS",
 		"obtained": "2015-04-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "255-GN",
 		"company": "Activision",
 		"peripheralName": "Skylander (Ninjini Giant figure)",
 		"systems": "misc",
-		"obtained": "2017-03-08"
-	},
-	{
+		"obtained": "2017-03-08",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "256",
 		"company": "Collective Minds",
 		"peripheralName": "Chat Boost",
 		"systems": "PS4/PSP2/VitaTV",
 		"obtained": "2015-07-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "257",
 		"company": "Shanda",
 		"peripheralName": "SNDA EZ Remote",
 		"systems": "PC",
-		"obtained": "2015-09-29"
-	},
-	{
+		"obtained": "2015-09-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "258",
 		"company": "Valve",
 		"peripheralName": "Steam Controller",
 		"systems": "PC",
 		"obtained": "2015-10-17",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "259",
 		"company": "8bitdo",
 		"peripheralName": "NES30 Pro",
 		"systems": "PC/AND/iOS",
 		"obtained": "2015-10-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "260",
 		"company": "8bitdo",
 		"peripheralName": "SNES30",
 		"systems": "PC/AND/iOS",
 		"obtained": "2015-11-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "261",
 		"peripheralName": "DerpyCon",
 		"systems": "PC",
 		"obtained": "2015-12-31",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "262-A",
 		"company": "JOETSU Electronics",
 		"peripheralName": "L2/R2 Grip Cover",
 		"systems": "PSP2 1000",
 		"obtained": "2016-01-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "262-B",
 		"company": "JOETSU Electronics",
 		"peripheralName": "L2/R2 Grip Cover Case",
 		"systems": "PSP2",
-		"obtained": "2017-06-16"
-	},
-	{
+		"obtained": "2017-06-16",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "262-C",
 		"company": "Top Player",
 		"peripheralName": "L3/R3 Module",
 		"systems": "PSP2",
-		"obtained": "2017-12-18"
-	},
-	{
+		"obtained": "2017-12-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "262-D",
 		"company": "JOETSU Electronics",
 		"peripheralName": "L3/R3 faceplate replacement",
 		"systems": "PSP2",
-		"obtained": "2019-07-31"
-	},
-	{
+		"obtained": "2019-07-31",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "263",
 		"company": "Blue Orb",
 		"peripheralName": "Orbitouch",
 		"systems": "PC",
 		"obtained": "2016-02-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "264",
 		"company": "HORI",
 		"peripheralName": "Pokken Tournament",
 		"systems": "Wii U",
 		"obtained": "2016-04-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "265",
 		"company": "MadCatz",
 		"peripheralName": "SURFR",
 		"systems": "AND",
 		"obtained": "2016-04-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "266",
 		"company": "Sports Sciences Inc.",
 		"peripheralName": "BatterUP",
 		"systems": "SNES",
 		"obtained": "2016-04-03",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "267",
 		"company": "Saitek",
 		"peripheralName": "X45",
 		"systems": "PC",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "268-A",
 		"company": "Samsung",
 		"peripheralName": "Q1",
 		"systems": "PC",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "268-B",
 		"company": "Amtek",
 		"peripheralName": "u560",
-		"systems": "PC"
-	},
-	{
+		"systems": "PC",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "269-A",
 		"company": "Oculus",
 		"peripheralName": "Rift CV1",
 		"systems": "PC",
 		"obtained": "2016-04-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "269-B",
 		"company": "Microsoft",
 		"peripheralName": "Wireless controller",
 		"systems": "X1",
 		"obtained": "2016-04-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "270",
 		"company": "Ipega",
 		"peripheralName": "Bluetooth telescopic controller",
 		"systems": "PC/AND",
 		"obtained": "2016-05-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "271",
 		"company": "Logic3",
 		"peripheralName": "TopDrive Space Wheel",
 		"systems": "PS1/PS2",
 		"obtained": "2016-06-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "272",
 		"peripheralName": "Wireless gamepad and selfie shutter remote",
 		"systems": "AND/PC/iOS",
 		"obtained": "2016-06-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "273-A",
 		"peripheralName": "Retrode",
 		"systems": "PC/AND",
 		"obtained": "2016-06-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "273-B",
 		"peripheralName": "Retrode N64 module",
 		"systems": "PC/AND",
 		"obtained": "2016-12-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "273-C",
 		"peripheralName": "Retrode GBx module",
 		"systems": "PC/AND",
 		"obtained": "2016-12-28",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "274",
 		"company": "GPD",
 		"peripheralName": "Q88+ RK3188",
 		"systems": "SYS",
 		"obtained": "2016-06-15",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "275",
 		"company": "Serafim",
 		"peripheralName": "ODiN laser projection mouse",
 		"systems": "PC",
 		"obtained": "2016-06-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "276",
 		"company": "Logitech",
 		"peripheralName": "Netplay",
 		"systems": "PS2",
 		"obtained": "2016-07-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "277",
 		"company": "MadCatz",
 		"peripheralName": "Panther",
 		"systems": "DC",
 		"obtained": "2016-07-09",
 		"photographed": true,
-	},
-	{
+		"cost": 20,
+		"description": 'Base: VMU slot, glowing trackball, 2 analog "triggers" (no where near where triggers should be) 3 face buttons, 1 system button<BR>Joystick: A joystick (obviously), 4 buttons, 2 triggers',
+		"games": "Quake III Arena, Soldier of Fortune, KISS Psycho Circus: The Nightmare Child and StarLancer",
+	},{
 		"peripheral": "278",
 		"company": "Activision",
 		"peripheralName": "DJ Hero",
 		"systems": "PS2",
 		"obtained": "2016-07-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "279",
 		"company": "Maksco Toy Ltd.",
 		"peripheralName": "ARliens attack",
 		"systems": "iOS/AND",
 		"obtained": "2016-08-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "280-A",
 		"company": "NextThing Co.",
 		"peripheralName": "PocketCHIP",
 		"systems": "SYS",
 		"obtained": "2016-08-31",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "280-B",
 		"company": "3D Hubs",
 		"peripheralName": "PocketCHIP keyboard",
 		"systems": "SYS",
-		"obtained": "2016-08-13"
-	},
-	{
+		"obtained": "2016-08-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "281",
 		"company": "3D Rudder",
 		"peripheralName": "3D Rudder",
 		"systems": "PC",
-		"obtained": "2016-09-16"
-	},
-	{
+		"obtained": "2016-09-16",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "282",
 		"company": "Nintendo",
 		"peripheralName": "Pokemon Go Plus",
 		"systems": "iOS/AND",
 		"obtained": "2016-09-18",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "283",
 		"company": "Sony",
 		"peripheralName": "PSVR",
 		"systems": "PS4",
 		"obtained": "2016-10-13",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "284",
 		"company": "Kickstarter",
 		"peripheralName": "Arduboy",
 		"systems": "SYS",
 		"obtained": "2016-10-20",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "285",
 		"company": "HORI",
 		"peripheralName": "TAC Pro",
 		"systems": "PS3/PS4",
 		"obtained": "2016-11-07",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "286-A",
 		"company": "Nintendo",
 		"peripheralName": "NES Classic",
 		"systems": "SYS",
 		"obtained": "2016-11-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "286-B",
 		"company": "Nintendo",
 		"peripheralName": "NES Classic controller",
 		"systems": "NES Classic/SNES Classic/Wii/Wii U",
-		"obtained": "2018-10-06"
-	},
-	{
+		"obtained": "2018-10-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "287",
 		"company": "Nintendo",
 		"peripheralName": "Gameboy Camera",
 		"systems": "GB/GBC",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "288",
 		"company": "ColecoVision",
 		"peripheralName": "Super Action Controller",
 		"systems": "COL",
 		"obtained": "2016-11-19",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "289",
 		"company": "EMIO",
 		"peripheralName": "EDGE Joystick",
 		"systems": "NES Classic/SNES Classic/Wii/Wii U",
 		"obtained": "2016-11-23",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "290",
 		"company": "Samsung",
 		"peripheralName": "Galaxy Note 10.1",
 		"systems": "AND",
-		"obtained": "2015-03-25"
-	},
-	{
+		"obtained": "2015-03-25",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "291",
 		"company": "Nintendo",
 		"peripheralName": "Z-ring",
 		"systems": "3DS/2DS",
 		"obtained": "2016-11-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "292-A",
 		"company": "Kickstarter",
 		"peripheralName": "IoT pHAT",
 		"systems": "Pi",
-		"obtained": "2016-12-02"
-	},
-	{
+		"obtained": "2016-12-02",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "292-B",
 		"company": "8bitdo",
 		"peripheralName": "Red Bear Zero",
 		"systems": "Pi",
 		"obtained": "2016-12-02",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "293",
 		"company": "Microsoft",
 		"peripheralName": "X1 Analog Stick Caps",
 		"systems": "X1/PS4",
-		"obtained": "2016-11-23"
-	},
-	{
+		"obtained": "2016-11-23",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "294",
 		"company": "Daou Infosys Corp",
 		"peripheralName": "Stealth",
 		"systems": "SNES",
 		"obtained": "2016-12-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "295",
 		"company": "Capcom",
 		"peripheralName": "Soldier Pad",
 		"systems": "SNES",
 		"obtained": "2017-01-11",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "296",
 		"company": "Sanwa",
 		"peripheralName": "Super Racer",
 		"systems": "PC",
-		"obtained": "2017-01-21"
-	},
-	{
+		"obtained": "2017-01-21",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "297",
 		"company": "SEGA",
 		"peripheralName": "Pods",
 		"systems": "SYS",
 		"obtained": "2017-02-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "298",
 		"company": "HAL Labs",
 		"peripheralName": "Joy Ball",
 		"systems": "FAM",
 		"obtained": "2017-02-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "299-L",
 		"company": "Kickstarter",
 		"peripheralName": "Grifta Morphing Pad",
 		"systems": "PC",
 		"obtained": "2017-02-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "300",
 		"company": "8bitdo",
 		"peripheralName": "N64 controller",
 		"systems": "PC/AND/iOS",
 		"obtained": "2017-02-09",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "301",
 		"company": "BanPresto",
 		"peripheralName": "Kids Station Drawing Tablet",
 		"systems": "PS1",
 		"obtained": "2017-02-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "302-A",
 		"peripheralName": "Titan Two",
 		"systems": "PS3/PS4/XBOX360/X1/PSTV/PC/AND",
 		"obtained": "2017-02-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "302-B",
 		"peripheralName": "Titan Two Bluetooth Module",
-		"obtained": "2018-01-25"
-	},
-	{
+		"obtained": "2018-01-25",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "302-C",
 		"company": "Brook",
 		"peripheralName": "Gam3Gear Super USB Adapter for PS3/PS4 Controller Converter Adapter",
 		"systems": "PS1/PS2/PC",
-		"obtained": "2018-12-06"
-	},
-	{
+		"obtained": "2018-12-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "302-D",
 		"company": "Brook",
 		"peripheralName": "Gam3Gear Super USB Adapter for PS3/PS4 Controller Converter Adapter",
 		"systems": "DC",
-		"obtained": "2019-12-24"
-	},
-	{
+		"obtained": "2019-12-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "303",
 		"company": "Motorola",
 		"peripheralName": "Moto 360 (1st gen)",
 		"systems": "AND",
 		"obtained": "2016-11-22",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "304",
 		"company": "Agetec",
 		"peripheralName": "Bass Landing",
 		"systems": "PS1",
 		"obtained": "2017-02-25",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "305",
 		"company": "Bandai",
 		"peripheralName": "Bass Rise",
 		"systems": "PS1",
-		"obtained": "2017-03-08"
-	},
-	{
+		"obtained": "2017-03-08",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "306",
 		"company": "Performance",
 		"peripheralName": "UltraRacer",
 		"systems": "PS1",
 		"obtained": "2017-03-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "307",
 		"company": "ASUS",
 		"peripheralName": "Eee Stick",
 		"systems": "PC",
 		"obtained": "2017-03-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "308",
 		"company": "Oculus",
 		"peripheralName": "Touch",
 		"systems": "PC",
 		"obtained": "2017-03-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "309",
 		"company": "KidzPLAY",
 		"peripheralName": "Wireless Adventure Game Pad",
 		"systems": "PS3",
 		"obtained": "2017-03-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "310",
 		"company": "KidzPLAY",
 		"peripheralName": "Wireless Motion Racing Wheel",
 		"systems": "PS3",
 		"obtained": "2017-03-08",
 		"photographed": true,
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "311",
 		"peripheralName": "Airpad",
 		"systems": "PS1",
-		"obtained": "2017-03-24"
-	},
-	{
+		"obtained": "2017-03-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "312",
 		"company": "Belkin",
 		"peripheralName": "Nostromo n40",
 		"systems": "PC",
-		"obtained": "2017-04-06"
-	},
-	{
+		"obtained": "2017-04-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "313",
 		"company": "Interact",
 		"peripheralName": "Pool Shark",
 		"systems": "PC",
-		"obtained": "2017-04-06"
-	},
-	{
+		"obtained": "2017-04-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "314",
 		"company": "Phantom",
 		"peripheralName": "Lapboard",
 		"systems": "PC/PS3",
-		"obtained": "2017-04-06"
-	},
-	{
+		"obtained": "2017-04-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "315",
 		"company": "Dempa Micomsoft",
 		"peripheralName": "XE1-AP",
 		"systems": "GEN/SEGACD/32X/PCE/MSX/NEC PC-88/Sharp 68000/FM Towns",
-		"obtained": "2017-04-08",
+		"obtained": "2017-04-08",		
+		"cost": 80,
+		"description": "1 non-centering dual-axis analog stick, 1 centering rotatable (not sure if rotation is an input though) single-axis analog stick, 4 triggers, 4 face buttons, 2 system buttons, 4 front-facing switches, 1 back-facing switch, a cool box",
+		"games": "<UL><LI>After Burner II, Ayrton Senna's Super Monaco GP II, Fastest 1, Galaxy Force II, Musha Aleste (Genesis)</LI><LI>After Burner III, Night Striker, Starblade (Sega CD)</LI><LI>After Burner Complete, Space Harrier (32X)</LI><LI>After Burner II, Thunder Blade, Operation Wolf, Outrun (HuCard)</LI><LI>Forgotten Worlds (Super CD)</LI></UL>",
 		"section": "sega",
-	},
-	{
+	},{
 		"peripheral": "316",
 		"company": "Yamaha",
 		"peripheralName": "Racing MX-1 Motocross Jetski ATV controller",
 		"systems": "PS2",
-		"obtained": "2017-05-04"
-	},
-	{
+		"obtained": "2017-05-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "317",
 		"company": "EMIO",
 		"peripheralName": "Elite controller",
 		"systems": "PS3/PS4",
-		"obtained": "2017-05-04"
-	},
-	{
+		"obtained": "2017-05-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "318",
 		"company": "Microsoft",
 		"peripheralName": "Sidewinder Strategic Commander",
 		"systems": "PC",
-		"obtained": "2017-05-06"
-	},
-	{
+		"obtained": "2017-05-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "319",
 		"company": "Mindscape",
 		"peripheralName": "Miracle Piano",
 		"systems": "NES/SNES",
-		"obtained": "2017-05-13"
-	},
-	{
+		"obtained": "2017-05-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "320",
 		"company": "Fanatec",
 		"peripheralName": "Gameboard",
 		"systems": "PC",
-		"obtained": "2017-05-13"
-	},
-	{
+		"obtained": "2017-05-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "321",
 		"company": "HORI",
 		"peripheralName": "Separate",
 		"systems": "PS2",
-		"obtained": "2017-05-13"
-	},
-	{
+		"obtained": "2017-05-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "322",
 		"company": "Nintendo",
 		"peripheralName": "Max",
 		"systems": "NES",
-		"obtained": "2017-05-16"
-	},
-	{
+		"obtained": "2017-05-16",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "323",
 		"company": "Sony",
 		"peripheralName": "Aim",
 		"systems": "PS4",
-		"obtained": "2017-05-16"
-	},
-	{
+		"obtained": "2017-05-16",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "324",
 		"company": "RealPlay",
 		"peripheralName": "Puzzle Sphere",
 		"systems": "PS2",
-		"obtained": "2017-05-18"
-	},
-	{
+		"obtained": "2017-05-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "325-A",
 		"company": "RealPlay",
 		"peripheralName": "Pool",
 		"systems": "PS2",
-		"obtained": "2017-05-18"
-	},
-	{
+		"obtained": "2017-05-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "325-B",
 		"company": "RealPlay",
 		"peripheralName": "Golf",
 		"systems": "PS2",
-		"obtained": "2017-05-18"
-	},
-	{
+		"obtained": "2017-05-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "326-A",
 		"company": "Play Fusion",
 		"peripheralName": "Lightseekers (Mari Starter Pack)",
 		"systems": "PC/AND/iOS",
-		"obtained": "2017-05-18"
-	},
-	{
+		"obtained": "2017-05-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "326-B",
 		"company": "Play Fusion",
 		"peripheralName": "Skyrider flight pack",
 		"systems": "PC/AND/iOS",
-		"obtained": "2017-08-05"
-	},
-	{
+		"obtained": "2017-08-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "327",
 		"company": "Logitech",
 		"peripheralName": "G-13",
 		"systems": "PC",
-		"obtained": "2017-05-18"
-	},
-	{
+		"obtained": "2017-05-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "328",
 		"peripheralName": "Flying Circus RC controller",
 		"systems": "PS2",
-		"obtained": "2017-06-16"
-	},
-	{
+		"obtained": "2017-06-16",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "329",
 		"company": "DragonCast",
 		"peripheralName": "Cyber Metal Gun",
 		"systems": "DC",
-		"obtained": "2017-06-17"
-	},
-	{
+		"obtained": "2017-06-17",
+		"description": 'CRT display only lightgun (SD only), dpad, 2 start buttons, mode switch/button, LEDs, memory card port, trigger, "Special Mode for Silent Scope"',
+		"specificVersion": "White",
+		"otherVersions": "Silver, Blue, Gold, Grey",
+		"cost": 30,
+		"games": "DC Lightgun games, Silent Scope",
+	},{
 		"peripheral": "330",
 		"company": "Hudson",
 		"peripheralName": "Teku Teku Angel Pocket",
 		"systems": "DS",
-		"obtained": "2017-06-19"
-	},
-	{
+		"obtained": "2017-06-19",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "331",
 		"company": "InterAct",
 		"peripheralName": "Vortex",
 		"systems": "N64",
-		"obtained": "2017-06-24"
-	},
-	{
+		"obtained": "2017-06-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "332",
 		"company": "Spherex",
 		"peripheralName": "5.1 Surround Sound",
-		"systems": "XBOX/XBOX360/PS2/PS3/PS4"
-	},
-	{
+		"systems": "XBOX/XBOX360/PS2/PS3/PS4",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "333",
 		"peripheralName": "R1",
 		"systems": "AND/iOS",
-		"obtained": "2017-07-20"
-	},
-	{
+		"obtained": "2017-07-20",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "334",
 		"company": "QuickShot",
 		"peripheralName": "MasterPilot",
 		"systems": "PC",
-		"obtained": "2017-08-05"
-	},
-	{
+		"obtained": "2017-08-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "335",
 		"company": "Capcom",
 		"peripheralName": "Mahjong controller",
 		"systems": "FAM",
-		"obtained": "2017-08-05"
-	},
-	{
+		"obtained": "2017-08-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "336",
 		"company": "HORI",
 		"peripheralName": "Project DIVA F",
 		"systems": "PS3",
-		"obtained": "2017-09-01"
-	},
-	{
+		"obtained": "2017-09-01",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "337",
 		"company": "HORI",
 		"peripheralName": "Dragon Quest Slime",
 		"systems": "PS4",
-		"obtained": "2017-09-01"
-	},
-	{
+		"obtained": "2017-09-01",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "338",
 		"company": "Konami",
 		"peripheralName": "Pop'n Music",
 		"systems": "PS1/PS2",
-		"obtained": "2017-09-01"
-	},
-	{
+		"obtained": "2017-09-01",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "339",
 		"company": "JXD",
 		"peripheralName": "JXD S7300C",
 		"systems": "SYS",
-		"obtained": "2017-09-01"
-	},
-	{
+		"obtained": "2017-09-01",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "340",
 		"company": "Nintendo",
 		"peripheralName": "SNES mini",
 		"systems": "SYS",
-		"obtained": "2017-09-29"
-	},
-	{
+		"obtained": "2017-09-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "341",
 		"company": "Microsoft",
 		"peripheralName": "Chatpad",
@@ -3461,306 +4364,394 @@ var controllers = [{
 		"description": "Plugs into the EXT port at the bottom of 360 controllers, headset port pass-through, 41 backlit buttons",
 		"games": "Misc 360 games",
 		"specificVersion": "Black",
-		"otherVersions": "White"
-	},
-	{
+		"otherVersions": "White",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "342",
 		"company": "Sony",
 		"peripheralName": "PSone",
 		"systems": "SYS",
-		"obtained": "2017-10-02"
-	},
-	{
+		"obtained": "2017-10-02",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "343",
 		"company": "HORI",
 		"peripheralName": "Wireless Fighting Commander",
 		"systems": "NES Classic/SNES Classic/Wii/Wii U",
-		"obtained": "2017-10-05"
-	},
-	{
+		"obtained": "2017-10-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "344",
 		"company": "Tomy",
 		"peripheralName": "EVIO",
 		"systems": "SYS",
-		"obtained": "2017-10-27"
-	},
-	{
+		"obtained": "2017-10-27",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "345",
 		"company": "Sony",
 		"peripheralName": "Tokimeki Memorial mouse",
 		"systems": "PS1",
-		"obtained": "2017-10-27"
-	},
-	{
+		"obtained": "2017-10-27",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "346",
 		"company": "Hyperkin",
 		"peripheralName": "Hyper Click Mouse",
 		"systems": "SNES",
-		"obtained": "2017-10-31"
-	},
-	{
+		"obtained": "2017-10-31",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "347",
 		"company": "DreamGEAR",
 		"peripheralName": "My Arcade",
 		"systems": "SYS",
-		"obtained": "2017-11-13"
-	},
-	{
+		"obtained": "2017-11-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "348",
 		"company": "game-elements",
 		"peripheralName": "Control Element",
 		"systems": "PSone",
-		"obtained": "2017-11-22"
-	},
-	{
+		"obtained": "2017-11-22",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "349",
 		"company": "HORI",
 		"peripheralName": "Remote Play Assistant",
 		"systems": "PSP2 2K/slim",
-		"obtained": "2017-11-22"
-	},
-	{
+		"obtained": "2017-11-22",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "350",
 		"company": "Nintendo",
 		"peripheralName": "Pokémon Mini",
 		"systems": "SYS",
-		"obtained": "2017-11-22"
-	},
-	{
+		"obtained": "2017-11-22",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "351",
 		"company": "Sony",
 		"peripheralName": "PS4 Pro",
 		"systems": "SYS",
-		"obtained": "2017-11-25"
-	},
-	{
+		"obtained": "2017-11-25",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "352",
 		"company": "Kickstarter",
 		"peripheralName": "Infinitton",
 		"systems": "PC",
-		"obtained": "2017-12-04"
-	},
-	{
+		"obtained": "2017-12-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "353",
 		"company": "8bitdo",
 		"peripheralName": "SF30 Pro",
 		"systems": "PC/AND/iOS/Switch",
 		"obtained": "2017-12-26",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "pc",
-	},
-	{
+	},{
 		"peripheral": "354",
 		"company": "8bitdo",
 		"peripheralName": "Retro Receiver",
 		"systems": "Wii/Wii U/NES Classic/SNES Classic/PC",
 		"obtained": "2017-12-26",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "nintendo",
-	},
-	{
+	},{
 		"peripheral": "355",
 		"company": "QuickShot",
 		"peripheralName": "3D Striker QS 6222",
 		"systems": "PC",
-		"obtained": "2018-01-20"
-	},
-	{
+		"obtained": "2018-01-20",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "356",
 		"peripheralName": "RetroMini",
 		"systems": "SYS",
-		"obtained": "2018-01-20"
-	},
-	{
+		"obtained": "2018-01-20",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "357",
 		"company": "HORI",
 		"peripheralName": "Wired Controller Light",
 		"systems": "PS4",
-		"obtained": "2018-01-25"
-	},
-	{
+		"obtained": "2018-01-25",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "358",
 		"company": "iGUGU",
 		"peripheralName": "iGUGU 8079015 Gamecore",
 		"systems": "PC",
-		"obtained": "2018-01-25"
-	},
-	{
+		"obtained": "2018-01-25",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "359",
 		"company": "Nintendo",
 		"peripheralName": "Switch",
 		"systems": "SYS",
-		"obtained": "2018-02-05"
-	},
-	{
+		"obtained": "2018-02-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "360",
 		"company": "Mattel",
 		"peripheralName": "Power Glove",
 		"systems": "NES",
-		"obtained": "2018-02-10"
-	},
-	{
+		"obtained": "2018-02-10",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "361",
 		"company": "Discovery Bay Games, Inc.",
 		"peripheralName": "duo Pinball",
 		"systems": "iPad",
-		"obtained": "2018-02-21"
-	},
-	{
+		"obtained": "2018-02-21",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "362",
 		"company": "SEGA",
 		"peripheralName": "VMU",
-		"systems": "DC"
-	},
-	{
+		"systems": "DC",
+		"cost": 20,
+		"description": "dpad, 2 face buttons, 2 OS buttons, male/female connectors so that it can connect to either a Dreamcast (via the controller) or another VMU for multiplayer or data exchange, 128 KB of flash to act as a memory card, 48x32 pixel monochrome LCD",
+		"games": "All DC games, DC VMU games",
+	},{
 		"peripheral": "363-A",
 		"company": "Nintendo",
 		"peripheralName": "Rumble Cart (Pokemon Pinball)",
 		"systems": "GBC",
-		"obtained": "1999-04-16"
-	},
-	{
+		"obtained": "1999-04-16",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "363-B",
 		"company": "Nintendo",
 		"peripheralName": "Rumble Cart (Perfect Dark)",
-		"systems": "GBC"
-	},
-	{
+		"systems": "GBC",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "363-C",
 		"company": "Nintendo",
 		"peripheralName": "Rumble Cart (The Little Mermaid: Pinball Frenzy)",
 		"systems": "GBC",
-		"obtained": "2018-03-05"
-	},
-	{
+		"obtained": "2018-03-05",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "363-D",
 		"company": "Nintendo",
 		"peripheralName": "Rumble Cart (Tonka Raceway)",
 		"systems": "GBC",
-		"obtained": "2021-09-19T04:00:00.000Z"
-	},
-	{
+		"obtained": "2021-09-19T04:00:00.000Z",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "364",
 		"company": "Whirlwind FX",
 		"peripheralName": "Vortx",
 		"systems": "PC",
-		"obtained": "2018-03-06"
-	},
-	{
+		"obtained": "2018-03-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "365",
 		"company": "Kickstarter",
 		"peripheralName": "Gamebuino META",
 		"systems": "SYS",
-		"obtained": "2018-03-09"
-	},
-	{
+		"obtained": "2018-03-09",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "366",
 		"peripheralName": "Link Cable",
 		"systems": "DC",
-		"obtained": "2018-03-09"
-	},
-	{
+		"obtained": "2018-03-09",
+		"cost": 60,
+		"description": "Allows 2 Dreamcasts to connect for multiplayer using 2 copies of the game and 2 TVs",
+		"games": "",
+	},{
 		"peripheral": "367",
 		"peripheralName": "Pocket Voltex",
 		"systems": "PC",
-		"obtained": "2018-03-09"
-	},
-	{
+		"obtained": "2018-03-09",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "368",
 		"company": "SNK",
 		"peripheralName": "NeoGeo Pocket Color",
 		"systems": "SYS",
-		"obtained": "2018-03-09"
-	},
-	{
+		"obtained": "2018-03-09",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "369",
 		"company": "Sony",
 		"peripheralName": "GPS",
 		"systems": "PSP",
-		"obtained": "2018-03-29"
-	},
-	{
+		"obtained": "2018-03-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "370",
 		"company": "Kickstarter",
 		"peripheralName": "Brawler64",
 		"systems": "N64",
-		"obtained": "2018-03-29"
-	},
-	{
+		"obtained": "2018-03-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "371",
 		"company": "Kickstarter",
 		"peripheralName": "Pokitto",
 		"systems": "SYS",
-		"obtained": "2018-03-29"
-	},
-	{
+		"obtained": "2018-03-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "372",
 		"company": "Columbus Circle",
 		"peripheralName": "Family Pocket",
 		"systems": "SYS",
-		"obtained": "2017-10-06"
-	},
-	{
+		"obtained": "2017-10-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "373",
 		"company": "Columbus Circle",
 		"peripheralName": "Arcade Stand",
 		"systems": "Switch",
-		"obtained": "2018-04-12"
-	},
-	{
+		"obtained": "2018-04-12",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "374",
 		"company": "NamcoBandai",
 		"peripheralName": "Baku Tsuri Bar Hunter",
 		"systems": "n3DS",
-		"obtained": "2018-04-12"
-	},
-	{
+		"obtained": "2018-04-12",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "375",
 		"company": "EMIO",
 		"peripheralName": "Switch Pad",
 		"systems": "Switch",
-		"obtained": "2018-04-22"
-	},
-	{
+		"obtained": "2018-04-22",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "376",
 		"company": "Wild Things",
 		"peripheralName": "Energiser",
 		"systems": "GEN",
-		"obtained": "2018-05-05"
-	},
-	{
+		"obtained": "2018-05-05",
+		"cost": 26,
+		"description": "Dpad, 2 triggers, 6 face buttons, 3 system buttons, Slow motion switch, 9 turbo switches",
+		"games": "All Genesis games",
+	},{
 		"peripheral": "377",
 		"company": "Nintendo",
 		"peripheralName": "Gameboy Printer",
 		"systems": "GB/GBC",
-		"obtained": "2018-05-17"
-	},
-	{
+		"obtained": "2018-05-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "378",
 		"company": "GameSir",
 		"peripheralName": "G5",
 		"systems": "AND/iOS",
-		"obtained": "2018-05-17"
-	},
-	{
+		"obtained": "2018-05-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "379-A",
 		"company": "Basic Fun",
 		"peripheralName": "Oregon Trail Portable",
 		"systems": "SYS",
-		"obtained": "2018-05-20"
-	},
-	{
+		"obtained": "2018-05-20",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "379-B",
 		"company": "Basic Fun",
 		"peripheralName": "Fix-it Felix Jr.",
 		"systems": "SYS",
-		"obtained": "2018-11-24"
-	},
-	{
+		"obtained": "2018-11-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "379-C",
 		"peripheralName": "Bubble Bobble Mini Arcade",
 		"systems": "SYS",
-		"obtained": "2019-09-10"
-	},
-	{
+		"obtained": "2019-09-10",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "380",
 		"company": "Hyperkin",
 		"peripheralName": "Duke",
@@ -3772,105 +4763,132 @@ var controllers = [{
 		"specificVersion": "Black",
 		"otherVersions": "Green",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "381-A",
 		"company": "SuperImpulse",
 		"peripheralName": "Pac-Man Tiny Arcade",
 		"systems": "SYS",
-		"obtained": "2018-05-30"
-	},
-	{
+		"obtained": "2018-05-30",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "381-B",
 		"company": "SuperImpulse",
 		"peripheralName": "Ms. Pac-Man Tiny Arcade",
 		"systems": "SYS",
-		"obtained": "2018-06-28"
-	},
-	{
+		"obtained": "2018-06-28",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "381-C",
 		"company": "SuperImpulse",
 		"peripheralName": "Space Invaders Tiny Arcade",
 		"systems": "SYS",
-		"obtained": "2018-06-28"
-	},
-	{
+		"obtained": "2018-06-28",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "381-D",
 		"company": "SuperImpulse",
 		"peripheralName": "Galaxian Tiny Arcade",
 		"systems": "SYS",
-		"obtained": "2018-06-28"
-	},
-	{
+		"obtained": "2018-06-28",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "381-E",
 		"company": "SuperImpulse",
 		"peripheralName": "Frogger, Galaga, Dig Dug, Pole Position Tiny Arcades",
 		"systems": "SYS",
-		"obtained": "2019-09-07"
-	},
-	{
+		"obtained": "2019-09-07",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "381-F",
 		"company": "SuperImpulse",
 		"peripheralName": "Tetris Tiny Arcade",
 		"systems": "SYS",
-		"obtained": "2019-09-10"
-	},
-	{
+		"obtained": "2019-09-10",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "382",
 		"peripheralName": "Pocket Sprite",
 		"systems": "SYS",
-		"obtained": "2018-06-28"
-	},
-	{
+		"obtained": "2018-06-28",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "383",
 		"company": "QuickShot",
 		"peripheralName": "Aviator",
 		"systems": "NES",
-		"obtained": "2018-07-07"
-	},
-	{
+		"obtained": "2018-07-07",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "384",
 		"company": "Odroid",
 		"peripheralName": "Odroid Go",
 		"systems": "SYS",
-		"obtained": "2018-07-15"
-	},
-	{
+		"obtained": "2018-07-15",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "385-A",
 		"company": "Clockwork",
 		"peripheralName": "GameShell",
 		"systems": "SYS",
-		"obtained": "2018-08-04"
-	},
-	{
+		"obtained": "2018-08-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "385-B",
 		"company": "Clockwork",
 		"peripheralName": "GameShell dev board 3.1",
 		"systems": "GS",
-		"obtained": "2018-12-24"
-	},
-	{
+		"obtained": "2018-12-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "386",
 		"company": "Clockwork",
 		"peripheralName": "Lightkey",
 		"systems": "GS",
-		"obtained": "2018-08-04"
-	},
-	{
+		"obtained": "2018-08-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "387",
 		"company": "HORI",
 		"peripheralName": "Border Break Controller",
 		"systems": "PS4",
-		"obtained": "2018-08-09"
-	},
-	{
+		"obtained": "2018-08-09",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "388",
 		"company": "HORI",
 		"peripheralName": "Cross Controller",
 		"systems": "Switch",
-		"obtained": "2018-08-27"
-	},
-	{
+		"obtained": "2018-08-27",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "389-A",
 		"company": "Microsoft",
 		"peripheralName": "Adaptive Controller",
@@ -3880,8 +4898,7 @@ var controllers = [{
 		"description": "1 OS button, 2 system buttons, 1 profile switcher button, 2 face buttons, dpad, Wireless, wired and charges the built-in battery via USB-C, headphone connector, connectors for accessibility devices (1 connector for each button, and direction on the dpad, 2 extra connectors for the X button), 2 USB master ports for analog sticks",
 		"games": "All X1/PC games",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "389-B",
 		"company": "PDP",
 		"peripheralName": "One-handed joystick",
@@ -3891,8 +4908,7 @@ var controllers = [{
 		"description": "1 clickable analog stick, 2 shoulder buttons, connects via USB HID",
 		"games": "All X1/PC games",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "389-C",
 		"company": "Logitech",
 		"peripheralName": "Adaptive Gaming Kit",
@@ -3902,175 +4918,220 @@ var controllers = [{
 		"description": "4x Light touch buttons, 3x Small buttons, 3x Big buttons, 2x Variable triggers, Rigid hook and loop game board, Flexible hook and loop game board, hook and loop ties, Colo-coded labels",
 		"games": "All X1/PC games",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "390",
 		"company": "Konami",
 		"peripheralName": "Pop'n Music Be-Mouse",
 		"systems": "PC",
-		"obtained": "2018-10-01"
-	},
-	{
+		"obtained": "2018-10-01",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "391-A",
 		"company": "Ubisoft",
 		"peripheralName": "Starlink Starter Kit (Game, Base, Poster, Mason Rana, Zenith, Flamethrower, Shredder, and Frost Barrage)",
 		"systems": "PS4",
 		"obtained": "2018-10-16",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "391-B",
 		"company": "Ubisoft",
 		"peripheralName": "Cerberus Starship Pack (Razor Lemay pilot, Cerberus ship, Shockwave weapon)",
 		"systems": "PS4/X1/Switch",
 		"obtained": "2018-10-20",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "391-C",
 		"company": "Ubisoft",
 		"peripheralName": "Starlink Starter Kit (Game, Base, Poster, Mason Rana, Fox McCloud, Arwing, Flamethrower, Shredder, and Frost Barrage)",
 		"systems": "Switch",
 		"obtained": "2018-11-22",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "391-D",
 		"company": "Ubisoft",
 		"peripheralName": "Eli Arborwood, (Shredder Mk. 2, Crusher), (Hailstorm, Meteor Mk. 2)",
 		"systems": "PS4/X1/Switch",
 		"obtained": "2018-12-17",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "391-E",
 		"company": "Ubisoft",
 		"peripheralName": "Neptune Starship Pack (Neptune, Judge, Levitator)",
 		"systems": "PS4/X1/Switch",
 		"obtained": "2018-12-18",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "391-F",
 		"company": "Ubisoft",
 		"peripheralName": "Pulse Starship Pack (Calisto Chase Da Silva, Volcano), Kharl Zeon (pilot), Freeze Ray Mk. 2, Iron Fist (Weapons)",
 		"obtained": "2019-03-24",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "391-G",
 		"company": "Ubisoft",
 		"peripheralName": "Lance starship pack (Hunter Hakka, Imploder), Nadir starship pack (Shaid, Nullifier), Gauss Gun Mk. 2 (weapon)",
 		"systems": "misc",
 		"obtained": "2019-03-26",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "391-H",
 		"company": "Ubisoft",
 		"peripheralName": "Controller Mount",
 		"systems": "PS4",
 		"obtained": "2019-03-30",
+		"cost": "",
+		"description": "",
+		"games": "",
 		"section": "misc",
-	},
-	{
+	},{
 		"peripheral": "391-I",
 		"company": "Ubisoft",
 		"peripheralName": "Startail pilot",
 		"systems": "PS4/X1/Switch",
 		"obtained": "2019-04-20",
 		"section": "misc",
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "392",
 		"company": "Nintendo",
 		"peripheralName": "Donkey Kong Bongos",
 		"systems": "GCN/Wii",
 		"obtained": "2018-10-20",
-	},
-	{
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "393",
 		"company": "SEGA",
 		"peripheralName": "Saturn Controller",
 		"systems": "PS2",
-		"obtained": "2018-10-21"
-	},
-	{
+		"obtained": "2018-10-21",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "394-A",
 		"company": "SNK",
 		"peripheralName": "Neo Geo Mini",
 		"systems": "Neo Geo Mini",
-		"obtained": "2018-10-28"
-	},
-	{
+		"obtained": "2018-10-28",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "394-B",
 		"company": "SNK",
 		"peripheralName": "Neo Geo Mini controller (white)",
 		"systems": "Neo Geo Mini",
-		"obtained": "2018-10-28"
-	},
-	{
+		"obtained": "2018-10-28",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "394-C",
 		"company": "SNK",
 		"peripheralName": "Neo Geo Mini controller (black)",
 		"systems": "Neo Geo Mini",
-		"obtained": "2018-11-02"
-	},
-	{
+		"obtained": "2018-11-02",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "395",
 		"company": "Nintendo",
 		"peripheralName": "Pokéball Plus",
 		"systems": "Switch",
-		"obtained": "2018-11-16"
-	},
-	{
+		"obtained": "2018-11-16",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "396",
 		"company": "GameTech",
 		"peripheralName": "Deka Vita 7",
 		"systems": "VitaTV",
-		"obtained": "2018-11-24"
-	},
-	{
+		"obtained": "2018-11-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "397",
 		"company": "Sony",
 		"peripheralName": "PlayStation Classic",
 		"systems": "SYS",
-		"obtained": "2018-12-03"
-	},
-	{
+		"obtained": "2018-12-03",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "398",
 		"company": "Kickstarter",
 		"peripheralName": "Flip Grip",
 		"systems": "Switch",
-		"obtained": "2018-12-17"
-	},
-	{
+		"obtained": "2018-12-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "399-A",
 		"company": "Nintendo",
 		"peripheralName": "Super Gameboy",
-		"systems": "SNES"
-	},
-	{
+		"systems": "SNES",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "399-B",
 		"company": "Nintendo",
 		"peripheralName": "Gameboy Player",
-		"systems": "GCN"
-	},
-	{
+		"systems": "GCN",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "400",
 		"company": "Nintendo",
 		"peripheralName": "GameCube – Game Boy Advance link cable",
 		"systems": "GCN/GBA",
-		"obtained": "2002-02-12"
-	},
-	{
+		"obtained": "2002-02-12",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "401",
 		"company": "Kickstarter",
 		"peripheralName": "Tilted",
 		"systems": "PC",
-		"obtained": "2019-01-20"
-	},
-	{
+		"obtained": "2019-01-20",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "402",
 		"company": "Linx",
 		"peripheralName": "Vision 8",
@@ -4078,322 +5139,412 @@ var controllers = [{
 		"obtained": "2019-01-20",
 		"cost": 100,
 		"description": "Connected to the tablet of the same name via POGO pins on the bottom, adds the standard dualshock layout, rumble, Backlit buttons, can act in DirectInput or Xinput mode via a switch on the bottom",
-		"games": "XBOX1's version of Remote Play, plus many native games"
-	},
-	{
+		"games": "XBOX1's version of Remote Play, plus many native games",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "403",
 		"company": "Kickstarter",
 		"peripheralName": "LEXIP mouse",
 		"systems": "PC",
-		"obtained": "2019-02-08"
-	},
-	{
+		"obtained": "2019-02-08",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "404",
 		"company": "Kickstarter",
 		"peripheralName": "Hunter",
 		"systems": "PC",
-		"obtained": "2019-02-25"
-	},
-	{
+		"obtained": "2019-02-25",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "405",
 		"company": "Uniplay",
 		"peripheralName": "Smart U6 Gamepad",
 		"systems": "PC/AND",
-		"obtained": "2019-03-14"
-	},
-	{
+		"obtained": "2019-03-14",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "406",
 		"company": "ColecoVision",
 		"peripheralName": "Rainbow Brite",
 		"systems": "SYS",
-		"obtained": "2019-03-18"
-	},
-	{
+		"obtained": "2019-03-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "407",
 		"company": "HORI",
 		"peripheralName": "HD LCD",
 		"systems": "PS3 (slim)",
-		"obtained": "2019-04-04"
-	},
-	{
+		"obtained": "2019-04-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "408",
 		"company": "Pokitto",
 		"peripheralName": "JoyHat",
 		"systems": "Pokitto",
-		"obtained": "2019-04-04"
-	},
-	{
+		"obtained": "2019-04-04",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "409",
 		"company": "Nintendo",
 		"peripheralName": "NES Controllers",
 		"systems": "Switch",
-		"obtained": "2019-05-19"
-	},
-	{
+		"obtained": "2019-05-19",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "410",
 		"company": "Retro bit",
 		"peripheralName": "Tribute64",
 		"systems": "N64",
-		"obtained": "2019-06-19"
-	},
-	{
+		"obtained": "2019-06-19",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "411-A",
 		"company": "Retroflag",
 		"peripheralName": "GPi case",
 		"systems": "Pi 0/Pi 0 W",
-		"obtained": "2019-06-19"
-	},
-	{
+		"obtained": "2019-06-19",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "412",
 		"company": "Bandai",
 		"peripheralName": "Tamagotchi On",
 		"systems": "SYS",
-		"obtained": "2019-07-11"
-	},
-	{
+		"obtained": "2019-07-11",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "413",
 		"company": "Fidgetly Inc.",
 		"peripheralName": "Fidgetly CTRL",
 		"systems": "iOS/AND",
-		"obtained": "2019-07-18"
-	},
-	{
+		"obtained": "2019-07-18",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "414",
 		"company": "Hyperkin",
 		"peripheralName": "Smartboy",
 		"systems": "AND",
-		"obtained": "2019-07-27"
-	},
-	{
+		"obtained": "2019-07-27",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "415",
 		"company": "Aduro",
 		"peripheralName": "AR Gaming Gun",
 		"systems": "iOS/AND",
-		"obtained": "2019-08-06"
-	},
-	{
+		"obtained": "2019-08-06",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "416",
 		"company": "8bitdo",
 		"peripheralName": "SN30 Pro+",
 		"systems": "PC/AND/MAC/Switch/Pi",
 		"obtained": "2019-08-15",
 		"section": "pc",
-	},
-	{
+	},{
 		"peripheral": "417-A",
 		"company": "Super Impulse",
 		"peripheralName": "Pacman - Micro Arcade",
 		"systems": "SYS",
-		"obtained": "2019-08-17"
-	},
-	{
+		"obtained": "2019-08-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "418",
 		"company": "SEGA",
 		"peripheralName": "GEN Mini",
 		"systems": "SYS",
-		"obtained": "2019-09-19"
-	},
-	{
+		"obtained": "2019-09-19",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "419",
 		"company": "8bitdo",
 		"peripheralName": "NES Mouse",
 		"systems": "PC",
-		"obtained": "2019-11-30"
-	},
-	{
+		"obtained": "2019-11-30",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "420",
 		"company": "New Wave Toys",
 		"peripheralName": "Street Fighter II Mini Fight Stick",
 		"systems": "PC",
-		"obtained": "2019-12-14"
-	},
-	{
+		"obtained": "2019-12-14",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "421",
 		"company": "NamcoBandai",
 		"peripheralName": "Bakutsuri Gigarod",
 		"systems": "Switch",
-		"obtained": "2019-12-14"
-	},
-	{
+		"obtained": "2019-12-14",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "422",
 		"company": "PDP",
 		"peripheralName": "Mars",
 		"systems": "PS4",
-		"obtained": "2019-12-23"
-	},
-	{
+		"obtained": "2019-12-23",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "423",
 		"company": "Sony",
 		"peripheralName": "Back Button Attachment",
 		"systems": "PS4/PS3/VitaTV",
-		"obtained": "2020-01-24"
-	},
-	{
+		"obtained": "2020-01-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "424",
 		"company": "Kickstarter",
 		"peripheralName": "All Controller",
 		"systems": "Misc",
-		"obtained": "2020-02-29"
-	},
-	{
+		"obtained": "2020-02-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "425",
 		"company": "Nintendo",
 		"peripheralName": "SNES Controller",
 		"systems": "Switch",
-		"obtained": "2020-03-27"
-	},
-	{
+		"obtained": "2020-03-27",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "426",
 		"company": "Smilesoft",
 		"peripheralName": "Telefang",
 		"systems": "GBA",
-		"obtained": "2020-05-08"
-	},
-	{
+		"obtained": "2020-05-08",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "427",
 		"company": "Datel",
 		"peripheralName": "TurboFire",
 		"systems": "PS3",
-		"obtained": "2020-05-29"
-	},
-	{
+		"obtained": "2020-05-29",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "428",
 		"company": "Blaze Entertainment",
 		"peripheralName": "Evercade",
 		"systems": "SYS",
-		"obtained": "2020-06-24"
-	},
-	{
+		"obtained": "2020-06-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "429",
 		"company": "Kickstarter",
 		"peripheralName": "StrikerDC",
 		"systems": "DC",
-		"obtained": "2020-07-10"
-	},
-	{
+		"obtained": "2020-07-10",
+		"cost": 50,
+		"description": "Dpad, 1 non-clickable analog stick, 1 system button, 4 face buttons, 2 slots for VMUs/rumble packs, turbo/reset buttons, 2 analog triggers, 2 digital triggers which mirror the analog triggers",
+		"games": "All DC games",
+	},{
 		"peripheral": "430",
 		"company": "Divoom",
 		"peripheralName": "Ditoo",
 		"systems": "SYS",
-		"obtained": "2020-08-21"
-	},
-	{
+		"obtained": "2020-08-21",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "431",
 		"company": "LEGO",
 		"peripheralName": "Mario",
 		"systems": "misc",
-		"obtained": "2020-08-21"
-	},
-	{
+		"obtained": "2020-08-21",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "432",
 		"company": "SEGA",
 		"peripheralName": "Game Gear Micro",
 		"systems": "SYS",
-		"obtained": "2020-10-10"
-	},
-	{
+		"obtained": "2020-10-10",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "433",
 		"company": "Nintendo",
 		"peripheralName": "Mario Game & Watch",
 		"systems": "SYS",
-		"obtained": "2020-11-13"
-	},
-	{
+		"obtained": "2020-11-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "434",
 		"company": "Kickstarter",
 		"peripheralName": "Colors Live Sonar Pen",
 		"systems": "Switch",
-		"obtained": "2020-11-17"
-	},
-	{
+		"obtained": "2020-11-17",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "435",
 		"company": "Sony",
 		"peripheralName": "DualSense",
 		"systems": "PS5",
-		"obtained": "2020-11-20"
-	},
-	{
+		"obtained": "2020-11-20",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "436-A",
 		"company": "SEGA",
 		"peripheralName": "Astro City Mini",
 		"systems": "SYS",
-		"obtained": "2020-12-22"
-	},
-	{
+		"obtained": "2020-12-22",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "436-B",
 		"company": "SEGA",
 		"peripheralName": "Controller",
 		"systems": "Astro City Mini",
-		"obtained": "2021-03-31"
-	},
-	{
+		"obtained": "2021-03-31",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "437",
 		"company": "Atari",
 		"peripheralName": "Classic Joystick",
 		"systems": "VCS",
-		"obtained": "2021-01-07"
-	},
-	{
+		"obtained": "2021-01-07",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "438",
 		"company": "Rufus Labs",
 		"peripheralName": "Rufus Cuff",
 		"systems": "Android",
-		"obtained": "2021-03-02"
-	},
-	{
+		"obtained": "2021-03-02",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": 439,
 		"company": "AtGames",
 		"peripheralName": "Legends BitPixel",
 		"systems": "PC/Pi",
-		"obtained": "2021-05-14"
-	},
-	{
+		"obtained": "2021-05-14",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": 440,
 		"company": "Sinden",
 		"peripheralName": "Lightgun",
 		"systems": "PC",
-		"obtained": "2021-06-24"
-	},
-	{
+		"obtained": "2021-06-24",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": 441,
 		"company": "Blue Ocrean",
 		"peripheralName": "Sonic Screwdriver",
 		"systems": "Wii",
-		"obtained": "2021-07-02"
-	},
-	{
+		"obtained": "2021-07-02",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": 442,
 		"company": "Nintendo",
 		"peripheralName": "Mario Kart Live",
 		"systems": "Switch",
-		"obtained": "2021-07-08"
-	},
-	{
+		"obtained": "2021-07-08",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": 443,
 		"company": "Govee",
 		"peripheralName": "Immersion",
 		"systems": "Multi",
-		"obtained": "2021-07-27"
-	},
-	{
+		"obtained": "2021-07-27",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": 444,
 		"company": "Bandai Namco",
 		"peripheralName": "DigiVice V",
 		"systems": "SYS",
-		"obtained": "2021-10-09"
-	},
-	{
+		"obtained": "2021-10-09",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "445-A",
 		"company": "New Wave Toys",
 		"peripheralName": "1942 Replicade",
 		"systems": "SYS",
-		"obtained": "2021-10-13"
-	},
-	{
+		"obtained": "2021-10-13",
+		"cost": "",
+		"description": "",
+		"games": "",
+	},{
 		"peripheral": "445-B",
 		"company": "New Wave Toys",
 		"peripheralName": "1943 Mini Arcade Stick",
 		"systems": "1942/1943",
-		"obtained": "2021-10-13"
+		"obtained": "2021-10-13",
+		"cost": "",
+		"description": "",
+		"games": "",	
 	}
 ];
