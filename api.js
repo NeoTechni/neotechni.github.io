@@ -269,7 +269,7 @@ function enum_controllers_by_console(consoles = false, include = true){
 		consoles = consoles.split(",");
 	}
 	for(var i = 0; i < controllers.length; i++){
-		if(!controllers[i].hasOwnProperty("attached"){
+		if(!controllers[i].hasOwnProperty("attached")){
 			if(controllers[i].hasOwnProperty("systems") && Array.isArray(consoles)){
 				var systems = controllers[i].systems.split("/");
 				var included = false;
@@ -294,7 +294,7 @@ function enum_controllers_by_console(consoles = false, include = true){
 function enum_controllers_by_section(section = false, include = true){
 	var ret = [];
 	for(var i = 0; i < controllers.length; i++){
-		if(!controllers[i].hasOwnProperty("attached"){
+		if(!controllers[i].hasOwnProperty("attached")){
 			if(controllers[i].hasOwnProperty("systems") && section){
 				var systems = controller_section(controllers[i], true);
 				var included = systems == section;
