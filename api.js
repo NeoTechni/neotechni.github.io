@@ -69,23 +69,6 @@ function _GET(name, def = "", url = window.location.href) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-function enum_controllers_by_section(section = false, include = true){
-	var ret = [];
-	for(var i = 0; i < controllers.length; i++){
-		if(controllers[i].hasOwnProperty("systems") && section){
-			var systems = controller_section(controllers[i], true);
-			var included = systems == section;
-			if(included == include){
-				ret.push(controllers[i]);
-			}
-		} else if(section === false && include) {
-			ret.push(controllers[i]);
-		}
-	}
-	ret.sort(dynamicSortMultiple("peripheralName"));
-	return ret;
-}
-
 function controller_section(controller, normal = false){
 	if(isNumeric(controller)){
 		controller = controllers[controller];
@@ -277,6 +260,69 @@ function collectdates(quantity = 5){
 			}
 		}
 	}
+	return ret;
+}
+
+function enum_controllers_by_console(consoles = false, include = true){
+	var ret = [];
+	if(!Array.isArray(consoles)){
+		consoles = consoles.split(",");
+	}
+	for(var i = 0; i < controllers.length; i++){
+		if(controllers[i].hasOwnProperty("systems") && Array.isArray(consoles)){
+			var systems = controllers[i].systems.split("/");
+			var included = false;
+			for(var z = 0; z < consoles.length; z++){
+				var index = systems.indexOf(consoles[z]);
+				if(index > -1){
+					included = true;
+					break;
+				}
+			}
+			if(included == include){
+				ret.push(controllers[i]);
+			}
+		} else if(consoles === false && include) {
+			ret.push(controllers[i]);
+		}
+	}
+	return enum_attached_controllers(ret);
+}
+
+function enum_controllers_by_section(section = false, include = true){
+	var ret = [];
+	for(var i = 0; i < controllers.length; i++){
+		if(controllers[i].hasOwnProperty("systems") && section){
+			var systems = controller_section(controllers[i], true);
+			var included = systems == section;
+			if(included == include){
+				ret.push(controllers[i]);
+			}
+		} else if(section === false && include) {
+			ret.push(controllers[i]);
+		}
+	}
+	return enum_attached_controllers(ret);
+}
+
+function enum_attached_controllers(ret){
+	var IDs = {};
+	for(var i = 0; i < ret.length; ret++){
+		if(ret[i].hasOwnProperty("peripheral")){
+			IDs[ ret[i].peripheral ]  = i;
+		}
+	}
+	for(var i = 0; i < controllers.length; i++){
+		var controller = controllers[i];
+		if(controller.hasOwnProperty("attached") && IDs.hasOwnProperty( controller.attached ) > -1){
+			var index = IDs[ controller.attached ];
+			if(!ret[index].hasOwnProperty("attachments")){
+				ret[index].attachments = [];
+			}
+			ret[index].attachments.push(controller);
+		}
+	}
+	ret.sort(dynamicSortMultiple("peripheralName"));
 	return ret;
 }
 
@@ -577,33 +623,6 @@ function enum_consoles(){
 		}
     }
     return ret;
-}
-
-function enum_controllers_by_console(consoles = false, include = true){
-	var ret = [];
-	if(!Array.isArray(consoles)){
-		consoles = consoles.split(",");
-	}
-	for(var i = 0; i < controllers.length; i++){
-		if(controllers[i].hasOwnProperty("systems") && Array.isArray(consoles)){
-			var systems = controllers[i].systems.split("/");
-			var included = false;
-			for(var z = 0; z < consoles.length; z++){
-				var index = systems.indexOf(consoles[z]);
-				if(index > -1){
-					included = true;
-					break;
-				}
-			}
-			if(included == include){
-				ret.push(controllers[i]);
-			}
-		} else if(consoles === false && include) {
-			ret.push(controllers[i]);
-		}
-	}
-	ret.sort(dynamicSortMultiple("peripheralName"));
-	return ret;
 }
 
 function make_controller(controller = false, stat = false, name = false){
