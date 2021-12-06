@@ -6030,7 +6030,7 @@ Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trig
 	peripheral: "433-B",
 	attached: "433-A",
 	company: "Nintendo",
-	peripheralName: "Mario Game & Watch",
+	peripheralName: "Zelda Game & Watch",
 	systems: "SYS",
 	obtained: "2021-11-12",
 	cost: 80,
