@@ -320,10 +320,12 @@ function enum_attached_controllers(ret){
 		var controller = controllers[i];
 		if(controller.hasOwnProperty("attached") && IDs.hasOwnProperty( controller.attached ) > -1){
 			var index = IDs[ controller.attached ];
-			if(!ret[index].hasOwnProperty("attachments")){
-				ret[index].attachments = [];
+			if(!isUndefined(ret[index])){
+				if(!ret[index].hasOwnProperty("attachments")){
+					ret[index].attachments = [];
+				}
+				ret[index].attachments.push(controller);
 			}
-			ret[index].attachments.push(controller);
 		}
 	}
 	ret.sort(dynamicSortMultiple("peripheralName"));
