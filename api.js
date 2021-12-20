@@ -328,6 +328,9 @@ function enum_attached_controllers(ret){
 			}
 		}
 	}
+	
+	console.log("ret:");
+	console.log(ret);
 	ret.sort(dynamicSortMultiple("peripheralName"));
 	return ret;
 }
