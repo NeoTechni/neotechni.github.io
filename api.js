@@ -306,16 +306,19 @@ function enum_controllers_by_section(section = false, include = true){
 			}
 		}
 	}
+	
 	return enum_attached_controllers(ret);
 }
 
 function enum_attached_controllers(ret){
 	var IDs = {};
-	for(var i = 0; i < ret.length; ret++){
-		if(ret[i].hasOwnProperty("peripheral")){
-			IDs[ ret[i].peripheral ]  = i;
+	for(var i = 0; i < ret.length; i++){
+		var controller = ret[i];
+		if(controller.hasOwnProperty("peripheral")){
+			IDs[ controller.peripheral ]  = i;
 		}
 	}
+	
 	for(var i = 0; i < controllers.length; i++){
 		var controller = controllers[i];
 		if(controller.hasOwnProperty("attached") && IDs.hasOwnProperty( controller.attached ) > -1){
@@ -328,9 +331,7 @@ function enum_attached_controllers(ret){
 			}
 		}
 	}
-	
-	console.log("ret:");
-	console.log(ret);
+
 	ret.sort(dynamicSortMultiple("peripheralName"));
 	return ret;
 }
