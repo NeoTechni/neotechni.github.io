@@ -6193,4 +6193,14 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 120,
 	description: `a clickable dial, connects via Bluetooth, uses 2xAAA batteries`,
 	games: "Arkanoid, Space Invaders",	
+},{
+	peripheral: "448",
+	company: "Amazon",
+	peripheralName: "Echo Dot Buttons",
+	systems: "Alexa",
+	obtained: "2021-12-15",
+	cost: 120,
+	description: `A button, an RGB LED, connects via bluetooth, uses 2xAAA batteries`,
+	games: "Trivia games",	
+	section: "misc",
 }];
