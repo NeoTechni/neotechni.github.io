@@ -730,7 +730,7 @@ function make_controller(controller = false, stat = false, name = false){
 			case "normal": case "list":
 				HTML += '<TABLE CLASS="table">' + make_controller(controller, true, iif(style == "list", "noimage", style));
 				if(style == "list"){
-					HTML += '<TR><TD COLSPAN="2"><TABLE><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
+					HTML += '<TR><TD COLSPAN="2"><TABLE CLASS="listtable"><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
 				}				
 				if(controller.hasOwnProperty("attachments")){
 					for(var i = 0; i < controller.attachments.length; i++){
