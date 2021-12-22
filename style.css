@@ -4,6 +4,23 @@
 	padding-top: 0px;
 	border: none;
 }
+
+.2-cols{
+	columns: 2;
+  	-webkit-columns: 2;
+  	-moz-columns: 2;
+}
+.3-cols{
+	columns: 3;
+  	-webkit-columns: 3;
+  	-moz-columns: 3;
+}
+.4-cols{
+	columns: 4;
+  	-webkit-columns: 4;
+  	-moz-columns: 4;
+}
+
 .table{
 	border: 3px solid #add8e6;
 	border-collapse: collapse;
