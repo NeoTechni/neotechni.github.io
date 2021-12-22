@@ -5,17 +5,17 @@
 	border: none;
 }
 
-.2-cols{
+.cols-2{
 	columns: 2;
   	-webkit-columns: 2;
   	-moz-columns: 2;
 }
-.3-cols{
+.cols-3{
 	columns: 3;
   	-webkit-columns: 3;
   	-moz-columns: 3;
 }
-.4-cols{
+.cols-4{
 	columns: 4;
   	-webkit-columns: 4;
   	-moz-columns: 4;
