@@ -637,25 +637,24 @@ function enum_consoles(){
 function make_controller(controller = false, stat = false, name = false){
 	var HTML = "";
 	if(stat === "images"){//just the images
-		if(controller.hasOwnProperty("image")){
-			HTML += makeimg(controller.image, controller.peripheralName);
-		} else if(controller.hasOwnProperty("images")){
-			for(var i = 0; i < controller.images.length; i++){
-				HTML += makeimg(controller.images[i], controller.peripheralName);
+		if(!controller.hasOwnProperty("noimage")){
+			if(controller.hasOwnProperty("image")){
+				HTML += makeimg(controller.image, controller.peripheralName);
+			} else if(controller.hasOwnProperty("images")){
+				for(var i = 0; i < controller.images.length; i++){
+					HTML += makeimg(controller.images[i], controller.peripheralName);
+				}
+			} else {
+				HTML += makeimg(controller.peripheral + '.jpg', controller.peripheralName);
 			}
-		} else {
-			HTML += makeimg(controller.peripheral + '.jpg', controller.peripheralName);
 		}
 	} else if(stat === true){//do all stats in normal style
 		switch(name){
 			case "normal": case "noimage":
-				HTML += '<TR><TH COLSPAN="2" CLASS="header">';
-				if(name == "normal" || !controller.hasOwnProperty("title")){
-					HTML += controller.peripheralName;
-				} else {
-					HTML += controller.title;
+				if(name == "noimage" && controller.hasOwnProperty("title")){
+					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.title + '</TH></TR><TR>';
 				}
-				HTML += '</TH></TR><TR>';
+				HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR>';
 				if(name == "normal"){
 					HTML += '<TD ROWSPAN="2" CLASS="image">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
 				} else {
