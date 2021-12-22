@@ -637,7 +637,50 @@ function enum_consoles(){
 
 function make_controller(controller = false, stat = false, name = false){
 	var HTML = "";
-	if(stat !== false){
+	if(stat === "images"){//just the images
+		if(controller.hasOwnProperty("image")){
+			HTML += makeimg(controller.image, controller.peripheralName);
+		} else if(controller.hasOwnProperty("images")){
+			for(var i = 0; i < controller.images.length; i++){
+				HTML += makeimg(controller.images[i], controller.peripheralName);
+			}
+		} else {
+			HTML += makeimg(controller.peripheral + '.jpg', controller.peripheralName);
+		}
+	} else if(stat === true){//do all stats in normal style
+		switch(name){
+			case "normal": case "noimage":
+				HTML = '<TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR>';
+				if(name == "normal"){
+					HTML += '<TD ROWSPAN="2" CLASS="image">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
+				} else {
+					HTML += '<TD CLASS="controllerinfo top" COLSPAN="2">';
+				}
+				HTML += make_controller(controller, "peripheral", 		"Peripheral ID");
+				HTML += make_controller(controller, "games", 			"Games Supported");
+				HTML += make_controller(controller, "systems", 			"Systems Supported");
+				HTML += make_controller(controller, "obtained", 		"Obtained");
+				HTML += make_controller(controller, "cost", 			"Can be found for");
+				HTML += make_controller(controller, "company", 			"Made by");
+				HTML += make_controller(controller, "specificVersion", 	"Specific Version");
+				HTML += make_controller(controller, "otherVersions", 	"Other Version(s)");
+				HTML += '</TD></TR><TR><TD>';
+				HTML += make_controller(controller, "description");
+				HTML += '</TD></TR>';
+				break;
+			case "list":
+				HTML += '<TR><TD>';
+				if(controller.hasOwnProperty("peripheral")){
+					HTML += controller.peripheral;
+				}
+				HTML += '</TD><TD>' + controller.peripheralName + '</TD><TD>';
+				if(controller.hasOwnProperty("obtained")){
+					HTML += controller.obtained;
+				}
+				HTML += '</TD></TR>';
+				break;
+		}
+	} else if(stat !== false){//do a specific stat
 		if(controller.hasOwnProperty(stat) && controller[stat]){
 			if(name){
 				HTML = "<B>" + name + "</B>: "
@@ -656,7 +699,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML = nl2br(controller[stat]);
 			}
 		}
-	} else if(controller === false){
+	} else if(controller === false){//do all controllers
 		HTML = '<UL>';
 		for(var i = 0; i < controllers.length; i++){
 			var controller = controllers[i];
@@ -666,34 +709,31 @@ function make_controller(controller = false, stat = false, name = false){
 		for(var i = 0; i < controllers.length; i++){
 			HTML += make_controller(controllers[i]);
 		}
-	} else {
+	} else {//do a specific controller
+		HTML = '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
 		var style = "normal";
 		if(controller.hasOwnProperty("style")){
 			style = controller.style;
 		}
 		switch(style){
-			case "normal":
-				HTML = '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
-				HTML += '<TABLE CLASS="table"><TBODY><TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR>';
-				HTML += '<TR><TD ROWSPAN="2" CLASS="image">';
-				HTML += makeimg(controller.peripheral + '.jpg', controller.peripheralName);
-				if(controller.hasOwnProperty("images")){
-					for(var i = 0; i < controller.images.length; i++){
-						HTML += makeimg(controller.images[i], controller.peripheralName);
+			case "normal": case "list":
+				HTML += '<TABLE CLASS="table">' + make_controller(controller, true, iif(style == "list", "noimage", style));
+				if(style == "list"){
+					HTML += '<TR><TD COLSPAN="2"><TABLE><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
+				}
+				if(controller.hasOwnProperty("attachments")){
+					for(var i = 0; i < controller.attachments.length; i++){
+						HTML += make_controller(controller.attachments[i], true, style);
 					}
 				}
-				HTML += '</TD><TD CLASS="controllerinfo top">';
-				HTML += make_controller(controller, "peripheral", 	"Peripheral ID");
-				HTML += make_controller(controller, "games", 		"Games Supported");
-				HTML += make_controller(controller, "systems", 		"Systems Supported");
-				HTML += make_controller(controller, "obtained", 	"Obtained");
-				HTML += make_controller(controller, "cost", 		"Can be found for");
-				HTML += make_controller(controller, "company", 		"Made by");
-				HTML += make_controller(controller, "specificVersion", 	"Specific Version");
-				HTML += make_controller(controller, "otherVersions", 	"Other Version(s)");
-				HTML += '</TD></TR><TR><TD>';
-				HTML += make_controller(controller, "description");
-				HTML += '</TD></TR></TBODY></TABLE>';
+				if(style == "list"){
+					HTML += '</TBODY><TFOOT><TR><TD COLSPAN="2">' + make_controller(controller, "images");
+					for(var i = 0; i < controller.attachments.length; i++){
+						HTML += make_controller(controller.attachments[i], "images");
+					}
+					HTML += '</TD></TR></TFOOT></TABLE></TD></TR>';
+				}
+				HTML += '</TABLE>';
 				break;
 		}
 	}
