@@ -705,7 +705,7 @@ function make_controller(controller = false, stat = false, name = false){
 			}
 		}
 	} else if(controller === false){//do all controllers
-		HTML += '<UL CLASS="4-cols">';
+		HTML += '<UL CLASS="cols-4">';
 		for(var i = 0; i < controllers.length; i++){
 			var controller = controllers[i];
 			HTML += '<LI><A HREF="#' + toclassname(controller.peripheralName) + '">';
