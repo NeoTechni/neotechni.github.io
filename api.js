@@ -129,9 +129,8 @@ if(is_chrome){
 	var log = console.log;
 }
 
-function iif(value, iftrue, iffalse) {
+function iif(value, iftrue, iffalse = "") {
     if (value) {return iftrue;}
-    if (isUndefined(iffalse)) {return "";}
     return iffalse;
 }
 
@@ -650,7 +649,13 @@ function make_controller(controller = false, stat = false, name = false){
 	} else if(stat === true){//do all stats in normal style
 		switch(name){
 			case "normal": case "noimage":
-				HTML = '<TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR>';
+				HTML += '<TR><TH COLSPAN="2" CLASS="header">';
+				if(name == "normal" || !controller.hasOwnProperty("title")){
+					HTML += controller.peripheralName;
+				} else {
+					HTML += controller.title;
+				}
+				HTML += '</TH></TR><TR>';
 				if(name == "normal"){
 					HTML += '<TD ROWSPAN="2" CLASS="image">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
 				} else {
@@ -683,7 +688,7 @@ function make_controller(controller = false, stat = false, name = false){
 	} else if(stat !== false){//do a specific stat
 		if(controller.hasOwnProperty(stat) && controller[stat]){
 			if(name){
-				HTML = "<B>" + name + "</B>: "
+				HTML += "<B>" + name + "</B>: ";
 				switch(stat){
 					case "cost": 
 						HTML += "~$" + controller[stat]; 
@@ -700,17 +705,23 @@ function make_controller(controller = false, stat = false, name = false){
 			}
 		}
 	} else if(controller === false){//do all controllers
-		HTML = '<UL>';
+		HTML += '<UL>';
 		for(var i = 0; i < controllers.length; i++){
 			var controller = controllers[i];
-			HTML += '<LI><A HREF="#' + toclassname(controller.peripheralName) + '">' + controller.peripheralName + '</A></LI>';
+			HTML += '<LI><A HREF="#' + toclassname(controller.peripheralName) + '">';
+			if(controller.hasOwnProperty("title")){
+				HTML += controller.title;
+			} else {
+				HTML += controller.peripheralName;
+			}
+			HTML += '</A></LI>';
 		}
 		HTML += '</UL>';
 		for(var i = 0; i < controllers.length; i++){
 			HTML += make_controller(controllers[i]);
 		}
 	} else {//do a specific controller
-		HTML = '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
+		HTML += '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
 		var style = "normal";
 		if(controller.hasOwnProperty("style")){
 			style = controller.style;
@@ -720,7 +731,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += '<TABLE CLASS="table">' + make_controller(controller, true, iif(style == "list", "noimage", style));
 				if(style == "list"){
 					HTML += '<TR><TD COLSPAN="2"><TABLE><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
-				}
+				}				
 				if(controller.hasOwnProperty("attachments")){
 					for(var i = 0; i < controller.attachments.length; i++){
 						HTML += make_controller(controller.attachments[i], true, style);
