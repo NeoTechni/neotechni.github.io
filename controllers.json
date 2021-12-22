@@ -3347,6 +3347,7 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	games: "Some Android games",
 },{
 	peripheral: "247-01",
+	title: "Amiibos",
 	style: "list",
 	company: "Nintendo",
 	peripheralName: "Amiibo reader",
