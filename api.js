@@ -757,6 +757,7 @@ function makeimg(filename, description){
 function imgError(image) {
     image.onerror = "";
     image.onclick = "";
+    image.setAttribute("original", image.src);
     image.src = "/images/noimage.png";
     return true;
 }
