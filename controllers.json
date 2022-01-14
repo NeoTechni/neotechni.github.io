@@ -567,7 +567,7 @@ var controllers = [{
 	shipped: "on",
 	photographed: true,
 	cost: 50,
-	description: `PSP-300 (1.3 MP/1280x960, silver, included with Go!Edit/Chotto Edit, requires firmware 2.82 or higher)`,
+	description: `PSP-300 (1.3 MP/1280×960, silver, included with Go!Edit/Chotto Edit, requires firmware 2.82 or higher)`,
 	games: "Invizimals, Eyepet, Go!Edit/Chotto Edit [Video] Talkman [Audio]",
 },{
 	peripheral: "00X-02",
@@ -1955,9 +1955,9 @@ Hold L+R+Down on the dpad during the keyboard search screen`,
 	photographed: true,
 	cost: 40,
 	description: `A small camera and microphone for PSP. Can record video at 320x240 and 480x272 at 15 and 30 fps. Used in augmented reality games. The software needed to use it was built into PSP's firmware at 3.09
-"PSP-450x (0.3 MP/640x480, black, included with Invizimals or Eyepet, requires firmware 6.00 or higher)"`,
+"PSP-450x (0.3 MP/640×480, black, included with Invizimals or Eyepet, requires firmware 6.00 or higher)"`,
 	games: "PSP's firmware, Invizimals, Eyepet, Go!Edit/Chotto Edit [Video] Talkman [Audio] (PSP)",
-	specificVersion: "PSP-450x (0.3 MP/640x480, black, included with Invizimals or Eyepet, requires firmware 6.00 or higher)",
+	specificVersion: "PSP-450x (0.3 MP/640×480, black, included with Invizimals or Eyepet, requires firmware 6.00 or higher)",
 },{
 	peripheral: "147",
 	company: "RedOctane",
