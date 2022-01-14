@@ -1314,7 +1314,7 @@ It comes with an adapter to work on the Genesis, that only works with this contr
 	photographed: true,
 	cost: 1,
 	description: `4 face buttons (2 redundant), turbo switch, trackball, a cool box. Unidextrous, ambidextrous`,
-	games: "",
+	games: "PS1 Mouse",
 },{
 	peripheral: "094",
 	company: "ASCII/Agetec/Sammy",
