@@ -634,6 +634,27 @@ function enum_consoles(){
     return ret;
 }
 
+function showgames(section, asAlert = true){
+	var HTML = '<TABLE CLASS="table"><TBODY>';
+	if(!asAlert){
+		HTML += '<TR><TH COLSPAN="2" CLASS="header">' + section + '</TH></TR>';
+	}
+	if(games[section].hasOwnProperty("URL")){
+		HTML += '<TR><TH>URL</TH><TD><A HREF="' + games[section].URL + '">' + games[section].URL + '</A></TD></TR>';
+	}
+	if(games[section].hasOwnProperty("games")){
+		HTML += '<TR><TH>Games</TH><TD>' + games[section].games + '</TD></TR>';
+	}
+	if(games[section].hasOwnProperty("info")){
+		HTML += '<TR><TD COLSPAN="2">' + games[section].info + '</TD></TR>';
+	}
+	HTML += '</TBODY></TABLE>';
+	if(asAlert){
+		msgbox(section, HTML);
+	}
+	return HTML;
+}
+
 function make_controller(controller = false, stat = false, name = false){
 	var HTML = "";
 	if(stat === "images"){//just the images
@@ -661,7 +682,16 @@ function make_controller(controller = false, stat = false, name = false){
 					HTML += '<TD CLASS="controllerinfo top" COLSPAN="2">';
 				}
 				HTML += make_controller(controller, "peripheral", 		"Peripheral ID");
-				HTML += make_controller(controller, "games", 			"Games Supported");
+				
+				if(controller.hasOwnProperty("games") && typeof controller.games == "string" && games.hasOwnProperty(controller.games)){
+					HTML += '<B>Games: <SPAN CLASS="hyperlink" ONCLICK="showgames(' + "'" + controller.games + "'" + ');">List</SPAN><BR>';
+				} else {
+					HTML += make_controller(controller, "games", 			"Games Supported");
+				}
+				if(controller.hasOwnProperty("moreinfo")){
+					HTML += '<B>More Info: <SPAN CLASS="hyperlink" ONCLICK="showgames(' + "'" + controller.moreinfo + "'" + ');">Click Here</SPAN><BR>';
+				}
+				
 				HTML += make_controller(controller, "systems", 			"Systems Supported");
 				HTML += make_controller(controller, "obtained", 		"Obtained");
 				HTML += make_controller(controller, "cost", 			"Can be found for");
