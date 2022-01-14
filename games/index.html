@@ -1,0 +1,18 @@
+---
+title: Compatible Games 
+layout: default
+classes: wide 
+---
+<SCRIPT>
+   window.addEventListener('load', function () {
+      var HTML = "";
+      for(var section in games){
+        if(games.hasOwnProperty(section)){
+           HTML += showgames(section, false);
+        }
+      }
+      set_HTML("controllers", HTML);
+   });
+</SCRIPT>
+
+<DIV ID="controllers"></DIV>
