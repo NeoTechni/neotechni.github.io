@@ -640,13 +640,13 @@ function showgames(section, asAlert = true){
 		HTML += '<TR><TH COLSPAN="2" CLASS="header">' + section + '</TH></TR>';
 	}
 	if(games[section].hasOwnProperty("URL")){
-		HTML += '<TR><TH>URL</TH><TD><A HREF="' + games[section].URL + '">' + games[section].URL + '</A></TD></TR>';
+		HTML += '<TR><TH WIDTH="20%">URL</TH><TD><A HREF="' + games[section].URL + '">' + games[section].URL + '</A></TD></TR>';
 	}
 	if(games[section].hasOwnProperty("games")){
 		if(games[section].games.contains("<TABLE")){
-			HTML += '<TR><TH>Games</TH><TD>' + games[section].games + '</TD></TR>';
+			HTML += '<TR><TH WIDTH="20%">Games</TH><TD>' + games[section].games + '</TD></TR>';
 		} else {
-			HTML += '<TR><TH>Games</TH><TD>' + nl2br(games[section].games) + '</TD></TR>';
+			HTML += '<TR><TH WIDTH="20%">Games</TH><TD>' + nl2br(games[section].games) + '</TD></TR>';
 		}
 	}
 	if(games[section].hasOwnProperty("info")){
