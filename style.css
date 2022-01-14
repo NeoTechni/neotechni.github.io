@@ -55,7 +55,7 @@ table.listtable{
 	max-width: 300px;
 }
 .top td, .top{
-	vertical-align: top;
+	vertical-align: top !important;
 }
 .image, .controllerimage{
 	padding: 0 !important;
