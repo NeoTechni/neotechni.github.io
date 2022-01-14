@@ -135,6 +135,8 @@ var games = {
 		games: `42 All-Time Classics, Air Traffic Chaos, Akagawa Jirou Mystery: Yasoukyoku, Animal Boxing, Bomberman 2, Club House Games, Custom Battler Bomberman, Custom Robo Arena, Diddy Kong Racing DS, Dirt 2, Elite Beat Agents, Ferrari Challenge, GRID, Hotel Dusk: Room 215, Higurashi no Naku koro ni Kizuna: Dai-Ichi-Kan - Tatari, Higurashi no Naku koro ni Kizuna: Dai-Ni-Kan - Sou, Higurashi no Naku koro ni Kizuna: Dai-San-Kan - Rasen, Iron Man, Jam with the Band, Daigasso! Band Brothers DX , Juiced 2: Hot Import Nights, Last Window: The Secret of Cape West, Magnetica (Actionloop), Mahjong Fight Club DS: Wi-Fi Taiou, Mario & Luigi: Partners in Time, Mario & Luigi: Bowser's Inside Story (Not the US version), Metroid Prime Hunters, Metroid Prime Pinball, Moon, Need For Speed: Undercover, Need For Speed: Nitro, Moero! Nekketsu Rhythm Damashii: Osu! Tatakae! Ouendan 2, Orcs & Elves, Picross DS, Power Pro Kun Pocket 9, Power Pro Kun Pocket 10, Professional Fisherman's Tour: Northern Hemisphere, Puyo Puyo! 15th Anniversary, Race Driver: Create and Race, Sega Superstars Tennis, Sonic & Sega All-Stars Racing, Space Invaders Extreme, Space Invaders Extreme 2, Star Fox Command, Star Trek: Tactical Assault, Super Princess Peach, The Legend of Spyro: A New Beginning, Theta, Tomb Raider: Underworld, TrackMania DS, Treasure Gaust: Gaust Diver (Deep Purple), Treasure Gaust: Gaust Diver (Crimson Red), V8 SuperCars Australia 3, Viva Piñata: Pocket Paradise, Wario: Master of Disguise, The Wild West, WWE SmackDown vs. Raw 2008`,
 	}, "3DS Expansion Analog Nub": {
 		games: `Monster Hunter 3G, Resident Evil: Revelations, Metal Gear Solid: Snake Eater 3D, Ace Combat 3D Cross Rumble, Tecmo Koei's Dynasty Warriors VS, Kingdom Hearts 3D [Dream Drop Distance]`,
+	}, "Wii Balance Board": {
+		URL: "https://en.wikipedia.org/wiki/List_of_games_that_support_Wii_Balance_Board",
 	}, "Wii MotionPlus": {
 		URL: "https://en.wikipedia.org/wiki/List_of_games_that_support_Wii_MotionPlus",
 		games: `Backyard Sports: Sandlot Sluggers, Conduit 2, Crazy Mini Golf 2, Deca Sports 3, The Garfield Show: Threat of the Space Lasagna, Grand Slam Tennis, Hooked! Again: Real Motion Fishing, James Cameron's Avatar: The Game, The Legend of Zelda: Skyward Sword, New Carnival Games, NewU Fitness First Mind Body, Yoga & Pilates Workout, NHL 2K10, NHL 2K11, Racquet Sports, Red Steel 2, Shaun White Snowboarding: World Stage, FlingSmash, Raving Rabbids: Travel in Time, SpongeBob's Truth or Square, The Grinder, Tiger Woods PGA Tour 10, Tiger Woods PGA Tour 11, Tiger Woods PGA Tour 12: The Masters, Tron: Evolution - Battle Grids, Virtua Tennis 4, Virtua Tennis 2009, Wii Play: Motion, Wii Sports Resort, Zangeki no Reginleiv, Zumba Fitness, GhostSlayer, Rage of the Gladiator, ShadowPlay`,
@@ -2874,7 +2876,7 @@ It uses the sensors to detect rigged/faulty throws by making sure it rolls enoug
 	photographed: true,
 	cost: 100,
 	description: "A bathroom-scale controller",
-	games: "",
+	games: "Wii Balance Board",
 	byProxy: true,
 },{
 	peripheral: "222",
@@ -2909,7 +2911,7 @@ It uses the sensors to detect rigged/faulty throws by making sure it rolls enoug
 	obtained: "2013-10-25",
 	photographed: true,
 	cost: 50,
-	description: `Dual 1280 x 800 web cam with a 4-mic array, uses PS4's AUX port`,
+	description: `Dual 1280×800 web cam with a 4-mic array, uses PS4's AUX port`,
 	games: "",
 },{
 	peripheral: "223-C",
