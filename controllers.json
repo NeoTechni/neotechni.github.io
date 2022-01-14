@@ -1,3 +1,256 @@
+var games = {
+	"PS1 Analog Flight Stick": {
+		URL: "https://en.wikipedia.org/wiki/PlayStation_Analog_Joystick#List_of_games_with_Analog_Joystick_support",
+		games: `Ace Combat (1/2/3), Andretti Racing, Armored Core (Series), Armored Trooper Votoms (JPN), Atari Collection 2 (Paperboy, Roadblasters, Marble Madness), Bogey Dead 6, Car & Driver Grand Tour Racing '98, Colony Wars (Series), Cyberia, Descent 1/2 (Descent Maximum on the Playstation), Elemental Gearbolt, EOS: Edge of Skyhigh (JPN), Formula 1 Championship Edition, Mechwarrior 2 (Arcade Combat Edition), Namco Museum Vol. 4 (Assault only), Newman / Haas Racing, Nightmare Creatures, Project Gaiairy (JPN), Rise 2: Resurrection, Shadow Master, Slamscape, Steel Reign, The Need for Speed, Top Gun: Fire at Will, Wing Commander IV`,
+	}, "PS1 Link Cable": {
+		URL: "https://en.wikipedia.org/wiki/PlayStation_Link_Cable",
+		games: `Andretti Racing, Armored Core, Armored Core: Project Phantasma, Armored Core: Master of Arena, Assault Rigs, Bogey Dead 6, Burning Road, Bushido Blade, Bushido Blade 2, Car & Driver Grand Tour Racing '98, CART World Series, Command and Conquer: Red Alert, Command & Conquer: Retaliation, Coolboarders 2, Cyberia, Cyberspeed, Descent, Descent Maximum, Destruction Derby, Doom, DOOM Custom Edition, Duke Nukem 3D, Duke Nukem: Total Meltdown, Dune 2000, Final DOOM, Formula 1, Grand Tour Racing '98, Grid Runner, Independence Day, Krazy Ivan, Mech Warrior 2, Motor Toon Grand Prix, Need for Speed, R4: Ridge Racer Type 4, Red Asphalt, Ridge Racer Revolution, Road & Track Need For Speed, Robo Pit 2 (Japan), Rogue Trip: Vacation 2012, Shutokou (Metro?) Battle R (Japan), Test Drive 4, Test Drive Off-Road, TOCA 2 Touring Cars, Wipeout 2097, Wipeout 3, Wipeout 3 Special Edition, Wing Over, WipEout, WipEout XL`,
+	}, "PS1 PocketStation": {
+		URL: "https://en.wikipedia.org/wiki/PocketStation#Compatible_games",
+		games: `All Japan Pro Wrestling, Ape Escape (JPN), Arc the Lad III, Armored Core: Master of Arena (JPN), Battle Bug Story, Be Pirates!, Brightis, Burger Burger 2, Chocobo Stallion, Crash Bandicoot 3: Warped (JPN), Dance Dance Revolution 3rdMix, Dance Dance Revolution 4thMix, Dance Dance Revolution 5thMix, Digimon Tamers: Pocket Culumon (JPN), Dokodemo Issho, Final Fantasy VIII (USA/JPN), Fire Pro G, Fish Hunter, Gallop Racer 3, Grandia (JPN), Hello Kitty: White Present, I.Q. Final, Jade Cocoon: Story of the Tamamayu, JoJo's Bizarre Adventure (JPN), The Legend of Dragoon (JPN), Legend of Mana (USA/JPN), Love Hina 2, Lunatic Dawn 3, LMA Manager, Kyro-chan's Print Club, Metal Gear Solid: Integral, Mister Prospector, The Misadventures of Tron Bonne (JPN), Monster Race, Monster Rancher 2 (JPN), Monster World, Pi to Mail, Pocket Dungeon, Pocket MuuMuu, Pocket Tuner, Prologue, Racing Lagoon, RayCrisis, Remote Control Dandy, R4: Ridge Racer Type 4 (USA/JPN), Rockman Complete Works, SaGa Frontier 2, Shop Keeper, Spyro the Dragon (JPN), Spyro 2: Ripto's Rage! (JPN), Street Fighter Alpha 3 (JPN), Super Robot Wars Alpha, Tales of Eternia (JPN), Theme Aquarium, Tokimeki Memorial 2, World Neverland 2, World Stadium 3`,
+	}, "PS1 Mouse": {
+		URL: "https://en.wikipedia.org/wiki/PlayStation_Mouse",
+		games: `3D Lemmings, Alien Resurrection, Area 51, Atlantis: The Lost Tales, Broken Sword: The Shadow of the Templars, Broken Sword II: The Smoking Mirror, Clock Tower: The First Fear, Clock Tower II: The Struggle Within, Command & Conquer: Red Alert, Command & Conquer: Retaliation, Constructor (Europe), Die Hard Trilogy, Die Hard Trilogy 2: Viva Las Vegas, Discworld, Discworld II: Missing Presumed...!?, Discworld Noir, Dune 2000, Final Doom, Lemmings & Oh No! More Lemmings, Klaymen, Klaymen: Neverhood no Nazon (Japan), Monopoly, Music 2000, Myst, Policenauts (Japan), Quake 2, RPG Maker, SimCity 2000, Syndicate Wars, Transport Tycoon, X-COM: Enemy Unknown, X-COM: Terror from the Deep, Warhammer: Dark Omen, Warzone 2100, Z`,
+	}, "PS1 neGcon": {
+		URL: "https://en.wikipedia.org/wiki/NeGcon#Supported_games",
+		games: `Ridge Racer series including Ridge Racer Type 4 and Ridge Racer V, Gran Turismo, Motor Toon Grand Prix 2, Destruction Derby, Colin McRae Rally, TOCA Touring Cars, Rally Cross and Pole Position on Namco Museum volumes 1 and 3, The WipEout series including WipEout Fusion, Ace Combat series, Tempest X3, Puchi Carat, Block Kids, Atari Arcade Collection Vol. 1, Cutie Q`,
+	}, "PS1 Guncon": {
+		URL: "https://en.wikipedia.org/wiki/GunCon#GunCon_compatible_games",
+		games: `PS1: Elemental Gearbolt, Die Hard Trilogy 2: Viva Las Vegas, Ghoul Panic, Gunfighter: The Legend of Jesse James, Judge Dredd, Maximum Force, Mighty Hits Special, Moorhuhn series, Point Blank series, Rescue Shot, Resident Evil: Survivor (Japanese and PAL), Time Crisis, Time Crisis: Project Titan
+		
+		PS2: Endgame, Guncom ,Time Crisis II, Vampire Night`,
+	}, "PS1 KidsStation": {
+		games: `Asobou! Hanasou! Guru Guru Town Hanamarukun, BARBAPAPA, Bishoujo Senshi Sailor Moon World Chibiusa To Tanoshii Mainichi, Bokura to Asobou! Ultraman TV, Crayon-Chan, Digimon Park, DORAEMON - HIMITSU NO YOJIGEN POCKET, Hello Kitty no oshaberi ABC, Hello Kitty no Oshaberi Town, Hello Kitty no Ouchi he Oideyo!, Hello Kitty to Album Nikki o Tsukuri Masho!, HITORI DE DEKIRUMON, KAMEN RIDER HEROES, Kikansha Thomas 2, Kikansha Thomas to Nakamatachi, KUMA NO POOH-SAN - MORI NO KYOUSHITSY, LEGO NO SEKAI, Magical Music Eigo de One Two Three, Mickey & Minnie Magical Kitchen, Minimoni ni Narunoda-pyon!, Motto! Oja Majo Doremi: Smile Party, Motto! Oja Majo Doremi: Dokkan! Maho Dou Eigo Festival, Oja Majo Dorami #Maho, Play Rail - Tetsudou Monoshiri Hyakka, Ponkkik Kids 21, SOREIKE! ANPANMAN (1-4), Ugoku Tomika Zukan, Ultraman Cosmos, Unten Daisuki - Doki doki Norimono Daibouken, Yancharu Moncha`,
+	}, "PS2 Guncon2": {
+		URL: "https://en.wikipedia.org/wiki/GunCon#GunCon_compatible_games",
+		games: `Death Crimson OX+ (JP), Dino Stalker, Endgame, Guncom 2 (EU), Gunfighter II: Revenge of Jesse James (EU), Gun Survivor 2: BioHazard Code: Veronica (JP), Gunvari Collection + Time Crisis (JP) , Ninja Assault, Resident Evil: Dead Aim, Resident Evil: Survivor 2 Code: Veronica (EU) , Starsky & Hutch , Time Crisis II, Time Crisis 3 , Vampire Night , Virtua Cop Re-Birth (JP) , Virtua Cop: Elite Edition (EU)`,
+	}, "PS2 Eyetoy": {
+		URL: "https://en.wikipedia.org/wiki/EyeToy#Games",
+		games: `Designed for EyeToy: EyeToy: Play, EyeToy: Groove, Disney Move (Ubisoft), EyeToy: Antigrav, EyeToy: Monkey Mania, EyeToy: Play 2, Nicktoons Movin' (THQ), Sega SuperStars (Sega), U Move Super Sports (Konami), Clumsy Shumsy (Phoenix Games Ltd. [UK/NL]), EyeToy: Chat - a videophone system for use with the network adapter, EyeToy: EduKids, EyeToy: Kinetic, EyeToy: Operation Spy (known as SpyToy in Europe), EyeToy: Play 3, Yetisports Arctic Adventure (JoWooD Entertainment AG), Eyetoy: Kinetic Combat, Eyetoy: Play Sports, Rhythmic Star (Namco), Bob the Builder (Blast! Entertainment Ltd), EyeToy: Astro Zoo, Thomas & Friends: A Day at the Races (Blast! Entertainment Ltd), EyeToy Play: Hero, EyeToy Play: PomPom Party, EyeToy: Fight, EyeToy: Tales
+		
+		Enhanced with EyeToy: AFL Premiership 2005, AFL Premiership 2006, AFL Premiership 2007, AND 1 Streetball, Buzz! The Music Quiz, Buzz! The Big Quiz, CMT Presents: Karaoke Revolution Country, Dance Dance Revolution Extreme, DDR Festival Dance Dance Revolution, Dancing Stage Fusion, Dance Dance Revolution Extreme 2, Dancing Stage Max, Dance Dance Revolution Strike, Dance Dance Revolution SuperNova (North America), Dance Dance Revolution SuperNova, Dancing Stage SuperNova (Europe), Dance Dance Revolution SuperNova 2, Dance Dance Revolution SuperNova 2, Dance Dance Revolution X (North America), Dance Factory, DT Racer, Formula One 05, Flow: Urban Dance Uprising, Gaelic Games: Football, Get On Da Mic, Gretzky NHL 2005, Harry Potter and the Prisoner of Azkaban, Jackie Chan Adventures, Karaoke Revolution Party, Karaoke Revolution Presents: American Idol, Lemmings, LMA Manager 2005, MLB 2005, MLB 2006, MLB '06: The Show, MLB '07: The Show, MLB '08: The Show, MLB '09: The Show, MLB '10: The Show, NBA 07, Racing Battle: C1 Grand Prix, SingStar series, The Sims 2, Stuart Little 3: Big Photo Adventure, The Polar Express, The Sims 2: Pets, The Urbz: Sims in the City, This Is Football 2005, Tony Hawk's American Wasteland, Tony Hawk's Underground 2, YetiSports Arctic Adventures, Who Wants To Be A Millionaire? Party Edition, World Tour Soccer 2006`,
+	}, "PS2 Mini D.D.R. Fingerpad": {
+		games: `PS1: Dance Dance Revolution, Dance Dance Revolution 2ndRemix, Dance Dance Revolution 2ndReMix Append Club Version Vol.1, Dancing Stage featuring True Kiss Destination, Dance Dance Revolution 2ndReMix Append Club Version Vol.2, Dancing Stage featuring Dreams Come True, Dance Dance Revolution 3rdMix, ???? Dance Dance Revolution (Oha Star), Dance Dance Revolution Disney's Rave, Dance Dance Revolution Best Hits, Dance Dance Revolution 4thMix, Dance Dance Revolution Extra Mix, Dance Dance Revolution 5thMix, Dance Dance Revolution Disney Mix, Dance Dance Revolution Konamix, Dancing Stage EuroMix, Dancing Stage Disney Mix, Dancing Stage Party Edition, Dancing Stage Fever, Dancing Stage Fusion, Dancing Stage EuroMix, Dancing Stage Disney Mix, Dancing Stage Fever
+
+		PS2: DDRMAX Dance Dance Revolution 6thMix, DDRMAX2 Dance Dance Revolution 7thMix, Dance Dance Revolution Extreme, Dance Dance Revolution Party Collection, DDR Festival Dance Dance Revolution, Dance Dance Revolution Strike, Dance Dance Revolution SuperNova, Dance Dance Revolution SuperNova 2, Dance Dance Revolution X, DDRMAX Dance Dance Revolution, DDRMAX2 Dance Dance Revolution, Dance Dance Revolution Extreme, Dance Dance Revolution Extreme 2, Dance Dance Revolution SuperNova, Dance Dance Revolution SuperNova 2, Dance Dance Revolution Disney Channel Edition, Dance Dance Revolution X, Dance Dance Revolution X2, Dancing Stage MegaMix, Dancing Stage Fever, Dancing Stage Fusion, Dancing Stage Max, Dancing Stage SuperNova, Dancing Stage SuperNova 2, Dancing Stage MegaMix, Dancing Stage Fusion`,
+	}, "PS3 PSEye": {
+		URL: "https://en.wikipedia.org/wiki/PlayStation_Eye#Compatible_games",
+		games: `Aqua Vita/Aquatopia, Ember, Mesmerize, Operation Creature Feature, The Eye of Judgment, The Trials of Topoq, Tiger Woods PGA Tour 08, Tori-Emaki, SingStar, Sky Blue, Snakeball, PES 2008, EyeCreate, Buzz!: Quiz TV*, Burnout Paradise*, FaceBreaker, GTI Club+: Rally Côte d'Azur, High Stakes on the Vegas Strip: Poker Edition, LittleBigPlanet*, PES 2009, SingStar Vol. 2, Tom Clancy's Rainbow Six: Vegas 2, Bomberman Ultra, Buzz!: Quiz World, Tiger Woods 10, Fight Night Round 4, EyePet, Gran Turismo 5, EyePet, Kung-Fu Live, Def Jam Crapstar, Start the Party, Time Crisis: Razing Storm, TV Superstars
+		* = also compatible with PS2 Eyetoy (and probably other standard USB webcams)`,
+	}, "PS3 RemotePlay": {
+		games: `Aqua Vita/Aquatopia (PSN game), Anarchy: Rush Hour (PSN game), Bejeweled 2 (PSN game/demo), Bionic Commando Rearmed (PSN game/demo), BlazBlue: Calamity Trigger (BD game), FirstPlay (PSN software), Gundemonium Recollection (PSN game), High Stakes on the Vegas Strip: Poker Edition (PSN game), Imabikisou (BD game/PSN demo), Lair (BD game), LEGO Batman (BD game), Life with PlayStation (PSN software), Mainichi Issho (PSN game), Misato Katsuragi's Reporting Plan (PSN game), Peggle (PSN game), Peggle Nights (PSN game add-on), PixelJunk Eden (PSN game/demo), PixelJunk Monsters (PSN game/demo), PixelJunk Shooter (PSN game), PlayStation 1 games (CD games/demos, PSN games/demos), PlayTV (BD software/PSN demo), SingStar (BD game), SingStar Vol. 2 (BD game), SingStar ABBA (BD game), VidZone (PSN software), Weekly Toro Station (PSN game), Zuma (PSN game/demo)`,
+	}, "PS3 Move+NavCon, 3DTV": {
+		URL: "https://en.wikipedia.org/wiki/List_of_PlayStation_3_games_(A%E2%80%93C)",
+	}, "PlayStation Classic": {
+		URL: "https://en.wikipedia.org/wiki/PlayStation_Classic#Games",
+		games: `USA version: Battle Arena Toshinden, Cool Boarders 2, Destruction Derby, Final Fantasy VII, Grand Theft Auto, Intelligent Qube, Jumping Flash, Metal Gear Solid, Mr Driller, Oddworld: Abe’s Oddysee, Rayman, Resident Evil Director’s Cut, Revelations: Persona, Ridge Racer Type 4, Super Puzzle Fighter II Turbo, Syphon Filter, Tekken 3, Tom Clancy’s Rainbow Six, Twisted Metal, Wild Arms
+
+		JPN version: Arc the Lad, Arc the Lad 2, Armored Core, Biohazard (RE1) Director’s Cut, Final Fantasy VII International, G Darius, Gradius Gaiden, Intelligent Qube, Jumping Flash, Metal Gear Solid, Mr. Driller, Parasite Eve, Persona 1, Ridge Racer Type 4, SaGa Frontier, Super Puzzle Fighter IIX, Tekken 3, Toshinden, Wild Arms, XI [sái]`,
+	}, "Dreamcast Light Gun": {
+		URL: "https://en.wikipedia.org/wiki/Dreamcast_light_guns#Supported_games",
+		games: `Death Crimson OX (JPN), Death Crimson 2 (JPN), Demolition Racer: No Exit ('Big Car Hunter' minigame), Confidential Mission, House of the Dead 2, Virtua Cop 2`,
+	}, "Dreamcast Link Cable": {
+		games: "Aero Dancing F, Aero Dancing I, Aerowings 2 (Speculated), F355, Sega Rally 2, Sega Tetris, Virtual On: Oratorio Tangram (Hold L+R+A+Start at the title screen)",
+	}, "Dreamcast VMU": {
+		URL: "https://en.wikipedia.org/wiki/VMU#Minigames_and_in-game_features",
+		games: `Cardcaptor Sakura: Tomoyo no Video Daisakusen, Carrier, D2, Dino Crisis, Evil Twin: Cyprien's Chronicles, Evolution: The World of Sacred Device, Evolution 2: Far Off Promise, F355 Challenge, Godzilla Generations (Japanese Version), Grand Theft Auto 2, Jet Set Radio / Jet Grind Radio, Marvel vs. Capcom 2: New Age of Heroes, Namco Museum, NBA 2K / 2K1 / 2K2, NFL 2K / 2K1 / 2K2 / Blitz, Pop'n Music series, Power Stone, Power Stone 2, Quake III Arena, Ready 2 Rumble, Resident Evil series, Sakura Wars 3, Seaman, Sega GT, Sega Rally 2, Shenmue, Silent Scope, Skies of Arcadia, Sonic Adventure, Sonic Adventure 2, Sonic Shuffle, Soulcalibur (Japanese Version), Super Magnetic Neo, Tech Romancer, Time Stalkers, Tokyo Bus Guide, TrickStyle, Virtua Tennis, Zombie Revenge`,
+	}, "Genesis Mini": {
+		URL: "https://en.wikipedia.org/wiki/Sega_Genesis_Mini#Games",
+		games: `Alex Kidd in the Enchanted Castle, Alien Soldier, Alien Storm, Altered Beast, Beyond Oasis, Bio-Hazard Battle, Bonanza Bros., Columns, Columns III: Revenge of Columns, Comix Zone, Crack Down, Decap Attack, Dr. Robotnik’s Mean Bean Machine, Dynamite Headdy, ESWAT: City Under Siege, Fatal Labyrinth, Flicky, Gain Ground, Galaxy Force II, Golden Axe, Golden Axe II, Golden Axe III, Gunstar Heroes, Kid Chameleon, Landstalker, Light Crusader, Phantasy Star II, Phantasy Star III: Generations of Doom, Phantasy Star IV: The End of the Millenium, Ristar, Shadow Dancer: The Secret of Shinobi, Shining Force, Shining Force II Shining in the Darkness, Shinobi III: Return of the Ninja Master, Sonic 3D Blast, Sonic Spinball, Sonic the Hedgehog, Sonic the Hedgehog 2, Space Harrier II, Streets of Rage, Streets of Rage 2, Streets of Rage 3, Super Thunder Blade, Sword of Vermilion, The Revenge of Shinobi, ToeJam & Earl in Panic on Funkotron, ToeJam & Earl, Vectorman, VectorMan 2, Virtua Fighter 2, Wonder Boy III: Monster Lair, Wonder Boy in Monster World`,
+	}, "SegaScope 3D Glasses": {
+		URL: "https://en.wikipedia.org/wiki/Master_System#Game_library",
+		games: `Blade Eagle 3-D, Line of Fire, Maze Hunter 3-D, Maze Hunter 3-D II, Missile Defense 3-D, Out Run 3-D (PAL), Poseiden Wars 3-D, Space Harrier 3-D, Submarine 3-D, Zaxxon 3-D`,
+	}, "Amiibos": {
+		URL: "https://en.wikipedia.org/wiki/Amiibo#List_of_Amiibo",
+		games: `Amiibo Tap: Nintendo's Greatest Bits, Animal Crossing: New Leaf, Captain Toad: Treasure Tracker, Chibi-Robo! Zip Lash, Hyrule Warriors, Hyrule Warriors Legends, Kirby: Planet Robobot, Mario Party 10, Mario Party: Star Rush, Mario Sports Superstars, Mini Mario & Friends: Amiibo Challenge, Style Savvy: Fashion Forward, Pokkén Tournament, Taiko no Tatsujin: Atsumete ☆ Tomodachi Daisakusen!, Word Puzzles by POWGI, Yoshi's Woolly World, Animal Crossing: Amiibo Festival, Animal Crossing: Happy Home Designer, Animal Crossing: New Leaf, Azure Striker Gunvolt 2, Azure Striker Gunvolt: Striker Pack, Code Name: S.T.E.A.M., Fire Emblem Fates, Kirby and the Rainbow Curse, Mario & Sonic at the Rio 2016 Olympic Games, Mario & Luigi: Paper Jam, Mario Tennis: Ultra Smas, Monster Hunter Stories, Mega Man Legacy Collection, Shovel Knight, Splatoon, Star Fox Guard, The Legend of Zelda: Breath of the Wild, The Legend of Zelda: Twilight Princess HD, Xenoblade Chronicles 3D, Sayonara! HakoBoy!`,
+	}, "Barcode Battler BB-II interface": {
+		games: `Barcode World (バーコードワールド?) NES, 
+				Barcode Battler Senki: Super Senshi Shutsugeki Seyo! (バーコードバトラー戦記 スーパー戦士出撃せよ!?), Doraemon 2: Nobita's Great Adventure Toys Land (ドラえもん2 のび太のトイズランド大冒険?), Dragon Slayer II (ドラゴンスレイヤーII?), Hatayama Hatch no Pro Yakyuu News! Jitsumei Han, J-League '94 (Jリーグ94?), Doraemon 3: Nobita and the Jewel of Time (ドラえもん3 のび太と時の宝玉?), Lupin III: Densetsu no Hihō wo Oe! (ルパン三世 伝説の秘宝を追え!?), J-League '95 (Jリーグ95?), Alice no Paint Adventure (アリスのペイントアドベンチャー?) SNES`,
+	}, "Famicom 3D System": {
+		URL: "https://en.wikipedia.org/wiki/Famicom_3D_System#List_of_compatible_games",
+		games: `3D HOT RALLY (DISK), FALSION (DISK), 3D DEEP DUNGEON (DISK), 3D JJ TOBIDASE DAISAKUSEN (DISK), 3D JJ TOBIDASE DAISAKUSEN 2 (CART), COSMIC EPSILON (CART), HIGHWAY STAR (CART), ATTACK ANIMAL GAKUEN (CART)
+				Will work with SegaScope 3D games`,
+	}, "Gameboy Printer": {
+		URL: "https://en.wikipedia.org/wiki/Game_Boy_Printer#Games_with_Game_Boy_Printer_support",
+		games: `Alice in Wonderland, Asteroids, Austin Powers: Oh, Behave!, Austin Powers: Welcome to My Underground Lair!, Cardcaptor Sakura: Itsumo Sakura-chan to Issho!, Cardcaptor Sakura: Tomoe Shōgakkō Daiundōkai, Disney's Dinosaur, Disney's Tarzan, Donkey Kong Country, E.T.: Digital Companion, Fisher-Price Rescue Heroes: Fire Frenzy, Game Boy Camera, Harvest Moon 2, Kakurenbo Battle Monster Tactics, Klax, The Legend of Zelda: Link's Awakening DX, The Little Mermaid 2: Pinball Frenzy, Little Nicky, Logical, Magical Drop, Mary-Kate and Ashley Pocket Planner, Mickey's Racing Adventure, Mickey's Speedway USA, Mission: Impossible, NFL Blitz, Perfect Dark, Pokémon Crystal, Pokémon Gold and Silver, Pokémon Pinball, Pokémon Trading Card Game, Pokémon Card GB2: Great Rocket-Dan Sanjō!, Pokémon Yellow: Special Pikachu Edition, Puzzled, Quest for Camelot, Roadsters, Super Mario Bros. Deluxe, Tony Hawk's Pro Skater 2, Trade & Battle: Card Hero`,
+	}, "GBA e-Reader": {
+		URL: "https://en.wikipedia.org/wiki/Nintendo_e-Reader#Game_list",
+		games: `GCN: Animal Crossing, Pokémon Colosseum, Pokémon Channel, Pikmin 2 (JPN)
+				GBA: Pokémon Ruby/Sapphire/FireRed/LeafGreen/Emerald, Super Mario Advance 4: Super Mario Bros, Rockman series, Mario VS Donkey Kong (JPN), Domo-kun no Fushigi Terebi`,
+	}, "GBA-GCN Link Cable": {
+		URL: "https://en.wikipedia.org/wiki/GameCube_%E2%80%93_Game_Boy_Advance_link_cable#Games",
+		games: `GCN: All-Star Baseball 2004, Amazing Island, Animal Crossing, Batman: Rise of Sin Tzu, Billy Hatcher and the Giant Egg, Crash Bandicoot: The Wrath of Cortex, Crash Nitro Kart, Dakar 2, Disney Basketball, Disney Sports Football, Disney Sports Soccer, Disney Sports Snowboarding, Disney's Magical Mirror Starring Mickey Mouse, FIFA Football 2004, Final Fantasy Crystal Chronicles, Fire Emblem: Path of Radiance, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter: Quidditch World Cup, Harvest Moon: A Wonderful Life, Harvest Moon: Another Wonderful Life, Hot Wheels Velocity X, Interactive Multi-Game Demo Disc: Version 14 (must have memory card inserted), Interactive Multi-Game Demo Disc: Version 16, James Bond 007: Everything or Nothing, Kururin Squash!, The Legend of Zelda: Four Swords Adventures, The Legend of Zelda: The Wind Waker, The Lord of the Rings: The Return of the King, Madden NFL 2003, Madden NFL 2004, Mario Golf: Toadstool Tour, Mario Kart Double Dash!! Bonus Disc, Medabots Infinity, Medal of Honor: Rising Sun, Mega Man X: Command Mission, Metroid Prime, NASCAR Thunder 2003, Nintendo GameCube Preview Disc, Nintendo GameCube Service Disc Version 1.0/03, Nintendo Puzzle Collection, Pac-Man Vs., Phantasy Star Online Episode I & II, Phantasy Star Online Episode I & II Plus, Pokémon Box: Ruby & Sapphire, Pokémon Channel, Pokémon Colosseum, Pokémon Colosseum Bonus Disc, Pokémon XD: Gale of Darkness, Prince of Persia: The Sands of Time, Rayman 3, Road Trip: The Arcade Edition, The Sims: Bustin' Out, Sonic Adventure 2: Battle, Sonic Adventure DX: Director's Cut, SSX 3, Star Wars Rogue Squadron III: Rebel Strike, Tiger Woods PGA Tour 2004, Tom Clancy's Splinter Cell, Tom Clancy's Splinter Cell: Pandora Tomorrow, Tom Clancy's Splinter Cell: Chaos Theory, The Urbz: Sims in the City, Wario World, WarioWare Inc.: Mega Party Game$
+
+		GBA: Batman: Rise of Sin Tzu, Crash Nitro Kart, Disney Sports Basketball, Disney Sports Soccer, Disney Sports Snowboarding, Disney's Magical Quest Starring Mickey and Minnie, e-Reader, FIFA Football 2004, Fire Emblem, Fire Emblem: The Sacred Stones, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter: Quidditch World Cup, Harvest Moon: Friends of Mineral Town, Harvest Moon: More Friends of Mineral Town, Hot Wheels Velocity X, James Bond 007: Everything or Nothing, Lord of the Rings: Return of the King, Madden NFL 2004, Mario Golf: Advance Tour, Medabots: Metabee and Rokusho Versions, Medal of Honor: Infiltrator, Metroid Fusion, Pokémon Ruby/Sapphire/Emerald/FireRed/LeafGreen`,
+	}, "NES Classic": {
+		URL: "https://en.wikipedia.org/wiki/NES_Classic_Edition#Included_games",
+		games: `Balloon Fight, Bubble Bobble, Castlevania, Castlevania II: Simon's Quest, Donkey Kong, Donkey Kong Jr., Double Dragon II: The Revenge, Dr. Mario, Excitebike, Final Fantasy, Galaga, Ghosts 'n Goblins, Gradius, Ice Climber, Kid Icarus, Kirby's Adventure, The Legend of Zelda, Mario Bros., Mega Man 2, Metroid, Ninja Gaiden, Pac-Man, Punch-Out!! Featuring Mr. Dream, StarTropics, Super C, Super Mario Bros., Super Mario Bros. 2, Super Mario Bros. 3, Tecmo Bowl, Zelda II: The Adventure of Link`,
+	}, "NES Zapper": {
+		URL: "https://en.wikipedia.org/wiki/NES_Zapper#Games",
+		games: `The Adventures of Bayou Billy, Baby Boomer, Barker Bill's Trick Shooting, Chiller, Day Dreamin' Davey, Duck Hunt, Freedom Force, Gotcha! The Sport!, Gumshoe, Hogan's Alley, Laser Invasion, The Lone Ranger, Mechanized Attack, Operation Wolf, Shooting Range, To The Earth, Track & Field II, Wild Gunman`,
+	}, "N64 Transfer Pak": {
+		URL: "https://en.wikipedia.org/wiki/Nintendo_64_accessories#Transfer_Pak",
+		games: `<TABLE CLASS="table"><TR><TH>N64 Game</TH><TH>Gameboy Game</TH></TR>
+				<TR><TD>Choro Q 64 2: Hachamecha Grand Prix Race</TD><TD>Choro Q Hyper Customizable GB</TD></TR>
+				<TR><TD>Choro Q 64 2</TD><TD>Hachamecha Grand Prix Race (JPN)</TD></TR>
+				<TR><TD>Jikkyo Powerful Pro Yakyu 6 (JPN)</TD><TD>Power Pro Kun Pocket (JPN)</TD></TR>
+				<TR><TD>Jikkyo Powerful Pro Yakyu 2000 (JPN)</TD><TD>Power Pro Kun Pocket 2 (JPN)</TD></TR>
+				<TR><TD>Mario Artist (64DD) (JPN)</TD><TD>Game Boy Camera</TD></TR>
+				<TR><TD>Mario Golf</TD><TD>Mario Golf</TD></TR>
+				<TR><TD>Mario Tennis</TD><TD>Mario Tennis</TD></TR>
+				<TR><TD>Mickey's Speedway USA</TD><TD>Mickey's Speedway USA</TD></TR>
+				<TR><TD>Nushi Tsuri 64: Shiokaze ni Notte (JPN)</TD><TD>Kawa no Nushi Tsuri 4 (JPN)</TD></TR>
+				<TR><TD>PD Ultraman Battle Collection 64 (JPN)</TD><TH>Any</TH></TR>
+				<TR><TD>Perfect Dark</TD><TD>Perfect Dark</TD></TR>
+				<TR><TD>Pokémon Stadium (Pocket Monsters Stadium 2 JPN)</TD><TD>Pokémon Red/Blue/Yellow</TD></TR>
+				<TR><TD>Pokémon Stadium 2</TD><TD>Pokémon Red/Blue/Yellow/Gold/Silver/Crystal</TD></TR>
+				<TR><TD>Puyo Puyo 'N Party (JPN)</TD><TD>Pocket Puyo Puyo SUN (JPN)</TD></TR>
+				<TR><TD>Robot Ponkottsu 64: Nanatsu no Umi no Caramel (JPN)</TD><TD>Robopon Sun/Sta/Moon (JPN)</TD></TR>
+				<TR><TD>Super B-Daman: Battle Phoenix 64 (JPN)</TD><TD>Super B-Daman: Fighting Phoenix (JPN)</TD></TR>
+				<TR><TD>Super Robot Taisen 64 (JPN)</TD><TD>Super Robot Taisen Link Battler (JPN)</TD></TR>
+				<TR><TD>Transformers Beast Wars Metals 64 (JPN)</TD><TD>Gekitou Beast Wars (JPN)</TD></TR>
+			</TABLE>`,
+	}, "Pokémon Mini": {
+		URL: "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mini#List_of_games",
+		games: `Pokémon Party mini, Pokémon Pinball mini, Pokémon Puzzle Collection, Pokémon Zany Cards, Pokémon Tetris, Pokémon Puzzle Collection vol. 2, Pokémon Race mini, Pichu Bros. mini, Togepi's Great Adventure, Pokémon Breeder mini`,
+	}, "SNES Classic": {
+		URL: "https://en.wikipedia.org/wiki/Super_NES_Classic_Edition#Games",
+		games: `Both: Contra III: The Alien Wars, Donkey Kong Country, Final Fantasy VI, F-Zero, Kirby Super Star, The Legend of Zelda: A Link to the Past, Mega Man X, Secret of Mana, Star Fox, Star Fox 2, Super Ghouls 'n Ghosts, Super Mario Kart, Super Mario RPG: Legend of the Seven Stars, Super Mario World, Super Mario World 2: Yoshi's Island, Super MetroidUS: EarthBound, Kirby's Dream Course, Street Fighter II Turbo: Hyper Fighting, Super Castlevania IV, Super Punch-Out!!
+
+				US: EarthBound, Kirby's Dream Course, Street Fighter II Turbo: Hyper Fighting, Super Castlevania IV, Super Punch-Out!!
+
+				JPN: Fire Emblem: Mystery of the Emblem, The Legend of the Mystical Ninja, Panel de Pon, Super Soccer, Super Street Fighter II: The New Challengers`,
+	}, "SNES Mouse": {
+		URL: "https://en.wikipedia.org/wiki/Super_NES_Mouse",
+		games: `Acme Animation Factory, Alice Paint Adventure, Arkanoid: Doh It Again, Bishoujo Senshi Sailor Moon S Kondowa Puzzle de Oshioikiyo! (JPN), Brandish 2: Expert (JPN), BreakThru!, Civilization, Cameltry, Cannon Fodder, Dai3ji Super Robot Taisen (JPN), Dai4ji Super Robot Taisen (JPN), Doom, Dokyusei 2 (JPN), Dragon Knight 4 (JPN), Eye of the Beholder, Farland Story 2 (JPN), Fun and Games, Galaxy Robo (JPN), Hiouden: Mamono-tachi tono Chikai (JPN), Jurassic Park, King Arthur's World, Koutetsu No Kishi (JPN), Koutetsu No Kishi 2 (JPN), Koutetsu No Kishi 3 (JPN), Lamborghini American Challenge, Lemmings 2: The Tribes, Lord Monarch (JPN), The Lord of the Rings, Mario and Wario (JPN), Mario Paint, Mario's Super Picross (JPN), Mario's Early Years: Pre-School, Mega Lo Mania, Might and Magic III, Motoko-chan no Wonder Kitchen (JPN), Nobunaga's Ambition, On the Ball, Operation Thunderbolt, Pieces, Populous II, Power Monger, Revolution X, San Goku Shi Seishi: Tenbu Spirits (JPN), Shien's Revenge, SimAnt, Snoopy Concert, Sound Fantasy (unreleased), Spellcraft (unreleased), Super Caesars Palace, Super Castles (JPN), Super Noah's Ark 3D, Super Pachi-slot Mahjong, Super Robot Wars 3, Super Solitaire, Terminator 2: The Arcade Game, Tin Star, Tokimeki Memorial (JPN), Troddlers, Utopia, Vegas Stakes, Warrior of Rome III (unreleased), Wolfenstein 3D, Wonder Project J, Zan 2: Spirits (JPN), Zan 3: Spirits (JPN)`,
+	}, "SNES SuperScope": {
+		URL: "https://en.wikipedia.org/wiki/Super_Scope#Compatible_games",
+		games: `Battle Clash ,Bazooka Blitzkrieg ,Blastris/LazerBlaste, The Hunt for Red October, Lamborghini American Challenge, Metal Combat: Falcon's Revenge, Operation Thunderbolt, Revolution X, Super Scope 6, Terminator 2: The Arcade Game, Tinstar,X-Zone, Yoshi's Safari`,
+	}, "Virtual Boy": {
+		URL: "https://en.wikipedia.org/wiki/List_of_Virtual_Boy_games#Games",
+		games: `NA: 3D Tetris, Galactic Pinball, Golf, Jack Bros, Mario Clash, Mario's Tennis, Nester's Funky Bowling, Panic Bomber, Red Alarm, Teleroboxer, Vertical Force, Virtual Boy Wario Land, Virtual League Baseball, Waterworld
+				JPN: Insmouse no Yakata, SD Gundam Dimension War, Space Invaders Virtual Collection, Space Squash, V-Tetris, Virtual Bowling, Virtual Fishing, Virtual Lab`,
+	}, "DS Rumble Pack": {
+		URL: "https://en.wikipedia.org/wiki/Rumble_Pak#Nintendo_DS",
+		games: `42 All-Time Classics, Air Traffic Chaos, Akagawa Jirou Mystery: Yasoukyoku, Animal Boxing, Bomberman 2, Club House Games, Custom Battler Bomberman, Custom Robo Arena, Diddy Kong Racing DS, Dirt 2, Elite Beat Agents, Ferrari Challenge, GRID, Hotel Dusk: Room 215, Higurashi no Naku koro ni Kizuna: Dai-Ichi-Kan - Tatari, Higurashi no Naku koro ni Kizuna: Dai-Ni-Kan - Sou, Higurashi no Naku koro ni Kizuna: Dai-San-Kan - Rasen, Iron Man, Jam with the Band, Daigasso! Band Brothers DX , Juiced 2: Hot Import Nights, Last Window: The Secret of Cape West, Magnetica (Actionloop), Mahjong Fight Club DS: Wi-Fi Taiou, Mario & Luigi: Partners in Time, Mario & Luigi: Bowser's Inside Story (Not the US version), Metroid Prime Hunters, Metroid Prime Pinball, Moon, Need For Speed: Undercover, Need For Speed: Nitro, Moero! Nekketsu Rhythm Damashii: Osu! Tatakae! Ouendan 2, Orcs & Elves, Picross DS, Power Pro Kun Pocket 9, Power Pro Kun Pocket 10, Professional Fisherman's Tour: Northern Hemisphere, Puyo Puyo! 15th Anniversary, Race Driver: Create and Race, Sega Superstars Tennis, Sonic & Sega All-Stars Racing, Space Invaders Extreme, Space Invaders Extreme 2, Star Fox Command, Star Trek: Tactical Assault, Super Princess Peach, The Legend of Spyro: A New Beginning, Theta, Tomb Raider: Underworld, TrackMania DS, Treasure Gaust: Gaust Diver (Deep Purple), Treasure Gaust: Gaust Diver (Crimson Red), V8 SuperCars Australia 3, Viva Piñata: Pocket Paradise, Wario: Master of Disguise, The Wild West, WWE SmackDown vs. Raw 2008`,
+	}, "3DS Expansion Analog Nub": {
+		games: `Monster Hunter 3G, Resident Evil: Revelations, Metal Gear Solid: Snake Eater 3D, Ace Combat 3D Cross Rumble, Tecmo Koei's Dynasty Warriors VS, Kingdom Hearts 3D [Dream Drop Distance]`,
+	}, "Wii MotionPlus": {
+		URL: "https://en.wikipedia.org/wiki/List_of_games_that_support_Wii_MotionPlus",
+		games: `Backyard Sports: Sandlot Sluggers, Conduit 2, Crazy Mini Golf 2, Deca Sports 3, The Garfield Show: Threat of the Space Lasagna, Grand Slam Tennis, Hooked! Again: Real Motion Fishing, James Cameron's Avatar: The Game, The Legend of Zelda: Skyward Sword, New Carnival Games, NewU Fitness First Mind Body, Yoga & Pilates Workout, NHL 2K10, NHL 2K11, Racquet Sports, Red Steel 2, Shaun White Snowboarding: World Stage, FlingSmash, Raving Rabbids: Travel in Time, SpongeBob's Truth or Square, The Grinder, Tiger Woods PGA Tour 10, Tiger Woods PGA Tour 11, Tiger Woods PGA Tour 12: The Masters, Tron: Evolution - Battle Grids, Virtua Tennis 4, Virtua Tennis 2009, Wii Play: Motion, Wii Sports Resort, Zangeki no Reginleiv, Zumba Fitness, GhostSlayer, Rage of the Gladiator, ShadowPlay`,
+	}, "G15 Gaming Keyboard": {
+		games: `Age of Conan: Hyborian Adventures, America's Army, Armed Assault, Bad Company 2, Battlefield 2, Battlefield 2142, Borderlands, Brothers In Arms: Earned in Blood, Brothers In Arms: Hell's Highway, City of Heroes, Sid Meier´s Civilization IV, Crysis, Crysis Warhead, Command & Conquer 3: Tiberium Wars, Command & Conquer 3: Kane's Wrath, Commandos: Strike Force, Counter-Strike Source / Counter-Strike 1.6, Doom / Doom II: Hell on Earth, Dragon Age: Origins, Dungeons & Dragons Online, The Elder Scrolls IV: Oblivion, Enemy Territory: Quake Wars, EverQuest II, Eve Online, Falcon 4.0: Allied Force, Falcon 4.0, F.E.A.R. 2: Project Origin, Garry's Mod, Guild Wars, GT Legends, GTR, GTR2, Hellgate: London, The Lord of the Rings Online: Shadows of Angmar, Mercenaries 2: World In Flames, Neverwinter Nights 2, Prey, Red Orchestra: Ostfront 41-45, rFactor, Rise of Legends, Sid Meier's Railroads!, SiN Episodes: Emergence, Star Trek Online, Star Wars Battlefront II, Star Wars Galaxies, The Saboteur, TimeShift, Titan Quest: Immortal Throne, Tom Clancy's Rainbow Six: Lockdown, Unreal Tournament 2004, Vanguard: Saga of Heroes, Vendetta Online, War Front: Turning Point, Warhammer: Mark of Chaos, The Witcher (Enhanced Edition), World of Warcraft, X3: Reunion, Other programs, aMSN, Core Temp, EGS, Everest Ultimate Edition, foobar2000 audioplayer, Fraps, G15Web, iTunes, Media Player Classic, Killer NIC, Miranda IM, MSN, Mumble, PC Wizard 2008, Proxi, RivaTuner, Skype VOIP Client, Song lyrics (MiniLyrics G15 plugin), TeamSpeak VOIP Client, Trillian, Winamp, Winamp Visual System, Lyrics (WVS), Ventrilo VOIP Client, WeatherG15, WinUAE Commodore Amiga Emulator, Xfire, EVGA Precision, Mumble VOIP Client`,
+	}, "Kinect": {
+		games: `Adidas miCoach, Adrenalin Misfits, The Adventures of Tintin: The Game, Alvin and the Chipmunks: Chipwrecked, Angry Birds Trilogy, Big League Sports, The Biggest Loser: Ultimate Workout, Binary Domain, The Black Eyed Peas Experience, Blackwater, Body and Brain Connection, Brave: The Video Game, Brunswick Pro Bowling, Cabela's Adventure Camp, Cabela's Big Game Hunter: Hunting Party, Carnival Games: Monkey See, Monkey Do, Champion Jockey: G1 Jockey & Gallop Racer, Child of Eden, Country Dance All Stars, Dance Central, Dance Central 2, Dance Central 3, Dance Evolution, Dance Paradise, Dead Space 3, Deca Sports Freedom, Def Jam Rapstar, Defiance, Dragon Ball Z for Kinect, EA Sports Active 2, The Elder Scrolls V: Skyrim, Fable: The Journey, Fantastic Pets, FIFA Soccer 13, Fighters Uncaged, Forza Motorsport 4, Forza Horizon, Game Party: In Motion, Get Fit With Mel B, Grease Dance, The Gunstringer, Halo: Combat Evolved Anniversary, Harley Pasternak’s Hollywood Workout, Harry Potter and the Deathly Hallows: Part I, Harry Potter for Kinect, Hasbro Family Game Night 4: The Game Show, The Hip Hop Dance Experience, Hole in the Wall, Hulk Hogan's Main Event, Ice Age: Continental Drift - Arctic Games, Jillian Michaels’ Fitness Adventure, Just Dance 3, Just Dance 4, Just Dance: Disney Party, Just Dance: Greatest Hits, Just Dance Kids, Just Dance Kids 2, Kinect Adventures, Kinect Disneyland Adventures, Kinect Joy Ride, Kinect Nat Geo TV, Kinect Rush: A Disney-Pixar Adventure, Kinect Sesame Street TV, Kinect Sports, Kinect Sports: Season Two, BigPark, Kinect Star Wars, LucasArts, Kinectimals, Kinectimals: Now with Bears!, Kung Fu High Impact, Kung Fu Panda 2, Leela, Let's Cheer, Let's Dance with Mel B, London 2012, Madden NFL 13, Marvel Avengers: Battle for Earth, Mass Effect 3, Michael Jackson: The Experience, Michael Phelps: Push The Limit, Minute To Win It, MotionSports, MotionSports Adrenaline, Motion Explosion!, NBA Baller Beats, NBA 2K13, NBA 2K14, Need for Speed: Most Wanted, Nickelodeon Dance, Nickelodeon Dance 2, Nicktoons MLB, Nike+ Kinect Training, Penguins of Madagascar: Dr. Blowhole Returns, PowerUp Heroes, Power Rangers Super Samurai, The Price is Right: Decades, Puss in Boots, Rapala for Kinect, Raving Rabbids: Alive & Kicking, Rise of Nightmares, Self-Defense Training, Sesame Street: Once Upon a Monster, The Sims 3: Pets, Sonic Free Riders, Spongebob's Surf & Skate Roadtrip, Steel Battalion: Heavy Armor, Summer Stars 2012, Tiger Woods PGA Tour 13, Tiger Woods PGA Tour 14, Tom Clancy's Ghost Recon: Future Soldier, Tom Clancy's Splinter Cell: Blacklist, Toy Story Mania!, Twister Mania, UFC Personal Trainer, Victorious: Time to Shine, Virtua Tennis 4, Who Wants to Be a Millionaire?, Winter Stars, Wipeout in the Zone, Wipeout 2, Wipeout 3, Yoostar 2, Yoostar on MTV, Your_Shape: Fitness_Evolved, Your Shape: Fitness Evolved 2012, Zumba Fitness, Zumba Fitness, Zumba Fitness, Zumba Fitness: World Party`,
+	}, "MOGA": {
+		URL: "https://www.powera.com/moga/#games",
+		games: `3D Hunting TM Alaskan Hunt Plus!, 3D Hunting: Zombies, A Space Shooter Blitz, Afterburner Climax, Asphalt 7: Heat HD, Battle Bears Royale, Blazing Souls Accelate, C.H.A.O.S., Choplifter HD, Chrono&Cash, Crazy Snowboard Pro, Dead Trigger, Dink Smallwood HD, Doom GLES, Drift Mania Championship 2, Dungeon Hunter 3, Expendable Rearmed, Final Freeway 2R, Galaxy NGC3D, Gangstar Rio: City of Saints, GnarBike Trials, Grand Theft Auto: Vice City, Heretic GLES, INC:The Beginning, Jet Set Radio, M.U.S.E., Medieval, Meganoid, Meganoid 2, Mike V: Skateboard Party, Modern Combat 4: Zero Hour, N.O.V.A. 3, NFL Pro 2013, PAC-MAN® by Namco, Real Soccer 2013, Return Zero, Riptide GP, Rocket Fox, Satellite Assault, Shadowgun, Shadowgun: DeadZone, Six-Guns, Sky Gamblers: Rise of Glory, Sonic CDTM, Sonic The Hedgehog 4 - Episode II, Stardash, Stealth Chopper 3D, Submarine Attack!, Tank Recon 3D, Tanked, The Bard's Tale, The Dark Knight Rises HD, Tiki Kart 3D, Tiki Kart Beach, Trial Xtreme 2, Vendetta Online, Virtua TennisTM Challenge, Wild Blood`,
+	}, "Neo Geo Mini": {
+		URL: "https://en.wikipedia.org/wiki/Neo_Geo#Neo_Geo_Mini",
+		games: `International version: 3 Count Bout, Art of Fighting, Blazing Star, Blue’s Journey, Crossed Swords, Fatal Fury Special, Foot Ball Frenzy, Garou: Mark of the Wolves, Ghost Pilots, King of the Monsters, King of the Monsters 2, Kizuna Encounter: Super Tag Battle, Last Resort, Magician Lord, Metal Slug, Metal Slug 2, Metal Slug 3, Metal Slug 4, Metal Slug 5, Metal Slug X, Mutation Nation, Ninja Master’s: Haou Ninpou Chou, Puzzled, Real Bout: Fatal Fury, Robo Army, Samurai Shodown II, Samurai Shodown IV: Amakusa’s Revenge, Samurai Shodown V Special, Sengoku 3, Shock Troopers, Shock Troopers: 2nd Squad, Super Sidekicks, The King of Fighters ’95, The King of Fighters ’97, The King of Fighters ’98, The King of Fighters 2000, The King of Fighters 2002, The Last Blade 2, Top Player’s Golf, World Heroes Perfect
+
+		Japanese version: Aggressors of Dark Kombat, Alpha Mission II, Art of Fighting, Blazing Star, Burning Fight, Cyber-Lip, Fatal Fury Special, Garou: Mark of the Wolves, King of Monsters 2, Kizuna Encounter: Super Tag Battle, Metal Slug, Metal Slug 2, Metal Slug 3, Ninja Commando, Ninja Master’s: Haou Ninpou Chou, Puzzled, Real Bout Fatal Fury 2: The Newcomers, Real Bout: Fatal Fury, Samurai Shodown II, Samurai Shodown IV: Amakusa’s Revenge, Samurai Shodown V Special, Sengoku 3, Shock Troopers: 2nd Squad, Super Sidekicks, The King of Fighters ’94, The King of Fighters ’95, The King of Fighters ’96, The King of Fighters ’97, The King of Fighters ’98, The King of Fighters ’99, The King of Fighters 2000, The King of Fighters 2001, The King of Fighters 2002, The King of Fighters 2003, The Last Blade, The Last Blade 2, Top Hunter: Roddy & Cathy, Top Player’s Golf, Twinkle Star Sprites, World Heroes Perfect`,
+	}, "Tapwave Zodiac": {
+		URL: "https://en.wikipedia.org/wiki/Tapwave_Zodiac#Games",
+		games: `Adventure Pak, Doom II, Duke Nukem Mobile, Fun Pak, GTS Racing Challenge, Hellfire: Tiger Team: Apache vs. Hind, Spy Hunter, Stunt Car Extreme, Tony Hawk's Pro Skater 4`,
+	}, "XBOX360 Vision Camera": {
+		URL: "https://en.wikipedia.org/wiki/Xbox_Live_Vision#Compatible_games",
+		games: `American Idol Encore, American Idol Encore 2, Band of Bugs, Bankshot Billiards 2, Battlezone, Bomberman Live, Burnout Paradise, Carcassonne, Chessmaster Live, Civilization Revolution, Command & Conquer 3: Tiberium Wars, Domino Master, Duke Nukem 3D (in lobbies), Gin Rummy, Hardwood Backgammon, Hardwood Hearts, Hardwood Spades, Tom Clancy's H.A.W.X. 2, Lost Cities, Need for Speed: Hot Pursuit (2010 video game), Pinball FX, Rocky and Bulwinkle, Soltrio Solitaire, Spyglass Board Games, Texas Hold 'em, Ticket to Ride, Uno, Uno Rush, Vigilante 8 Arcade, Warlords, Wits and Wagers, Word Puzzle
+
+		Controller functionality: Pinball FX, Rayman Raving Rabbids, TotemBall, You're in the Movies
+
+		Face mapping support (Digimask): FaceBreaker, FIFA 10, Fight Night Round 4, Football Manager 2007, Pro Evolution Soccer 2008, Pro Evolution Soccer 2009, Tiger Woods PGA Tour 08, Tiger Woods PGA Tour 09, Tiger Woods PGA Tour 10, Tom Clancy's Rainbow Six: Vegas, Tom Clancy's Rainbow Six: Vegas 2, World Series of Poker 2008: Battle for the Bracelets
+
+		Other: Viva Piñata: Trouble in Paradise`,
+	}, "HORI Tiny Bee": {
+		info: `<TABLE CLASS="table"><TR><TH></TH><TH>Left Gun</TH><TH>Right Gun</TH></TR>
+				<TR><TD>Trigger</TD><TD>L1</TD><TD>R1</TD></TR>
+				<TR><TD>Bottom Trigger</TD><TD>X</TD><TD>O</TD></TR>
+				<TR><TD>Left Side Button</TD><TD>L2</TD><TD>□</TD></TR>
+				<TR><TD>Right Side Button</TD><TD>△</TD><TD>R2</TD></TR>
+				<TR><TD>Thumb Position</TD><TD>Dpad</TD><TD>Analog Stick</TD></TR>
+			</TABLE>`,
+	}, "ASCII Grip": {
+		info: `FUNCTION # 1
+
+				Button Configuration
+
+				The ASCII Grip button configuration can be arranged to the following three choices. After you have changed the arrangement, it stays that way even after turning the PlayStation off. The configuration only changes if you manually reconfigure it.
+
+				Arrangement 1 - Standard Arrangement
+
+				This is the arrangement when the product was purchased.
+
+				To select this arrangement from arrangements 2 or 3, hold the SELECT and START button down, simultaneously, while turning on the PlayStation.
+
+				Arrangement 2
+
+				Press the SELECT button while turning on the PlayStation.
+
+				Arrangement 3
+
+				Hold the START button down while turning on the PlayStation. This arrangement allows you to use the programmable buttons.
+
+				FUNCTION # 2
+
+				Programmable Buttons
+
+				The programmable buttons can only be used in arrangement 3. The back buttons, which are the O and X buttons (in the standard arrangement), become programmable button 1 and programmable button 2. The programmable buttons can memorize all the buttons you were pressing while you turned on the PlayStation.
+
+				To erase the settings of the programmable buttons, press only the programmable buttons you want to erase while turning on the PlayStation.
+
+				NOTES:
+
+				The programmable buttons cannot memorize the directional pad or other programmable button.
+
+				Even when the button arrangement is changed, the settings for programmable button 1 and programmable button 2 are maintained when arrangement 3 is resumed.
+
+				When programmable button 1 and programmable button 2 are both pressed while turning on the PlayStation, programmable button 1 always takes precedence.
+
+				When you set the programmable button while in arrangement 1 or 2, it automatically switches to arrangement 3.`,
+	}, "PS3 Wireless Keypad": {
+		info: `To put it in Pairing mode: Hold the Blue shoulder button while turning it on
+
+				Esc = Circle
+
+				F1 = Triangle
+
+				F2 = Square
+
+				F3 = Select
+
+				F4 = Start
+
+				F5 = Refresh Page (Web browser use only)
+
+				BackSpace = L1, or "Back" (Web browser use only)
+
+				Shift+Backspace = R1, or "Forward" (Web browser use only)
+
+				Tab = Select next item (Web browser use only)
+
+				Shift+Tab = Select Previous item (Web browser use only)
+
+				Enter/Return = X
+
+				The Window/Apple/S3 = PS Button (Can not be held. Must turn off Console Manually)
+
+				Arrow keys = D-Pad
+
+				Delete/Del = Delete words after line (Text Box use only)
+
+				Home = Top of page (Web browser use only)
+
+				End = Bottom of Page (Web browser use only)
+
+				Page Up/Down = Scroll Up/Down (Web browser use only)
+
+				Spacebar = Scroll Down (Web browser use only)`,
+	}, "Dualshock 4": {
+		info: `To put it in Pairing mode: Hold the Share button and press the PlayStation button until the light bar flashes`,
+	},
+};
+
 var controllers = [{
 	peripheral: "000-01",
 	company: "Capcom",
@@ -15,9 +268,9 @@ var controllers = [{
 	peripheralName: "Flight Stick 2",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 100,
+	description: `Joystick, a clickable thumbstick, a throttle, 3 dpads, 2 dials, rudder control, 3 triggers, 4 buttons, a mode select switch, rumble, a cool box`,
+	games: "Ace Combat 5, Ace Combat Zero",
 },{
 	peripheral: "000-03A",
 	company: "Novint",
@@ -77,18 +330,18 @@ var controllers = [{
 	peripheralName: "GunCon 2",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 10,
+	description: `1 trigger, 1 dpad, 4 buttons, a cool box, CRT display only lightgun (SD only), Unidextrous, Ambidextrous`,
+	games: "PS2 Guncon",
 },{
 	peripheral: "000-08",
 	company: "RedOctane",
 	peripheralName: "Reload Pedal",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 20,
+	description: `1 aluminum foot pedal`,
+	games: "PS1 Guncon",
 },{
 	peripheral: "000-09",
 	company: "Nintendo",
@@ -106,7 +359,7 @@ var controllers = [{
 	cost: 130,
 	description: `2 triggers, 6 buttons, backlight, built in battery, touch screen, clickable thumbstick, Bluetooth, Metal construction, rumble, 2 SD slots (1 is SD I/O), IR port, a cool box, open platform, 480×320 resistive touch LCD
 		Used as a prop on StarGate`,
-	games: "Palm Pilot games, Tapwave Zodiac games",
+	games: "Tapwave Zodiac",
 	specificVersion: "² (128 MB RAM)",
 	otherVersions: "32 MB RAM",
 },{
@@ -115,18 +368,18 @@ var controllers = [{
 	peripheralName: "Resident Evil 4 Chainsaw",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 10,
+	description: `rip cord, tilt sensor, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, 1 dpad, a cool box/base with hidden compartments, Removable cable, rumble, Sound chip, individually numbered`,
+	games: "Resident Evil 4",
 },{
 	peripheral: "000-12",
 	company: "HORI",
-	peripheralName: "Onimusha 3: Soul Katana",
+	peripheralName: "Soul Katana",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 150,
+	description: `tilt sensor, 2 clickable thumbsticks,, 4 face buttons, 2 system buttons, 4 shoulder buttons, 1 dpad, wireless, a cool box and base, rumble, batteries included (requires a screwdriver to install)`,
+	games: "Onimusha 3",
 },{
 	peripheral: "000-13",
 	company: "Nintendo",
@@ -135,7 +388,7 @@ var controllers = [{
 	photographed: true,
 	cost: "30 (Gift from Exophase)",
 	description: "2 triggers, 2 dpads, 4 buttons, dual 384×224 (black + 3 shades of red) monochrome LCDs",
-	games: "Virtual Boy games",
+	games: "Virtual Boy",
 },{
 	peripheral: "000-14-A",
 	company: "Sony",
@@ -145,7 +398,7 @@ var controllers = [{
 	cost: 30,
 	importOnly: true,
 	description: "5 buttons, IRDA link, speaker, Reset button, PS1 memory card male interface, takes 1 CR-2032 battery, 32×32 monochrome LCD, 2KB RAM, 128 KB Flash (PS1 memory card), unique ID code (visible inside the flip cover)",
-	games: "Final Fantasy 8, PocketStation games",
+	games: "PS1 PocketStation",
 },{
 	peripheral: "000-14-B",
 	attached: "000-14-A",
@@ -156,7 +409,7 @@ var controllers = [{
 	cost: 30,
 	importOnly: true,
 	description: "5 buttons, IRDA link, speaker, Reset button, PS1 memory card male interface, takes 1 CR-2032 battery, 32×32 monochrome LCD, 2KB RAM, 128 KB Flash (PS1 memory card), unique ID code (visible inside the flip cover)",
-	games: "Final Fantasy 8, PocketStation games",
+	games: "PS1 PocketStation",
 },{
 	peripheral: "000-15A",
 	company: "Nintendo",
@@ -193,17 +446,20 @@ var controllers = [{
 	peripheralName: "Digital Controller",
 	systems: "GCN",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 20,
+	importOnly: true,
+	description: `1 dpad, 2 triggers, 7 buttons, (5 face, 2 system though Select is redundant of Y), a cool box`,
+	games: "GBplayer",
 },{
 	peripheral: "000-17",
 	company: "DragonPlus",
 	peripheralName: "one",
 	systems: "PS1/PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 10,
+	importOnly: true,
+	description: `4 shoulder buttons, dpad, 2 clickable analog sticks, 4 face buttons, 2 system buttons, turbo+slow
+				A historical artifact: What Nintendo copied for the Wii Classic controller`,
 	games: "",
 },{
 	peripheral: "000-18",
@@ -218,33 +474,26 @@ var controllers = [{
 	otherVersions: "White",
 },{
 	peripheral: "000-19",
-	company: "Zalman",
-	peripheralName: "FPS mouse",
-	systems: "PC",
-	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
-},{
-	peripheral: "000-20",
 	company: "NubyTech",
 	peripheralName: "Chun Li Street Fighter Collectors Edition",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 20,
+	description: `1 dpad, 2 triggers, 8 buttons, a cool box, comic book, hologram, and 2 stickers`,
+	games: "Fighting games",
+	specificVersion: "Chun Li (wired PS2)",
+	otherVersions: "Ryu, Akuma, Ken (wired PS2) | Evil Ken, Cammy, Sagat (wireless PS2) | M Bison, Guile, Akuma (XBOX)",
 },{
-	peripheral: "000-21",
+	peripheral: "000-20",
 	company: "Nintendo",
 	peripheralName: "VRS",
 	systems: "N64",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 10,
+	description: `1 microphone`,
+	games: "Hey You Pikachu! ",
 },{
-	peripheral: "000-22",
+	peripheral: "000-21",
 	company: "Nintendo",
 	peripheralName: "DS Lite",
 	systems: "SYS",
@@ -252,7 +501,7 @@ var controllers = [{
 	description: "2 triggers, 4 face buttons, 2 system buttons, built in rechargeable battery (via AC adapter), touch screen, dpad, non-standard Wifi variant, a cool box, dual 256×192 color back-lit LCDs",
 	games: "DS/GBA games",
 },{
-	peripheral: "000-23",
+	peripheral: "000-22",
 	company: "Sony",
 	peripheralName: "PSP Slim and Light",
 	systems: "SYS",
@@ -260,7 +509,7 @@ var controllers = [{
 	description: "Same as non-dual-analog PSP, with HDTV (via Component) out, 480×272 color LCD",
 	games: "PSP games, Metal Gear Solid 3, Resistance 2",
 },{
-	peripheral: "000-24",
+	peripheral: "000-23",
 	company: "MonsterGecko",
 	peripheralName: "PistolMouse FPS",
 	systems: "PC",
@@ -274,7 +523,7 @@ var controllers = [{
 	systems: "NES",
 	cost: 1,
 	description: `A CRT-based lightgun with a single trigger`,
-	games: "",
+	games: "NES Zapper",
 	specificVersion: "Grey",
 	otherVersions: "Red",
 },{
@@ -287,25 +536,26 @@ var controllers = [{
 	photographed: true,
 	cost: 40,
 	description: "A scope add-on",
-	games: "",
+	games: "NES Zapper",
 },{
 	peripheral: "002",
 	company: "Nintendo",
-	peripheralName: "Super Scope 6",
+	peripheralName: "Super Scope",
 	systems: "SNES",
 	photographed: true,
 	cost: 10,
 	description: "an XY axis wheel sensor, 2 buttons, hard-plastic mouse pad",
-	games: "List (SNES)",
+	games: "SNES SuperScope",
 },{
 	peripheral: "003",
 	company: "Nintendo",
 	peripheralName: "Mario Paint Mouse",
 	systems: "SNES",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 10,
+	obtained: "Grade 4-12-25",
+	description: `an XY axis wheel sensor, 2 buttons, hard-plastic mouse pad`,
+	games: "SNES Mouse",
 },{
 	peripheral: "00X-01",
 	company: "Sony",
@@ -314,19 +564,24 @@ var controllers = [{
 	obtained: "2006-11-27",
 	shipped: "on",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 50,
+	description: `PSP-300 (1.3 MP/1280x960, silver, included with Go!Edit/Chotto Edit, requires firmware 2.82 or higher)`,
+	games: "Invizimals, Eyepet, Go!Edit/Chotto Edit [Video] Talkman [Audio]",
 },{
 	peripheral: "00X-02",
 	company: "HORI",
 	peripheralName: "Tiny Bee",
+	moreinfo: "HORI Tiny Bee",
 	systems: "PS2",
 	obtained: "2006-12-20",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 300,
+	importOnly: true,
+	specificVersion: "First run (red box)",
+	otherVersions: "Second run (silver box) for Final Fantasy X-2: International + Last Mission",
+	description: `4 triggers, 1 dpad, a clickable thumbstick, 4 buttons, 2 system buttons and a cool box and base, Removable cables
+				The (thick) wires connect to the bottom of the gun handles via an old keyboard style connector (pre-PS/2) they then connect to a small box with a switch on it, which controls which stick the analog stick acts as`,
+	games: "Final Fantasy X-2",
 },{
 	peripheral: "00X-03-A",
 	company: "HORI",
@@ -334,8 +589,9 @@ var controllers = [{
 	systems: "PS2",
 	obtained: "2007-01-08",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 20,
+	importOnly: true,
+	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, cool base, Removable cable, rumble`,
 	games: "",
 },{
 	peripheral: "00X-03-B",
@@ -344,8 +600,9 @@ var controllers = [{
 	peripheralName: "Dragon Quest Slime (Metal)",
 	systems: "PS1/PS2",
 	obtained: "2017-11-22",
-	cost: 0,
-	description: ``,
+	cost: 20,
+	importOnly: true,
+	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, cool base, Removable cable, rumble`,
 	games: "",
 },{
 	peripheral: "00X-04",
@@ -354,20 +611,22 @@ var controllers = [{
 	systems: "PS1",
 	obtained: "2007-01-30",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 35,
+	description: `1 digital thumbstick, 2 analog sticks, 1 mode switch, 2 system buttons, 8 face buttons (4 as triggers, 4 as thumb), The face buttons are also on the sticks
+				A historical artifact: Had analog control and a thumbstick before the N64 came out, was announced before N64 was`,
+	games: "PS1 Analog Flight Stick",
 },{
 	peripheral: "00X-05",
 	company: "SEGA",
-	peripheralName: "Oshare Majo",
+	peripheralName: "Card Reader",
 	systems: "DS",
 	obtained: "2007-04-02",
 	shipped: "on",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 60,
+	importOnly: true,
+	description: `Card reader, 55 cards (less than that come with it), a cool box`,
+	games: "Oshare Majo Love and Berry: DS Collection, Kouchuu Ouja Mushiking Super Collection, Card de Asobu! Hajimete no DS",
 },{
 	peripheral: "00X-06",
 	company: "MadCatz",
@@ -375,8 +634,8 @@ var controllers = [{
 	systems: "PS2",
 	obtained: "2007-11-28",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 20,
+	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, rumble, Backlit buttons, clamshell casing that must be destroyed to open`,
 	games: "",
 },{
 	peripheral: "00X-07",
@@ -385,9 +644,9 @@ var controllers = [{
 	systems: "PS3",
 	obtained: "2007-11-28",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 25,
+	description: `2 Depressable analog sticks, 6 buttons, Sensor bars/pointing device, a cool box, display-independent lightgun (SD and HD)`,
+	games: "SOCOM: U.S. Navy SEALs Confrontation, Time Crisis 4, Time Crisis: Blazing Storm",
 },{
 	peripheral: "00X-08",
 	company: "SEGA",
@@ -406,13 +665,14 @@ var controllers = [{
 },{
 	peripheral: "00X-09",
 	company: "Sony",
-	peripheralName: "Dual Shock 3",
+	peripheralName: "DualShock 3",
 	systems: "PS3/PSP Go",
 	obtained: "2007-12-14",
 	shipped: "on",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 50,
+	description: `1 dpad, rumble, motion sensing, clamshell casing that must be destroyed to open, can sync with PSP Go and PS Vita TV
+				2 clickable thumbsticks, 2 system buttons, 1 OS button, 4 analog face buttons, 4 analog triggers, Bluetooth, built in battery, USB (mini) charging`,
 	games: "",
 },{
 	peripheral: "00X-10",
@@ -421,9 +681,10 @@ var controllers = [{
 	systems: "DS",
 	obtained: "2008-01-31",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 60,
+	importOnly: true,
+	description: `analog jog wheel, a cool box`,
+	games: "Arkanoid DS, Space Invaders Extreme 1 & 2, Space Bust-A-Move, Mario Kart DS (with hacking)",
 },{
 	peripheral: "00X-11",
 	company: "ASCII",
@@ -431,19 +692,32 @@ var controllers = [{
 	systems: "PS1",
 	obtained: "2008-02-29",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	importOnly: true,
+	cost: 65,
+	description: `1 dpad, 8 face buttons, 2 system buttons, Turbo switch for 1 shoulder-button`,
+	games: "Resident Evil 1/2/3",
 },{
-	peripheral: "00X-12",
+	peripheral: "00X-12A",
 	company: "Sony",
 	peripheralName: "Proto-Shock SCPH-1150",
 	systems: "PS1",
 	obtained: "2008-02-29",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 50,
+	importOnly: true,
+	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, rumble, Flightstick (SCPH-1110) compatability`,
+	games: "PS1 Analog Flight Stick",
+},{
+	peripheral: "00X-12B",
+	attached: "00X-12A",
+	company: "Sony",
+	peripheralName: "Proto-Shock-less SCPH-1180",
+	systems: "PS1",
+	photographed: true,
+	cost: 50,
+	importOnly: true,
+	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, Flightstick (SCPH-1110) compatability`,
+	games: "PS1 Analog Flight Stick",
 },{
 	peripheral: "00X-13",
 	company: "Nyko",
@@ -451,9 +725,9 @@ var controllers = [{
 	systems: "Wii",
 	obtained: "2008-02-29",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 10,
+	description: `Nothing. It's more of a holster for a controller, a not so cool box which I threw away`,
+	games: "Shooting games",
 },{
 	peripheral: "00X-14",
 	company: "Nintendo",
@@ -461,20 +735,21 @@ var controllers = [{
 	systems: "Wii",
 	obtained: "2008-05-16",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 40,
+	importOnly: true,
+	description: `1 dpad, 2 system buttons, 4 face buttons buttons, 2 shoulder buttons, a cool box`,
+	games: "SNES/NES Virtual Console Roms",
 },{
-	peripheral: "00X-15A",
+	peripheral: "00X-15",
 	company: "RedOctane",
 	peripheralName: "Fretster Grip",
 	systems: "DS",
 	obtained: "2008-06-23",
 	photographed: true,
-	cost: 0,
+	cost: 40,
 	quantity: 2,
-	description: ``,
-	games: "",
+	description: `4 buttons, a cool box, plugs into the DS slot`,
+	games: "Guitar Hero DS (all versions) Rock Band DS",
 },{
 	peripheral: "00X-16",
 	company: "Nintendo",
@@ -482,9 +757,10 @@ var controllers = [{
 	systems: "DS",
 	obtained: "2008-11-21",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 15,
+	importOnly: true,
+	description: `Optical Mouse, rumble, a cool box`,
+	games: "Slide Adventure: Mag Kid",
 },{
 	peripheral: "00X-17",
 	company: "MadCatz",
@@ -499,26 +775,30 @@ var controllers = [{
 	peripheralName: "neGcon",
 	systems: "PS1",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 15,
+	specificVersion: "White",
+	otherVersions: "Black",
+	description: `4 analog buttons, 2 triggers (1 analog), analog jog wheel, 1 dpad, 1 system button, a cool box`,
+	games: "PS1 neGcon",
 },{
 	peripheral: "00Y-02",
 	company: "Namco",
 	peripheralName: "JogCon",
 	systems: "PS1",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 30,
+	importOnly: true,
+	description: `1 dpad, analog jog wheel, 4 face buttons, 2 system buttons, 4 shoulder buttons, force feedback
+				How to enable neGcon mode: Center the dial, hold mode button before turning the system on.`,
+	games: "PS1 neGcon",
 },{
 	peripheral: "00Y-03A",
 	company: "NubyTech",
 	peripheralName: "Megaman X mini",
 	systems: "GCN",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 20,
+	description: `1 dpad, 4 shoulders (1 is redundant), a cool sphere, 4 face buttons, 1 system buttons, 2 thumbsticks, rumble`,
 	games: "",
 },{
 	peripheral: "00Y-03B",
@@ -526,8 +806,8 @@ var controllers = [{
 	peripheralName: "Shadow the Hedgehog mini controller",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 20,
+	description: `1 dpad, 4 shoulders (2 trigger-style), a cool sphere, 4 face buttons, 3 system buttons, 2 clickable thumbsticks`,
 	games: "",
 },{
 	peripheral: "00Y-04",
@@ -535,8 +815,9 @@ var controllers = [{
 	peripheralName: "Twin Sticks",
 	systems: "Arcade",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 150,
+	obtained: "2009-07-04",
+	description: `The controls from a Virtual On arcade cabinet. 2 digital joysticks, each with 2 triggers. And a start button.`,
 	games: "",
 },{
 	peripheral: "00Y-05",
@@ -544,8 +825,8 @@ var controllers = [{
 	peripheralName: "Zapper",
 	systems: "Wii",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 10,
+	description: `A lightgun with 1 trigger`,
 	games: "",
 },{
 	peripheral: "00Y-06",
@@ -553,36 +834,40 @@ var controllers = [{
 	peripheralName: "Microphone",
 	systems: "GCN",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 5,
+	description: `A microphone, 1 button`,
+	games: "Chibi-Robo!, Karaoke Revolution, The Legend of the Quiz Tournament of Champions, Mario Party 6, Mario Party 7, Odama (Not to be confused with President Obama)",
 },{
 	peripheral: "00Y-06",
 	company: "Nintendo",
-	peripheralName: "eReader",
+	peripheralName: "e-Reader",
 	systems: "GBA",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
+	description: `a card reader`,
+	games: "GBA e-Reader",
 },{
 	peripheral: "00Y-07",
 	company: "ASCII",
 	peripheralName: "Grip",
+	moreinfo: "ASCII Grip",
 	systems: "PS1",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	obtained: "2009-02-27",
+	cost: 5,
+	description: `Dpad, 10 face buttons (2 redundant) 2 triggers, Unidextrous, ambidextrous`,
+	games: "RPGs",
 },{
 	peripheral: "00Y-08",
 	company: "Gamester Radica",
 	peripheralName: "FPS Master",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 20,
+	specificVersion: "PS2 Blue",
+	otherVersions: "XBOX Camoflouge",
+	description: `1 dpad, 2 clickable thumbsticks, 2 face buttons, 2 system buttons, 6 shoulder buttons, rumble, LCD with 5 buttons, clamshell casing that must be destroyed to open`,
+	games: "FPSs",
 },{
 	peripheral: "00Y-09A",
 	company: "Cybiko",
@@ -606,12 +891,12 @@ var controllers = [{
 },{
 	peripheral: "00Y-10",
 	company: "Nintendo",
-	peripheralName: "Transfer Pack",
+	peripheralName: "Transfer Pak",
 	systems: "N64",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 5,
+	description: `Lets N64 games read data from Gameboy games`,
+	games: "N64 Transfer Pak",
 	quantity: 3,
 },{
 	peripheral: "00Y-11",
@@ -620,49 +905,54 @@ var controllers = [{
 	systems: "PS3",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
+	description: `640×480 pixels @ 60 Hz 320×240 pixels @ 120 Hz USB camera with a microphone array`,
+	games: "PS3 PSEye",
 },{
 	peripheral: "00Y-12",
 	company: "Nintendo",
 	peripheralName: "Wheel",
 	systems: "Wii",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 5,
+	description: `Nothing. It's more of a holster for a controller, a cool box`,
+	games: "Mario Kart Wii",
 },{
 	peripheral: "00Y-13",
 	company: "ASCII",
 	peripheralName: "Rez Synthesasia Device",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 50,
+	importOnly: true,
+	description: `Rumble, a cool box, a carrying pouch`,
+	games: "Rez, Space Channel 5: Part 2, Japanese version of Disaster Report",
 },{
 	peripheral: "00Y-14",
 	company: "Namco",
 	peripheralName: "Volume controller",
 	systems: "PS1",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 25,
+	importOnly: true,
+	specificVersion: "Green/Purple",
+	otherVersions: "White",
+	description: `2 buttons, analog jog wheel, a cool box, Unidextrous, Ambidextrous`,
+	games: "PS1 neGcon",
 },{
 	peripheral: "00Y-15",
 	company: "Sony",
 	peripheralName: "USB Headset",
 	systems: "PS2",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 15,
+	description: `A USB headset`,
+	games: "Lifeline",
 },{
 	peripheral: "063",
 	company: "Sony",
 	peripheralName: "Wireless Keypad",
 	systems: "PS3",
+	moreinfo: "PS3 Wireless Keypad",
 	obtained: "2009-01-14",
 	photographed: true,
 	cost: 40,
@@ -686,9 +976,11 @@ var controllers = [{
 	systems: "PS3",
 	obtained: "2009-02-27",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	specificVersion: "Black",
+	otherVersions: "White",
+	cost: 60,
+	description: `USB (HID) optical mouse with 4 face buttons (R1, R2, R3 and Start) 4 side buttons. A left handed controller with a dpad, SIXAXIS, clickable analog thumbstick, 3 triggers, select button, mode select button and a sensitivity dial, hard mousepad with soft padding, clamshell casing that must be destroyed to open`,
+	games: "FPSs",
 },{
 	peripheral: "065-B",
 	attached: "065-A",
@@ -697,7 +989,7 @@ var controllers = [{
 	systems: "PS3",
 	obtained: "2010-10-05",
 	photographed: true,
-	cost: 0,
+	cost: 40,
 	description: ``,
 	games: "",
 },{
@@ -717,9 +1009,11 @@ var controllers = [{
 	systems: "PS3",
 	obtained: "2009-03-23",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	specificVersion: "Chun Li (wireless PS3)",
+	otherVersions: "Blanka, Akuma, Ken, Ryu, Guile, Bison, Cammy, Zangeif, Viper, Sagat (wired 360 versions for each)",
+	cost: 50,
+	description: `1 dpad (can act as an analog stick via the switch), 2 triggers, 11 buttons (6 face, 1 home, 4 system), wireless, analog/dpad mode switch, USB (HID) receiver, clamshell casing that must be destroyed to open, batteries not included`,
+	games: "Fighting games",
 },{
 	peripheral: "068",
 	company: "NERF",
@@ -759,9 +1053,10 @@ var controllers = [{
 	systems: "N64",
 	obtained: "2009-06-05",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 20,
+	importOnly: true,
+	description: `Heart rate monitor, a cool box`,
+	games: "Tetris 64 (JPN version only?)",
 },{
 	peripheral: "072",
 	company: "HORI",
@@ -807,8 +1102,9 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	systems: "Wii/Wii U/SNES Classic/NES Classic",
 	obtained: "2009-08-14",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 40,
+	specificVersion: "Black",
+	description: `1 dpad, 4 triggers (unfortunately not clickable like the original Wii Classic or Gamecube controllers), 7 buttons, (4 face, 2 system, 1 OS) 2 non-clickable thumbsticks, a cool box`,
 	games: "",
 },{
 	peripheral: "076",
@@ -895,9 +1191,13 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	systems: "WS",
 	obtained: "2009-11-17",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 70,
+	specificVersion: "WonderSwan",
+	otherVersions: "PC",
+	importOnly: true,
+	description: `Light sensor, microphone, speaker, infra-red hole-detector, 2 antennae to detect obstructions, 6 legs/wheels, infra-red data transfer with game cart, a cool box
+Somewhat programmable. You select a sensor block (ie: Detect something touching right antennae) and a reaction block (ie: turn left) And you can have it set to move forward if nothing is detected, then allow that action to be interrupted if any other sensor block is triggered`,
+	games: "RobotWorks",
 },{
 	peripheral: "084",
 	company: "Bandai",
@@ -966,9 +1266,11 @@ Apparently, the Mario Family cart WILL let you draw (or it draw some preset Mari
 	systems: "PS1",
 	obtained: "2010-01-06",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 15,
+	importOnly: true,
+	description: `2 memory card like devices that plug into an original model PS1 only that tell the game how you've assembled your custom mech based on what parts you used
+	UPC: 4902425 49379 4`,
+	games: "ZXE-D: Legend of Plasmalite",
 },{
 	peripheral: "090",
 	company: "Essential Reality",
@@ -988,8 +1290,8 @@ Infrared control receptor with scratch-resistant, anti-reflective lens  USB, 4 b
 	systems: "Atari/Sinclair",
 	obtained: "2010-01-15",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 35,
+	description: `Uses standard-of-the-day Atari-joystick 9-pin D-connector, 8-way joystick (the metal stick coming out of the top), The "handle" acts as the fire button, A cool tube`,
 	games: "",
 },{
 	peripheral: "092",
@@ -998,8 +1300,9 @@ Infrared control receptor with scratch-resistant, anti-reflective lens  USB, 4 b
 	systems: "SNES/GEN",
 	obtained: "2010-02-09",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 20,
+	description: `Standard SNES controls (dpad, ABXY, Start, Select, LR), plus rapid fire options
+It comes with an adapter to work on the Genesis, that only works with this controller when you flip a switch on it`,
 	games: "",
 	section: "misc",
 },{
@@ -1011,7 +1314,7 @@ Infrared control receptor with scratch-resistant, anti-reflective lens  USB, 4 b
 	photographed: true,
 	cost: 1,
 	description: `4 face buttons (2 redundant), turbo switch, trackball, a cool box. Unidextrous, ambidextrous`,
-	games: "List  (PS1)",
+	games: "",
 },{
 	peripheral: "094",
 	company: "ASCII/Agetec/Sammy",
@@ -1213,7 +1516,7 @@ Unlabeled buttons and no logos`,
 	cost: 170,
 	description: `Plugs into a Wiimote's EXT port and acts as a standard Classic controller
 The sword's hilt can be pushed in and rotated as an input, as well as 2 oversized buttons and the Classic controller layout, a cool box`,
-	games: "Dragon Quest Battle Road Victory (Wii) Wii titles that use the classic controller",
+	games: "Dragon Quest Battle Road Victory (Wii)",
 	importOnly: true,
 },{
 	peripheral: "111",
@@ -1224,7 +1527,7 @@ The sword's hilt can be pushed in and rotated as an input, as well as 2 oversize
 	photographed: true,
 	cost: 15,
 	description: "3D shutter glasses for the NES, also works for the Sega Master System",
-	games: "",
+	games: "Famicom 3D System",
 	importOnly: true,
 },{
 	peripheral: "112",
@@ -1251,12 +1554,12 @@ The sword's hilt can be pushed in and rotated as an input, as well as 2 oversize
 },{
 	peripheral: "114",
 	company: "Atlus",
-	peripheralName: "KidsStation",
+	peripheralName: "Sailor Moon - KidsStation",
 	systems: "PS1",
 	obtained: "2010-09-15",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 20,
+	description: `4 giant buttons, Unidextrous, Ambidextrous`,
 	games: "",
 },{
 	peripheral: "115",
@@ -1268,7 +1571,7 @@ The sword's hilt can be pushed in and rotated as an input, as well as 2 oversize
 	cost: 50,
 	description: `3 axis 1: 1 absolute positioning via PSeye tracking the glowing orb which can change color to either stand out from the background or for the game to indicate something (ie: flash red for low health) 3 axis gyroscope, 3 axis accelerometer, terrestrial magnetic 
 field sensor, 8 buttons (1 analog, 4 face, Start/Select/Home), 1 analog trigger, USB charging, built-in battery, bluetooth, EXT port, rumble, 10 bit analog-digital conversion (vs Wii's 8 bit), clamshell casing that must be destroyed to open, Unidextrous, Ambidextrous`,
-	games: "List",
+	games: "PS3 Move+NavCon, 3DTV",
 },{
 	peripheral: "116",
 	company: "Sony",
@@ -1279,7 +1582,7 @@ field sensor, 8 buttons (1 analog, 4 face, Start/Select/Home), 1 analog trigger,
 	cost: 30,
 	description: `1 clickable analog stick, 1 dpad, 3 buttons (2 face, Home), 2 triggers 
 (1 analog, 1 digital), USB charging, built-in battery, bluetooth, can sync with PSP Go, clamshell casing that must be destroyed to open, Unidextrous, Ambidextrous`,
-	games: "List",
+	games: "PS3 Move+NavCon, 3DTV",
 },{
 	peripheral: "117",
 	company: "HORI",
@@ -1336,9 +1639,8 @@ Unidextrous, ambidextrous`,
 	obtained: "2010-10-12",
 	photographed: true,
 	cost: 20,
-	description: `None, it's a holster for Move. A cool box. 
-Unidextrous, ambidextrous`,
-	games: "List , particularly arcade shooters",
+	description: `None, it's a holster for Move. A cool box, Unidextrous, ambidextrous`,
+	games: "arcade shooters",
 },{
 	peripheral: "122",
 	company: "Activision",
@@ -1370,7 +1672,7 @@ Unidextrous, ambidextrous`,
 	photographed: true,
 	cost: 40,
 	description: `14 face buttons (4 backlit for the dpad, X/O/Square/Triangle/Start/Select/L1/L2/R1/R2)`,
-	games: "Link",
+	games: "PS2 Mini D.D.R. Fingerpad",
 },{
 	peripheral: "125",
 	company: "Eagle3",
@@ -1418,7 +1720,7 @@ Batteries not included (each gun takes 4xAAs), a cool box`,
 	systems: "PC",
 	obtained: "2011-04-26",
 	photographed: true,
-	cost: 0,
+	cost: 20,
 	description: "The MedKit pack includes 4 more RFID tags (known as T-Bases) (2 more objectives, 2 health packs) and a cool box",
 	games: "",
 },{
@@ -1431,7 +1733,7 @@ Batteries not included (each gun takes 4xAAs), a cool box`,
 	cost: 35,
 	description: "Wireless (USB HID dongle), Dpad rotation button (for landscape/portrait modes), backlit sliding 51-key keyboard, Dpad, 2 shoulder buttons (L1/R1), 4 face buttons, PS/Start/Select buttons, cardboard packaging that has to be destroyed to open it, 12 DVD buttons (Display, Play, Top menu, Prev, Pause, Next, Rew, Stop, FF, L2, Enter, R2), 4 player indicator lights, charging light, built in rechargeable battery, charges via standard USB",
 	games: "Some PS3 games",
-},{
+},{	
 	peripheral: "129",
 	company: "Zalman",
 	peripheralName: "FPSGUN",
@@ -1477,7 +1779,7 @@ Construction process write-up Part 2 Part 3 Part 4 Part 5 Part 6 Video`,
 	cost: 12,
 	description: `Dpad, 4 triggers (act as the face buttons), 2 face buttons (act as the triggers), Start/Select, Turbo/Slow switches for each of the triggers/face buttons
 Unidextrous, ambidextrous, As seen on "The World Only God Knows"`,
-	games: "Most SNES games, particularly RPGs",
+	games: "RPGs",
 },{
 	peripheral: "133",
 	company: "Sony",
@@ -1638,11 +1940,12 @@ Hold L+R+Down on the dpad during the keyboard search screen`,
 	photographed: true,
 	cost: 20,
 	description: `Standard 104 backlit button keyboard, with 18 macro keys each with 3 different states (making a total of 54 macros available), a button to record quick macros, and a backlit monochrome LCD, Built in non-powered USB 1.1 Hub, with 2 external ports located on the back of the device, a wheel/jog dial with 9 more buttons around it (4 of them are specific to what is on the LCD, one switches between apps using the LCD, Prev, Next, Play/Pause, Stop) Mute button, Backlight toggle button, USB`,
-	games: "",
+	games: "G15 Gaming Keyboard",
 	specificVersion: "Mark I, with a blue LCD",
 	otherVersions: "Mark II, with an orange LCD and less buttons",
 },{
 	peripheral: "146",
+	attached: "00X-01",
 	company: "Sony",
 	peripheralName: "Chotto Shot Mark II",
 	systems: "PSP",
@@ -1760,7 +2063,7 @@ Mouse: 1/3 meter wire, 6 buttons (also re-assignable), optical, weighted, a mous
 Supports a new kind of split screen, where using 3D mode, Player 1 gets the left frame, and Player 2 gets the right frame. So each player only sees their screen
 Glasses: Work with multiple brands of 3D TVs, has a built-in rechargeable (via USB) battery
 There is a hidden USB port on the bottom left-hand corner when looking at the back`,
-	games: "List  Sony's List  (PS3)",
+	games: "PS3 Move+NavCon, 3DTV",
 },{
 	peripheral: "155",
 	company: "THQ",
@@ -1780,9 +2083,9 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	systems: "Wii",
 	obtained: "2011-11-20",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 70,
+	description: `A Zelda-themed, MotionPlus (adds additional accelerometers and gyroscopes) built in. Also included a silicone skin and wrist strap (not Zelda-themed) and nunchuck`,
+	games: "Wii MotionPlus",
 },{
 	peripheral: "156-B",
 	attached: "156-A",
@@ -1791,8 +2094,10 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	systems: "Wii",
 	obtained: "2012-02-28",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 70,
+	importOnly: true,
+	japanese: "クラブニンテンドー ゴールデンヌンチャク",
+	description: `motion-sensing, an (non-clickable) analog stick, 2 shoulder buttons. Connects to the Wiimote via the EXT port`,
 	games: "",
 },{
 	peripheral: "156-C",
@@ -1802,8 +2107,8 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	systems: "Wii/NES Classic/SNES Classic",
 	obtained: "2012-03-03",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 15,
+	description: `1 dpad, 4 triggers (unfortunately not clickable like the original Wii Classic or Gamecube controllers), 7 buttons, (4 face, 2 system, 1 OS) 2 non-clickable thumbsticks`,
 	games: "",
 },{
 	peripheral: "156-D",
@@ -1811,8 +2116,8 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	company: "Nintendo",
 	peripheralName: "Gold Nintendo64 controller",
 	systems: "N64",
-	cost: 0,
-	description: ``,
+	cost: 45,
+	description: `1 opti-digital non-clickable thumbstick, 3 shoulder buttons, 1 dpad, 6 face buttons, 1 system button, 1 EXT port, a cool box`,
 	games: "",
 },{
 	peripheral: "156-E",
@@ -1821,8 +2126,8 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	peripheralName: "Gold Wii Wheel",
 	systems: "Wii",
 	obtained: "2015-05-29",
-	cost: 0,
-	description: ``,
+	cost: 30,
+	description: `A shell for the wiimote`,
 	games: "",
 },{
 	peripheral: "157",
@@ -1841,9 +2146,9 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	systems: "3DS",
 	obtained: "2012-01-02",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 19,
+	description: `Adds a second analog nub, L2, R2 and a redundant R1 button. Interfaces via the Infrared port. Runs off a single AA battery (included)`,
+	games: "3DS Expansion Analog Nub",
 },{
 	peripheral: "158-B",
 	attached: "158-A",
@@ -1852,9 +2157,9 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	systems: "3DS XL",
 	obtained: "2014-05-23",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 19,
+	description: `Adds a second analog nub, L2, R2 and a redundant R1 button. Interfaces via the Infrared port. Runs off a single AA battery (included)`,
+	games: "3DS Expansion Analog Nub",
 },{
 	peripheral: "159",
 	company: "Activision",
@@ -2026,7 +2331,7 @@ API to let PC apps send data to the console it's connected to`,
 	photographed: true,
 	cost: 2,
 	description: `Adds rumble to DS lite models`,
-	games: "Link",
+	games: "DS Rumble Pack",
 	specificVersion: "DS lite",
 	otherVersions: "Original DS",
 },{
@@ -2095,7 +2400,8 @@ API to let PC apps send data to the console it's connected to`,
 	obtained: "2012-10-29",
 	photographed: true,
 	cost: 0,
-	description: ``,
+	importOnly: true,
+	description: `6 face buttons, microphone`,
 	games: "",
 },{
 	peripheral: "180",
@@ -2104,8 +2410,9 @@ API to let PC apps send data to the console it's connected to`,
 	systems: "PS1",
 	obtained: "2012-10-29",
 	photographed: true,
+	importOnly: true,
 	cost: 0,
-	description: ``,
+	description: `6 face buttons, microphone`,
 	games: "",
 },{
 	peripheral: "181-A",
@@ -2146,8 +2453,9 @@ API to let PC apps send data to the console it's connected to`,
 	systems: "Wii U",
 	obtained: "2012-11-18",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 250,
+	specificVersion: "Black",
+	description: `2 clickable analog sticks, 4 digital triggers, front-facing camera, NFC, infrared transceiver, NFC module, Wii sensor bar/InfraRed LEDs, SIXAXIS motion sensing, microphone, stereo speakers, dpad, 4 face buttons, Start\Select\Home\Power, EXT port, headset port, volume slider, rechargeable battery, wireless via NiFi+Bluetooth, 6.2" resistive touchscreen`,
 	games: "",
 },{
 	peripheral: "183-B",
@@ -2157,8 +2465,9 @@ API to let PC apps send data to the console it's connected to`,
 	systems: "Wii U",
 	obtained: "2012-11-18",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 5,
+	specificVersion: "Black",
+	description: `2 clickable analog sticks, 4 digital triggers, dpad, 4 face buttons, Start\Select\Power, rechargeable battery via USB port, wireless via Bluetooth`,
 	games: "",
 },{
 	peripheral: "184",
@@ -2189,7 +2498,7 @@ API to let PC apps send data to the console it's connected to`,
 	photographed: true,
 	cost: 0,
 	description: `Dual analog nubs, 2 triggers, 4 face buttons, 3 system buttons, wireless via bluetooth, cell phone clip, takes 2xAAAs (not included)`,
-	games: "",
+	games: "MOGA",
 },{
 	peripheral: "187",
 	company: "Thrustmaster",
@@ -2363,7 +2672,7 @@ Pressing [FN] and [ENTER (center button of the dpad)] (on the remote side, not t
 	systems: "PC",
 	photographed: true,
 	cost: 0,
-	description: ``,
+	description: `A mouse`,
 	games: "",
 },{
 	peripheral: "203",
@@ -2480,7 +2789,8 @@ The controller uses 2xAAAs (not included) the adapter uses a Y-cord to take powe
 	obtained: "2013-08-19",
 	photographed: true,
 	cost: 0,
-	description: ``,
+	importOnly: true,
+	description: `6 face buttons, microphone`,
 	games: "",
 },{
 	peripheral: "214",
@@ -2489,7 +2799,8 @@ The controller uses 2xAAAs (not included) the adapter uses a Y-cord to take powe
 	obtained: "2013-08-19",
 	photographed: true,
 	cost: 0,
-	description: ``,
+	importOnly: true,
+	description: `6 face buttons, microphone`,
 	games: "",
 },{
 	peripheral: "215",
@@ -2579,11 +2890,15 @@ It uses the sensors to detect rigged/faulty throws by making sure it rolls enoug
 	peripheral: "223-A",
 	company: "Sony",
 	peripheralName: "DualShock 4",
+	moreinfo: "Dualshock 4",
 	systems: "PS4",
 	obtained: "2013-10-25",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 60,
+	description: `1 dpad, rumble, motion sensing, cool box, can sync with PS Vita TV
+				2 clickable thumbsticks, 1 system button, 2 OS buttons, 4 digital face buttons, 2 analog and 2 digital triggers, Bluetooth, built in battery, USB (micro) charging
+				Clickable 2-touch touchpad, lightbar for position tracking via the camera, EXT port, headset port, mono speaker, USB HID (driverless)
+				To put it into sync mode: Press and hold the Share and PS buttons until the light on the back begins a rhythmic, double flash.`,
 	games: "",
 },{
 	peripheral: "223-B",
@@ -2593,8 +2908,8 @@ It uses the sensors to detect rigged/faulty throws by making sure it rolls enoug
 	systems: "PS4",
 	obtained: "2013-10-25",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 50,
+	description: `Dual 1280 x 800 web cam with a 4-mic array, uses PS4's AUX port`,
 	games: "",
 },{
 	peripheral: "223-C",
@@ -2604,7 +2919,7 @@ It uses the sensors to detect rigged/faulty throws by making sure it rolls enoug
 	systems: "PS5",
 	obtained: "2020-11-17",
 	cost: 0,
-	description: ``,
+	description: `Lets you use the Camera on PS5 by plugging it into a USB port`,
 	games: "",
 },{
 	peripheral: "224",
@@ -3307,7 +3622,7 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2014-07-22",
 	cost: 20,
 	description: "A webcam with infrared depth-sensing and a microphone",
-	games: "https://sites.google.com/site/neotechni/Home/supported#TOC-Kinect",
+	games: "Kinect",
 	specificVersion: "USB",
 	otherVersions: "Proprietary slim-360-only connector",
 	photographed: true,
@@ -3387,7 +3702,7 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2015-10-25",
 	cost: 0,
 	description: ``,
-	games: "",
+	games: "Amiibos",
 },{
 	peripheral: "247-02",
 	attached: "247-01",
@@ -3396,7 +3711,7 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "3DS/Wii U/Switch",
 	obtained: "2020-10-10",
 	cost: 0,
-	description: ``,
+	description: `Let's you spoof the data on Amiibo NFC tags`,
 	games: "",
 },{
 	peripheral: "247-8L",
@@ -3705,7 +4020,7 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2015-03-05",
 	photographed: true,
 	cost: 150,
-	description: ``,
+	description: `A really big gun in a cool box`,
 	games: "All PC/PS3/XBOX360 games",
 },{
 	peripheral: "252-A",
@@ -3843,33 +4158,10 @@ Controller: Takes 2xAAAs (included) accessible via screwdriver, 4 shoulder butto
 	obtained: "2016-01-11",
 	photographed: true,
 	cost: 35,
-	description: `PCH-2000
-Adds L2/R2 to 1K/Original model Vita using the rear touch panel, adds grips
-L2/R2 Grip Cover Case
-Obtained: June 16, 2017
-Can be found for: ~$25
-Made by: JOETSU Electronics
-Peripheral #: 262-B
-Specific version: Blue
-Other version: Black
-A case designed to fit the L2/R2 Grip Cover (without any of the L3/R3 addons)
-L3/R3 Module
-Obtained: December 18, 2017
-Can be found for: ~$15
-Made by: Top Player
-Peripheral #: 262-C
-Specific version: Black
-Other version: White
-Adds L3/R3 to the back of the 1K/Original model Vita L2/R2 Trigger Grips
-L3/R3 Faceplate
-Obtained: July 31, 2019
-Can be found for: ~$15
-Made by: JOETSU Electronics
-Peripheral #: 262-D
-Replaces the faceplate of the 1K/Original model Vita L2/R2 Trigger Grips to add L3/R3 to the front
-"PCH-1000"`,
+	description: `Adds L2/R2 to 1K/Original model Vita using the rear touch panel, adds grips`,
 	games: "Most Vita games",
 	specificVersion: "PCH-1000",
+	otherVersions: "PCH-2000",
 },{
 	peripheral: "262-B",
 	attached: "262-A",
@@ -3877,8 +4169,8 @@ Replaces the faceplate of the 1K/Original model Vita L2/R2 Trigger Grips to add 
 	peripheralName: "L2/R2 Grip Cover Case",
 	systems: "PSP2",
 	obtained: "2017-06-16",
-	cost: 0,
-	description: ``,
+	cost: 25,
+	description: `A case designed to fit the L2/R2 Grip Cover (without any of the L3/R3 addons)`,
 	games: "",
 },{
 	peripheral: "262-C",
@@ -3887,8 +4179,8 @@ Replaces the faceplate of the 1K/Original model Vita L2/R2 Trigger Grips to add 
 	peripheralName: "L3/R3 Module",
 	systems: "PSP2",
 	obtained: "2017-12-18",
-	cost: 0,
-	description: ``,
+	cost: 15,
+	description: `Adds L3/R3 to the back of the 1K/Original model Vita L2/R2 Trigger Grips`,
 	games: "",
 },{
 	peripheral: "262-D",
@@ -3897,8 +4189,8 @@ Replaces the faceplate of the 1K/Original model Vita L2/R2 Trigger Grips to add 
 	peripheralName: "L3/R3 faceplate replacement",
 	systems: "PSP2",
 	obtained: "2019-07-31",
-	cost: 0,
-	description: ``,
+	cost: 30,
+	description: `Replaces the faceplate of the 1K/Original model Vita L2/R2 Trigger Grips to add L3/R3 to the front`,
 	games: "",
 },{
 	peripheral: "263",
@@ -4196,7 +4488,7 @@ Converts Mouse/Keyboard movements into standard controller data, a cool box, but
 mouse: USB, variable DPI (400-3200) via 2 buttons, optical, 4 buttons, clickable scrollwheel
 keyboard: adjustable wristpad, clickable analog stick, 1 thumb button, 20 backlit (red) face buttons, 1 OS button, clickable touchpad, red LED display for settings
 4 switches (profiles (1/2/3), console (PS3/PS4/PC), stick alignment (right on kb/left on kb), mode (assign/off/adjust))`,
-	games: "",
+	games: "FPSs",
 },{
 	peripheral: "286-A",
 	company: "Nintendo",
@@ -4206,7 +4498,7 @@ keyboard: adjustable wristpad, clickable analog stick, 1 thumb button, 20 backli
 	photographed: true,
 	cost: 70,
 	description: "HDMI, powered via microUSB, 2 Wii EXT ports, plays 30 built-in NES games (cannot be expanded) 4 savestates per game, 3 display modes (CRT, 4:3, Pixel Perfect)",
-	games: "",
+	games: "NES Classic",
 },{
 	peripheral: "286-B",
 	attached: "286-A",
@@ -4223,7 +4515,7 @@ keyboard: adjustable wristpad, clickable analog stick, 1 thumb button, 20 backli
 	peripheralName: "Gameboy Camera",
 	systems: "GB/GBC",
 	photographed: true,
-	cost: "??",
+	cost: 45,
 	description: `A 256×224 monochrome (4 shades) camera, enough room to store 30 pictures, a shooter minigame`,
 	games: "Itself, <strike>Perfect Dark<sup>64</sup></strike>",
 	specificVersion: "Blue",
@@ -4276,8 +4568,8 @@ Has 3 modes, standby (Which you'd think would act like "Off", but doesn't), cosp
 	peripheralName: "IoT pHAT",
 	systems: "Pi",
 	obtained: "2016-12-02",
-	cost: 0,
-	description: ``,
+	cost: 19,
+	description: `A wifi (802.11n) bluetooth (4.1) add-on board for raspberry pi`,
 	games: "",
 },{
 	peripheral: "292-B",
@@ -4287,8 +4579,8 @@ Has 3 modes, standby (Which you'd think would act like "Off", but doesn't), cosp
 	systems: "Pi",
 	obtained: "2016-12-02",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 19,
+	description: `Wireless (via bluetooth), built-in rechargeable battery (via microUSB), dpad, 2 system buttons, 4 face buttons, 2 triggers, wrist strap`,
 	games: "",
 },{
 	peripheral: "293",
@@ -4306,8 +4598,8 @@ Has 3 modes, standby (Which you'd think would act like "Off", but doesn't), cosp
 	systems: "SNES",
 	obtained: "2016-12-25",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 60,
+	description: `1 digital stick, 4 face buttons, 2 system buttons, 2 shoulder buttons, 7 turbo toggle switches`,
 	games: "",
 },{
 	peripheral: "295",
@@ -4316,9 +4608,11 @@ Has 3 modes, standby (Which you'd think would act like "Off", but doesn't), cosp
 	systems: "SNES",
 	obtained: "2017-01-11",
 	photographed: true,
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 20,
+	specificVersion: "SNES",
+	otherVersions: "Genesis",
+	description: `1 dpad, 2 system buttons, 6 face buttons`,
+	games: "Fighters",
 },{
 	peripheral: "296",
 	company: "Sanwa",
@@ -4382,43 +4676,7 @@ Antlers: Adds LEDs powered by their own battery for motion sensing`,
 	obtained: "2017-02-22",
 	photographed: true,
 	cost: 1,
-	description: `Drawing Tablet
-4 face buttons, drawing tablet, wired stylus, slot on the back to hold paper to trace
-Guru Guru Town Hanamaru-kun
-Games supported:  Link 
-Obtained: October 29, 2012
-Can be found for: Unknown, Import Only 
-Made by: Atlus
-Peripheral #: 180
-6 face buttons, microphone
-Hello Kitty
-Games supported:  Link  
-Obtained: October 29, 2012 
-Can be found for: Unknown, Import Only
-Made by: Atlus 
-Peripheral #: 179
-6 face buttons, microphone
-Mickey Mouse
-Games supported:  Link  
-Obtained: August 19, 2013
-Can be found for: Unknown, Import Only
-Made by: ?
-Peripheral #: 213
-6 face buttons, microphone
-Sailor Moon
-Games supported:  List 
-Obtained: September 15, 2010
-Can be found for: ~$20
-Made by: Bandai
-Peripheral #: 114
-4 giant buttons, Unidextrous, Ambidextrous
-Winnie the Pooh
-Games supported:  Link  
-Obtained: August 19, 2013 
-Can be found for: Unknown, Import Only
-Made by: ?
-Peripheral #: 214
-6 face buttons, microphone`,
+	description: `4 face buttons, drawing tablet, wired stylus, slot on the back to hold paper to trace`,
 	games: "Included",
 	importOnly: true,
 },{
@@ -4427,16 +4685,18 @@ Peripheral #: 214
 	systems: "PS3/PS4/XBOX360/X1/PSTV/PC/AND",
 	obtained: "2017-02-22",
 	photographed: true,
-	cost: 0,
-	description: ``,
+	cost: 90,
+	description: `Allows you to use PC/PS3/PS4/Wii/Wii U/360/X1/Switch controllers on any other system (so you can use PS3 on 360/X1/PS4/PC, 360 on PS3/PS4/PC/VitaTV, or Wii on 360/X1/PS3/PS4/PC/VitaTV)
+Lets you set up profiles to remap controls, and store up to 9 on the device (4 internally, the rest require a microSD card). Switch between them via button on the device, or button combo on the controller. You can even disable buttons (L3/R3) invert axis for games that don't allow it, change dead zones. Includes a USB cable. (Hold both up/down buttons when plugging a USB cable into the PROG port to reset the firmware)
+Has 4 USB ports (2 master ports to plug controllers into, 2 micro USB ports [output to console, and to PC for programming] which support USB OTG), up/down buttons to select a program slot (can hold up to 9, and one default/blank), a controllable RGB LED, microSD card slot, 7-segment LED indicator to tell you what program slot is loaded, AC adapter port (needed to use the bluetooth adapter)`,
 	games: "",
 },{
 	peripheral: "302-B",
 	attached: "302-A",
 	peripheralName: "Titan Two Bluetooth Module",
 	obtained: "2018-01-25",
-	cost: 0,
-	description: ``,
+	cost: 60,
+	description: `(plugs into a connector under the grey top-left part) to use PS3/PS4/Wii/Switch controllers wirelessly. Also includes a 512 MB microSD card`,
 	games: "",
 },{
 	peripheral: "302-C",
@@ -4445,8 +4705,8 @@ Peripheral #: 214
 	peripheralName: "Gam3Gear Super USB Adapter for PS3/PS4 Controller Converter Adapter",
 	systems: "PS1/PS2/PC",
 	obtained: "2018-12-06",
-	cost: 0,
-	description: ``,
+	cost: 50,
+	description: `An adapter to use PS3/PS4 controllers on PS1/PS2. The Titan Two also works on it`,
 	games: "",
 },{
 	peripheral: "302-D",
@@ -4455,8 +4715,8 @@ Peripheral #: 214
 	peripheralName: "Gam3Gear Super USB Adapter for PS3/PS4 Controller Converter Adapter",
 	systems: "DC",
 	obtained: "2019-12-24",
-	cost: 0,
-	description: ``,
+	cost: 50,
+	description: `An adapter to use PS3/PS4 controllers on DC. The Titan Two also works on it`,
 	games: "",
 },{
 	peripheral: "303",
@@ -4659,7 +4919,7 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	obtained: "2017-05-16",
 	cost: 6,
 	description: "A floating-disc dpad, 2 face buttons, 2 system buttons, 2 turbo toggle buttons",
-	games: "All NES games",
+	games: "",
 },{
 	peripheral: "323",
 	company: "Sony",
@@ -4675,9 +4935,10 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	peripheralName: "Puzzle Sphere",
 	systems: "PS2",
 	obtained: "2017-05-18",
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 80,
+	description: `Wireless (via USB dongle), dpad, unknown`,
+	otherVersions: "Bowling, Racing, Tennis",
+	games: "RealPlay Puzzle Sphere",
 },{
 	peripheral: "325-A",
 	company: "RealPlay",
@@ -4685,8 +4946,9 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	systems: "PS2",
 	obtained: "2017-05-18",
 	cost: 0,
-	description: ``,
-	games: "",
+	description: `Wireless (via USB dongle), dpad, 3 buttons, motion sensing`,
+	importOnly: true,
+	games: "RealPlay Pool",
 },{
 	peripheral: "325-B",
 	attached: "325-A",
@@ -4694,27 +4956,9 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	peripheralName: "Golf",
 	systems: "PS2",
 	obtained: "2017-05-18",
-	cost: 80,
-	description: `Golf
-Wireless (via USB dongle), dpad, 3 buttons, motion sensing
-Pool
-Games supported: RealPlay Pool
-Obtained: May 18, 2017
-Can be found for: $80 with Gold and Puzzle Sphere, Import Only 
-Made by: 
-Peripheral #: 325-A
-Wireless (via USB dongle), dpad, 3 buttons, motion sensing
-Puzzle Sphere
-Games supported: RealPlay Puzzle Sphere
-Obtained: May 18, 2017
-Can be found for: $80 with Golf and Pool, Import Only
-Made by: 
-Peripheral #: 324
-Wireless (via USB dongle), dpad, unknown
-Other Versions (I don't own)
-Bowling
-Racing
-Tennis`,
+	cost: 0,
+	importOnly: true,
+	description: `Wireless (via USB dongle), dpad, 3 buttons, motion sensing`,
 	games: "RealPlay Golf",
 	importOnly: true,
 },{
@@ -4773,7 +5017,7 @@ RGB LEDs,connectors in the handle to attach to and interface with a figure`,
 	specificVersion: "White",
 	otherVersions: "Silver, Blue, Gold, Grey",
 	cost: 30,
-	games: "DC Lightgun games, Silent Scope",
+	games: "Dreamcast Light Gun",
 },{
 	peripheral: "330",
 	company: "Hudson",
@@ -4850,8 +5094,10 @@ Connections for: 5 speakers, 2 TOSlink/optical audio cables, digital coaxial, he
 	peripheralName: "Dragon Quest Slime",
 	systems: "PS4",
 	obtained: "2017-09-01",
-	cost: 0,
-	description: ``,
+	cost: 100,
+	importOnly: true,
+	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 1 system button, 2 OS buttons, 4 shoulder buttons, rumble, clickable touchpad, wireless via Bluetooth, built-in rechargeable battery (via microUSB), Turbo button
+				Hold Share+PS for 5 seconds when turning it on to put it in Pairing Mode, then go to PS4's Settings screen, and go to Devices, Bluetooth, to pair it with the [Slime Controller] when it shows up at the bottom`,
 	games: "",
 },{
 	peripheral: "338",
@@ -4880,7 +5126,7 @@ Connections for: 5 speakers, 2 TOSlink/optical audio cables, digital coaxial, he
 	obtained: "2017-09-29",
 	cost: 110,
 	description: "HDMI, powered via microUSB, 2 Wii EXT ports, plays 21 built-in SNES games (cannot be expanded) 4 savestates per game, 3 display modes (CRT, 4:3, Pixel Perfect), 2xSNES controller replicas (with 4 foot long cable) which works on Wiimotes",
-	games: "SNES Classic games",
+	games: "SNES Classic",
 },{
 	peripheral: "341",
 	company: "Microsoft",
@@ -4928,7 +5174,7 @@ Hold START to pair it`,
 	obtained: "2017-10-27",
 	cost: 30,
 	description: "2 buttons, wheeled mouse",
-	games: "List  (PS1)",
+	games: "PS1 Mouse",
 },{
 	peripheral: "346",
 	company: "Hyperkin",
@@ -4937,7 +5183,7 @@ Hold START to pair it`,
 	obtained: "2017-10-31",
 	cost: 30,
 	description: "2 button optical mouse, variable resolution button on the bottom, a cool box",
-	games: "List (SNES)",
+	games: "",
 },{
 	peripheral: "347",
 	company: "DreamGEAR",
@@ -4964,7 +5210,7 @@ Hold START to pair it`,
 	obtained: "2017-11-22",
 	cost: 20,
 	description: "Adds L2/L3/R2/R3 buttons to the 2K/slim model",
-	games: "Most Vita games",
+	games: "PS4 games via Remote Play",
 },{
 	peripheral: "350",
 	company: "Nintendo",
@@ -4973,7 +5219,7 @@ Hold START to pair it`,
 	obtained: "2017-11-22",
 	cost: 40,
 	description: "dpad, 2 face button, 1 trigger, 1 system button, takes tiny cartridges, takes 1xAAA battery, IRDA link, rumble, motion sensor, 96×64 monochrome LCD",
-	games: "Pokémon Mini games",
+	games: "Pokémon Mini",
 	specificVersion: "Wooper Blue",
 	otherVersions: "Chikorita Green and Smoochum Purple",
 },{
@@ -5094,11 +5340,13 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "DC",
 	cost: 20,
 	description: "dpad, 2 face buttons, 2 OS buttons, male/female connectors so that it can connect to either a Dreamcast (via the controller) or another VMU for multiplayer or data exchange, 128 KB of flash to act as a memory card, 48x32 pixel monochrome LCD",
-	games: "DC games, DC VMU games",
+	games: "Dreamcast VMU",
 },{
 	peripheral: "363-A",
 	company: "Nintendo",
-	peripheralName: "Rumble Cart (Pokémon Pinball)",
+	style: "list",
+	title: "Rumble Cart",
+	peripheralName: "Pokémon Pinball",
 	systems: "GBC",
 	obtained: "1999-04-16",
 	cost: 0,
@@ -5108,7 +5356,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	peripheral: "363-B",
 	attached: "363-A",
 	company: "Nintendo",
-	peripheralName: "Rumble Cart (Perfect Dark)",
+	peripheralName: "Perfect Dark",
 	systems: "GBC",
 	cost: 0,
 	description: ``,
@@ -5117,7 +5365,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	peripheral: "363-C",
 	attached: "363-A",
 	company: "Nintendo",
-	peripheralName: "Rumble Cart (The Little Mermaid: Pinball Frenzy)",
+	peripheralName: "The Little Mermaid: Pinball Frenzy",
 	systems: "GBC",
 	obtained: "2018-03-05",
 	cost: 0,
@@ -5127,9 +5375,9 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	peripheral: "363-D",
 	attached: "363-A",
 	company: "Nintendo",
-	peripheralName: "Rumble Cart (Tonka Raceway)",
+	peripheralName: "Tonka Raceway",
 	systems: "GBC",
-	obtained: "2021-09-19T04:00:00.000Z",
+	obtained: "2021-09-19",
 	cost: 0,
 	description: ``,
 	games: "",
@@ -5141,9 +5389,8 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	obtained: "2018-03-06",
 	cost: 110,
 	description: `Analog dial, temperature-controlled fan
-Wireless gamepad and selfie shutter remote
-Games Supported: PC games, Android games
-Terrible, infuriating customer service`,
+		Games Supported: Windows 10 games
+		Terrible, infuriating customer service`,
 	games: "",
 },{
 	peripheral: "365",
@@ -5162,7 +5409,7 @@ Terrible, infuriating customer service`,
 	obtained: "2018-03-09",
 	cost: 60,
 	description: "Allows 2 Dreamcasts to connect for multiplayer using 2 copies of the game and 2 TVs",
-	games: "",
+	games: "Dreamcast Link Cable",
 },{
 	peripheral: "367",
 	peripheralName: "Pocket Voltex",
@@ -5227,7 +5474,7 @@ Terrible, infuriating customer service`,
 	obtained: "2018-04-12",
 	cost: 20,
 	description: "A folding stand to hold the Switch up",
-	games: "All Switch games",
+	games: "",
 },{
 	peripheral: "374",
 	company: "NamcoBandai",
@@ -5248,7 +5495,7 @@ Terrible, infuriating customer service`,
 	cost: 80,
 	description: `Dpad, 4 triggers, 2 OS buttons, 2 system buttons, 2 clickable analog thumbsticks, wireless (via Bluetooth) built-in rechargeable battery (charges via USB-C), rumble, SIXAXIS
 Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6 in N64 mode but 2 are mirrors of L2/R2) via removable face button modules held in place by removable face plates`,
-	games: "Most Switch games",
+	games: "",
 },{
 	peripheral: "376",
 	company: "Wild Things",
@@ -5257,7 +5504,7 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	obtained: "2018-05-05",
 	cost: 26,
 	description: "Dpad, 2 triggers, 6 face buttons, 3 system buttons, Slow motion switch, 9 turbo switches",
-	games: "Genesis games",
+	games: "",
 },{
 	peripheral: "377",
 	company: "Nintendo",
@@ -5266,7 +5513,7 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	obtained: "2018-05-17",
 	cost: 20,
 	description: `A thermal printer, connects via the GBC link cable, takes 6xAA batteries (not included)`,
-	games: "List",
+	games: "Gameboy Printer",
 	specificVersion: "Standard",
 	otherVersions: "Yellow 'Pikachu' limited edition",
 },{
@@ -5281,6 +5528,8 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 },{
 	peripheral: "379-A",
 	company: "Basic Fun",
+	title: "Mini Arcade Systems",
+	style: "list",
 	peripheralName: "Oregon Trail Portable",
 	systems: "SYS",
 	obtained: "2018-05-20",
@@ -5324,41 +5573,42 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 },{
 	peripheral: "381-A",
 	style: "list",
+	title: "Tiny Arcade",
 	company: "SuperImpulse",
-	peripheralName: "Pac Man Tiny Arcade",
+	peripheralName: "Pac Man",
 	systems: "SYS",
 	obtained: "2018-05-30",
-	cost: 0,
+	cost: 20,
 	description: `A fully functional mini arcade cabinet, key ring (yes, it's small enough to be a keychain), takes 3xAAA batteries (included), on/off switch, 4-way joystick, 2 buttons, 1.5" 128×128 LCD, light-up marquee`,
 	games: "",
 },{
 	peripheral: "381-B",
 	attached: "381-A",
 	company: "SuperImpulse",
-	peripheralName: "Ms. Pac Man Tiny Arcade",
+	peripheralName: "Ms. Pac Man",
 	systems: "SYS",
 	obtained: "2018-06-28",
-	cost: 0,
+	cost: 20,
 	description: ``,
 	games: "",
 },{
 	peripheral: "381-C",
 	attached: "381-A",
 	company: "SuperImpulse",
-	peripheralName: "Space Invaders Tiny Arcade",
+	peripheralName: "Space Invaders",
 	systems: "SYS",
 	obtained: "2018-06-28",
-	cost: 0,
+	cost: 20,
 	description: ``,
 	games: "",
 },{
 	peripheral: "381-D",
 	attached: "381-A",
 	company: "SuperImpulse",
-	peripheralName: "Galaxian Tiny Arcade",
+	peripheralName: "Galaxian",
 	systems: "SYS",
 	obtained: "2018-06-28",
-	cost: 0,
+	cost: 20,
 	description: ``,
 	games: "",
 },{
@@ -5368,17 +5618,17 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	peripheralName: "Frogger, Galaga, Dig Dug, Pole Position Tiny Arcades",
 	systems: "SYS",
 	obtained: "2019-09-07",
-	cost: 0,
+	cost: 20,
 	description: ``,
 	games: "",
 },{
 	peripheral: "381-F",
 	attached: "381-A",
 	company: "SuperImpulse",
-	peripheralName: "Tetris Tiny Arcade",
+	peripheralName: "Tetris",
 	systems: "SYS",
 	obtained: "2019-09-10",
-	cost: 0,
+	cost: 20,
 	description: ``,
 	games: "",
 },{
@@ -5466,7 +5716,7 @@ The unlock button also sticks out a lot more`,
 	obtained: "2018-09-14",
 	cost: 150,
 	description: "1 OS button, 2 system buttons, 1 profile switcher button, 2 face buttons, dpad, Wireless, wired and charges the built-in battery via USB-C, headphone connector, connectors for accessibility devices (1 connector for each button, and direction on the dpad, 2 extra connectors for the X button), 2 USB master ports for analog sticks",
-	games: "X1/PC games",
+	games: "",
 	section: "misc",
 },{
 	peripheral: "389-B",
@@ -5477,7 +5727,7 @@ The unlock button also sticks out a lot more`,
 	obtained: "2019-08-17",
 	cost: 25,
 	description: "1 clickable analog stick, 2 shoulder buttons, connects via USB HID",
-	games: "X1/PC games",
+	games: "",
 	section: "misc",
 },{
 	peripheral: "389-C",
@@ -5488,7 +5738,7 @@ The unlock button also sticks out a lot more`,
 	obtained: "2020-01-09",
 	cost: 130,
 	description: "4x Light touch buttons, 3x Small buttons, 3x Big buttons, 2x Variable triggers, Rigid hook and loop game board, Flexible hook and loop game board, hook and loop ties, Colo-coded labels",
-	games: "X1/PC games",
+	games: "",
 	section: "misc",
 },{
 	peripheral: "390",
@@ -5504,6 +5754,7 @@ The unlock button also sticks out a lot more`,
 	peripheral: "391-A",
 	company: "Ubisoft",
 	style: "list",
+	title: "Starlink",
 	peripheralName: "Starlink Starter Kit (Game, Base, Poster, Mason Rana, Zenith, Flamethrower, Shredder, and Frost Barrage)",
 	systems: "PS4",
 	obtained: "2018-10-16",
@@ -5628,7 +5879,7 @@ The unlock button also sticks out a lot more`,
 	cost: 100,
 	importOnly: true,
 	description: '3.5" 320×224 LCD, analog stick with light-up rim, 2 system buttons, 4 face buttons, 2 USB-C ports for controllers, mini HDMI port, headphone port, powered by USB-C',
-	games: "Neo Geo Mini games",
+	games: "Neo Geo Mini",
 },{
 	peripheral: "394-B",
 	attached: "394-A",
@@ -5638,7 +5889,7 @@ The unlock button also sticks out a lot more`,
 	obtained: "2018-10-28",
 	cost: 25,
 	description: "analog stick, 2 system buttons, 4 face buttons, USB-C connector, not USB HID",
-	games: "Neo Geo Mini games",
+	games: "Neo Geo Mini",
 	section: "SUB",
 },{
 	peripheral: "394-C",
@@ -5649,7 +5900,7 @@ The unlock button also sticks out a lot more`,
 	obtained: "2018-11-02",
 	cost: 25,
 	description: "analog stick, 2 system buttons, 4 face buttons, USB-C connector, not USB HID",
-	games: "Neo Geo Mini games",
+	games: "Neo Geo Mini",
 	section: "SUB",
 },{
 	peripheral: "395",
@@ -5716,7 +5967,7 @@ The unlock button also sticks out a lot more`,
 	obtained: "2002-02-12",
 	cost: 20,
 	description: `A cable which allows GBAs to connect to GameCube controller ports, for data transfer. GBA games can interact with GCN games, GCN can send GBA games to the GBA, and GBA can act as a controller+screen`,
-	games: "List",
+	games: "",
 },{
 	peripheral: "401",
 	company: "Kickstarter",
@@ -5904,10 +6155,12 @@ Touchpad area, headphone port`,
 },{
 	peripheral: "417-A",
 	company: "Super Impulse",
-	peripheralName: "Pac Man - Micro Arcade",
+	title: "Micro Arcade",
+	style: "list",
+	peripheralName: "Pac Man",
 	systems: "SYS",
 	obtained: "2019-08-17",
-	cost: 0,
+	cost: 20,
 	description: "A color version of the Tetris microcard that was made by the same guy who made the Arduboy, built-in battery (recharges via microUSB), dpad, 2 face buttons, mute and power switches, likely a 128×128 LCD",
 	games: "Pac Man",
 	needed: "Tetris, Centipede+Missile Command",
@@ -5919,7 +6172,7 @@ Touchpad area, headphone port`,
 	obtained: "2019-09-19",
 	cost: 90,
 	description: "HDMI, powered via microUSB, 2 USB ports, plays 42 built-in Genesis games (cannot be expanded) 4 savestates per game, 2 display modes (4:3, widescreen) + a CRT filter, 2x Genesis 3-button controller replicas",
-	games: "",
+	games: "Genesis Mini",
 },{
 	peripheral: "419",
 	company: "8bitdo",
@@ -5937,7 +6190,7 @@ Touchpad area, headphone port`,
 	obtained: "2019-12-14",
 	cost: 15,
 	description: `4-way digital joystick, 6 face buttons, 1 system button, connects via micro USB, USB HID`,
-	games: "PC games",
+	games: "Street Fighter II",
 },{
 	peripheral: "421",
 	company: "NamcoBandai",
@@ -5967,7 +6220,7 @@ Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trig
 	obtained: "2020-01-24",
 	cost: 40,
 	description: "Attaches to the Dualshock 4's EXT and headset ports, Adds 2 remappable back buttons, a rear clickable OLED screen for changing the button mappings in 3 profiles",
-	games: "Most PS4/PS3/VitaTV games",
+	games: "",
 },{
 	peripheral: "424",
 	company: "Kickstarter",
@@ -5976,15 +6229,18 @@ Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trig
 	obtained: "2020-02-29",
 	cost: 100,
 	description: "Dpad, 2 analog triggers, 4 digital triggers, 4 face buttons, 2 system buttons, 2 OS buttons, 2 clickable thumbsticks, rumble, wireless (via Bluetooth or USB dongle), wired (via micro USB), built-in rechargeable battery, 320×240 color LCD, reprogrammable profiles (up to 16), updateable firmware",
-	games: "All PC/PS3/360/PS4/X1/VitaTV/Android/Switch games that don't require Move, Kinect or some other peripheral",
+	games: "All PC/PS3/360/X1/VitaTV/Android/Switch games that don't require Move, Kinect or some other peripheral",
 },{
 	peripheral: "425",
 	company: "Nintendo",
 	peripheralName: "SNES Controller",
 	systems: "Switch",
 	obtained: "2020-03-27",
-	cost: 0,
-	description: ``,
+	cost: 40,
+	importOnly: true,
+	specificVersion: "Super Famicom",
+	otherVersions: "SNES",
+	description: `1 dpad, 2 system buttons, 4 face buttons buttons, 4 shoulder buttons, a cool box, built-in battery, charges via USB-C, wireless (via Bluetooth)`,
 	games: "",
 },{
 	peripheral: "426",
@@ -6025,7 +6281,7 @@ Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trig
 	obtained: "2020-07-10",
 	cost: 50,
 	description: "Dpad, 1 non-clickable analog stick, 1 system button, 4 face buttons, 2 slots for VMUs/rumble packs, turbo/reset buttons, 2 analog triggers, 2 digital triggers which mirror the analog triggers",
-	games: "DC games",
+	games: "",
 },{
 	peripheral: "430",
 	company: "Divoom",
@@ -6043,8 +6299,45 @@ Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trig
 	peripheralName: "Mario",
 	systems: "misc",
 	obtained: "2020-08-21",
-	cost: 0,
-	description: ``,
+	cost: 80,
+	description: `Mario: LCD for the eyes and chest, downwards-facing camera with an LED to provide lighting, motion sensing, bluetooth, uses 2xAAA batteries, 2 buttons, connects to a phone app
+				Some pieces have barcodes on them for the camera to read, so Mario knows what piece it's on
+
+				Expansion sets
+				<UL>
+					<LI>Guarded Fortress Expansion Set</LI>
+					<LI>Desert Pokey Expansion Set</LI>
+					<LI>Whomp’s Lava Trouble Expansion Set</LI>
+					<LI>Piranha Plant Power Slide Expansion Set</LI>
+					<LI>Boomer Bill Barrage Expansion Set</LI>
+					<LI>Mario’s House & Yoshi Expansion Set</LI>
+					<LI>Toad’s Treasure Hunt Expansion Set</LI>
+					<LI>Bowser’s Castle Boss Battle Expansion Set</LI>
+					<LI>Thwomp Drop Expansion Set</LI>
+					<LI>King Boo and the Haunted Yard Expansion Set</LI>
+				</UL>
+
+				Power-up Packs
+				<UL>
+					<LI>Fire Mario Power-Up Pack</LI>
+					<LI>Propeller Mario Power-Up Pack</LI>
+					<LI>Cat Mario Power-Up Pack</LI>
+					<LI>Builder Mario Power-Up Pack</LI>
+				</UL>
+
+				Character Packs
+				<UL>
+					<LI>Paragoomba</LI>
+					<LI>Fuzzy</LI>
+					<LI>Spiny</LI>
+					<LI>Buzzy Beetle</LI>
+					<LI>Bullet Bill</LI>
+					<LI>Bob-omb</LI>
+					<LI>Eep Cheep</LI>
+					<LI>Blooper</LI>
+					<LI>Urchin</LI>
+					<LI>Peepa</LI>
+				</UL>`,
 	games: "",
 },{
 	peripheral: "432",
@@ -6079,12 +6372,13 @@ Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trig
 },{
 	peripheral: "434",
 	company: "Kickstarter",
-	peripheralName: "Colors Live Sonar Pen",
+	peripheralName: "Sonar Pen",
 	systems: "Switch",
 	obtained: "2020-11-17",
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 50,
+	description: `A pen that uses Sonar somehow, plugs into the headphone port, has removable nubs (includes 2)`,
+	specificVersion: "Black",
+	games: "Colors Live!",
 },{
 	peripheral: "435",
 	company: "Sony",
@@ -6122,7 +6416,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2021-01-07",
 	cost: 60,
 	description: `1 digital stick, 1 face button, 1 trigger, 2 system buttons, 1 OS button, the stick rotates and is detected as a dial, wireless (via bluetooth), wired (via microUSB), rechargeable battery, rumble, a ring of LEDs that indicate the direction of the stick`,
-	games: "PC games",
+	games: "",
 },{
 	peripheral: "438",
 	company: "Rufus Labs",
@@ -6147,8 +6441,10 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheralName: "Lightgun",
 	systems: "PC",
 	obtained: "2021-06-24",
-	cost: 0,
-	description: ``,
+	cost: 172,
+	specificVersion: "Red with Force Feedback",
+	otherVersions: "Grey, Black, Blue, Force Feedback is optional",
+	description: `640×480 camera, 1 trigger, 4 buttons, dpad, long USB cable`,
 	games: "",
 },{
 	peripheral: 441,
@@ -6156,8 +6452,8 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheralName: "Sonic Screwdriver",
 	systems: "Wii",
 	obtained: "2021-07-02",
-	cost: 0,
-	description: ``,
+	cost: 63,
+	description: `a Wiimote in the style of a Doctor Who Sonic Screwdriver`,
 	games: "",
 },{
 	peripheral: 442,
@@ -6165,17 +6461,19 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheralName: "Mario Kart Live",
 	systems: "Switch",
 	obtained: "2021-07-08",
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 80,
+	specificVersion: "Mario",
+	otherVersions: "Luigi",
+	description: `a remote controlled car designed to look like one from Mario Kart, built-in rechargeable battery (charges via USB-C), wireless (via Wifi)`,
+	games: "Mario Kart Live: Home Circuit",
 },{
 	peripheral: 443,
 	company: "Govee",
 	peripheralName: "Immersion",
 	systems: "Multi",
 	obtained: "2021-07-27",
-	cost: 0,
-	description: ``,
+	cost: 94,
+	description: `A 1080p camera that watches your TV to control a line of RGB LEDs`,
 	games: "",
 },{
 	peripheral: 444,
@@ -6183,8 +6481,8 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheralName: "DigiVice V",
 	systems: "SYS",
 	obtained: "2021-10-09",
-	cost: 0,
-	description: ``,
+	cost: 70,
+	description: `128×32 or 128×64 LCD (unknown which), built-in rechargeable battery (charges via micro USB), 2 buttons, slot for proprietary expansion cards, speaker`,
 	games: "",
 },{
 	peripheral: "445-A",
@@ -6192,9 +6490,9 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheralName: "1942 Replicade",
 	systems: "SYS",
 	obtained: "2021-10-13",
-	cost: 0,
-	description: ``,
-	games: "",
+	cost: 190,
+	description: `Unknown resolution LCD (likely 320×240 or 640×480), built-in rechargeable battery (charges via micro USB), HDMI out, accepts controllers via USB, illuminated marquee, multiple speakers`,
+	games: "1942, 1943",
 },{
 	peripheral: "445-B",
 	attached: "445-A",
@@ -6203,7 +6501,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "1942/1943",
 	obtained: "2021-10-13",
 	cost: 0,
-	description: ``,
+	description: `digital stick, 2 face buttons, 1 system button, connects via micro USB`,
 	games: "",
 },{
 	peripheral: "446",
