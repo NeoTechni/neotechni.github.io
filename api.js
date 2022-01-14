@@ -681,7 +681,7 @@ function make_controller(controller = false, stat = false, name = false){
 				}
 				HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR>';
 				if(name == "normal"){
-					HTML += '<TD ROWSPAN="2" CLASS="image">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
+					HTML += '<TD ROWSPAN="2" CLASS="image top">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
 				} else {
 					HTML += '<TD CLASS="controllerinfo top" COLSPAN="2">';
 				}
