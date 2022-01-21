@@ -6,6 +6,7 @@ var is_edge = window.navigator.userAgent.indexOf("Edge/") > -1;
 var is_firefox_for_android = is_firefox && is_android;
 var is_IOS = (/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) && !window.MSStream;
 var newline = "\r\n";
+var missingimages = [];
 
 function isMobileOrTablet() {
 	var check = false;
@@ -792,6 +793,7 @@ function imgError(image) {
     image.onerror = "";
     image.onclick = "";
     image.setAttribute("original", image.src);
+    missingimages.push(image.src);
     image.src = "/images/noimage.png";
     return true;
 }
