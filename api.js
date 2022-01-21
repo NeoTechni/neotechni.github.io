@@ -771,7 +771,7 @@ function make_controller(controller = false, stat = false, name = false){
 					}
 				}
 				if(style == "list"){
-					HTML += '</TBODY><TFOOT><TR><TD COLSPAN="2">' + make_controller(controller, "images");
+					HTML += '</TBODY><TFOOT><TR><TD COLSPAN="2" CLASS="imagelist">' + make_controller(controller, "images");
 					for(var i = 0; i < controller.attachments.length; i++){
 						HTML += make_controller(controller.attachments[i], "images");
 					}
