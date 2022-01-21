@@ -51,6 +51,9 @@ table.listtable{
 	text-align: center;
 	width: 300px;
 }
+.imagelist .image{
+	max-height: 300px;
+}
 .table .image img{
 	max-width: 300px;
 }
