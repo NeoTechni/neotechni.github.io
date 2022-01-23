@@ -1040,6 +1040,7 @@ var controllers = [{
 	games: "Resident Evil Umbrella Chronicles, Link's crossbow training, Nerf N-strike and other shooting Wii games",
 },{
 	peripheral: "070",
+	image: "70.jpg",
 	company: "BanPresto",
 	peripheralName: "8 Bit Retro Mario Mouse (Power Star)",
 	systems: "PC",
@@ -1123,6 +1124,7 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	importOnly: true,
 },{
 	peripheral: "077",
+	image: "77.jpg",
 	company: "Saitek",
 	peripheralName: "Pro Gamer Command Pad",
 	systems: "PC",
@@ -1177,6 +1179,7 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	importOnly: true,
 },{
 	peripheral: "082",
+	image: "82.jpg",
 	company: "Bandai",
 	peripheralName: "WonderWave",
 	systems: "PS1/WS",
@@ -1188,6 +1191,7 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	importOnly: true,
 },{
 	peripheral: "083",
+	image: "83.jpg",
 	company: "Bandai",
 	peripheralName: "WonderBorg",
 	systems: "WS",
@@ -1289,6 +1293,7 @@ Infrared control receptor with scratch-resistant, anti-reflective lens  USB, 4 b
 	games: "Hitman 2, Tiger Hunt, Beah Head 2002, Black & White",
 },{
 	peripheral: "091",
+	image: "91.jpg",
 	company: "Super Soft",
 	peripheralName: "Terminator",
 	systems: "Atari/Sinclair",
@@ -1299,6 +1304,7 @@ Infrared control receptor with scratch-resistant, anti-reflective lens  USB, 4 b
 	games: "",
 },{
 	peripheral: "092",
+	image: "92.jpg",
 	company: "Beeshu",
 	peripheralName: "JetFighter",
 	systems: "SNES/GEN",
