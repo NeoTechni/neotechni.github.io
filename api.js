@@ -773,8 +773,10 @@ function make_controller(controller = false, stat = false, name = false){
 				}
 				if(style == "list"){
 					HTML += '</TBODY><TFOOT><TR><TD COLSPAN="2" CLASS="imagelist">' + make_controller(controller, "images");
-					for(var i = 0; i < controller.attachments.length; i++){
-						HTML += make_controller(controller.attachments[i], "images");
+					if(controller.hasOwnProperty("attachments")){
+						for(var i = 0; i < controller.attachments.length; i++){
+							HTML += make_controller(controller.attachments[i], "images");
+						}
 					}
 					HTML += '</TD></TR></TFOOT></TABLE></TD></TR>';
 				}
