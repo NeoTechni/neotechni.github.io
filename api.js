@@ -803,7 +803,7 @@ function make_photos(titles = true){
 				if(!isArray(photos[key].images)){
 					photos[key].images = [photos[key].images];
 				}
-				HTML += '<TR><TD CLASS="photos">';
+				HTML += '<TR><TD CLASS="image top">';
 				for(var i = 0; i < photos[key].images.length; i++){
 					HTML += makeimg(photos[key].images[i], key, 'photos');
 				}
