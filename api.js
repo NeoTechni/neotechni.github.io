@@ -787,8 +787,33 @@ function make_controller(controller = false, stat = false, name = false){
 	return HTML;
 }
 
-function makeimg(filename, description){
-	return '<IMG SRC="/images/' + filename + '" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + description + '">';
+function makeimg(filename, description, folder = 'images'){
+	return '<IMG SRC="/' + folder + '/' + filename + '" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + description + '">';
+}
+
+function make_photos(titles = true){
+	var HTML = "";
+	for(var key in photos){
+		if(photos.hasOwnProperty(key)){
+			if(isObject(photos[key])){
+				HTML += '<TABLE CLASS="table">';
+				if(titles){
+					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + key + '</TH></TR><TR>';
+				}
+				if(!isArray(photos[key].images)){
+					photos[key].images = [photos[key].images];
+				}
+				HTML += '<TR><TD CLASS="photos">';
+				for(var i = 0; i < photos[key].images.length; i++){
+					HTML += makeimg(photos[key].images[i], key, 'photos');
+				}
+				HTML += '</TD><TD>' + nl2br(photos[key].text) + '</TD></TR></TABLE>';			
+			} else {
+				HTML += '<H2>' + nl2br(key) + '</H2>';
+			}
+		}
+	}
+	return HTML;
 }
 
 function imgError(image) {
