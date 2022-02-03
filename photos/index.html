@@ -1,1 +1,29 @@
+---
+title: Photos
+layout: default
+classes: wide 
+---
+If anyone has more information on any of these (or more examples of non-standard controllers in TV shows/movies), please feel free to email me at technisbetas at gmail dot com
+<SCRIPT>
+   photos = {
+      "Battlestar Galactica": {
+          images: ['BSG1.jpg', 'BSG2.png'],
+          text: `The steering system of the Viper
+                Suncom Technologies F-15 Hawk or F-15E Talon model #96-6625
+                Picture and info credit: L. Gomes`,
+      },
+     
+      "Dads": {
+          images: 'DADS.jpg',
+          text: `I have no idea what this is, possible something they threw together using a regular joystick, a long block and some kind of keyboard
+                I'd really like to have this
+                The controller for "Dads" appears to have been put together using two Saitek X-52 Pros, one of which had the steering column removed, and a custom box with lights and a keyboard. --- u/wyrn`,
+      }
+   
+   };
+   window.addEventListener('load', function () {
+      set_HTML("controllers", make_photos());
+   });
+</SCRIPT>
 
+<DIV ID="controllers"></DIV>
