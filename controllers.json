@@ -840,15 +840,6 @@ var controllers = [{
 	description: `A microphone, 1 button`,
 	games: "Chibi-Robo!, Karaoke Revolution, The Legend of the Quiz Tournament of Champions, Mario Party 6, Mario Party 7, Odama (Not to be confused with President Obama)",
 },{
-	peripheral: "00Y-06",
-	company: "Nintendo",
-	peripheralName: "e-Reader",
-	systems: "GBA",
-	photographed: true,
-	cost: 0,
-	description: `a card reader`,
-	games: "GBA e-Reader",
-},{
 	peripheral: "00Y-07",
 	company: "ASCII",
 	peripheralName: "Grip",
@@ -949,6 +940,15 @@ var controllers = [{
 	cost: 15,
 	description: `A USB headset`,
 	games: "Lifeline",
+},{
+	peripheral: "00Y-16",
+	company: "Nintendo",
+	peripheralName: "e-Reader",
+	systems: "GBA",
+	photographed: true,
+	cost: 0,
+	description: `a card reader`,
+	games: "GBA e-Reader",
 },{
 	peripheral: "063",
 	company: "Sony",
