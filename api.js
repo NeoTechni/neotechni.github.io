@@ -795,7 +795,7 @@ function makeimg(filename, description, folder = 'images'){
 	return '<IMG SRC="/' + folder + '/' + filename + '" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + description + '">';
 }
 
-function make_photos(titles = true){
+function make_photos(titles = true, folder = 'photos'){
 	var level = 0;
 	var LIST = '<UL' + iif(!titles, ' CLASS="cols-4"') + '>';
 	var HTML = '';
@@ -812,7 +812,7 @@ function make_photos(titles = true){
 				}
 				HTML += '<TR><TD CLASS="image top">';
 				for(var i = 0; i < photos[key].images.length; i++){
-					HTML += makeimg(photos[key].images[i], key, 'photos');
+					HTML += makeimg(photos[key].images[i], iif(titles, key, 'Image'), folder);
 				}
 				HTML += '</TD><TD>' + nl2br(photos[key].text) + '</TD></TR></TABLE>';			
 			} else {
