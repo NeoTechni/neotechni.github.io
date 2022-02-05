@@ -664,14 +664,18 @@ function make_controller(controller = false, stat = false, name = false){
 	var HTML = "";
 	if(stat === "images"){//just the images
 		if(!controller.hasOwnProperty("noimage")){
+			name = controller.peripheralName;
+			if(controller.hasOwnProperty("title")){
+				name = controller.title;
+			}
 			if(controller.hasOwnProperty("image")){
-				HTML += makeimg(controller.image, controller.peripheralName);
+				HTML += makeimg(controller.image, name);
 			} else if(controller.hasOwnProperty("images")){
 				for(var i = 0; i < controller.images.length; i++){
-					HTML += makeimg(controller.images[i], controller.peripheralName);
+					HTML += makeimg(controller.images[i], name);
 				}
 			} else {
-				HTML += makeimg(controller.peripheral + '.jpg', controller.peripheralName);
+				HTML += makeimg(controller.peripheral + '.jpg', name);
 			}
 		}
 	} else if(stat === true){//do all stats in normal style
@@ -792,13 +796,16 @@ function makeimg(filename, description, folder = 'images'){
 }
 
 function make_photos(titles = true){
-	var HTML = "";
+	var level = 0;
+	var LIST = '<UL' + iif(!titles, ' CLASS="cols-4"') + '>';
+	var HTML = '';
 	for(var key in photos){
 		if(photos.hasOwnProperty(key)){
 			if(isObject(photos[key])){
 				HTML += '<TABLE CLASS="table">';
 				if(titles){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + key + '</TH></TR><TR>';
+					LIST += '<LI><A HREF="#' + toclassname(key) + '">' + key + '</A></LI>';
 				}
 				if(!isArray(photos[key].images)){
 					photos[key].images = [photos[key].images];
@@ -809,11 +816,17 @@ function make_photos(titles = true){
 				}
 				HTML += '</TD><TD>' + nl2br(photos[key].text) + '</TD></TR></TABLE>';			
 			} else {
-				HTML += '<H2>' + nl2br(key) + '</H2>';
+				var name = toclassname(key);
+				LIST += iif(level > 0, iif(titles, '</UL>') + '</LI>') + '<LI><A HREF="#' + name + '">' + key + '</A>' + iif(titles, '<UL>', '</LI>');
+				HTML += '<A NAME="' + name + '"></A><H2>' + key + '</H2>';
+				level = 1;
 			}
 		}
 	}
-	return HTML;
+	if(level > 0 && titles){
+		LIST += '</UL></LI>';
+	}
+	return LIST + "</UL>" + HTML;
 }
 
 function imgError(image) {
