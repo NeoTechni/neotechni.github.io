@@ -6553,4 +6553,12 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	description: `A button, an RGB LED, connects via bluetooth, uses 2xAAA batteries`,
 	games: "Trivia games",	
 	section: "misc",
+},{
+	peripheral: "449",
+	company: "Fun Source",
+	peripheralName: "Star Trek TNG: Type I Phaser",
+	systems: "PC",
+	obtained: "2021-12-15",
+	cost: 20,
+	description: `5 buttons, lights, makes sounds, connects via serial, mechanical/wheeled mouse, requires 1 CR2032 battery`,
 }];
