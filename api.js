@@ -807,7 +807,9 @@ function make_photos(titles = true, folder = 'photos'){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + key + '</TH></TR><TR>';
 					LIST += '<LI><A HREF="#' + toclassname(key) + '">' + key + '</A></LI>';
 				}
-				if(!isArray(photos[key].images)){
+				if(!photos[key].hasOwnProperty("images")){
+					photos[key].images = [key + ".jpg"];
+				} else if(!isArray(photos[key].images)){
 					photos[key].images = [photos[key].images];
 				}
 				HTML += '<TR><TD CLASS="image top">';
