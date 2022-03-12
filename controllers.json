@@ -150,7 +150,6 @@ var games = {
 	}, "Neo Geo Mini": {
 		URL: "https://en.wikipedia.org/wiki/Neo_Geo#Neo_Geo_Mini",
 		games: `International version: 3 Count Bout, Art of Fighting, Blazing Star, Blue’s Journey, Crossed Swords, Fatal Fury Special, Foot Ball Frenzy, Garou: Mark of the Wolves, Ghost Pilots, King of the Monsters, King of the Monsters 2, Kizuna Encounter: Super Tag Battle, Last Resort, Magician Lord, Metal Slug, Metal Slug 2, Metal Slug 3, Metal Slug 4, Metal Slug 5, Metal Slug X, Mutation Nation, Ninja Master’s: Haou Ninpou Chou, Puzzled, Real Bout: Fatal Fury, Robo Army, Samurai Shodown II, Samurai Shodown IV: Amakusa’s Revenge, Samurai Shodown V Special, Sengoku 3, Shock Troopers, Shock Troopers: 2nd Squad, Super Sidekicks, The King of Fighters ’95, The King of Fighters ’97, The King of Fighters ’98, The King of Fighters 2000, The King of Fighters 2002, The Last Blade 2, Top Player’s Golf, World Heroes Perfect
-
 		Japanese version: Aggressors of Dark Kombat, Alpha Mission II, Art of Fighting, Blazing Star, Burning Fight, Cyber-Lip, Fatal Fury Special, Garou: Mark of the Wolves, King of Monsters 2, Kizuna Encounter: Super Tag Battle, Metal Slug, Metal Slug 2, Metal Slug 3, Ninja Commando, Ninja Master’s: Haou Ninpou Chou, Puzzled, Real Bout Fatal Fury 2: The Newcomers, Real Bout: Fatal Fury, Samurai Shodown II, Samurai Shodown IV: Amakusa’s Revenge, Samurai Shodown V Special, Sengoku 3, Shock Troopers: 2nd Squad, Super Sidekicks, The King of Fighters ’94, The King of Fighters ’95, The King of Fighters ’96, The King of Fighters ’97, The King of Fighters ’98, The King of Fighters ’99, The King of Fighters 2000, The King of Fighters 2001, The King of Fighters 2002, The King of Fighters 2003, The Last Blade, The Last Blade 2, Top Hunter: Roddy & Cathy, Top Player’s Golf, Twinkle Star Sprites, World Heroes Perfect`,
 	}, "Tapwave Zodiac": {
 		URL: "https://en.wikipedia.org/wiki/Tapwave_Zodiac#Games",
@@ -158,11 +157,8 @@ var games = {
 	}, "XBOX360 Vision Camera": {
 		URL: "https://en.wikipedia.org/wiki/Xbox_Live_Vision#Compatible_games",
 		games: `American Idol Encore, American Idol Encore 2, Band of Bugs, Bankshot Billiards 2, Battlezone, Bomberman Live, Burnout Paradise, Carcassonne, Chessmaster Live, Civilization Revolution, Command & Conquer 3: Tiberium Wars, Domino Master, Duke Nukem 3D (in lobbies), Gin Rummy, Hardwood Backgammon, Hardwood Hearts, Hardwood Spades, Tom Clancy's H.A.W.X. 2, Lost Cities, Need for Speed: Hot Pursuit (2010 video game), Pinball FX, Rocky and Bulwinkle, Soltrio Solitaire, Spyglass Board Games, Texas Hold 'em, Ticket to Ride, Uno, Uno Rush, Vigilante 8 Arcade, Warlords, Wits and Wagers, Word Puzzle
-
 		Controller functionality: Pinball FX, Rayman Raving Rabbids, TotemBall, You're in the Movies
-
 		Face mapping support (Digimask): FaceBreaker, FIFA 10, Fight Night Round 4, Football Manager 2007, Pro Evolution Soccer 2008, Pro Evolution Soccer 2009, Tiger Woods PGA Tour 08, Tiger Woods PGA Tour 09, Tiger Woods PGA Tour 10, Tom Clancy's Rainbow Six: Vegas, Tom Clancy's Rainbow Six: Vegas 2, World Series of Poker 2008: Battle for the Bracelets
-
 		Other: Viva Piñata: Trouble in Paradise`,
 	}, "HORI Tiny Bee": {
 		info: `<TABLE CLASS="table"><TR><TH></TH><TH>Left Gun</TH><TH>Right Gun</TH></TR>
@@ -172,81 +168,54 @@ var games = {
 				<TR><TD>Right Side Button</TD><TD>△</TD><TD>R2</TD></TR>
 				<TR><TD>Thumb Position</TD><TD>Dpad</TD><TD>Analog Stick</TD></TR>
 			</TABLE>`,
+	}, "Egret II Mini": {
+		games: `Adventure Canoe (1982), Bubble Bobble (1986), Bubble Memories (1995), Bubble Symphony (1994), Cadash (1989), Chack'n Pop (1983), Dan-Ku-Ga (unreleased update to Kaiser Knuckle, 1995), Darius Gaiden (1994), Don Doko Don (1989), Elevator Action (1983), Elevator Action Returns (1994), Fairyland Story (1985), Growl (1990), Gun Frontier (1990), Halley's Comet (1986), Hat Trick Hero (1990), Kaiser Knuckle (1994), Kiki KaiKai (1986), The Legend of Kage (1985), Liquid Kids Adventure (1990), Lunar Rescue (1979), Lupin III (1980), Metal Black (1991), New Zealand Story (1988), The Ninja Kids (1990), Outer Zone (1984), Pirate Pete (1982), Puzzle Bobble 2X (1995), Qix (1981), Raimais (1988), Rainbow Islands EXTRA (1988), Rastan Saga (1987), RayForce (1993), Scramble Formation (1986), Space Invaders (1978), Steel Worker (1980), Tatsujin (1988), Twin Cobra (1987), Violence Fight (1989), Volfied (1989)`,
+	}, "Egret II Mini Paddle + Trackball Controller": {
+		games: `Arkanoid (1986), Arkanoid Returns (1997), Arkanoid: Revenge of DOH (1987), Birdie King (1982), Cameltry (1989), Marine Date (1981), Plump Pop (1987), Puchi Carat (1997), Strike Bowling (1982), Syvalion (1988)`,
 	}, "ASCII Grip": {
 		info: `FUNCTION # 1
-
 				Button Configuration
-
 				The ASCII Grip button configuration can be arranged to the following three choices. After you have changed the arrangement, it stays that way even after turning the PlayStation off. The configuration only changes if you manually reconfigure it.
 
 				Arrangement 1 - Standard Arrangement
-
 				This is the arrangement when the product was purchased.
-
 				To select this arrangement from arrangements 2 or 3, hold the SELECT and START button down, simultaneously, while turning on the PlayStation.
 
 				Arrangement 2
-
 				Press the SELECT button while turning on the PlayStation.
 
 				Arrangement 3
-
 				Hold the START button down while turning on the PlayStation. This arrangement allows you to use the programmable buttons.
 
 				FUNCTION # 2
-
 				Programmable Buttons
-
 				The programmable buttons can only be used in arrangement 3. The back buttons, which are the O and X buttons (in the standard arrangement), become programmable button 1 and programmable button 2. The programmable buttons can memorize all the buttons you were pressing while you turned on the PlayStation.
-
 				To erase the settings of the programmable buttons, press only the programmable buttons you want to erase while turning on the PlayStation.
 
 				NOTES:
-
 				The programmable buttons cannot memorize the directional pad or other programmable button.
-
 				Even when the button arrangement is changed, the settings for programmable button 1 and programmable button 2 are maintained when arrangement 3 is resumed.
-
 				When programmable button 1 and programmable button 2 are both pressed while turning on the PlayStation, programmable button 1 always takes precedence.
-
 				When you set the programmable button while in arrangement 1 or 2, it automatically switches to arrangement 3.`,
 	}, "PS3 Wireless Keypad": {
 		info: `To put it in Pairing mode: Hold the Blue shoulder button while turning it on
-
 				Esc = Circle
-
 				F1 = Triangle
-
 				F2 = Square
-
 				F3 = Select
-
 				F4 = Start
-
 				F5 = Refresh Page (Web browser use only)
-
 				BackSpace = L1, or "Back" (Web browser use only)
-
 				Shift+Backspace = R1, or "Forward" (Web browser use only)
-
 				Tab = Select next item (Web browser use only)
-
 				Shift+Tab = Select Previous item (Web browser use only)
-
 				Enter/Return = X
-
 				The Window/Apple/S3 = PS Button (Can not be held. Must turn off Console Manually)
-
 				Arrow keys = D-Pad
-
 				Delete/Del = Delete words after line (Text Box use only)
-
 				Home = Top of page (Web browser use only)
-
 				End = Bottom of Page (Web browser use only)
-
 				Page Up/Down = Scroll Up/Down (Web browser use only)
-
 				Spacebar = Scroll Down (Web browser use only)`,
 	}, "Dualshock 4": {
 		info: `To put it in Pairing mode: Hold the Share button and press the PlayStation button until the light bar flashes`,
@@ -6561,4 +6530,33 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2022-02-05",
 	cost: 20,
 	description: `5 buttons, lights, makes sounds, connects via serial, mechanical/wheeled mouse, requires 1 CR2032 battery`,
+},{
+	peripheral: "450-A",
+	company: "Taito",
+	peripheralName: "Egret II Mini",
+	systems: "SYS",
+	obtained: "2022-03-08",
+	cost: 200,
+	games: "Egret II Mini",
+	description: `a digital joystick capable of operating in 4 or 8 directions, 6 face buttons, 2 system buttons, 1 OS button, stereo sound, light-up marquee, 2 USB ports, HDMI out, charges via USB-C, rotateable 1024x768 LCD, SD slot for expanding the games`,
+},{
+	peripheral: "450-B",
+	attached: "450-A",
+	company: "Taito",
+	peripheralName: "Egret II Control Pad",
+	systems: "EGRET",
+	section: "SYS",
+	obtained: "2022-03-08",
+	cost: 40,
+	description: `a dpad, 6 face buttons, 2 system buttons, 1 OS button, plugs in via USB`,
+},{
+	peripheral: "451",
+	company: "Taito",
+	peripheralName: "Egret II Paddle + Trackball Controller",
+	systems: "EGRET",
+	section: "misc",
+	obtained: "2022-03-08",
+	cost: 100,
+	games: "Egret II Mini Paddle + Trackball Controller",
+	description: `trackball, wheel/dial, 2 system buttons, 1 OS button, plugs in via USB, trackball and wheel shows up on PC as a mouse but the buttons do not, comes with an SD card with 10 games`,
 }];
