@@ -4,18 +4,1055 @@ layout: default
 classes: wide 
 ---
 <SCRIPT>
-	photos = {
-        	"PlayStation 1": {},
-        
-        	"Lunar I + II": {
-            		images: ['lunar1.jpg', 'lunar2.jpg', 'puchingpuppetghaleon.png'],
-            		text: `Hardcover manuals, Lunar pendant, OSTs, Punching Ghaleon Doll/Puppet, boxes, cloth maps, character standees`,
-        	},        
-               
-	};
+var photos = {
+	"PlayStation 1": {},
+
+	"Lunar I + II": {
+		images: ['lunar1.jpg', 'lunar2.jpg', 'puchingpuppetghaleon.png'],
+		text: `Hardcover manuals, Lunar pendant, OSTs, Punching Ghaleon Doll/Puppet, boxes, cloth maps, character standees`,
+	},
+
+	"Parasite Eve 2": {
+		images: ['parasiteeve2.jpg'],
+		text: `A cool box, a bust and stand, 2 transparent backgrounds for the bust`,
+	},
+
+	"Puchi Carat": {
+		images: ['puchicarat.jpg'],
+		text: `Volume Controller, Box (poor condition), European version of the game`,
+	},
+
+	"Rhapsody": {
+		images: ['rhapsody.jpg'],
+		text: `Soundtrack`,
+	},
+
+	"PlayStation 2": {},
+
+	"Ace Combat 5": {
+		text: `Big box, Flight Stick 2, giant (~1 foot diameter) team patch
+				Once you attach the palm-rest to the joystick, it no longer fits in the box`,
+	},
+
+	"Final Fantasy 12": {
+		images: ['ffxii.jpg'],
+		text: `Metal box, I do not own the game`,
+	},
+
+	"Growlanser Deluxe": {
+		images: ['growlansergenerations.jpg'],
+		text: `Watch, OST, playing cards, ring and gems`,
+	},
+
+	"Growlanser: Heritage of War": {
+		images: ['growlanser heritage (1).jpg'],
+		text: `OST, keychain, 2 holograms`,
+	},
+
+	"Phantom Brave": {
+		text: `Soundtrack`,
+	},
+
+	"Resident Evil 4": {
+		images: ['re4.jpg'],
+		text: `Metal box, Making of DVD, Character cell, Individually numbered`,
+	},
+
+	"Space Invaders Anniversary": {
+		text: `Space Invaders Controller`,
+	},
+
+	"Star Ocean - Till the End of Time: Director's Cut": {
+		text: `Extra features, box slip cover, second disc`,
+	},
+
+	"Xenosaga": {
+		text: `FMV disc (x2)`,
+	},
+
+	"PlayStation 3": {},
+
+	"Assassin's Creed III": {
+		images: ['asscreed3.jpg'],
+		text: `A metal box!
+				I do not own the game`,
+	},
+
+	"Atelier Meruru: The Apprentice of Arland Limited Edition: Grand Finale Set": {
+		images: ['atelier.jpg'],
+		text: `A collector's box, t-shirt, OST, art book
+				No metal box? WTF?`,
+	},
+
+	"Awakened Fate Ultimatum, The": {
+		images: ['awakenedfate.jpg'],
+		text: `A collector's box, OST, art book, coin, pictures
+				No metal box? WTF?`,
+	},
+
+	"BioShock 2: Collector's Edition": {
+		images: ['bioshock2.jpg'],
+		text: `Big box, Soundtrack in both CD and some giant black dead/archaic/inferior format, 3 mini posters, artbook
+	I do not own the game
+	No metal box? WTF?`,
+	},
+
+	"Call of Duty Black Ops: Prestige Edition": {
+		images: ['codblackops.jpg'],
+		text: `RC-XD Video Surveillance Vehicle and Transmitter with 220 x 176 2" color LCD and speaker, Collector's Medal w/display case, Metal box, plastic display stand for the vehicle
+				DLC: Home avatar outfit, 4 extra playable co-op maps not in the standard edition
+				Takes 12 AA batteries (not included, of course) uses screws for the battery compartments, the inside of the box has so much tape it was destroyed getting it open, the outside also had tape`,
+	},
+
+	"Call of Duty Black Ops II: Care Package Edition": {
+		images: ['codblackops2.jpg'],
+		text: `Released: November 13, 2012
+				Large, military-style plastic carrying case, Collector's medal, metal box, MQ-27 Dragonfire foam drone with Remote control
+				Takes 6 AA batteries (included, for once) 2 charging cables (1 built into the remote, 1 USB) built-in rechargeable battery in the drone
+				DLC: Soundtrack, 2 XMB themes, Nuketown 2025, Nuketown Zombies
+				Has a plastic slipcover that came pre-damaged and won't fit inside`,
+	},
+
+	"Dead Island II: Riptide": {
+		images: ['deadisland.jpg'],
+		text: `Metal box
+				I do not have the disc, but I do have the game from PSN`,
+	},
+
+	"Dead Space": {
+		images: ['artofdeadspace.jpg'],
+		text: `Artbook, anaglyph 3D glasses
+				Collector's Edition only released in extremely limited quantities (1000 total) and only for XBOX360`,
+	},
+
+	"Dead Space 2: Collector's Edition": {
+		images: ['deadspace2.jpg', 'deadspacebook.jpg'],
+		text: `Released: January 25, 2011
+				Plasma cutter replica, Dead Space Extraction, Animation Cell, OST
+				No metal box? WTF? Outer box had tape on it, Plasma cutter was 1/3 the proper size, DSE can't be played directly from the disc yet requires the disc, batteries not included
+				Others:
+				Martyr (Novel), Ishimura mission patch, Comic mini series`,
+	},
+
+	"Dead Space 3: Developer's Edition": {
+		images: ['deadspace3.jpg', 'deadspacesteelbook.jpg'],
+		text: `Released: February 5, 2013
+				Tin Collector's Case, Marker Statue, Med-Pack, Serrano's Journal, Flip Book Data Pad, Art Book (Hardcover), Poster and Postcard set
+				DLC: First Contact bundle(First Contact Suit and Negotiator weapon) Witness the Truth Bundle (Witness the Truth suit and tactical Evangelizer weapon)
+				No metal (game) box? WTF? Collector's Edition only released in extremely limited quantities (5000 total) and only online.
+				DLC only comes with the SKU that includes the game which wouldn't arrive on launch day unless you paid more for it
+				Metal box, only available from FutureShop`,
+	},
+
+	"Final Fantasy 13: Lightning Returns": {
+		images: ['ffxiii.jpg'],
+		text: `Artbook, pocket watch
+				DLC: Cloud Strife's SOLDIER 1st Class Uniform and Buster Sword, but promised an Aerith outfit
+				No metal box? WTF? Only sold online`,
+	},
+
+	"God of War III: Ultimate Edition": {
+		images: ['godofwar3.jpg'],
+		text: `Artbook, Pandora's Box, I do not own the game
+				DLC: Skin, Combat Arena (7 challenges), Documentary footage, Trilogy and Metal remix OST (MP3)
+				No metal box? WTF? Outer box had tape on it`,
+	},
+
+	"Grand Theft Auto 4: Collector's Edition": {
+		images: ['gta4.jpg'],
+		text: `Metal Lockbox+key, duffle bag, art book, OST
+				Technically, the game didn't come in a metal box. But the metal lockbox, is technically a metal box... I could go either way on this.`,
+	},
+
+	"Guided Fate Paradox, The": {
+		images: ['theguidedfateparadox.jpg'],
+		text: `Collector's box, 2 disc OST, hardcover art book, collector's cards, art cel
+				No metal box? WTF?`,
+	},
+
+	"Hyper Dimension Neptunia: Gamindustri Edition": {
+		images: ['neptunia.jpg'],
+		text: `Released: February 15, 2011
+				Art Book, Playing Cards, a cool box
+				No metal box? WTF? Playing cards are only available for the first 1000 online orders`,
+	},
+
+	"Hyper Dimension Neptunia mk 2 Limited Edition: Gamindustri Savior Set": {
+		images: ['neptuniamk2.jpg'],
+		text: `Release date: February, 2012
+				Art Book, Playing Cards, a cool box, OST
+				No metal box? WTF? Limited to online orders`,
+	},
+
+	"Hyper Dimension Neptunia V: Limited Edition": {
+		images: ['neptuniav.jpg'],
+		text: `Released: February 2013
+				Art Book, large and small metal lunch boxes, a cool box, OST
+				No metal box? WTF? Limited to online orders`,
+	},
+
+	"inFamous 2: Hero Edition": {
+		images: ['infamous2.jpg'],
+		text: `Released: June 7, 2011
+				Sling Pack. 8.5 inch statue of Cole, DC mini-comic
+				DLC: OST, exclusive powerup (Kessler Skin, 24K Gold Amp, Electrocution Grenade Power, Lightning Hook Power) depends on which store you bought it at
+				No metal box? WTF?`,
+	},
+
+	"Killzone 3: Helghast Edition": {
+		images: ['killzone3.jpg'],
+		text: `Released: February 22, 2011
+				Helghast Helmet Replica, Cloaking Marksman Action Figure, Art Book
+				DLC: OST, Dynamic Theme, Retro map pack (2 Killzone 2 maps), Double XP and full access to all weapons and abilities for the first 24 hours
+				No metal box? WTF? And DLC that only lasts for 24 hours? That means I have to wait for my day off to even use the voucher and download the rest of the stuff
+				Glowing-eyes edition was not sold to the public, nor can Same-generation levels be considered 'retro'.`,
+	},
+
+	"Last of Us: Survival Edition": {
+		images: ['tlou.jpg'],
+		text: `Metal Box, Hardcover art book, comic book
+				DLC: OST, 2x 2D PSN avatars, Sights and Sounds, Dynamic theme
+				Strategy Guide`,
+	},
+
+	"LittleBigPlanet 2: Collector's Edition": {
+		images: ['littlebigplanet2.jpg'],
+		text: `Released: January 18, 2011
+				Sackboy Plushie, Book/Game ends, a box
+				DLC: 11 Sackboy costumes, 5 PSN avatars
+				No metal box? WTF? The box had tape on it`,
+	},
+
+	"Metal Gear Rising: Revengeance Limited Edition": {
+		images: ['metalgearrising.jpg'],
+		text: `Released: February 19, 2013
+				Artbook, soundtrack, plasma sword lamp, metal box
+				DLC: Cyborg Ninja skin, which mine didn't include`,
+	},
+
+	"Metal Gear Solid HD: Collector's Edition": {
+		images: ['metalgearcollection.jpg'],
+		text: `Released: November 8, 2011
+				Artbook
+				No metal box? WTF?`,
+	},
+
+	"Metal Gear Solid 4: Collector's Edition": {
+		images: ['mgs4.jpg'],
+		text: `Collector's box, making of bluray, Metal Gear Saga Vol. 1, Metal Gear Saga Vol. 2, OST
+				No metal box? WTF?`,
+	},
+
+	"Modern Warfare 2: Prestige Edition": {
+		images: ['codmodernwarfare.jpg'],
+		text: `Night Vision Goggles, Individually numbered Head standee, Art book, Metal box
+				DLC: OST, Call of Duty Classic
+				Takes 6 AA batteries (not included, of course) uses screws for the battery compartments`,
+	},
+
+	"Resistance 2: Collector's Edition": {
+		images: ['resistance2.jpg'],
+		text: `Collectable figurine, artbook, making of bluray
+				DLC: weapon skin
+				No metal box? WTF?`,
+	},
+
+	"Saints Row 4": {
+		images: ['saintsrow4.jpg'],
+		text: `Dubstep gun, motorized and lit display case, dubstep button, statue
+				No metal box? WTF?`,
+	},
+
+	"Splinter Cell: Blacklist": {
+		images: ['splintercell.jpg'],
+		text: `Comic book, RC foam aircraft, poster
+				No metal box? WTF?
+				DLC: Billionaire's yacht co-op map, Upper echelon map`,
+	},
+
+	"Uncharted 3: Collector's Edition": {
+		images: ['uncharted3.jpg'],
+		text: `Released: November 2, 2011
+				Metal box (The first one for PS3 in NA, after 7 years) Replicas of Nathan's ring and belt buckle, Statue of Nathan, traveller's case`,
+	},
+
+	"Zone of the Enders HD: Collector's Edition": {
+		images: ['zoneoftheenders.jpg'],
+		text: `Artbook, soundtrack
+				No metal box? WTF? The slipcover won't fit inside the box`,
+	},
+
+	"PlayStation 4": {},
+
+	"Arkham Knight": {
+		images: ['arkhamknight.jpg'],
+		text: `Metal box, light-up statue (batteries included), artbook, comic book
+				DLC: Extra skins for characters and the batmobile, Harley Quinn level
+				The collector's edition that came with a Batmobile instead of the statue was cancelled 3 days before launch`,
+	},
+
+	"Call of Duty: Ghosts - Prestige Edition": {
+		images: ['codghosts.jpg'],
+		text: `Metal box, a cool box with a magnetic clip, paracord strap, 1080p tactical camera, 4 GB microSD card, USB charging cable
+				DLC: Season pass (4 map packs), free-fall dynamic map, OST, player profile card/patch/background`,
+	},
+
+	"Cyberdimension Neptunia: 4 Goddesses Online": {
+		images: ['neptuniaonline.png'],
+		text: `Artbook, OST, a giant button, a cool box, Neptunia standee
+				No metal box? WTF?`,
+	},
+
+	"Death Stranding": {
+		images: ['deathstranding.jpg'],
+		text: `Metal box, paper slipcover
+				DLC: Gold versions of some level 1 equipment`,
+	},
+
+	"Destiny: Limited Edition": {
+		images: ['destiny.png'],
+		text: `Metal box, Arms and Armament Field Guide, Postcards, Antique Star Chart
+				DLC: Expansion pass, Ghost Casing, Player Emblem, Player Ship Variant
+				Retailer exclusive DLC, the Collector's edition was sold out hours after it was announced`,
+	},
+
+	"Fallout 4: Pip-boy edition": {
+		images: ['fallout4.jpg', 'fallout4book.jpg'],
+		text: `Metal box, replica Pip-Boy cellphone armband, large case, display stand, poster, guide
+				Bought separately: Collector's strategy guide`,
+	},
+
+	"Final Fantasy 7: Remake": {
+		images: ['ff7.jpg'],
+		text: `Metal box, mini OST, a cool box, art book
+				DLC: Cactuar summon`,
+	},
+
+	"inFamous 3: Second Son": {
+		images: ['infamoussecondson.jpg'],
+		text: `Douche-tuque, Vinyl decals, 8 pins, DUP patch
+				DLC: Legendary vest, Cole's legacy (missions to tie it together with inFamous 2, and Cole's jacket)
+				No metal box? WTF?`,
+	},
+
+	"Infinity 2.0": {
+		text: `Light-up Frost-giant diorama
+				Takes 4 C batteries, not included, of course. No metal box? WTF?`,
+	},
+
+	"Just Cause 4": {
+		images: ['justcause4.jpg'],
+		text: `Metal box
+				DLC: A Neon-Racer car`,
+	},
+
+	"Langrisser I & II": {
+		images: ['langrisser.jpg'],
+		text: `Visual Book, Original 2-Disc Soundtrack, Songs of War 3-Disc Soundtrack, Collector's Box, Collectible Art Cards
+				No metal box? WTF?`,
+	},
+
+	"Last Guardian": {
+		images: ['lastguardian.jpg'],
+		text: `Metal box, statue, art book, stickers, cool box
+				DLC: OST, theme`,
+	},
+
+	"Megadimension Neptunia VII Limited Edition": {
+		images: ['neptuniavii.png'],
+		text: `Megadimension Neptunia VII's PS4 NEXT Skin, Dandy Umio Plush, Megadimension Neptunia VII Official Artbook, Megadimension Neptunia VII Official Soundtrack, Reversible Cover Sleeve, Collector's Box with Slipcover, Bonus Poster - Clash of CPUs!
+				No metal box? WTF?`,
+	},
+
+	"Megadimension Neptunia VIIR Limited Edition": {
+		images: ['neptuniaviir.png'],
+		text: `PS4 controller skin, Plushie, Artbook, Reversible Cover Sleeve, Collector's Box, No metal box? WTF?`,
+	},
+
+	"Metal Gear Solid V": {
+		images: ['mgs5.jpg'],
+		text: `A cool box, 1/2-scale replica prosthetic arm, map, regular AND metal box, behind the scenes bluray
+				DLC that I can't find... Japan got a 1:1 scale replica`,
+	},
+
+	"Neptunia x Senran Kagura: Ninja Wars": {
+		images: ['neptunianinja.jpg'],
+		text: `A cool box`,
+	},
+
+	"Neptunia Virtual Stars": {
+		images: ['neptuniavirtualstars.jpg'],
+		text: `A cool box, steel box, art book, OST (CD and Vinyl), trading card`,
+	},
+
+	"No Man's Sky": {
+		images: ['nomanssky.jpg'],
+		text: `A cool box`,
+	},
+
+	"Omega Quintet": {
+		images: ['omegaquintet.jpg'],
+		text: `Cool box, OST, 6 buttons, art book, note book
+				No metal box? WTF?`,
+	},
+
+	"Oneechanbara ZII: Chaos": {
+		images: ['oneechanbara.jpg'],
+		text: `Cool box, OST, art book
+				DLC: A really ugly skimpy costume
+				No metal box? WTF?`,
+	},
+
+	"Sword Art Online: Fatal Bullet": {
+		images: ['saofatalbullet.jpg'],
+		text: `Kirito and Sinon figures, cool box
+				DLC: Costumes
+				No metal box? WTF? Web exclusive`,
+	},
+
+	"Sword Art Online: Hollow Realization": {
+		images: ['saohollowrealization.jpg', 'saosteelbook.jpg'],
+		text: `Kirito and Asuna figures, 2 blu-rays, cool box, mini posters/stickers, artbook, metal box
+				DLC: Costumes
+				Second metal box`,
+	},
+
+	"Uncharted 4": {
+		images: ['uncharted4.jpg'],
+		text: `Metal box, art book, cool box, stickers, 300 of in-game currency`,
+	},
+
+	"Valkyria Chronicles": {
+		images: ['valkyriastelbook.jpg'],
+		text: `Metal box and plastic slip cover`,
+	},
+
+	"Valkyria Chronicles 4": {
+		images: ['valkyria4.jpg'],
+		text: `Art book, a cool box, controller skin, tank statue
+				DLC: 2 missions
+				No metal box? WTF?`,
+	},
+
+	"Watch_Dogs": {
+		images: ['watchdogs.jpg'],
+		text: `Metal box, art book, face mask, soundtrack, mini statue, cool box, some DLC`,
+	},
+
+	"Watch_Dogs 2": {
+		images: ['watchdogsrobot.jpg'],
+		text: `Watcher bot: remote controlled (via a 75 MB Android/iOS app) robot. 2 axis of movement, small monochrome LCD (to display emoticons) which is nowhere near as visible as the picture implies, speaker (has some preprogrammed sounds, and can accept audio from the remote app, 4 LEDs, wireless (via very unstable Bluetooth), takes 6xAA batteries (not included, of course), the battery compartment has a screw`,
+	},
+
+	"PlayStation Portable": {},
+
+	"Final Fantasy 7 - Crisis Core": {
+		images: ['shinra.jpg'],
+		text: `Shinra UMD Case`,
+	},
+
+	"Metal Gear AC!D 2": {
+		images: ['solideye.jpg'],
+		text: `Stereogram divider (3D illusion)`,
+	},
+
+	"Metal Gear Solid - Peace Walker: Limited Edition": {
+		images: ['metalgearpeacewalker.jpg'],
+		text: `Exclusive artbook, collector's box`,
+	},
+
+	"Parasite Eve 3/3rd Birthday: Twisted Edition": {
+		images: ['parasiteeve3.jpg'],
+		text: `Released: April 1, 2011
+				Exclusive artbook, collector's box, lithographs
+				Only available in Europe, no metal box? WTF?`,
+	},
+
+	"Prinny 2": {
+		images: ['prinnypanties.jpg'],
+		text: `Prinny-themed thong underwear
+				Only 50 pairs released to the public`,
+	},
+
+	"PlayStation Vita": {},
+
+	"Gal*Gun": {
+		images: ['galgun.jpg'],
+		text: `Artbook
+				DLC: 5 costumes
+				No metal box? WTF? The European version was vastly superior`,
+	},
+
+	"Neptunia PP (JPN and USA)": {
+		images: ['neptuniapp.jpg', 'neptuniapp2.jpg'],
+		text: `JPN: Sticker, art book, CD, cellphone stand
+				No metal box? WTF?
+				USA: Headphones, cloth
+				No metal box? WTF?`,
+	},
+
+	"Neptunia Re;birth": {
+		images: ['neptuniar1.jpg'],
+		text: `Keychain, Vita case, artwork
+				No metal box? WTF? IIF put it on Amazon, with no way to preorder, limited it to 1000, blocked non-US (and even some US) buyers`,
+	},
+
+	"Neptunia Re;birth 2": {
+		images: ['neptuniar2.jpg'],
+		text: `Calendar, OST, a cool box
+				No metal box? WTF?`,
+	},
+
+	"Neptunia Re;birth 3": {
+		images: ['neptuniav3.png'],
+		text: `Mousepad, papercraft, a cool box
+				No metal box? WTF?`,
+	},
+
+	"Neptunia Noire": {
+		images: ['neptunianoire.jpg', 'noir.jpg'],
+		text: `Wall Scroll, Art Book, A cool box, reversible sleeve art
+				Nendoroid
+				No metal box? WTF?`,
+	},
+
+	"Neptunia U": {
+		images: ['neptuniau.jpg'],
+		text: `OST, cool box, body pillowcase
+				No metal box? WTF?`,
+	},
+
+	"Psycho Pass": {
+		images: ['psychopass.jpg'],
+		text: `OST, cool box, art book, 3 mini posters, cloth
+				No metal box? WTF?`,
+	},
+
+	"Ragnarok Odyssey: Mercenary Edition": {
+		images: ['ragnarokodyssey.jpg'],
+		text: `A cool box, hardcover artbook/manual, soundtrack
+				No metal box? WTF? You get 10 random cards out of a possible 52`,
+	},
+
+	"Senran Kagura": {
+		images: ['senrankagura.jpg'],
+		text: `A cool box, OST, artbook
+				No metal box? WTF?`,
+	},
+
+	"Sorcery Saga: Curse of the Great Curry God: Sugar and Spicey, Everything Nicey Edition": {
+		images: ['sorcerysaga.jpg'],
+		text: `A cool box, bib, spoon and Kuu-shaped bowl
+				No metal box? WTF?`,
+	},
+
+	"Superdimension Neptune VS Sega Hard Girls": {
+		images: ['neptuniasegahard.jpg'],
+		text: `Vita Skins (1 for the 1K, and another for the 2K), Pillowcase, art book, OST, box
+				No metal box? WTF?`,
+	},
+
+	"Yomari": {
+		images: ['yomari.jpg'],
+		text: `Color-changing thermos, OST, 2 art books (1 for Yomari, 1 for htoL#NiQ)
+				No metal box? WTF?`,
+	},
+
+	"Gamecube, Wii & Wii U": {},
+
+	"Legend of Zelda: Four Swords Adventures Plus": {
+		images: ['zelda4swords.jpg'],
+		text: `GBA to GCN link cable and collector's box
+				Japanese version of the game which includes Tetra's Trackers, which the US/NA version lacked`,
+	},
+
+	"Legend of Zelda: Twilight Princess": {
+		images: ['zeldashield.jpg'],
+		text: `Scale replica Master Sword and Hylian Shield, OST`,
+	},
+
+	"Legend of Zelda: Skyward Sword": {
+		images: ['skywardsword.jpg', 'skywardswordsteelbook.jpg'],
+		text: `Released: November 20, 2011
+				Wiimote with motionplus, OST
+				No metal box? WTF?
+				Metal box sold separately and only at specific stores`,
+	},
+
+	"Legend of Zelda: Collector's Editions": {
+		images: ['zeldacollection.jpg', 'zeldaootmq.jpg'],
+		text: `Legend of Zeldas: Ocarina of Time, Master's Quest
+				Included when you preordered a copy of Wind Waker
+				Legend of Zeldas: 1, 2, Ocarina of Time, Majora's Mask
+				Included with a subscription to Nintendo Power`,
+	},
+
+	"Legend of Zelda: Majora's Mask": {
+		images: ['majorasmask.jpg'],
+		text: `Gold colored cartridge, holographic label`,
+	},
+
+	"Legend of Zelda: Twilight Princess HD": {
+		text: `Wolf Link amiibo, OST
+				No metal box? WTF?`,
+	},
+
+	"Legend of Zelda: The Wind Waker HD": {
+		text: `Ganondorf figurine
+				No metal box? WTF?`,
+	},
+
+	"Legend of Zelda: Prima Guide Box Set": {
+		text: `A cool treasure box with magnetic clip, a ribbon to make removing a book easier, metalic bookmark, certificate of authenticity
+				Hardcover guides for Phantom Hourglass, Spirit Tracks, Twilight Princess, Ocarina of Time 3D, Skyward Sword, The Wind Waker HD
+				Bought separately:
+				A Link Between Worlds, Tri Force Heroes hardcover guide`,
+	},
+
+	"Pokemon Box": {
+		images: ['pokemonbox.jpg'],
+		text: `GBA to GCN link cable and red/blue memory card and collector's box
+				Only available online`,
+	},
+
+	"Rototech": {
+		images: ['robotech.jpg'],
+		text: `T-shirt, OST, lithograph, dogtag`,
+	},
+
+	"Tales of Symphonia": {
+		text: `lithograph, artbook`,
+	},
+
+	"Gameboy, DS, 3DS and Switch": {},
+
+	"Bravely Default": {
+		images: ['bravelydefault.jpg'],
+		text: `Collector's box, Augment Reality cards, OST, artbook`,
+	},
+
+	"Corpse Party": {
+		images: ['corpseparty.jpg'],
+		text: `Collector's box, 2 Nendoroids, OST`,
+	},
+
+	"Legend of Zelda": {
+		images: ['zeldabook.jpg', 'zeldachest.jpg', 'zeldablanket.jpg', 'zeldabooks.jpg', 'zeldalttp.jpg', 'zeldaost.jpg', 'zeldastylus.jpg'],
+		text: `Phantom Hourglass Feather Stylus
+				Ocarina of Time 3D OST
+				Musical 3DS game-storage chest for Link Between Worlds
+				Import-only
+				Link to the Past comic book
+				A blanket designed to look like the NES cartridge for the first Zelda game`,
+	},
+
+	"Pokemon Sun & Moon": {
+		images: ['pokemonsteelbox.jpg'],
+		text: `2-game metal box, the first metal box for a portable game`,
+	},
+
+	"Project X": {
+		images: ['projectxzone.jpg'],
+		text: `Artbook, OST, slipcover, mini poster`,
+	},
+
+	"Sakura Wars": {
+		text: `JPN version of the game, Pocket Sakura (system)`,
+	},
+
+	"Super Neptunia RPG": {
+		images: ['neptuniarpg.png'],
+		text: `Steel Book (finally), artbook, OST, 2 cool boxes, plushie pudding, cards`,
+	},
+
+	"XBOX": {},
+
+	"Doom 3": {
+		images: ['doom3.jpg'],
+		text: `Metal box + Clear slipcover, Doom 1 and 2`,
+	},
+
+	"Fable": {
+		images: ['fable1.jpg'],
+		text: `Collector's DVD`,
+	},
+
+	"Halo 2": {
+		images: ['halo2.jpg', 'cortana.jpg', 'h1mc.jpg'],
+		text: `Master Chief and Cortana action figures
+				Metal Box + Clear slipcover, Retail metal box advertising stand (similar to the metal box for the game, but on a cardboard stand and some of what was on the clear slipcover is printed on the metal itself)`,
+	},
+
+	"XBOX 360": {},
+
+	"Ace Combat 6": {
+		images: ['acecombat6.jpg'],
+		text: `Faceplate, Ace-Edge Flightstick
+				Once you attach the palm-rest to the joystick, it no longer fits in the box. What's worse is they made the same mistake years ago
+				What's even worse than that is due to MS's controller encryption, the game won't use the PS2 Flight Stick 2`,
+	},
+
+	"Dead Rising 2": {
+		images: ['deadrising2.jpg'],
+		text: `Metal box, Zombrex Dead Rising Sun Movie and Making of featurette, Syringe pen, Prescription notepad, Safety card, Zombrex Sales Brochure, Hard cover Artbook
+				The PS3 version gets a dynamic theme instead of a movie, a lower framerate, screen tearing, no shadows, and doesn't get the Case Zero or Case West missions
+				Europe got a better collector's edition with more content (Zombie and Servebot figurines)
+				Capcom's website offers another exclusive edition without any of the content from this one
+				The sales brochure comes poorly folded/damaged`,
+	},
+
+	"DeathSmiles": {
+		images: ['deathsmiles.jpg'],
+		text: `Soundtrack, faceplate
+	N			No metal box? WTF?`,
+	},
+
+	"Gears of War": {
+		images: ['gearsofwar1.jpg'],
+		text: `Metal box, hardcover art book`,
+	},
+
+	"Gears of War 2": {
+		images: ['gearsofwar2.jpg'],
+		text: `Metal box, Disc case/box, hardcover artbook (originally in French, you had to demand an English version), photo of character's wife
+			DLC: downloadable maps, weapon skin (which everyone ended up getting due to a glitch)
+			Exclusive Chainsaw-rifle available only if you purchased it from Amazon, and got it after the launch day`,
+	},
+
+	"Fable 2": {
+		images: ['fable2.jpg'],
+		text: `Collector's slip cover, bonus DVD that shows all the stuff they didn't include
+				DLC: Halo armor (which everyone ended up getting due to a glitch), XBLA minigame
+				No metal box? WTF?`,
+	},
+
+	"Halo 3: Legendary Edition": {
+		images: ['halo3.jpg', 'h3cortana.jpg', 'spnkr.jpg'],
+		text: `Legendary Helmet, Cortana action figure, SPNKr missile case, Halo 1/2 cutscene disc
+				Released in such high quantities that stores dropped prices by over half very quickly just to get rid of them
+				No metal box? WTF? What's worse is the regular Collector's Edition does have a metal box
+				The box claimed the cutscene disc was in HD, it was actually lower quality than the original games`,
+	},
+
+	"Halo 4: Collector's Edition": {
+		images: ['halo4.png'],
+		text: `Metal box, UNSC Infinity Briefing Packet, Halo 4: Forward Unto Dawn (ViDoc, Making of, pamphlet) Individually numbered
+				DLC: War Games Map Pack, Instant access to Specializations, armor permutations, emblems, SPARTAN skins and weapon skins, Avatar Gear
+				Most DLC is only useful if you have XBOX Live Gold
+				Some of the items are wrapped in destructible packaging`,
+	},
+
+	"Halo Reach: Legendary Edition": {
+		images: ['hr_legendary.jpg'],
+		text: `ONI "black box" holding the game disc, and an artifact bag containing Dr. Halsey's personal journal and various documents and effects that explore the history of the Halo universe.
+				10 inch tall, 10 pound diorama statue featuring the members of Noble Team, a flaming Spartan helmet for multiplayer, a UNSC-themed custom box, Halo lanyard, tape all over the box that makes it dangerous to open
+				DLC: an exclusive set of Elite armor for multiplayer (only if you have XBOX Live Gold)
+				No metal box? WTF?
+				There was a Halo Reach themed 360 released, that only came with the regular edition`,
+	},
+
+	"Otomedius Excellent": {
+		images: ['otomedius.jpg'],
+		text: `Released: November 8, 2011
+				Art book, OST, pillowcase
+				No metal box? WTF?`,
+	},
+
+	"Perfect Dark Zero": {
+		images: ['perfectdarkzero.jpg'],
+		text: `Metal box, lithograph, bonus DVD`,
+	},
+
+	"Prey": {
+		images: ['prey.jpg'],
+		text: `Metal box, 2 pewter figures
+				DLC: downloadable soundtrack (which I couldn't get)`,
+	},
+
+	"Virtual On": {
+		images: ['feiyenhd.jpg'],
+		text: `Fei Yen HD Composite Ver-Ka figurine of Miku Hatsune`,
+	},
+
+	"PC": {},
+
+	"Fallout Anthology": {
+		images: ['fallout.png'],
+		text: `Fake nuke case, copies of Fallout 1, 2, Tactics, 3 (GOTY), New Vegas (Ultimate), a fragile plastic outer-box
+				No metal box? WTF?`,
+	},
+
+	"Star Trek: Online": {
+		images: ['startrekonline.jpg', 'klingonknife.jpg'],
+		text: `Faux-metal cardboard box with holographic cover, art book, die-cast TOS badge, 3 1-day buddy cards
+				DLC: In-game uniforms
+				Fake metal box? WTF?`,
+	},
+
+	"Non-game Collectibles": {},
+
+	"NES themed wallet": {
+		images: ['neswallet.jpg'],
+		text: ``,
+	},
+
+	"Giant Augmented-Reality card": {
+		images: [],
+		text: `A large version of the question block AR card`,
+	},
+
+	"Club Nintendo, DS foam game case": {
+		images: ['clubnintendostyluses.jpg'],
+		text: `Holds 9 games, comes with a rainbow colored set of stylus' fit for a DS lite.`,
+	},
+
+	"PlayStation Gamer Advisory Panel hat": {
+		images: ['sonyhat.jpg'],
+		text: ``,
+	},
+
+	"A Power Glove-themed oven mitt": {
+		images: ['powerglove.jpg'],
+		text: ``,
+	},
+
+	"Autographed Superman Blue shirt, yes, it's blue. The Nexus5X camera sucks": {
+		images: ['supermanshirt.jpg'],
+		text: ``,
+	},
+
+};
  
 	window.addEventListener('load', function () {
       		set_HTML("controllers", make_photos(true, "collectibles"));
     	});
 </SCRIPT>
 <DIV ID="controllers"></DIV>
+
+
+
+
+<table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse;border-color:rgb(136,136,136);border-width:1px" data-table-local-id="table-135" cellspacing="0" bordercolor="#888" border="1">
+   <tbody>
+      <tr>
+         <td style="width:123px;height:16px">
+            <b>Actor</b>
+         </td>
+         <td style="width:62px;height:16px">
+            <b>Character</b>
+         </td>
+         <td style="width:356px;height:16px">
+            <b>Series/Movie</b>
+         </td>
+         <td style="width:93px;height:16px">
+		 <b>Convention</b>
+         </td>
+         <td style="width:110px;height:16px">
+            <b>Date</b>
+         </td>
+      </tr>
+      <tr>
+         <td style="width:123px;height:16px">Dean Cain</td>
+         <td style="width:62px;height:16px">Superman</td>
+         <td style="width:356px;height:16px">The New Adventures of Lois and Clark</td>
+         <td style="width:93px;height:16px">FanExpo</td>
+         <td style="width:110px;height:16px">August 23, 2012</td>
+      </tr>
+      <tr>
+         <td style="width:123px;height:16px">Laura Vandervoort</td>
+         <td style="width:62px;height:16px">Supergirl</td>
+         <td style="width:356px;height:16px">Smallville</td>
+         <td style="width:93px;height:16px">ConBravo</td>
+         <td style="width:110px;height:16px">July 27, 2018</td>
+      </tr>
+      <tr>
+         <td style="width:123px;height:16px">Tom Welling</td>
+         <td style="width:62px;height:16px">Superman</td>
+         <td style="width:356px;height:16px">Smallville</td>
+         <td style="width:93px;height:16px">FanExpo</td>
+         <td style="width:110px;height:16px">August 25, 2019</td>
+      </tr>
+      <tr>
+         <td style="width:123px;height:16px">Michael Rosenbaum</td>
+         <td style="width:62px;height:16px">Lex Luthor</td>
+         <td style="width:356px;height:16px">Smallville</td>
+         <td style="width:93px;height:16px">FanExpo</td>
+         <td style="width:110px;height:16px">August 25, 2019</td>
+      </tr>
+      <tr>
+         <td style="width:123px;height:16px">Tyler Hoechlin</td>
+         <td style="width:62px;height:16px">Superman</td>
+         <td style="width:356px;height:16px">
+            Supergirl (series)
+            <br>
+         </td>
+         <td style="width:93px;height:16px">FanExpo</td>
+         <td style="width:110px;height:16px">August 25, 2019</td>
+      </tr>
+   </tbody>
+</table>
+
+
+
+<table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse;border-color:rgb(136,136,136);border-width:1px" data-table-local-id="table-136" cellspacing="0" bordercolor="#888" border="1">
+   <tbody>
+      <tr>
+         <td style="width:122px;height:16px">
+            <b>Actor</b>
+         </td>
+         <td style="width:62px;height:16px">
+            <b>Character</b>
+         </td>
+         <td style="width:358px;height:16px">
+            <b>Series/Movie</b>
+         </td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Tim Daly
+         </td>
+         <td style="width:62px;height:16px">
+            Superman
+         </td>
+         <td style="width:358px;height:16px">
+            Superman the Animated Series
+         </td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Clancy Brown
+         </td>
+         <td style="width:62px;height:16px">
+            Lex Luthor
+         </td>
+         <td style="width:358px;height:16px">Superman the Animated Series</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Dana Delany
+         </td>
+         <td style="width:62px;height:16px">
+            Lois Lane
+         </td>
+         <td style="width:358px;height:16px">Superman the Animated Series</td>
+      </tr>
+      <tr>
+         <td>
+            Jerry O'Connell
+         </td>
+         <td>
+            Superman
+         </td>
+         <td>
+            Justice League Dark
+         </td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Brandon Routh
+         </td>
+         <td style="width:62px;height:16px">
+            Superman
+         </td>
+         <td style="width:358px;height:16px">
+            Superman Returns
+         </td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Kate Bosworth
+         </td>
+         <td style="width:62px;height:16px">
+            Lois Lane
+         </td>
+         <td style="width:358px;height:16px">Superman Returns</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">Kevin Spacey</td>
+         <td style="width:62px;height:16px">Lex Luthor</td>
+         <td style="width:358px;height:16px">Superman Returns</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Henry Cavill
+         </td>
+         <td style="width:62px;height:16px">Superman</td>
+         <td style="width:358px;height:16px">
+            Man of Steel - Batman v. Superman - Justice League
+         </td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Amy Adams
+         </td>
+         <td style="width:62px;height:16px">Lois Lane</td>
+         <td style="width:358px;height:16px">Man of Steel - Batman v. Superman - Justice League</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Jesse Eisenberg
+         </td>
+         <td style="width:62px;height:16px">Lex Luthor</td>
+         <td style="width:358px;height:16px">Man of Steel - Batman v. Superman - Justice League</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Kristen Kreuk
+         </td>
+         <td style="width:62px;height:16px">
+            Lana Lang
+         </td>
+         <td style="width:358px;height:16px">
+            Smallville
+         </td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">Erica Durance</td>
+         <td style="width:62px;height:16px">Lois Lane</td>
+         <td style="width:358px;height:16px">Smallville</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Melissa Benoist
+            <br>
+         </td>
+         <td style="width:62px;height:16px">Supergirl</td>
+         <td style="width:358px;height:16px">Supergirl (series)</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Helen Slater
+         </td>
+         <td style="width:62px;height:16px">
+            Supergirl
+         </td>
+         <td style="width:358px;height:16px">Supergirl (movie)</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">Teri Hatcher</td>
+         <td style="width:62px;height:16px">
+            Lois Lane
+         </td>
+         <td style="width:358px;height:16px">The New Adventures of Lois and Clark</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            John Shea
+         </td>
+         <td style="width:62px;height:16px">
+            Lex Luthor
+         </td>
+         <td style="width:358px;height:16px">The New Adventures of Lois and Clark</td>
+      </tr>
+      <tr>
+         <td style="width:122px;height:16px">
+            Gene Hackman
+         </td>
+         <td style="width:62px;height:16px">Lex Luthor</td>
+         <td style="width:358px;height:16px">
+            The original movies
+         </td>
+      </tr>
+   </tbody>
+</table>
+
