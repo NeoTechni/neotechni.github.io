@@ -90,7 +90,7 @@ classes: wide
    };
 	
    window.addEventListener('load', function () {
-      	set_HTML("controllers", make_photos(true));
+      	set_HTML("controllers", make_photos(true, "wanted"));
 	
 	photos = {
 		"Razer Artemis (PC)": {
@@ -105,7 +105,7 @@ classes: wide
 			text: `A giant USB NES controller, only with 4 buttons instead of 2, costs $500`,
 		},
 	};
-	set_HTML("gone", make_photos(true));
+	set_HTML("gone", make_photos(true, "wanted"));
 	   
 	photos = {
 		"Ringbow (AND/iOS)": {
@@ -126,7 +126,7 @@ classes: wide
 			text: `A bluetooth RGB LED`,
 		},
 	};
-	set_HTML("kickstarter", make_photos(true));
+	set_HTML("kickstarter", make_photos(true, "wanted"));
    });
 </SCRIPT>
 
