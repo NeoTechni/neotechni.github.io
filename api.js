@@ -816,7 +816,15 @@ function make_photos(titles = true, folder = 'photos'){
 				for(var i = 0; i < photos[key].images.length; i++){
 					HTML += makeimg(photos[key].images[i], iif(titles, key, 'Image'), folder);
 				}
-				HTML += '</TD><TD>' + nl2br(photos[key].text) + '</TD></TR></TABLE>';			
+				HTML += '</TD><TD>';
+				if(photos[key].hasOwnProperty("url")){
+					HTML += '<A HREF="' + photos[key].url + '">';
+				}
+				HTML += nl2br(photos[key].text);
+				if(photos[key].hasOwnProperty("url")){
+					HTML += '</A>';	
+				}
+				HTML += '</TD></TR></TABLE>';
 			} else {
 				var name = toclassname(key);
 				LIST += iif(level > 0, iif(titles, '</UL>') + '</LI>') + '<LI><A HREF="#' + name + '">' + key + '</A>' + iif(titles, '<UL>', '</LI>');
