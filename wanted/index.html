@@ -1,0 +1,35 @@
+--
+title: Wanted
+layout: default
+classes: wide 
+---
+<SCRIPT>
+	photos = {
+		"Peach Lego": {
+			images: ['peach.png'],
+			text: `Releases: August 1
+      The LEGO character unit for Peach`,
+		}, "Luigi Lego": {
+			images: ['peach.png'],
+			text: `The LEGO character unit for Luigi`,
+		}, "Analogue Pocket": {
+			images: ['analogue.png'],
+			text: `Preordered for Q4 2022
+      An FPGA-based handheld capable of playing GB/GBC/GBA games out of the box, and others with adapters`,
+		}, "Astro City V": {
+			images: ['astrocityv.png'],
+			text: `Preordered for Q4 2022
+      Similar to the Astro City Mini, but with a vertically-oriented screen`,
+		}, "Steam Deck": {
+			images: ['analogue.png'],
+			text: `Preordered for after Q3 2022
+      A handheld PC`,
+		},
+		
+   };
+   window.addEventListener('load', function () {
+      set_HTML("controllers", make_photos(true));
+   });
+</SCRIPT>
+
+<DIV ID="controllers"></DIV>
