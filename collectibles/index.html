@@ -1,0 +1,22 @@
+---
+title: Collectibles
+layout: default
+classes: wide 
+---
+<SCRIPT>
+	  photos = {
+        "PlayStation 1",
+        
+        "Lunar I + II": {
+            images: ['lunar1.jpg', 'lunar2.jpg', 'puchingpuppetghaleon.png'],
+            text: `Hardcover manuals, Lunar pendant, OSTs, Punching Ghaleon Doll/Puppet, boxes, cloth maps, character standees`,
+        },        
+        
+        
+    };
+ 
+    window.addEventListener('load', function () {
+      	set_HTML("controllers", make_photos(true, "collectibles"));
+    )};
+</SCRIPT>
+<DIV ID="controllers"></DIV>
