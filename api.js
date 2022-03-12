@@ -801,7 +801,7 @@ function make_photos(titles = true, folder = 'photos'){
 	var HTML = '';
 	for(var key in photos){
 		if(photos.hasOwnProperty(key)){
-			if(isObject(photos[key])){
+			if(photos[key].hasOwnProperty("text")){
 				HTML += '<TABLE CLASS="table">';
 				if(titles){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + key + '</TH></TR><TR>';
