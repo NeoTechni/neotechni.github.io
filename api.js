@@ -813,7 +813,7 @@ function make_photos(titles = true, folder = 'photos'){
 					photos[key].images = [photos[key].images];
 				}
 				if(photos[key].hasOwnProperty("horizontal")){
-					HTML += '<TR><TD CLASS="image top" COLSPAN="2">';
+					HTML += '<TR><TD CLASS="image top imagelist" COLSPAN="2">';
 				} else {
 					HTML += '<TR><TD CLASS="image top">';
 				}
