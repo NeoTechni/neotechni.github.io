@@ -802,7 +802,7 @@ function make_photos(titles = true, folder = 'photos'){
 	for(var key in photos){
 		if(photos.hasOwnProperty(key)){
 			if(photos[key].hasOwnProperty("text")){
-				HTML += '<TABLE CLASS="table">';
+				HTML += '<A NAME="' + toclassname(key) + '"></A><TABLE CLASS="table">';
 				if(titles){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + key + '</TH></TR><TR>';
 					LIST += '<LI><A HREF="#' + toclassname(key) + '">' + key + '</A></LI>';
@@ -812,11 +812,19 @@ function make_photos(titles = true, folder = 'photos'){
 				} else if(!isArray(photos[key].images)){
 					photos[key].images = [photos[key].images];
 				}
-				HTML += '<TR><TD CLASS="image top">';
+				if(photos[key].hasOwnProperty("horizontal")){
+					HTML += '<TR><TD CLASS="image top" COLSPAN="2">';
+				} else {
+					HTML += '<TR><TD CLASS="image top">';
+				}
 				for(var i = 0; i < photos[key].images.length; i++){
 					HTML += makeimg(photos[key].images[i], iif(titles, key, 'Image'), folder);
 				}
-				HTML += '</TD><TD>';
+				if(photos[key].hasOwnProperty("horizontal")){
+					HTML += '</TD></TR><TR><TD COLSPAN="2">';	
+				} else {
+					HTML += '</TD><TD>';
+				}
 				if(photos[key].hasOwnProperty("url")){
 					HTML += '<A HREF="' + photos[key].url + '">';
 				}
