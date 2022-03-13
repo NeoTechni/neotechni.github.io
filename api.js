@@ -792,7 +792,7 @@ function make_controller(controller = false, stat = false, name = false){
 }
 
 function makeimg(filename, description, folder = 'images'){
-	return '<IMG SRC="/' + folder + '/' + filename + '" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + description + '">';
+	return '<IMG SRC="' + iif(filename.contains('/', "", '/' + folder + '/') + filename + '" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + description + '">';
 }
 
 function make_photos(titles = true, folder = 'photos'){
