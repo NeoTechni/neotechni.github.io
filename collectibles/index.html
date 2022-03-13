@@ -30,6 +30,7 @@ var photos = {
 	"PlayStation 2": {},
 
 	"Ace Combat 5": {
+		images: ['/images/000-02A.jpg'],
 		text: `Big box, Flight Stick 2, giant (~1 foot diameter) team patch
 				Once you attach the palm-rest to the joystick, it no longer fits in the box`,
 	},
@@ -50,6 +51,7 @@ var photos = {
 	},
 
 	"Phantom Brave": {
+		images: ['phantombrave.jpg'],
 		text: `Soundtrack`,
 	},
 
@@ -59,14 +61,17 @@ var photos = {
 	},
 
 	"Space Invaders Anniversary": {
+		images: ['/images/081.jpg'],
 		text: `Space Invaders Controller`,
 	},
 
 	"Star Ocean - Till the End of Time: Director's Cut": {
+		images: ['starocean.jpg'],
 		text: `Extra features, box slip cover, second disc`,
 	},
 
 	"Xenosaga": {
+		images: ['xenosaga.jpg'],
 		text: `FMV disc (x2)`,
 	},
 
@@ -120,13 +125,13 @@ var photos = {
 	},
 
 	"Dead Space": {
-		images: ['artofdeadspace.jpg'],
+		images: ['artofdeadspace.jpg', 'deadspacebook.jpg'],
 		text: `Artbook, anaglyph 3D glasses
 				Collector's Edition only released in extremely limited quantities (1000 total) and only for XBOX360`,
 	},
 
 	"Dead Space 2: Collector's Edition": {
-		images: ['deadspace2.jpg', 'deadspacebook.jpg'],
+		images: ['deadspace2.jpg'],
 		text: `Released: January 25, 2011
 				Plasma cutter replica, Dead Space Extraction, Animation Cell, OST
 				No metal box? WTF? Outer box had tape on it, Plasma cutter was 1/3 the proper size, DSE can't be played directly from the disc yet requires the disc, batteries not included
@@ -336,6 +341,7 @@ var photos = {
 	},
 
 	"Infinity 2.0": {
+		images: ['/images/%E2%88%9Ecollectorsedition.jpg'],
 		text: `Light-up Frost-giant diorama
 				Takes 4 C batteries, not included, of course. No metal box? WTF?`,
 	},
@@ -377,7 +383,7 @@ var photos = {
 
 	"Neptunia x Senran Kagura: Ninja Wars": {
 		images: ['neptunianinja.jpg'],
-		text: `A cool box`,
+		text: `A metal box, Trading Card, Wall Scroll, Art book, A cool box, OST`,
 	},
 
 	"Neptunia Virtual Stars": {
@@ -387,7 +393,8 @@ var photos = {
 
 	"No Man's Sky": {
 		images: ['nomanssky.jpg'],
-		text: `A cool box`,
+		text: `A metal box, slipcover, art book, comic
+				DLC: PS4 theme, Photonix Core Ship Boost, Trader Charisma Bonus Resources, Boltcaster 5M Weapon Blueprint`,
 	},
 
 	"Omega Quintet": {
@@ -593,16 +600,19 @@ var photos = {
 	},
 
 	"Legend of Zelda: Twilight Princess HD": {
+		images: ['/images/247-WL.jpg'],
 		text: `Wolf Link amiibo, OST
 				No metal box? WTF?`,
 	},
 
 	"Legend of Zelda: The Wind Waker HD": {
+		images: ['windwaker.jpg'],
 		text: `Ganondorf figurine
 				No metal box? WTF?`,
 	},
 
 	"Legend of Zelda: Prima Guide Box Set": {
+		images: ['zeldabooks.jpg', 'zeldabook.jpg'],
 		text: `A cool treasure box with magnetic clip, a ribbon to make removing a book easier, metalic bookmark, certificate of authenticity
 				Hardcover guides for Phantom Hourglass, Spirit Tracks, Twilight Princess, Ocarina of Time 3D, Skyward Sword, The Wind Waker HD
 				Bought separately:
@@ -621,6 +631,7 @@ var photos = {
 	},
 
 	"Tales of Symphonia": {
+		images: ['symphonia.jpg'],
 		text: `lithograph, artbook`,
 	},
 
@@ -637,7 +648,7 @@ var photos = {
 	},
 
 	"Legend of Zelda": {
-		images: ['zeldabook.jpg', 'zeldachest.jpg', 'zeldablanket.jpg', 'zeldabooks.jpg', 'zeldalttp.jpg', 'zeldaost.jpg', 'zeldastylus.jpg'],
+		images: ['zeldachest.jpg', 'zeldablanket.jpg', 'zeldalttp.jpg', 'zeldaost.jpg', 'zeldastylus.jpg'],
 		text: `Phantom Hourglass Feather Stylus
 				Ocarina of Time 3D OST
 				Musical 3DS game-storage chest for Link Between Worlds
@@ -657,6 +668,7 @@ var photos = {
 	},
 
 	"Sakura Wars": {
+		images: ['/images/000-15B.jpg'],
 		text: `JPN version of the game, Pocket Sakura (system)`,
 	},
 
@@ -797,7 +809,7 @@ var photos = {
 	},
 
 	"Giant Augmented-Reality card": {
-		images: [],
+		images: ['giantcard.jpg'],
 		text: `A large version of the question block AR card`,
 	},
 
@@ -825,117 +837,101 @@ var photos = {
  
 	window.addEventListener('load', function () {
       		set_HTML("controllers", make_photos(true, "collectibles"));
-    	});
+	});
 </SCRIPT>
 <DIV ID="controllers"></DIV>
 
-
-
-
-<table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse;border-color:rgb(136,136,136);border-width:1px" data-table-local-id="table-135" cellspacing="0" bordercolor="#888" border="1">
+<table CLASS="table">
    <tbody>
+   	<TR>
+		<TH COLSPAN="5">SIGNED BY:</TH>
+	</TR>	
       <tr>
-         <td style="width:123px;height:16px">
+         <td style="width:123px;">
             <b>Actor</b>
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             <b>Character</b>
          </td>
-         <td style="width:356px;height:16px">
+         <td style="width:356px;">
             <b>Series/Movie</b>
          </td>
-         <td style="width:93px;height:16px">
+         <td style="width:93px;">
 		 <b>Convention</b>
          </td>
-         <td style="width:110px;height:16px">
+         <td style="width:110px;">
             <b>Date</b>
          </td>
       </tr>
       <tr>
-         <td style="width:123px;height:16px">Dean Cain</td>
-         <td style="width:62px;height:16px">Superman</td>
-         <td style="width:356px;height:16px">The New Adventures of Lois and Clark</td>
-         <td style="width:93px;height:16px">FanExpo</td>
-         <td style="width:110px;height:16px">August 23, 2012</td>
+         <td style="width:123px;">Dean Cain</td>
+         <td style="width:62px;">Superman</td>
+         <td style="width:356px;">The New Adventures of Lois and Clark</td>
+         <td style="width:93px;">FanExpo</td>
+         <td style="width:110px;">August 23, 2012</td>
       </tr>
       <tr>
-         <td style="width:123px;height:16px">Laura Vandervoort</td>
-         <td style="width:62px;height:16px">Supergirl</td>
-         <td style="width:356px;height:16px">Smallville</td>
-         <td style="width:93px;height:16px">ConBravo</td>
-         <td style="width:110px;height:16px">July 27, 2018</td>
+         <td style="width:123px;">Laura Vandervoort</td>
+         <td style="width:62px;">Supergirl</td>
+         <td style="width:356px;">Smallville</td>
+         <td style="width:93px;">ConBravo</td>
+         <td style="width:110px;">July 27, 2018</td>
       </tr>
       <tr>
-         <td style="width:123px;height:16px">Tom Welling</td>
-         <td style="width:62px;height:16px">Superman</td>
-         <td style="width:356px;height:16px">Smallville</td>
-         <td style="width:93px;height:16px">FanExpo</td>
-         <td style="width:110px;height:16px">August 25, 2019</td>
+         <td style="width:123px;">Tom Welling</td>
+         <td style="width:62px;">Superman</td>
+         <td style="width:356px;">Smallville</td>
+         <td style="width:93px;">FanExpo</td>
+         <td style="width:110px;">August 25, 2019</td>
       </tr>
       <tr>
-         <td style="width:123px;height:16px">Michael Rosenbaum</td>
-         <td style="width:62px;height:16px">Lex Luthor</td>
-         <td style="width:356px;height:16px">Smallville</td>
-         <td style="width:93px;height:16px">FanExpo</td>
-         <td style="width:110px;height:16px">August 25, 2019</td>
+         <td style="width:123px;">Michael Rosenbaum</td>
+         <td style="width:62px;">Lex Luthor</td>
+         <td style="width:356px;">Smallville</td>
+         <td style="width:93px;">FanExpo</td>
+         <td style="width:110px;">August 25, 2019</td>
       </tr>
       <tr>
-         <td style="width:123px;height:16px">Tyler Hoechlin</td>
-         <td style="width:62px;height:16px">Superman</td>
-         <td style="width:356px;height:16px">
+         <td style="width:123px;">Tyler Hoechlin</td>
+         <td style="width:62px;">Superman</td>
+         <td style="width:356px;">
             Supergirl (series)
-            <br>
          </td>
-         <td style="width:93px;height:16px">FanExpo</td>
-         <td style="width:110px;height:16px">August 25, 2019</td>
+         <td style="width:93px;">FanExpo</td>
+         <td style="width:110px;">August 25, 2019</td>
       </tr>
-   </tbody>
-</table>
-
-
-
-<table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse;border-color:rgb(136,136,136);border-width:1px" data-table-local-id="table-136" cellspacing="0" bordercolor="#888" border="1">
-   <tbody>
+<TR>
+	<TH COLSPAN="5">NEEDED</TH>
+</TR>	
       <tr>
-         <td style="width:122px;height:16px">
-            <b>Actor</b>
-         </td>
-         <td style="width:62px;height:16px">
-            <b>Character</b>
-         </td>
-         <td style="width:358px;height:16px">
-            <b>Series/Movie</b>
-         </td>
-      </tr>
-      <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Tim Daly
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             Superman
          </td>
-         <td style="width:358px;height:16px">
+         <td style="width:358px;">
             Superman the Animated Series
          </td>
-      </tr>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Clancy Brown
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             Lex Luthor
          </td>
-         <td style="width:358px;height:16px">Superman the Animated Series</td>
-      </tr>
+         <td style="width:358px;">Superman the Animated Series</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Dana Delany
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             Lois Lane
          </td>
-         <td style="width:358px;height:16px">Superman the Animated Series</td>
-      </tr>
+         <td style="width:358px;">Superman the Animated Series</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
          <td>
             Jerry O'Connell
@@ -946,113 +942,111 @@ var photos = {
          <td>
             Justice League Dark
          </td>
-      </tr>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Brandon Routh
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             Superman
          </td>
-         <td style="width:358px;height:16px">
+         <td style="width:358px;">
             Superman Returns
          </td>
-      </tr>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Kate Bosworth
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             Lois Lane
          </td>
-         <td style="width:358px;height:16px">Superman Returns</td>
-      </tr>
+         <td style="width:358px;">Superman Returns</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">Kevin Spacey</td>
-         <td style="width:62px;height:16px">Lex Luthor</td>
-         <td style="width:358px;height:16px">Superman Returns</td>
-      </tr>
+         <td style="width:122px;">Kevin Spacey</td>
+         <td style="width:62px;">Lex Luthor</td>
+         <td style="width:358px;">Superman Returns</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Henry Cavill
          </td>
-         <td style="width:62px;height:16px">Superman</td>
-         <td style="width:358px;height:16px">
+         <td style="width:62px;">Superman</td>
+         <td style="width:358px;">
             Man of Steel - Batman v. Superman - Justice League
          </td>
-      </tr>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Amy Adams
          </td>
-         <td style="width:62px;height:16px">Lois Lane</td>
-         <td style="width:358px;height:16px">Man of Steel - Batman v. Superman - Justice League</td>
-      </tr>
+         <td style="width:62px;">Lois Lane</td>
+         <td style="width:358px;">Man of Steel - Batman v. Superman - Justice League</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Jesse Eisenberg
          </td>
-         <td style="width:62px;height:16px">Lex Luthor</td>
-         <td style="width:358px;height:16px">Man of Steel - Batman v. Superman - Justice League</td>
-      </tr>
+         <td style="width:62px;">Lex Luthor</td>
+         <td style="width:358px;">Man of Steel - Batman v. Superman - Justice League</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Kristen Kreuk
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             Lana Lang
          </td>
-         <td style="width:358px;height:16px">
+         <td style="width:358px;">
             Smallville
          </td>
-      </tr>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">Erica Durance</td>
-         <td style="width:62px;height:16px">Lois Lane</td>
-         <td style="width:358px;height:16px">Smallville</td>
-      </tr>
+         <td style="width:122px;">Erica Durance</td>
+         <td style="width:62px;">Lois Lane</td>
+         <td style="width:358px;">Smallville</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Melissa Benoist
-            <br>
          </td>
-         <td style="width:62px;height:16px">Supergirl</td>
-         <td style="width:358px;height:16px">Supergirl (series)</td>
-      </tr>
+         <td style="width:62px;">Supergirl</td>
+         <td style="width:358px;">Supergirl (series)</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Helen Slater
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             Supergirl
          </td>
-         <td style="width:358px;height:16px">Supergirl (movie)</td>
-      </tr>
+         <td style="width:358px;">Supergirl (movie)</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">Teri Hatcher</td>
-         <td style="width:62px;height:16px">
+         <td style="width:122px;">Teri Hatcher</td>
+         <td style="width:62px;">
             Lois Lane
          </td>
-         <td style="width:358px;height:16px">The New Adventures of Lois and Clark</td>
-      </tr>
+         <td style="width:358px;">The New Adventures of Lois and Clark</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             John Shea
          </td>
-         <td style="width:62px;height:16px">
+         <td style="width:62px;">
             Lex Luthor
          </td>
-         <td style="width:358px;height:16px">The New Adventures of Lois and Clark</td>
-      </tr>
+         <td style="width:358px;">The New Adventures of Lois and Clark</td>
+      <TD COLSPAN="2"></TD></TR>
       <tr>
-         <td style="width:122px;height:16px">
+         <td style="width:122px;">
             Gene Hackman
          </td>
-         <td style="width:62px;height:16px">Lex Luthor</td>
-         <td style="width:358px;height:16px">
+         <td style="width:62px;">Lex Luthor</td>
+         <td style="width:358px;">
             The original movies
          </td>
-      </tr>
+      <TD COLSPAN="2"></TD></TR>
    </tbody>
 </table>
-
