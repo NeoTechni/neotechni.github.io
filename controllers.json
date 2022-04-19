@@ -6559,4 +6559,12 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 100,
 	games: "Egret II Mini Paddle + Trackball Controller",
 	description: `trackball, wheel/dial, 2 system buttons, 1 OS button, plugs in via USB, trackball and wheel shows up on PC as a mouse but the buttons do not, comes with an SD card with 10 games`,
+},{
+	peripheral: "452",
+	company: "Logitech",
+	peripheralName: "Wingman Warrior",
+	systems: "PC",
+	obtained: "2022-04-16",
+	cost: 5,
+	description: `analog joystick, 1 trigger, 1 POV hat, 3 buttons, dial, spinner, uses both serial and gameport interfaces`,
 }];
