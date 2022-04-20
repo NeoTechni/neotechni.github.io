@@ -6567,4 +6567,13 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2022-04-16",
 	cost: 5,
 	description: `analog joystick, 1 trigger, 1 POV hat, 3 buttons, dial, spinner, uses both serial and gameport interfaces`,
+},{
+	peripheral: "453",
+	company: "Azeron",
+	peripheralName: "Cyborg",
+	systems: "PC",
+	specificVersion: "Made to Order",
+	obtained: "2022-04-19",
+	cost: 200,
+	description: `clickable analog thumbstick, clickable  POV hat, uses USB mini (B), profile switch (shows up as 2 logical controllers), 23 buttons, remappable via software`,
 }];
