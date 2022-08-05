@@ -6577,4 +6577,22 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 200,
 	description: `clickable analog thumbstick, clickable  POV hat, uses USB mini (B), profile switch (shows up as 2 logical controllers), 23 buttons, remappable via software
 	a cool box, branded screwdriver, all of the knuckles are adjustable`,
+},{
+	peripheral: "454",
+	company: "SEGA",
+	peripheralName: "Astro City V",
+	systems: "SYS",
+	obtained: "2022-08-04",
+	cost: 300,
+	games: ["Action Fighter", "Armed Police Batrider", "Batsugun", "Battle Bakraid", "Cosmo Police Galivan", "Desert Breaker", "Dogyuun", "Gunbird", "Moon Cresta", "Out Zone", "Raiden", "Same! Same! Same!", "Sengoku Ace", "Shippuu Mahou Daisakusen", "Sonic Wings", "Strikers 1945", "Tatsujin", "Tatsujin Oh", "Terra Cresta", "V-V", "Wrestle War", "Zaxxon"],
+	description: `1 digital joystick, 6 facebuttons, 2 system buttons, HDMI out, a cool box, 698x930 portrait LCD`,
+},{
+	peripheral: "455",
+	company: "Intec Gaming",
+	peripheralName: "GBA HDMI Kit",
+	systems: "SYS",
+	obtained: "2022-08-04",
+	cost: 150,
+	games: "GB, GBC, GBA",
+	description: `A kit to convert an original model GBA into a consolized version with HDMI out and a SNES controller port, and the GBA shell into a SNES controller`,
 }];
