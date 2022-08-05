@@ -734,6 +734,9 @@ function make_controller(controller = false, stat = false, name = false){
 							HTML += " (Import Only)";
 						}
 						break;
+					case "games": 
+						HTML += controller[stat].join(", ");
+						break;
 					default:
 						HTML += controller[stat];
 				}
