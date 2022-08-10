@@ -735,7 +735,11 @@ function make_controller(controller = false, stat = false, name = false){
 						}
 						break;
 					case "games": 
-						HTML += controller[stat].join(", ");
+						if(Array.isArray(controller[stat])){
+							HTML += controller[stat].join(", ");
+						} else {
+							HTML += controller[stat];
+						}
 						break;
 					default:
 						HTML += controller[stat];
