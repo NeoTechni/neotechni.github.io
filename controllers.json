@@ -6595,4 +6595,13 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 150,
 	games: "GB, GBC, GBA",
 	description: `A solderless kit to convert an original model GBA into a consolized version with HDMI out and a SNES controller port, and the GBA shell into a SNES controller`,
+},{
+	peripheral: "456",
+	company: "Panic",
+	peripheralName: "PlayDate",
+	systems: "SYS",
+	obtained: "2022-08-09",
+	cost: 200,
+	games: "PlayDate Games",
+	description: `400x240 black or white LCD, mono speaker, dpad, 2 face buttons, 2 OS buttons, analog crank with dock sensor, built-in rechargeable battery (charges via USB-C), wifi, bluetooth, RGB LED, gyro sensor`,
 }];
