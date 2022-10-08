@@ -6342,7 +6342,7 @@ Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trig
 },{
 	peripheral: "431-A",
 	attached: "431",
-	company: "Nintendo",
+	company: "LEGO",
 	peripheralName: "Desert Pokey Expansion Set",
 	systems: "misc",
 	obtained: "2022-09-23",
