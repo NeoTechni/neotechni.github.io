@@ -6340,6 +6340,16 @@ Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trig
 				</UL>`,
 	games: "",
 },{
+	peripheral: "431-A",
+	attached: "431",
+	company: "Nintendo",
+	peripheralName: "Desert Pokey Expansion Set",
+	systems: "misc",
+	obtained: "2022-09-23",
+	cost: 25,
+	description: "180 LEGO pieces",
+	games: "",
+},{
 	peripheral: "432",
 	company: "SEGA",
 	peripheralName: "Game Gear Micro",
