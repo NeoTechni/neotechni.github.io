@@ -6707,4 +6707,22 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 25,
 	games: "Pi games",
 	description: `Optical trackball, 2 system buttons, 3 face buttons`,
+},{
+	peripheral: "461",
+	company: "SEGA",
+	peripheralName: "Genesis Mini 2",
+	systems: "SYS",
+	obtained: "2022-12-16",
+	cost: 150,
+	description: "HDMI, powered via microUSB, 2 USB ports, plays 60 built-in Genesis games (cannot be expanded) 4 savestates per game, 2 display modes (4:3, widescreen) + a CRT filter, 1x Genesis 6-button controller replica",
+	games: "Genesis Mini 2",
+},{
+	peripheral: "462",
+	company: "Turtle Beach",
+	peripheralName: "Flight Stick",
+	systems: "PC",
+	obtained: "2022-12-16",
+	cost: 150,
+	description: `A cool box, 1x USB-C slave port, 2x USB-C master ports, headset port, 2 analog levers with 2x detent buttons each, dpad, 1 clickable analog thumbstick, 1 rotatable Hall-effect joystick, clickable touchpad, 
+			LCD, 1 trigger, clickable scrollwheel, dial that is clickable on left/right side for controllers settings, ambidextrous, 10 face buttons (2 on the stick), 2 OS buttons, 2 system buttons, braided USB-C cable`,
 }];
