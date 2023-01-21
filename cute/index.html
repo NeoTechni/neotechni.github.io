@@ -1,112 +1,134 @@
 ---
 layout: default
 ---
-<UL ID="tabs"></UL>
-<DIV ID="images"></DIV>
+<UL ID="cutetabs"></UL>
+<DIV ID="cuteimages"></DIV>
 <SCRIPT>
-var controllers = {
-	"Figures"									: {
-		"Anna (Frozen)"							: "anna.jpg",
-		"Ariel (The Little Mermaid)"			: "ariel.jpg",
-		"DC Super Hero Girls"					: "dcgirls.jpg",
-		"Fei Yen x Miku (Virtual On)"			: "feiyen.jpg",
-		"Illya (Fate)"							: "illya.jpg",
-		"Rapunzel (Tangled)"					: "rapunzel2.jpg",
-		"Rapunzel (Wreck it Ralph)"				: "rapunzel.jpg",
-		"Starfire (Teen Titans)"				: "starfire.jpg",
-	}, "Purses and Bags"						: {
-		"Klee (Genshin Impact) - Bag"			: "genshinimpactbag.jpg",
-		"Heart - Purse"							: "heartpurse.jpg",
-		"Hello Kitty x Gundam - Wallet"			: "hellokittywallet.png",
-		"Legend of Zelda - Backpack"			: "zeldabackpack.jpg",
-		"Legend of Zelda - Handbag"				: "zeldasidekick.jpg",
-		"Sailor Moon - Case"					: "sailormooncase.jpg",
-		"Sailor Moon - Cell Phone Cases"		: "sailormooncellphone.jpg",
-		"Sailor Moon - Purse"					: "sailormoonbag.jpg",
-		"Sailor Moon - Purse"					: "sailormoonpurse.jpg",
-		"Sailor Moon - Wallet"					: "sailormoonwallet.jpg",
-	}, "Plushies"								: {
-		"Alpaca"								: ["alpaca1.jpg", "alpaca2.jpg"],
-		"Anna (Frozen)"							: "anna2.jpg",
-		"Bunny Backpack"						: "bunny.jpg",
-		"Bunny"									: "bunny1.jpg",
-		"Fluttershy (MLP)"						: ["fluttershy.jpg", "fluttershy2.jpg"],
-		"Ice Cream Unicorn"						: ["unicorn.jpg", "unicorn2.jpg"],
-		"Marshmellow"							: "marshmellow.jpg",
-		"Mermaid - Pillow"						: "mermaid.jpg",
-		"Mr. Webby (Spinnerette)"				: "mrwebby.jpg",
-		"Nanachi (Made in Abyss)"				: "nanachi.jpg",
-		"P-chan (Ranma 1/2)"					: "pchan.jpg",
-		"Rimuru (That Time I was Reincarnated as a Slime)": "slime.jpg",
-	},
-};
+	var controllers = {
+		"Figures"							: {
+			"Anna (Frozen)"						: "anna.jpg",
+			"Ariel (The Little Mermaid)"				: "ariel.jpg",
+			"DC Super Hero Girls"					: "dcgirls.jpg",
+			"Fei Yen x Miku (Virtual On)"				: "feiyen.jpg",
+			"Illya (Fate)"						: "illya.jpg",
+			"Rapunzel (Tangled)"					: "rapunzel2.jpg",
+			"Rapunzel (Wreck it Ralph)"				: "rapunzel.jpg",
+			"Starfire (Teen Titans)"				: "starfire.jpg",
+		}, "Purses and Bags"						: {
+			"Klee (Genshin Impact) - Bag"				: "genshinimpactbag.jpg",
+			"Heart - Purse"						: "heartpurse.jpg",
+			"Hello Kitty x Gundam - Wallet"				: "hellokittywallet.png",
+			"Legend of Zelda - Backpack"				: "zeldabackpack.jpg",
+			"Legend of Zelda - Handbag"				: "zeldasidekick.jpg",
+			"Sailor Moon - Case"					: "sailormooncase.jpg",
+			"Sailor Moon - Cell Phone Cases"			: "sailormooncellphone.jpg",
+			"Sailor Moon - Purse"					: "sailormoonbag.jpg",
+			"Sailor Moon - Purse"					: "sailormoonpurse.jpg",
+			"Sailor Moon - Wallet"					: "sailormoonwallet.jpg",
+		}, "Plushies"							: {
+			"Alpaca"						: ["alpaca1.jpg", "alpaca2.jpg"],
+			"Anna (Frozen)"						: "anna2.jpg",
+			"Bunny Backpack"					: "bunny.jpg",
+			"Bunny"							: "bunny1.jpg",
+			"Fluttershy (MLP)"					: ["fluttershy.jpg", "fluttershy2.jpg"],
+			"Ice Cream Unicorn"					: ["unicorn.jpg", "unicorn2.jpg"],
+			"Marshmellow"						: "marshmellow.jpg",
+			"Mermaid - Pillow"					: "mermaid.jpg",
+			"Mr. Webby (Spinnerette)"				: "mrwebby.jpg",
+			"Nanachi (Made in Abyss)"				: "nanachi.jpg",
+			"P-chan (Ranma 1/2)"					: "pchan.jpg",
+			"Rimuru (That Time I was Reincarnated as a Slime)"	: "slime.jpg",
+		},
+	};
 
-function generatetabs(){
-	var HTML = "";
-	var first = false;
-	var count = 0;
-	for(var key in controllers){
-		if(controllers.hasOwnProperty(key)){
-			if(!first){
-				first = key;
-			}
-			HTML += '<LI CLASS="hyperlink" ONCLICK="showsection(' + "'" + key + "'" + ');">' + key + '</LI>';
-			count++;
-		}
-	}
-	set_HTML("tabs", HTML);
-	set_HTML("style", "ul {columns: " + count + "; -webkit-columns: " + count + "; -moz-columns: " + count + ";}");
-	generatesection();
-	if(first){
-		showsection(first);
-	}
-}
-
-function showsection(name){
-	var appBanners = document.getElementsByClassName('guide');
-	for (var i = 0; i < appBanners.length; i ++) {
-		appBanners[i].style.display = 'none';
-	}
-	
-	name = toclassname(name);
-	appBanners = document.getElementsByClassName('guide-' + name);
-	for (var i = 0; i < appBanners.length; i ++) {
-		appBanners[i].style.display = 'inline-block';
-	}
-}
-
-function generatesection(section = false){
-	var HTML = "";
-	if(section === false){
+	function generatetabs(){
+		var HTML = "";
+		var first = false;
+		var count = 0;
 		for(var key in controllers){
 			if(controllers.hasOwnProperty(key)){
-				HTML += generatesection(key);
+				if(!first){
+					first = key;
+				}
+				HTML += '<LI CLASS="hyperlink" ONCLICK="showsection(' + "'" + key + "'" + ');">' + key + '</LI>';
+				count++;
 			}
 		}
-		set_HTML("images", HTML);
-	} else {
-		for(var key in controllers[section]){
-			if(controllers[section].hasOwnProperty(key)){
-				HTML += generatething(section, key, controllers[section][key]);
-			}
+		set_HTML("cutetabs", HTML);
+		set_HTML("columnstyle", "ul {columns: " + count + "; -webkit-columns: " + count + "; -moz-columns: " + count + ";}");
+		generatesection();
+		if(first){
+			showsection(first);
 		}
 	}
-	return HTML;
-}
 
-function generatething(section, name, images){
-	var HTML = '<DIV CLASS="guide guide-' + toclassname(section) + '"><DIV CLASS="guide-title">' + name + '</DIV>';
-	if(!isArray(images)){
-		images = [images];
-	}
-	for(var i = 0; i < images.length; i++){
-		HTML += '<IMG ONCLICK="expandimage(this);" CLASS="guide-image" SRC="/cute/' + images[i] + '">';
-	}
-	return HTML += '</DIV>';
-}
+	function showsection(name){
+		var appBanners = document.getElementsByClassName('guide');
+		for (var i = 0; i < appBanners.length; i ++) {
+			appBanners[i].style.display = 'none';
+		}
 
-window.addEventListener('load', function () {
-	generatetabs();
-});
+		name = toclassname(name);
+		appBanners = document.getElementsByClassName('guide-' + name);
+		for (var i = 0; i < appBanners.length; i ++) {
+			appBanners[i].style.display = 'inline-block';
+		}
+	}
+
+	function generatesection(section = false){
+		var HTML = "";
+		if(section === false){
+			for(var key in controllers){
+				if(controllers.hasOwnProperty(key)){
+					HTML += generatesection(key);
+				}
+			}
+			set_HTML("cuteimages", HTML);
+		} else {
+			for(var key in controllers[section]){
+				if(controllers[section].hasOwnProperty(key)){
+					HTML += generatething(section, key, controllers[section][key]);
+				}
+			}
+		}
+		return HTML;
+	}
+
+	function generatething(section, name, images){
+		var HTML = '<DIV CLASS="guide guide-' + toclassname(section) + '"><DIV CLASS="guide-title">' + name + '</DIV>';
+		if(!isArray(images)){
+			images = [images];
+		}
+		for(var i = 0; i < images.length; i++){
+			HTML += '<IMG ONCLICK="expandimage(this);" CLASS="guide-image" SRC="/cute/' + images[i] + '">';
+		}
+		return HTML += '</DIV>';
+	}
+
+	window.addEventListener('load', function () {
+		generatetabs();
+	});
 </SCRIPT>
-<STYLE ID="style"></STYLE>
+
+<STYLE ID="columnstyle"></STYLE>
+<STYLE>
+	.guide{
+		border			: 1px solid black;
+		display			: inline-block;
+		margin-right		: 10px;
+		margin-bottom		: 10px;
+		width			: 300px;
+		height			: 300px;
+		background-color	: lightgrey;
+		text-align		: center;
+	}
+	
+	.guide-title{
+		background-color	: rgb(173, 216, 230);
+	}
+	
+	.guide-image{
+		max-width		: 150px;
+		max-height		: 150px;
+	}
+</STYLE>
