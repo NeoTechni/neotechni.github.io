@@ -100,7 +100,7 @@ layout: default
 			images = [images];
 		}
 		for(var i = 0; i < images.length; i++){
-			HTML += '<IMG ONCLICK="expandimage(this);" CLASS="guide-image" SRC="/cute/' + images[i] + '">';
+			HTML += '<IMG ONCLICK="expandimage(this);" CLASS="guide-image" SRC="/cute/' + images[i] + '" ALT="' + name + '">';
 		}
 		return HTML += '</DIV>';
 	}
