@@ -10,6 +10,7 @@ header ul li a{
 .hyperlink{
 	text-decoration: underline;
 	color: blue;
+	cursor: pointer;
 }
 .cols-2{
 	columns: 2;
