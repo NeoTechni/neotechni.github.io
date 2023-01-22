@@ -125,7 +125,7 @@ layout: default
 			images = [images];
 		}
 		for(var i = 0; i < images.length; i++){
-			HTML += '<IMG ONCLICK="expandimage(this);" CLASS="guide-image" SRC="/cute/' + images[i] + '" ALT="' + name + '">';
+			HTML += '<IMG ONCLICK="expandimage(this);" CLASS="guide-image" SRC="/cute/' + images[i] + '" ALT="' + name.replace("*", " (Made by myself)") + '">';
 		}
 		return HTML += '</DIV>';
 	}
