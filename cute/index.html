@@ -1,50 +1,64 @@
 ---
 layout: default
 ---
+<TITLE>🎀 Cute Things</TITLE>
 <UL ID="cutetabs"></UL>
 <DIV ID="cuteimages"></DIV>
 <SCRIPT>
 	var controllers = {
-		"Figures"												: {
-			"Anna (Frozen)"										: "anna.jpg",
+		"Figures": {
+			"Alice (Alice in Wonderland)"						: "alice.jpg",
+			"Alice (Sword Art Online)"						: "alicesao.jpg",
+			"Anna (Frozen)"								: "anna.jpg",
 			"Ariel (The Little Mermaid)"						: "ariel.jpg",
-			"DC Super Hero Girls"								: "dcgirls.jpg",
+			"Aurora (Sleeping Beauty)"						: "aurora.jpg",
+			"Aurora 2 (Sleeping Beauty)"						: "aurora2.jpg",
+			"Belle (Beauty and the Beast)"						: "belle.jpg",
+			"Cinderella (Cinderella)"						: "cinderella.jpg",
+			"DC Super Hero Girls"							: "dcgirls.jpg",
 			"Fei Yen x Miku (Virtual On)"						: "feiyen.jpg",
-			"Illya (Fate)"										: "illya.jpg",
-			"Rapunzel (Tangled)"								: "rapunzel2.jpg",
-			"Rapunzel (Wreck it Ralph)"							: "rapunzel.jpg",
-			"Starfire (Teen Titans)"							: "starfire.jpg",
-		}, "Purses and Bags"									: {
+			"Illya (Fate)"								: "illya.jpg",
+			"Mulan (Mulan)"								: "mulan.jpg",
+			"Passion (PreCure)"							: "precurepassion.jpg",
+			"Princess Serenity (Sailor Moon)"					: "serenity.jpg",
+			"Rapunzel (Tangled)"							: "rapunzel2.jpg",
+			"Rapunzel (Tangled)"							: "rapunzel3.jpg",
+			"Rapunzel (Wreck it Ralph)"						: "rapunzel.jpg",
+			"Rem (Re;Zero)"								: "rem.jpg",
+			"Starfire (Teen Titans)"						: "starfire.jpg",
+		}, "Purses and Bags": {
 			"Big Black Bow Bag (Fortnite)"						: "fortnitebag.jpg",
 			"Klee (Genshin Impact) - Bag"						: "genshinimpactbag.jpg",
-			"Heart - Purse"										: "heartpurse.jpg",
-			"Hello Kitty x Gundam - Wallet"						: "hellokittywallet.png",
+			"Heart - Purse"								: "heartpurse.jpg",
+			"Hello Kitty × Gundam - Wallet"						: "hellokittywallet.png",
+			"Hello Unicorn (Altered Carbon)*"					: "hellounicorn.jpg",
 			"Legend of Zelda - Backpack"						: "zeldabackpack.jpg",
-			"Legend of Zelda - Handbag"							: "zeldasidekick.jpg",
-			"Sailor Moon - Case"								: "sailormooncase.jpg",
+			"Legend of Zelda - Handbag"						: "zeldasidekick.jpg",
+			"Sailor Moon - Case"							: "sailormooncase.jpg",
 			"Sailor Moon - Cell Phone Cases"					: "sailormooncellphone.jpg",
-			"Sailor Moon - Purse"								: "sailormoonbag.jpg",
-			"Sailor Moon - Purse 2"								: "sailormoonpurse.jpg",
-			"Sailor Moon - Wallet"								: "sailormoonwallet.jpg",
-		}, "Plushies"											: {
-			"Alpaca"											: ["alpaca1.jpg", "alpaca2.jpg"],
-			"Anna (Frozen)"										: "anna2.jpg",
-			"Bunny Backpack"									: "bunny.jpg",
-			"Bunny"												: "bunny1.jpg",
-			"Fluttershy (MLP)"									: ["fluttershy.jpg", "fluttershy2.jpg"],
-			"Ice Cream Unicorn"									: ["unicorn.jpg", "unicorn2.jpg"],
-			"Marshmellow"										: "marshmellow.jpg",
-			"Mermaid - Pillow"									: "mermaid.jpg",
-			"Mr. Webby (Spinnerette)"							: "mrwebby.jpg",
-			"Nanachi (Made in Abyss)"							: "nanachi.jpg",
-			"P-chan (Ranma 1/2)"								: "pchan.jpg",
-			"Rimuru (That Time I was Reincarnated as a Slime)"	: "slime.jpg",
-		}, "Misc"												: {
-			"Bat Bow"											: "batbow.jpg",
-			"Pink Bow"											: "pinkbow.jpg",
-			"Sailor Moon - Bow" 								: "sailormoonbow.jpg",
-			"Sailor Moon - Bow 2"									: "sailormoonbow2.jpg",
-			"Sailor Moon - Bow 3"									: "sailormoonbow3.jpg",
+			"Sailor Moon - Purse"							: "sailormoonbag.jpg",
+			"Sailor Moon - Purse 2"							: "sailormoonpurse.jpg",
+			"Sailor Moon - Wallet"							: "sailormoonwallet.jpg",
+		}, "Plushies": {
+			"Alpaca"								: ["alpaca1.jpg", "alpaca2.jpg"],
+			"Anna (Frozen)"								: "anna2.jpg",
+			"Bunny Backpack"							: "bunny.jpg",
+			"Bunny"									: "bunny1.jpg",
+			"Fluttershy (MLP)"							: ["fluttershy.jpg", "fluttershy2.jpg"],
+			"Ice Cream Unicorn"							: ["unicorn.jpg", "unicorn2.jpg"],
+			"Marshmellow"								: "marshmellow.jpg",
+			"Mermaid - Pillow"							: "mermaid.jpg",
+			"Mr. Webby (Spinnerette)"						: "mrwebby.jpg",
+			"Nanachi (Made in Abyss)"						: "nanachi.jpg",
+			"P-chan (Ranma 1/2)"							: "pchan.jpg",
+			"Rimuru (That Time I was Reincarnated as a Slime)"			: "slime.jpg",
+		}, "Misc": {
+			"Bat Bow"								: "batbow.jpg",
+			"Chainsaw (Kore wa Zombie Desu Ka?)"					: "chainsaw.jpg",
+			"Pink Bow"								: "pinkbow.jpg",
+			"Sailor Moon - Bow" 							: "sailormoonbow.jpg",
+			"Sailor Moon - Bow 2"							: "sailormoonbow2.jpg",
+			"Sailor Moon - Bow 3"							: "sailormoonbow3.jpg",
 		}
 	};
 
@@ -102,7 +116,11 @@ layout: default
 	}
 
 	function generatething(section, name, images){
-		var HTML = '<DIV CLASS="guide guide-' + toclassname(section) + '"><DIV CLASS="guide-title">' + name + '</DIV>';
+		var HTML = '<DIV CLASS="guide guide-' + toclassname(section);
+		if(name.contains("*")){
+			HTML += ' diy';
+		}
+		HTML += '"><DIV CLASS="guide-title">' + name.replace("*", "") + '</DIV>';
 		if(!isArray(images)){
 			images = [images];
 		}
@@ -138,6 +156,10 @@ layout: default
 	
 	.guide-title{
 		background-color	: rgb(173, 216, 230);
+	}
+	
+	.diy .guide-title{
+		background-color	: pink;
 	}
 	
 	.guide-image{
