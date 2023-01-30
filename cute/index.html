@@ -99,10 +99,13 @@ layout: default
 		}, "Misc": {
 			"Bat Bow"								: "batbow.jpg",
 			"Bunny Ears"								: "ears.jpg",
-			"Chainsaw (Kore wa Zombie Desu Ka?)*"					: "chainsaw.jpg",
-			"Lacey Wrist Things"							: "lacey.jpg",
 			"Card Captor & Legend of Zelda - Keychains"				: "keychains.jpg",
+			"Chainsaw (Kore wa Zombie Desu Ka?)+"					: "chainsaw.jpg",
+			"Lacey Wrist Things"							: "lacey.jpg",
+			"Lacey Wrist Thing"							: "secondwrist.jpg",
+			"My Melody - Bow"							: "mymelody.jpg",
 			"Pink Bow"								: "pinkbow.jpg",
+			"PS5 & Controllers+"							: ["ps5.jpg", "dualsenses.jpg"],
 			"Sailor Moon & The Little Mermaid - Pins"				: "pins.jpg",
 			"Sailor Moon - Bow" 							: "sailormoonbow.jpg",
 			"Sailor Moon - Bow 2"							: "sailormoonbow2.jpg",
@@ -167,13 +170,16 @@ layout: default
 		var HTML = '<DIV CLASS="guide guide-' + toclassname(section);
 		if(name.contains("*")){
 			HTML += ' diy';
+		} else if(name.contains("+")){
+			HTML += ' custom';
 		}
-		HTML += '"><DIV CLASS="guide-title">' + name.replace("*", "") + '</DIV>';
+		HTML += '"><DIV CLASS="guide-title">' + name.replace("*", "").replace("+", "") + '</DIV>';
 		if(!isArray(images)){
 			images = [images];
 		}
+		name 	= name.replace("*", " (Made by myself)").replace("+", " (Customized by myself)");
 		for(var i = 0; i < images.length; i++){
-			HTML += '<IMG ONCLICK="expandimage(this);" CLASS="guide-image" SRC="/cute/' + images[i] + '" ALT="' + name.replace("*", " (Made by myself)") + '">';
+			HTML += '<IMG ONCLICK="expandimage(this);" CLASS="guide-image" SRC="/cute/' + images[i] + '" ALT="' + name + '">';
 		}
 		return HTML += '</DIV>';
 	}
@@ -209,6 +215,10 @@ layout: default
 	}
 	
 	.diy .guide-title{
+		background-color	: aquamarine;
+	}
+	
+	.custom .guide-title{
 		background-color	: pink;
 	}
 	
