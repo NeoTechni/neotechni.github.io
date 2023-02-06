@@ -5337,7 +5337,19 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "1999-04-16",
 	cost: 0,
-	description: ``,
+	description: `A Gameboy cartridge with an integrated rumble motor. Takes 1xAAA battery. Needed: <UL>
+		<LI>10 Pin Bowling</LI>
+		<LI>Hole In One Golf</LI>
+		<LI>Legend Of The River King 2</LI>
+		<LI>Nascar Challenge</LI>
+		<LI>Polaris Snocross</LI>
+		<LI>Star Wars Episode 1 Racer</LI>
+		<LI>Test Drive Off-Road 3</LI>
+		<LI>Vigilante 8</LI>
+		<LI>Zebco Fishing</LI>
+		<LI>Ready To Rumble Boxing</LI>
+		<LI>Missile Command</LI>
+	</UL>`,
 	games: "",
 },{
 	peripheral: "363-B",
