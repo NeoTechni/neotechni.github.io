@@ -4256,7 +4256,7 @@ Stick: wired to PC via USB, dual-axis joystick, 3 triggers (2 up top, 1 on the b
 	obtained: "2016-04-28",
 	photographed: true,
 	cost: 600,
-	description: `HMD: 2 1080×1200  90Hz OLED panels, headphones with 3D audio, 6-axis motion sensing, uses HDMI and 1 USB 3.0 port, a cool box, bluetooth receiver, USB extension cable
+	description: `HMD: 2 1080×1200 90Hz OLED panels, 110° FOV, headphones with 3D audio, 6-axis motion sensing, uses HDMI and 1 USB 3.0 port, a cool box, bluetooth receiver, USB extension cable
 Remote: touchpad, back/home/plus/minus buttons, wireless via bluetooth, built in non-rechargeable battery
 Constellation: IR LED sensor to track the HMD`,
 	games: "Misc PC games",
@@ -4446,7 +4446,7 @@ Keyboard: Connects via USB, detachable from the controller, standard QWERTY layo
 	obtained: "2016-10-13",
 	photographed: true,
 	cost: 550,
-	description: `A 5" 1080p OLED RGB screen, head tracking via LEDs (requires PS Camera to work), microphone, a cool box, headphone port (includes earbuds), inline remote (controls power, microphone, volume +/-), connects via HDMI and USB 3.0, infrared wearer detection
+	description: `A 5" 1080p (960×1080 per eye) 90-120Hz OLED RGB screen, 100° FOV, head tracking via LEDs (requires PS Camera to work), microphone, a cool box, headphone port (includes earbuds), inline remote (controls power, microphone, volume +/-), connects via HDMI and USB 3.0, infrared wearer detection
 breakout box handles 3D audio, output to TV (undistorts VR vision to mirror it to the TV, as well as allowing for dual-screen output in some games) as well as cinema mode which lets all non-VR games display as a giant TV on the headset (capable of running on any HDMI device so long as the PS4 is still connected via USB)`,
 	games: "PSVR games for PS4",
 },{
@@ -6764,4 +6764,20 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2023-02-10",
 	cost: 100,
 	description: `Desk clamp, 24 face buttons, clickable scroll wheel, twistable analog stick with 2 button (1 of which switches which axis the rotation acts as)`,
+},{
+	peripheral: "465-A",
+	company: "Sony",
+	peripheralName: "PSVR2 Headset",
+	systems: "PS5",
+	cost: 800,	
+	obtained: "2023-02-22",
+	description: "2000x2040 (per eye) 90-120Hz OLED, 110° FOV, microphone, headset port, connects via USB-C, inside-out tracking via 4 cameras, IR eye tracking, haptics, a box",
+},{
+	peripheral: "465-B",
+	attached: "465-A",
+	company: "Sony",
+	peripheralName: "PSVR2 Sense controllers",
+	systems: "PS5",
+	obtained: "2023-02-22",
+	description: "Wireless (via Bluetooth), rechargeable battery (charges via USB-C), 1 clickable analog stick, 2 face buttons, 1 system button, 1 OS button, wrist strap, 2 triggers (1 digital, 1 analog with force feedback), haptics",
 }];
