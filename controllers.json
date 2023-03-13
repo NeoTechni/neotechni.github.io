@@ -6780,4 +6780,21 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "PS5",
 	obtained: "2023-02-22",
 	description: "Wireless (via Bluetooth), rechargeable battery (charges via USB-C), 1 clickable analog stick, 2 face buttons, 1 system button, 1 OS button, wrist strap, 2 triggers (1 digital, 1 analog with force feedback), haptics",
+},{
+	peripheral: "466",
+	company: "IFYOO",
+	peripheralName: "Gaming Touchpad",
+	systems: "PC",
+	obtained: "2023-03-11",
+	description: "Works as a keyboard+mouse (not a gamepad), digital stick, dpad, 6 triggers, 13 buttons, scroll wheel, clickable touchpad",
+	specificVersion: "Pink",
+	otherVersions: "Black, Yellow",
+},{
+	peripheral: "467",
+	company: "Mad Catz",
+	peripheralName: "Wireless Keyboard",
+	systems: "Wii",
+	obtained: "2023-03-11",
+	description: "Wireless (via USB dongle with 2 extra USB ports), 25 keys, 4 face buttons, dpad, 2 system buttons, 1 OS buttons, touchpad and button",
+	games: "Rock Band 3"
 }];
