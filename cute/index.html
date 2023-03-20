@@ -119,7 +119,7 @@ layout: default
 
 	function generatetabs(){
 		var HTML = "";
-		var first = false;
+		var first = get("hash");
 		var count = 0;
 		for(var key in controllers){
 			if(controllers.hasOwnProperty(key)){
@@ -139,6 +139,7 @@ layout: default
 	}
 
 	function showsection(name){
+		window.location.hash = name;
 		var appBanners = document.getElementsByClassName('guide');
 		for (var i = 0; i < appBanners.length; i ++) {
 			appBanners[i].style.display = 'none';
