@@ -7,6 +7,19 @@ var is_firefox_for_android = is_firefox && is_android;
 var is_IOS = (/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) && !window.MSStream;
 var newline = "\r\n";
 var missingimages = [];
+const urlSearchParams = new URLSearchParams(window.location.search);
+var params = Object.fromEntries(urlSearchParams.entries());
+params.hash = false;
+if(window.location.hash) {
+      params.hash = window.location.hash.substring(1);
+}
+
+function get(key, thedefault = ""){
+	if(params.hasOwnProperty(key)){
+		return params[key];
+	}
+	return thedefault;
+}
 
 function isMobileOrTablet() {
 	var check = false;
@@ -618,6 +631,9 @@ function set_HTML(elementID, HTML, param = "html"){
 		case "html": element.innerHTML = HTML; break;
 		case "val": element.value = HTML; break;
 	}
+	//if(window.location.hash) {
+      	//	var hash = window.location.hash.substring(1);
+	//}
 }
 
 function enum_consoles(){
