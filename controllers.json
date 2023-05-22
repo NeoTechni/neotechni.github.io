@@ -6815,4 +6815,13 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 300,
 	obtained: "2023-04-11",
 	description: "1024×767 USB 3.0 LCD (works as a standard display in Windows), 44 buttons (most of which are backlit), 1 dial, 3 position switch",
+},{
+	peripheral: "470",
+	company: "ASCII",
+	peripheralName: "Mission Stick",
+	systems: "DC",
+	cost: 120,
+	games: "Aero Dancing/Aerowings, Propeller Arena",
+	obtained: "2023-05-21",
+	description: "Memory card/rumble slot, analog palm-stick with 3 remappable buttons, 4 face buttons, dpad, 1 system button, 2 analog buttons, turbo settings per button",
 }];
