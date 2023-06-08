@@ -5346,7 +5346,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 		<LI>Star Wars Episode 1 Racer</LI>
 		<LI>Test Drive Off-Road 3</LI>
 		<LI>Vigilante 8</LI>
-		<LI>Zebco Fishing</LI>
 		<LI>Ready To Rumble Boxing</LI>
 		<LI>Missile Command</LI>
 	</UL>`,
@@ -5359,7 +5358,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	cost: 0,
 	description: ``,
-	games: "",
 },{
 	peripheral: "363-C",
 	attached: "363-A",
@@ -5369,7 +5367,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	obtained: "2018-03-05",
 	cost: 0,
 	description: ``,
-	games: "",
 },{
 	peripheral: "363-D",
 	attached: "363-A",
@@ -5379,7 +5376,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	obtained: "2021-09-19",
 	cost: 0,
 	description: ``,
-	games: "",
 },{
 	peripheral: "363-E",
 	attached: "363-A",
@@ -5389,7 +5385,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	obtained: "2022-07-22",
 	cost: 20,
 	description: ``,
-	games: "",
 },{
 	peripheral: "363-F",
 	attached: "363-A",
@@ -5399,8 +5394,16 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	obtained: "2023-02-05",
 	cost: 30,
 	description: ``,
-	games: "",
 },{
+	peripheral: "363-G",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Zebco Fishing",
+	systems: "GBC",
+	obtained: "2023-05-25",
+	cost: 18,
+	description: ``,
+},{	
 	peripheral: "364",
 	company: "Whirlwind FX",
 	peripheralName: "Vortx",
