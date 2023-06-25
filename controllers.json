@@ -6843,4 +6843,20 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 50,
 	obtained: "2023-06-10",
 	description: "Presses Up/Left/A/B",
+},{
+	peripheral: "473",
+	company: "Optec",
+	peripheralName: "Super Pro Commander",
+	systems: "PS1",
+	cost: 10,
+	obtained: "2023-06-21",
+	description: "dpad, 2 system buttons, 4 face buttons, 4 shoulder buttons, LCD, 5 other buttons",
+},{
+	peripheral: "474",
+	company: "Kano",
+	peripheralName: "Frozen 2: Coding Kit",
+	systems: "PC, iOS",
+	cost: 5,
+	obtained: "2023-06-23",
+	description: "distance and direction IR sensor",
 }];
