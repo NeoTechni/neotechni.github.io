@@ -18,7 +18,7 @@ var games = {
 		URL: "https://en.wikipedia.org/wiki/GunCon#GunCon_compatible_games",
 		games: `PS1: Elemental Gearbolt, Die Hard Trilogy 2: Viva Las Vegas, Ghoul Panic, Gunfighter: The Legend of Jesse James, Judge Dredd, Maximum Force, Mighty Hits Special, Moorhuhn series, Point Blank series, Rescue Shot, Resident Evil: Survivor (Japanese and PAL), Time Crisis, Time Crisis: Project Titan
 		
-		PS2: Endgame, Guncom ,Time Crisis II, Vampire Night`,
+		PS2: Endgame, Guncom, Time Crisis II, Vampire Night`,
 	}, "PS1 KidsStation": {
 		games: `Asobou! Hanasou! Guru Guru Town Hanamarukun, BARBAPAPA, Bishoujo Senshi Sailor Moon World Chibiusa To Tanoshii Mainichi, Bokura to Asobou! Ultraman TV, Crayon-Chan, Digimon Park, DORAEMON - HIMITSU NO YOJIGEN POCKET, Hello Kitty no oshaberi ABC, Hello Kitty no Oshaberi Town, Hello Kitty no Ouchi he Oideyo!, Hello Kitty to Album Nikki o Tsukuri Masho!, HITORI DE DEKIRUMON, KAMEN RIDER HEROES, Kikansha Thomas 2, Kikansha Thomas to Nakamatachi, KUMA NO POOH-SAN - MORI NO KYOUSHITSY, LEGO NO SEKAI, Magical Music Eigo de One Two Three, Mickey & Minnie Magical Kitchen, Minimoni ni Narunoda-pyon!, Motto! Oja Majo Doremi: Smile Party, Motto! Oja Majo Doremi: Dokkan! Maho Dou Eigo Festival, Oja Majo Dorami #Maho, Play Rail - Tetsudou Monoshiri Hyakka, Ponkkik Kids 21, SOREIKE! ANPANMAN (1-4), Ugoku Tomika Zukan, Ultraman Cosmos, Unten Daisuki - Doki doki Norimono Daibouken, Yancharu Moncha`,
 	}, "PS2 Guncon2": {
