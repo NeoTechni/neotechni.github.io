@@ -6868,4 +6868,22 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 10,
 	obtained: "2023-07-18",
 	description: "A pedometer that interfaces with the game card via built-in InfraRed",
+},{
+	peripheral: "476",
+	company: "Interact",
+	peripheralName: "Shark MX",
+	systems: "GB, GBC",
+	cost: 10,
+	obtained: "2023-08-05",
+	description: "A cartridge with a built-in modem",
+},{
+	peripheral: "477",
+	company: "Nokia",
+	peripheralName: "N-gage",
+	systems: "SYS",
+	cost: 100,	
+	specificVersion: "QD",
+	otherVersions: "Classic, QD Silver",
+	obtained: "2023-08-05",
+	description: "176x208 LCD, dpad, Bluetooth, 16 buttons",
 }];
