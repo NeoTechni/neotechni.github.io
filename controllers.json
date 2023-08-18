@@ -916,7 +916,15 @@ var controllers = [{
 	systems: "GBA",
 	photographed: true,
 	cost: 0,
-	description: `a card reader`,
+	description: `a card reader with built-in memory to store the content
+	Cards I have:
+	• Pokémon Channel: The Pikachu Star (Line Art), The Kyogre Constellation (Line Art), Poké A La Card (Paint Pattern)
+	• Pokémon Ruby/Sapphire: Eon Ticket, Gentleman Nils (Battle)
+	• NES Games: Urban Champion, Tennis, Golf, Donkey Kong 3, Clu Clu Land, Baseball, Balloon Fight
+	• e-mazing shows are on the Fox Box: Do the Kirby Slide
+	Missing:
+	• NES Games: Donkey Kong, Donkey Kong 3, Excitebike, Ice Climber, Mario Bros., Pinball
+	`,
 	games: "GBA e-Reader",
 },{
 	peripheral: "063",
