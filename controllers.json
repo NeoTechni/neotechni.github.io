@@ -6693,6 +6693,24 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	otherVersions: "White",
 	description: `1600x1440 LCD, built-in rechargeable battery (charges via USB-C), video-out via a dock, dpad, 2 system buttons, 3 OS button, 4 face buttons, 2 triggers, stereo sound, SD slot, cartridge slot`,
 },{
+	peripheral: "459-d",
+	attached: "459",
+	company: "Analogue",
+	peripheralName: "Pocket Dock",
+	systems: "SYS",
+	obtained: "2023-08-25",
+	cost: 120,
+	description: `A dock for the Analogue Pocket, adds HDMI out, bluetooth, 2 USB ports for controllers`,
+},{
+	peripheral: "459-g",
+	attached: "459",
+	company: "Analogue",
+	peripheralName: "Game Gear Adapter",
+	systems: "SYS",
+	obtained: "2023-08-25",
+	cost: 30,
+	description: `An adapter for the Analogue Pocket, adds Game Gear compatibility`,
+},{
 	peripheral: "460-A",
 	company: "Thunder Stick Studio",
 	peripheralName: "Build-a-Cade",
@@ -6894,4 +6912,12 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	otherVersions: "Classic, QD Silver",
 	obtained: "2023-08-05",
 	description: "176x208 LCD, dpad, Bluetooth, 16 buttons",
+},{
+	peripheral: "478",
+	company: "SEGA",
+	peripheralName: "DreamEye",
+	systems: "DC",
+	cost: 100,	
+	obtained: "2023-08-25",
+	description: "640x480 camera, takes 2xAA batteries when not connected to a DreamCast",
 }];
