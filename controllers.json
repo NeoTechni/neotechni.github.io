@@ -6920,4 +6920,20 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 100,	
 	obtained: "2023-08-25",
 	description: "640x480 camera, takes 2xAA batteries when not connected to a DreamCast",
+},{
+	peripheral: "479",
+	company: "8bitdo",
+	peripheralName: "Super Buttons",
+	systems: "PC",
+	cost: 20,	
+	obtained: "2023-10-10",
+	description: "2 big buttons that plug in via headphone connectors. The left/A button works on the MS XBOX Access Controller",
+},{
+	peripheral: "480",
+	company: "Kickstarter",
+	peripheralName: "VM2",
+	systems: "DC",
+	cost: 166,	
+	obtained: "2023-10-10",
+	description: "128x64 monochrome LCD, compatible with DreamCast as a VMU, SD card slot, USB-C port for both charging and PC connectivity, built-in rechargeable battery",
 }];
