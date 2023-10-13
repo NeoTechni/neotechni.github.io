@@ -2476,7 +2476,7 @@ API to let PC apps send data to the console it's connected to`,
 	photographed: true,
 	cost: "59 with a game, PSeye and Move",
 	description: "A large hard-cover book of 14 augmented reality tracking tags",
-	games: "Harry Potter: Book of Spells (PS3)",
+	games: "Harry Potter: Book of Spells, Book of Potions, Walking with Dinosaurs, Diggs Nightcrawler",
 },{
 	peripheral: "186",
 	company: "PowerA",
@@ -6935,5 +6935,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "DC",
 	cost: 166,	
 	obtained: "2023-10-10",
+	specificVersion: "Black",
+	otherVersions: "White",
 	description: "128x64 monochrome LCD, compatible with DreamCast as a VMU, SD card slot, USB-C port for both charging and PC connectivity, built-in rechargeable battery",
 }];
