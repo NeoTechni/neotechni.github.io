@@ -909,7 +909,7 @@ function imgError(image) {
 }
 
 function expandimage(element){
-    msgbox(element.getAttribute("alt"), '<CENTER><IMG SRC="' + element.src + '" USEMAP="#' + getfilename(element.src, false) + '"></CENTER>');
+    msgbox(element.getAttribute("alt"), '<CENTER><IMG ID="expandimage" SRC="' + element.src + '" USEMAP="#' + getfilename(element.src, false) + '"></CENTER>');
 }
 
 function getfilename(url, includeextension = true){
