@@ -880,7 +880,7 @@ function imgError(image) {
 }
 
 function expandimage(element){
-    msgbox(element.getAttribute("alt"), '<CENTER><IMG SRC="' + element.src + '"></CENTER>');
+    msgbox(element.getAttribute("alt"), '<CENTER><IMG SRC="' + element.src + '" USEMAP="#' + element.src + '"></CENTER>');
 }
 
 function nl2br(str) {
