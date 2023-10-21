@@ -880,7 +880,18 @@ function imgError(image) {
 }
 
 function expandimage(element){
-    msgbox(element.getAttribute("alt"), '<CENTER><IMG SRC="' + element.src + '" USEMAP="#' + element.src + '"></CENTER>');
+    msgbox(element.getAttribute("alt"), '<CENTER><IMG SRC="' + element.src + '" USEMAP="#' + getfilename(element.src, false) + '"></CENTER>');
+}
+
+function getfilename(url, includeextension = true){
+ 	url = url.split("/");
+	url = url[ url.length - 1];
+	if(!includeextension){
+		url = url.split(".");
+		url.splice(url.length - 1, 1); 
+		url = url.join(".");
+	}
+	return url;
 }
 
 function nl2br(str) {
