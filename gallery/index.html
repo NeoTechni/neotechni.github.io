@@ -289,15 +289,21 @@ classes: wide
       		set_HTML("controllers", make_photos(false));
 		q("area", "onmouseover", "mouseover(this);"); 
    	});
-
+	
 	function mouseover(element){
 		element = element.getAttribute("title");
-		toast( title );
+		set_HTML("modalhead", element );
 	}
 </SCRIPT>
 
 <DIV ID="controllers"></DIV>
 
+<STYLE>
+	#expandimage{
+		max-width: initial !important;
+	}
+</STYLE>
+	
 <map name="miniarcades">
     <area target="" alt="NanoArcade" title="NanoArcade" href="" coords="39,357,28,393,127,659,305,610,288,487,220,313" shape="poly">
     <area target="" alt="Egret Mini II" title="Egret Mini II" href="" coords="312,552,285,490,263,116,547,100,583,275,590,355,533,472,545,498,516,550" shape="poly">
