@@ -285,9 +285,15 @@ classes: wide
    };
   
   
-   window.addEventListener('load', function () {
-      set_HTML("controllers", make_photos(false));
-   });
+   	window.addEventListener('load', function () {
+      		set_HTML("controllers", make_photos(false));
+		q("area", "onmouseover", "mouseover(this);"); 
+   	});
+
+	function mouseover(element){
+		element = element.getAttribute("title");
+		toast( title );
+	}
 </SCRIPT>
 
 <DIV ID="controllers"></DIV>
