@@ -6938,4 +6938,12 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	specificVersion: "Black",
 	otherVersions: "White",
 	description: "128x64 monochrome LCD, compatible with DreamCast as a VMU, SD card slot, USB-C port for both charging and PC connectivity, built-in rechargeable battery",
+},{
+	peripheral: "481",
+	company: "Microsoft",
+	peripheralName: "Kinect 2",
+	systems: "X1",
+	cost: 80,	
+	obtained: "2023-10-28",
+	description: "1080p infrared depth-sensing camera with microphone",
 }];
