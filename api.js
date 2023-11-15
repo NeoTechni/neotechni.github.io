@@ -750,6 +750,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "obtained", 		"Obtained");
 				HTML += make_controller(controller, "cost", 			"Can be found for");
 				HTML += make_controller(controller, "company", 			"Made by");
+				HTML += make_controller(controller, "location",			"Location");
 				HTML += make_controller(controller, "specificVersion", 	"Specific Version");
 				HTML += make_controller(controller, "otherVersions", 	"Other Version(s)");
 				HTML += '</TD></TR><TR><TD CLASS="top">';
