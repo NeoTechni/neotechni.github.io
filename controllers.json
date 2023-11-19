@@ -7139,5 +7139,16 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "PS5",
 	cost: 300,	
 	obtained: "2023-11-15",
-	description: '1080p 8" touchscreen LCD, same inputs as a DualSense, wifi, built-in rechargable battery (charges via USB-C), headphone port',
+	description: '1920x1080 8" touchscreen LCD, same inputs as a DualSense, wifi, built-in rechargable battery (charges via USB-C), headphone port',
+},{
+	peripheral: "485",
+	company: "Blaze Entertainment",
+	peripheralName: "Evercade EXP",
+	systems: "SYS",
+	obtained: "2023-11-18",
+	cost: 200,
+	description: "4 triggers, 6 face buttons, 2 system buttons, 2 OS button, built in rechargeable battery (via USB-C), dpad, a cool box, 800×480 color LCD, miniHDMI out (720p), TATE mode support",
+	games: "Evercade games",
+	specificVersion: "White",
+	otherVersions: "Black",
 }];
