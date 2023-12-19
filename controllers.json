@@ -7151,4 +7151,13 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	games: "Evercade games",
 	specificVersion: "White",
 	otherVersions: "Black",
+},{
+	peripheral: "486",
+	company: "Sony",
+	peripheralName: "Access Controller",
+	systems: "SYS",
+	obtained: "2023-12-16",
+	cost: 130,
+	description: "1 clickable joystick with swappable caps, 1 big face button, 8 smaller face buttons with swappable caps, 1 OS button, 3 profiles (switchable via a button), wireless (via Bluetooth), built-in battery (charges via USB-C), a cool box, RGB LEDs, mounting screw holes",
+	games: "Most PS5 games",
 }];
