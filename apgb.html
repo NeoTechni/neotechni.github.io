@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<TITLE>NeoTechni's Novelty Gaming Peripheral Museum</TITLE>
+<BODY>
+    <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+
+    Recent acquisitions (Peripherals): <SPAN ID="count"></SPAN>
+    <P><UL ID="controllers"></UL>
+
+    Recent acquisitions (Collectibles):<P>
+    <UL>
+        <LI>Neptunia Sisters vs Sisters (PS5)</LI>
+        <LI>Neptunia x SENRAN KAGURA: Ninja Wars (PS4)</LI>
+        <LI>Neptunia Virtual Stars (PS4)</LI>
+        <LI>FF7: Remake (PS4)</LI>
+        <LI>Langrisser (PS4)</LI>
+    </UL>
+        
+    Un-Googling process:
+    <UL>
+        <LI>Company Pages: 99.9% (Missing the image for #137 Quickshot Joystick in MISC)</LI>
+        <LI>Chronological Order: 100%</LI>
+        <LI>As Seen on TV: 100%</LI>
+        <LI>Photo Gallery: 100%</LI>
+        <LI>Supported Games: 100%</LI>
+        <LI>FAQs: 90% (I have to un-google the links)</LI>
+        
+        <LI>Starlink entry: 100%</LI>
+        <LI>Disney Infinity entry: 50%</LI>
+        <LI>Collectibles: 100%</LI>
+        
+        <LI>Wanted: 100%</LI>
+        <LI>PS Hardware IDs: 100%</LI>
+        <LI>Apps and Drivers: 0%</LI>
+    </UL>
+        
+    <SCRIPT>
+        var first = true;
+        var controllers = enum_controllers_by_dates();
+        window.addEventListener('load', function () {
+            var HTML = "";
+            for(var date in controllers){
+                if(controllers.hasOwnProperty(date)){
+                    HTML += '<LI>';
+                    for(var i = 0; i < controllers[date].length; i++){
+                        var controller = controllers[date][i];
+                        if(first){
+                            first = false;
+                            set_HTML("count", filternonnumeric(controller.peripheral));
+                        }
+                        if(i > 0){
+                            HTML += ', ';
+                        }
+                        var URL = controller_section(controller);
+                        if(URL == "sub"){
+                            URL = "systems";
+                        }
+                        URL += "#" + toclassname(controller.peripheralName)
+                        HTML += '<A HREF="/' + URL + '">' + controller.company + " - " + controller.peripheralName + " (" + controller.systems + ")</A>";
+                    }
+                    HTML += ' - ' + formattednow(date, "M j") + '</LI>';
+                }
+            }
+            set_HTML("controllers", HTML);
+        });
+    </SCRIPT>
+</BODY>
