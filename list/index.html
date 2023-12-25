@@ -66,6 +66,62 @@ classes: wide
 		}
 		return false;
 	}
+
+	var stats = {};
+	function add2stats(controller, period = null, type = null){
+		if(period === null && type === null){
+			var date = false;
+			var year = "unknown";
+			stats = {
+				"years": {},
+				"months": {},
+			};
+			if(controller.hasOwnProperty("obtained") && validatedate(controller.obtained)){
+				date = controller.obtained.left(7);
+				year = controller.obtained.left(4);
+			}
+			add2stats(controller, "total", "years");
+			add2stats(controller, year, "years");
+			add2stats(controller, date, "months");
+		} else if(period){
+			var cost = 0;
+			if(controller.hasOwnProperty("cost") && isNumeric(controller.cost)){
+				cost = controller.cost;
+			}
+			if(!stats[ type ].hasOwnProperty(period)){
+				stats[ type ][ period ] = {};
+			}
+			if(controller.hasOwnProperty("company")){
+				if(!stats[ type ][ period ].hasOwnProperty(controller.company)){
+					stats[ type ][ period ][ controller.company ] = {
+						type: 0,
+						quantity: 0, 
+						cost: 0,
+						controllers: [],
+					};
+				}
+				stats[ type ][ period ][ controller.company ].quantity ++;
+				stats[ type ][ period ][ controller.company ].cost += cost;
+				stats[ type ][ period ][ controller.company ].push(controller.peripheralName);
+			}
+			if(controller.hasOwnProperty("systems")){
+				var systems = controller.systems.split("/");
+				for(var i = 0; i < systems.length; i++){
+					if(!stats[ type ][ period ].hasOwnProperty(systems[i])){
+						stats[ type ][ period ][ systems[i] ] = {
+							type: 1,
+							quantity: 0, 
+							cost: 0,
+							controllers: [],
+						};
+					}
+					stats[ type ][ period ][ systems[i] ].quantity ++;
+					stats[ type ][ period ][ systems[i] ].cost += cost;
+					stats[ type ][ period ][ systems[i] ].push(controller.peripheralName);
+				}
+			}
+		}
+	} 
 	
 	function enum_controllers(){
 		var ret = [];
@@ -77,10 +133,11 @@ classes: wide
 		for(var i = 0; i < controllers.length; i++){
 			var controller = controllers[i];
 			if(test_controller(controller, text, sect, comp, syst)){
-					controller.reason = reason;
-					ret.push(controller);
+				controller.reason = reason;
+				add2stats(controller);
+				ret.push(controller);
 			} else {
-					console.log(controller.peripheralName + ": " + reason);
+				console.log(controller.peripheralName + ": " + reason);
 			}
 		}
 		found = ret.length;
@@ -89,6 +146,18 @@ classes: wide
 			ret.reverse();
 		}
 		return ret;
+	}
+
+	function validatedate(text){
+		if(text.length > 7 && text.length < 11){
+			text = text.split("-");
+			if(text.length === 3 && isNumeric(text[0]) && isNumeric(text[1]) && isNumeric(text[2])){
+				if(text[0].length == 4 && text[1] > 0 && text[1] < 13 && text[2] > 0){
+					return text[2] <= daysInMonth(text[1], text[0]);
+				}
+			}
+		}
+		return false;
 	}
 
 	function query(){
