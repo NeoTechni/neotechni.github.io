@@ -162,7 +162,7 @@ For example, Pokemon Pinball turns the LCD off when moving the pinball between t
 	
 	function download(filename, text) {
 		var element = document.createElement('a');
-		element.setAttribute('href', 'data:application/octet-stream;charset=utf-8,' + encodeURIComponent(text));
+		element.setAttribute('href', 'data:text/plain;base64,' + btoa(text));
 		element.setAttribute('download', filename);
 
 		element.style.display = 'none';
