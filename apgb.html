@@ -131,8 +131,8 @@ For example, Pokemon Pinball turns the LCD off when moving the pinball between t
 		return document.getElementById(id).value.replace("#", "").toUpperCase();
 	}
 	
-	function settext(id, text){
-		document.getElementById(id).innerHTML = text;
+	function settext(id, text){		
+		document.getElementById(id).value = text;
 	}
 
 	function generate(verbose = true){
