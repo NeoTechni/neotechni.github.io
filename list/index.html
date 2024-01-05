@@ -162,7 +162,8 @@ classes: wide
 	}
 
 	function click_controller(index){
-		msgbox(ret[index].peripheralName, make_controller(ret[index]));
+		var controller = ret[index];
+		msgbox('<A HREF="/' + controller_section(controller, true) + "#" + toclassname(controller.peripheralName) + '">' + controller.peripheralName + '</A>', make_controller(controller));
 	}
 
 	function query(){
