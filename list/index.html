@@ -10,6 +10,7 @@ classes: wide
 	var reason = "";
 	var found = 0;
 	var ret = [];
+	var stats = {};
 	
 	window.addEventListener('load', function () {
 		query();
@@ -67,16 +68,11 @@ classes: wide
 		}
 		return false;
 	}
-
-	var stats = {};
+	
 	function add2stats(controller, period = null, type = null){
 		if(period === null && type === null){
 			var date = false;
-			var year = "unknown";
-			stats = {
-				"years": {},
-				"months": {},
-			};
+			var year = "unknown";			
 			if(controller.hasOwnProperty("obtained") && validatedate(controller.obtained)){
 				date = controller.obtained.left(7);
 				year = controller.obtained.left(4);
@@ -87,37 +83,37 @@ classes: wide
 		} else if(period){
 			var cost = 0;
 			if(controller.hasOwnProperty("cost") && isNumeric(controller.cost)){
-				cost = controller.cost;
+				cost 							= controller.cost;
 			}
 			if(!stats[ type ].hasOwnProperty(period)){
-				stats[ type ][ period ] = {};
+				stats[ type ][ period ] 				= {};
 			}			
 			if(controller.hasOwnProperty("company")){
 				if(!stats[ type ][ period ].hasOwnProperty(controller.company)){
 					stats[ type ][ period ][ controller.company ] = {
-						type: 0,
-						quantity: 0, 
-						cost: 0,
-						controllers: [],
+						type					: 0,
+						quantity				: 0, 
+						cost					: 0,
+						controllers				: [],
 					};
 				}
-				stats[ type ][ period ][ controller.company ].quantity ++;
-				stats[ type ][ period ][ controller.company ].cost += cost;
+				stats[ type ][ period ][ controller.company ].quantity	++;
+				stats[ type ][ period ][ controller.company ].cost 	+= cost;
 				stats[ type ][ period ][ controller.company ].controllers.push(controller.peripheralName);
 			}
 			if(controller.hasOwnProperty("systems")){
-				var systems = controller.systems.split("/");
+				var systems 						= controller.systems.split("/");
 				for(var i = 0; i < systems.length; i++){
 					if(!stats[ type ][ period ].hasOwnProperty(systems[i])){
-						stats[ type ][ period ][ systems[i] ] = {
-							type: 1,
-							quantity: 0, 
-							cost: 0,
-							controllers: [],
+						stats[ type ][ period ][ systems[i] ] 	= {
+							type				: 1,
+							quantity			: 0, 
+							cost				: 0,
+							controllers			: [],
 						};
 					}
-					stats[ type ][ period ][ systems[i] ].quantity ++;
-					stats[ type ][ period ][ systems[i] ].cost += cost;
+					stats[ type ][ period ][ systems[i] ].quantity 	++;
+					stats[ type ][ period ][ systems[i] ].cost 	+= cost;
 					stats[ type ][ period ][ systems[i] ].controllers.push(controller.peripheralName);
 				}
 			}
@@ -125,7 +121,11 @@ classes: wide
 	} 
 	
 	function enum_controllers(){
-		var ret = [];
+		ret 			= [];
+		stats 			= {
+			"years"		: {},
+			"months"	: {},
+		};
 		var text = set_HTML("searchtext", null, "val");
 		var sect = set_HTML("sections", null, "val");
 		var comp = set_HTML("companies", null, "val");
