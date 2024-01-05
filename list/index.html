@@ -9,6 +9,7 @@ classes: wide
 	var ascending = true;
 	var reason = "";
 	var found = 0;
+	var ret = [];
 	
 	window.addEventListener('load', function () {
 		query();
@@ -160,14 +161,18 @@ classes: wide
 		return false;
 	}
 
+	function click_controller(index){
+		msgbox(ret[index].peripheralName, make_controller(ret[index]));
+	}
+
 	function query(){
 		var HTML = "";
-		var ret = enum_controllers(controllers);
+		ret = enum_controllers(controllers);
 		for(var i = 0; i < ret.length; i++){
 			var controller = ret[i];
-			var A = '<A HREF="/' + controller_section(controller, true) + "#" + toclassname(controller.peripheralName) + '">';
-			var TD = '</A></TD><TD>' + A;
-			HTML += '<TR TITLE="' + controller.reasons + '"><TD ALIGN="center">' + A + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + controller.peripheralName + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</A></TD></TR>'
+			var A = '';//'<A HREF="/' + controller_section(controller, true) + "#" + toclassname(controller.peripheralName) + '">';
+			var TD = '</TD><TD>';// + A;//</A>
+			HTML += '<TR TITLE="' + controller.reasons + '" ONCLICK="click_controller(' + i + ');" CLASS="hyperlink"><TD ALIGN="center">' + A + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + controller.peripheralName + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + '</A></TD></TR>'
 		}
 		set_HTML("controllers", HTML);
 		set_HTML("footer", "Found " + found + " out of " + controllers.length + " peripherals");
@@ -214,34 +219,48 @@ classes: wide
 
 <TABLE CLASS="table">
 	<THEAD>
-			<TR>
-				<TD COLSPAN="5">
-					<INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
-					<SELECT ID="sections" ONCHANGE="query();"></SELECT>
-					<SELECT ID="companies" ONCHANGE="query();"></SELECT>
-					<SELECT ID="systems" ONCHANGE="query();"></SELECT>
-					<SELECT ID="locations" ONCHANGE="query();"></SELECT>
-				</TD>
-			</TR>
-			<TR STYLE="cursor: pointer;">
-				<TH ONCLICK="sortby('peripheral');">ID</TH>
-				<TH ONCLICK="sortby('company');">Company</TH>
-				<TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
-				<TH ONCLICK="sortby('obtained');">Obtained</TH>
-				<TH ONCLICK="sortby('systems');">Systems</TH>
-			</TR>
+		<TR>
+			<TD COLSPAN="5">
+				<INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
+				<SELECT ID="sections" ONCHANGE="query();"></SELECT>
+				<SELECT ID="companies" ONCHANGE="query();"></SELECT>
+				<SELECT ID="systems" ONCHANGE="query();"></SELECT>
+				<SELECT ID="locations" ONCHANGE="query();"></SELECT>
+			</TD>
+		</TR>
+		<TR STYLE="cursor: pointer;">
+			<TH ONCLICK="sortby('peripheral');">ID</TH>
+			<TH ONCLICK="sortby('company');">Company</TH>
+			<TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
+			<TH ONCLICK="sortby('obtained');">Obtained</TH>
+			<TH ONCLICK="sortby('systems');">Systems</TH>
+		</TR>
 	</THEAD>
 	<TBODY ID="controllers"></TBODY>
 	<TFOOT>
-			<TR>
-				<TD COLSPAN="5" ID="footer"></TD>
+		<TR>
+			<TD COLSPAN="5" ID="footer"></TD>
 		</TR>
 	</TFOOT>
 </TABLE>
 
 <STYLE>
 	.table thead{
-			position: sticky;
-			top: 50px;
+		position	: sticky;
+		top		: 50px;
+	}
+
+	.header{
+		display		: none;
+	}
+
+	#modalbody .table{
+		width		: 100%;
+		margin-bottom	: 0px;
+	}
+
+	#modalbody{
+		padding-left	: 0px;
+		padding-right	: 0px;
 	}
 </STYLE>	
