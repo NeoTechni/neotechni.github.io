@@ -4591,6 +4591,16 @@ keyboard: adjustable wristpad, clickable analog stick, 1 thumb button, 20 backli
 	description: "NES controller replica (with 2 foot long cable) which works on Wiimotes (which works on Wii and Wii U): Dpad, 2 face buttons, 2 system buttons",
 	games: "NES Classic games, Wii/Wii U Virtual Console NES games",
 },{
+	peripheral: "286-C",
+	attached: "286-A",
+	company: "Nintendo",
+	peripheralName: "Famicom Classic",
+	systems: "SYS",
+	obtained: "2023-12-25",
+	cost: 0,
+	description: "HDMI, powered via microUSB, 2 Wii EXT ports, plays 30 built-in NES games (cannot be expanded) 4 savestates per game, 3 display modes (CRT, 4:3, Pixel Perfect). 2 hard-wired controllers with: dpad, 2 face buttons, 2 system buttons",
+	games: "NES Classic",
+},{
 	peripheral: "287",
 	company: "Nintendo",
 	peripheralName: "Gameboy Camera",
