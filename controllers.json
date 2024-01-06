@@ -2063,7 +2063,8 @@ Exactly like my idea I submitted to DreamGear and they rejected`,
 	photographed: true,
 	cost: 60,
 	description: `A wireless (USB 1.1 dongle) optical mouse with a game controller on the bottom
-1600 dpi, 7 mouse buttons, scroll wheel, 14 gamepad buttons, rumble, 2 small joysticks, dpad`,
+1600 dpi, 7 mouse buttons, scroll wheel, 14 gamepad buttons, rumble, 2 small joysticks, dpad
+Different modes are triggered by holding Start (Controller mode) Select (Powerpoint Remote mode) or nothing (Mouse mode) while turning it on (The power switch is finicky and only acts as on if you move it almost to the on position, not the whole way)`,
 	games: "PC games",
 	specificVersion: "Red",
 	otherVersions: "Green, White, Black (GoEasily) Purple, White, Black (Shogun Bros)",
