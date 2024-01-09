@@ -3,275 +3,275 @@ layout: default
 ---
 <TITLE>NeoTechni's Novelty Gaming Peripheral Museum</TITLE>
 <BODY>
-   <!--
-A complete palette set is structured as follows:
-
-BG Palette 0 1 2 3
-OBJ0 Palette 0 1 2 3
-OBJ1 Palette 0 1 2 3
-Window Palette 0 1 2 3
-LCD Off Color 3
-
-At the end of the file are 5 extra bytes - 0x81 and the ASCII characters APGB. These must be present for the palette to be correctly recognized.
-
-Here is a sample hex listing for a blue and orange palette:
-
-000000 52528C 8C8CDE FFFFFF   ; BG
-000000 944A4A FF8484 FFFFFF   ; OBJ0
-000000 843100 FFAD63 FFFFFF   ; OBJ1
-000000 555555 AAAAAA FFFFFF   ; Window
-FFFFFF 81 41504742            ; LCDoff and footer
--->
-
-<TABLE>
-	<THEAD>
-		<TR>
-			<TH>Palette</TH>
-			<TH>0</TH>
-			<TH>1</TH>
-			<TH>2</TH>
-			<TH>3</TH>
+	<TABLE>
+		<THEAD>
+			<TR>
+				<TH>Palette</TH>
+				<TH ALIGN="center">0</TH>
+				<TH ALIGN="center">1</TH>
+				<TH ALIGN="center">2</TH>
+				<TH ALIGN="center">3</TH>			
+				<TH>Result</TH>
+			</TR>
+		</THEAD>
+		<TBODY>
+		
+			<TR TITLE="BG is used on all background/tile layers.">
+				<TD>Background</TD>
+				
+				<TD>
+					<INPUT ID="bg0" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
+					<INPUT ID="bg0c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'bg0');">
+				</TD>
+				
+				<TD>
+					<INPUT ID="bg1" TYPE="color" VALUE="#52528C" ONCHANGE="generate();">
+					<INPUT ID="bg1c" TYPE="text" VALUE="52528C" ONCHANGE="generatec(this, 'bg1');">
+				</TD>
+				
+				<TD>
+					<INPUT ID="bg2" TYPE="color" VALUE="#8C8CDE" ONCHANGE="generate();">
+					<INPUT ID="bg2c" TYPE="text" VALUE="8C8CDE" ONCHANGE="generatec(this, 'bg2');">
+				</TD>
+				
+				<TD>
+					<INPUT ID="bg3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+					<INPUT ID="bg3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'bg3');">
+				</TD>
+				
+				<TD ROWSPAN="4" STYLE="vertical-align: top !important;" TITLE="">
+					<TEXTAREA ID="result" ROWS="5" STYLE="width: 250px; height: 143px;"></TEXTAREA>
+				</TD>
+			</TR>
 			
-			<TH>Result</TH>
-		</TR>
-	</THEAD>
-	<TBODY>
+			<TR TITLE="OBJ0 is used on most if not all sprites, depending on the game.">
+				<TD>Object 0</TD>
+						
+				<TD>
+					<INPUT ID="obj00" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
+					<INPUT ID="obj00c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'obj00');">
+				</TD>
+						
+				<TD>
+					<INPUT ID="obj01" TYPE="color" VALUE="#944A4A" ONCHANGE="generate();">
+					<INPUT ID="obj01c" TYPE="text" VALUE="944A4A" ONCHANGE="generatec(this, 'obj01');">
+				</TD>
+						
+				<TD>
+					<INPUT ID="obj02" TYPE="color" VALUE="#FF8484" ONCHANGE="generate();">
+					<INPUT ID="obj02c" TYPE="text" VALUE="FF8484" ONCHANGE="generatec(this, 'obj02');">
+				</TD>
+						
+				<TD>
+					<INPUT ID="obj03" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+					<INPUT ID="obj03c" TYPE="this" VALUE="FFFFFF" ONCHANGE="generatec(this, 'obj03');">
+				</TD>
+			</TR>
+			
+			<TR TITLE="OBJ1 is less common though used by some games for certain sprites.">
+				<TD>Object 1</TD>
+						
+				<TD>
+					<INPUT ID="obj10" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
+					<INPUT ID="obj10c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'obj10');">
+				</TD>
+						
+				<TD>
+					<INPUT ID="obj11" TYPE="color" VALUE="#843100" ONCHANGE="generate();">
+					<INPUT ID="obj11c" TYPE="text" VALUE="843100" ONCHANGE="generatec(this, 'obj11');">
+				</TD>
+						
+				<TD>
+					<INPUT ID="obj12" TYPE="color" VALUE="#FFAD63" ONCHANGE="generate();">
+					<INPUT ID="obj12c" TYPE="text" VALUE="FFAD63" ONCHANGE="generatec(this, 'obj12');">
+				</TD>
+				
+				<TD>
+					<INPUT ID="obj13" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+					<INPUT ID="obj13c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'obj13');">
+				</TD>
+			</TR>
+			
+			<TR TITLE="Window is used for static elements like status bars. 
+	Only Pocket and the BGB emulator are known to support this feature. 
+	Normally it should be the same as the BG palette.">
+				<TD>Window</TD>
+						
+				<TD>
+					<INPUT ID="win0" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
+					<INPUT ID="win0c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'win0');">
+				</TD>
+						
+				<TD>
+					<INPUT ID="win1" TYPE="color" VALUE="#555555" ONCHANGE="generate();">
+					<INPUT ID="win1c" TYPE="text" VALUE="555555" ONCHANGE="generatec(this, 'win1');">
+				</TD>
+						
+				<TD>
+					<INPUT ID="win2" TYPE="color" VALUE="#AAAAAA" ONCHANGE="generate();">
+					<INPUT ID="win2c" TYPE="text" VALUE="AAAAAA" ONCHANGE="generatec(this, 'win2');">
+				</TD>
+						
+				<TD>
+					<INPUT ID="win3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+					<INPUT ID="win3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'win3');">
+				</TD>
+			</TR>
+			
+			<TR TITLE="Finally, there is a color specified for when the LCD is turned off. 
+	Normally, this should be a very light (or white) color. 
+	This color will be seen during loading screens in many games. 
+	For example, Pokemon Pinball turns the LCD off when moving the pinball between the top and bottom sections of the playfield.">
+				<TD>LCD Off</TD>
+				<TD COLSPAN="3"></TD>
+				<TD>
+					<INPUT ID="lcd3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+					<INPUT ID="lcd3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'lcd3');">
+				</TD>
+				
+				<TD ALIGN="center" TITLE="">
+					<BUTTON ONCLICK="generate(false);">Download</BUTTON>
+				</TD>
+			</TR>
+		</TBODY>
 	
-		<TR TITLE="BG is used on all background/tile layers.">
-			<TD>Background</TD>
-			
-			<TD>
-				<INPUT ID="bg0" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
-				<INPUT ID="bg0c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'bg0');">
-			</TD>
-			
-			<TD>
-				<INPUT ID="bg1" TYPE="color" VALUE="#52528C" ONCHANGE="generate();">
-				<INPUT ID="bg1c" TYPE="text" VALUE="52528C" ONCHANGE="generatec(this, 'bg1');">
-			</TD>
-			
-			<TD>
-				<INPUT ID="bg2" TYPE="color" VALUE="#8C8CDE" ONCHANGE="generate();">
-				<INPUT ID="bg2c" TYPE="text" VALUE="8C8CDE" ONCHANGE="generatec(this, 'bg2');">
-			</TD>
-			
-			<TD>
-				<INPUT ID="bg3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
-				<INPUT ID="bg3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'bg3');">
-			</TD>
-			
-			<TD ROWSPAN="4" STYLE="vertical-align: top !important;" TITLE="">
-				<TEXTAREA ID="result" ROWS="5" STYLE="width: 250px; height: 143px;"></TEXTAREA>
-			</TD>
-		</TR>
-		
-		<TR TITLE="OBJ0 is used on most if not all sprites, depending on the game.">
-			<TD>Object 0</TD>
-					
-			<TD>
-				<INPUT ID="obj00" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
-				<INPUT ID="obj00c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'obj00');">
-			</TD>
-					
-			<TD>
-				<INPUT ID="obj01" TYPE="color" VALUE="#944A4A" ONCHANGE="generate();">
-				<INPUT ID="obj01c" TYPE="text" VALUE="944A4A" ONCHANGE="generatec(this, 'obj01');">
-			</TD>
-					
-			<TD>
-				<INPUT ID="obj02" TYPE="color" VALUE="#FF8484" ONCHANGE="generate();">
-				<INPUT ID="obj02c" TYPE="text" VALUE="FF8484" ONCHANGE="generatec(this, 'obj02');">
-			</TD>
-					
-			<TD>
-				<INPUT ID="obj03" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
-				<INPUT ID="obj03c" TYPE="this" VALUE="FFFFFF" ONCHANGE="generatec(this, 'obj03');">
-			</TD>
-		</TR>
-		
-		<TR TITLE="OBJ1 is less common though used by some games for certain sprites.">
-			<TD>Object 1</TD>
-					
-			<TD>
-				<INPUT ID="obj10" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
-				<INPUT ID="obj10c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'obj10');">
-			</TD>
-					
-			<TD>
-				<INPUT ID="obj11" TYPE="color" VALUE="#843100" ONCHANGE="generate();">
-				<INPUT ID="obj11c" TYPE="text" VALUE="843100" ONCHANGE="generatec(this, 'obj11');">
-			</TD>
-					
-			<TD>
-				<INPUT ID="obj12" TYPE="color" VALUE="#FFAD63" ONCHANGE="generate();">
-				<INPUT ID="obj12c" TYPE="text" VALUE="FFAD63" ONCHANGE="generatec(this, 'obj12');">
-			</TD>
-			
-			<TD>
-				<INPUT ID="obj13" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
-				<INPUT ID="obj13c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'obj13');">
-			</TD>
-		</TR>
-		
-		<TR TITLE="Window is used for static elements like status bars. 
-Only Pocket and the BGB emulator are known to support this feature. 
-Normally it should be the same as the BG palette.">
-			<TD>Window</TD>
-					
-			<TD>
-				<INPUT ID="win0" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
-				<INPUT ID="win0c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'win0');">
-			</TD>
-					
-			<TD>
-				<INPUT ID="win1" TYPE="color" VALUE="#555555" ONCHANGE="generate();">
-				<INPUT ID="win1c" TYPE="text" VALUE="555555" ONCHANGE="generatec(this, 'win1');">
-			</TD>
-					
-			<TD>
-				<INPUT ID="win2" TYPE="color" VALUE="#AAAAAA" ONCHANGE="generate();">
-				<INPUT ID="win2c" TYPE="text" VALUE="AAAAAA" ONCHANGE="generatec(this, 'win2');">
-			</TD>
-					
-			<TD>
-				<INPUT ID="win3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
-				<INPUT ID="win3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'win3');">
-			</TD>
-		</TR>
-		
-		<TR TITLE="Finally, there is a color specified for when the LCD is turned off. 
-Normally, this should be a very light (or white) color. 
-This color will be seen during loading screens in many games. 
-For example, Pokemon Pinball turns the LCD off when moving the pinball between the top and bottom sections of the playfield.">
-			<TD>LCD Off</TD>
-			<TD COLSPAN="3"></TD>
-			<TD>
-				<INPUT ID="lcd3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
-				<INPUT ID="lcd3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'lcd3');">
-			</TD>
-			
-			<TD ALIGN="center" TITLE="">
-				<BUTTON ONCLICK="generate(false);">Download</BUTTON>
-			</TD>
-		</TR>
-	</TBODY>
+		<TFOOT>
+			<TR>
+				<TD COLSPAN="6" ALIGN="center">
+					Save them to \Assets\gb\common\palettes
+				</TD>
+			<TR>
+			<TR>
+				<TD COLSPAN="6" ALIGN="center">
+					Hover your mouse over the table cells for more information
+				</TD>
+			<TR>
+		</TFOOT>
+	</TABLE>
 
-	<TFOOT>
-		<TR>
-			<TD COLSPAN="6" ALIGN="center">
-				Save them to \Assets\gb\common\palettes
-			</TD>
-		<TR>
-		<TR>
-			<TD COLSPAN="6" ALIGN="center">
-				Hover your mouse over the table cells for more information
-			</TD>
-		<TR>
-	</TFOOT>
-</TABLE>
-
-<SCRIPT>
-	var newline = "\r\n";
-	const hexToDecimal = hex => parseInt(hex, 16);
+	<A HREF="https://www.analogue.co/developer/docs/custom-palettes">Documentation</A>:
+	<PRE>
+		A complete palette set is structured as follows:
+		
+		BG Palette 0 1 2 3
+		OBJ0 Palette 0 1 2 3
+		OBJ1 Palette 0 1 2 3
+		Window Palette 0 1 2 3
+		LCD Off Color 3
+		
+		At the end of the file are 5 extra bytes - 0x81 and the ASCII characters APGB. These must be present for the palette to be correctly recognized.
+		
+		Here is a sample hex listing for a blue and orange palette:
+		
+		000000 52528C 8C8CDE FFFFFF   ; BG
+		000000 944A4A FF8484 FFFFFF   ; OBJ0
+		000000 843100 FFAD63 FFFFFF   ; OBJ1
+		000000 555555 AAAAAA FFFFFF   ; Window
+		FFFFFF 81 41504742            ; LCDoff and footer
+	</PRE>
 	
-	String.prototype.brute = function (search, replacement) {
-		var target = this;
-		while(target.indexOf(search) > -1){
-		//while(target.contains(search)){
-			target = target.replace(search, replacement);
-		}
-		return target;
-	}; 
-	
-	//returns the left $n characters of a string
-	String.prototype.left = function (n) {
-		return this.substring(0, n);
-	};
-
-	//returns the right $n characters of a string
-	String.prototype.right = function (n) {
-		return this.substring(this.length - n);
-	};
-
-	String.prototype.mid = function (start, length) {
-		return this.substring(start, start + length);
-	};
+	<SCRIPT>
+		var newline = "\r\n";
+		const hexToDecimal = hex => parseInt(hex, 16);
 		
-	function getcolor(id){
-		var color = document.getElementById(id).value.replace("#", "").toUpperCase();
-		settext(id + "c", color);
-		return color;
-	}
-	
-	function settext(id, text){		
-		document.getElementById(id).value = text;
-	}
-
-	function gettext(id){
-		return document.getElementById(id).value;	
-	}
-
-	function isHex(h) {
-		var a = parseInt(h,16);
-		return (a.toString(16) === h.toLowerCase());
-	}
-
-	function generatec(element, id){
-		var value = element.value.replace("#", "").toUpperCase();
-		if(isHex(value) && value.length == 6){//text element is a valid hex color
-			settext(id, value);
-			generate();	
-		} else {
-			settext(id + "c", gettext(id).replace("#", ""));
-		}
-	}
-
-	function generate(verbose = true){
-		var colors = [
-			getcolor("bg0"), 	getcolor("bg1"), 	getcolor("bg2"), 	getcolor("bg3"), 	newline,
-			getcolor("obj00"), 	getcolor("obj01"), 	getcolor("obj02"), 	getcolor("obj03"), 	newline,
-			getcolor("obj10"), 	getcolor("obj11"), 	getcolor("obj12"), 	getcolor("obj13"), 	newline,
-			getcolor("win0"), 	getcolor("win1"), 	getcolor("win2"), 	getcolor("win3"), 	newline,
-			getcolor("lcd3"),	81,					41504742
-		];
-		
-		if(verbose){
-			colors = colors.join(" ").brute(newline + " ", newline);
-		} else {
-			var colors2 = colors.join("").brute(newline, "");
-			console.log("Raw: " + colors2 + " (" + (colors2.length / 2) + " bytes)");
-			colors = [];
-			for(var i = 0; i < colors2.length; i+=2){
-				var hex = colors2.mid(i, 2)
-				var dec = hexToDecimal(hex);
-				var chr = String.fromCharCode(dec);
-				colors.push( chr );
-				console.log("Byte: " + (i / 2 + 1) + " Hex: " + hex + " Dec: " + dec + " Char: " + chr);
+		String.prototype.brute = function (search, replacement) {
+			var target = this;
+			while(target.indexOf(search) > -1){
+			//while(target.contains(search)){
+				target = target.replace(search, replacement);
 			}
-			colors = colors.join("");
-			console.log("Total length: " + colors.length);
-			download("palette.pal", colors);
+			return target;
+		}; 
+		
+		//returns the left $n characters of a string
+		String.prototype.left = function (n) {
+			return this.substring(0, n);
+		};
+	
+		//returns the right $n characters of a string
+		String.prototype.right = function (n) {
+			return this.substring(this.length - n);
+		};
+	
+		String.prototype.mid = function (start, length) {
+			return this.substring(start, start + length);
+		};
+			
+		function getcolor(id){
+			var color = document.getElementById(id).value.replace("#", "").toUpperCase();
+			settext(id + "c", color);
+			return color;
+		}
+		
+		function settext(id, text){		
+			document.getElementById(id).value = text;
+		}
+	
+		function gettext(id){
+			return document.getElementById(id).value;	
+		}
+	
+		function isHex(h) {
+			var a = parseInt(h,16);
+			return (a.toString(16) === h.toLowerCase());
+		}
+	
+		function generatec(element, id){
+			var value = element.value.replace("#", "").toUpperCase();
+			if(isHex(value) && value.length == 6){//text element is a valid hex color
+				settext(id, value);
+				generate();	
+			} else {
+				settext(id + "c", gettext(id).replace("#", ""));
+			}
+		}
+	
+		function generate(verbose = true){
+			var colors = [
+				getcolor("bg0"), 	getcolor("bg1"), 	getcolor("bg2"), 	getcolor("bg3"), 	newline,
+				getcolor("obj00"), 	getcolor("obj01"), 	getcolor("obj02"), 	getcolor("obj03"), 	newline,
+				getcolor("obj10"), 	getcolor("obj11"), 	getcolor("obj12"), 	getcolor("obj13"), 	newline,
+				getcolor("win0"), 	getcolor("win1"), 	getcolor("win2"), 	getcolor("win3"), 	newline,
+				getcolor("lcd3"),	81,					41504742
+			];
+			
+			if(verbose){
+				colors = colors.join(" ").brute(newline + " ", newline);
+			} else {
+				var colors2 = colors.join("").brute(newline, "");
+				console.log("Raw: " + colors2 + " (" + (colors2.length / 2) + " bytes)");
+				colors = [];
+				for(var i = 0; i < colors2.length; i+=2){
+					var hex = colors2.mid(i, 2)
+					var dec = hexToDecimal(hex);
+					var chr = String.fromCharCode(dec);
+					colors.push( chr );
+					console.log("Byte: " + (i / 2 + 1) + " Hex: " + hex + " Dec: " + dec + " Char: " + chr);
+				}
+				colors = colors.join("");
+				console.log("Total length: " + colors.length);
+				download("palette.pal", colors);
+				return false;
+			}
+			
+			settext("result", colors);
+			console.log(colors);
 			return false;
 		}
 		
-		settext("result", colors);
-		console.log(colors);
-		return false;
-	}
+		function download(filename, text) {
+			var element = document.createElement('a');
+			element.setAttribute('href', 'data:text/plain;base64,' + btoa(text));
+			element.setAttribute('download', filename);
 	
-	function download(filename, text) {
-		var element = document.createElement('a');
-		element.setAttribute('href', 'data:text/plain;base64,' + btoa(text));
-		element.setAttribute('download', filename);
-
-		element.style.display = 'none';
-		document.body.appendChild(element);
-
-		element.click();
-
-		document.body.removeChild(element);
-	}
+			element.style.display = 'none';
+			document.body.appendChild(element);
 	
-	generate();
-</SCRIPT>
+			element.click();
+	
+			document.body.removeChild(element);
+		}
+		
+		generate();
+	</SCRIPT>
 </BODY>
