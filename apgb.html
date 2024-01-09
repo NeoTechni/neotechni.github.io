@@ -40,7 +40,7 @@ layout: default
 				</TD>
 				
 				<TD ROWSPAN="4" STYLE="vertical-align: top !important;" TITLE="">
-					<TEXTAREA ID="result" ROWS="5" STYLE="width: 250px; height: 143px;"></TEXTAREA>
+					<TEXTAREA ID="result" ROWS="5"></TEXTAREA>
 				</TD>
 			</TR>
 			
@@ -171,36 +171,36 @@ layout: default
 	</PRE>
 	
 	<SCRIPT>
-		var newline = "\r\n";
-		const hexToDecimal = hex => parseInt(hex, 16);
+		var newline 			= "\r\n";
+		const hexToDecimal 		= hex => parseInt(hex, 16);
 		
 		String.prototype.brute = function (search, replacement) {
-			var target = this;
+			var target 		= this;
 			while(target.indexOf(search) > -1){
 			//while(target.contains(search)){
-				target = target.replace(search, replacement);
+				target 		= target.replace(search, replacement);
 			}
-			return target;
+			return 			target;
 		}; 
 		
 		//returns the left $n characters of a string
-		String.prototype.left = function (n) {
-			return this.substring(0, n);
+		String.prototype.left 		= function (n) {
+			return 			this.substring(0, n);
 		};
 	
 		//returns the right $n characters of a string
-		String.prototype.right = function (n) {
-			return this.substring(this.length - n);
+		String.prototype.right 		= function (n) {
+			return 			this.substring(this.length - n);
 		};
 	
-		String.prototype.mid = function (start, length) {
-			return this.substring(start, start + length);
+		String.prototype.mid 		= function (start, length) {
+			return 			this.substring(start, start + length);
 		};
 			
 		function getcolor(id){
-			var color = document.getElementById(id).value.replace("#", "").toUpperCase();
+			var color 		= document.getElementById(id).value.replace("#", "").toUpperCase();
 			settext(id + "c", color);
-			return color;
+			return 			color;
 		}
 		
 		function settext(id, text){		
@@ -208,16 +208,16 @@ layout: default
 		}
 	
 		function gettext(id){
-			return document.getElementById(id).value;	
+			return 			document.getElementById(id).value;	
 		}
 	
 		function isHex(h) {
-			var a = parseInt(h,16);
-			return (a.toString(16) === h.toLowerCase());
+			var a 			= parseInt(h,16);
+			return 			(a.toString(16) === h.toLowerCase());
 		}
 	
 		function generatec(element, id){
-			var value = element.value.replace("#", "").toUpperCase();
+			var value 		= element.value.replace("#", "").toUpperCase();
 			if(isHex(value) && value.length == 6){//text element is a valid hex color
 				console.log("Valid hex color: " + value);
 				settext(id, "#" + value);
@@ -233,7 +233,7 @@ layout: default
 		}
 	
 		function generate(verbose = true){
-			var colors = [
+			var colors 		= [
 				getcolor("bg0"), 	getcolor("bg1"), 	getcolor("bg2"), 	getcolor("bg3"), 	newline,
 				getcolor("obj00"), 	getcolor("obj01"), 	getcolor("obj02"), 	getcolor("obj03"), 	newline,
 				getcolor("obj10"), 	getcolor("obj11"), 	getcolor("obj12"), 	getcolor("obj13"), 	newline,
@@ -242,11 +242,11 @@ layout: default
 			];
 			
 			if(verbose){
-				colors = colors.join(" ").brute(newline + " ", newline);
+				colors 		= colors.join(" ").brute(newline + " ", newline);
 			} else {
-				var colors2 = colors.join("").brute(newline, "");
+				var colors2 	= colors.join("").brute(newline, "");
 				console.log("Raw: " + colors2 + " (" + (colors2.length / 2) + " bytes)");
-				colors = [];
+				colors 		= [];
 				for(var i = 0; i < colors2.length; i+=2){
 					var hex = colors2.mid(i, 2)
 					var dec = hexToDecimal(hex);
@@ -254,23 +254,23 @@ layout: default
 					colors.push( chr );
 					console.log("Byte: " + (i / 2 + 1) + " Hex: " + hex + " Dec: " + dec + " Char: " + chr);
 				}
-				colors = colors.join("");
+				colors 		= colors.join("");
 				console.log("Total length: " + colors.length);
 				download("palette.pal", colors);
-				return false;
+				return 		false;
 			}
 			
 			settext("result", colors);
 			console.log(colors);
-			return false;
+			return 			false;
 		}
 		
 		function download(filename, text) {
-			var element = document.createElement('a');
+			var element 		= document.createElement('a');
 			element.setAttribute('href', 'data:text/plain;base64,' + btoa(text));
 			element.setAttribute('download', filename);
 	
-			element.style.display = 'none';
+			element.style.display 	= 'none';
 			document.body.appendChild(element);
 	
 			element.click();
@@ -283,7 +283,13 @@ layout: default
 
 	<STYLE>
 		.text{
-			width: 50px;
+			width			: 50px;
+		}
+
+		#result{
+			width			: 100%;
+			min-width		: 250px; 
+			height			: 143px;
 		}
 	</STYLE>
 </BODY>
