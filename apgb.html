@@ -39,10 +39,26 @@ FFFFFF 81 41504742            ; LCDoff and footer
 	
 		<TR TITLE="BG is used on all background/tile layers.">
 			<TD>Background</TD>
-			<TD><INPUT ID="bg0" TYPE="color" VALUE="#000000" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="bg1" TYPE="color" VALUE="#52528C" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="bg2" TYPE="color" VALUE="#8C8CDE" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="bg3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();"></TD>
+			
+			<TD>
+				<INPUT ID="bg0" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
+				<INPUT ID="bg0c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'bg0');">
+			</TD>
+			
+			<TD>
+				<INPUT ID="bg1" TYPE="color" VALUE="#52528C" ONCHANGE="generate();">
+				<INPUT ID="bg1c" TYPE="text" VALUE="52528C" ONCHANGE="generatec(this, 'bg1');">
+			</TD>
+			
+			<TD>
+				<INPUT ID="bg2" TYPE="color" VALUE="#8C8CDE" ONCHANGE="generate();">
+				<INPUT ID="bg2c" TYPE="text" VALUE="8C8CDE" ONCHANGE="generatec(this, 'bg2');">
+			</TD>
+			
+			<TD>
+				<INPUT ID="bg3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+				<INPUT ID="bg3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'bg3');">
+			</TD>
 			
 			<TD ROWSPAN="4" STYLE="vertical-align: top !important;" TITLE="">
 				<TEXTAREA ID="result" ROWS="5" STYLE="width: 250px; height: 143px;"></TEXTAREA>
@@ -51,28 +67,76 @@ FFFFFF 81 41504742            ; LCDoff and footer
 		
 		<TR TITLE="OBJ0 is used on most if not all sprites, depending on the game.">
 			<TD>Object 0</TD>
-			<TD><INPUT ID="obj00" TYPE="color" VALUE="#000000" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="obj01" TYPE="color" VALUE="#944A4A" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="obj02" TYPE="color" VALUE="#FF8484" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="obj03" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();"></TD>
+					
+			<TD>
+				<INPUT ID="obj00" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
+				<INPUT ID="obj00c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'obj00');">
+			</TD>
+					
+			<TD>
+				<INPUT ID="obj01" TYPE="color" VALUE="#944A4A" ONCHANGE="generate();">
+				<INPUT ID="obj01c" TYPE="text" VALUE="944A4A" ONCHANGE="generatec(this, 'obj01');">
+			</TD>
+					
+			<TD>
+				<INPUT ID="obj02" TYPE="color" VALUE="#FF8484" ONCHANGE="generate();">
+				<INPUT ID="obj02c" TYPE="text" VALUE="FF8484" ONCHANGE="generatec(this, 'obj02');">
+			</TD>
+					
+			<TD>
+				<INPUT ID="obj03" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+				<INPUT ID="obj03c" TYPE="this" VALUE="FFFFFF" ONCHANGE="generatec(this, 'obj03');">
+			</TD>
 		</TR>
 		
 		<TR TITLE="OBJ1 is less common though used by some games for certain sprites.">
 			<TD>Object 1</TD>
-			<TD><INPUT ID="obj10" TYPE="color" VALUE="#000000" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="obj11" TYPE="color" VALUE="#843100" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="obj12" TYPE="color" VALUE="#FFAD63" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="obj13" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();"></TD>
+					
+			<TD>
+				<INPUT ID="obj10" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
+				<INPUT ID="obj10c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'obj10');">
+			</TD>
+					
+			<TD>
+				<INPUT ID="obj11" TYPE="color" VALUE="#843100" ONCHANGE="generate();">
+				<INPUT ID="obj11c" TYPE="text" VALUE="843100" ONCHANGE="generatec(this, 'obj11');">
+			</TD>
+					
+			<TD>
+				<INPUT ID="obj12" TYPE="color" VALUE="#FFAD63" ONCHANGE="generate();">
+				<INPUT ID="obj12c" TYPE="text" VALUE="FFAD63" ONCHANGE="generatec(this, 'obj12');">
+			</TD>
+			
+			<TD>
+				<INPUT ID="obj13" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+				<INPUT ID="obj13c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'obj13');">
+			</TD>
 		</TR>
 		
 		<TR TITLE="Window is used for static elements like status bars. 
 Only Pocket and the BGB emulator are known to support this feature. 
 Normally it should be the same as the BG palette.">
 			<TD>Window</TD>
-			<TD><INPUT ID="win0" TYPE="color" VALUE="#000000" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="win1" TYPE="color" VALUE="#555555" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="win2" TYPE="color" VALUE="#AAAAAA" ONCHANGE="generate();"></TD>
-			<TD><INPUT ID="win3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();"></TD>
+					
+			<TD>
+				<INPUT ID="win0" TYPE="color" VALUE="#000000" ONCHANGE="generate();">
+				<INPUT ID="win0c" TYPE="text" VALUE="000000" ONCHANGE="generatec(this, 'win0');">
+			</TD>
+					
+			<TD>
+				<INPUT ID="win1" TYPE="color" VALUE="#555555" ONCHANGE="generate();">
+				<INPUT ID="win1c" TYPE="text" VALUE="555555" ONCHANGE="generatec(this, 'win1');">
+			</TD>
+					
+			<TD>
+				<INPUT ID="win2" TYPE="color" VALUE="#AAAAAA" ONCHANGE="generate();">
+				<INPUT ID="win2c" TYPE="text" VALUE="AAAAAA" ONCHANGE="generatec(this, 'win2');">
+			</TD>
+					
+			<TD>
+				<INPUT ID="win3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+				<INPUT ID="win3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'win3');">
+			</TD>
 		</TR>
 		
 		<TR TITLE="Finally, there is a color specified for when the LCD is turned off. 
@@ -80,10 +144,11 @@ Normally, this should be a very light (or white) color.
 This color will be seen during loading screens in many games. 
 For example, Pokemon Pinball turns the LCD off when moving the pinball between the top and bottom sections of the playfield.">
 			<TD>LCD Off</TD>
-			<TD></TD>
-			<TD></TD>
-			<TD></TD>
-			<TD><INPUT ID="lcd3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();" VALUE="#FFFFFF"></TD>
+			<TD COLSPAN="3"></TD>
+			<TD>
+				<INPUT ID="lcd3" TYPE="color" VALUE="#FFFFFF" ONCHANGE="generate();">
+				<INPUT ID="lcd3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'lcd3');">
+			</TD>
 			
 			<TD ALIGN="center" TITLE="">
 				<BUTTON ONCLICK="generate(false);">Download</BUTTON>
@@ -95,6 +160,11 @@ For example, Pokemon Pinball turns the LCD off when moving the pinball between t
 		<TR>
 			<TD COLSPAN="6" ALIGN="center">
 				Save them to \Assets\gb\common\palettes
+			</TD>
+		<TR>
+		<TR>
+			<TD COLSPAN="6" ALIGN="center">
+				Hover your mouse over the table cells for more information
 			</TD>
 		<TR>
 	</TFOOT>
@@ -128,11 +198,32 @@ For example, Pokemon Pinball turns the LCD off when moving the pinball between t
 	};
 		
 	function getcolor(id){
-		return document.getElementById(id).value.replace("#", "").toUpperCase();
+		var color = document.getElementById(id).value.replace("#", "").toUpperCase();
+		settext(id + "c", color);
+		return color;
 	}
 	
 	function settext(id, text){		
 		document.getElementById(id).value = text;
+	}
+
+	function gettext(id){
+		return document.getElementById(id).value;	
+	}
+
+	function isHex(h) {
+		var a = parseInt(h,16);
+		return (a.toString(16) === h.toLowerCase());
+	}
+
+	function generatec(element, id){
+		var value = element.value.replace("#", "").toUpperCase();
+		if(isHex(value) && value.length == 6){//text element is a valid hex color
+			settext(id, value);
+			generate();	
+		} else {
+			settext(id + "c", gettext(id).replace("#", ""));
+		}
 	}
 
 	function generate(verbose = true){
