@@ -39,8 +39,8 @@ layout: default
 					<INPUT ID="bg3c" TYPE="text" VALUE="FFFFFF" ONCHANGE="generatec(this, 'bg3');" CLASS="text">
 				</TD>
 				
-				<TD ROWSPAN="4" STYLE="vertical-align: top !important;" TITLE="">
-					<TEXTAREA ID="result" ROWS="5"></TEXTAREA>
+				<TD ROWSPAN="4" STYLE="vertical-align: top !important;" TITLE="Editing/Pasting Hex codes here will affect the inputs to the left">
+					<TEXTAREA ID="result" ROWS="5" ONCHANGE="generateall(this);" ONPASTE="generateall(this);"></TEXTAREA>
 				</TD>
 			</TR>
 			
@@ -211,14 +211,37 @@ layout: default
 			return 			document.getElementById(id).value;	
 		}
 	
-		function isHex(h) {
-			var a 			= parseInt(h,16);
-			return 			(a.toString(16) === h.toLowerCase());
+		function isHex (hex) {
+		  	return typeof hex === 'string' && hex.length === 6 && !isNaN(Number('0x' + hex));
+		}
+
+		function generateall(element = false){
+			if(!element){
+				element		= gettext("result");
+			}
+			var value 		= element.value.brute("\r", " ").brute("\n", " ").brute("  ", " ").split(" ");
+			var ids 		= ["bg0", "bg1", "bg2", "bg3", "obj00", "obj01", "obj02", "obj03", "obj10", "obj11", "obj12", "obj13", "win0", "win1", "win2", "win3", "lcd3"];
+			var cell;
+			console.log(value);
+			for(var i = 0; i < value.length; i++){
+				cell 		= value[i];
+				if(isHex(cell)){
+					settext(ids[i], "#" + cell);
+					settext(ids[i] + "c", cell);
+					console.log("SET " + ids[i] + " TO: #" + cell);
+				} else {
+					console.log(ids[i] + " Was not a hex color (" + cell + ")");
+				}
+				if(i >= ids.length){
+					console.log("Stopped at: " + i);
+					break;
+				}
+			}
 		}
 	
 		function generatec(element, id){
 			var value 		= element.value.replace("#", "").toUpperCase();
-			if(isHex(value) && value.length == 6){//text element is a valid hex color
+			if(isHex(value)){//text element is a valid hex color
 				console.log("Valid hex color: " + value);
 				settext(id, "#" + value);
 				generate();	
@@ -238,7 +261,7 @@ layout: default
 				getcolor("obj00"), 	getcolor("obj01"), 	getcolor("obj02"), 	getcolor("obj03"), 	newline,
 				getcolor("obj10"), 	getcolor("obj11"), 	getcolor("obj12"), 	getcolor("obj13"), 	newline,
 				getcolor("win0"), 	getcolor("win1"), 	getcolor("win2"), 	getcolor("win3"), 	newline,
-				getcolor("lcd3"),	81,					41504742
+				getcolor("lcd3"),	81,			41504742
 			];
 			
 			if(verbose){
