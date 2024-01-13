@@ -751,8 +751,9 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "cost", 			"Can be found for");
 				HTML += make_controller(controller, "company", 			"Made by");
 				HTML += make_controller(controller, "location",			"Location");
-				HTML += make_controller(controller, "specificVersion", 	"Specific Version");
-				HTML += make_controller(controller, "otherVersions", 	"Other Version(s)");
+				HTML += make_controller(controller, "specificVersion", 		"Specific Version");
+				HTML += make_controller(controller, "otherVersions", 		"Other Version(s)");
+				HTML += make_controller(controller, "attachments", 		"Attachments");
 				HTML += '</TD></TR><TR><TD CLASS="top">';
 				HTML += make_controller(controller, "description");
 				HTML += '</TD></TR>';
@@ -774,6 +775,15 @@ function make_controller(controller = false, stat = false, name = false){
 			if(name){
 				HTML += "<B>" + name + "</B>: ";
 				switch(stat){
+					case "attachments":
+						var del = "";
+						for(var att in controller[stat]){
+							if(controller[stat].hasOwnProperty(att)){
+								HTML += del + '<A HREF="/files/' + controller[stat][att] + '">' + att + '</A>';
+								del = ", ";
+							}
+						}
+						break;
 					case "cost": 
 						HTML += "~$" + controller[stat]; 
 						if(controller.hasOwnProperty("importOnly")){
