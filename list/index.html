@@ -262,6 +262,106 @@ classes: wide
 		}
 		return 			ret;
 	}
+
+	function enum_companies(type = 0, limit2year = 0){
+	    	var ret 		= [];
+		if(type < 0){
+			for(var year in stats.years){
+				if(stats.years.hasOwnProperty(year)){
+					if(isNumeric(year) && ret.indexOf(year) == -1){
+						ret.push(parseInt(year));
+					}
+				}
+			}		
+		} else if(type > 1900){//months
+			for(var month in stats.months){
+				if(stats.months.hasOwnProperty(month) && month.startswith(type)){
+					month = parseInt(month.split("-")[1]);
+					if(ret.indexOf(month) == -1){
+						ret.push(month);
+					}				
+				}
+			}
+		} else {//0=company, 1=console
+			for(var year in stats.years){
+				if(stats.years.hasOwnProperty(year)){		
+					for(var company in stats.years[year]){
+						if(stats.years[year].hasOwnProperty(company)){
+							if(ret.indexOf(company) == -1 && stats.years[year][company].type == type){
+								if(limit2year == 0 || limit2year == year){
+									ret.push(company);
+								}
+							}
+						}
+					}
+				}
+			}
+			return 		ret.sort();//name
+		}
+		return 			ret.sort(function (a, b) {  return a - b;  });//numeric
+	}
+	
+	function make_stats(type = -1, years){
+		var HTML 		= "";
+		var total_money = 0, total_quantity = 0, money, quantity;
+		if(type == -1){//years, header, footer
+			years 		= enum_companies(-1);
+			HTML 		= '<TABLE CLASS="table"><THEAD><TR><TH>©/System</TH>';
+			for(year = 0; year < years.length; year++){
+				HTML	+= '<TH>' + years[year] + '</TH>';
+			}
+			HTML		+= '<TH>Total</TH></TR></THEAD><TBODY>';
+			
+			HTML 		+= make_stats(0, years);//companies
+			HTML 		+= make_stats(1, years);//consoles
+			HTML 		+= make_stats(2, years);//totals
+			
+			HTML		+= '</TBODY></TABLE>';
+			msgbox("Statistics", HTML);
+		} else if(type == 2){//total
+			HTML 		= '<TR><TD>Total</TD>';
+			for(var year = 0; year < years.length; year++){
+				money	= 0;
+				quantity = 0;
+				for(var item in stats.years[ years[year] ]){
+					if(stats.years[ years[year] ].hasOwnProperty(item)){
+						if(stats.years[ years[year] ][ item ].type == 0){
+							money += stats.years[ years[year] ][ item ].cost;
+							quantity += stats.years[ years[year] ][ item ].quantity;
+						}
+					}
+				}
+				HTML	+= make_cell(money, quantity);
+				total_money += money;
+				total_quantity += quantity;
+			}
+			HTML		+= make_cell(total_money, total_quantity) + '</TR>';
+		} else {
+			var data 	= enum_companies(type);
+			for(var i = 0; i < data.length; i++){
+				HTML 	+= '<TR><TD ALIGN="right">' + data[i] + '</TD>';
+				total_money = 0;
+				total_quantity = 0;
+				for(var year = 0; year < years.length; year++){
+					money = 0;
+					quantity = 0;
+					if(stats.years[ years[year] ].hasOwnProperty(data[i])){
+						money = stats.years[ years[year] ][ data[i] ].cost;
+						quantity = stats.years[ years[year] ][ data[i] ].quantity;
+						total_money += money;
+						total_quantity += quantity;
+					}
+					HTML += make_cell(money, quantity);
+				}
+				HTML	+= make_cell(total_money, total_quantity) + '</TR>';
+			}
+		}
+		return 			HTML;
+	}
+
+	function make_cell(money, quantity){
+		return 			'<TD ALIGN="right">$' + money + '<BR>' + quantity + '×</TD>';
+	}
 </SCRIPT>
 
 <TABLE CLASS="table">
@@ -274,6 +374,7 @@ classes: wide
 				<SELECT ID="systems" ONCHANGE="query();"></SELECT>
 				<SELECT ID="locations" ONCHANGE="query();"></SELECT>
 				<SELECT ID="obtained" ONCHANGE="query();"></SELECT>
+				<BUTTON ONCLICK="make_stats(); return false;">View Statistics</BUTTON>
 			</TD>
 		</TR>
 		<TR STYLE="cursor: pointer;">
