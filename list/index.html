@@ -360,6 +360,9 @@ classes: wide
 	}
 
 	function make_cell(money, quantity){
+		if(quantity == 0){
+			return '<TD>&nbsp;</TD>';
+		}
 		return 			'<TD ALIGN="right">$' + money + '<BR>' + quantity + '×</TD>';
 	}
 </SCRIPT>
