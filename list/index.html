@@ -326,8 +326,8 @@ classes: wide
 				for(var item in stats.years[ years[year] ]){
 					if(stats.years[ years[year] ].hasOwnProperty(item)){
 						if(stats.years[ years[year] ][ item ].type == 0){
-							money += stats.years[ years[year] ][ item ].cost;
-							quantity += stats.years[ years[year] ][ item ].quantity;
+							money += parseInt(stats.years[ years[year] ][ item ].cost);
+							quantity += parseInt(stats.years[ years[year] ][ item ].quantity);
 						}
 					}
 				}
@@ -346,8 +346,8 @@ classes: wide
 					money = 0;
 					quantity = 0;
 					if(stats.years[ years[year] ].hasOwnProperty(data[i])){
-						money = stats.years[ years[year] ][ data[i] ].cost;
-						quantity = stats.years[ years[year] ][ data[i] ].quantity;
+						money = parseInt(stats.years[ years[year] ][ data[i] ].cost);
+						quantity = parseInt(stats.years[ years[year] ][ data[i] ].quantity);
 						total_money += money;
 						total_quantity += quantity;
 					}
