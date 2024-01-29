@@ -157,10 +157,11 @@ classes: wide
 		var sect 		= set_HTML("sections", null, "val");
 		var comp 		= set_HTML("companies", null, "val");
 		var syst 		= set_HTML("systems", null, "val");
-		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "'");
+		var obtained		= set_HTML("obtained", null, "val");
+		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained);
 		for(var i = 0; i < controllers.length; i++){
 			var controller 	= controllers[i];
-			if(test_controller(controller, text, sect, comp, syst)){
+			if(test_controller(controller, text, sect, comp, syst, obtained)){
 				controller.reason = reason;
 				add2stats(controller);
 				ret.push(controller);
