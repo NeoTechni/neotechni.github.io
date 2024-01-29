@@ -27,7 +27,7 @@ classes: wide
 				HTML	+= '<OPTION>' + year + '</OPTION>';
 				for(month = 1; month < 13; month++){
 					if(dates[year].hasOwnProperty(month)){
-						HTML += '<OPTION VALUE="' + year + '-' + month + '">&nbsp;&nbsp;&nbsp;&nbsp;' + month_names[ month-1 ] + '</OPTION>';
+						HTML += '<OPTION VALUE="' + year + '-' + month.pad(2) + '">&nbsp;&nbsp;&nbsp;&nbsp;' + month_names[ month-1 ] + '</OPTION>';
 					}					
 				}
 			}
