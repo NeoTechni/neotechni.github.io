@@ -125,7 +125,7 @@ classes: wide
 					};
 				}
 				stats[ type ][ period ][ controller.company ].quantity	++;
-				stats[ type ][ period ][ controller.company ].cost 	+= cost;
+				stats[ type ][ period ][ controller.company ].cost 	+= parseInt(cost);
 				stats[ type ][ period ][ controller.company ].controllers.push(controller.peripheralName);
 			}
 			if(controller.hasOwnProperty("systems")){
@@ -140,7 +140,7 @@ classes: wide
 						};
 					}
 					stats[ type ][ period ][ systems[i] ].quantity 	++;
-					stats[ type ][ period ][ systems[i] ].cost 	+= cost;
+					stats[ type ][ period ][ systems[i] ].cost 	+= parseInt(cost);
 					stats[ type ][ period ][ systems[i] ].controllers.push(controller.peripheralName);
 				}
 			}
