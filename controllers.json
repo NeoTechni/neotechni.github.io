@@ -269,7 +269,7 @@ var controllers = [{
 	peripheralName: "Twin Sticks",
 	systems: "Saturn",
 	photographed: true,
-	cost: "150",
+	cost: 150,
 	importOnly: true,
 	description: "2 triggers, 2 joysticks, 1 button, a cool box",
 	games: "Virtual On: Operation Moonbase",
@@ -358,8 +358,8 @@ var controllers = [{
 	peripheralName: "Virtual Boy",
 	systems: "Virtual Boy",
 	photographed: true,
-	cost: "30 (Gift from Exophase)",
-	description: "2 triggers, 2 dpads, 4 buttons, dual 384×224 (black + 3 shades of red) monochrome LCDs",
+	cost: 0,
+	description: "2 triggers, 2 dpads, 4 buttons, dual 384×224 (black + 3 shades of red) monochrome LCDs. Gift from Exophase",
 	games: "Virtual Boy",
 },{
 	peripheral: "000-14-A",
@@ -398,9 +398,9 @@ var controllers = [{
 	peripheralName: "Pocket Sakura",
 	systems: "SYS",
 	photographed: true,
-	cost: "30 (with game)",
+	cost: 30,
 	importOnly: true,
-	description: "1 dpad, 4 buttons, IRDA link, Pedometer, Reset, speaker, LCD can display 3 colors (+off) at a time, a cool box, unknown resolution color LCD",
+	description: "1 dpad, 4 buttons, IRDA link, Pedometer, Reset, speaker, LCD can display 3 colors (+off) at a time, a cool box, unknown resolution color LCD. Came with a game",
 	games: "Sakura Wars (GBC)",
 },{
 	peripheral: "000-15C",
@@ -409,7 +409,7 @@ var controllers = [{
 	systems: "SYS",
 	japanese: "ポケットハローキティ",
 	obtained: "2021-12-15",
-	cost: "30",
+	cost: 30,
 	importOnly: true,
 	description: "1 dpad, 4 buttons, Pedometer, Reset, speaker, a cool box, unknown resolution black and white LCD",
 },{
@@ -441,8 +441,8 @@ var controllers = [{
 	systems: "Saturn",
 	location: "BIN-08 (Long)",
 	photographed: true,
-	cost: "40 with game, $20 without",
-	description: "1 dpad, 2 triggers, 7 buttons (6 face, 1 system), 1 analog stick thing, a cool box. The switch toggles between the analog stick or dpad. Only one can be active at a time",
+	cost: 40,
+	description: "1 dpad, 2 triggers, 7 buttons (6 face, 1 system), 1 analog stick thing, a cool box. The switch toggles between the analog stick or dpad. Only one can be active at a time. Cost included the game, $20 without it",
 	games: "Christmas NiGHTS, NiGHTS, Sky Target",
 	specificVersion: "Black",
 	otherVersions: "White",
@@ -637,7 +637,7 @@ var controllers = [{
 	cost: 0,
 	description: ``,
 	games: "",
-	cost: "150",
+	cost: 150,
 	importOnly: true,
 	description: "2 analog sticks, 4 triggers, a system button, VMU slot, a cool box",
 	games: "Virtual On Oratario Tangram",
@@ -1361,7 +1361,7 @@ It comes with an adapter to work on the Genesis, that only works with this contr
 	systems: "SYS",
 	obtained: "2010-03-14",
 	photographed: true,
-	cost: "40 (with game)",
+	cost: 40",
 	description: "3 buttons, IRDA link, pedometer, speaker, a cool box, takes 1 CR-2032 battery, unknown resolution monochrome LCD",
 	games: "Pokémon Heart Gold/Soul Silver/Mind Crystal (DS)",
 },{
@@ -1495,7 +1495,7 @@ maps the aiming/motion sensing to the right analog stick) Turbo switch, detachab
 	location: "BIN-10 (Site B)",
 	obtained: "2010-07-21",
 	photographed: true,
-	cost: "25 with game",
+	cost: 25,
 	description: `Analog wheel, 2 buttons`,
 	games: "Arkanoid, Chase H.Q. (NES)",
 	specificVersion: "Grey",
@@ -1518,7 +1518,7 @@ maps the aiming/motion sensing to the right analog stick) Turbo switch, detachab
 	obtained: "2010-07-30",
 	photographed: true,
 	location: "BIN-08 (Long)",
-	cost: "350 Not available to the public",
+	cost: 350,
 	description: `DTL-H500
 1 dpad, 6 face buttons, 2 system buttons, 2 shoulder buttons, serial interface
 A historical artifact: Never released prototype
@@ -2091,7 +2091,7 @@ Mouse: 1/3 meter wire, 6 buttons (also re-assignable), optical, weighted, a mous
 	systems: "PS3",
 	obtained: "2011-11-15",
 	photographed: true,
-	cost: "499",
+	cost: 499,
 	description: `2 pairs of glasses
 3DTV: A 24", 1080p, 240HZ 3D TV, 1 Component and 2 HDMI inputs, includes a 2 meter HDMI cable, 1 pair of 3D glasses, and a copy of Resistance 3 and MotorStorm: Pacific Rift
 Supports a new kind of split screen, where using 3D mode, Player 1 gets the left frame, and Player 2 gets the right frame. So each player only sees their screen
@@ -2533,8 +2533,8 @@ API to let PC apps send data to the console it's connected to`,
 	systems: "PS3",
 	obtained: "2012-12-19",
 	photographed: true,
-	cost: "59 with a game, PSeye and Move",
-	description: "A large hard-cover book of 14 augmented reality tracking tags",
+	cost: 59,
+	description: "A large hard-cover book of 14 augmented reality tracking tags. Cost includes a game, PSeye and Move",
 	games: "Harry Potter: Book of Spells, Book of Potions, Walking with Dinosaurs, Diggs Nightcrawler",
 },{
 	peripheral: "186",
@@ -3036,7 +3036,7 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	systems: "Misc",
 	obtained: "2013-11-27",
 	photographed: true,
-	cost: 0,
+	cost: 34,
 	description: ``,
 	games: "",
 },{
@@ -3049,7 +3049,7 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	systems: "Misc",
 	obtained: "2013-12-21",
 	photographed: true,
-	cost: 0,
+	cost: 75,
 	description: ``,
 	games: "",
 },{
@@ -6399,9 +6399,11 @@ Touchpad area, headphone port`,
 	location: "BIN-04",
 	systems: "PS4",
 	obtained: "2019-12-23",
-	cost: "130 for a starter kit, 40 for another Lightcon",
+	cost: 130,
 	description: `Base: an infrared camera, connects via USB (microUSB on X1, not removable on PS4)
-Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trigger, back button, pump action, takes 2xAAs (not included)`,
+Lightcon: an infrared laser, trigger, RGB LED ring around the power button, trigger, back button, pump action, takes 2xAAs (not included)
+Cost included $130 for a starter kit (came with 2 lightcons if you preordered), $40 for another Lightcon
+	`,
 	games: "Voyage of the Dead, Qubit's Quest, Big Buck Hunter: Arcade (PS4)",
 	specificVersion: "PS4",
 	otherVersions: "XBOX1",
