@@ -35,18 +35,18 @@ classes: wide
 </TABLE>
 
 <STYLE>
-	.4k-bluray td{
+	.medium-4k-bluray td{
 		background-color: black;
 		color: white;
 		font-weight: bold;
 	}
 
-	.3d-bluray td{
+	.medium-3d-bluray td{
 		color: #FFCCCB;
 		font-weight: bold;
 	}
 
-	.bluray td{
+	.medium-bluray td{
 		color: #0095D5;
 		font-weight: bold;
 	}
@@ -76,8 +76,8 @@ classes: wide
   function query(){
     var HTML                            = '';
     var results                         = 0;
-    var text 		                        = set_HTML("name", null, "val");
-    var medi   		                      = set_HTML("medium", null, "val");
+    var text 		                = set_HTML("name", null, "val");
+    var medi   		                = set_HTML("medium", null, "val");
     for(var medium in movies){
       if(movies.hasOwnProperty(medium)){
         if(!medi || medium == medi){
@@ -97,7 +97,7 @@ classes: wide
   }
 
   function make_movie(medium, movie){
-    var HTML                            = '<TR CLASS="' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + movie + '</TD><TD>';
+    var HTML                            = '<TR CLASS="medium-' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + movie + '</TD><TD>';
     HTML                               += movies[medium][movie].join(", ");
     HTML                               += '</TD><TD>' + medium + '</TD></TR>';
     if(HTML.contains("Steelbook")){
@@ -105,12 +105,12 @@ classes: wide
     } else {
 	HTML                            = HTML.replace("[s]", '');
     }
-    return                             HTML;
+    return                            	 HTML;
   }
 
 var movies = {
   "4K Bluray": {
-    "Akira"                            : ["Steelbook"],
+    	"Akira"                            : ["Steelbook"],
   	"Babylon 5"                        : ["The Road Home"],
   	"Battle Angel Alita"               : [],
   	"Guardians of the Galaxy"          : [3],
@@ -126,7 +126,7 @@ var movies = {
   	"Battle Angel Alita"               : [],
   	"Big Hero 6"                       : [],
   	"Frozen"                           : [1, "2 (Steelbook)"],
-  	"Ghost in the Shell	Live Action"   : [],
+  	"Ghost in the Shell"   		   : ["Live Action"],
   	"Inside Out"                       : [],
   	"iRobot"                           : [],
   	"Ironman"                          : [3],
@@ -142,7 +142,7 @@ var movies = {
   	"The Martian"                      : [],
   	"The Wolverine"                    : [],
   	"Thor"                             : ["Ragnarok"],
-  	"Transformers"                     :	["The Last Knight", "Dark of the Moon"],
+  	"Transformers"                     : ["The Last Knight", "Dark of the Moon"],
   	"Up"                               : [],
   	"Wreck it Ralph"                   : [],
   	"Zootopia"                         : [],
@@ -151,7 +151,7 @@ var movies = {
   	"400 Days"                         : [],
   	"Akira"                            : [],
   	"Alien"                            : [1, "Aliens", 3, "Resurrection", "Covenant"],
-  	"Alladin"                          :	[1, 2, 3],
+  	"Alladin"                          : [1, 2, 3],
   	"Anastasia"                        : [],
   	"Appleseed Ex"                     : [],
   	"A Scanner Darkly"                 : [],
@@ -243,7 +243,7 @@ var movies = {
   	"Vice"                             : [],
   	"Virtuosity"                       : [],
   	"WALL-E"                           : [],
-    "Watchmen"                         : ["Director's Cut (Steelbook)", "Motion Comic"],
+    	"Watchmen"                         : ["Director's Cut (Steelbook)", "Motion Comic"],
   	"Who Framed Roger Rabbit"          : [],
   	"Wonder Woman"                     : [],
   	"World War Z"                      : [],
@@ -254,7 +254,7 @@ var movies = {
   	"Astroboy"                         : ["Entire original series"],
   	"Batman Beyond"                    : ["Entire series"],
   	"Bedazzled"                        : [],
-    "Card Captor Sakura"               : ["Entire Series"],
+    	"Card Captor Sakura"               : ["Entire Series"],
   	"Darkwing Duck"                    : ["Vol 1, 2"],
   	"Dilbert"                          : ["The entire animated series"],
   	"Family Guy"                       : ["Vol 1, 2"],
@@ -262,14 +262,14 @@ var movies = {
   	"Futurama"                         : ["Vol 1"],
   	"Gargoyles"                        : ["All but the last non-existent season"],
   	"God, the Devil and Bob"           : ["The entire series"],
-    "Idol Project"                     : ["Vol 1", "Vol 2"],
-    "Iria"                             : ["Metal Box"],
-    "Jewel BEM Hunter"                 : [],
+    	"Idol Project"                     : ["Vol 1", "Vol 2"],
+   	 "Iria"                            : ["Metal Box"],
+    	"Jewel BEM Hunter"                 : [],
   	"Just Shoot Me"                    : ["Season 1 and 2"],
   	"Life Aquatic"                     : [],
   	"Lifepod"                          : [],
   	"Lost in Translation"              : [],
-    "Magic User's Club"                : ["Vol 1"],
+    	"Magic User's Club"                : ["Vol 1"],
   	"Married... With Children"         : ["Entire series"],
   	"Metal Gear Solid"                 : ["Vol 1", "Vol 2"],
   	"Moon Phase"                       : ["Entire series"],
@@ -286,7 +286,7 @@ var movies = {
   	"The Jerk"                         : ["Entire series"],
   	"The View Askewniverse"            : ["Clerks (1, 2, TAS)", "Mallrats", "Chasing Amy", "Jay and Silent Bob"],
   	"Trigun"                           : ["High Noon", "Puppet Master"],
-    "V"                                : ["Season 1 (Steelbook)"],
+    	"V"                                : ["Season 1 (Steelbook)"],
   	"Xenosaga"                         : [],
   	"You're Under Arrest"              : [],
   
