@@ -753,7 +753,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "location",			"Location");
 				HTML += make_controller(controller, "specificVersion", 		"Specific Version");
 				HTML += make_controller(controller, "otherVersions", 		"Other Version(s)");
-				HTML += make_controller(controller, "attachments", 		"Attachments");
+				HTML += make_controller(controller, "files", 			"Attachments");
 				HTML += '</TD></TR><TR><TD CLASS="top">';
 				HTML += make_controller(controller, "description");
 				HTML += '</TD></TR>';
@@ -775,7 +775,7 @@ function make_controller(controller = false, stat = false, name = false){
 			if(name){
 				HTML += "<B>" + name + "</B>: ";
 				switch(stat){
-					case "attachments":
+					case "files":
 						var del = "";
 						for(var att in controller[stat]){
 							if(controller[stat].hasOwnProperty(att)){
