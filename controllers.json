@@ -3810,6 +3810,15 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	description: ``,
 	games: "",
 },{
+	peripheral: "247-CA",
+	attached: "247-01",
+	company: "Nintendo",
+	peripheralName: "amiibo cards",
+	systems: "Wii U/3DS/Switch",
+	cost: 0,
+	description: ``,
+	games: "",
+},{
 	peripheral: "247-CE",
 	attached: "247-01",
 	company: "Nintendo",
