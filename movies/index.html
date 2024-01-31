@@ -22,7 +22,7 @@ classes: wide
       </TR>
       <TR>
         <TH>Name</TH>
-        <TH>Entries</TH>TH>
+        <TH>Entries</TH>
         <TH>Medium</TH>
       </TR>
     </THEAD>
@@ -33,6 +33,40 @@ classes: wide
       </TR>
     </TFOOT>
 </TABLE>
+
+<STYLE>
+	.4k-bluray td{
+		background-color: black;
+		color: white;
+		font-weight: bold;
+	}
+
+	.3d-bluray td{
+		color: #FFCCCB;
+		font-weight: bold;
+	}
+
+	.bluray td{
+		color: #0095D5;
+		font-weight: bold;
+	}
+
+	.steelbook {
+		background: linear-gradient(-45deg, #fff087, #eccf02, #fff087);
+		background-size: 50% 100%;
+		animation: linear-gradient 10s linear infinite;
+	}
+	
+	@keyframes linear-gradient {
+		0% {
+			background-position: 0% 50%
+		}
+	
+		100% {
+			background-position: 400% 400%
+		}
+	}
+</STYLE>
 
 <SCRIPT>
   window.addEventListener('load', function () {
@@ -63,11 +97,13 @@ classes: wide
   }
 
   function make_movie(medium, movie){
-    var HTML                            = '<TR CLASS="' + medium.toLowerCase().replace(" ", "-") + ' steelbook"><TD>' + movie + '</TD><TD>';
+    var HTML                            = '<TR CLASS="' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + movie + '</TD><TD>';
     HTML                               += movies[medium][movie].join(", ");
     HTML                               += '</TD><TD>' + medium + '</TD></TR>';
-    if(!HTML.contains("Steelbook")){
-      HTML                            = HTML.replace(' steelbook', '');
+    if(HTML.contains("Steelbook")){
+     	 HTML                           = HTML.replace("[s]", 'steelbook');
+    } else {
+	HTML                            = HTML.replace("[s]", '');
     }
     return                             HTML;
   }
