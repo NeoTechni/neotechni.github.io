@@ -1,0 +1,58 @@
+---
+title: Other Gadgets
+layout: default
+classes: wide 
+---
+<TITLE>Other Gadgets</TITLE>
+<SCRIPT>
+   controllers = {
+     {
+      	peripheral: "G001-A",
+      	company: "Interact",
+      	style: "list",
+      	title: "PlayStation Memory Card devices",
+      	peripheralName: "Dex Drive",
+      	systems: "PC",
+      	obtained: "1998-01-01",
+      	cost: 80,
+      	description: `Allows reading/writing of PS1 memory cards by a PC via a Serial interface`,
+      },{
+      	peripheral: "G001-B",
+      	attached: "G001-A",
+      	company: "Sony",
+      	peripheralName: "PS1/PS2 Memory Card Adapter",
+      	systems: "PS3",
+      	cost: 50,
+      	description: `Allows a PS3 to use PS1/PS2 memory cards`,
+      },{
+      	peripheral: "G001-C",
+      	attached: "G001-A",
+      	company: "",
+      	peripheralName: "Memor32",
+      	systems: "PS2",
+      	cost: 50,
+      	description: `A 32 MB PS2 memory card with a USB-B interface for reading/writing via a PC`,
+      },{
+      	peripheral: "G001-D",
+      	attached: "G001-A",
+      	company: "8bitmods",
+      	peripheralName: "Smart Memory Card 2",
+      	systems: "PS1/PS2",
+      	cost: 50,
+      	description: `A PS1/PS2 memory card that uses a microSD card, has a USB-micro port for connecting to a PC, an OLED display and 2 buttons for menu operations, Wifi for wireless access`,
+      },{
+      	peripheral: "G002",
+      	company: "",
+      	peripheralName: "Stone LCD",
+      	systems: "PC",
+      	cost: 50,
+      	description: `An LCD panel that fits in a 3.5" drive bay, adds remote control to a Windows PC`,
+      }
+   };
+  
+   window.addEventListener('load', function () {
+      set_HTML("controllers", make_controller());
+   });
+</SCRIPT>
+
+<DIV ID="controllers"></DIV>
