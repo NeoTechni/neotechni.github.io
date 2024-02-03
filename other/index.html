@@ -5,7 +5,7 @@ classes: wide
 ---
 <TITLE>Other Gadgets</TITLE>
 <SCRIPT>
-   controllers = {
+   controllers = [
      {
       	peripheral: "G001-A",
       	company: "Interact",
@@ -42,13 +42,13 @@ classes: wide
       	description: `A PS1/PS2 memory card that uses a microSD card, has a USB-micro port for connecting to a PC, an OLED display and 2 buttons for menu operations, Wifi for wireless access`,
       },{
       	peripheral: "G002",
-      	company: "",
-      	peripheralName: "Stone LCD",
+      	company: "SilverStone",
+      	peripheralName: "MFP51",
       	systems: "PC",
       	cost: 50,
       	description: `An LCD panel that fits in a 3.5" drive bay, adds remote control to a Windows PC`,
       }
-   };
+   ];
   
    window.addEventListener('load', function () {
       set_HTML("controllers", make_controller());
