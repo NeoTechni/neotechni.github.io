@@ -6892,6 +6892,24 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 30,
 	description: `An adapter for the Analogue Pocket, adds Game Gear compatibility`,
 },{
+	peripheral: "459-A",
+	attached: "459",
+	company: "Analogue",
+	peripheralName: "3-pack Adapter set",
+	systems: "SYS",
+	obtained: "2024-03-12",
+	cost: 100,
+	description: `Adapters for the Analogue Pocket, adds Neo Geo Pocket/Pocket Color, PC Engine/TurboGrafx, and Atari Lynx compatibility`,
+},{
+	peripheral: "459-B",
+	attached: "459",
+	company: "Analogue",
+	peripheralName: "Beefy Grip + dock",
+	systems: "SYS",
+	obtained: "2024-03-12",
+	cost: 100,
+	description: `A more confortable way to hold the Analogue Pocket`,
+},{
 	peripheral: "460-A",
 	company: "Thunder Stick Studio",
 	peripheralName: "Build-a-Cade",
@@ -7194,4 +7212,20 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	files: {
 		'Manual': "Cantrollerguide.pdf"
 	},
+},{
+	peripheral: "488",
+	peripheralName: "Arrow",
+	company: "Yawman",
+	systems: "PC",
+	obtained: "2024-03-12",
+	cost: 250,
+	description: `dpad with center button, thumbstick, POV hat, 6 face buttons, 2 shoulder buttons, 2 mechanically connected triggers, 2 throttle sliders, scroll wheel, 2 pull out things, wired via USB-C`,
+},{
+	peripheral: "489",
+	peripheralName: "Interlink DX",
+	company: "Horizon",
+	systems: "PC",
+	obtained: "2024-03-12",
+	cost: 100,
+	description: `2 2-way switches, 5 3-way switches, clickable scroll wheel, 1 trigger, 2 tiny dial-triggers, 4 2-way buttons, 2 face buttons, 1 dial, 2 SPIKED analog sticks (1 of which doesn't recenter vertically and is inverted)`,
 }];
