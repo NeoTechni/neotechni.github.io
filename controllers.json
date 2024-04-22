@@ -7228,4 +7228,13 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2024-03-12",
 	cost: 100,
 	description: `2 2-way switches, 5 3-way switches, clickable scroll wheel, 1 trigger, 2 tiny dial-triggers, 4 2-way buttons, 2 face buttons, 1 dial, 2 SPIKED analog sticks (1 of which doesn't recenter vertically and is inverted)`,
+},{
+	peripheral: "490",
+	peripheralName: "Flight Yoke",
+	company: "Saitek",
+	systems: "PC",
+	obtained: "2024-04-19",
+	cost: 150,
+	description: `Yoke: 3 2-way switches, 1 3-way switch (right trigger position), POV hat, yoke (steering wheel with in/out), 1 trigger, 1 face button, 3 buttons for the digital timer, 1 PS/2 connector (for the Throttle Quadrant), 3 USB-A ports
+	Throttle Quadrant: 3 levers, 3 2-way buttons, plugs in via a PS/2 connector`,
 }];
