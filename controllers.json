@@ -5484,7 +5484,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 		<LI>Star Wars Episode 1 Racer</LI>
 		<LI>Test Drive Off-Road 3</LI>
 		<LI>Vigilante 8</LI>
-		<LI>Ready To Rumble Boxing</LI>
 		<LI>Missile Command</LI>
 	</UL>`,
 	games: "",
@@ -5540,6 +5539,15 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2023-05-25",
 	cost: 18,
+	description: ``,
+},{
+	peripheral: "363-H",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Ready To Rumble Boxing",
+	systems: "GBC",
+	obtained: "2024-04-25",
+	cost: 20,
 	description: ``,
 },{	
 	peripheral: "364",
