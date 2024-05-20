@@ -7248,9 +7248,11 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 },{
 	peripheral: "491",
 	peripheralName: "Ochanoma Battle Set",
+	games: "OCHA NO MA BATTLE",
 	company: "HORI",
 	systems: "PS1",
 	obtained: "2024-05-15",
+	japanese: "パーコンシリーズ お茶の間バトル",
 	cost: 115,
 	description: `4 controllers with 3 buttons each. 1 plugs into the console, the rest plug into that controller via headphone connectors`,
 }];
