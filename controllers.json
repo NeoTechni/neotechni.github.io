@@ -5481,9 +5481,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 		<LI>Legend Of The River King 2</LI>
 		<LI>Nascar Challenge</LI>
 		<LI>Polaris Snocross</LI>
-		<LI>Star Wars Episode 1 Racer</LI>
 		<LI>Test Drive Off-Road 3</LI>
-		<LI>Vigilante 8</LI>
 		<LI>Missile Command</LI>
 	</UL>`,
 	games: "",
@@ -5494,7 +5492,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	peripheralName: "Perfect Dark",
 	systems: "GBC",
 	cost: 0,
-	description: ``,
 },{
 	peripheral: "363-C",
 	attached: "363-A",
@@ -5503,7 +5500,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2018-03-05",
 	cost: 0,
-	description: ``,
 },{
 	peripheral: "363-D",
 	attached: "363-A",
@@ -5512,7 +5508,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2021-09-19",
 	cost: 0,
-	description: ``,
 },{
 	peripheral: "363-E",
 	attached: "363-A",
@@ -5521,7 +5516,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2022-07-22",
 	cost: 20,
-	description: ``,
 },{
 	peripheral: "363-F",
 	attached: "363-A",
@@ -5530,7 +5524,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2023-02-05",
 	cost: 30,
-	description: ``,
 },{
 	peripheral: "363-G",
 	attached: "363-A",
@@ -5539,7 +5532,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2023-05-25",
 	cost: 18,
-	description: ``,
 },{
 	peripheral: "363-H",
 	attached: "363-A",
@@ -5548,7 +5540,22 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2024-04-25",
 	cost: 20,
-	description: ``,
+},{
+	peripheral: "363-I",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Vigilante 8",
+	systems: "GBC",
+	obtained: "2024-05-23",
+	cost: 40,
+},{
+	peripheral: "363-H",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Star Wars Episode 1 Racer",
+	systems: "GBC",
+	obtained: "2024-04-25",
+	cost: 20,
 },{	
 	peripheral: "364",
 	company: "Whirlwind FX",
