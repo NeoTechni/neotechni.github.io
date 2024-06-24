@@ -78,11 +78,11 @@ classes: wide
     var text 		                = set_HTML("name", null, "val");
     var medi   		                = set_HTML("medium", null, "val");
     for(var medium in movies){
-      if(movies.hasOwnProperty(medium)){
+      if(movies.hasOwnProperty(medium)){//makes sure it's my data and not a JS property
         if(!medi || medium == medi){
           for(var movie in movies[medium]){
-            if(movies[medium].hasOwnProperty(movie)){
-              if(!text || movie.contains(text)){
+            if(movies[medium].hasOwnProperty(movie)){//makes sure it's my data and not a JS property
+              if(!text || movie.contains(text) || arraycontains(movies[medium][movie], text)){
                 HTML                   += make_movie(medium, movie);
                 results                ++;
               }
@@ -93,6 +93,15 @@ classes: wide
     }
     set_HTML("results", HTML);
     set_HTML("footer", results + " result(s) found");
+  }
+
+  function arraycontains(arr, text){
+	  for(var i = 0; i < arr.length; i++){
+		  if(arr[i].contains(text)){
+			  return 	true;
+		  }
+	  }
+	  return			false;
   }
 
   function make_movie(medium, movie){
@@ -222,7 +231,7 @@ var movies = {
   	"Sonic The Hedgehog Movie"         : [],
   	"Spiderman"                        : ["Original/Raimi: 1, 2, 3", "Amazing: 1, 2", "Homecoming", "Far from Home"],
   	"Starship Yamato"                  : [],
-  	"Star Trek"                        : ["TAS", "TOS", "TNG", "All movies", "Kelvin/JJ: 1, Beyond, Into Darkness", "Lower Decks: 1, 2, 3", "PIC"],
+  	"Star Trek"                        : ["TAS", "TOS", "TNG", "All movies", "Kelvin/JJ: 1, Beyond, Into Darkness", "Lower Decks: 1-4", "PIC"],
   	"Superman"                         : [1, 2, 3, 4, "Returns", "Unbounded", "Red Son (Steelbook)"],
   	"Ted"                              : [1, 2],
   	"Terminator"                       : [1, 2, 3, "Salvation", "Dark Fate"],
