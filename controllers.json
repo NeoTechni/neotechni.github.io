@@ -5047,7 +5047,7 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	systems: "PS2",
 	obtained: "2017-05-18",
 	cost: 80,
-	description: `Wireless (via USB dongle), dpad, unknown`,
+	description: `Wireless (via USB dongle), dpad, 1 button, gyroscope`,
 	otherVersions: "Bowling, Racing, Tennis",
 	games: "RealPlay Puzzle Sphere",
 },{
