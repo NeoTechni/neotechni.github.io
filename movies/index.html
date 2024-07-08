@@ -96,11 +96,13 @@ classes: wide
   }
 
   function arraycontains(arr, text){
-	  for(var i = 0; i < arr.length; i++){
-		  if(arr[i].contains(text)){
-			  return 	true;
+	  if(Array.isArray(arr)){
+		  for(var i = 0; i < arr.length; i++){
+			  if(arr[i].contains(text)){
+				  return 	true;
+			  }
 		  }
-	  }
+  	}
 	  return			false;
   }
 
