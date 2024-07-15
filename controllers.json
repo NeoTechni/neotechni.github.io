@@ -7280,7 +7280,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 },{
 	peripheral: "493",
 	peripheralName: "e-Swap",
-	games: "Racing games"
+	games: "Racing games",
 	company: "Thrustmaster",
 	systems: "PC/X1",
 	obtained: "2024-07-13",
