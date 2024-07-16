@@ -7286,6 +7286,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2024-07-13",
 	cost: 99,
 	specificVersion: "Forza",
+	section: "xbox",
 	otherVersions: "Many colors, PS4",
 	description: `Standard dualshock layout but the 3 modules (2 analog sticks + dpad) can be swapped out for others and are held in with strong magnets, a mini-steering wheel module, trigger stops, 4 back buttons, a cool box, wired-only, button remapping via an X1/PC program or a mode switch, stores 2 profiles, 
 	buttons along the front edge for: Volume +/-, mute/unmute mic, profile switching, remapping mode`,
