@@ -7161,6 +7161,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheral: "479-A",
 	image: "479.jpg",
 	title: "Keyboard Extensions",
+	style: "list",
 	company: "8bitdo",
 	peripheralName: "Super Buttons",
 	systems: "PC",
@@ -7188,6 +7189,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 },{
 	peripheral: "479-D",
 	attached: "479-A",
+	image: "479.D.jpg",
 	company: "8bitdo",
 	peripheralName: "Super Button",
 	systems: "PC",
