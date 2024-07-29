@@ -5475,13 +5475,12 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "1999-04-16",
 	cost: 0,
-	description: `A Gameboy cartridge with an integrated rumble motor. Takes 1xAAA battery. Needed (Bold ones are en route): <UL>
+	description: `A Gameboy cartridge with an integrated rumble motor. Takes 1xAAA battery. Needed (Any <B>bolded</B> ones are en route): <UL>
 		<LI>10 Pin Bowling</LI>
 		<LI>Hole In One Golf</LI>
-		<LI STYLE="font-weight: bold;">Legend Of The River King 2</LI>
 		<LI>Polaris Snocross</LI>
 		<LI>Test Drive Off-Road 3</LI>
-		<LI STYLE="font-weight: bold;">Missile Command</LI>
+		<LI>Nushi Tsuri Adventure Kite no Bouken</LI>
 	</UL>`,
 	games: "",
 },{
@@ -5562,7 +5561,15 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	peripheralName: "NASCAR Challenge",
 	systems: "GBC",
 	obtained: "2024-06-07",
-	cost: 20,	
+	cost: 20,
+},{
+	peripheral: "363-L",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Legend Of The River King 4",
+	systems: "GBC",
+	obtained: "2024-07-01",
+	cost: 30,
 },{	
 	peripheral: "364",
 	company: "Whirlwind FX",
@@ -7151,13 +7158,44 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2023-08-25",
 	description: "640x480 camera, takes 2xAA batteries when not connected to a DreamCast",
 },{
-	peripheral: "479",
+	peripheral: "479-A",
+	image: "479.jpg",
+	title: "Keyboard Extensions",
 	company: "8bitdo",
 	peripheralName: "Super Buttons",
 	systems: "PC",
 	cost: 20,	
 	obtained: "2023-10-10",
 	description: "2 big buttons that plug in via headphone connectors. The left/A button works on the MS XBOX Access Controller",
+},{
+	peripheral: "479-B",
+	attached: "479",
+	company: "8bitdo",
+	peripheralName: "Super ABXY",
+	systems: "PC",
+	cost: 10,	
+	obtained: "2024-07-27",
+	description: "4 keyboard buttons, magnets to attach to other extensions",
+},{
+	peripheral: "479-C",
+	attached: "479",
+	company: "8bitdo",
+	peripheralName: "Super Stick",
+	systems: "PC",
+	cost: 10,	
+	obtained: "2024-07-27",
+	description: "1 joystick, magnets to attach to other extensions",
+},{
+	peripheral: "479-D",
+	attached: "479",
+	company: "8bitdo",
+	peripheralName: "Super Button",
+	systems: "PC",
+	cost: 10,	
+	obtained: "2024-07-27",
+	description: "1 big button, magnets to attach to other extensions",
+	specificVersion: "Blue",
+	otherVersions: "Red, Yellow, Green",
 },{
 	peripheral: "480",
 	company: "Kickstarter",
@@ -7271,7 +7309,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	description: `4 controllers with 3 buttons each. 1 plugs into the console, the rest plug into that controller via headphone connectors`,
 },{
 	peripheral: "492",
-	peripheralName: "SpaceBall 5000 ",
+	peripheralName: "SpaceBall 5000",
 	company: "3DCONNEXION",
 	systems: "PC",
 	obtained: "2024-07-13",
@@ -7290,4 +7328,12 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	otherVersions: "Many colors, PS4",
 	description: `Standard dualshock layout but the 3 modules (2 analog sticks + dpad) can be swapped out for others and are held in with strong magnets, a mini-steering wheel module, trigger stops, 4 back buttons, a cool box, wired-only, button remapping via an X1/PC program or a mode switch, stores 2 profiles, 
 	buttons along the front edge for: Volume +/-, mute/unmute mic, profile switching, remapping mode`,
+},{
+	peripheral: "494-B",
+	peripheralName: "Cyclops Zoids",
+	company: "Tomy",
+	systems: "GBA",
+	obtained: "2024-07-27",
+	cost: 100,
+	description: `A robot of some sort, controllable via an included IR remote or the GBA game`,
 }];
