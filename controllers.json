@@ -7174,7 +7174,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "8bitdo",
 	peripheralName: "Super ABXY",
 	systems: "PC",
-	cost: 10,	
+	cost: 15,	
 	obtained: "2024-07-27",
 	description: "4 keyboard buttons, magnets to attach to other extensions",
 },{
@@ -7183,7 +7183,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "8bitdo",
 	peripheralName: "Super Stick",
 	systems: "PC",
-	cost: 10,	
+	cost: 15,	
 	obtained: "2024-07-27",
 	description: "1 joystick, magnets to attach to other extensions",
 },{
