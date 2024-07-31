@@ -147,13 +147,15 @@ classes: wide
 		}
 	} 
 	
-	function enum_controllers(){
+	function enum_controllers(text = false){
 		ret 			= [];
 		stats 			= {
 			"years"		: {},
 			"months"	: {},
 		};
-		var text 		= set_HTML("searchtext", null, "val");
+		if(!text){
+			text 		= set_HTML("searchtext", null, "val");
+		}
 		var sect 		= set_HTML("sections", null, "val");
 		var comp 		= set_HTML("companies", null, "val");
 		var syst 		= set_HTML("systems", null, "val");
@@ -194,9 +196,9 @@ classes: wide
 		msgbox('<A HREF="/' + controller_section(controller, true) + "#" + toclassname(controller.peripheralName) + '">' + controller.peripheralName + '</A>', make_controller(controller));
 	}
 
-	function query(){
+	function query(text = false){
 		var HTML 		= "";
-		ret 			= enum_controllers(controllers);
+		ret 			= enum_controllers(text);
 		for(var i = 0; i < ret.length; i++){
 			var controller 	= ret[i];
 			var TD 		= '</TD><TD>';
