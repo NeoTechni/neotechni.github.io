@@ -637,8 +637,8 @@ Number.prototype.pad = function (size = 2, rightside = false, character = "0") {
 };
 
 var anames = document.querySelectorAll(".header");
-if(anames.length > 0){
-  document.getElementById('body').insertAdjacentHTML('afterbegin', '<H1>Table of Contents</H1><UL ID="tos"></UL>');
+if(anames.length > 1){
+  document.getElementById('body').insertAdjacentHTML('afterbegin', '<H1 CLASS="tos">Table of Contents</H1><UL ID="tos" CLASS="tos"></UL>');
   var tos = document.getElementById("tos");
   for(var i = 0; i < anames.length; i++){
     var element = anames[i];
