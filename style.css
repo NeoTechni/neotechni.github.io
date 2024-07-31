@@ -209,5 +209,5 @@ footer{
   to {bottom: 0; opacity: 0;}
 }
 ul br, .dont-show, .dontshow, .hide{
-	display: none;
+	display: none !important;
 }
