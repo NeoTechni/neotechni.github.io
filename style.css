@@ -208,6 +208,6 @@ footer{
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
 }
-ul br{
+ul br, .dont-show, .dontshow, .hide{
 	display: none;
 }
