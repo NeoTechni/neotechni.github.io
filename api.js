@@ -856,7 +856,11 @@ function make_controller(controller = false, stat = false, name = false){
 }
 
 function unisearch(text){
-	visible(text);
+	if(typeof query == "function"){
+		window["query"](text);
+	} else {
+		visible(text);
+	}
 }
 
 function visible(text, selector = ".searchable"){
