@@ -33,7 +33,7 @@ function q(selector, action, value){//mini query
 		if(mode == 0){//get
 			switch(action){
 				case "val": case "value": 	return elements[i].value;
-				default:					return elements[i].getAttribute(action);
+				default:			return elements[i].getAttribute(action);
 			}
 		} else if (mode == 1) {
 			action(elements[i]);
@@ -822,14 +822,15 @@ function make_controller(controller = false, stat = false, name = false){
 			HTML += make_controller(controllers[i]);
 		}
 	} else {//do a specific controller
-		HTML += '<A NAME="' + toclassname(controller.peripheralName) + '"></A>';
+		var classname = toclassname(controller.peripheralName);
+		HTML += '<A NAME="' + classname + '"></A>';
 		var style = "normal";
 		if(controller.hasOwnProperty("style")){
 			style = controller.style;
 		}
 		switch(style){
 			case "normal": case "list":
-				HTML += '<TABLE CLASS="table">' + make_controller(controller, true, iif(style == "list", "noimage", style));
+				HTML += '<TABLE ID="' + classname + '" NAME="' + controller.peripheralName.toLowerCase() + '" CLASS="table searchable">' + make_controller(controller, true, iif(style == "list", "noimage", style));
 				if(style == "list"){
 					HTML += '<TR><TD COLSPAN="2" CLASS="listtable"><TABLE CLASS="listtable"><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
 				}				
@@ -854,6 +855,34 @@ function make_controller(controller = false, stat = false, name = false){
 	return HTML;
 }
 
+function unisearch(text){
+	visible(text);
+}
+
+function visible(text, selector = ".searchable"){
+	text = text.trim().toLowerCase();
+	var elements = document.querySelectorAll(selector);
+	for(var i = 0; i < elements.length; i++){
+		var found = text.length == 0;
+		if(!found){
+			found = elements[i].getAttribute("name").contains(text);
+		}
+		if(found){
+			RemoveClass(elements[i], "dont-show");
+		} else {
+			AddClass(elements[i], "dont-show");
+		}
+	}
+}
+
+function AddClass(element, classname){
+	element.classList.add(classname);
+}
+
+function RemoveClass(element, classname){
+	element.classList.remove(classname);
+}
+
 function makeimg(filename, description, folder = 'images'){
 	return '<IMG SRC="' + iif(filename.contains('/'), "", '/' + folder + '/') + filename + '" CLASS="controllerimage" ONERROR="imgError(this);" ONCLICK="expandimage(this);" ALT="' + description + '">';
 }
@@ -865,7 +894,8 @@ function make_photos(titles = true, folder = 'photos'){
 	for(var key in photos){
 		if(photos.hasOwnProperty(key)){
 			if(photos[key].hasOwnProperty("text")){
-				HTML += '<A NAME="' + toclassname(key) + '"></A><TABLE CLASS="table">';
+				var classname = toclassname(key);
+				HTML += '<A NAME="' + classname + '"></A><TABLE ID="photo-' + classname + '" NAME="' + key.toLowerCase() + '" CLASS="table searchable">';
 				if(titles){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + key + '</TH></TR><TR>';
 					LIST += '<LI><A HREF="#' + toclassname(key) + '">' + key + '</A></LI>';
