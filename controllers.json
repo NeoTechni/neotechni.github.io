@@ -5480,7 +5480,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 		<LI>Hole In One Golf</LI>
 		<LI>Polaris Snocross</LI>
 		<LI>Test Drive Off-Road 3</LI>
-		<LI>Nushi Tsuri Adventure Kite no Bouken</LI>
 	</UL>`,
 	games: "",
 },{
@@ -5570,6 +5569,14 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2024-07-01",
 	cost: 30,
+},{
+	peripheral: "363-M",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Nushi Tsuri Adventure Kite no Bouken",
+	systems: "GBC",
+	obtained: "2024-08-02",
+	cost: 50,
 },{	
 	peripheral: "364",
 	company: "Whirlwind FX",
