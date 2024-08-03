@@ -5481,6 +5481,11 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 		<LI>Polaris Snocross</LI>
 		<LI>Missile Command</LI>
 		<LI>Test Drive Off-Road 3</LI>
+		<LI>Chee Chai Alien [Tiny Alien] (JPN)</LI>
+		<LI>Get Mushi Club: Minna no Konchuu Daizukan [Minna's Insect Book?] (JPN)</LI>
+		<LI>Super Black Bass Real Fight (JPN)</LI>
+		<LI>Super Real Fishing (JPN)</LI>
+		<LI>Top Gear Pocket 2 (JPN)</LI>
 	</UL>`,
 	games: "",
 },{
@@ -5566,7 +5571,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	peripheral: "363-L",
 	attached: "363-A",
 	company: "Nintendo",
-	peripheralName: "Legend Of The River King 4",
+	peripheralName: "Legend Of The River King 4 (JPN)",
 	systems: "GBC",
 	obtained: "2024-07-01",
 	cost: 30,
@@ -5574,7 +5579,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	peripheral: "363-M",
 	attached: "363-A",
 	company: "Nintendo",
-	peripheralName: "Nushi Tsuri Adventure Kite no Bouken",
+	peripheralName: "Nushi Tsuri Adventure Kite no Bouken (JPN)",
 	systems: "GBC",
 	obtained: "2024-08-02",
 	cost: 50,
