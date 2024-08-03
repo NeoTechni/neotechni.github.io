@@ -93,6 +93,9 @@ body{
 	padding-top: 50px !important;
 	padding-right: 0 !important;
 }
+.bold{
+	font-weight: bold;
+}
 @media (max-width: 943px) {
 	#body, header, #bodywrapper{
 		width: 100% !important;
