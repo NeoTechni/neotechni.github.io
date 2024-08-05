@@ -7412,7 +7412,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	urls: {
 		"https://shonumi.github.io/articles/art13.html": "Edge of Emulation",
 	},
-	description: `A sonar fish-finder that only works on GB, GB Pocket and GB Light (Not Super GB, GBC, GBA/GBplayer or even Analogue Pocket) Takes 3xAA batteries`,
+	description: `A sonar fish-finder that only works on GB, GB Pocket and GB Light (Not Super GB, GBC, GBA/GBplayer or even Analogue Pocket) Takes 4xAAA batteries`,
 },{
 	peripheral: "496",
 	peripheralName: "VirtuReal Racing System",
