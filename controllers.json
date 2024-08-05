@@ -7359,6 +7359,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "Nintendo",
 	systems: "GBA",
 	obtained: "2024-08-04",
+	games: "Zoids Cyber Drive",
 	cost: 30,
 	description: `An adapter that plugs into GBA's Link port, adding IR capabilities.
 	Also needed: CDZ-01 Diablotiger, CDZ-EX Diablotiger Beta`,
