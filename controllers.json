@@ -603,6 +603,9 @@ var controllers = [{
 	shipped: "on",
 	photographed: true,
 	cost: 60,
+	urls: {
+		"https://shonumi.github.io/articles/art21.html": "Edge of Emulation",
+	},
 	importOnly: true,
 	description: `Card reader, 55 cards (less than that come with it), a cool box`,
 	games: "Oshare Majo Love and Berry: DS Collection, Kouchuu Ouja Mushiking Super Collection, Card de Asobu! Hajimete no DS",
@@ -1261,8 +1264,11 @@ Somewhat programmable. You select a sensor block (ie: Detect something touching 
 	peripheralName: "IZEK Computerized Sewing Machine",
 	systems: "GBC",
 	obtained: "2009-12-21",
-
-	photographed: true,	cost: 175,
+	urls: {
+		"https://shonumi.github.io/articles/art22.html": "Edge of Emulation",
+	},
+	photographed: true,	
+	cost: 175,
 	description: `A sewing machine controlled by a Gameboy Color via an integrated link cable, foot pedal, a cool box
 Select stitches have length, width and mirror image adjustment capabilities, Five buttonhole styles, Letters (block, script or outline format), numbers and symbols, Combine up to three stitches for combination patterns, Create your own custom stitches, Favorite patterns, letters and custom designs can be saved in memory, 84 actual stitch patterns, self threading, internal storage for greebles
 Does not actually let you "draw" with pixels, but up to 20 varying length/angle lines to form stitches.
@@ -1852,6 +1858,9 @@ triangle/square (on both sides of the gun) Removable scope (hopefully lets you a
 	obtained: "2011-04-11",
 	photographed: true,
 	cost: 18,
+	urls: {
+		"https://shonumi.github.io/articles/art6.html": "Edge of Emulation",
+	},
 	description: "It generates random monsters from scanned barcodes, a cool box",
 	games: "Bardigun (GBC)",
 	importOnly: true,
@@ -2867,16 +2876,22 @@ The controller uses 2xAAAs (not included) the adapter uses a Y-cord to take powe
 	obtained: "2013-08-19",
 	photographed: true,
 	cost: 0,
+	urls: {
+		"https://shonumi.github.io/articles/art8.html": "Edge of Emulation",
+	},
 	description: "I'm under the impression it's a pedometer",
 	games: "Zok Zok Heroes (GBC)",
 },{
 	peripheral: "216",
 	company: "Takara",
-	peripheralName: "Pluster World",
+	peripheralName: "Multi Plust On System",
 	systems: "GBA",
 	obtained: "2013-08-19",
 	photographed: true,
 	cost: 0,
+	urls: {
+		"https://shonumi.github.io/articles/art17.html": "Edge of Emulation",
+	},
 	description: "Some sort of Skylanders-like device for GBA",
 	games: "Pluster World (GBA)",
 },{
@@ -2887,6 +2902,9 @@ The controller uses 2xAAAs (not included) the adapter uses a Y-cord to take powe
 	obtained: "2013-08-19",
 	photographed: true,
 	cost: 0,
+	urls: {
+		"https://shonumi.github.io/articles/art15.html": "Edge of Emulation",
+	},
 	description: "A Skylanders-like device for GBA",
 	games: "Soul Dollz (GBA)",
 	importOnly: true,
@@ -5338,6 +5356,9 @@ Hold START to pair it`,
 	systems: "SYS",
 	obtained: "2017-11-22",
 	cost: 40,
+	urls: {
+		"https://shonumi.github.io/articles/art25.html": "Edge of Emulation",
+	},
 	description: "dpad, 2 face button, 1 trigger, 1 system button, takes tiny cartridges, takes 1xAAA battery, IRDA link, rumble, motion sensor, 96×64 monochrome LCD",
 	games: "Pokémon Mini",
 	specificVersion: "Wooper Blue",
@@ -5719,6 +5740,9 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	obtained: "2018-05-17",
 	location: "BIN-07",
 	cost: 20,
+	urls: {
+		"https://shonumi.github.io/articles/art2.html": "Edge of Emulation",
+	},
 	description: `A thermal printer, connects via the GBC link cable, takes 6xAA batteries (not included)`,
 	games: "Gameboy Printer",
 	specificVersion: "Standard",
@@ -6507,6 +6531,9 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 	systems: "GBA",
 	obtained: "2020-05-08",
 	cost: 50,
+	urls: {
+		"https://shonumi.github.io/articles/art19.html": "Edge of Emulation",
+	},
 	description: `An LED that plugs into the Link cable port and lights up at specific points in the game`,
 	games: "TeleFang 2 (GBA)",
 	specificVersion: "GBA",
@@ -7360,6 +7387,9 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "GBA",
 	obtained: "2024-08-04",
 	games: "Zoids Cyber Drive",
+	urls: {
+		"https://shonumi.github.io/articles/art20.html": "Edge of Emulation",
+	},
 	cost: 30,
 	description: `An adapter that plugs into GBA's Link port, adding IR capabilities.
 	Also needed: CDZ-01 Diablotiger, CDZ-EX Diablotiger Beta`,
@@ -7379,12 +7409,18 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "GB",
 	obtained: "2024-08-04",
 	cost: 50,
+	urls: {
+		"https://shonumi.github.io/articles/art13.html": "Edge of Emulation",
+	},
 	description: `A sonar fish-finder that only works on GB, GB Pocket and GB Light (Not Super GB, GBC, GBA/GBplayer or even Analogue Pocket) Takes 3xAA batteries`,
 },{
 	peripheral: "496",
 	peripheralName: "VirtuReal Racing System",
 	company: "Carrera",
 	systems: "GBA",
+	urls: {
+		"https://shonumi.github.io/articles/art24.html": "Edge of Emulation",
+	},
 	obtained: "2024-08-04",
 	cost: 150,
 	description: `A module that plugs into slot-car racers allowing 2 tracks to be controlled by 2 GBAs via built-in link cables`,
