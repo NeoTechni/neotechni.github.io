@@ -754,9 +754,9 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "specificVersion", 		"Specific Version");
 				HTML += make_controller(controller, "otherVersions", 		"Other Version(s)");
 				HTML += make_controller(controller, "files", 			"Attachments");
+				HTML += make_controller(controller, "urls",			"URLs");
 				HTML += '</TD></TR><TR><TD CLASS="top">';
 				HTML += make_controller(controller, "description");
-				HTML += make_controller(controller, "urls",			"URLs");
 				HTML += '</TD></TR>';
 				break;
 			case "list":
