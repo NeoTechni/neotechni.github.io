@@ -7090,6 +7090,15 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2023-02-22",
 	description: "Wireless (via Bluetooth), rechargeable battery (charges via USB-C), 1 clickable analog stick, 2 face buttons, 1 system button, 1 OS button, wrist strap, 2 triggers (1 digital, 1 analog with force feedback), haptics",
 },{
+	peripheral: "465-C",
+	attached: "465-A",
+	company: "Sony",
+	peripheralName: "PSVR2 PC adapter",
+	systems: "PS5",
+	cost: 80,
+	obtained: "2024-08-07",
+	description: "Allows the use of PSVR2 on PCs via SteamVR, uses an AC adapter, requires a DisplayPort cable (not included)",
+},{
 	peripheral: "466",
 	company: "IFYOO",
 	peripheralName: "Gaming Touchpad",
