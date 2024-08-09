@@ -53,7 +53,7 @@ classes: wide
 		var isobtained		= obtained.length == 0;
 		var ismatch 		= istext && issect && iscomp && issyst && isobtained;
 		if(!istext){
-			istext 		= gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text) || gp(controller, "peripheral").contains(text);
+			istext 		= gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text) || gp(controller, "peripheral").toString().contains(text);
 		}
 		if(!issect){
 			issect 		= controller_section(controller) == sect;
