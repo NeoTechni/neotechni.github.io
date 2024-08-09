@@ -340,6 +340,9 @@ var controllers = [{
 	peripheralName: "Resident Evil 4 Chainsaw",
 	systems: "PS2",
 	photographed: true,
+	urls: {
+		"https://www.youtube.com/watch?v=e_fXYlOV4-M": "Sharkie's Review",
+	},
 	cost: 10,
 	description: `rip cord, tilt sensor, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, 1 dpad, a cool box/base with hidden compartments, Removable cable, rumble, Sound chip, individually numbered`,
 	games: "Resident Evil 4",
@@ -433,12 +436,14 @@ var controllers = [{
 	importOnly: true,
 	description: `4 shoulder buttons, dpad, 2 clickable analog sticks, 4 face buttons, 2 system buttons, turbo+slow
 				A historical artifact: What Nintendo copied for the Wii Classic controller`,
-	games: "",
 },{
 	peripheral: "000-18",
 	company: "SEGA",
 	peripheralName: "NiGHTS 3D",
 	systems: "Saturn",
+	urls: {
+		"https://www.youtube.com/watch?v=XSaOLOGyLi8": "Sharkie's Review",
+	},
 	location: "BIN-08 (Long)",
 	photographed: true,
 	cost: 40,
@@ -452,6 +457,9 @@ var controllers = [{
 	location: "BIN-10 (Site B)",
 	peripheralName: "Chun Li Street Fighter Collectors Edition",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=jV6br3dH9lQ": "Sharkie's Review",
+	},
 	photographed: true,
 	cost: 20,
 	description: `1 dpad, 2 triggers, 8 buttons, a cool box, comic book, hologram, and 2 stickers`,
@@ -488,6 +496,9 @@ var controllers = [{
 	peripheral: "000-23",
 	company: "MonsterGecko",
 	peripheralName: "PistolMouse FPS",
+	urls: {
+		"https://www.youtube.com/watch?v=_QMjRfYeego": "Sharkie's Review",
+	},
 	systems: "PC",
 	cost: 20,
 	description: "an XY axis optical sensor, 2 buttons, scroll wheel, cool box, USB HID",
@@ -551,6 +562,9 @@ var controllers = [{
 	peripheralName: "Tiny Bee",
 	moreinfo: "HORI Tiny Bee",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=aW0CkpFP-s8": "Sharkie's Review",
+	},
 	obtained: "2006-12-20",
 	photographed: true,
 	cost: 300,
@@ -565,13 +579,15 @@ var controllers = [{
 	company: "HORI",
 	peripheralName: "Dragon Quest Slime (Blue)",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=u1JB1g2tFCI": "Sharkie's Review",
+	},
 	obtained: "2007-01-08",
 	photographed: true,
 	location: "Cheerios Box: 40261",
 	cost: 20,
 	importOnly: true,
 	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, cool base, Removable cable, rumble`,
-	games: "",
 },{
 	peripheral: "00X-03-B",
 	attached: "00X-03-A",
@@ -582,7 +598,6 @@ var controllers = [{
 	cost: 20,
 	importOnly: true,
 	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, cool base, Removable cable, rumble`,
-	games: "",
 },{
 	peripheral: "00X-04",
 	company: "Sony",
@@ -618,7 +633,6 @@ var controllers = [{
 	photographed: true,
 	cost: 20,
 	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 shoulder buttons, rumble, Backlit buttons, clamshell casing that must be destroyed to open`,
-	games: "",
 },{
 	peripheral: "00X-07",
 	company: "NamcoBandai",
@@ -638,8 +652,6 @@ var controllers = [{
 	shipped: "on",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 	cost: 150,
 	importOnly: true,
 	description: "2 analog sticks, 4 triggers, a system button, VMU slot, a cool box",
@@ -655,7 +667,6 @@ var controllers = [{
 	cost: 50,
 	description: `1 dpad, rumble, motion sensing, clamshell casing that must be destroyed to open, can sync with PSP Go and PS Vita TV
 				2 clickable thumbsticks, 2 system buttons, 1 OS button, 4 analog face buttons, 4 analog triggers, Bluetooth, built in battery, USB (mini) charging`,
-	games: "",
 },{
 	peripheral: "00X-10",
 	company: "Taito",
@@ -670,8 +681,11 @@ var controllers = [{
 },{
 	peripheral: "00X-11",
 	company: "ASCII",
-	peripheralName: "Resident Evil Pad SLEH-00011",
+	peripheralName: "Resident Evil / Biohazard Pad SLEH-00011",
 	systems: "PS1",
+	urls: {
+		"https://www.youtube.com/watch?v=ZrJYIULQvb0": "Sharkie's Review",
+	},
 	obtained: "2008-02-29",
 	photographed: true,
 	importOnly: true,
@@ -752,6 +766,9 @@ var controllers = [{
 	peripheralName: "GameStick",
 	systems: "XBOX360",
 	cost: 20,
+	urls: {
+		"https://www.youtube.com/watch?v=_OjM0diy21Y": "Sharkie's Review", 
+	},
 	description: "Dpad, Joystick with a button on top, spinner with on/off switch (acts as left/right on the dpad), thumbstick, turbo button with 3 speed settings, 7 face buttons (ABXY, Start, Back, Guide), 4 shoulder buttons, Headset port, USB (Xinput)",
 	games: "Misc Games (360)",
 },{
@@ -762,6 +779,9 @@ var controllers = [{
 	systems: "PS1",
 	photographed: true,
 	cost: 15,
+	urls: {
+		"https://www.youtube.com/watch?v=bc_qPz9FL_c": "Sharkie's Review", 
+	},
 	specificVersion: "White",
 	otherVersions: "Black",
 	description: `4 analog buttons, 2 triggers (1 analog), analog jog wheel, 1 dpad, 1 system button, a cool box`,
@@ -782,21 +802,25 @@ var controllers = [{
 	company: "NubyTech",
 	peripheralName: "Megaman X mini",
 	systems: "GCN",
+	urls: {
+		"https://www.youtube.com/watch?v=YCxi6wRKSQE": "Sharkie's Review",
+	},
 	location: "BIN-08 (Long)",
 	photographed: true,
 	cost: 20,
 	description: `1 dpad, 4 shoulders (1 is redundant), a cool sphere, 4 face buttons, 1 system buttons, 2 thumbsticks, rumble`,
-	games: "",
 },{
 	peripheral: "00Y-03B",
 	company: "NubyTech",
 	peripheralName: "Shadow the Hedgehog mini controller",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=NzlLgIdsuz8": "Sharkie's Review",
+	},
 	photographed: true,
 	location: "BIN-11 (Site B)",
 	cost: 20,
 	description: `1 dpad, 4 shoulders (2 trigger-style), a cool sphere, 4 face buttons, 3 system buttons, 2 clickable thumbsticks`,
-	games: "",
 },{
 	peripheral: "00Y-04",
 	company: "SEGA",
@@ -806,7 +830,7 @@ var controllers = [{
 	cost: 150,
 	obtained: "2009-07-04",
 	description: `The controls from a Virtual On arcade cabinet. 2 digital joysticks, each with 2 triggers. And a start button.`,
-	games: "",
+	games: "Virtual On",
 },{
 	peripheral: "00Y-05",
 	company: "Nintendo",
@@ -816,7 +840,6 @@ var controllers = [{
 	photographed: true,
 	cost: 10,
 	description: `A wiimote shell with 1 trigger`,
-	games: "",
 },{
 	peripheral: "00Y-06",
 	company: "Nintendo",
@@ -833,6 +856,9 @@ var controllers = [{
 	peripheralName: "Grip",
 	moreinfo: "ASCII Grip",
 	systems: "PS1",
+	urls: {
+		"https://www.youtube.com/watch?v=YxhoyKHMcEg": "Sharkie's Review",
+	},
 	photographed: true,
 	obtained: "2009-02-27",
 	cost: 5,
@@ -845,6 +871,9 @@ var controllers = [{
 	systems: "PS2",
 	photographed: true,
 	cost: 20,
+	urls: {
+		"https://www.youtube.com/watch?v=U-zK8E5a5a0": "Sharkie's Review",
+	},
 	specificVersion: "PS2 Blue",
 	otherVersions: "XBOX Camoflouge",
 	description: `1 dpad, 2 clickable thumbsticks, 2 face buttons, 2 system buttons, 6 shoulder buttons, rumble, LCD with 5 buttons, clamshell casing that must be destroyed to open`,
@@ -857,7 +886,6 @@ var controllers = [{
 	photographed: true,
 	cost: 10,
 	description: "Wireless, built in rechargeable battery, speaker, 2 ext ports, 1 dpad, 7 shortcut buttons, 58 key QWERTY keyboard, open platform, 160×100 monochrome (4 shades of grey) LCD",
-	games: "",
 	specificVersion: "Clear",
 },{
 	peripheral: "00Y-09B",
@@ -867,7 +895,6 @@ var controllers = [{
 	photographed: true,
 	cost: 10,
 	description: "Wireless, built in rechargeable battery, speaker, ext port, 1 dpad, 7 shortcut buttons, 58 key QWERTY keyboard, open platform, microphone, USB, 160×100 monochrome (4 shades of grey) LCD",
-	games: "",
 	specificVersion: "Grey",
 },{
 	peripheral: "00Y-10",
@@ -915,6 +942,9 @@ var controllers = [{
 	peripheralName: "Volume controller",
 	location: "BIN-10 (Site B)",
 	systems: "PS1",
+	urls: {
+		"https://www.youtube.com/watch?v=kZDKr51Uh6E": "Sharkie's Review",
+	},
 	photographed: true,
 	cost: 25,
 	importOnly: true,
@@ -982,6 +1012,9 @@ var controllers = [{
 	specificVersion: "Black",
 	otherVersions: "White",
 	cost: 60,
+	urls: {
+		"https://www.youtube.com/watch?v=3vO0CE9FTtE": "Sharkie's Review", //SplitFish FragFX Shark (PlayStation 3 / PC & MAC)",
+	},
 	description: `USB (HID) optical mouse with 4 face buttons (R1, R2, R3 and Start) 4 side buttons. A left handed controller with a dpad, SIXAXIS, clickable analog thumbstick, 3 triggers, select button, mode select button and a sensitivity dial, hard mousepad with soft padding, clamshell casing that must be destroyed to open`,
 	games: "FPSs",
 },{
@@ -994,8 +1027,6 @@ var controllers = [{
 	obtained: "2010-10-05",
 	photographed: true,
 	cost: 40,
-	description: ``,
-	games: "",
 },{
 	peripheral: "066",
 	company: "Legacy Engineering",
@@ -1004,6 +1035,9 @@ var controllers = [{
 	obtained: "2009-03-23",
 	photographed: true,
 	cost: 60,
+	urls: {
+		"https://www.youtube.com/watch?v=K5T6vzBEpDU": "Sharkie's Review",
+	},
 	description: `1 dpad, whammy bar, tilt sensor, wireless, 13 buttons (5 redundant, start, select, Home), USB (HID) + PS2 receiver, a cool box, batteries included (requires a screwdriver to install), the worst neck strap ever`,
 	games: "Guitar Hero and Rock Band for PS2/PS3",
 },{
@@ -1035,6 +1069,9 @@ var controllers = [{
 	company: "EAGLE",
 	peripheralName: "Resident Evil Shot Blaster",
 	systems: "Wii",
+	urls: {
+		"https://www.youtube.com/watch?v=NBCDXoDo73o": "Sharkie's Review",
+	},
 	obtained: "2009-05-14",
 	photographed: true,
 	cost: 30,
@@ -1047,6 +1084,9 @@ var controllers = [{
 	peripheralName: "8 Bit Retro Mario Mouse (Power Star)",
 	systems: "PC",
 	obtained: "2009-05-23",
+	urls: {
+		"https://www.youtube.com/watch?v=8dvCrYtTPcM": "Sharkie's Review",
+	},
 	photographed: true,
 	cost: 20,
 	description: "an XY axis solid-state/wheel (not optical) sensor, 2 buttons, a cool box, USB HID",
@@ -1113,7 +1153,6 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	cost: 40,
 	specificVersion: "Black",
 	description: `1 dpad, 4 triggers (unfortunately not clickable like the original Wii Classic or Gamecube controllers), 7 buttons, (4 face, 2 system, 1 OS) 2 non-clickable thumbsticks, a cool box`,
-	games: "",
 },{
 	peripheral: "076",
 	company: "ASCII",
@@ -1122,6 +1161,9 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	obtained: "2009-09-03",
 	photographed: true,
 	cost: 60,
+	urls: {
+		"https://www.youtube.com/watch?v=qxRVN5LLtFY": "Sharkie's Review",
+	},
 	description: `1 dpad, 3 triggers, 2 non-clickable analog sticks, 4 face buttons, 1 system button, 81 keys, a cool box. Uses 2 controller ports (one for the keyboard, one for the GameCube stuff)`,
 	games: "Phantasy Star Online (GCN)",
 	specificVersion: "ASCII (Purple backing)",
@@ -1133,6 +1175,9 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	company: "Saitek",
 	peripheralName: "Pro Gamer Command Pad",
 	systems: "PC",
+	urls: {
+		"https://www.youtube.com/watch?v=ewDEnp9BF4U": "Sharkie's Review", 
+	},
 	location: "BIN-03",
 	obtained: "2009-09-28",
 	photographed: true,
@@ -1181,8 +1226,10 @@ a switch to select if No sticks, the left stick, or the right stick is digital`,
 	obtained: "2009-11-09",
 	photographed: true,
 	cost: 15,
-	description: `2 memory card like devices that plug into an original model PS1 only that tell the game how you've assembled your custom mech based on what parts you used`,
-	games: "ZXE-D: Legend of Plasmalite (PS1)",
+	urls: {
+		"https://www.youtube.com/watch?v=FgiPAi1y_Ys": "Sharkie's Review", 
+	},
+	description: `You put a Dualshock 2 in it, and it pushes the buttons`,
 	importOnly: true,
 },{
 	peripheral: "082",
@@ -1231,6 +1278,9 @@ Somewhat programmable. You select a sensor block (ie: Detect something touching 
 	obtained: "2009-11-18",
 	photographed: true,
 	cost: 60,
+	urls: {
+		"https://www.youtube.com/watch?v=Z8dRdw9iPm4": "Sharkie's Review",
+	},
 	description: `dpad, 2 clickable thumbsticks and a switch to swap them, 8 face buttons (4 face, 2 system, analog mode button, console reset button) rumble, a cool box, 4 triggers (they are hidden inside the gap on the picture). Ambidextrous`,
 	games: "Super Robot Wars, all PS1/PS2 games (particularly RPGs)",
 	specificVersion: "Limited Collector's Edition (not shown)",
@@ -1266,6 +1316,7 @@ Somewhat programmable. You select a sensor block (ie: Detect something touching 
 	obtained: "2009-12-21",
 	urls: {
 		"https://shonumi.github.io/articles/art22.html": "Edge of Emulation",
+		"https://www.youtube.com/watch?v=K-Epj2_eJdA": "Sharkie's Review", 
 	},
 	photographed: true,	
 	cost: 175,
@@ -1305,14 +1356,16 @@ Infrared control receptor with scratch-resistant, anti-reflective lens  USB, 4 b
 	peripheral: "091",
 	image: "91.jpg",
 	company: "Super Soft",
-	peripheralName: "Terminator",
+	peripheralName: "Terminator Hand Grenade Joystick Controller",
 	location: "BIN-10 (Site B)",
 	systems: "Atari/Sinclair",
 	obtained: "2010-01-15",
 	photographed: true,
+	urls: {
+		"https://www.youtube.com/watch?v=sx7yGzh82UY": "Sharkie's Review",
+	},
 	cost: 35,
 	description: `Uses standard-of-the-day Atari-joystick 9-pin D-connector, 8-way joystick (the metal stick coming out of the top), The "handle" acts as the fire button, A cool tube`,
-	games: "",
 },{
 	peripheral: "092",
 	image: "92.jpg",
@@ -1322,9 +1375,11 @@ Infrared control receptor with scratch-resistant, anti-reflective lens  USB, 4 b
 	obtained: "2010-02-09",
 	photographed: true,
 	cost: 20,
+	urls: {
+		"https://www.youtube.com/watch?v=GX7yKG2UZzw": "Sharkie's Review",
+	},
 	description: `Standard SNES controls (dpad, ABXY, Start, Select, LR), plus rapid fire options
 It comes with an adapter to work on the Genesis, that only works with this controller when you flip a switch on it`,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "093",
@@ -1464,11 +1519,13 @@ Completely non-functional, blocks sound as well.`,
 	company: "BanPresto",
 	peripheralName: "8 Bit Retro Mario Mouse (Mario)",
 	systems: "PC",
+	urls: {
+		"https://www.youtube.com/watch?v=aMQ78Wttn7k": "Sharkie's Review",
+	},
 	obtained: "2010-06-07",
 	photographed: true,
 	cost: 20,
 	description: "an XY axis solid-state/wheel (not optical) sensor, 2 buttons, a cool box, USB HID",
-	games: "",
 },{
 	peripheral: "105",
 	company: "XCM",
@@ -1559,6 +1616,9 @@ The sword's hilt can be pushed in and rotated as an input, as well as 2 oversize
 	company: "CTA Digital",
 	peripheralName: "Assault Rifle",
 	systems: "PS3",
+	urls: {
+		"https://www.youtube.com/watch?v=68F7tzJHB6w": "Sharkie's Review (Move Edition)",
+	},
 	obtained: "2010-08-10",
 	photographed: true,
 	cost: 65,
@@ -1586,8 +1646,10 @@ The sword's hilt can be pushed in and rotated as an input, as well as 2 oversize
 	obtained: "2010-09-15",
 	photographed: true,
 	cost: 20,
+	urls: {
+		"https://www.youtube.com/watch?v=AC8VJCVXAvk": "Sharkie's Review",
+	},
 	description: `4 giant buttons, Unidextrous, Ambidextrous`,
-	games: "",
 },{
 	peripheral: "115",
 	company: "Sony",
@@ -1597,6 +1659,9 @@ The sword's hilt can be pushed in and rotated as an input, as well as 2 oversize
 	obtained: "2010-09-17",
 	photographed: true,
 	cost: 50,
+	urls: {
+		"https://www.youtube.com/watch?v=WXCGQuQE4sk": "Sharkie's Review",
+	},
 	description: `3 axis 1: 1 absolute positioning via PSeye tracking the glowing orb which can change color to either stand out from the background or for the game to indicate something (ie: flash red for low health) 3 axis gyroscope, 3 axis accelerometer, terrestrial magnetic 
 field sensor, 8 buttons (1 analog, 4 face, Start/Select/Home), 1 analog trigger, USB charging, built-in battery, bluetooth, EXT port, rumble, 10 bit analog-digital conversion (vs Wii's 8 bit), clamshell casing that must be destroyed to open, Unidextrous, Ambidextrous`,
 	games: "PS3 Move+NavCon, 3DTV",
@@ -1655,6 +1720,9 @@ field sensor, 8 buttons (1 analog, 4 face, Start/Select/Home), 1 analog trigger,
 	obtained: "2010-10-05",
 	photographed: true,
 	cost: 30,
+	urls: {
+		"https://www.youtube.com/watch?v=4rbt3yWvgh0": "Sharkie's Review",
+	},
 	description: `2 dpads (1 is redundant), 2 clickable analog sticks, 12 face buttons (X,O, Square, Triangle, L1, L2, R1, R2, Start, Select, analog mode button, console reset button) rumble, LEDs, clamshell packaging that must be destroyed to open
 Unidextrous, ambidextrous`,
 	games: "All PS1/PS2 games, particularly RPGs",
@@ -1670,6 +1738,9 @@ Unidextrous, ambidextrous`,
 	obtained: "2010-10-12",
 	photographed: true,
 	cost: 20,
+	urls: {
+		"https://www.youtube.com/watch?v=3xIU4l8gNkA": "Sharkie's Review",
+	},
 	description: `None, it's a holster for Move. A cool box, Unidextrous, ambidextrous`,
 	games: "arcade shooters",
 },{
@@ -1698,11 +1769,14 @@ Unidextrous, ambidextrous`,
 },{
 	peripheral: "124",
 	company: "Venom",
-	peripheralName: "Mini D.D.R. Fingerpad",
+	peripheralName: "Mini DDR Fingerpad",
 	systems: "PS1/PS2",
 	obtained: "2010-11-15",
 	photographed: true,
 	cost: 40,
+	urls: {
+		"https://www.youtube.com/watch?v=diYf-t0XNio": "Sharkie's Review",
+	},
 	description: `14 face buttons (4 backlit for the dpad, X/O/Square/Triangle/Start/Select/L1/L2/R1/R2)`,
 	games: "PS2 Mini D.D.R. Fingerpad",
 },{
@@ -1742,7 +1816,6 @@ Dpad, 5 buttons (A/B/Start/Select/Home)`,
 Each UBICONNECT device can host up to 8 devices, and up to 5 UBICONNECT devices can connect for up to 40 players
 The UBICONNECT USB base can also serve as a target. Both the base and the guns have upgradable firmware.
 Batteries not included (each gun takes 4xAAs), a cool box`,
-	games: "",
 	specificVersion: "2-Player Starter Kit",
 	otherVersions: "Extra Player (~$70)",
 },{
@@ -1755,7 +1828,6 @@ Batteries not included (each gun takes 4xAAs), a cool box`,
 	photographed: true,
 	cost: 20,
 	description: "The MedKit pack includes 4 more RFID tags (known as T-Bases) (2 more objectives, 2 health packs) and a cool box",
-	games: "",
 },{
 	peripheral: "128",
 	company: "PowerA",
@@ -1775,6 +1847,9 @@ Batteries not included (each gun takes 4xAAs), a cool box`,
 	obtained: "2011-01-04",
 	photographed: true,
 	cost: 28,
+	urls: {
+		"https://www.youtube.com/watch?v=ET0uwstzO8c": "Sharkie's Review",
+	},
 	description: `Variable (up to 2000) dpi optical mouse, backlit clickable scroll wheel (light color indicated dpi mode) , 5 programmable buttons includes 2 mouse buttons, USB HID, a cool box, carrying puch`,
 	games: "PC game",
 },{
@@ -1802,7 +1877,6 @@ Batteries not included (each gun takes 4xAAs), a cool box`,
 		<font size="3"><b style="color:rgb(255,0,0)">To all the sites linking to this, it's NeoTechni, not NeoTenchi.</b></font>
 Similar to a Guitar Hero controller, though it only has a dpad, 2 buttons (A/B) on the neck and 2 on the body (Start/Select), USB (Xinput), 6 LEDs on the head where you would adjust the strings (if it were a real guitar) tied into rumble
 Construction process write-up Part 2 Part 3 Part 4 Part 5 Part 6 Video`,
-	games: "",
 },{
 	peripheral: "132",
 	company: "ASCII",
@@ -1811,6 +1885,9 @@ Construction process write-up Part 2 Part 3 Part 4 Part 5 Part 6 Video`,
 	obtained: "2011-02-16",
 	photographed: true,
 	cost: 12,
+	urls: {
+		"https://www.youtube.com/watch?v=mUVndTvClMI": "Sharkie's Review (Famicom version)",
+	},
 	description: `Dpad, 4 triggers (act as the face buttons), 2 face buttons (act as the triggers), Start/Select, Turbo/Slow switches for each of the triggers/face buttons
 Unidextrous, ambidextrous, As seen on "The World Only God Knows"`,
 	games: "RPGs",
@@ -1823,6 +1900,9 @@ Unidextrous, ambidextrous, As seen on "The World Only God Knows"`,
 	obtained: "2011-02-18",
 	photographed: true,
 	cost: 40,
+	urls: {
+		"https://www.youtube.com/watch?v=dcHjtdWVXO8": "Sharkie's Review",
+	},
 	description: `Plugs into the PS Move's EXT port, dual triggers (one is the Move button), Lock for the Move button, adjustable shoulder 
 stock, firing mode selector, realistic pump-action (mechanically pushes Move's trigger), reload button (bottom of the grip), 
 triangle/square (on both sides of the gun) Removable scope (hopefully lets you attach a PSP), a cool box, ambidextrous. (Required a Move and a NavCon)`,
@@ -1872,8 +1952,6 @@ triangle/square (on both sides of the gun) Removable scope (hopefully lets you a
 	obtained: "2011-04-18",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "138",
 	company: "HORI",
@@ -2060,7 +2138,6 @@ Exactly like my idea I submitted to DreamGear and they rejected`,
 	specificVersion: "First edition (connects to PC)",
 	otherVersions: "Second edition (Does not require PC)",
 	description: `The system comes with 3 cubes and can support a maximum of 6. Each cube has a small depressable LCD, a gyroscope and a wireless link to the base station which plugs into a PC`,
-	games: "",
 },{
 	peripheral: "152",
 	company: "GoEasily/Shogun Bros",
@@ -2090,7 +2167,6 @@ Different modes are triggered by holding Start (Controller mode) Select (Powerpo
 	description: `Converts Mouse/Keyboard movements into standard controller data, a cool box
 Keyboard: 3 meter wire, USB (HID), concave dpad, 12 border-lit buttons, 1 speed setting button, re-assignable buttons via a switch and an indicator LED per button, removable wrist pad. 2 other switches for controlling the speed of the movement when the speed setting button isnt held, and the other for the mouse sensitivity
 Mouse: 1/3 meter wire, 6 buttons (also re-assignable), optical, weighted, a mouse pad`,
-	games: "",
 	specificVersion: "Black (not shown)",
 	otherVersions: "Best Buy Camouflage (shown)",
 },{
@@ -2143,7 +2219,6 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	importOnly: true,
 	japanese: "クラブニンテンドー ゴールデンヌンチャク",
 	description: `motion-sensing, an (non-clickable) analog stick, 2 shoulder buttons. Connects to the Wiimote via the EXT port`,
-	games: "",
 },{
 	peripheral: "156-C",
 	attached: "156-A",
@@ -2153,9 +2228,11 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	obtained: "2012-03-03",
 	location: "BIN-08 (Long)",
 	photographed: true,
+	urls: {
+		"https://www.youtube.com/watch?v=PnFFak9h0Io": "Sharkie's Review",
+	},
 	cost: 15,
 	description: `1 dpad, 4 triggers (unfortunately not clickable like the original Wii Classic or Gamecube controllers), 7 buttons, (4 face, 2 system, 1 OS) 2 non-clickable thumbsticks`,
-	games: "",
 },{
 	peripheral: "156-D",
 	attached: "156-A",
@@ -2164,7 +2241,6 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	systems: "N64",
 	cost: 45,
 	description: `1 opti-digital non-clickable thumbstick, 3 shoulder buttons, 1 dpad, 6 face buttons, 1 system button, 1 EXT port, a cool box`,
-	games: "",
 },{
 	peripheral: "156-E",
 	attached: "156-A",
@@ -2174,7 +2250,6 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	obtained: "2015-05-29",
 	cost: 30,
 	description: `A shell for the wiimote`,
-	games: "",
 },{
 	peripheral: "157",
 	company: "SEGA",
@@ -2259,6 +2334,9 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	company: "Innovation",
 	peripheralName: "Smash Controller",
 	systems: "GEN",
+	urls: {
+		"https://www.youtube.com/watch?v=jomgWUbtCCM": "Sharkie's Review",
+	},
 	obtained: "2012-05-08",
 	photographed: true,
 	cost: 25,
@@ -2293,6 +2371,9 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	company: "Microsoft",
 	peripheralName: "Sidewinder Dual Strike",
 	systems: "PC",
+	urls: {
+		"https://www.youtube.com/watch?v=bXtF9marQhI": "Sharkie's Review",
+	},
 	obtained: "2012-06-19",
 	photographed: true,
 	cost: 10,
@@ -2308,7 +2389,6 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	cost: 15,
 	quantity: 2,
 	description: `analog stick and 3 buttons, wireless (via bluetooth), power button, takes 2xAAAs (included)`,
-	games: "",
 },{
 	peripheral: "167",
 	company: "MadCatz",
@@ -2337,11 +2417,13 @@ There is a hidden USB port on the bottom left-hand corner when looking at the ba
 	company: "BanPresto",
 	peripheralName: "8 Bit Retro Mario Mouse (Goomba)",
 	systems: "PC",
+	urls: {
+		"https://www.youtube.com/watch?v=-sXh5u-ULsY": "Sharkie's Review",
+	},
 	obtained: "2012-07-04",
 	photographed: true,
 	cost: 20,
 	description: "an XY axis solid-state/wheel (not optical) sensor, 2 buttons, a cool box, USB HID",
-	games: "",
 },{
 	peripheral: "170",
 	company: "New Potato Technologies, Inc",
@@ -2443,30 +2525,33 @@ API to let PC apps send data to the console it's connected to`,
 	photographed: true,
 	cost: 0,
 	description: "Allows games to interface with the Epoch Barcode Battler",
-	games: "",
 	importOnly: true,
 },{
 	peripheral: "179",
 	company: "Atlus",
 	peripheralName: "Hello Kitty",
 	systems: "PS1",
+	urls: {
+		"https://www.youtube.com/watch?v=qw1N2DdLVe8": "Sharkie's Review",
+	},
 	obtained: "2012-10-29",
 	photographed: true,
 	cost: 0,
 	importOnly: true,
 	description: `6 face buttons, microphone`,
-	games: "",
 },{
 	peripheral: "180",
 	company: "Atlus",
 	peripheralName: "Guru Guru Town Hanamaru-kun",
 	systems: "PS1",
+	urls: {
+		"https://www.youtube.com/watch?v=aT6_bYis1ag": "Sharkie's Review",
+	},
 	obtained: "2012-10-29",
 	photographed: true,
 	importOnly: true,
 	cost: 0,
 	description: `6 face buttons, microphone`,
-	games: "",
 },{
 	peripheral: "181-A",
 	company: "ASCII",
@@ -2496,6 +2581,9 @@ API to let PC apps send data to the console it's connected to`,
 	peripheralName: "Famicom Network controller",
 	systems: "FAM",
 	obtained: "2012-10-29",
+	urls: {
+		"https://www.youtube.com/watch?v=8VeFixJ7DF4": "Sharkie's Review",
+	},
 	photographed: true,
 	cost: "Unknown",
 	description: `Dpad, Start\Select, B\A, 15 buttons (Menu,0-9,#,*,C,·)`,
@@ -2511,7 +2599,6 @@ API to let PC apps send data to the console it's connected to`,
 	cost: 250,
 	specificVersion: "Black",
 	description: `2 clickable analog sticks, 4 digital triggers, front-facing camera, NFC, infrared transceiver, NFC module, Wii sensor bar/InfraRed LEDs, SIXAXIS motion sensing, microphone, stereo speakers, dpad, 4 face buttons, Start\Select\Home\Power, EXT port, headset port, volume slider, rechargeable battery, wireless via NiFi+Bluetooth, 6.2" resistive touchscreen`,
-	games: "",
 },{
 	peripheral: "183-B",
 	attached: "183-A",
@@ -2524,7 +2611,6 @@ API to let PC apps send data to the console it's connected to`,
 	cost: 5,
 	specificVersion: "Black",
 	description: `2 clickable analog sticks, 4 digital triggers, dpad, 4 face buttons, Start\Select\Power, rechargeable battery via USB port, wireless via Bluetooth`,
-	games: "",
 },{
 	peripheral: "184",
 	company: "G-Mate",
@@ -2563,6 +2649,9 @@ API to let PC apps send data to the console it's connected to`,
 	systems: "PC",
 	obtained: "2013-01-02",
 	photographed: true,
+	urls: {
+		"https://www.youtube.com/watch?v=8sbuuPB-zUI": "Sharkie's Review",
+	},
 	cost: 12,
 	description: `2 buttons, uses the depreciated PC joystick connector`,
 	games: "PC Pinball games",
@@ -2624,6 +2713,9 @@ API to let PC apps send data to the console it's connected to`,
 	company: "Konami",
 	peripheralName: "DDR Hand Controller",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=VyHtijZlrH4": "Sharkie's Review",
+	},
 	obtained: "2013-03-11",
 	photographed: true,
 	cost: 0,
@@ -2689,6 +2781,9 @@ API to let PC apps send data to the console it's connected to`,
 	obtained: "2013-06-11",
 	photographed: true,
 	cost: 20,
+	urls: {
+		"https://www.youtube.com/watch?v=uHh5PbZ7peQ": "Sharkie's Review",
+	},
 	specificVersion: "Red",
 	otherVersions: "Green",
 	description: `2 buttons, clickable screen wheel, optical sensor, mouse pad, a cool box, USB (HID)`,
@@ -2734,7 +2829,6 @@ Pressing [FN] and [ENTER (center button of the dpad)] (on the remote side, not t
 	photographed: true,
 	cost: 0,
 	description: `A mouse`,
-	games: "",
 },{
 	peripheral: "203",
 	company: "Razer",
@@ -2767,6 +2861,9 @@ Pressing [FN] and [ENTER (center button of the dpad)] (on the remote side, not t
 	photographed: true,
 	location: "BIN-12 (Site B)",
 	cost: 5,
+	urls: {
+		"https://www.youtube.com/watch?v=uzJmWFoV1uM": "Sharkie's Review",
+	},
 	description: `Optical mouse, USB (HID), 2 buttons, clickable scroll wheel`,
 	games: "PC game, but made for Front Mission Online",
 },{
@@ -2778,7 +2875,6 @@ Pressing [FN] and [ENTER (center button of the dpad)] (on the remote side, not t
 	photographed: true,
 	cost: 70,
 	description: `Finger-tracking tech similar to Kinect, USB`,
-	games: "",
 },{
 	peripheral: "207",
 	company: "Datel",
@@ -2850,24 +2946,30 @@ The controller uses 2xAAAs (not included) the adapter uses a Y-cord to take powe
 	games: "All games (PSP 1K/2K/3K models, PSP go with an adapter)",
 },{
 	peripheral: "213",
+	company: "Kids Station",
 	peripheralName: "Mickey Mouse controller",
 	systems: "PS1",
+	urls: {
+		"https://www.youtube.com/watch?v=xl5dfSJuFdM": "Sharkie's Review",
+	},
 	obtained: "2013-08-19",
 	photographed: true,
 	cost: 0,
 	importOnly: true,
 	description: `6 face buttons, microphone`,
-	games: "",
 },{
 	peripheral: "214",
+	company: "Kids Station",
 	peripheralName: "Winnie the Pooh controller",
 	systems: "PS1",
 	obtained: "2013-08-19",
 	photographed: true,
+	urls: {
+		"https://www.youtube.com/watch?v=1pDaF-ioHg8": "Sharkie's Review",
+	},
 	cost: 0,
 	importOnly: true,
 	description: `6 face buttons, microphone`,
-	games: "",
 },{
 	peripheral: "215",
 	company: "Media Factory",
@@ -2975,7 +3077,6 @@ It uses the sensors to detect rigged/faulty throws by making sure it rolls enoug
 				2 clickable thumbsticks, 1 system button, 2 OS buttons, 4 digital face buttons, 2 analog and 2 digital triggers, Bluetooth, built in battery, USB (micro) charging
 				Clickable 2-touch touchpad, lightbar for position tracking via the camera, EXT port, headset port, mono speaker, USB HID (driverless)
 				To put it into sync mode: Press and hold the Share and PS buttons until the light on the back begins a rhythmic, double flash.`,
-	games: "",
 },{
 	peripheral: "223-B",
 	attached: "223-A",
@@ -2986,7 +3087,6 @@ It uses the sensors to detect rigged/faulty throws by making sure it rolls enoug
 	photographed: true,
 	cost: 50,
 	description: `Dual 1280×800 web cam with a 4-mic array, uses PS4's AUX port`,
-	games: "",
 },{
 	peripheral: "223-C",
 	attached: "223-A",
@@ -2996,7 +3096,6 @@ It uses the sensors to detect rigged/faulty throws by making sure it rolls enoug
 	obtained: "2020-11-17",
 	cost: 0,
 	description: `Lets you use the Camera on PS5 by plugging it into a USB port`,
-	games: "",
 },{
 	peripheral: "224",
 	company: "Hyperkin",
@@ -3055,8 +3154,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2013-11-27",
 	photographed: true,
 	cost: 34,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1C",
 	attached: "226-1A",
@@ -3068,8 +3165,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2013-12-21",
 	photographed: true,
 	cost: 75,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1D",
 	attached: "226-1A",
@@ -3080,8 +3175,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2013-12-31",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1E",
 	attached: "226-1A",
@@ -3092,8 +3185,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-01-01",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1F",
 	attached: "226-1A",
@@ -3104,8 +3195,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-01-06",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1G",
 	attached: "226-1A",
@@ -3116,8 +3205,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-01-08",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1H",
 	attached: "226-1A",
@@ -3128,8 +3215,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-01-22",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1I",
 	attached: "226-1A",
@@ -3140,8 +3225,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-02-13",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1J",
 	attached: "226-1A",
@@ -3152,8 +3235,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-03-17",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1K",
 	attached: "226-1A",
@@ -3163,8 +3244,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	systems: "Misc",
 	obtained: "2015-07-16",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-1L",
 	attached: "226-1A",
@@ -3174,8 +3253,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	systems: "3DS",
 	obtained: "2017-09-28",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2A",
 	attached: "226-1A",
@@ -3187,8 +3264,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-10-05",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2B",
 	attached: "226-1A",
@@ -3200,8 +3275,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-12-29",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2C",
 	attached: "226-1A",
@@ -3212,8 +3285,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-01-27",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2D",
 	attached: "226-1A",
@@ -3224,8 +3295,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-02-19",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2E",
 	attached: "226-1A",
@@ -3236,8 +3305,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-04-04",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2F",
 	attached: "226-1A",
@@ -3248,8 +3315,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-04-27",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2G",
 	attached: "226-1A",
@@ -3260,8 +3325,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-05-03",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2H",
 	attached: "226-1A",
@@ -3272,8 +3335,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-05-07",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2I",
 	attached: "226-1A",
@@ -3284,8 +3345,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-06-02",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2J",
 	attached: "226-1A",
@@ -3297,8 +3356,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-06-12",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2K",
 	attached: "226-1A",
@@ -3309,8 +3366,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-07-07",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-2L",
 	attached: "226-1A",
@@ -3321,8 +3376,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-07-11",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3A",
 	attached: "226-1A",
@@ -3334,8 +3387,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-09-04",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3B",
 	attached: "226-1A",
@@ -3346,8 +3397,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-10-25",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3C",
 	attached: "226-1A",
@@ -3358,8 +3407,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-12-02",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3D",
 	attached: "226-1A",
@@ -3370,8 +3417,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-12-06",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3E",
 	attached: "226-1A",
@@ -3382,8 +3427,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-12-12",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3F",
 	attached: "226-1A",
@@ -3394,8 +3437,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2015-12-21",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3G",
 	attached: "226-1A",
@@ -3405,8 +3446,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	systems: "Misc",
 	obtained: "2015-12-26",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3H",
 	attached: "226-1A",
@@ -3417,8 +3456,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-01-30",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3I",
 	attached: "226-1A",
@@ -3429,8 +3466,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-02-15",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3J",
 	attached: "226-1A",
@@ -3441,8 +3476,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-03-12",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3K",
 	attached: "226-1A",
@@ -3453,8 +3486,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-03-19",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3L",
 	attached: "226-1A",
@@ -3465,8 +3496,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-04-11",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3M",
 	attached: "226-1A",
@@ -3477,8 +3506,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-05-02",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3N",
 	attached: "226-1A",
@@ -3489,8 +3516,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-05-05",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3O",
 	attached: "226-1A",
@@ -3501,8 +3526,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-05-14",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3P",
 	attached: "226-1A",
@@ -3513,8 +3536,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-05-24",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3Q",
 	attached: "226-1A",
@@ -3525,8 +3546,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-06-30",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3R",
 	attached: "226-1A",
@@ -3537,8 +3556,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2016-07-05",
 	photographed: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "226-3S",
 	attached: "226-1A",
@@ -3548,8 +3565,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	systems: "Misc",
 	obtained: "2018-02-03",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "227",
 	company: "Laral group",
@@ -3558,6 +3573,9 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2013-11-27",
 	photographed: true,
 	cost: 30,
+	urls: {
+		"https://www.youtube.com/watch?v=gGrQX01XSSQ": "Sharkie's Review",
+	},
 	description: `Joystick, tophat/dpad, 1 trigger, 3 face buttons, 4 system buttons, throttle slider, uses the depreciated PC joystick connector`,
 	games: "PC games",
 },{
@@ -3589,7 +3607,6 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	obtained: "2014-01-14",
 	cost: 70,
 	description: `An array of bright LEDs you mount on the back of your display to light up the wall behind it, in sync with what's being displayed`,
-	games: "",
 },{
 	peripheral: "231",
 	company: "Intec",
@@ -3623,6 +3640,9 @@ Vita Base: 2 NFC readers, each with an RGB LED, wireless via Bluetooth, built-in
 	company: "Bandai Namco",
 	peripheralName: "Mobile Suit Gundam Premium Controller",
 	systems: "PC",
+	urls: {
+		"https://www.youtube.com/watch?v=LU8diWt_j_c": "Sharkie's Review",
+	},
 	location: "BIN-04",
 	obtained: "2014-03-25",
 	photographed: true,
@@ -3724,6 +3744,9 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	company: "PDP",
 	peripheralName: "Epic Mickey 2: Clicker",
 	systems: "Wii/Wii U",
+	urls: {
+		"https://www.youtube.com/watch?v=BsnAcSJE7ho": "Sharkie's Review",
+	},
 	obtained: "2014-08-26",
 	photographed: true,
 	cost: 10,
@@ -3743,6 +3766,10 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	company: "PDP",
 	peripheralName: "Epic Mickey 2: Paintbrush",
 	systems: "Wii",
+	urls: {
+		"https://www.youtube.com/watch?v=lpRYzYz03MQ": "Sharkie's Review (original model)",
+		"https://www.youtube.com/watch?v=nDctGz9FE70": "Sharkie's Review (second model)", 
+	},
 	obtained: "2014-10-29",
 	photographed: true,
 	cost: 10,
@@ -3795,7 +3822,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2020-10-10",
 	cost: 0,
 	description: `Let's you spoof the data on Amiibo NFC tags`,
-	games: "",
 },{
 	peripheral: "247-8L",
 	attached: "247-01",
@@ -3805,8 +3831,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	location: "BIN-05 (Blue)",
 	obtained: "2016-12-09",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-8M",
 	attached: "247-01",
@@ -3815,8 +3839,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2015-09-15",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-BY",
 	attached: "247-01",
@@ -3825,8 +3847,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2015-10-17",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-CA",
 	attached: "247-01",
@@ -3834,8 +3854,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	peripheralName: "amiibo cards",
 	systems: "Wii U/3DS/Switch",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-CE",
 	attached: "247-01",
@@ -3845,8 +3863,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2017-02-08",
 	byProxy: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-CF",
 	attached: "247-01",
@@ -3856,8 +3872,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2017-08-05",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-CKR",
 	attached: "247-01",
@@ -3868,8 +3882,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2017-09-29",
 	byProxy: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-CM",
 	attached: "247-01",
@@ -3878,8 +3890,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2016-07-31",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-CP",
 	attached: "247-01",
@@ -3888,8 +3898,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2021-02-13",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-CR",
 	attached: "247-01",
@@ -3898,8 +3906,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2016-02-18",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-DA",
 	attached: "247-01",
@@ -3908,8 +3914,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2016-11-10",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-DB",
 	attached: "247-01",
@@ -3918,8 +3922,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2018-03-17",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-IG",
 	attached: "247-01",
@@ -3929,8 +3931,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2015-06-01",
 	shipped: "on",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-IS",
 	attached: "247-01",
@@ -3941,8 +3941,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2016-12-15",
 	byProxy: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-IW",
 	attached: "247-01",
@@ -3953,8 +3951,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	obtained: "2016-12-25",
 	byProxy: true,
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-LA",
 	attached: "247-01",
@@ -3964,8 +3960,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	location: "BIN-04",
 	obtained: "2019-10-12",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-LI",
 	attached: "247-01",
@@ -3974,8 +3968,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2014-11-26",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-LM",
 	attached: "247-01",
@@ -3985,8 +3977,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	location: "BIN-05 (Blue)",
 	obtained: "2017-03-08",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-LU",
 	attached: "247-01",
@@ -3996,8 +3986,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2017-03-08",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-LZ",
 	attached: "247-01",
@@ -4007,8 +3995,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2016-12-09",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-PE",
 	attached: "247-01",
@@ -4017,8 +4003,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2014-11-26",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-RR",
 	attached: "247-01",
@@ -4027,8 +4011,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2015-02-13",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-S0",
 	attached: "247-01",
@@ -4037,8 +4019,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2015-09-15",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-WL",
 	attached: "247-01",
@@ -4047,8 +4027,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2016-03-04",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-WP",
 	attached: "247-01",
@@ -4057,8 +4035,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2017-10-30",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-ZB",
 	attached: "247-01",
@@ -4067,8 +4043,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2017-03-03",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "247-ZE",
 	attached: "247-01",
@@ -4078,8 +4052,6 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2014-12-29",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "248",
 	company: "Evollve, Inc.",
@@ -4151,6 +4123,9 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	company: "Sharp",
 	peripheralName: "Cyber Stick CZ-8NJ2",
 	systems: "Sharp X68000",
+	urls: {
+		"https://www.youtube.com/watch?v=ZX9_5loba54": "Sharkie's Review",
+	},
 	obtained: "2015-04-19",
 	photographed: true,
 	cost: 50,
@@ -4191,7 +4166,6 @@ Controller: Takes 2xAAAs (included) accessible via screwdriver, 4 shoulder butto
 	obtained: "2017-03-08",
 	cost: 0,
 	description: `Figures contain an NFC tag`,
-	games: "",
 },{
 	peripheral: "256",
 	company: "Collective Minds",
@@ -4210,7 +4184,6 @@ Controller: Takes 2xAAAs (included) accessible via screwdriver, 4 shoulder butto
 	obtained: "2015-09-29",
 	cost: 30,
 	description: `Takes 4xAAA batteries, wireless (via infrared, 1 port along the top, 1 along the side), 2 shoulder buttons, 2 dpads, 4 face buttons, 2 system buttons, 33 other buttons`,
-	games: "",
 },{
 	peripheral: "258",
 	company: "Valve",
@@ -4276,7 +4249,6 @@ Controller: Takes 2xAAAs (included) accessible via screwdriver, 4 shoulder butto
 	obtained: "2017-06-16",
 	cost: 25,
 	description: `A case designed to fit the L2/R2 Grip Cover (without any of the L3/R3 addons)`,
-	games: "",
 },{
 	peripheral: "262-C",
 	attached: "262-A",
@@ -4286,7 +4258,6 @@ Controller: Takes 2xAAAs (included) accessible via screwdriver, 4 shoulder butto
 	obtained: "2017-12-18",
 	cost: 15,
 	description: `Adds L3/R3 to the back of the 1K/Original model Vita L2/R2 Trigger Grips`,
-	games: "",
 },{
 	peripheral: "262-D",
 	attached: "262-A",
@@ -4296,7 +4267,6 @@ Controller: Takes 2xAAAs (included) accessible via screwdriver, 4 shoulder butto
 	obtained: "2019-07-31",
 	cost: 30,
 	description: `Replaces the faceplate of the 1K/Original model Vita L2/R2 Trigger Grips to add L3/R3 to the front`,
-	games: "",
 },{
 	peripheral: "263",
 	company: "Blue Orb",
@@ -4391,7 +4361,6 @@ Constellation: IR LED sensor to track the HMD`,
 	photographed: true,
 	cost: 0,
 	description: `Standard dualshock layout with OS button and rumble, wireless via XBOX1 proprietary comms method (adapter included), "impulse triggers", wired via microUSB port, headset port, battery compartment for either 2xAAs (include) or rechargeable battery, update-able firmware`,
-	games: "",
 },{
 	peripheral: "270",
 	company: "Ipega",
@@ -4410,6 +4379,9 @@ Constellation: IR LED sensor to track the HMD`,
 	obtained: "2016-06-02",
 	photographed: true,
 	cost: 90,
+	urls: {
+		"https://www.youtube.com/watch?v=3TC1cPgRpbo": "Sharkie's Review",
+	},
 	description: "dpad, 4 face buttons, 2 system buttons,analog mode toggle, 4 triggers, 2 foot pedals, tiltable steering wheel",
 	games: "Racing games (PS1/PS2)",
 },{
@@ -4420,7 +4392,6 @@ Constellation: IR LED sensor to track the HMD`,
 	photographed: true,
 	cost: 10,
 	description: `Disc-style dpad, 4 face buttons, 1 system button (doubles as the power button), mode switch (between game mode and media remote)`,
-	games: "",
 },{
 	peripheral: "273-A",
 	peripheralName: "Retrode",
@@ -4479,6 +4450,9 @@ Constellation: IR LED sensor to track the HMD`,
 	company: "Logitech",
 	peripheralName: "Netplay",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=xKUOTkSoxzo": "Sharkie's Review",
+	},
 	obtained: "2016-07-09",
 	photographed: true,
 	cost: 50,
@@ -4568,6 +4542,9 @@ Keyboard: Connects via USB, detachable from the controller, standard QWERTY layo
 	obtained: "2016-10-13",
 	photographed: true,
 	cost: 550,
+	urls: {
+		"https://www.youtube.com/watch?v=3-N9eHMlrHw": "Sharkie's Review",
+	},
 	description: `A 5" 1080p (960×1080 per eye) 90-120Hz OLED RGB screen, 100° FOV, head tracking via LEDs (requires PS Camera to work), microphone, a cool box, headphone port (includes earbuds), inline remote (controls power, microphone, volume +/-), connects via HDMI and USB 3.0, infrared wearer detection
 breakout box handles 3D audio, output to TV (undistorts VR vision to mirror it to the TV, as well as allowing for dual-screen output in some games) as well as cinema mode which lets all non-VR games display as a giant TV on the headset (capable of running on any HDMI device so long as the PS4 is still connected via USB)`,
 	games: "PSVR games for PS4",
@@ -4690,7 +4667,6 @@ Has 3 modes, standby (Which you'd think would act like "Off", but doesn't), cosp
 	obtained: "2016-12-02",
 	cost: 19,
 	description: `A wifi (802.11n) bluetooth (4.1) add-on board for raspberry pi`,
-	games: "",
 },{
 	peripheral: "292-B",
 	attached: "292-A",
@@ -4702,7 +4678,6 @@ Has 3 modes, standby (Which you'd think would act like "Off", but doesn't), cosp
 	photographed: true,
 	cost: 19,
 	description: `Wireless (via bluetooth), built-in rechargeable battery (via microUSB), dpad, 2 system buttons, 4 face buttons, 2 triggers, wrist strap`,
-	games: "",
 },{
 	peripheral: "293",
 	company: "Microsoft",
@@ -4721,7 +4696,6 @@ Has 3 modes, standby (Which you'd think would act like "Off", but doesn't), cosp
 	photographed: true,
 	cost: 60,
 	description: `1 digital stick, 4 face buttons, 2 system buttons, 2 shoulder buttons, 7 turbo toggle switches`,
-	games: "",
 },{
 	peripheral: "295",
 	company: "Capcom",
@@ -4796,6 +4770,9 @@ Antlers: Adds LEDs powered by their own battery for motion sensing`,
 	company: "BanPresto",
 	peripheralName: "Kids Station Drawing Tablet",
 	systems: "PS1",
+	urls: {
+		"https://www.youtube.com/watch?v=r6HwTyBNb4o": "Sharkie's Review",
+	},
 	obtained: "2017-02-22",
 	photographed: true,
 	cost: 1,
@@ -4813,7 +4790,6 @@ Antlers: Adds LEDs powered by their own battery for motion sensing`,
 	description: `Allows you to use PC/PS3/PS4/Wii/Wii U/360/X1/Switch controllers on any other system (so you can use PS3 on 360/X1/PS4/PC, 360 on PS3/PS4/PC/VitaTV, or Wii on 360/X1/PS3/PS4/PC/VitaTV)
 Lets you set up profiles to remap controls, and store up to 9 on the device (4 internally, the rest require a microSD card). Switch between them via button on the device, or button combo on the controller. You can even disable buttons (L3/R3) invert axis for games that don't allow it, change dead zones. Includes a USB cable. (Hold both up/down buttons when plugging a USB cable into the PROG port to reset the firmware)
 Has 4 USB ports (2 master ports to plug controllers into, 2 micro USB ports [output to console, and to PC for programming] which support USB OTG), up/down buttons to select a program slot (can hold up to 9, and one default/blank), a controllable RGB LED, microSD card slot, 7-segment LED indicator to tell you what program slot is loaded, AC adapter port (needed to use the bluetooth adapter)`,
-	games: "",
 },{
 	peripheral: "302-B",
 	attached: "302-A",
@@ -4821,7 +4797,6 @@ Has 4 USB ports (2 master ports to plug controllers into, 2 micro USB ports [out
 	obtained: "2018-01-25",
 	cost: 60,
 	description: `(plugs into a connector under the grey top-left part) to use PS3/PS4/Wii/Switch controllers wirelessly. Also includes a 512 MB microSD card`,
-	games: "",
 },{
 	peripheral: "302-C",
 	attached: "302-A",
@@ -4831,7 +4806,6 @@ Has 4 USB ports (2 master ports to plug controllers into, 2 micro USB ports [out
 	obtained: "2018-12-06",
 	cost: 50,
 	description: `An adapter to use PS3/PS4 controllers on PS1/PS2. The Titan Two also works on it`,
-	games: "",
 },{
 	peripheral: "302-D",
 	attached: "302-A",
@@ -4841,7 +4815,6 @@ Has 4 USB ports (2 master ports to plug controllers into, 2 micro USB ports [out
 	obtained: "2019-12-24",
 	cost: 50,
 	description: `An adapter to use PS3/PS4 controllers on DC. The Titan Two also works on it`,
-	games: "",
 },{
 	peripheral: "303",
 	company: "Motorola",
@@ -4914,6 +4887,10 @@ Includes: Guitar Connector for Rock Band VR, Constellation sensor, a cool box`,
 	company: "KidzPLAY",
 	peripheralName: "Wireless Adventure Game Pad",
 	systems: "PS3",
+	urls: {
+		"https://www.youtube.com/watch?v=NNadCvqHtJw": "Sharkie's Review",
+	},
+
 	obtained: "2017-03-08",
 	photographed: true,
 	cost: "Gift",
@@ -4949,6 +4926,9 @@ Includes: Guitar Connector for Rock Band VR, Constellation sensor, a cool box`,
 	systems: "PC",
 	obtained: "2017-04-06",
 	cost: 20,
+	urls: {
+		"https://www.youtube.com/watch?v=cY9lIEpCZYA": "Sharkie's Review (n50)",
+	},
 	description: `Standard dualshock layout, USB`,
 	games: "PC games",
 },{
@@ -4977,7 +4957,10 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	company: "Dempa Micomsoft",
 	peripheralName: "XE1-AP",
 	systems: "GEN/SEGACD/32X/PCE/MSX/NEC PC-88/Sharp 68000/FM Towns",
-	obtained: "2017-04-08",		
+	obtained: "2017-04-08",	
+	urls: {
+		"https://www.youtube.com/watch?v=R5ztXG7hPlM": "Sharkie's Review",
+	},
 	cost: 80,
 	description: "1 non-centering dual-axis analog stick, 1 centering rotatable (not sure if rotation is an input though) single-axis analog stick, 4 triggers, 4 face buttons, 2 system buttons, 4 front-facing switches, 1 back-facing switch, a cool box",
 	games: ["After Burner II, Ayrton Senna's Super Monaco GP II, Fastest 1, Galaxy Force II, Musha Aleste (Genesis)", "After Burner III, Night Striker, Starblade (Sega CD)", "After Burner Complete, Space Harrier (32X)", "After Burner II, Thunder Blade, Operation Wolf, Outrun (HuCard)", "Forgotten Worlds (Super CD)"],
@@ -5025,6 +5008,9 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	company: "Fanatec",
 	peripheralName: "Gameboard",
 	systems: "PC",
+	urls: {
+		"https://www.youtube.com/watch?v=wKC8ybawOqM": "Sharkie's Review",
+	},
 	obtained: "2017-05-13",
 	cost: 80,
 	description: `Standard keyboard, 6 buttons to toggle the layout, 4 triggers (2 long, 2 short/round), non-clickable analog thumbstick, PS/2 port for the mechanical 2-button mouse, removable USB interface module (can be replaced with a wireless one)`,
@@ -5034,6 +5020,9 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	company: "HORI",
 	peripheralName: "Separate",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=PtUvXiFgGHk": "Sharkie's Review",
+	},
 	obtained: "2017-05-13",
 	cost: 50,
 	description: `Dualshock 2 layout, a switch to control the right analog stick (to act as Left, Right and N which is either neutral or the Dpad), redundant L1/L2 buttons, the controller breaks apart in the middle (only the right side can be used when apart)`,
@@ -5048,12 +5037,14 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	obtained: "2017-05-16",
 	cost: 6,
 	description: "A floating-disc dpad, 2 face buttons, 2 system buttons, 2 turbo toggle buttons",
-	games: "",
 },{
 	peripheral: "323",
 	company: "Sony",
 	peripheralName: "Aim",
 	systems: "PS4",
+	urls: {
+		"https://www.youtube.com/watch?v=n-p0r2sstrM": "Sharkie's Review",
+	},
 	obtained: "2017-05-16",
 	cost: 60,
 	description: "Dpad, 4 face buttons, 3 triggers, 2 OS buttons, 2 system buttons, motion sensing, ambidextrous, built-in rechargeable battery (via MicroUSB), wireless via Bluetooth, 2 clickable analog sticks, rumble",
@@ -5063,6 +5054,9 @@ Both: Wireless via USB dongle. The keyboard and mouse both take 2xAA batteries e
 	company: "RealPlay",
 	peripheralName: "Puzzle Sphere",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=cdUxoylGdi8": "Sharkie's Review",
+	},
 	obtained: "2017-05-18",
 	cost: 80,
 	description: `Wireless (via USB dongle), dpad, 3 buttons, gyroscope`,
@@ -5128,7 +5122,6 @@ RGB LEDs,connectors in the handle to attach to and interface with a figure`,
 	obtained: "2017-05-18",
 	cost: 50,
 	description: `25 re-programmable backlit keys, backlit monochrome LCD, digital non-clickable thumbstick, 4 macro keys, 5 buttons to control the LCD, USB, backlight color can be changed`,
-	games: "",
 },{
 	peripheral: "328",
 	peripheralName: "Flying Circus RC controller",
@@ -5183,7 +5176,6 @@ when attached to the base, the tilting the controller makes the joint act the an
 Display box: Infrared port, LED display, connects to the Subwoofer box via an S-video cable
 Subwoofer box: Built-in subwoofer and audio receiver, expansion slot 
 Connections for: 5 speakers, 2 TOSlink/optical audio cables, digital coaxial, headphones, composite audio, USB-B`,
-	games: "",
 },{
 	peripheral: "333",
 	peripheralName: "R1",
@@ -5229,10 +5221,14 @@ Connections for: 5 speakers, 2 TOSlink/optical audio cables, digital coaxial, he
 	systems: "PS4",
 	obtained: "2017-09-01",
 	cost: 100,
+	urls: {
+		"https://www.youtube.com/watch?v=WPhpcMim_w8": "Sharkie's Review",
+	},
 	importOnly: true,
 	description: `1 dpad, 2 clickable thumbsticks, 4 face buttons, 1 system button, 2 OS buttons, 4 shoulder buttons, rumble, clickable touchpad, wireless via Bluetooth, built-in rechargeable battery (via microUSB), Turbo button
 				Hold Share+PS for 5 seconds when turning it on to put it in Pairing Mode, then go to PS4's Settings screen, and go to Devices, Bluetooth, to pair it with the [Slime Controller] when it shows up at the bottom`,
-	games: "",
+	specificVersion: "PS4",
+	otherVersions: "Switch",
 },{
 	peripheral: "338",
 	company: "Konami",
@@ -5281,7 +5277,6 @@ Connections for: 5 speakers, 2 TOSlink/optical audio cables, digital coaxial, he
 	obtained: "2017-10-02",
 	cost: 0,
 	description: "A tiny PS1",
-	games: "",
 },{
 	peripheral: "343",
 	company: "HORI",
@@ -5320,7 +5315,6 @@ Hold START to pair it`,
 	obtained: "2017-10-31",
 	cost: 30,
 	description: "2 button optical mouse, variable resolution button on the bottom, a cool box",
-	games: "",
 },{
 	peripheral: "347",
 	company: "DreamGEAR",
@@ -5426,6 +5420,9 @@ Hold START to pair it`,
 	company: "HORI",
 	peripheralName: "Wired Controller Light",
 	systems: "PS4",
+	urls: {
+		"https://www.youtube.com/watch?v=E8QQ7_wZQdM": "Sharkie's Review",
+	},
 	obtained: "2018-01-25",
 	cost: 40,
 	location: "BIN-04",
@@ -5508,7 +5505,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 		<LI CLASS="bold">Super Black Bass Real Fight (JPN)</LI>
 		<LI CLASS="bold">Super Real Fishing (JPN)</LI>
 	</UL>`,
-	games: "",
 },{
 	peripheral: "363-B",
 	attached: "363-A",
@@ -5615,7 +5611,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	description: `Analog dial, temperature-controlled fan
 		Games Supported: Windows 10 games
 		Terrible, infuriating customer service`,
-	games: "",
 },{
 	peripheral: "365",
 	company: "Kickstarter",
@@ -5701,7 +5696,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	obtained: "2018-04-12",
 	cost: 20,
 	description: "A folding stand to hold the Switch up",
-	games: "",
 },{
 	peripheral: "374",
 	company: "NamcoBandai",
@@ -5722,7 +5716,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	cost: 80,
 	description: `Dpad, 4 triggers, 2 OS buttons, 2 system buttons, 2 clickable analog thumbsticks, wireless (via Bluetooth) built-in rechargeable battery (charges via USB-C), rumble, SIXAXIS
 Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6 in N64 mode but 2 are mirrors of L2/R2) via removable face button modules held in place by removable face plates`,
-	games: "",
 },{
 	peripheral: "376",
 	company: "Wild Things",
@@ -5731,7 +5724,6 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	obtained: "2018-05-05",
 	cost: 26,
 	description: "Dpad, 2 triggers, 6 face buttons, 3 system buttons, Slow motion switch, 9 turbo switches",
-	games: "",
 },{
 	peripheral: "377",
 	company: "Nintendo",
@@ -5814,7 +5806,6 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	obtained: "2018-05-30",
 	cost: 20,
 	description: `A fully functional mini arcade cabinet, key ring (yes, it's small enough to be a keychain), takes 3xAAA batteries (included), on/off switch, 4-way joystick, 2 buttons, 1.5" 128×128 LCD, light-up marquee`,
-	games: "",
 },{
 	peripheral: "381-B",
 	attached: "381-A",
@@ -5823,8 +5814,6 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	systems: "SYS",
 	obtained: "2018-06-28",
 	cost: 20,
-	description: ``,
-	games: "",
 },{
 	peripheral: "381-C",
 	attached: "381-A",
@@ -5834,8 +5823,6 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	systems: "SYS",
 	obtained: "2018-06-28",
 	cost: 20,
-	description: ``,
-	games: "",
 },{
 	peripheral: "381-D",
 	attached: "381-A",
@@ -5845,8 +5832,6 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	systems: "SYS",
 	obtained: "2018-06-28",
 	cost: 20,
-	description: ``,
-	games: "",
 },{
 	peripheral: "381-E",
 	attached: "381-A",
@@ -5856,8 +5841,6 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	systems: "SYS",
 	obtained: "2019-09-07",
 	cost: 20,
-	description: ``,
-	games: "",
 },{
 	peripheral: "381-F",
 	attached: "381-A",
@@ -5867,8 +5850,6 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	systems: "SYS",
 	obtained: "2019-09-10",
 	cost: 20,
-	description: ``,
-	games: "",
 },{
 	peripheral: "382",
 	peripheralName: "Pocket Sprite",
@@ -5957,7 +5938,6 @@ The unlock button also sticks out a lot more`,
 	obtained: "2018-09-14",
 	cost: 150,
 	description: "1 OS button, 2 system buttons, 1 profile switcher button, 2 face buttons, dpad, Wireless, wired and charges the built-in battery via USB-C, headphone connector, connectors for accessibility devices (1 connector for each button, and direction on the dpad, 2 extra connectors for the X button), 2 USB master ports for analog sticks",
-	games: "",
 	section: "misc",
 },{
 	peripheral: "389-B",
@@ -5969,7 +5949,6 @@ The unlock button also sticks out a lot more`,
 	obtained: "2019-08-17",
 	cost: 25,
 	description: "1 clickable analog stick, 2 shoulder buttons, connects via USB HID",
-	games: "",
 	section: "misc",
 },{
 	peripheral: "389-C",
@@ -5980,7 +5959,6 @@ The unlock button also sticks out a lot more`,
 	obtained: "2020-01-09",
 	cost: 130,
 	description: "4x Light touch buttons, 3x Small buttons, 3x Big buttons, 2x Variable triggers, Rigid hook and loop game board, Flexible hook and loop game board, hook and loop ties, Colo-coded labels",
-	games: "",
 	section: "misc",
 },{
 	peripheral: "390",
@@ -6003,8 +5981,6 @@ The unlock button also sticks out a lot more`,
 	systems: "PS4",
 	obtained: "2018-10-16",
 	cost: 0,
-	description: ``,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "391-B",
@@ -6015,8 +5991,6 @@ The unlock button also sticks out a lot more`,
 	systems: "PS4/X1/Switch",
 	obtained: "2018-10-20",
 	cost: 0,
-	description: ``,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "391-C",
@@ -6027,8 +6001,6 @@ The unlock button also sticks out a lot more`,
 	systems: "Switch",
 	obtained: "2018-11-22",
 	cost: 0,
-	description: ``,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "391-D",
@@ -6039,8 +6011,6 @@ The unlock button also sticks out a lot more`,
 	systems: "PS4/X1/Switch",
 	obtained: "2018-12-17",
 	cost: 0,
-	description: ``,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "391-E",
@@ -6050,8 +6020,6 @@ The unlock button also sticks out a lot more`,
 	systems: "PS4/X1/Switch",
 	obtained: "2018-12-18",
 	cost: 0,
-	description: ``,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "391-F",
@@ -6061,8 +6029,6 @@ The unlock button also sticks out a lot more`,
 	peripheralName: "Pulse Starship Pack (Calisto Chase Da Silva, Volcano), Kharl Zeon (pilot), Freeze Ray Mk. 2, Iron Fist (Weapons)",
 	obtained: "2019-03-24",
 	cost: 0,
-	description: ``,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "391-G",
@@ -6074,8 +6040,6 @@ The unlock button also sticks out a lot more`,
 	systems: "misc",
 	obtained: "2019-03-26",
 	cost: 0,
-	description: ``,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "391-H",
@@ -6086,8 +6050,6 @@ The unlock button also sticks out a lot more`,
 	systems: "PS4",
 	obtained: "2019-03-30",
 	cost: 0,
-	description: ``,
-	games: "",
 	section: "misc",
 },{
 	peripheral: "391-I",
@@ -6099,8 +6061,6 @@ The unlock button also sticks out a lot more`,
 	obtained: "2019-04-20",
 	section: "misc",
 	cost: 0,
-	description: ``,
-	games: "",
 },{
 	peripheral: "392",
 	company: "Nintendo",
@@ -6226,7 +6186,6 @@ The unlock button also sticks out a lot more`,
 	obtained: "2002-02-12",
 	cost: 20,
 	description: `A cable which allows GBAs to connect to GameCube controller ports, for data transfer. GBA games can interact with GCN games, GCN can send GBA games to the GBA, and GBA can act as a controller+screen`,
-	games: "",
 },{
 	peripheral: "401",
 	company: "Kickstarter",
@@ -6264,6 +6223,9 @@ The unlock button also sticks out a lot more`,
 	company: "Kickstarter",
 	peripheralName: "Hunter",
 	systems: "PC",
+	urls: {
+		"https://www.youtube.com/watch?v=5ZApOa4nSOA": "Sharkie's Review",
+	},
 	obtained: "2019-02-25",
 	cost: 50,
 	description: `White LEDs, 1 clickable thumbstick, connects via microUSB, USB HID, a cool box, rumble, 14 buttons`,
@@ -6500,7 +6462,6 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 	obtained: "2020-01-24",
 	cost: 40,
 	description: "Attaches to the Dualshock 4's EXT and headset ports, Adds 2 remappable back buttons, a rear clickable OLED screen for changing the button mappings in 3 profiles",
-	games: "",
 },{
 	peripheral: "424",
 	company: "Kickstarter",
@@ -6522,7 +6483,6 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 	specificVersion: "Super Famicom",
 	otherVersions: "SNES",
 	description: `1 dpad, 2 system buttons, 4 face buttons buttons, 4 shoulder buttons, a cool box, built-in battery, charges via USB-C, wireless (via Bluetooth)`,
-	games: "",
 },{
 	peripheral: "426",
 	company: "Smilesoft",
@@ -6567,7 +6527,6 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 	obtained: "2020-07-10",
 	cost: 50,
 	description: "Dpad, 1 non-clickable analog stick, 1 system button, 4 face buttons, 2 slots for VMUs/rumble packs, turbo/reset buttons, 2 analog triggers, 2 digital triggers which mirror the analog triggers",
-	games: "",
 },{
 	peripheral: "430",
 	company: "Divoom",
@@ -6625,7 +6584,6 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 					<LI>Urchin</LI>
 					<LI>Peepa</LI>
 				</UL>`,
-	games: "",
 },{
 	peripheral: "431-A",
 	attached: "431",
@@ -6636,7 +6594,6 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 	obtained: "2022-09-23",
 	cost: 25,
 	description: "180 LEGO pieces",
-	games: "",
 },{
 	peripheral: "432",
 	company: "SEGA",
@@ -6716,7 +6673,6 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2021-01-07",
 	cost: 60,
 	description: `1 digital stick, 1 face button, 1 trigger, 2 system buttons, 1 OS button, the stick rotates and is detected as a dial, wireless (via bluetooth), wired (via microUSB), rechargeable battery, rumble, a ring of LEDs that indicate the direction of the stick`,
-	games: "",
 },{
 	peripheral: "438",
 	company: "Rufus Labs",
@@ -6745,7 +6701,6 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	specificVersion: "Red with Force Feedback",
 	otherVersions: "Grey, Black, Blue, Force Feedback is optional",
 	description: `640×480 camera, 1 trigger, 4 buttons, dpad, long USB cable`,
-	games: "",
 },{
 	peripheral: 441,
 	company: "Blue Ocrean",
@@ -6754,8 +6709,10 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	location: "BIN-01",
 	obtained: "2021-07-02",
 	cost: 63,
+	urls: {
+		"https://www.youtube.com/watch?v=yQmD9ImZMx4": "Sharkie's Review",
+	},
 	description: `a Wiimote in the style of a Doctor Who Sonic Screwdriver`,
-	games: "",
 },{
 	peripheral: 442,
 	company: "Nintendo",
@@ -6775,7 +6732,6 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2021-07-27",
 	cost: 94,
 	description: `A 1080p camera that watches your TV to control a line of RGB LEDs`,
-	games: "",
 },{
 	peripheral: 444,
 	company: "Bandai Namco",
@@ -6784,7 +6740,6 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2021-10-09",
 	cost: 70,
 	description: `128×32 or 128×64 LCD (unknown which), built-in rechargeable battery (charges via micro USB), 2 buttons, slot for proprietary expansion cards, speaker`,
-	games: "",
 },{
 	peripheral: "445-A",
 	company: "New Wave Toys",
@@ -6803,7 +6758,6 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2021-10-13",
 	cost: 0,
 	description: `digital stick, 2 face buttons, 1 system button, connects via micro USB`,
-	games: "",
 },{
 	peripheral: "446",
 	company: "Saitek",
@@ -6939,8 +6893,10 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2022-11-19",
 	photographed: true,
 	cost: 200,
+	urls: {
+		"https://www.youtube.com/watch?v=ZX9_5loba54": "Sharkie's Review (Original Model)",
+	},
 	description: `Ambidextrous (the sticks are swappable!)  throttle with 2-way+neutral switch, and button. Joystick with a trigger, button, and switch. 3 face buttons (2 mirror the buttons on the joystick), 2 system buttons, 6 function switches, a cool box`,
-	games: "",
 },{
 	peripheral: "459",
 	company: "Analogue",
@@ -7123,6 +7079,9 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "Blaze",
 	peripheralName: "Scarab",
 	systems: "PS2",
+	urls: {
+		"https://www.youtube.com/watch?v=1itdNVDqRNw": "Sharkie's Review",
+	},
 	location: "BIN-11 (Site B)",
 	obtained: "2023-04-08",
 	cost: 100,
