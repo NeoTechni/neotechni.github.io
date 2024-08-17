@@ -354,24 +354,17 @@ function enum_controllers_by_section(section = false, include = true){
 
 function enum_attached_controllers(ret){
 	var IDs = {};
-	var Names = {};
 	for(var i = 0; i < ret.length; i++){
 		var controller = ret[i];
-		if(controller.hasOwnProperty("title")){
-			IDs[ controller.title ]  = i;
-			if(controller.hasOwnProperty("peripheral")){
-				Names[ controller.peripheral ]  = i;
-			}
-		} else if(controller.hasOwnProperty("peripheral")){
+		if(controller.hasOwnProperty("peripheral")){
 			IDs[ controller.peripheral ]  = i;
-			Names[ controller.peripheral ]  = i;
 		}
 	}
 	
 	for(var i = 0; i < controllers.length; i++){
 		var controller = controllers[i];
 		if(controller.hasOwnProperty("attached") && IDs.hasOwnProperty( controller.attached ) > -1){
-			var index = Names[ controller.attached ];
+			var index = IDs[ controller.attached ];
 			if(!isUndefined(ret[index])){
 				if(!ret[index].hasOwnProperty("attachments")){
 					ret[index].attachments = [];
@@ -427,7 +420,7 @@ function isNumeric(variable) {
 }
 
 function daysInMonth(month,year) {
-  return new Date(year, month, 0).getDate();
+  	return new Date(year, month, 0).getDate();
 }
 
 function currentdate(){
@@ -827,10 +820,9 @@ function make_controller(controller = false, stat = false, name = false){
 		for(var i = 0; i < controllers.length; i++){
 			var controller = controllers[i];
 			HTML += '<LI><A HREF="#' + toclassname(controller.peripheralName) + '">';
+			HTML += controller.peripheralName;
 			if(controller.hasOwnProperty("title")){
-				HTML += controller.title;
-			} else {
-				HTML += controller.peripheralName;
+				HTML += " (" + controller.title + ")";
 			}
 			HTML += '</A></LI>';
 		}
