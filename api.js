@@ -371,10 +371,18 @@ function enum_attached_controllers(ret){
 				}
 				ret[index].attachments.push(controller);
 			}
+		} 
+		//attempt to fix sorting
+		if(controller.hasOwnProperty("title")){
+			controllers[i].Name = controller.title;
+		} else if(controller.hasOwnProperty("peripheralName")){
+			controllers[i].Name = controller.peripheralName;
+		} else {
+			controllers[i].Name = controller.peripheral;
 		}
 	}
 
-	ret.sort(dynamicSortMultiple("peripheralName"));
+	ret.sort(dynamicSortMultiple("Name"));
 	return ret;
 }
 
