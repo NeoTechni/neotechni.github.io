@@ -732,10 +732,11 @@ function make_controller(controller = false, stat = false, name = false){
 			}
 		}
 	} else if(stat === true){//do all stats in normal style
+		var classname = toclassname(controller.peripheralName);//
 		switch(name){
 			case "normal": case "noimage":
 				if(name == "noimage" && controller.hasOwnProperty("title")){
-					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.title + '</TH></TR><TR>';
+					HTML += '<TR><TH COLSPAN="2" CLASS="header"> + controller.title + '</TH></TR><TR>';
 				}
 				HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR>';
 				if(name == "normal"){
@@ -768,7 +769,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += '</TD></TR>';
 				break;
 			case "list":
-				HTML += '<TR><TD>';
+				HTML += '<TR><TD><A NAME="' + classname + '"></A>';
 				if(controller.hasOwnProperty("peripheral")){
 					HTML += controller.peripheral;
 				}
@@ -828,9 +829,10 @@ function make_controller(controller = false, stat = false, name = false){
 		for(var i = 0; i < controllers.length; i++){
 			var controller = controllers[i];
 			HTML += '<LI><A HREF="#' + toclassname(controller.peripheralName) + '">';
-			HTML += controller.peripheralName;
 			if(controller.hasOwnProperty("title")){
-				HTML += " (" + controller.title + ")";
+				HTML += controller.title;
+			} else {
+				HTML += controller.peripheralName;
 			}
 			HTML += '</A></LI>';
 		}
