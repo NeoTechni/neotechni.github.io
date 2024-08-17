@@ -736,7 +736,7 @@ function make_controller(controller = false, stat = false, name = false){
 		switch(name){
 			case "normal": case "noimage":
 				if(name == "noimage" && controller.hasOwnProperty("title")){
-					HTML += '<TR><TH COLSPAN="2" CLASS="header"> + controller.title + '</TH></TR><TR>';
+					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.title + '</TH></TR><TR>';
 				}
 				HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR>';
 				if(name == "normal"){
