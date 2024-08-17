@@ -356,7 +356,9 @@ function enum_attached_controllers(ret){
 	var IDs = {};
 	for(var i = 0; i < ret.length; i++){
 		var controller = ret[i];
-		if(controller.hasOwnProperty("peripheral")){
+		if(controller.hasOwnProperty("title")){
+			IDs[ controller.title ]  = i;
+		} else if(controller.hasOwnProperty("peripheral")){
 			IDs[ controller.peripheral ]  = i;
 		}
 	}
