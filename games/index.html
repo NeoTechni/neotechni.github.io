@@ -26,7 +26,7 @@ classes: wide
       <TR>
          <TH>Name</TH>
          <TH>Entries</TH>
-         <TH>Medium</TH>
+         <TH>System</TH>
       </TR>
    </THEAD>
    <TBODY ID="results"></TBODY>
@@ -81,7 +81,7 @@ classes: wide
       var text 		                  = set_HTML("name", null, "val");
       var medi   		                  = set_HTML("medium", null, "val");
       if(firsttime){
-         firsttime                      = '<OPTION VALUE="">Medium</OPTION>';
+         firsttime                      = '<OPTION VALUE="">System</OPTION>';
       }
       for(var medium in movies){
          if(movies.hasOwnProperty(medium)){ //makes sure it's my data and not a JS property
