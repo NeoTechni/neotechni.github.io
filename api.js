@@ -898,6 +898,17 @@ function visible(text, selector = ".searchable"){
 	}
 }
 
+function setVisible(selector, visible = true){
+	var elements = document.querySelectorAll(selector);
+	for(var i = 0; i < elements.length; i++){
+		if(visible){//show
+			RemoveClass(elements[i], "dont-show");
+		} else {//hide
+			AddClass(elements[i], "dont-show");
+		}
+	}
+}
+
 function AddClass(element, classname){
 	element.classList.add(classname);
 }
