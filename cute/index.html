@@ -2,7 +2,11 @@
 layout: default
 ---
 <TITLE>🎀 Cute Things</TITLE>
-<UL ID="cutetabs"></UL>
+
+<HEADER CLASS="horizontal">
+	<UL ID="cutetabs"></UL>
+</HEADER>
+	
 <DIV ID="cuteimages"></DIV>
 <SCRIPT>
 	var controllers = {
@@ -183,12 +187,12 @@ layout: default
 				if(!first){
 					first = key;
 				}
-				HTML += '<LI CLASS="hyperlink" ONCLICK="showsection(' + "'" + key + "'" + ');">' + key + '</LI>';
+				HTML += '<LI CLASS="hyperlink" ONCLICK="showsection(' + "'" + key + "'" + ');"><A HREF="#">' + key + '</A></LI>';
 				count++;
 			}
 		}
 		set_HTML("cutetabs", HTML);
-		set_HTML("columnstyle", "#cutetabs {columns: " + count + "; -webkit-columns: " + count + "; -moz-columns: " + count + ";}");
+		//set_HTML("columnstyle", "#cutetabs {columns: " + count + "; -webkit-columns: " + count + "; -moz-columns: " + count + ";}");
 		generatesection();
 		if(first){
 			showsection(first);
