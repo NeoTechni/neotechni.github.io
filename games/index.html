@@ -4,16 +4,139 @@ layout: default
 classes: wide 
 ---
 <TITLE>Compatible Games</TITLE>
+
+<HEADER CLASS="horizontal">
+   <UL>
+             <LI><A HREF="#" ONCLICK="switchtab('controllers');">Compatible with Controllers</A></LI>
+             <LI><A HREF="#" ONCLICK="switchtab('games');">My Games</A></LI>
+   </UL>
+</HEADER>
+
+<DIV ID="controllers" CLASS="tabs dont-show"></DIV>
+
+<TABLE ID="games" CLASS="table tabs">
+   <THEAD>
+      <TR>
+         <TD COLSPAN="3">
+            <INPUT ID="name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query();" ONPASTE="query();">
+            <SELECT ID="medium" ONCHANGE="query();">
+            </SELECT>
+         </TD>
+      </TR>
+      <TR>
+         <TH>Name</TH>
+         <TH>Entries</TH>
+         <TH>Medium</TH>
+      </TR>
+   </THEAD>
+   <TBODY ID="results"></TBODY>
+   <TFOOT>
+      <TR><TD ID="footer" COLSPAN="3"></TD></TR>
+   </TFOOT>
+</TABLE>
+
+<STYLE>
+	.medium-4k-bluray td{
+		color: black;
+		font-weight: bold;
+	}
+
+	.steelbook {
+		background: linear-gradient(-45deg, #fff087, #eccf02, #fff087);
+		background-size: 50% 100%;
+		animation: linear-gradient 10s linear infinite;
+	}
+	
+	@keyframes linear-gradient {
+		0% {
+			background-position: 0% 50%
+		}
+	
+		100% {
+			background-position: 400% 400%
+		}
+	}
+</STYLE>
+
 <SCRIPT>
    window.addEventListener('load', function () {
       var HTML = "";
       for(var section in games){
-        if(games.hasOwnProperty(section)){
-           HTML += showgames(section, false);
-        }
+         if(games.hasOwnProperty(section)){
+            HTML += showgames(section, false);
+         }
       }
       set_HTML("controllers", HTML);
-   });
-</SCRIPT>
+		query(true);
+  });
 
-<DIV ID="controllers"></DIV>
+   function switchtab(towhat){
+      setVisible(".tabs", false);
+      setVisible("#" + towhat, false);
+   }
+  
+   function query(firsttime = false){
+      var HTML                         = '';
+      var results                      = 0;
+      var text 		                  = set_HTML("name", null, "val");
+      var medi   		                  = set_HTML("medium", null, "val");
+      if(firsttime){
+         firsttime                      = '<OPTION VALUE="">Medium</OPTION>';
+      }
+      for(var medium in movies){
+         if(movies.hasOwnProperty(medium)){ //makes sure it's my data and not a JS property
+              if(firsttime){
+                 firsttime            += '<OPTION>' + medium + '</OPTION>';
+              }
+              if(!medi || medium == medi){
+                   for(var movie in movies[medium]){
+                        if(movies[medium].hasOwnProperty(movie)){//makes sure it's my data and not a JS property
+                             if(!text || movie.contains(text) || arraycontains(movies[medium][movie], text)){
+                                  HTML += make_movie(medium, movie);
+                                  results ++;
+                             }
+                        }
+                   }
+              }
+         }
+      }
+      if(firsttime){
+         console.log("Mediums: " + firsttime);
+         set_HTML("medium", firsttime);         
+      }
+      set_HTML("results", HTML);
+      set_HTML("footer", results + " result(s) found");
+  }
+
+  function arraycontains(arr, text){
+	   if(Array.isArray(arr)){
+		  for(var i = 0; i < arr.length; i++){
+			  if(arr[i].toString().contains(text)){
+				  return 	true;
+			  }
+		  }
+  	   }
+	   return			false;
+  }
+
+  function make_movie(medium, movie){
+    var HTML                            = '<TR CLASS="medium-' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + movie + '</TD><TD>';
+    HTML                               += movies[medium][movie].join(", ");
+    HTML                               += '</TD><TD>' + medium + '</TD></TR>';
+    if(HTML.contains("Steelbook")){
+     	 HTML                           = HTML.replace("[s]", 'steelbook');
+    } else {
+	HTML                            = HTML.replace("[s]", '');
+    }
+    return                            	 HTML;
+  }
+
+var movies = {
+     "Game Boy": {
+    	   "Pokemon"                       : ["Red"],
+     },
+     "Game Boy Advance": {
+        "Pokemon"                        : ["Mystery Dungeon"],
+     }
+  };
+</SCRIPT>
