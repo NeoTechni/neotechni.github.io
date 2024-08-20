@@ -59,6 +59,8 @@ classes: wide
 </STYLE>
 
 <SCRIPT>
+	var total = 0;
+	
    window.addEventListener('load', function () {
       var HTML = "";
       for(var section in games){
@@ -76,17 +78,18 @@ classes: wide
    }
   
    function query(firsttime = false){
-      var HTML                         = '';
-      var results                      = 0;
-      var text 		                  = set_HTML("name", null, "val");
-      var medi   		                  = set_HTML("medium", null, "val");
+      var HTML                          = '';
+      var results                       = 0;
+      var text 		                = set_HTML("name", null, "val");
+      var medi   		        = set_HTML("medium", null, "val");
+      total				= 0;
       if(firsttime){
          firsttime                      = '<OPTION VALUE="">System</OPTION>';
       }
       for(var medium in movies){
          if(movies.hasOwnProperty(medium)){ //makes sure it's my data and not a JS property
               if(firsttime){
-                 firsttime            += '<OPTION>' + medium + '</OPTION>';
+                 	firsttime       += '<OPTION>' + medium + '</OPTION>';
               }
               if(!medi || medium == medi){
                    for(var movie in movies[medium]){
@@ -94,6 +97,7 @@ classes: wide
                              if(!text || movie.contains(text) || arraycontains(movies[medium][movie], text)){
                                   HTML += make_movie(medium, movie);
                                   results ++;
+				  total ++;
                              }
                         }
                    }
@@ -105,7 +109,7 @@ classes: wide
          set_HTML("medium", firsttime);         
       }
       set_HTML("results", HTML);
-      set_HTML("footer", results + " result(s) found");
+      set_HTML("footer", results + " result(s) found (" + total + " including entries)");
   }
 
   function arraycontains(arr, text){
@@ -121,7 +125,10 @@ classes: wide
 
   function make_movie(medium, movie){
     var HTML                            = '<TR CLASS="medium-' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + movie + '</TD><TD>';
-    HTML                               += movies[medium][movie].join(", ");
+    if(movies[medium][movie].length > 0){
+    	HTML                           += movies[medium][movie].join(", ");
+    	total			       += movies[medium][movie].length - 1;
+    }
     HTML                               += '</TD><TD>' + medium + '</TD></TR>';
     if(HTML.contains("Steelbook")){
      	 HTML                           = HTML.replace("[s]", 'steelbook');
