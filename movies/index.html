@@ -68,6 +68,8 @@ classes: wide
 </STYLE>
 
 <SCRIPT>
+	var total = 0;
+	
   window.addEventListener('load', function () {
 		query();
   });
@@ -77,6 +79,7 @@ classes: wide
     var results                         = 0;
     var text 		                = set_HTML("name", null, "val");
     var medi   		                = set_HTML("medium", null, "val");
+    total				= 0;
     for(var medium in movies){
       if(movies.hasOwnProperty(medium)){//makes sure it's my data and not a JS property
         if(!medi || medium == medi){
@@ -92,7 +95,7 @@ classes: wide
       }
     }
     set_HTML("results", HTML);
-    set_HTML("footer", results + " result(s) found");
+    set_HTML("footer", results + " result(s) found (" + total + " including entries)");
   }
 
   function arraycontains(arr, text){
@@ -108,7 +111,10 @@ classes: wide
 
   function make_movie(medium, movie){
     var HTML                            = '<TR CLASS="medium-' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + movie + '</TD><TD>';
-    HTML                               += movies[medium][movie].join(", ");
+    if(movies[medium][movie].length > 0){
+    	HTML                           += movies[medium][movie].join(", ");
+    	total			       += movies[medium][movie].length - 1;
+    }
     HTML                               += '</TD><TD>' + medium + '</TD></TR>';
     if(HTML.contains("Steelbook")){
      	 HTML                           = HTML.replace("[s]", 'steelbook');
@@ -235,6 +241,7 @@ var movies = {
   	"Starship Yamato"                  : [],
   	"Star Trek"                        : ["TAS", "TOS", "TNG", "All movies", "Kelvin/JJ: 1, Beyond, Into Darkness", "Lower Decks: 1-4", "PIC"],
   	"Superman"                         : [1, 2, 3, 4, "Returns", "Unbounded", "Red Son (Steelbook)"],
+	"Tangled"			   : ["The Entire Series"],
   	"Ted"                              : [1, 2],
   	"Terminator"                       : [1, 2, 3, "Salvation", "Dark Fate"],
   	"The Adjustment Bureau"            : [],
@@ -250,6 +257,7 @@ var movies = {
   	"Thumbelina"                       : [],
   	"Tomorrowland"                     : [],
   	"Total Recall"                     : ["Original", "Remake"],
+	"Toy Story"			   : [1, 2, 3, 4],
   	"Transformers"                     : [1, "Revenge of the Fallen", "Age of Extinction"],
   	"V for Vendetta"                   : [],
   	"Vice"                             : [],
@@ -278,6 +286,7 @@ var movies = {
    	"Iria"                             : ["Metal Box"],
     	"Jewel BEM Hunter"                 : [],
   	"Just Shoot Me"                    : ["Season 1 and 2"],
+	"Justice League Unlimited"	   : ["Season 1"],
   	"Life Aquatic"                     : [],
   	"Lifepod"                          : [],
   	"Lost in Translation"              : [],
