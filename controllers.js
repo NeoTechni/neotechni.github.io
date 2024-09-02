@@ -5500,10 +5500,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 		<LI>Missile Command</LI>
 		<LI>Test Drive Off-Road 3</LI>
 		<LI CLASS="bold">Top Gear Pocket 2 [トップギア・ポケット2] (JPN)</LI>
-		<LI CLASS="bold">Chee Chai Alien [ちっちゃいエイリアン / Tiny Alien] (JPN)</LI>
 		<LI CLASS="bold">Get Mushi Club: Minna no Konchuu Daizukan [Get'虫倶楽部 みんなの昆虫大図鑑 / Everyone's Insect Encyclopedia] (JPN)</LI>
-		<LI CLASS="bold">Super Black Bass Real Fight (JPN)</LI>
-		<LI CLASS="bold">Super Real Fishing (JPN)</LI>
 	</UL>`,
 },{
 	peripheral: "363-B",
@@ -5600,6 +5597,30 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2024-08-02",
 	cost: 50,
+},{
+	peripheral: "363-N",
+	attached: "363-A",
+	company: "Creatures, Inc.",
+	peripheralName: "Chee Chai Alien [ちっちゃいエイリアン / Tiny Alien] (JPN)",
+	systems: "GBC",
+	obtained: "2024-08-31",
+	cost: 30,
+},{
+	peripheral: "363-O",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Super Real Fishing (JPN)",
+	systems: "GBC",
+	obtained: "2024-08-31",
+	cost: 25,
+},{
+	peripheral: "363-P",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Super Black Bass Real Fight (JPN)",
+	systems: "GBC",
+	obtained: "2024-08-31",
+	cost: 25,
 },{	
 	peripheral: "364",
 	company: "Whirlwind FX",
@@ -7393,4 +7414,16 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2024-08-04",
 	cost: 150,
 	description: `A module that plugs into slot-car racers allowing 2 tracks to be controlled by 2 GBAs via built-in link cables`,
+},{
+	peripheral: "497",
+	peripheralName: "Magical Watch",
+	company: "Konami",
+	systems: "GBA",
+	games: "Mirumo de Pon! Hachinin no Toki no Yousei",
+	urls: {
+		"https://shonumi.github.io/articles/art27.html": "Edge of Emulation",
+	},
+	obtained: "2024-08-31",
+	cost: 40,
+	description: `A watch with a 32×32 monochrome LCD, 3 buttons, GBA link port`,
 }];
