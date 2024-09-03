@@ -7425,5 +7425,5 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	},
 	obtained: "2024-08-31",
 	cost: 40,
-	description: `A watch with a 32×32 monochrome LCD, 3 buttons, GBA link port`,
+	description: `A watch with a 32×32 monochrome LCD, 3 buttons, GBA link port, speaker, takes 1xCR2032 battery`,
 }];
