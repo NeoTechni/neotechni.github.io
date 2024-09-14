@@ -5499,8 +5499,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 		<LI>Polaris Snocross</LI>
 		<LI>Missile Command</LI>
 		<LI>Test Drive Off-Road 3</LI>
-		<LI CLASS="bold">Top Gear Pocket 2 [トップギア・ポケット2] (JPN)</LI>
-		<LI CLASS="bold">Get Mushi Club: Minna no Konchuu Daizukan [Get'虫倶楽部 みんなの昆虫大図鑑 / Everyone's Insect Encyclopedia] (JPN)</LI>
 	</UL>`,
 },{
 	peripheral: "363-B",
@@ -5621,7 +5619,23 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2024-08-31",
 	cost: 25,
-},{	
+},{
+	peripheral: "363-Q",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Top Gear Pocket 2 [トップギア・ポケット2] (JPN)",
+	systems: "GBC",
+	obtained: "2024-09-14",
+	cost: 25,
+},{
+	peripheral: "363-R",
+	attached: "363-A",
+	company: "Nintendo",
+	peripheralName: "Get Mushi Club: Minna no Konchuu Daizukan [Get'虫倶楽部 みんなの昆虫大図鑑 / Everyone's Insect Encyclopedia] (JPN)",
+	systems: "GBC",
+	obtained: "2024-09-14",
+	cost: 25,
+},{
 	peripheral: "364",
 	company: "Whirlwind FX",
 	peripheralName: "Vortx",
@@ -7426,4 +7440,13 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2024-08-31",
 	cost: 40,
 	description: `A watch with a 32×32 monochrome LCD, 3 buttons, GBA link port, speaker, takes 1xCR2032 battery`,
+},{
+	peripheral: "498",
+	peripheralName: "Mamecon",
+	company: "Taito",
+	systems: "PS1",
+	games: "Densha de Go!",
+	obtained: "2024-09-14",
+	cost: 30,
+	description: `2 shoulder buttons, 1 face button, 2 system buttons, a level that resets to the top-most position, a dial`,
 }];
