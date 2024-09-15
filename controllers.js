@@ -6220,7 +6220,7 @@ The unlock button also sticks out a lot more`,
 	peripheralName: "Super Gameboy 2",
 	systems: "SNES",
 	cost: 20,
-	obtained: "2024-09-15",
+	obtained: "2024-09-14",
 	description: `Allows GameBoy games (not GameBoy Color exclusive ones) to be played on a SNES. Adds limited color pallets and borders to the games. Some games can take advantage of it to add extra colors or take advantage of the SNES hardware. Has the link cable port`,
 	games: "All Gameboy games",
 },{
