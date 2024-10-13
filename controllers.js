@@ -5492,9 +5492,8 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	peripheralName: "Pokémon Pinball",
 	systems: "GBC",
 	obtained: "1999-04-16",
-	cost: 0,
+	cost: 45,
 	description: `A Gameboy cartridge with an integrated rumble motor. Takes 1xAAA battery. Needed (Any <B>bolded</B> ones are en route): <UL>
-		<LI>10 Pin Bowling</LI>
 		<LI>Hole In One Golf</LI>
 		<LI>Polaris Snocross</LI>
 		<LI>Missile Command</LI>
@@ -5635,6 +5634,14 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2024-09-14",
 	cost: 25,
+},{
+	peripheral: "363-S",
+	attached: "363-A",
+	company: "Majesco",
+	peripheralName: "10 Pin Bowling",
+	systems: "GBC",
+	obtained: "2024-10-12",
+	cost: 20,
 },{
 	peripheral: "364",
 	company: "Whirlwind FX",
@@ -7459,4 +7466,29 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2024-09-14",
 	cost: 30,
 	description: `2 shoulder buttons, 1 face button, 2 system buttons, a level that resets to the top-most position, a dial`,
+},{
+	peripheral: "499",
+	peripheralName: "Easyplay 1s",
+	company: "Summer Tones",
+	systems: "PC",
+	obtained: "2024-10-12",
+	cost: 100,
+	description: `Wireless (via Bluetooth), Built-in battery (charges via USB-C), 2 dials, 25 buttons, 2 speakers, interchangeable button caps, meant for music/MIDI`,
+},{
+	peripheral: "500",
+	peripheralName: "Times Gate",
+	company: "Divoom",
+	systems: "PC/AND",
+	obtained: "2024-10-12",
+	cost: 200,
+	description: `Wireless (via Wifi), Powered via USB-C, 5 buttons, 5×128×128 LCDs, many RGB LEDs, a cool box`,
+},{
+	peripheral: "501",
+	peripheralName: "Easyplay 1s",
+	company: "Limited Run Games",
+	systems: "PC/Switch",
+	obtained: "2024-10-12",
+	cost: 35,
+	games: "Arzette",
+	description: `dpad, 4 face buttons, 6 system buttons, awful`,
 }];
