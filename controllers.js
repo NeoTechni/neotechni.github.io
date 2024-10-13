@@ -7484,9 +7484,9 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	description: `Wireless (via Wifi), Powered via USB-C, 5 buttons, 5×128×128 LCDs, many RGB LEDs, a cool box`,
 },{
 	peripheral: "501",
-	peripheralName: "Easyplay 1s",
+	peripheralName: "CDi clone",
 	company: "Limited Run Games",
-	systems: "PC/Switch",
+	systems: "PC",
 	obtained: "2024-10-12",
 	cost: 35,
 	games: "Arzette",
