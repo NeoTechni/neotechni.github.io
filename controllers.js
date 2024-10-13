@@ -7481,6 +7481,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "PC/AND",
 	obtained: "2024-10-12",
 	cost: 200,
+	urls: {"http://docin.divoom-gz.com/web/#/5/129": "API"},
 	specificVersion: "Pink",
 	otherVersions: "Grey",
 	description: `Wireless (via Wifi), Powered via USB-C, 5 buttons, 5×128×128 LCDs, many RGB LEDs, a cool box`,
