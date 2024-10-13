@@ -7481,6 +7481,8 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "PC/AND",
 	obtained: "2024-10-12",
 	cost: 200,
+	specificVersion: "Pink",
+	otherVersions: "Grey",
 	description: `Wireless (via Wifi), Powered via USB-C, 5 buttons, 5×128×128 LCDs, many RGB LEDs, a cool box`,
 },{
 	peripheral: "501",
@@ -7491,4 +7493,6 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 35,
 	games: "Arzette",
 	description: `dpad, 4 face buttons, 6 system buttons, awful`,
+	specificVersion: "Grey",
+	otherVersions: "Pink",
 }];
