@@ -7203,7 +7203,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheral: "476",
 	company: "Interact",
 	peripheralName: "Shark MX",
-	systems: "GB, GBC",
+	systems: "GB/GBC",
 	cost: 10,
 	location: "Cheerios Box: 40261",
 	obtained: "2023-08-05",
