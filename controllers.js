@@ -7406,12 +7406,14 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "Nintendo",
 	systems: "GBA",
 	obtained: "2024-08-04",
-	games: "Zoids Cyber Drive",
+	games: "Zoids Cyber Drive",	
+	style: "list",
 	urls: {
 		"https://shonumi.github.io/articles/art20.html": "Edge of Emulation",
 	},
 	cost: 30,
 	description: `An adapter that plugs into GBA's Link port, adding IR capabilities.
+ 	And robots of some sort, controllable via an included IR remote or the GBA game 
 	Also needed: CDZ-EX Diablotiger Beta`,
 },{
 	peripheral: "494-B",
