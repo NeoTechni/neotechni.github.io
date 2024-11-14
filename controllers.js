@@ -7412,7 +7412,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	},
 	cost: 30,
 	description: `An adapter that plugs into GBA's Link port, adding IR capabilities.
-	Also needed: CDZ-01 Diablotiger, CDZ-EX Diablotiger Beta`,
+	Also needed: CDZ-EX Diablotiger Beta`,
 },{
 	peripheral: "494-B",
 	peripheralName: "CDZ-02 Cyclops",	
@@ -7421,6 +7421,15 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "GBA",
 	obtained: "2024-07-27",
 	cost: 100,
+	description: `A robot of some sort, controllable via an included IR remote or the GBA game`,
+},{
+	peripheral: "494-C",
+	peripheralName: "CDZ-01 DiabloTiger",	
+	attached: "494-A",
+	company: "Tomy",
+	systems: "GBA",
+	obtained: "2024-11-13",
+	cost: 120,
 	description: `A robot of some sort, controllable via an included IR remote or the GBA game`,
 },{
 	peripheral: "495",
