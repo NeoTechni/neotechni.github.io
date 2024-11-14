@@ -742,7 +742,7 @@ function make_controller(controller = false, stat = false, name = false){
 				if(name == "normal"){
 					HTML += '<TD ROWSPAN="2" CLASS="image top">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
 				} else {
-					HTML += '<TD CLASS="controllerinfo top" COLSPAN="2">';
+					HTML += '<TD CLASS="controllerinfo top" COLSPAN="2"><A NAME="' + classname + '"></A>';
 				}
 				HTML += make_controller(controller, "peripheral", 		"Peripheral ID");
 				
