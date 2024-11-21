@@ -7507,4 +7507,12 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	description: `dpad, 4 face buttons, 6 system buttons, awful`,
 	specificVersion: "Grey",
 	otherVersions: "Pink",
+},{
+	peripheral: "502",
+	peripheralName: "zBoard",
+	company: "Ideazon",
+	systems: "PC",
+	obtained: "2024-11-21",
+	cost: 25,
+	description: `A USB 108-key keyboard with swappable faceplates that can also change the key layout, 2 USB ports, media buttons`,
 }];
