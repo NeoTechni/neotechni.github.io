@@ -5848,6 +5848,9 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	obtained: "2018-05-30",
 	cost: 20,
 	description: `A fully functional mini arcade cabinet, key ring (yes, it's small enough to be a keychain), takes 3xAAA batteries (included), on/off switch, 4-way joystick, 2 buttons, 1.5" 128×128 LCD, light-up marquee`,
+	urls{
+		"https://www.youtube.com/watch?v=bVdF9ByDb6g": "Scott's Stash",
+	},
 },{
 	peripheral: "381-B",
 	attached: "381-A",
