@@ -1501,6 +1501,9 @@ Completely non-functional, blocks sound as well.`,
 	games: "None",
 	specificVersion: "2x/3x model",
 	otherVersions: "1x model",
+	urls: {
+		"https://www.youtube.com/watch?v=biYSpm_5-co": "Schnell Things",
+	},
 },{
 	peripheral: "103",
 	company: "EMS",
@@ -1791,6 +1794,9 @@ Unidextrous, ambidextrous`,
 	description: `1 dpad, analog jog wheel, 2 face buttons, 2 'foot pedal' buttons, 4 shoulder buttons, rumble, USB (HID), 1 clickable analog stick,4 system buttons (Start/Select/Home/Macro), digital pressure readout
 Macro button lets you reassign any button to another, 2 switches on the back which let you switch which stick the thumbstick acts as (left or right) and switches the foot pedal buttons between X/Square and L2/R2`,
 	games: "Racing games (PS3)",
+	urls: {
+		"https://www.youtube.com/watch?v=O8qmNFKrTNI": "Schnell Things",
+	},
 },{
 	peripheral: "126",
 	company: "Techni",
@@ -2169,6 +2175,9 @@ Keyboard: 3 meter wire, USB (HID), concave dpad, 12 border-lit buttons, 1 speed 
 Mouse: 1/3 meter wire, 6 buttons (also re-assignable), optical, weighted, a mouse pad`,
 	specificVersion: "Black (not shown)",
 	otherVersions: "Best Buy Camouflage (shown)",
+	urls: {
+		"https://www.youtube.com/watch?v=Ux7S50HNqSU": "Schnell Things",
+	},
 },{
 	peripheral: "154",
 	company: "Sony",
