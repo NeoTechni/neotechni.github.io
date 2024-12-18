@@ -305,6 +305,9 @@ var controllers = [{
 	cost: 10,
 	description: `1 trigger, 1 dpad, 4 buttons, a cool box, CRT display only lightgun (SD only), Unidextrous, Ambidextrous`,
 	games: "PS2 Guncon",
+	urls: {
+		"https://github.com/sonik-br/GunconUSB": "Drivers",
+	},
 },{
 	peripheral: "000-08",
 	company: "RedOctane",
@@ -641,6 +644,9 @@ var controllers = [{
 	obtained: "2007-11-28",
 	photographed: true,
 	cost: 25,
+	urls: {
+		"https://github.com/sonik-br/GunconUSB": "Drivers",
+	},
 	description: `2 Depressable analog sticks, 6 buttons, Sensor bars/pointing device, a cool box, display-independent lightgun (SD and HD)`,
 	games: "SOCOM: U.S. Navy SEALs Confrontation, Time Crisis 4, Time Crisis: Blazing Storm",
 },{
