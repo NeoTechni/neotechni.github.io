@@ -7527,4 +7527,30 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2024-11-21",
 	cost: 25,
 	description: `A USB 108-key keyboard with swappable faceplates that can also change the key layout, 2 USB ports, media buttons`,
+},{
+	peripheral: "503",
+	section: "misc",
+	peripheralName: "TATE Grip",
+	company: "Blaze Entertainment",
+	systems: "Evercade",
+	obtained: "2024-12-14",
+	cost: 35,
+	description: `A grip for the Evercade EXP/EXP-R to fit into, that makes holding it in portrait/TATE orientation more comfortable`,
+	specificVersion: "Black",
+	otherVersions: "White",
+},{
+	peripheral: "504",
+	peripheralName: "Proteus",
+	company: "BioWave",
+	systems: "PC/X1",
+	obtained: "2024-12-14",
+	cost: 300,
+	description: `Comes in multiple modules for you to put the controller together in various shapes, particularly useful for the handicapped. Wireless (via a dongle), built in rechargeable battery (via USB-C), a very cool box,  modules connect via screwing together + locking mechanisms, modules include:
+ 	* 2x large, and 1x small: clickable analog sticks
+  	* 1x: 4 face buttons
+   	* 1x: dpad
+    	* 2x 1 digital + 1 analog trigger
+     	* 1x 4 OS buttons
+       	* various covers for the connector junctions and shape change adapters
+  `,
 }];
