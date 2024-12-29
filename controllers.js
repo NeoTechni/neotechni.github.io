@@ -7559,4 +7559,22 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
      	* 1x 4 OS buttons
        	* various covers for the connector junctions and shape change adapters
   `,
+},{
+	peripheral: "505",
+	section: "misc",
+	peripheralName: "Console",
+	company: "Iconic Arcade",
+	obtained: "2024-12-28",
+	cost: 50,
+	description: `16 game buttons and 2 microswitch joysticks
+    	* Raspberry PI 4B (Quad core Cortex-A72 64-bit @ 1.5GHz, 1GB LPDDR4-3200, 4 USB ports)
+    	* WiFi & Bluetooth
+    	* Gigabit Ethernet
+    	* 2 USB ports
+    	* HDMI
+    	* Stereo audio jack
+    	* Micro-SD card slot
+    	* 5.1V USB-C Adapter`,
+	specificVersion: "Gamestop Exclusive",
+	otherVersions: "Black",
 }];
