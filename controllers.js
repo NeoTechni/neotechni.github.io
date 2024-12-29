@@ -7562,6 +7562,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 },{
 	peripheral: "505",
 	section: "misc",
+	systems: "Pi",
 	peripheralName: "Console",
 	company: "Iconic Arcade",
 	obtained: "2024-12-28",
