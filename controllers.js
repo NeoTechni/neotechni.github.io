@@ -639,7 +639,7 @@ var controllers = [{
 },{
 	peripheral: "00X-07",
 	company: "NamcoBandai",
-	peripheralName: "GunCon3",
+	peripheralName: "GunCon 3",
 	systems: "PS3",
 	obtained: "2007-11-28",
 	photographed: true,
@@ -1551,14 +1551,18 @@ maps the aiming/motion sensing to the right analog stick) Turbo switch, detachab
 	otherVersions: "PC, 360",
 },{
 	peripheral: "106",
-	company: "Atari",
+	company: "Datasoft Inc.",
 	peripheralName: "LeStick",
 	systems: "Atari",
 	obtained: "2010-07-20",
+	released: 1981,
 	photographed: true,
 	cost: 20,
 	description: `Motion sensing, 1 button. First controller to have motion sensing`,
 	games: "All Atari games",
+	urls: {
+		"https://www.youtube.com/watch?v=G0iBBaJeM-g": "Rerez",
+	},
 },{
 	peripheral: "107",
 	company: "Taito",
