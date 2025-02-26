@@ -7584,7 +7584,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	otherVersions: "Black",
 },{
 	peripheral: "506",
-	section: "Nintendo",
+	section: "nintendo",
 	systems: "PC/Switch",
 	peripheralName: "Neo S Controller 5-Fret",
 	company: "CRKD",
