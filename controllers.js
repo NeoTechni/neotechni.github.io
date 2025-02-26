@@ -7582,4 +7582,14 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
     	* 5.1V USB-C Adapter`,
 	specificVersion: "Gamestop Exclusive",
 	otherVersions: "Black",
+},{
+	peripheral: "506",
+	section: "Nintendo",
+	systems: "PC/Switch",
+	peripheralName: "Neo S Controller 5-Fret",
+	company: "CRKD",
+	obtained: "2025-02-22",
+	cost: 100,
+	description: `Wireless (via bluetooth), rechargeable battery (via USB-C), 2 Hall-effect thumbsticks, dpad, 2 digital triggers, 2 analog triggers, 4 face buttons, 2 system buttons, 2 OS buttons, terrible rumble, 2 back buttons, attachment that adds 5 buttons `,
+	specificVersion: "Purple Wave Fortnite Festival Edition",
 }];
