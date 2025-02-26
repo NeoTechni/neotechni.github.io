@@ -133,7 +133,7 @@ function controller_section(controller, normal = false){
 			var section2 = console_section(systems[i]);
 			if(section){
 				if(section != section2){
-					return iif(normal, "misc", "multiple");
+					return "misc";// iif(normal, "misc", "multiple");
 				}
 			} else {
 				section = section2;
@@ -143,7 +143,7 @@ function controller_section(controller, normal = false){
 	if(normal && section == "sub"){
 		section = "systems";
 	}
-	return section;
+	return section.toLowerCase();
 }
 	
 function isArray(variable) {
