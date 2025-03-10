@@ -44,6 +44,10 @@ header ul li a{
 	height		: initial;
 }
 
+.ul.cols-4 a {
+	color		: rgb(0, 0, 192) !important;
+}
+
 .horizontal li{
 	width		: 250px;
 	display		: inline-block;
