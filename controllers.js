@@ -370,6 +370,7 @@ var controllers = [{
 },{
 	peripheral: "000-14-A",
 	company: "Sony",
+	style: "list",
 	peripheralName: "PocketStation (White)",
 	systems: "PS1",
 	photographed: true,
