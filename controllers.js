@@ -389,6 +389,17 @@ var controllers = [{
 	description: "5 buttons, IRDA link, speaker, Reset button, PS1 memory card male interface, takes 1 CR-2032 battery, 32×32 monochrome LCD, 2KB RAM, 128 KB Flash (PS1 memory card), unique ID code (visible inside the flip cover)",
 	games: "PS1 PocketStation",
 },{
+	peripheral: "000-14-C",
+	attached: "000-14-A",
+	company: "Sony",
+	peripheralName: "PocketStation (Pink)",
+	systems: "PS1",
+	obtained: "2025-03-11",
+	cost: 150,
+	importOnly: true,
+	description: "5 buttons, IRDA link, speaker, Reset button, PS1 memory card male interface, takes 1 CR-2032 battery, 32×32 monochrome LCD, 2KB RAM, 128 KB Flash (PS1 memory card), unique ID code (visible inside the flip cover)",
+	games: "PS1 PocketStation",
+},{
 	peripheral: "000-15A",
 	company: "Nintendo",
 	peripheralName: "Pocket Pikachu",
@@ -5513,7 +5524,6 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	obtained: "1999-04-16",
 	cost: 45,
 	description: `A Gameboy cartridge with an integrated rumble motor. Takes 1xAAA battery. Needed (Any <B>bolded</B> ones are en route): <UL>
-		<LI>Hole In One Golf</LI>
 		<LI>Polaris Snocross</LI>
 		<LI>Missile Command</LI>
 		<LI>Test Drive Off-Road 3</LI>
@@ -5661,6 +5671,14 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "2024-10-12",
 	cost: 20,
+},{
+	peripheral: "363-T",
+	attached: "363-A",
+	company: "Natsume",
+	peripheralName: "Hole In One Golf",
+	systems: "GBC",
+	obtained: "2024-10-12",
+	cost: 25,
 },{
 	peripheral: "364",
 	company: "Whirlwind FX",
