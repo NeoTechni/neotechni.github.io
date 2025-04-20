@@ -7664,7 +7664,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheralName: "PS Placeable",
 	company: "Retro Mod Works",
 	obtained: "2025-04-19",
-	cost: 125,
+	cost: 175,
 	description: `A consolization conversion kit for PSP 2K/3K models, adds bluetooth`,
 	specificVersion: "Silver",
 }];
