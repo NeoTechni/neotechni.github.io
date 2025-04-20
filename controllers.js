@@ -5535,8 +5535,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "GBC",
 	obtained: "1999-04-16",
 	cost: 45,
-	description: `A Gameboy cartridge with an integrated rumble motor. Takes 1xAAA battery. Needed (Any <B>bolded</B> ones are en route): <UL>
-		<LI>Polaris Snocross</LI>
+	description: `A Gameboy cartridge with an integrated rumble motor. Takes 1xAAA battery. Needed (both are en route): <UL>
 		<LI>Missile Command</LI>
 		<LI>Test Drive Off-Road 3</LI>
 	</UL>`,
