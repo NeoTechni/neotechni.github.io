@@ -3807,6 +3807,7 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	peripheral: "245",
 	company: "PDP",
 	peripheralName: "Epic Mickey 2: Paintbrush",
+	location: "BIN-04",
 	systems: "Wii",
 	urls: {
 		"https://www.youtube.com/watch?v=lpRYzYz03MQ": "Sharkie's Review (original model)",
@@ -3932,6 +3933,7 @@ It's powered which implies it has forcefeed back of some sort (rumble or the abi
 	systems: "Wii U/3DS/Switch",
 	obtained: "2016-07-31",
 	cost: 0,
+	location: "BIN-04",
 },{
 	peripheral: "247-CP",
 	attached: "247-01",
@@ -5820,6 +5822,7 @@ Variable number of face buttons (2 in NES mode, 4 in SNES/Gamecube/Switchmode, 6
 	peripheralName: "Energiser",
 	systems: "GEN",
 	obtained: "2018-05-05",
+	location: "BIN-04",
 	cost: 26,
 	description: "Dpad, 2 triggers, 6 face buttons, 3 system buttons, Slow motion switch, 9 turbo switches",
 },{
@@ -6548,6 +6551,7 @@ Touchpad area, headphone port`,
 	systems: "Switch",
 	obtained: "2019-12-14",
 	cost: 50,
+	location: "BIN-04",
 	description: "A fishing reel that attaches to the right JoyCon",
 	games: "Baku Tsuri (Switch)",
 },{
@@ -7590,6 +7594,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "PC",
 	obtained: "2024-10-12",
 	cost: 35,
+	location: "BIN-04",
 	games: "Arzette",
 	description: `dpad, 4 face buttons, 6 system buttons, awful`,
 	specificVersion: "Grey",
