@@ -53,7 +53,7 @@ classes: wide
 		var issyst 		= syst.length == 0;
 		var isobtained		= obtained.length == 0;
 		var istype		= ctype.length == 0;
-		var ismatch 		= istext && issect && iscomp && issyst && isobtained;
+		var ismatch 		= istext && issect && iscomp && issyst && isobtained && istype;
 		if(!istext){
 			istext 		= gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text) || gp(controller, "peripheral").toString().contains(text);
 		}
@@ -64,7 +64,7 @@ classes: wide
 			iscomp 		= gp(controller, "company") == comp;
 		}
 		if(istype){
-			iscomp 		= gp(controller, "type") == ctype;
+			istype 		= gp(controller, "type") == ctype;
 		}
 		if(!issyst){
 			issyst 		= gp(controller, "systems").split("/").indexOf(syst) > -1;
@@ -77,8 +77,8 @@ classes: wide
 			}
 		}
 
-		if(ismatch || (istext && issect && iscomp && issyst && isobtained)){
-			reason 		= [];
+		if(ismatch || (istext && issect && iscomp && issyst && isobtained && istype)){
+			reason 	= [];
 			if(ismatch){
 					reason.push("no search");
 			} else {
@@ -93,6 +93,9 @@ classes: wide
 					}
 					if(syst.length > 0){
 						reason.push("systems (" + syst + ")");
+					}
+					if(istype.length > 0){
+						reason.push("type (" + ctype + ")");
 					}
 			}
 			reason 		= reason.join(", ");
@@ -166,7 +169,7 @@ classes: wide
 		var syst 		= set_HTML("systems", null, "val");
 		var obtained		= set_HTML("obtained", null, "val");
 		var ctype		= set_HTML("type", null, "val");
-		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained);
+		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype);
 		for(var i = 0; i < controllers.length; i++){
 			var controller 	= controllers[i];
 			if(test_controller(controller, text, sect, comp, syst, obtained, ctype)){
