@@ -208,7 +208,15 @@ classes: wide
 		for(var i = 0; i < ret.length; i++){
 			var controller 	= ret[i];
 			var TD 		= '</TD><TD>';
-			HTML += '<TR TITLE="' + controller.reasons + '" ONCLICK="click_controller(' + i + ');" CLASS="hyperlink"><TD ALIGN="center">' + gp(controller, "peripheral") + TD + gp(controller, "company") + TD + controller.peripheralName + TD + gp(controller, "obtained") + TD + gp(controller, "systems") + TD + gp(controller, "location") + '</TD></TR>';
+			HTML += '<TR TITLE="' + controller.reasons + '" ONCLICK="click_controller(' + i + ');" CLASS="hyperlink"><TD ALIGN="center">' + 
+				gp(controller, "peripheral") + 
+				TD + gp(controller, "company") + 
+				TD + controller.peripheralName + 
+				TD + gp(controller, "obtained") +
+				TD + gp(controller, "systems") +
+				TD + gp(controller, "location") +
+				TD + gp(controller, "type") +
+				'</TD></TR>';
 		}
 		set_HTML("controllers", HTML);
 		set_HTML("footer", "Found " + found + " out of " + controllers.length + " peripherals");
@@ -385,6 +393,7 @@ classes: wide
 				<SELECT ID="systems" ONCHANGE="query();"></SELECT>
 				<SELECT ID="locations" ONCHANGE="query();"></SELECT>
 				<SELECT ID="obtained" ONCHANGE="query();"></SELECT>
+				<SELECT ID="type" ONCHANGE="query();"></SELECT>
 				<BUTTON ONCLICK="make_stats(); return false;">View Statistics</BUTTON>
 			</TD>
 		</TR>
@@ -395,6 +404,7 @@ classes: wide
 			<TH ONCLICK="sortby('obtained');">Obtained</TH>
 			<TH ONCLICK="sortby('systems');">Systems</TH>
 			<TH ONCLICK="sortby('location');">Location</TH>
+			<TH ONCLICK="sortby('type');">Type</TH>
 		</TR>
 	</THEAD>
 	<TBODY ID="controllers"></TBODY>
