@@ -63,7 +63,7 @@ classes: wide
 		if(!iscomp){
 			iscomp 		= gp(controller, "company") == comp;
 		}
-		if(istype){
+		if(!istype){
 			istype 		= gp(controller, "type") == ctype;
 		}
 		if(!issyst){
@@ -94,7 +94,7 @@ classes: wide
 					if(syst.length > 0){
 						reason.push("systems (" + syst + ")");
 					}
-					if(istype.length > 0){
+					if(istype){
 						reason.push("type (" + ctype + ")");
 					}
 			}
@@ -389,7 +389,7 @@ classes: wide
 <TABLE CLASS="table">
 	<THEAD>
 		<TR>
-			<TD COLSPAN="6">
+			<TD COLSPAN="7">
 				<INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
 				<SELECT ID="sections" ONCHANGE="query();"></SELECT>
 				<SELECT ID="companies" ONCHANGE="query();"></SELECT>
@@ -413,7 +413,7 @@ classes: wide
 	<TBODY ID="controllers"></TBODY>
 	<TFOOT>
 		<TR>
-			<TD COLSPAN="6" ID="footer"></TD>
+			<TD COLSPAN="7" ID="footer"></TD>
 		</TR>
 	</TFOOT>
 </TABLE>
