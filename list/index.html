@@ -18,6 +18,7 @@ classes: wide
 		makeselect("systems", enum_consoles(), "Systems");
 		makeselect("sections", Object.keys(sections), "Sections");
 		makeselect("locations", enum_property("location"), "Locations");
+		makeselect("type", enum_property("type"), "Types");
 
 		var HTML 		= '<OPTION VALUE="" CLASS="bold">Obtained</OPTION><OPTION VALUE="[other]">Other</OPTION>';
 		var dates 		= enum_property("dates");
@@ -45,12 +46,13 @@ classes: wide
 		query();
 	}
 	
-	function test_controller(controller, text = "", sect = "", comp = "", syst = "", obtained = ""){
+	function test_controller(controller, text = "", sect = "", comp = "", syst = "", obtained = "", ctype = ""){
 		var istext 		= text.length == 0;
 		var issect 		= sect.length == 0;
 		var iscomp 		= comp.length == 0;
 		var issyst 		= syst.length == 0;
 		var isobtained		= obtained.length == 0;
+		var istype		= ctype.length == 0;
 		var ismatch 		= istext && issect && iscomp && issyst && isobtained;
 		if(!istext){
 			istext 		= gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text) || gp(controller, "peripheral").toString().contains(text);
@@ -60,6 +62,9 @@ classes: wide
 		}
 		if(!iscomp){
 			iscomp 		= gp(controller, "company") == comp;
+		}
+		if(istype){
+			iscomp 		= gp(controller, "type") == ctype;
 		}
 		if(!issyst){
 			issyst 		= gp(controller, "systems").split("/").indexOf(syst) > -1;
@@ -160,10 +165,11 @@ classes: wide
 		var comp 		= set_HTML("companies", null, "val");
 		var syst 		= set_HTML("systems", null, "val");
 		var obtained		= set_HTML("obtained", null, "val");
+		var ctype		= set_HTML("type", null, "val");
 		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained);
 		for(var i = 0; i < controllers.length; i++){
 			var controller 	= controllers[i];
-			if(test_controller(controller, text, sect, comp, syst, obtained)){
+			if(test_controller(controller, text, sect, comp, syst, obtained, ctype)){
 				controller.reason = reason;
 				add2stats(controller);
 				ret.push(controller);
