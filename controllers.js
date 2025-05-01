@@ -7083,6 +7083,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheral: "438",
 	company: "Rufus Labs",
 	peripheralName: "Rufus Cuff",
+	type: "watch",
 	systems: "Android",
 	obtained: "2021-03-02",
 	cost: 300,
@@ -7886,7 +7887,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 },{
 	peripheral: "497",
 	peripheralName: "Magical Watch",
-	type: "tamagotchi",
+	type: "watch",
 	company: "Konami",
 	systems: "GBA",
 	games: "Mirumo de Pon! Hachinin no Toki no Yousei",
