@@ -8017,4 +8017,20 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 175,
 	description: `A consolization conversion kit for PSP 2K/3K models, adds bluetooth`,
 	specificVersion: "Silver",
-}];
+},{
+	peripheral: "508",
+	systems: "X1",
+	peripheralName: "Strike Pack F.P.S. Dominator",
+	company: "Collective Minds",
+	obtained: "2025-05-20",
+	cost: 10,
+	description: `Adds 2 back buttons to the X1 controller, works in Wired-only, blocks the battery compartment, converts the controller to USB-C`,
+},{
+	peripheral: "509",
+	systems: "PC",
+	peripheralName: "Steam Link",
+	company: "Valve",
+	obtained: "2025-05-20",
+	cost: 30,
+	description: `3 USB ports, Ethernet, HDMI, Wifi, Bluetooth, supports most PC/Console controllers, used for Remote Play with a PC running Steam`,
+}]; 
