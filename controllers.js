@@ -1415,6 +1415,7 @@ Somewhat programmable. You select a sensor block (ie: Detect something touching 
 	urls: {
 		"https://shonumi.github.io/articles/art22.html": "Edge of Emulation",
 		"https://www.youtube.com/watch?v=K-Epj2_eJdA": "Sharkie's Review", 
+		"https://www.youtube.com/watch?v=yiU5AG34Y_o": "The Retro Future",
 	},
 	photographed: true,	
 	cost: 175,
