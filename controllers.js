@@ -821,6 +821,9 @@ var controllers = [{
 	obtained: "2008-11-21",
 	photographed: true,
 	cost: 15,
+	urls: {
+		"https://www.youtube.com/watch?v=E_YwvjDHuh0": 'Zack “SquallSnake” G',
+	},
 	importOnly: true,
 	description: `Optical Mouse, rumble, a cool box`,
 	games: "Slide Adventure: Mag Kid",
