@@ -959,6 +959,15 @@ function make_photos(titles = true, folder = 'photos'){
 				if(photos[key].hasOwnProperty("url")){
 					HTML += '</A>';	
 				}
+				if(photos[key].hasOwnProperty("cost")){
+					HTML += '<BR> Cost: $' + photos[key].cost;
+					if(photos[key].hasOwnProperty("unit")){
+						HTML += ' (' + photos[key].unit + ')';
+					}
+				}
+				if(photos[key].hasOwnProperty("releases")){
+					HTML += '<BR> Releases: ' + photos[key].releases;
+				}				
 				HTML += '</TD></TR></TABLE>';
 			} else {
 				var name = toclassname(key);
