@@ -143,7 +143,10 @@ function controller_section(controller, normal = false){
 	if(normal && section == "sub"){
 		section = "systems";
 	}
-	return section.toLowerCase();
+	if(typeof section != "string"){
+		console.log("Invalid section: " + section);
+	}
+	return section.toString().toLowerCase();
 }
 	
 function isArray(variable) {
