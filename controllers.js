@@ -8095,6 +8095,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 },{
 	peripheral: "512",
 	systems: "XBOX1",
+	section: "xbox",
 	type: "1hand",
 	peripheralName: "Adaptive Joystick",
 	company: "Microsoft",
