@@ -7268,7 +7268,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	type: "arcade",
 	peripheralName: "Egret II Control Pad",
 	systems: "EGRET",
-	section: "SYS",
+	section: "systems",
 	location: "BIN-06",
 	obtained: "2022-03-08",
 	cost: 40,
@@ -8085,7 +8085,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 },{
 	peripheral: "511",
 	systems: "PECE",
-	section: "SYS",
+	section: "systems",
 	type: "portable",
 	peripheralName: "P/ECE",
 	company: "Aquaplus",
