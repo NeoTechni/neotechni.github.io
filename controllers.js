@@ -8093,7 +8093,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 125,
 	urls: {"https://www.piece-me.org/piece_on_win10_x64/piece_on_win10_x64.html": "Windows 10/11 guide"},
 	specificVersion: "Grey",
-	otherVersions: "Red, Blue",
+	otherVersions: "Red, Blue, White",
 	description: `dpad, 2 system buttons, 2 face buttons, Infrared, 128×88 greyscale (2-bit) LCD, takes 1xAA battery, connects via USB-B, open source, mono speaker`,
 },{
 	peripheral: "512",
@@ -8104,5 +8104,5 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "Microsoft",
 	obtained: "2025-07-01",
 	cost: 40,
-	description: `Wireless (Via XBOX), Wired (Via USB-C), clickable analog stick, 4 face buttons, 2 shoulder buttons`,
+	description: `Wired (Via USB-C), clickable analog stick, 4 face buttons, 2 shoulder buttons`,
 }]; 
