@@ -8110,7 +8110,8 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	description: `Wired (Via USB-C), clickable analog stick, 4 face buttons, 2 shoulder buttons`,
 },{
 	peripheral: "513",
-	section: "systems",
+	section: "systems",	
+	systems: "self",
 	type: "watch",
 	games: "Space Invaders",
 	peripheralName: "Space Invaders Dumb Watch",
