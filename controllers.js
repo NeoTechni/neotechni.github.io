@@ -8108,4 +8108,25 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2025-07-01",
 	cost: 40,
 	description: `Wired (Via USB-C), clickable analog stick, 4 face buttons, 2 shoulder buttons`,
+},{
+	peripheral: "513",
+	section: "systems",
+	type: "watch",
+	games: "Space Invaders",
+	peripheralName: "Space Invaders Dumb Watch",
+	company: "Kickstarter",
+	obtained: "2025-07-26",
+	cost: 60,
+	description: `A watch with a large LCD, a crown/dial, no connectivity (ie: wifi/bluetooth) with a phone, heart rate monitor, pedometer`,
+},{
+	peripheral: "514",
+	systems: "AND",
+	section: "systems",
+	type: "tate",
+	peripheralName: "Zero 40",
+	company: "MagicX",
+	obtained: "2025-07-26",
+	cost: 80,
+	description: `4" 480×800 capacitive touch LCD in portrait/TATE orientation, WiFi, Bluetooth, microSD slot, rumble, 2 USB-C ports
+			runs Android, 2 GB RAM, 4 face buttons, 4 shoulder buttons, dpad, analog stick, 2 system buttons, 3 OS buttons`,
 }]; 
