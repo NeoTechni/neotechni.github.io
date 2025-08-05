@@ -18,8 +18,8 @@ classes: wide
    <THEAD>
       <TR>
          <TD COLSPAN="3">
-            <INPUT ID="name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query();" ONPASTE="query();">
-            <SELECT ID="medium" ONCHANGE="query();"></SELECT>
+            <INPUT ID="name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query_games();" ONPASTE="query_games();">
+            <SELECT ID="medium" ONCHANGE="query_games();"></SELECT>
 	    <A CLASS="float-right" HREF="https://steamcommunity.com/id/NeoTechni/games/?tab=all">My Steam Library</A>
          </TD>
       </TR>
@@ -29,9 +29,9 @@ classes: wide
          <TH>System</TH>
       </TR>
    </THEAD>
-   <TBODY ID="results"></TBODY>
+   <TBODY ID="games-results"></TBODY>
    <TFOOT>
-      <TR><TD ID="footer" COLSPAN="3"></TD></TR>
+      <TR><TD ID="games-footer" COLSPAN="3"></TD></TR>
    </TFOOT>
 </TABLE>
 
@@ -83,7 +83,7 @@ classes: wide
          }
       }
       set_HTML("controllers", HTML);
-		query(true);
+      query_games(true);
   });
 
    function switchtab(towhat){
@@ -91,7 +91,7 @@ classes: wide
       setVisible("#" + towhat, true);
    }
   
-   function query(firsttime = false){
+   function query_games(firsttime = false){
       var HTML                          = '';
       var results                       = 0;
       var text 		                = set_HTML("name", null, "val");
@@ -100,16 +100,16 @@ classes: wide
       if(firsttime){
          firsttime                      = '<OPTION VALUE="">System</OPTION>';
       }
-      for(var medium in movies){
-         if(movies.hasOwnProperty(medium)){ //makes sure it's my data and not a JS property
+      for(var medium in games){
+         if(games.hasOwnProperty(medium)){ //makes sure it's my data and not a JS property
               if(firsttime){
                  	firsttime       += '<OPTION>' + medium + '</OPTION>';
               }
               if(!medi || medium == medi){
-                   for(var movie in movies[medium]){
-                        if(movies[medium].hasOwnProperty(movie)){//makes sure it's my data and not a JS property
-                             if(!text || movie.contains(text) || arraycontains(movies[medium][movie], text)){
-                                  HTML += make_movie(medium, movie);
+                   for(var movie in games[medium]){
+                        if(games[medium].hasOwnProperty(movie)){//makes sure it's my data and not a JS property
+                             if(!text || movie.contains(text) || arraycontains(games[medium][movie], text)){
+                                  HTML += make_game(medium, movie);
                                   results ++;
 				  total ++;
                              }
@@ -122,8 +122,8 @@ classes: wide
          console.log("Mediums: " + firsttime);
          set_HTML("medium", firsttime);         
       }
-      set_HTML("results", HTML);
-      set_HTML("footer", results + " result(s) found (" + total + " including entries)");
+      set_HTML("games-results", HTML);
+      set_HTML("games-footer", results + " result(s) found (" + total + " including entries)");
   }
 
   function arraycontains(arr, text){
@@ -137,11 +137,11 @@ classes: wide
 	   return			false;
   }
 
-  function make_movie(medium, movie){
-    var HTML                            = '<TR CLASS="medium-' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + movie + '</TD><TD>';
-    if(movies[medium][movie].length > 0){
-    	HTML                           += movies[medium][movie].join(", ");
-    	total			       += movies[medium][movie].length - 1;
+  function make_game(medium, game){
+    var HTML                            = '<TR CLASS="medium-' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + game + '</TD><TD>';
+    if(games[medium][game].length > 0){
+    	HTML                           += games[medium][game].join(", ");
+    	total			       += games[medium][game].length - 1;
     }
     HTML                               += '</TD><TD>' + medium + '</TD></TR>';
     if(HTML.contains("Steelbook")){
@@ -152,7 +152,7 @@ classes: wide
     return                            	 HTML;
   }
 
-var movies = {
+var games = {
      "3DS": {
 	"Ace Combat" 			: ["Assault Horizon Legacy"],
 	"Animal Crossing"		: ["Happy Home Designer", "New Leaf"],
@@ -219,13 +219,14 @@ var movies = {
 	"NES games"			: ["Balloon Fight", "Baseball", "Clu Clu Land", "Donkey Kong 3", "Golf", "Tennis", "Urban Champion"],
 	"Pokémon Channel"		: ["Line Art Card: The Kyogre Constellation", "Line Art Card: The Pikachu Star", "Paint Pattern Card: Poké A La Card"],
 	"Pokémon Ruby/Sapphire"		: ["EON Ticket: S.S. Tidal", "Gentleman Nils"],	
+	"Retro Dot Cards: Series 1"	: ["Bomb Hunter", "E-Snake", "Exo Attack" "Franny Answers", "Solitaire", "Scavenger Attack"],
      }, "Evercade": {
-	"Duke Nukem"			: ["Collection 1", "Collection 2"],
+	"Duke Nukem"			: ["Collection 1: 1, 2, 3D", "Collection 2: Time to Kill, Land of the Babes, Advance"],
 	"iRem"				: ["Arcade 1"],
 	"Piko!"				: ["Collection 1"],
 	"Namco Museum"			: ["Collection 1"],
 	"Mega Cat Studios"		: ["Collection 1"],
-	"Tomb Raider"			: ["Collection 1", "Collection 2"],
+	"Tomb Raider"			: ["Collection 1, I, II, III", "Collection 2: The Last Revelation, Chronicles"],
      }, "Game Boy": {
 	"Camera"			: [],
 	"Face Ball"			: [],
