@@ -19,8 +19,8 @@ classes: wide
    <THEAD>
       <TR>
          <TD COLSPAN="3">
-            <INPUT ID="name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query_games();" ONPASTE="query_games();">
-            <SELECT ID="medium" ONCHANGE="query_games();"></SELECT>
+            <INPUT ID="game-name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query_games();" ONPASTE="query_games();">
+            <SELECT ID="game-medium" ONCHANGE="query_games();"></SELECT>
 	    <A CLASS="float-right" HREF="https://steamcommunity.com/id/NeoTechni/games/?tab=all">My Steam Library</A>
          </TD>
       </TR>
@@ -161,8 +161,8 @@ classes: wide
    function query_games(firsttime = false){
       var HTML                          = '';
       var results                       = 0;
-      var text 		                = set_HTML("name", null, "val");
-      var medi   		        = set_HTML("medium", null, "val");
+      var text 		                = set_HTML("game-name", null, "val");
+      var medi   		        = set_HTML("game-medium", null, "val");
       total				= 0;
       if(firsttime){
          firsttime                      = '<OPTION VALUE="">System</OPTION>';
@@ -187,7 +187,7 @@ classes: wide
       }
       if(firsttime){
          console.log("Mediums: " + firsttime);
-         set_HTML("medium", firsttime);         
+         set_HTML("game-medium", firsttime);         
       }
       set_HTML("games-results", HTML);
       set_HTML("games-footer", results + " result(s) found (" + total + " including entries)");
