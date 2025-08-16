@@ -7619,6 +7619,16 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2025-04-19",
 	description: "Wireless (via Bluetooth and Infrared), takes 2xAA batteries, misc buttons",
 },{
+	peripheral: "471-E",
+	company: "Microsoft",
+	type: "remote",
+	peripheralName: "Media Remote",
+	systems: "X1",	
+	section: "xbox",
+	cost: 0,
+	obtained: "2025-08-12",
+	description: "Wireless (Infrared), takes 2xAA batteries, misc backlit buttons",
+},{
 	peripheral: "472",
 	company: "Konami",
 	type: "rhythm",
@@ -8130,4 +8140,13 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 80,
 	description: `4" 480×800 capacitive touch LCD in portrait/TATE orientation, WiFi, Bluetooth, microSD slot, rumble, 2 USB-C ports
 			runs Android, 2 GB RAM, 4 face buttons, 4 shoulder buttons, dpad, analog stick, 2 system buttons, 3 OS buttons`,
+},{
+	peripheral: "515",
+	company: "RetroidShop",
+	type: "rhythm",
+	peripheralName: "BeatCon",
+	systems: "AND",
+	cost: 30,
+	obtained: "2025-08-12",
+	description: "5 face buttons, spinner, each of which makes contact with your phone's touchscreen via conductive pads to control the game. A tiny cute GB cartridge replica with a QR code to the manual",
 }]; 
