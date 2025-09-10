@@ -4905,6 +4905,7 @@ keyboard: adjustable wristpad, clickable analog stick, 1 thumb button, 20 backli
 	peripheralName: "Galaxy Note 10.1",
 	systems: "Android",
 	type: "tablet",
+	section: "systems",
 	obtained: "2015-03-25",
 	cost: 100,
 	description: `1280×800 Capacitive touchscreen with stylus digitizer, proprietary docking port (charging, HDMI out, USB data), stereo speakers, 3 buttons (Power, Volume up/down), microSD slot, infrared port, headphone port
