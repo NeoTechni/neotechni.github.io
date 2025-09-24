@@ -8150,4 +8150,17 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	cost: 30,
 	obtained: "2025-08-12",
 	description: "5 face buttons, spinner, each of which makes contact with your phone's touchscreen via conductive pads to control the game. A tiny cute GB cartridge replica with a QR code to the manual",
+},{
+	peripheral: "516",
+	company: "Retroid",
+	type: "display",
+	peripheralName: "Dual Screen Add-on",
+	systems: "AND",
+	cost: 80,
+	obtained: "2025-09-20",
+	description: `5.5" 1080p AMOLED screen (107% sRGB coverage | 100,000:1 contrast ratio | 500 nits peak brightness)
+120/150/180 degree click-stop hinge
+Supports pass-through charge
+Dedicated buttons for brightness setting
+Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum device height support : 115mm)`,
 }]; 
