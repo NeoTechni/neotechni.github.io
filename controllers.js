@@ -8174,7 +8174,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	description: `Wired (via USB-C), includes a USB-C cable, RGB lighting, rumble, peizo-speaker, 2 4-way foot pedals`,
 },{
 	peripheral: "518",
-	ompany: "Takara",
+	company: "Takara",
 	type: "paddle",
 	peripheralName: "EX Jinsei/Game of Life",
 	systems: "Switch",
