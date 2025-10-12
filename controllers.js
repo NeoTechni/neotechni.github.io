@@ -8163,4 +8163,22 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 Supports pass-through charge
 Dedicated buttons for brightness setting
 Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum device height support : 115mm)`,
+},{
+	peripheral: "517",
+	company: "Kickstarter",
+	type: "foot",
+	peripheralName: "GLYDR",
+	systems: "PC",
+	cost: 220,
+	obtained: "2025-10-11",
+	description: `Wired (via USB-C), includes a USB-C cable, RGB lighting, rumble, peizo-speaker, 2 4-way foot pedals`,
+},{
+	peripheral: "518",
+	ompany: "Takara",
+	type: "paddle",
+	peripheralName: "EX Jinsei/Game of Life",
+	systems: "Switch",
+	cost: 35,
+	obtained: "2025-10-11",
+	description: "Plugs into a right JoyCon, has the spinning wheel from the game, not sure how it works",
 }]; 
