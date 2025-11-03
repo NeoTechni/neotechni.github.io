@@ -8199,4 +8199,13 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 99,
 	obtained: "2025-10-30",
 	description: "A gear shifter for racing games. Connects via USB-C (includes both a USB C-C and A-C cable), weighted, desk mount, 2 different knobs, H and I gates (swappable via a switch), Hall effect sensor, High/Low and Handbrake modes. Also works with XBOX one if you have the Turtle Beach VelocityOne Race WheelBase",
+},{
+	peripheral: "520",
+	company: "Tomy",
+	type: "portable",
+	peripheralName: "Pokémon Friends Pokéball",
+	systems: "sys",
+	cost: 99,
+	obtained: "2025-11-02",
+	description: "Takes 4xAAAs (not included), 3 buttons, speaker, touch sensor",
 }]; 
