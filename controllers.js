@@ -8207,5 +8207,5 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	systems: "sys",
 	cost: 99,
 	obtained: "2025-11-02",
-	description: "Takes 4xAAAs (not included), 3 buttons, speaker, touch sensor",
+	description: "Takes 4xAAAs (not included), 3 buttons, speaker, touch sensor, rumble, backlit color LCD of a resolution of at least 128×128",
 }]; 
