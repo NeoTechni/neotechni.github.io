@@ -7499,6 +7499,9 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "PS5",
 	obtained: "2023-01-26",
 	cost: 300,
+	urls: {
+		"https://ds-edge-configurator.com/": "Profile Editor"
+	},
 	description: `Same inputs/outputs/etc as the DualSense, 2 reassignable back buttons, a cool case, trigger travel stoppers, removable/replaceable thumbstick modules, USB-C cable, different thumbstick caps and back buttons`,
 },{
 	peripheral: "464",
@@ -7814,6 +7817,9 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	type: "handicap",
 	obtained: "2023-12-16",
 	cost: 130,
+	urls: {
+		"https://www.jfedor.org/ps-access/": "Profile Editor"
+	},
 	description: "1 clickable joystick with swappable caps, 1 big face button, 8 smaller face buttons with swappable caps, 1 OS button, 3 profiles (switchable via a button), wireless (via Bluetooth), built-in battery (charges via USB-C), a cool box, RGB LEDs, mounting screw holes, 4 extension ports",
 	games: "Most PS5 games",
 },{
