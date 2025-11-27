@@ -7486,7 +7486,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheral: "462",
 	company: "Turtle Beach",
 	type: "simulator",
-	peripheralName: "Flight Stick",
+	peripheralName: "VelocityOne Flight Stick",
 	systems: "PC",
 	obtained: "2022-12-16",
 	cost: 150,
