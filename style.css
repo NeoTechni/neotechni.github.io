@@ -12,6 +12,10 @@
 	margin-top	: 13px; 
 	margin-right	: 13px;
 }
+.minwidth{
+	width: 1%; 
+	white-space: nowrap;
+}
 header ul li a{
 	display		: block;
 }
