@@ -46,14 +46,15 @@ classes: wide
 		query();
 	}
 	
-	function test_controller(controller, text = "", sect = "", comp = "", syst = "", obtained = "", ctype = ""){
+	function test_controller(controller, text = "", sect = "", comp = "", syst = "", obtained = "", ctype = "", location = ""){
 		var istext 		= text.length == 0;
 		var issect 		= sect.length == 0;
 		var iscomp 		= comp.length == 0;
 		var issyst 		= syst.length == 0;
-		var isobtained		= obtained.length == 0;
+		var isobtained	= obtained.length == 0;
 		var istype		= ctype.length == 0;
-		var ismatch 		= istext && issect && iscomp && issyst && isobtained && istype;
+		var isloc 		= location.length == 0;
+		var ismatch 	= istext && issect && iscomp && issyst && isobtained && istype;
 		if(!istext){
 			istext 		= gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text) || gp(controller, "peripheral").toString().contains(text);
 		}
@@ -68,6 +69,9 @@ classes: wide
 		}
 		if(!issyst){
 			issyst 		= gp(controller, "systems").split("/").indexOf(syst) > -1;
+		}
+		if(!isloc){
+			isloc		= gp(controller, "location") == location;
 		}
 		if(!isobtained){
 			if(validatedate(controller.obtained)){
@@ -167,12 +171,14 @@ classes: wide
 		var sect 		= set_HTML("sections", null, "val");
 		var comp 		= set_HTML("companies", null, "val");
 		var syst 		= set_HTML("systems", null, "val");
-		var obtained		= set_HTML("obtained", null, "val");
+		var obtained	= set_HTML("obtained", null, "val");
 		var ctype		= set_HTML("type", null, "val");
+		var location	= set_HTML("location", null, "val");
+		
 		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype);
 		for(var i = 0; i < controllers.length; i++){
 			var controller 	= controllers[i];
-			if(test_controller(controller, text, sect, comp, syst, obtained, ctype)){
+			if(test_controller(controller, text, sect, comp, syst, obtained, ctype, location)){
 				controller.reason = reason;
 				add2stats(controller);
 				ret.push(controller);
@@ -211,15 +217,19 @@ classes: wide
 		for(var i = 0; i < ret.length; i++){
 			var controller 	= ret[i];
 			var TD 		= '</TD><TD>';
-			HTML += '<TR TITLE="' + controller.reasons + '" ONCLICK="click_controller(' + i + ');" CLASS="hyperlink"><TD ALIGN="center">' + 
+			var TDM		= '</TD><TD CLASS="minwidth">';
+			if(!controller.hasOwnProperty("reasons")){
+				controller.reasons = "";
+			}
+			HTML += '<TR TITLE="' + controller.reasons + '" ONCLICK="click_controller(' + i + ');" CLASS="hyperlink"><TD ALIGN="center" CLASS="minwidth">' + 
 				gp(controller, "peripheral") + 
 				TD + gp(controller, "company") + 
 				TD + controller.peripheralName + 
 				TD + gp(controller, "obtained") +
 				TD + gp(controller, "systems") +
-				TD + gp(controller, "location") +
+				TDM + gp(controller, "location") +
 				TD + gp(controller, "type") +
-				'</TD></TR>';
+			'</TD></TR>';
 		}
 		set_HTML("controllers", HTML);
 		set_HTML("footer", "Found " + found + " out of " + controllers.length + " peripherals");
