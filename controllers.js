@@ -7641,7 +7641,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	section: "xbox",
 	cost: 0,
 	obtained: "2025-08-12",
-	description: "Wireless (Infrared), takes 2xAA batteries, misc backlit buttons",
+	description: "Wireless (Infrared), takes 2xAA batteries, dpad + 17 backlit buttons",
 },{
 	peripheral: "472",
 	company: "Konami",
