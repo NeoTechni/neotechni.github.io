@@ -65,7 +65,7 @@ classes: wide
 			iscomp 		= gp(controller, "company") == comp;
 		}
 		if(!istype){
-			istype 		= gp(controller, "type") == ctype;
+			istype 		= gp(controller, "type").split(",").indexOf(ctype) > -1;
 		}
 		if(!issyst){
 			issyst 		= gp(controller, "systems").split("/").indexOf(syst) > -1;
@@ -81,7 +81,7 @@ classes: wide
 			}
 		}
 
-		if(ismatch || (istext && issect && iscomp && issyst && isobtained && istype)){
+		if(ismatch || (istext && issect && iscomp && issyst && isobtained && istype && isloc)){
 			reason 	= [];
 			if(ismatch){
 					reason.push("no search");
@@ -100,6 +100,9 @@ classes: wide
 					}
 					if(istype){
 						reason.push("type (" + ctype + ")");
+					}
+					if(isloc){
+						reason.push("location (" + location + ")");
 					}
 			}
 			reason 		= reason.join(", ");
@@ -175,7 +178,7 @@ classes: wide
 		var ctype		= set_HTML("type", null, "val");
 		var location	= set_HTML("locations", null, "val");
 		
-		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype);
+		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype + " loc: " + location);
 		for(var i = 0; i < controllers.length; i++){
 			var controller 	= controllers[i];
 			if(test_controller(controller, text, sect, comp, syst, obtained, ctype, location)){
@@ -228,7 +231,7 @@ classes: wide
 				TD + gp(controller, "obtained") +
 				TD + gp(controller, "systems") +
 				TDM + gp(controller, "location") +
-				TD + gp(controller, "type") +
+				TD + gp(controller, "type").split(",").join(", ") +
 			'</TD></TR>';
 		}
 		set_HTML("controllers", HTML);
