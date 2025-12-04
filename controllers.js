@@ -7272,6 +7272,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "SYS",
 	obtained: "2022-03-08",
 	cost: 200,
+	type: "tate,arcade",
 	games: "Egret II Mini",
 	description: `a digital joystick capable of operating in 4 or 8 directions, 6 face buttons, 2 system buttons, 1 OS button, stereo sound, light-up marquee, 2 USB ports, HDMI out, charges via USB-C, rotateable 1024x768 LCD, SD slot for expanding the games`,
 },{
@@ -7322,6 +7323,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	type: "arcade",
 	peripheralName: "Astro City V",
 	systems: "SYS",
+	type: "arcade",
 	obtained: "2022-08-04",
 	cost: 300,
 	games: ["Action Fighter", "Armed Police Batrider", "Batsugun", "Battle Bakraid", "Cosmo Police Galivan", "Desert Breaker", "Dogyuun", "Gunbird", "Moon Cresta", "Out Zone", "Raiden", "Same! Same! Same!", "Sengoku Ace", "Shippuu Mahou Daisakusen", "Sonic Wings", "Strikers 1945", "Tatsujin", "Tatsujin Oh", "Terra Cresta", "V-V", "Wrestle War", "Zaxxon"],
@@ -7806,6 +7808,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "SYS",
 	obtained: "2023-11-18",
 	cost: 200,
+	type: "tate,portable",
 	description: "4 triggers, 6 face buttons, 2 system buttons, 2 OS button, built in rechargeable battery (via USB-C), dpad, a cool box, 800×480 color LCD, miniHDMI out (720p), TATE mode support",
 	games: "Evercade games",
 	specificVersion: "White",
