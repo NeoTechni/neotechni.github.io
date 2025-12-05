@@ -292,9 +292,12 @@ classes: wide
 			var ret 	= [];
 			for(var i = 0; i < controllers.length; i++){
 				if(controllers[i].hasOwnProperty(name)){
-					if(ret.indexOf(controllers[i][name]) == -1){
-						ret.push(controllers[i][name]);
-					}
+					var names = controllers[i][name].split(",");
+					for(var j = 0; j < names.length; j++){
+						if(ret.indexOf(names[j]) == -1){
+							ret.push(names[j]);
+						}
+					}					
 				}
 			}
 		}
