@@ -7758,6 +7758,16 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	specificVersion: "Blue",
 	otherVersions: "Red, Yellow, Green",
 },{
+	peripheral: "479-E",
+	attached: "479-A",
+	company: "8bitdo",
+	type: "keyboard",
+	peripheralName: "104-key Retro Keyboard",
+	systems: "PC",
+	cost: 150,	
+	obtained: "2025-12-16",
+	description: "104-key QWERTY layout, rechargeable battery (charges via USB-C), wired (via USB-C), wireless (via bluetooth or included 2.4ghz dongle), volume dial, 4 ports for other extensions which can be remapped to other keys/combos",
+},{
 	peripheral: "480",
 	company: "Kickstarter",
 	peripheralName: "VM2",
@@ -8223,4 +8233,28 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 99,
 	obtained: "2025-11-02",
 	description: "Takes 4xAAAs (not included), 3 buttons, speaker, touch sensor, rumble, backlit color LCD of a resolution of at least 128×128",
+},{
+	peripheral: "521",
+	company: "GAIME",
+	games: "Time Crisis, Point Blank, Steel Gunner 1 & 2",
+	type: "gun",
+	peripheralName: "Lightgun Console",
+	systems: "SYS",
+	section: "systems",
+	cost: 180,
+	obtained: "2025-12-16",
+	description: `
+		Console: Main SoC: Octa-core ArmCortex®-A55 CPU with Mali GPU, RAM: 2 GB, Storage: 64 GB, Operating System: Custom Android 13 
+		Lightgun: Integrated NPU with 1GB RAM, Operating System: Custom Linux, AI: Proprietary Edge-Computing AI Model, Connectivity: Supports Standard HID communication protocol (works as a stylus), Upgrades: Windows App-Based Firmware Update, connects via USB-C, rumble
+		Foot Pedal: connects via USB-C, unlike the gun it does not support standard protocols
+	`,
+},{
+	peripheral: "522",
+	company: "My Arcade",
+	peripheralName: "Gamestation Gamepad",
+	systems: "Gamestation",
+	section: "misc",
+	cost: 99,
+	obtained: "2025-12-16",
+	description: "Dpad, spinner, trackball, 4 triggers, 4 face buttons, 4 system buttons, 12-key number pad, each section of the face has RGB lighting to indicate which controls are used for the current game, rechargeable battery (charges via USB-C), works on PC",
 }]; 
