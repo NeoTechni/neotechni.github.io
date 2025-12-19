@@ -8243,8 +8243,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	section: "systems",
 	cost: 180,
 	obtained: "2025-12-16",
-	description: `
-		Console: Main SoC: Octa-core ArmCortex®-A55 CPU with Mali GPU, RAM: 2 GB, Storage: 64 GB, Operating System: Custom Android 13 
+	description: `Console: Main SoC: Octa-core ArmCortex®-A55 CPU with Mali GPU, RAM: 2 GB, Storage: 64 GB, Operating System: Custom Android 13 
 		Lightgun: Integrated NPU with 1GB RAM, Operating System: Custom Linux, AI: Proprietary Edge-Computing AI Model, Connectivity: Supports Standard HID communication protocol (works as a stylus), Upgrades: Windows App-Based Firmware Update, connects via USB-C, rumble
 		Foot Pedal: connects via USB-C, unlike the gun it does not support standard protocols
 	`,
