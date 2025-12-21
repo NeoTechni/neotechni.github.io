@@ -735,7 +735,7 @@ function make_controller(controller = false, stat = false, name = false){
 			}
 		}
 	} else if(stat === true){//do all stats in normal style
-		var classname = toclassname(controller.peripheralName);//
+		var classname = toclassname(controller.peripheralName);
 		switch(name){
 			case "normal": case "noimage":
 				if(name == "noimage" && controller.hasOwnProperty("title")){
@@ -752,7 +752,7 @@ function make_controller(controller = false, stat = false, name = false){
 				if(controller.hasOwnProperty("games") && typeof controller.games == "string" && games.hasOwnProperty(controller.games)){
 					HTML += '<B>Games: <SPAN CLASS="hyperlink" ONCLICK="showgames(' + "'" + controller.games + "'" + ');">List</SPAN><BR>';
 				} else {
-					HTML += make_controller(controller, "games", 			"Games Supported");
+					HTML += make_controller(controller, "games", 		"Games Supported");
 				}
 				if(controller.hasOwnProperty("moreinfo")){
 					HTML += '<B>More Info: <SPAN CLASS="hyperlink" ONCLICK="showgames(' + "'" + controller.moreinfo + "'" + ');">Click Here</SPAN><BR>';
@@ -763,12 +763,16 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "cost", 			"Can be found for");
 				HTML += make_controller(controller, "company", 			"Made by");
 				HTML += make_controller(controller, "location",			"Location");
-				HTML += make_controller(controller, "specificVersion", 		"Specific Version");
-				HTML += make_controller(controller, "otherVersions", 		"Other Version(s)");
+				HTML += make_controller(controller, "specificVersion", 	"Specific Version");
+				HTML += make_controller(controller, "otherVersions", 	"Other Version(s)");
 				HTML += make_controller(controller, "files", 			"Attachments");
-				HTML += make_controller(controller, "urls",			"URLs");
-				HTML += '</TD></TR><TR><TD CLASS="top">';
-				HTML += make_controller(controller, "description");
+				HTML += make_controller(controller, "urls",				"URLs");
+				HTML += '</TD></TR><TR><TD CLASS="top description ' + name + '">';
+				if(name == "noimage"){
+					HTML += "descriptions: " + make_controller(controller, "descriptions");
+				} else {
+					HTML += make_controller(controller, "description");	
+				}
 				HTML += '</TD></TR>';
 				break;
 			case "list":
@@ -823,8 +827,17 @@ function make_controller(controller = false, stat = false, name = false){
 						HTML += controller[stat];
 				}
 				HTML += "<BR>";
-			} else {
+			} else {				
 				HTML = nl2br(controller[stat]);
+			}
+		} else if(stat == "descriptions"){				
+			HTML = '<B>' + controller.peripheralName + ':</B> ' + nl2br(controller.description);
+			if(controller.hasOwnProperty("attachments")){
+				for(var i = 0; i < controller.attachments.length; i++){
+					if(controller.attachments[i].hasOwnProperty("description") && controller.attachments[i].description.length > 0){
+						HTML += '<BR><B>' + controller.attachments[i].peripheralName + ':</B> ' + nl2br(controller.attachments[i].description);
+					}
+				}
 			}
 		}
 	} else if(controller === false){//do all controllers
