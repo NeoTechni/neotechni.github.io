@@ -768,19 +768,21 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "files", 			"Attachments");
 				HTML += make_controller(controller, "urls",				"URLs");
 				HTML += '</TD></TR><TR><TD CLASS="top description ' + name + '">';
-				if(name == "noimage"){
-					HTML += make_controller(controller, "descriptions");
-				} else {
+				if(name == "normal"){
 					HTML += make_controller(controller, "description");	
 				}
 				HTML += '</TD></TR>';
 				break;
-			case "list":
+			case "list"://list style in a table
 				HTML += '<TR><TD><A NAME="' + classname + '"></A>';
 				if(controller.hasOwnProperty("peripheral")){
 					HTML += controller.peripheral;
 				}
 				HTML += '</TD><TD>' + controller.peripheralName + '</TD><TD>';
+				if(controller.hasOwnProperty("description")){
+					HTML += nl2br(controller.description);
+				}
+				HTML += '</TD><TD>';
 				if(controller.hasOwnProperty("obtained")){
 					HTML += controller.obtained;
 				}
@@ -867,7 +869,7 @@ function make_controller(controller = false, stat = false, name = false){
 			case "normal": case "list":
 				HTML += '<TABLE ID="' + classname + '" NAME="' + controller.peripheralName.toLowerCase() + '" CLASS="table searchable">' + make_controller(controller, true, iif(style == "list", "noimage", style));
 				if(style == "list"){
-					HTML += '<TR><TD COLSPAN="2" CLASS="listtable"><TABLE CLASS="listtable"><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
+					HTML += '<TR><TD COLSPAN="2" CLASS="listtable"><TABLE CLASS="listtable"><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Description</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
 				}				
 				if(controller.hasOwnProperty("attachments")){
 					for(var i = 0; i < controller.attachments.length; i++){
