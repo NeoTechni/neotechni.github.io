@@ -769,7 +769,7 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += make_controller(controller, "urls",				"URLs");
 				HTML += '</TD></TR><TR><TD CLASS="top description ' + name + '">';
 				if(name == "noimage"){
-					HTML += "descriptions: " + make_controller(controller, "descriptions");
+					HTML += make_controller(controller, "descriptions");
 				} else {
 					HTML += make_controller(controller, "description");	
 				}
