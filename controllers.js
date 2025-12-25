@@ -7768,6 +7768,16 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2025-12-16",
 	description: "104-key QWERTY layout, rechargeable battery (charges via USB-C), wired (via USB-C), wireless (via bluetooth or included 2.4ghz dongle), volume dial, 4 ports for other extensions which can be remapped to other keys/combos",
 },{
+	peripheral: "479-F",
+	attached: "479-A",
+	company: "8bitdo",
+	type: "mouse",
+	peripheralName: "Retro R8 Mouse",
+	systems: "PC",
+	cost: 40,	
+	obtained: "2025-12-24",
+	description: "Optical mouse, wireless (via bluetooth or included 2.4ghz dongle), 6 buttons, scroll wheel, weighted charging dock (connects to mouse via POGO pins, connects to PC via USB-C) with a USB port for the dongle",
+},{
 	peripheral: "480",
 	company: "Kickstarter",
 	peripheralName: "VM2",
@@ -8256,4 +8266,12 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 99,
 	obtained: "2025-12-16",
 	description: "Dpad, spinner, trackball, 4 triggers, 4 face buttons, 4 system buttons, 12-key number pad, each section of the face has RGB lighting to indicate which controls are used for the current game, rechargeable battery (charges via USB-C), works on PC",
+},{
+	peripheral: "523",
+	company: "Sammy",
+	peripheralName: "Mini-Moni. Shakatto Tambourine! Dapyon!",
+	systems: "PS1",
+	cost: 10,
+	obtained: "2025-12-24",
+	description: "I really long sensor bar that goes near the TV, motion sensing seems to operate via ultra-sonic waves similar to the Power Glove, 2 buttons",
 }]; 
