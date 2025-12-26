@@ -8274,4 +8274,12 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 10,
 	obtained: "2025-12-24",
 	description: "I really long sensor bar that goes near the TV, motion sensing seems to operate via ultra-sonic waves similar to the Power Glove, 2 buttons",
+},{
+	peripheral: "524",
+	company: "Vxion",
+	peripheralName: "Racing Gamepad",
+	systems: "PS4",
+	cost: 30,
+	obtained: "2025-12-25",
+	description: "dpad, steering wheel, rumble, 2 system buttons, 1 OS button, 4 face buttons, 6 triggers, headset port with mute button, a button to remap 2 of the back triggers"
 }]; 
