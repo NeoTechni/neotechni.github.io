@@ -7723,7 +7723,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	systems: "PC",
 	cost: 20,	
 	obtained: "2023-10-10",
-	description: "2 big buttons that plug in via headphone connectors. The left/A button works on the MS XBOX Access Controller",
+	description: "2 big buttons that plug in via headphone connectors. The left/B button works on the MS XBOX Access Controller",
 },{
 	peripheral: "479-B",
 	attached: "479-A",
