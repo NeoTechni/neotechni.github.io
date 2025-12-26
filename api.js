@@ -774,15 +774,15 @@ function make_controller(controller = false, stat = false, name = false){
 				HTML += '</TD></TR>';
 				break;
 			case "list"://list style in a table
-				HTML += '<TR><TD><A NAME="' + classname + '"></A>';
+				HTML += '<TR><TD CLASS="minwidth"><A NAME="' + classname + '"></A>';
 				if(controller.hasOwnProperty("peripheral")){
 					HTML += controller.peripheral;
 				}
-				HTML += '</TD><TD>' + controller.peripheralName + '</TD><TD>';
+				HTML += '</TD><TD CLASS="minwidth">' + controller.peripheralName + '</TD><TD>';
 				if(controller.hasOwnProperty("description")){
 					HTML += nl2br(controller.description);
 				}
-				HTML += '</TD><TD>';
+				HTML += '</TD><TD CLASS="minwidth">';
 				if(controller.hasOwnProperty("obtained")){
 					HTML += controller.obtained;
 				}
