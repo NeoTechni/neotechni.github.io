@@ -8282,4 +8282,12 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 30,
 	obtained: "2025-12-25",
 	description: "dpad, steering wheel, rumble, 2 system buttons, 1 OS button, 4 face buttons, 6 triggers, headset port with mute button, a button to remap 2 of the back triggers"
+},{
+	peripheral: "525",
+	company: "Microsoft",
+	peripheralName: "Speed Wheel",
+	systems: "360",
+	cost: 20,
+	obtained: "2026-01-07",
+	description: "dpad, 2 analog triggers, 4 face buttons, 2 system buttons, 1 OS button, rumble, motion sensing, uses 2xAA batteries, green LEDs"
 }]; 
