@@ -7,13 +7,452 @@ classes: wide
 
 <HEADER CLASS="horizontal">
    <UL>
+	   	<LI><A HREF="#" ONCLICK="switchtab('controllers');">Controllers</A></LI>
      	<LI><A HREF="#" ONCLICK="switchtab('games');">My Games</A></LI>
-		<LI><A HREF="#" ONCLICK="switchtab('controllers');">Compatibility with Controllers</A></LI>
+		<LI><A HREF="#" ONCLICK="switchtab('compatibility');">Compatibility with Controllers</A></LI>
 		<LI><A HREF="#" ONCLICK="switchtab('movies');">My Movies</A></LI>
    </UL>
 </HEADER>
 
-<DIV ID="controllers" CLASS="tabs dont-show"></DIV>
+<DIV ID="controllers">
+	<TABLE CLASS="table">
+		<THEAD>
+			<TR>
+				<TD COLSPAN="7">
+					<INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
+					<SELECT ID="sections" ONCHANGE="query();"></SELECT>
+					<SELECT ID="companies" ONCHANGE="query();"></SELECT>
+					<SELECT ID="systems" ONCHANGE="query();"></SELECT>
+					<SELECT ID="locations" ONCHANGE="query();"></SELECT>
+					<SELECT ID="obtained" ONCHANGE="query();"></SELECT>
+					<SELECT ID="type" ONCHANGE="query();"></SELECT>
+					<BUTTON ONCLICK="make_stats(); return false;">View Statistics</BUTTON>
+				</TD>
+			</TR>
+			<TR STYLE="cursor: pointer;">
+				<TH ONCLICK="sortby('peripheral');">ID</TH>
+				<TH ONCLICK="sortby('company');">Company</TH>
+				<TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
+				<TH ONCLICK="sortby('obtained');">Obtained</TH>
+				<TH ONCLICK="sortby('systems');">Systems</TH>
+				<TH ONCLICK="sortby('location');">Location</TH>
+				<TH ONCLICK="sortby('type');">Type</TH>
+			</TR>
+		</THEAD>
+		<TBODY ID="controllers"></TBODY>
+		<TFOOT>
+			<TR>
+				<TD COLSPAN="7" ID="footer"></TD>
+			</TR>
+		</TFOOT>
+	</TABLE>
+</DIV>
+
+<SCRIPT>
+	var sortcol 			= "peripheral";
+	var ascending 			= true;
+	var reason 				= "";
+	var found 				= 0;
+	var ret 				= [];
+	var stats 				= {};
+	
+	window.addEventListener('load', function () {
+		query();
+		makeselect("companies", enum_property("company"), "Companies");
+		makeselect("systems", enum_consoles(), "Systems");
+		makeselect("sections", Object.keys(sections), "Sections");
+		makeselect("locations", enum_property("location"), "Locations");
+		makeselect("type", enum_property("type"), "Types");
+
+		var HTML 			= '<OPTION VALUE="" CLASS="bold">Obtained</OPTION><OPTION VALUE="[other]">Other</OPTION>';
+		var dates 			= enum_property("dates");
+		var month;
+		for(var year in dates){
+			if(dates.hasOwnProperty(year)){
+				HTML		+= '<OPTION>' + year + '</OPTION>';
+				for(month = 1; month < 13; month++){
+					if(dates[year].hasOwnProperty(month)){
+						HTML += '<OPTION VALUE="' + year + '-' + month.pad(2) + '">&nbsp;&nbsp;&nbsp;&nbsp;' + month_names[ month-1 ] + '</OPTION>';
+					}					
+				}
+			}
+		}
+		set_HTML("obtained", HTML);
+	});
+	
+	function sortby(column){
+		if(column == sortcol){
+			ascending 		= !ascending;
+		} else {
+			ascending 		= true;
+			sortcol 		= column;
+		}
+		query();
+	}
+	
+	function test_controller(controller, text = "", sect = "", comp = "", syst = "", obtained = "", ctype = "", locations = ""){
+		var istext 		= text.length == 0;
+		var issect 		= sect.length == 0;
+		var iscomp 		= comp.length == 0;
+		var issyst 		= syst.length == 0;
+		var isobtained	= obtained.length == 0;
+		var istype		= ctype.length == 0;
+		var isloc 		= locations.length == 0;
+		var ismatch 	= istext && issect && iscomp && issyst && isobtained && istype && isloc;//all are length=0
+		if(!istext){	//all these are only run if the parameters were not empty
+			istext 		= gp(controller, "company").contains(text) || gp(controller, "peripheralName").contains(text) || gp(controller, "peripheral").toString().contains(text);
+		}
+		if(!issect){
+			issect 		= controller_section(controller) == sect;
+		}
+		if(!iscomp){
+			iscomp 		= gp(controller, "company") == comp;
+		}
+		if(!istype){
+			var ttype	= gp(controller, "type", "", ",")
+			istype 		= gp(controller, "type", "", ",").indexOf(ctype) > -1;
+		}
+		if(!issyst){
+			issyst 		= gp(controller, "systems", "", "/").indexOf(syst) > -1;
+		}
+		if(!isloc && locations.length > 0){
+			isloc		= gp(controller, "location") == locations;			
+		}
+		if(!isobtained){
+			if(validatedate(controller.obtained)){
+				isobtained = controller.obtained.startswith(obtained);
+			} else {
+				isobtained = obtained == "[other]";
+			}
+		}
+
+		if(ismatch || (istext && issect && iscomp && issyst && isobtained && istype && isloc)){
+			reason 	= [];
+			if(text.length > 0){
+				reason.push("text (" + text + ")");
+			}
+			if(sect.length > 0){
+				reason.push("section (" + sect + ")");
+			}
+			if(comp.length > 0){
+				reason.push("company (" + comp + ")");
+			}
+			if(syst.length > 0){
+				reason.push("systems (" + syst + ")");
+			}
+			if(ctype.length > 0){
+				reason.push("type (" + ctype + ")");
+			}
+			if(locations.length > 0){
+				reason.push("location (" + locations + ")");
+			}
+			if(reason.length == 0 && ismatch){
+				reason.push("no search");
+			}
+			reason 		= reason.join(", ");
+			return 		true;
+		}
+		reason			= "No match";
+		return 			false;
+	}
+	
+	function add2stats(controller, period = null, type = null){
+		if(period === null && type === null){
+			var date 	= false;
+			var year 	= "unknown";			
+			if(controller.hasOwnProperty("obtained") && validatedate(controller.obtained)){
+				date = controller.obtained.left(7);
+				year = controller.obtained.left(4);
+			}
+			add2stats(controller, "total", "years");
+			add2stats(controller, year, "years");
+			add2stats(controller, date, "months");
+		} else if(period){
+			var cost 							= 0;
+			if(controller.hasOwnProperty("cost") && isNumeric(controller.cost)){
+				cost 							= controller.cost;
+			}
+			if(!stats[ type ].hasOwnProperty(period)){
+				stats[ type ][ period ] 				= {};
+			}			
+			if(controller.hasOwnProperty("company")){
+				if(!stats[ type ][ period ].hasOwnProperty(controller.company)){
+					stats[ type ][ period ][ controller.company ] = {
+						type					: 0,
+						quantity				: 0, 
+						cost					: 0,
+						controllers				: [],
+					};
+				}
+				stats[ type ][ period ][ controller.company ].quantity	++;
+				stats[ type ][ period ][ controller.company ].cost 	+= parseInt(cost);
+				stats[ type ][ period ][ controller.company ].controllers.push(controller.peripheralName);
+			}
+			if(controller.hasOwnProperty("systems")){
+				var systems 						= controller.systems.split("/");
+				for(var i = 0; i < systems.length; i++){
+					if(!stats[ type ][ period ].hasOwnProperty(systems[i])){
+						stats[ type ][ period ][ systems[i] ] 	= {
+							type				: 1,
+							quantity			: 0, 
+							cost				: 0,
+							controllers			: [],
+						};
+					}
+					stats[ type ][ period ][ systems[i] ].quantity 	++;
+					stats[ type ][ period ][ systems[i] ].cost 	+= parseInt(cost);
+					stats[ type ][ period ][ systems[i] ].controllers.push(controller.peripheralName);
+				}
+			}
+		}
+	} 
+	
+	function enum_controllers(text = false){
+		ret 			= [];
+		stats 			= {
+			"years"		: {},
+			"months"	: {},
+		};
+		if(!text){
+			text 		= set_HTML("searchtext", null, "val");
+		}
+		var sect 		= set_HTML("sections", null, "val");
+		var comp 		= set_HTML("companies", null, "val");
+		var syst 		= set_HTML("systems", null, "val");
+		var obtained	= set_HTML("obtained", null, "val");
+		var ctype		= set_HTML("type", null, "val");
+		var locations	= set_HTML("locations", null, "val");
+		
+		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype + " loc: " + locations);
+		for(var i = 0; i < controllers.length; i++){
+			var controller 	= controllers[i];
+			if(test_controller(controller, text, sect, comp, syst, obtained, ctype, locations)){
+				controller.reason = reason;
+				add2stats(controller);
+				ret.push(controller);
+			}
+			console.log(controller.peripheralName + ": " + reason);
+		}
+		found 			= ret.length;
+		ret.sort(dynamicSortMultiple(sortby));
+		if(!ascending){
+			ret.reverse();
+		}
+		return 			ret;
+	}
+
+	function validatedate(text){
+		if(typeof text == "string" && text.length > 7 && text.length < 11){
+			text 		= text.split("-");
+			if(text.length === 3 && isNumeric(text[0]) && isNumeric(text[1]) && isNumeric(text[2])){
+				if(text[0].length == 4 && text[1] > 0 && text[1] < 13 && text[2] > 0){
+					return text[2] <= daysInMonth(text[1], text[0]);
+				}
+			}
+		}
+		return 			false;
+	}
+
+	function click_controller(index){
+		var controller 		= ret[index];
+		msgbox('<A HREF="/' + controller_section(controller, true) + "#" + toclassname(controller.peripheralName) + '">' + controller.peripheralName + '</A>', make_controller(controller));
+	}
+
+	function query(text = false){
+		var HTML 		= "";
+		ret 			= enum_controllers(text);
+		for(var i = 0; i < ret.length; i++){
+			var controller 	= ret[i];
+			var TD 		= '</TD><TD>';
+			var TDM		= '</TD><TD CLASS="minwidth">';
+			if(!controller.hasOwnProperty("reasons")){
+				controller.reasons = "";
+			}
+			HTML += '<TR TITLE="' + controller.reasons + '" ONCLICK="click_controller(' + i + ');" CLASS="hyperlink"><TD ALIGN="center" CLASS="minwidth">' + 
+				gp(controller, "peripheral") + 
+				TD + gp(controller, "company") + 
+				TD + controller.peripheralName + 
+				TD + gp(controller, "obtained") +
+				TD + gp(controller, "systems") +
+				TDM + gp(controller, "location") +
+				TD + gp(controller, "type").split(",").join(", ") +
+			'</TD></TR>';
+		}
+		set_HTML("controllers", HTML);
+		set_HTML("footer", "Found " + found + " out of " + controllers.length + " peripherals");
+		return 			HTML;
+	}
+	
+	function gp(controller, property, def = "", del = false){
+		if(controller.hasOwnProperty(property)){
+			def 		= controller[property];
+		}
+		if(del){
+			if(def.length == 0){
+				return 	[];
+			}
+			return 		def.split(del);
+		}
+		return 			def;
+	}
+	
+	function makeselect(ID, options, name = false){
+		var HTML 		= "";
+		var value 		= _GET(ID);
+		if(name){
+			HTML 		= '<OPTION VALUE="" CLASS="bold">' + name + '</OPTION>';
+		}
+		options.sort();
+		for(var i = 0; i < options.length; i++){
+			HTML 		+= '<OPTION';
+			if(value == options[i]){
+				HTML 	+= " SELECTED";
+			}
+			HTML 		+= '>' + options[i] + '</OPTION>';
+		}
+		set_HTML(ID, HTML);
+		return 			HTML;
+	}
+	
+	function enum_property(name){
+		if(name == "dates"){
+			var ret		= {};
+			var date;
+			for(var i = 0; i < controllers.length; i++){
+				date 	= controllers[i].obtained;
+				if(validatedate(date)){
+					date = date.split("-");
+					if(!ret.hasOwnProperty(date[0])){
+						ret[ date[0] ] = {};
+					}
+					date[1] = parseInt(date[1]);
+					if(!ret[ date[0] ].hasOwnProperty( date[1] )){
+						ret[ date[0] ][ date[1] ] = 0;
+					}
+					ret[ date[0] ][ date[1] ]++;
+				}
+			}
+		} else {		
+			var ret 	= [];
+			for(var i = 0; i < controllers.length; i++){
+				if(controllers[i].hasOwnProperty(name)){
+					var names = controllers[i][name].split(",");
+					for(var j = 0; j < names.length; j++){
+						if(ret.indexOf(names[j]) == -1){
+							ret.push(names[j]);
+						}
+					}					
+				}
+			}
+		}
+		return 			ret;
+	}
+
+	function enum_companies(type = 0, limit2year = 0){
+	    	var ret 		= [];
+		if(type < 0){
+			for(var year in stats.years){
+				if(stats.years.hasOwnProperty(year)){
+					if(isNumeric(year) && ret.indexOf(year) == -1){
+						ret.push(parseInt(year));
+					}
+				}
+			}		
+		} else if(type > 1900){//months
+			for(var month in stats.months){
+				if(stats.months.hasOwnProperty(month) && month.startswith(type)){
+					month = parseInt(month.split("-")[1]);
+					if(ret.indexOf(month) == -1){
+						ret.push(month);
+					}				
+				}
+			}
+		} else {//0=company, 1=console
+			for(var year in stats.years){
+				if(stats.years.hasOwnProperty(year)){		
+					for(var company in stats.years[year]){
+						if(stats.years[year].hasOwnProperty(company)){
+							if(ret.indexOf(company) == -1 && stats.years[year][company].type == type){
+								if(limit2year == 0 || limit2year == year){
+									ret.push(company);
+								}
+							}
+						}
+					}
+				}
+			}
+			return 		ret.sort();//name
+		}
+		return 			ret.sort(function (a, b) {  return a - b;  });//numeric
+	}
+	
+	function make_stats(type = -1, years){
+		var HTML 		= "";
+		var total_money = 0, total_quantity = 0, money, quantity;
+		if(type == -1){//years, header, footer
+			years 		= enum_companies(-1);
+			HTML 		= '<TABLE CLASS="table"><THEAD><TR><TH>©/System</TH>';
+			for(year = 0; year < years.length; year++){
+				HTML	+= '<TH>' + years[year] + '</TH>';
+			}
+			HTML		+= '<TH>Total</TH></TR></THEAD><TBODY>';
+			
+			HTML 		+= make_stats(0, years);//companies
+			HTML 		+= make_stats(1, years);//consoles
+			HTML 		+= make_stats(2, years);//totals
+			
+			HTML		+= '</TBODY></TABLE>';
+			msgbox("Statistics", HTML);
+		} else if(type == 2){//total
+			HTML 		= '<TR><TD>Total</TD>';
+			for(var year = 0; year < years.length; year++){
+				money	= 0;
+				quantity = 0;
+				for(var item in stats.years[ years[year] ]){
+					if(stats.years[ years[year] ].hasOwnProperty(item)){
+						if(stats.years[ years[year] ][ item ].type == 0){
+							money += parseInt(stats.years[ years[year] ][ item ].cost);
+							quantity += parseInt(stats.years[ years[year] ][ item ].quantity);
+						}
+					}
+				}
+				HTML	+= make_cell(money, quantity);
+				total_money += money;
+				total_quantity += quantity;
+			}
+			HTML		+= make_cell(total_money, total_quantity) + '</TR>';
+		} else {
+			var data 	= enum_companies(type);
+			for(var i = 0; i < data.length; i++){
+				HTML 	+= '<TR><TD ALIGN="right">' + data[i] + '</TD>';
+				total_money = 0;
+				total_quantity = 0;
+				for(var year = 0; year < years.length; year++){
+					money = 0;
+					quantity = 0;
+					if(stats.years[ years[year] ].hasOwnProperty(data[i])){
+						money = parseInt(stats.years[ years[year] ][ data[i] ].cost);
+						quantity = parseInt(stats.years[ years[year] ][ data[i] ].quantity);
+						total_money += money;
+						total_quantity += quantity;
+					}
+					HTML += make_cell(money, quantity);
+				}
+				HTML	+= make_cell(total_money, total_quantity) + '</TR>';
+			}
+		}
+		return 			HTML;
+	}
+
+	function make_cell(money, quantity){
+		if(quantity == 0){
+			return '<TD>&nbsp;</TD>';
+		}
+		return 			'<TD ALIGN="right">$' + money + '<BR>' + quantity + '×</TD>';
+	}
+</SCRIPT>
+
+<DIV ID="compatibility" CLASS="tabs dont-show"></DIV>
 
 <TABLE ID="games" CLASS="table tabs">
    <THEAD>
@@ -40,8 +479,8 @@ classes: wide
     <THEAD>
       <TR>
         <TD COLSPAN="3">
-          <INPUT ID="name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query();" ONPASTE="query();">
-          <SELECT ID="medium" ONCHANGE="query();">
+          <INPUT ID="name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query_movies();" ONPASTE="query_movies();">
+          <SELECT ID="medium" ONCHANGE="query_movies();">
             <OPTION VALUE="">Medium</OPTION>
             <OPTION>4K Bluray</OPTION>
             <OPTION>3D Bluray</OPTION>
@@ -67,6 +506,25 @@ classes: wide
 
 
 <STYLE>
+	.table thead{
+		position		: sticky;
+		top			: 50px;
+	}
+
+	.header{
+		display			: none;
+	}
+
+	#modalbody .table{
+		width			: 100%;
+		margin-bottom		: 0px;
+	}
+
+	#modalbody{
+		padding-left		: 0px;
+		padding-right		: 0px;
+	}
+	
 	.medium-4k-bluray td{
 		color: black;
 		font-weight: bold;
@@ -123,11 +581,11 @@ classes: wide
 				HTML += showgames(section, false);
 			}
 		}
-		set_HTML("controllers", HTML);
+		set_HTML("compatibility", HTML);
 		query_games(true);
-		query();
+		query_movies();
 
-		switchtab('games');
+		switchtab('controllers');
   });
 
    function switchtab(towhat){
@@ -135,7 +593,7 @@ classes: wide
 	    setVisible("#" + towhat, true);
    }
 	
-  function query(){
+  function query_movies(){
 	    var HTML                            = '';
 	    var results                         = 0;
 	    var text 		                = set_HTML("name", null, "val");
