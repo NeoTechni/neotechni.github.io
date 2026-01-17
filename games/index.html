@@ -14,39 +14,37 @@ classes: wide
    </UL>
 </HEADER>
 
-<DIV ID="controllertab">
-	<TABLE CLASS="table">
-		<THEAD>
-			<TR>
-				<TD COLSPAN="7">
-					<INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
-					<SELECT ID="sections" ONCHANGE="query();"></SELECT>
-					<SELECT ID="companies" ONCHANGE="query();"></SELECT>
-					<SELECT ID="systems" ONCHANGE="query();"></SELECT>
-					<SELECT ID="locations" ONCHANGE="query();"></SELECT>
-					<SELECT ID="obtained" ONCHANGE="query();"></SELECT>
-					<SELECT ID="type" ONCHANGE="query();"></SELECT>
-					<BUTTON ONCLICK="make_stats(); return false;">View Statistics</BUTTON>
-				</TD>
-			</TR>
-			<TR STYLE="cursor: pointer;">
-				<TH ONCLICK="sortby('peripheral');">ID</TH>
-				<TH ONCLICK="sortby('company');">Company</TH>
-				<TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
-				<TH ONCLICK="sortby('obtained');">Obtained</TH>
-				<TH ONCLICK="sortby('systems');">Systems</TH>
-				<TH ONCLICK="sortby('location');">Location</TH>
-				<TH ONCLICK="sortby('type');">Type</TH>
-			</TR>
-		</THEAD>
-		<TBODY ID="controllers"></TBODY>
-		<TFOOT>
-			<TR>
-				<TD COLSPAN="7" ID="footer"></TD>
-			</TR>
-		</TFOOT>
-	</TABLE>
-</DIV>
+<TABLE ID="controllertab" CLASS="table tabs">
+	<THEAD>
+		<TR>
+			<TD COLSPAN="7">
+				<INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
+				<SELECT ID="sections" ONCHANGE="query();"></SELECT>
+				<SELECT ID="companies" ONCHANGE="query();"></SELECT>
+				<SELECT ID="systems" ONCHANGE="query();"></SELECT>
+				<SELECT ID="locations" ONCHANGE="query();"></SELECT>
+				<SELECT ID="obtained" ONCHANGE="query();"></SELECT>
+				<SELECT ID="type" ONCHANGE="query();"></SELECT>
+				<BUTTON ONCLICK="make_stats(); return false;">View Statistics</BUTTON>
+			</TD>
+		</TR>
+		<TR STYLE="cursor: pointer;">
+			<TH ONCLICK="sortby('peripheral');">ID</TH>
+			<TH ONCLICK="sortby('company');">Company</TH>
+			<TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
+			<TH ONCLICK="sortby('obtained');">Obtained</TH>
+			<TH ONCLICK="sortby('systems');">Systems</TH>
+			<TH ONCLICK="sortby('location');">Location</TH>
+			<TH ONCLICK="sortby('type');">Type</TH>
+		</TR>
+	</THEAD>
+	<TBODY ID="controllers"></TBODY>
+	<TFOOT>
+		<TR>
+			<TD COLSPAN="7" ID="footer"></TD>
+		</TR>
+	</TFOOT>
+</TABLE>
 
 <SCRIPT>
 	var sortcol 			= "peripheral";
@@ -454,7 +452,7 @@ classes: wide
 
 <DIV ID="compatibility" CLASS="tabs dont-show"></DIV>
 
-<TABLE ID="games" CLASS="table tabs">
+<TABLE ID="games" CLASS="table tabs dont-show">
    <THEAD>
       <TR>
          <TD COLSPAN="3">
