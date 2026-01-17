@@ -1,16 +1,58 @@
 ---
-title: List
+title: Lists 
 layout: default
 classes: wide 
 ---
-<TITLE>List</TITLE>
+<TITLE>Lists</TITLE>
+
+<HEADER CLASS="horizontal">
+   <UL>
+	   	<LI><A HREF="#" ONCLICK="switchtab('controllertab');">Controllers</A></LI>
+     	<LI><A HREF="#" ONCLICK="switchtab('games');">My Games</A></LI>
+		<LI><A HREF="#" ONCLICK="switchtab('compatibility');">Compatibility with Controllers</A></LI>
+		<LI><A HREF="#" ONCLICK="switchtab('movies');">My Movies</A></LI>
+   </UL>
+</HEADER>
+
+<TABLE ID="controllertab" CLASS="table tabs">
+	<THEAD>
+		<TR>
+			<TD COLSPAN="7">
+				<INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
+				<SELECT ID="sections" ONCHANGE="query();"></SELECT>
+				<SELECT ID="companies" ONCHANGE="query();"></SELECT>
+				<SELECT ID="systems" ONCHANGE="query();"></SELECT>
+				<SELECT ID="locations" ONCHANGE="query();"></SELECT>
+				<SELECT ID="obtained" ONCHANGE="query();"></SELECT>
+				<SELECT ID="type" ONCHANGE="query();"></SELECT>
+				<BUTTON ONCLICK="make_stats(); return false;">View Statistics</BUTTON>
+			</TD>
+		</TR>
+		<TR STYLE="cursor: pointer;">
+			<TH ONCLICK="sortby('peripheral');">ID</TH>
+			<TH ONCLICK="sortby('company');">Company</TH>
+			<TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
+			<TH ONCLICK="sortby('obtained');">Obtained</TH>
+			<TH ONCLICK="sortby('systems');">Systems</TH>
+			<TH ONCLICK="sortby('location');">Location</TH>
+			<TH ONCLICK="sortby('type');">Type</TH>
+		</TR>
+	</THEAD>
+	<TBODY ID="controllers"></TBODY>
+	<TFOOT>
+		<TR>
+			<TD COLSPAN="7" ID="footer"></TD>
+		</TR>
+	</TFOOT>
+</TABLE>
+
 <SCRIPT>
 	var sortcol 			= "peripheral";
 	var ascending 			= true;
-	var reason 			= "";
-	var found 			= 0;
-	var ret 			= [];
-	var stats 			= {};
+	var reason 				= "";
+	var found 				= 0;
+	var ret 				= [];
+	var stats 				= {};
 	
 	window.addEventListener('load', function () {
 		query();
@@ -20,12 +62,12 @@ classes: wide
 		makeselect("locations", enum_property("location"), "Locations");
 		makeselect("type", enum_property("type"), "Types");
 
-		var HTML 		= '<OPTION VALUE="" CLASS="bold">Obtained</OPTION><OPTION VALUE="[other]">Other</OPTION>';
-		var dates 		= enum_property("dates");
+		var HTML 			= '<OPTION VALUE="" CLASS="bold">Obtained</OPTION><OPTION VALUE="[other]">Other</OPTION>';
+		var dates 			= enum_property("dates");
 		var month;
 		for(var year in dates){
 			if(dates.hasOwnProperty(year)){
-				HTML	+= '<OPTION>' + year + '</OPTION>';
+				HTML		+= '<OPTION>' + year + '</OPTION>';
 				for(month = 1; month < 13; month++){
 					if(dates[year].hasOwnProperty(month)){
 						HTML += '<OPTION VALUE="' + year + '-' + month.pad(2) + '">&nbsp;&nbsp;&nbsp;&nbsp;' + month_names[ month-1 ] + '</OPTION>';
@@ -38,10 +80,10 @@ classes: wide
 	
 	function sortby(column){
 		if(column == sortcol){
-			ascending 	= !ascending;
+			ascending 		= !ascending;
 		} else {
-			ascending 	= true;
-			sortcol 	= column;
+			ascending 		= true;
+			sortcol 		= column;
 		}
 		query();
 	}
@@ -408,37 +450,58 @@ classes: wide
 	}
 </SCRIPT>
 
-<TABLE CLASS="table">
-	<THEAD>
-		<TR>
-			<TD COLSPAN="7">
-				<INPUT TYPE="text" ID="searchtext" ONKEYUP="query();" PLACEHOLDER="Search">
-				<SELECT ID="sections" ONCHANGE="query();"></SELECT>
-				<SELECT ID="companies" ONCHANGE="query();"></SELECT>
-				<SELECT ID="systems" ONCHANGE="query();"></SELECT>
-				<SELECT ID="locations" ONCHANGE="query();"></SELECT>
-				<SELECT ID="obtained" ONCHANGE="query();"></SELECT>
-				<SELECT ID="type" ONCHANGE="query();"></SELECT>
-				<BUTTON ONCLICK="make_stats(); return false;">View Statistics</BUTTON>
-			</TD>
-		</TR>
-		<TR STYLE="cursor: pointer;">
-			<TH ONCLICK="sortby('peripheral');">ID</TH>
-			<TH ONCLICK="sortby('company');">Company</TH>
-			<TH ONCLICK="sortby('peripheralName');">Peripheral Name</TH>
-			<TH ONCLICK="sortby('obtained');">Obtained</TH>
-			<TH ONCLICK="sortby('systems');">Systems</TH>
-			<TH ONCLICK="sortby('location');">Location</TH>
-			<TH ONCLICK="sortby('type');">Type</TH>
-		</TR>
-	</THEAD>
-	<TBODY ID="controllers"></TBODY>
-	<TFOOT>
-		<TR>
-			<TD COLSPAN="7" ID="footer"></TD>
-		</TR>
-	</TFOOT>
+<DIV ID="compatibility" CLASS="tabs dont-show"></DIV>
+
+<TABLE ID="games" CLASS="table tabs dont-show">
+   <THEAD>
+      <TR>
+         <TD COLSPAN="3">
+            <INPUT ID="game-name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query_games();" ONPASTE="query_games();">
+            <SELECT ID="game-medium" ONCHANGE="query_games();"></SELECT>
+	    <A CLASS="float-right" HREF="https://steamcommunity.com/id/NeoTechni/games/?tab=all">My Steam Library</A>
+         </TD>
+      </TR>
+      <TR>
+         <TH>Name</TH>
+         <TH>Entries</TH>
+         <TH>System</TH>
+      </TR>
+   </THEAD>
+   <TBODY ID="games-results"></TBODY>
+   <TFOOT>
+      <TR><TD ID="games-footer" COLSPAN="3"></TD></TR>
+   </TFOOT>
 </TABLE>
+
+<TABLE ID="movies" CLASS="table tabs">
+    <THEAD>
+      <TR>
+        <TD COLSPAN="3">
+          <INPUT ID="name" TYPE="text" PLACEHOLDER="Search" ONKEYUP="query_movies();" ONPASTE="query_movies();">
+          <SELECT ID="medium" ONCHANGE="query_movies();">
+            <OPTION VALUE="">Medium</OPTION>
+            <OPTION>4K Bluray</OPTION>
+            <OPTION>3D Bluray</OPTION>
+            <OPTION>Bluray</OPTION>
+            <OPTION>DVD</OPTION>
+            <OPTION>UMD</OPTION>
+          </SELECT>
+        </TD>
+      </TR>
+      <TR>
+        <TH>Name</TH>
+        <TH>Entries</TH>
+        <TH>Medium</TH>
+      </TR>
+    </THEAD>
+    <TBODY ID="results"></TBODY>
+    <TFOOT>
+      <TR>
+        <TD ID="footer" COLSPAN="3"></TD>
+      </TR>
+    </TFOOT>
+</TABLE>
+
 
 <STYLE>
 	.table thead{
@@ -459,4 +522,1013 @@ classes: wide
 		padding-left		: 0px;
 		padding-right		: 0px;
 	}
-</STYLE>	
+	
+	.medium-4k-bluray td{
+		color: black;
+		font-weight: bold;
+	}
+	
+	.medium-3d-bluray td{
+		color: red;
+		font-weight: bold;
+	}
+
+	.medium-bluray td{
+		color: #0095D5;
+		font-weight: bold;
+	}
+	
+	#cards p{
+		margin-bottom: 0;
+	}
+
+	.steelbook {
+		background: linear-gradient(-45deg, #fff087, #eccf02, #fff087);
+		background-size: 50% 100%;
+		animation: linear-gradient 10s linear infinite;
+	}
+	
+	@keyframes linear-gradient {
+		0% {
+			background-position: 0% 50%
+		}
+	
+		100% {
+			background-position: 400% 400%
+		}
+	}
+
+	#games thead, #movies thead{
+		position: sticky;
+		top: 50px
+	}
+
+	#footer, #games-footer{
+		position: sticky;
+		bottom: 0;
+	}
+</STYLE>
+
+<SCRIPT>
+	var total = 0;
+	
+   window.addEventListener('load', function () {
+		var HTML = "";
+		for(var section in games){
+			if(games.hasOwnProperty(section)){
+				HTML += showgames(section, false);
+			}
+		}
+		set_HTML("compatibility", HTML);
+		query_games(true);
+		query_movies();
+
+		switchtab('controllertab');
+  });
+
+   function switchtab(towhat){
+	  	setVisible(".tabs", false);
+	    setVisible("#" + towhat, true);
+   }
+	
+  function query_movies(){
+	    var HTML                            = '';
+	    var results                         = 0;
+	    var text 		                = set_HTML("name", null, "val");
+	    var medi   		                = set_HTML("medium", null, "val");
+	    total				= 0;
+	    for(var medium in movies){
+	      if(movies.hasOwnProperty(medium)){//makes sure it's my data and not a JS property
+	        if(!medi || medium == medi){
+	          for(var movie in movies[medium]){
+	            if(movies[medium].hasOwnProperty(movie)){//makes sure it's my data and not a JS property
+	              if(!text || movie.contains(text) || arraycontains(movies[medium][movie], text)){
+	                HTML                   += make_movie(medium, movie);
+	                results                ++;
+	              }
+	            }
+	          }
+	        }
+	      }
+	    }
+	    set_HTML("results", HTML);
+	    set_HTML("footer", results + " result(s) found (" + total + " including entries)");
+  }
+  
+   function query_games(firsttime = false){
+      var HTML                          = '';
+      var results                       = 0;
+      var text 		                	= set_HTML("game-name", null, "val");
+      var medi   		        		= set_HTML("game-medium", null, "val");
+      total				= 0;
+      if(firsttime){
+         firsttime                      = '<OPTION VALUE="">System</OPTION>';
+      }
+      for(var medium in thegames){
+         if(thegames.hasOwnProperty(medium)){ //makes sure it's my data and not a JS property
+              if(firsttime){
+                 	firsttime       += '<OPTION>' + medium + '</OPTION>';
+              }
+              if(!medi || medium == medi){
+                   for(var movie in thegames[medium]){
+                        if(thegames[medium].hasOwnProperty(movie)){//makes sure it's my data and not a JS property
+                             if(!text || movie.contains(text) || arraycontains(thegames[medium][movie], text)){
+                                  HTML += make_game(medium, movie);
+                                  results ++;
+				  total ++;
+                             }
+                        }
+                   }
+              }
+         }
+      }
+      if(firsttime){
+         console.log("Mediums: " + firsttime);
+         set_HTML("game-medium", firsttime);         
+      }
+      set_HTML("games-results", HTML);
+      set_HTML("games-footer", results + " result(s) found (" + total + " including entries)");
+  }
+
+  function arraycontains(arr, text){
+	   if(Array.isArray(arr)){
+		  for(var i = 0; i < arr.length; i++){
+			  if(arr[i].toString().contains(text)){
+				  return 	true;
+			  }
+		  }
+  	   }
+	   return			false;
+  }
+
+  function make_game(medium, game){
+	    var HTML                            = '<TR CLASS="medium-' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + game + '</TD><TD>';
+	    if(thegames[medium][game].length > 0){
+	    	HTML                           	+= thegames[medium][game].join(", ");
+	    	total			       			+= thegames[medium][game].length - 1;
+	    }
+	    HTML                               += '</TD><TD>' + medium + '</TD></TR>';
+	    if(HTML.contains("Steelbook")){
+	     	 HTML                           = HTML.replace("[s]", 'steelbook');
+	    } else {
+			HTML                            = HTML.replace("[s]", '');
+	    }
+	    return                            	 HTML;
+  }
+
+  function make_movie(medium, movie){
+	    var HTML                            = '<TR CLASS="medium-' + medium.toLowerCase().replace(" ", "-") + ' [s]"><TD>' + movie + '</TD><TD>';
+	    if(movies[medium][movie].length > 0){
+	    	HTML                           += movies[medium][movie].join(", ");
+	    	total			       			+= movies[medium][movie].length - 1;
+	    }
+	    HTML                               += '</TD><TD>' + medium + '</TD></TR>';
+	    if(HTML.contains("Steelbook")){
+	     	 HTML                           = HTML.replace("[s]", 'steelbook');
+	    } else {
+			HTML                            = HTML.replace("[s]", '');
+	    }
+	    return                            	 HTML;
+  }
+	    
+var thegames = {
+"3DS": {
+	"Ace Combat" 						: ["Assault Horizon Legacy"],
+	"Animal Crossing"					: ["Happy Home Designer", "New Leaf"],
+	"Bravely Default"					: [1],
+	"Corpse Party"						: [],
+	"Cubic Ninja"						: [],
+	"Disney: Magical Worlds"			: [1, 2],
+	"Dream Trigger 3D"					: [],
+	"Fantasy Life"						: [],
+	"Gabrielle's Ghostly Groove 3D"		: [],
+	"Harvest Moon"						: ["A New Beginning"],
+	"Hometown Story"					: [],
+	"Legend of Zelda"					: ["Hyrule Warriors", "Link Between Worlds", "Majora's Mask 3D", "Ocarina of Time 3D", "Triforce Heroes"],
+	"Moco Moco Friends"					: [],
+	"Monster Hunter"					: ["Stories"],
+	"PilotWings"						: [],
+	"Pokémon"                   		: ["Moon", "Rumble Blast", "Sun", "Y"],
+	"Project X-Zone"					: [],
+	"Resident Evil"						: ["Revelations", "The Mercenaries 3D"],
+	"Starfox"							: ["64 3D"],
+	"Steel Diver"						: [],
+	"Story of Seasons"					: [],
+	"Style Savvy: Trendsetters"			: [],
+	"Super Monkey Ball 3D"				: [],
+	"Tomadachi Life"					: [],
+	"Tom Clancy's"						: ["Ghost Recon: Shadow Wars"],
+ }, "DreamCast": {
+	"Crazy Taxi"						: [],
+	"Phantasy Star Online"				: [1, 2],
+	"Sonic Adventure"					: [1],
+	"Unreal Tournament"					: [],
+	"Virtual On"						: ["Oratario Tangram"],
+	"Web Browser"						: [],
+ }, "DS": {
+	"Arkanoid DS"						: [],
+	"Bomberman"							: [],
+	"Final Fantasy"						: ["Tactics A2"],
+	"Flaw"								: [],
+	"Guitar Hero"						: [],
+	"Hello Kitty Daily"					: [],
+	"Legend of Zelda"					: ["Phantom Boredomglass", "Spirit Tracks"],
+	"LEGO"								: ["Lord of the Rings"],
+	"Lost in Blue"						: [],
+	"Love and Berry"					: [],
+	"Lunar"								: ["Dragon Song"],
+	"Moon"								: [],
+	"My Weight Loss Coach"				: [],
+	"My Sims"							: [],
+	"Nintendogs"						: ["Lab and Friends"],
+	"Petz"								: ["Catz 2", "Catz Plan"],
+	"Planet Puzzle League"				: [],
+	"Pokémon"                   		: ["Black", "Diamond", "Heart Gold", "Mystery Dungeon", "Platinum", "Soul Silver", "Typing", "White"],
+	"Ragnarok"							: [],
+	"Slide Adventure: Mag Kid"			: [],
+	"Sonic"								: ["Classic Collection"],
+	"Space Invaders Extreme"			: [1, 2],
+	"Spore: creatures"					: [],
+	"Super Bust -a- Move"				: [],
+	"Super Mario"						: ["Bros.", "DS"],
+	"Teku Teku Angel Pocket"			: [],
+	"Wappy Dog"							: [],
+ }, "eReader cards": {
+	"Misc"								: ["Do the Kirby Slide"],
+	"NES games"							: ["Balloon Fight", "Baseball", "Clu Clu Land", "Donkey Kong 3", "ExciteBike", "Golf", "Pinball", "Tennis", "Urban Champion"],
+	"Pokémon Channel"					: ["Line Art Card: The Kyogre Constellation", "Line Art Card: The Pikachu Star", "Paint Pattern Card: Poké A La Card"],
+	"Pokémon Ruby/Sapphire"				: ["EON Ticket: S.S. Tidal", "Gentleman Nils"],	
+	"Retro Dot Cards"					: ["Series 1: Bomb Hunter, E-Snake, Exo Attack, Franny Answers, Solitaire, Scavenger Attack"],
+ }, "Evercade": {
+	"Duke Nukem"						: ["Collection 1: 1, 2, 3D", "Collection 2: Time to Kill, Land of the Babes, Advance"],
+	"iRem"								: ["Arcade 1: R-Type, Moon Patrol, In the Hunt, Battle Chopper, Lightning Swords, 10-Yard Fight"],
+	"Piko!"								: ["Collection 1: 8 Eyes, Brave Battle Saga, Canon – Legends of the New Gods, Drakkhen, Dragon View, Dorke and Ymp, Iron Commando, The Immortal, Jim Power – The Lost Dimension, Magic Girl, Nightshade, Power Piggs of the Dark Ages, Power Punch II, Radical Rex, Switchblade, The Humans, Tinhead, Top Racer, Exploding Fist, Water Margin"],
+	"Namco Museum"						: ["Collection 1: Battle Cars, Dig Dug, Galaxian, Libble Rabble, Mappy, Mappy Kids, Metal Marines, Pac-Man, Quad Challenge, Star Luster, Xevious"],
+	"Mega Cat Studios"					: ["Collection 1: Almost Hero, Creepy Brawlers, Coffee Crisis, Justice Duel, Log Jammers, Little Medusa, Multidude, Old Towers, Super painter, Tänzer"],
+	"RogueCraft DX"						: [],
+	"Tomb Raider"						: ["Collection 1: I, II, III", "Collection 2: The Last Revelation, Chronicles"],
+ }, "Game Boy": {
+	"Camera"							: [],
+	"Face Ball"							: [],
+	"Hello Kitty"						: [],
+	"Legend of Zelda"					: ["Link's Awakening"],
+	"Pokémon"                   		: ["Red"],
+	"Sonar Boy"							: [],
+ }, "Game Boy Color": {
+	"10 Pin Bowling"					: [],
+	"Chee Chai Alien"					: [],
+	"Dance Dance Revolution"			: [],
+	"Dragon Warrior"					: ["1 & 2"],
+	"Get Mushi Club"					: ["Minna no Konchuu Daizukan"],
+	"Hole in One Golf"					: [],
+	"Kirby"								: ["Tilt 'n Tumble"],
+	"Kite's Adventure"					: [],
+	"Legend of the River King"			: [4],
+	"Legend of Zelda"					: ["Link's Awakening DX", "Oracle of Ages", "Oracle of Seasons"],
+	"Missile Command"					: [],
+	"NASCAR Challenge"					: [],
+	"Perfect Dark"						: [],
+	"Pokémon"                   		: ["Gold", "Pinball", "Puzzle Challenge", "Trading Card Game", "Yellow"],
+	"Polaris Snocross"					: [],
+	"Quest for Camelot"					: [],
+	"Rampart"							: [],
+	"Ready 2 Rumble Boxing"				: [],
+	"Sakura Wars"						: [],
+	"Singer Sewing Machine"				: [],
+	"Star Wars: Episode I"				: ["Racer"],
+	"Super Black Bass Real Fight"		: [],
+	"Super Real Fishing"				: [],
+	"Survival Kids"						: [],
+	"Test Drive Off-Road 3"				: [],
+	"The Little Mermaid II"				: ["Pinball Frenzy"],
+	"Tonka Raceway"						: [],
+	"Top Gear Pocket"  					: [1, 2],
+	"Ultra Pinball Thrill Ride"  		: [],
+	"Vigilante 8"						: [],
+	"Zebco Fishing"						: [],
+	"Zok Zok Heroes"					: [],
+ }, "Game Boy Advance": {
+	"Bomberman Story"					: [],
+	"Broken Sword"						: [],
+	"Carrera Power Slide"				: [],
+	"Doom"								: [1, 2],
+	"Dr. Mario + Panel de Pon"			: [],
+	"Duel Masters"						: [],
+	"Duke Nukem Advance"				: [],
+	"Ecks vs Sever"						: [1, 2],
+	"F14 Tomcat"						: [],
+	"Final Fantasy"						: ["Tactics Advance"],
+	"Full Metal Alchemist"				: [],
+	"Gauntlet + Rampart"				: [],
+	"Golden Nugget Casino + Texas Hold'em": [],
+	"Golden Sun"						: [1, 2],
+	"Grand Theft Auto"					: [],
+	"Harvest Moon"						: ["Friends of Mineral Town", "More Friends of Mineral Town"],
+	"Iridion 3D"						: [1, 2],
+	"Pokémon"                       	: ["Fire Red", "Mystery Dungeon", "Pinball", "Ruby"],
+	"Legend of Zelda"					: ["NES Classic: 1", "Link to the Past", "Minish Cap"],
+	"Lufia"								: [],
+	"Marble Madness + Klax"				: [],     
+	"Mario Kart Advance"				: ["JPN"],
+	"Mirumo de Pon!"					: ["Hachinin no Toki no Yousei"],
+	"Monopoly"							: [],
+	"Mother"							: [1, 2],
+	"Shantae"							: ["Risky Revolution"],
+	"Star Wars"							: ["Flight of the Falcon"],
+	"Super Dodgeball Advance"			: [],
+	"Super Mario"						: ["NES Classic: 1", "Advance 1", "Advance 2", "Advance 4", "Pinball Land"],
+	"Sword of Mana"						: [],
+	"Telefang"							: [2],
+	"Wolfenstein 3D"					: [],
+	"Zoids Cyber Drive"					: [],
+ }, "Game Cube": {
+	"Animal Crossing"					: [],
+	"Bomberman Jetters"					: [],
+	"Bust -a- Move"						: [3000],
+	"Cubivore"							: [],
+	"Custom Robo"						: [],
+	"Die Hard"							: [],
+	"Game Shark"						: [],
+	"GB Player"							: [],
+	"Geist"								: [],
+	"Final Fantasy"						: ["Crystal Chronicles"],
+	"Free Loader"						: [],
+	"Ikaruga"							: [],
+	"Legend of Zelda"					: ["Collector's Edition", "Four Swords", "Ocarina of Time + Master Quest", "Wind Waker"],
+	"Mario Kart"						: ["Double Dash"],
+	"Metal Gear Solid"					: [2],
+	"Metroid Echos"						: ["Bonus Disc"],
+	"Nintendo Puzzle Collection"		: ["Dr. Mario, Panel de Pon, Yoshi's Cookie, Wario's Woods"],
+	"Pokémon"                      	 	: ["Box", "Channel", "Colosseum", "Colosseum: Bonus Disc"],
+	"Star Wars"							: ["Rogue Squadron III"],
+	"Super Mario"						: ["Sunshine"],
+	"Super Smash Bros."					: ["Melee"],
+	"Tales of Symphonia"				: [],
+	"TimeSplitters"						: [2],
+	"Resident Evil"						: [0, 1],
+	"Robotech: Battlecry"				: [],
+	"Yugioh!"							: ["The Something Kingdom"],
+ }, "Game Gear": {
+	"Sonic"								: [1, 2, "Chaos", "Spinball"],
+	"Super Columns"						: [],
+	"Terminator"						: [2],
+	"The Lion King"						: [],
+	"X-Men"								: [],
+ }, "Neo Geo Pocket": {
+	"Card Fighters Clash"				: ["SNK vs. Capcom"],
+ }, "N•Gage": {
+	"Puzzle Bobble"						: [""],
+ }, "Nintendo 64": {
+	"GoldenEye"							: [],
+	"Killer Instinct"					: [],
+	"Legend of Zelda"					: ["Ocarina of Time", "Majora's Mask"],
+	"Mortal Kombat"						: [],
+	"Perfect Dark"						: [],
+	"Pokémon"							: ["Stadium 1", "Stadium 2", "Snap", "Puzzle League", "Hey You: Pikachu!"],
+	"Resident Evil"						: [2],
+	"Tony Hawk Pro Skater"				: [],
+	"Wayne Gretsky's 3D Hockey"			: [],
+	"WWF War Zone"						: [],
+ }, "Pokémon Mini" : {
+	"Pikachu"							: [],
+	"Pinball"							: [],
+ }, "PC": {
+	"Dead Rising"						: [3],
+	"Fallout"							: ["Collector's Edition: Fallout 76, Fallout 4: Game of the Year Edition, Fallout 3: Game of the Year Edition, Fallout New Vegas: Ultimate Edition, Fallout Tactics, Fallout 2, Fallout"],
+	"Star Trek"							: ["VOY: Borg", "TNG: Final Unity", "DS9: Harbinger", "Online"],
+	"Virtual On"						: ["Operation Moongate"],
+ }, "PlayStation 1": {
+	"Chrono Trigger"					: [],
+	"Crash Bandicoot"					: [2],
+	"Demo Discs"						: ["Duke Nukem: Time to Kill"],
+	"Final Fantasy"						: ["I", "II", "IV", "V", "VI", "VII", "VIII", "IX", "Tactics"],
+	"Grand Theft Auto"					: [1, "London"],
+	"KidStation"						: [],
+	"Legend of Legaia"					: [],
+	"Lunar"								: [1, 2],
+	"Parasite Eve"						: [1, 2],
+	"Pop'n Music"						: [2],
+	"Power Shovel"						: [],
+	"Quake"								: [2],
+	"Return Fire"						: [],
+	"Rhapsody"							: [],
+	"RPG Maker"							: [],
+	"Silhouette Mirage"					: [],
+	"The Maestromusic"					: [1, "Merry Christmas"],
+	"Tokimeki Memorial"					: [2],
+	"Twisted Metal"						: [2],
+	"Vanguard Bandits"					: [],
+	"Wild Arms"							: [],
+ }, "PlayStation 2": {
+	"Ace Combat"						: [0, 4, 5],
+	"Armored Core"						: [3],
+	"Castle Shikigami"					: [2],
+	"Dark Cloud"						: [],
+	"Demo Discs"						: ["XIII", "The Punisher", "Black", "Dragon Quest VIII"],
+	"Dino Stalker"						: [],
+	"Final Fantasy"						: ["X", "X2"],
+	"Front Mission"						: [4],
+	"Grandia"							: [2],
+	"Gran Turismo"						: ["3: A-spec"],
+	"Growlanser"						: ["Generations", "Heritage of War"],
+	"Gungriffon Blaze"					: [],
+	"Half-Life"							: [],
+	"Ico"								: [],
+	"Kingdom Hearts"					: [],
+	"Killzone"							: [],
+	"La Pucelle Tactics"				: [],
+	"Life Line"							: [],
+	"Metal Gear Solid"					: ["3: Subsistence"],
+	"Midway Arcade Treasures"			: [1],
+	"Odin Sphere"						: [],
+	"Oni"								: [],
+	"Phantom Brave"						: [],
+	"Rebel Raiders"						: [],
+	"Resident Evil"						: [4],
+	"RPG Maker"							: [2],
+	"Shadow of the Colossus"			: [],
+	"Silent Hill"						: [2],
+	"Silent Scope"						: [],
+	"Silpheed: The Lost Planet"			: [],
+	"Star Ocean"						: ["Till the End of Time"],
+	"Star Trek"							: ["Encounters"],
+	"Time Crisis"						: [2, "Crisis Zone"],
+	"TimeSplitters"						: [],
+	"Twisted Metal"						: ["Black"],
+	"Virtual On"						: ["Marz"],
+	"We ❤️ Katamari"					: [],
+	"Xenosaga"							: [],
+ }, "PlayStation 3": {
+	"3D Dot Game Heroes"				: [],
+	"Ace Combat"						: ["Assault Horizon"],
+	"Arkham Series"						: ["Origins", "City"],
+	"Atelier Series"					: ["Totori"],
+	"Blades"							: [],
+	"Cabella's"							: ["Dangerous Hunt"],
+	"Dead Island"						: [],
+	"Dead Rising"						: ["2: Off the Record"],
+	"Dead Space"						: [1, 2, 3],
+	"Disgaea"							: [3],
+	"Disney Infinity"					: [],
+	"Eternal Sonata"					: [],
+	"EyePet"							: [],
+	"Fallout"							: [3, "New Vegas"],
+	"Final Fantasy"						: ["XIII"],
+	"Front Mission"						: ["Evolved"],
+	"Full Auto"							: [2],
+	"Gal*Gun"							: [],
+	"Grand Theft Auto"					: ["IV"],
+	"Guitar Hero"						: [3],
+	"Haze"								: [],
+	"Heavenly Sword"					: [],
+	"Ico + Shadow of the Colossus"		: [],
+	"Infamous"							: [2],
+	"Killzone"							: [2, 3],
+	"Kung Fu Rider"						: [],
+	"LittleBigPlanet"					: [2, "Karting"],
+	"Lollipop Chainsaw"					: [],
+	"Medieval Moves"					: [],
+	"Metal Gear"						: ["Rising", "Solid: 4", "Solid: HD Collection"],
+	"Motor Storm"						: ["Apocalypse"],
+	"Neptunia Series"					: ["HyperDimension", "HyperDimension mk2", "HyperDimension V"],
+	"Portal"							: ["1 (In: The Orange Box)", 2],
+	"Ratchet & Clank Future"			: ["Tools of Destruction"],
+	"Resident Evil"						: [6, "Revelations"],
+	"Resistance"						: [1, 2, "2 Bonus DVD", 3],
+	"Saints Row"						: ["IV"],
+	"SOCOM"								: [4],
+	"The Awakened Fate Ultimatum"		: [],
+	"The Bureau"						: [],
+	"The Eye eof Judgment"				: [],
+	"The Guided Fate Paradox"			: [],
+	"The Last of Us"					: [],
+	"The Orange Box"					: [],
+	"Time Crisis"						: ["Razing Storm", 4],
+	"Tom Clancy's"						: ["Splinter Cell: Blacklist", "Ghost Recon: Advanced Warfighter 2"],
+	"Tony Hawk Ride"					: [],
+	"uDraw Studio"						: [],
+	"Uncharted"							: [3],
+	"Unreal Tournament"					: [],
+	"Untold Legends"					: ["Dark Storm"],
+	"Valkyria Chronicles"				: [],
+	"Warhawk"							: [],
+	"You Don't Know Jack"				: [],
+	"Zone of the Enders"				: ["HD Collection"],
+ }, "PlayStation 4": {
+	"Ace Combat"						: [7],
+	"Agents of Mayhem"					: [],
+	"Akiba's Trip"						: ["Undead & Undressed"],
+	"Alien"								: ["Isolation", "Fireteam Elite"],
+	"Arcade Paradise"					: [],
+	"Arkham Series"						: ["Knight", "VR"],
+	"Arma Gallant"						: [],
+	"Assassin's Creed"					: ["The Ezio Collection"],
+	"Astro Bot"							: [],
+	"Azure Lane"						: ["Crosswave"],
+	"Battlezone"						: [],
+	"Bioshock"							: ["The Collection"],
+	"Blood & Truth"						: [],
+	"Borderlands"						: ["The Handsome Collection"],
+	"Bullet Girls Phantasia"			: [],
+	"Call of Duty"						: ["Black Ops I", "Black Ops II", "Ghosts", "Advanced Warfare", "Infinite Warfare"],
+	"Crash Bandicoot"					: ["N'sane Trilogy"],
+	"Cyberpunk 2077"					: [],
+	"Days Gone"							: [],
+	"Dead Rising"						: [1, 2, 4],
+	"Death Stranding"					: [],
+	"Demo Discs"						: ["VR"],
+	"Destiny"							: [],
+	"Disney Infinity"					: [2, 3],
+	"dot Hack//"						: ["G.U. Last Recode"],
+	"Doom"								: ["VFR", "3: VR Edition"],
+	"Dragon Quest Builders"				: [2],
+	"Fallout"							: [4],
+	"FarCry"							: [4, "New Dawn", 5],
+	"Farpoint"							: [],
+	"Final Fantasy"						: ["VII Remake"],
+	"Ghost of Tsushima"					: [],
+	"Gravity Rush"						: [],
+	"Gundam"							: ["Versus", "New Breaker"],
+	"Hidden Agenda"						: [],
+	"Horizon"							: ["Zero Dawn", "Forbidden West"],
+	"Infamous"							: ["Second Son"],
+	"Is It Wrong to Pick Up Girls in a Dungeon?": ["Infinite Combate"],
+	"Just Cause"						: [4],
+	"Killzone"							: ["Shadow Fall"],
+	"Knack"								: [],
+	"Langrisser"						: [1, 2],
+	"LEGO"								: ["Worlds"],
+	"MediEvil"							: [],
+	"Metal Gear Solid"					: ["V: Ground Zeroes", "V: The Phantom Pain"],
+	"Miss Kobayashi's Dragon Maid"		: ["Burst Forth!! Choro-chan Breath"],
+	"Neptunia Series"					: ["VIIR", "4 Goddesses Online", "Virtual Stars", "Megadimension VII", "Senran Kagura: Ninja Wars"],
+	"Omega Quintet"						: [],
+	"Onechanbara"						: ["ZII"],
+	"Operation Warcade"					: [],
+	"Outcast"							: ["Second Contact"],
+	"PlayStation VR Worlds"				: [],
+	"Prey"								: [],
+	"Resident Evil"						: ["VII"],
+	"Retro City Rampage"				: [],
+	"Rigs"								: [],
+	"Robinson: The Journey"				: [],
+	"Shadow of the Colossus"			: [],
+	"Sniper Elite"						: ["III"],
+	"Sonic"								: ["Frontiers"],
+	"Spider-Man"						: [],
+	"Starlink"							: [],
+	"Star Trek"							: ["Bridge Crew"],
+	"Star Wars"							: ["Battlefront"],
+	"Surviving Mars"					: [],
+	"Sword Art Online"					: ["Hollow Realization", "Alicization Lycoris", "Fatal Bullet"],
+	"The Inpatient"						: [],
+	"The Last Guardian"					: [],
+	"The Last of Us"					: [2],
+	"The Outer Worlds"					: [],
+	"Titanfall"							: [2],
+	"Touhou Kobuto"						: ["V"],
+	"Tom Clancy's"						: ["The Division"],
+	"Uncharted"							: [4, "The Nathan Drake Collection", "The Lost Legacy"],
+	"Until Dawn"						: ["Rush of Blood"],
+	"Utawarerumono"						: ["Mask of Truth"],
+	"Valkyria Chronicles"				: ["1: Remastered", 4],
+	"Virtual On"						: ["A Certain Magical..."],
+	"Watch Dogs"						: [1, 2],
+	"Wolfenstein"						: ["Cyberpilot"],
+ }, "PlayStation 5": {
+	"Alice Gear CS"						: [],
+	"Armored Core"						: ["VI"],
+	"AstroBot"							: [],
+	"Callisto Protocol"					: [],
+	"Dead Rising"						: ["Deluxe Remaster"],
+	"Dead Space"						: [],
+	"FarCry"							: [6],
+	"Final Fantasy"						: ["VII: Crisis Core Reunion", "Tactics"],
+	"Freedom Wars"						: [],
+	"God of War"						: ["Ragnarok"],
+	"Guardians of the Galaxy"			: [],
+	"Helldivers"						: [2],
+	"Immortals Fenyx Rising"			: [],
+	"Lunar Collection"					: ["1 & 2"],
+	"Mech Warrior"						: ["5: Mercenaries"],
+	"Metal Gear Solid"					: ["Master Collection 1", "Δ: Snake Eater"],
+	"Midnight Suns"						: [],
+	"Neptunia Series"					: ["Re*Verse", "Sisters VS Sisters", "Game Maker R:Evolution", "Riders vs Dogoos"],
+	"Ratchet & Clank"					: ["Rift Apart"],
+	"Relayer"							: [],
+	"Rhapsody"							: ["Marl Kingdom Chronicles"],
+	"RoboCop"							: ["Rogue City: Unfinished Business"],
+	"Stellar Blade"						: [],
+	"Stray"								: [],
+	"Yohane"							: ["Numazu in the Mirage"],
+	"Watch Dogs"						: ["Legion"],
+ }, "PlayStation Portable": {
+	"Ace Combat"						: ["Joint Assault", "X"],
+	"Armored Core"						: ["Formula Front"],
+	"Brave Story"						: [],
+	"Busou Shinki: Battle Masters"		: [],
+	"Coded Arms"						: [1, 2],
+	"Crazy Taxi"						: ["Fare Wars"],
+	"Daxter"							: [],
+	"Dead or Alive"						: ["Paradise"],
+	"Final Fantasy"						: ["Crisis Core"],
+	"Ghost in the Shell"				: ["Stand Alone Complex"],
+	"Go! Sudoku"						: [],
+	"Grand Theft Auto"					: ["Liberty City Stores", "Vice City Stories"],
+	"Growlanser"						: ["Wayfarer of Time"],
+	"Gurumin"							: ["NA", "JPN"],
+	"IL 2 Sturmovik"					: [],
+	"Jeanne d'Arc"						: [],
+	"Killzone"							: ["Liberation"],
+	"LocoRoco"							: [],
+	"Medievil"							: ["Resurrection"],
+	"Mercury Meltdown"					: [],
+	"Metal Gear"						: ["Solid: Peace Walker", "AC!D 1", "AC!D 2", "Portable Ops", "Portable Ops Plus", "Digital Novel"],
+	"Ragnarok Tactics"					: [],
+	"Resistance"						: ["Retribution"],
+	"Silent Hill"						: ["Origins", "Shattered Memories"],
+	"Star Ocean"						: ["First Departure"],
+	"Star Trek"							: ["Tactical Assault"],
+	"Syphon Filter"						: ["Dark Mirror", "Logan's Shadow"],
+	"The Legend of Heroes"				: [],
+	"Twisted Metal"						: ["Head On"],
+	"Ultimate Block Party"				: [],
+	"Untold Legends"					: [1, 2],
+	"Wild Arms"							: ["XF"],
+	"Ys"								: ["The Ark of Napishtim"],
+ }, "PlayStation Vita": {
+	"Aegis Earth"						: [],
+	"Assassin's Creed"					: ["III: Liberation"],
+	"Attack on Titan"					: [],
+	"Atelier Series"					: ["Shallie Plus"],
+	"AtField"							: [],
+	"Batman Blackgate"					: [],
+	"Borderlands"						: [2],
+	"Bullet Girls"						: [],
+	"Call of Duty"						: [],
+	"Corpse Party"						: [],
+	"Criminal Girls"					: [2],
+	"Danball Senki W"					: [],
+	"Deception"							: ["IV: Blood Ties"],
+	"Dengeki Bunko"						: ["Fighting Climax", "Fighting Climax Ignition"],
+	"Disney Infinity"					: [2],
+	"Drive Girls"						: [],
+	"Dungeon Hunter Alliance"			: [],
+	"Dynasty Warriors"					: ["Xtreme Legends", "Next"],
+	"Exist Archive"						: [],
+	"Exstetra"							: [],
+	"Final Fantasy"						: ["X", "X-2", "World"],
+	"Freedom Wars"						: [],
+	"Gal*Gun"							: ["Double Peace"],
+	"Girls Und Panzer"					: [],
+	"God Wars"							: [],
+	"Gravity Rush"						: [],
+	"Gundam"							: ["Breaker 1", "Breaker 2", "Breaker 3: Break Edition", "G Generations", "VS Force", "Seed: Battle Destiny", "Warriors"],
+	"Gun Gun Pixies"					: [],
+	"Hello Kitty"						: [],
+	"Injustice"							: ["Ultimate Edition"],
+	"Jak and Daxter"					: ["Collection"],
+	"Killzone"							: ["Mercenaries"],
+	"LEGO"								: ["Avengers", "Batman 2", "Star Wars: The Force Awakens"],
+	"Little Big Planet"					: [],
+	"Little Deviants"					: [],
+	"Lost Dimension"					: [],
+	"Macross Delta Scramble"			: [],
+	"Metal Gear Solid"					: ["HD Collection"],
+	"Minecraft"							: [],
+	"Mod Nation Racers"					: [],
+	"Moe Chronicles"					: [],
+	"Muv Luv"							: [1, "Alternative"],
+	"Need for Speed"					: ["Most Wanted"],
+	"Neptunia Series"					: ["PP (NA)", "PP (JPN)", "Blanc Zombies", "Re:Birth 1", "Re:Birth 2", "Re:Birth 3", "Action U", "Sega Hard Girls", "Noire"],
+	"Phantasy Star"						: ["Online 2", "Nova"],
+	"Psycho Pass"						: [],
+	"Rainbow Skies"						: [],
+	"Ragnarok Odyssey"					: [],
+	"Reco Love Gold Beach"				: [],
+	"Resident Evil"						: ["Revelations 2"],
+	"Resistance"						: ["Burning Skies"],
+	"Retro City Rampage"				: [],
+	"Senran Kagura"						: ["Shinovi Versus"],
+	"Shakedown Hawaii"					: [],
+	"Silent Hill"						: ["Book of Memories"],
+	"Sly Cooper"						: ["Collection", "Thieves in Time"],
+	"Sorcery Saga"						: [],
+	"Spider-man"						: ["Amazing"],
+	"Spy Hunter"						: [],
+	"Sword Art Online"					: ["Hollow Fragment", "Lost Song"],
+	"Toukiden"							: [2],
+	"Uncharted"							: ["Golden Abyss"],
+	"Unit 13"							: [],
+	"UnMetal"							: [],
+	"Valkyrie Drive"					: [],
+	"Virtual On"						: ["A Certain Magical..."],
+	"Wipeout"							: [2048],
+	"Yomawari + htol#NiQ"				: [],
+ }, "Saturn": {
+	"Virtual On"						: ["Operation Moongate"],
+ }, "Sega CD": {
+	"Popful Mail"						: [],
+	"Sewer Shark"						: [],
+ }, "Super Nintendo": 		{
+	"Final Fantasy"						: ["IV (JPN)", "V (JPN)", "VI (JPN)"],
+	"Legend of Zelda"					: ["Link to the Past"],
+	"Popful Mail"						: [],
+	"Mario Paint"						: [],
+	"Super Game Boy"					: [1],
+	"Super Mario"						: ["All Stars", "World"],
+	"Super Scope 6"						: [],
+	"Terminator 2"						: [],
+	"Tetris"							: [2, "Attack"],
+	"Yoshi's Safari"					: [],
+ }, "Switch": {
+	"Animal Crossing"					: ["New Horizons"],
+	"Bravely Default"					: [2],
+	"Dimension Drive"              		: [],
+	"Miitopia"							: [],
+	"My Sims"							: ["Cozy Bundle"],
+	"Legend of Zelda"					: ["Link's Awakening", "Skyward Sword HD", "Tears of the Kingdom", "Echoes of Wisdom"],
+	"Pokémon"                       	: ["Let's Go: Pikachu!", "Scarlet", "Sword"],
+	"Poi" 			        			: [],
+	"Resident Evil"                		: ["Revelations"],
+	"Seven Pirates H"               	: [],
+	"Solam"               				: [],
+	"Starlink" 		        			: [],
+	"Story of Seasons"					: ["Friend's of Mineral Town", "Pioneers of Olive Town", "Wonderful Life"],
+ }, "Tapwave Zodiac": {
+	"Z Pak: Adventure"					: ["Galactic Realms + Legacy"],
+ }, "TurboGrafx-16": {
+	"Volfied"							: [],
+ }, "Virtual Boy": {
+	"Galactic Pinball"					: [],
+	"Mario Clash"						: [],
+	"Panic Bomber"						: [],
+	"Red Alarm"							: [],
+	"Vertical Force"					: [],
+	"V Tetris"							: [],
+	"Wario Land"						: [],
+ }, "Wii": {
+	"Legend of Zelda"					: ["Skyward Sword", "Link's Crossbow Training"],
+ }, "Wii U": {
+	"Animal Crossing"					: ["amiibo Festival"],
+	"Legend of Zelda"					: ["Hyrule Warriors", "Breath of the Wild", "Twilight Princess HD", "The Wind Waker HD"],
+	"New Super Luigi U"					: [],
+	"Nintendo Land"						: [],
+	"Splatoon"							: [],
+	"Wii Fit"							: ["U"],
+	"ZombiU"							: [],
+ }, "WonderSwan": {
+	"Final Fantasy"						: [1],
+	"Wonder Borg"						: [],
+ }, "XBOX": {
+	"Blood Wake"						: [],
+	"Crimson Skies"						: [],
+	"Doom"								: [3],
+	"Fable"								: [],
+	"GTA"								: [3, "Vice City"],
+	"Gun valkyrie"						: [],
+	"Halo"								: [1, 2],
+	"Mech Assault"						: [1, 2],
+	"Metal Gear Solid"					: [2],
+	"Murakumo"							: [],
+	"Pariah"							: [],
+	"Phantom Crash"						: [],
+	"Red Faction"						: [2],
+	"RoboCop"							: [],
+	"Rogue Ops"							: [],
+	"Second Sight"						: [],
+	"Shenmue"							: [2],
+	"Silent Hill"						: ["4: The Room"],
+	"Silent Scope"						: [],
+	"Simpsons"							: ["Hit and Run"],
+	"Steel Battalion"					: [1, "Line of Combat"],
+	"Sudeki"							: [],
+	"The Elder Scrolls III"				: [],
+	"TimeSplitters"						: [2, "Future Imperfect"],
+	"Unreal Championship"				: [],
+	"Whacked!"							: [],
+	"XIII"								: [13],
+ }, "XBOX 360": {
+	"Chromehounds"						: [],
+	"Crackdown"							: [2],
+	"Dead or Alive"						: ["Xtreme 2"],
+	"Dead Rising"						: [1, 2],
+	"Death Smiles"						: [],
+	"Enchanted Arms"					: [],
+	"Fable"								: [2],
+	"Final Fantasy"						: ["XI"],
+	"Full Auto"							: [],
+	"Gears of War"						: [1, 2, "Judgement"],
+	"Halo"								: ["Reach", "Wars 1"],
+	"Kameo"								: [],
+	"Otomedius"							: ["Excellent"],
+	"Perfect Dark"						: ["Zero"],
+	"Prey"								: [],
+	"Project Sylpheed"					: [],
+	"Star Trek"							: ["Legacy"],
+	"Steel Battalion"					: ["The Garbage One"],
+	"Virtual On"						: ["Force"],
+ }, "XBOX One": {
+	"Gears of War"						: [5],
+	"Halo"								: [5],
+ }
+};
+
+
+var movies = {
+  "4K Bluray": {
+	"Akira"	                           	: ["Steelbook"],
+  	"Babylon 5"                        	: ["The Road Home"],
+  	"Battle Angel Alita"              	: [],
+  	"Guardians of the Galaxy"          	: [3],
+  	"Groundhog Day"                    	: ["Steelbook"],
+  	"Iron Man"                        	: [1],
+  	"Justice League"                   	: ["Snyder's Cut"],
+  	"Passengers"                       	: [],
+  	"Spiderman"                       	: ["No Way Home"],
+	"Superman"							: [2025],
+  	"Transformers"                     	: ["The Original (Steelbook)"],
+  		
+  }, "3D Bluray": {
+  	"Batman v Superman"               	: [],
+  	"Battle Angel Alita"              	: [],
+  	"Big Hero 6"                       	: [],
+  	"Frozen"                          	: [1, "2 (Steelbook)"],
+  	"Ghost in the Shell"   		   	   	: ["Live Action"],
+  	"Inside Out"                       	: [],
+  	"iRobot"                           	: [],
+  	"Iron Man"                         	: [3],
+  	"Justice League"                   	: [],
+  	"Maleficent"                       	: ["2 (Steelbook)"],
+  	"Man of Steel"                     	: [],
+  	"Moana"                            	: [1],
+  	"Passengers"                       	: [],
+  	"Prometheus"                       	: [],
+  	"Tangled"                          	: [],
+  	"Terminator"                       	: ["Genisys"],
+  	"The Avengers"                     	: ["The Avengers", "Age of Ultron", "Infinity War", "Endgame (Steelbook)"],
+  	"The Martian"                      	: [],
+  	"The Wolverine"                    	: [],
+  	"Thor"                             	: ["Ragnarok"],
+  	"Transformers"                     	: ["The Last Knight", "Dark of the Moon"],
+  	"Up"                               	: [],
+  	"Wreck it Ralph"                   	: [],
+  	"Zootopia"                         	: [],
+  
+  }, "Bluray": {
+  	"400 Days"                         	: [],
+  	"Akira"                            	: [],
+	"Alice in Wonderland"		   	   	: [1951],
+  	"Alien"                            	: [1, "Aliens", 3, "Resurrection", "Covenant"],
+  	"Aladdin"                          	: [1, 2, 3],
+  	"Anastasia"                        	: [],
+  	"Appleseed Ex"                     	: [],
+  	"A Scanner Darkly"                 	: [],
+  	"Back to the Future"               	: [1, 2, 3],
+  	"Batman"                           	: ["Tim Burton Anthology", "The Killing Joke", "Dark Knight trilogy"],
+  	"Beauty and the Beast"             	: [],
+  	"Bill & Ted"                       	: ["Excellent Adventure (Steelbook)"],
+  	"Bourne"                           	: [1, 2, 3, 4, 5],
+  	"Brave"                            	: [],
+  	"Captain America"                  	: ["First Avenger", "Winter Soldier", "Civil War"],
+  	"Chicken Little"                   	: [],
+  	"Cinderella"                       	: [],
+  	"Code Geass"                       	: [],
+  	"Deadpool"                         	: [1, 2, 3],
+  	"Despicable Me"                    	: [2],
+  	"Die Hard"                         	: [1, 2, "With a Vengeance", "A Good Day", "Live Free"],
+  	"Disney short films collection"    	: [],
+  	"Dragonheart"                      	: [1, "Vengeance"],
+  	"Dredd"                            	: [],
+  	"Edward Scissorhands"              	: [],
+  	"Elysium"                          	: [],
+  	"Enchanted"                        	: [],
+  	"Ender's Game"                     	: [],
+  	"Equestria Girls"                  	: [1, "Rainbow Rocks"],
+  	"Escape"                           	: [],
+  	"Event Horizon"                    	: [],
+  	"Ex_Machina"                       	: [],
+  	"Fern Gully"                       	: [],
+  	"Fifth Element"                    	: [],
+  	"Final Fantasy 7: Advent Children" 	: [],
+  	"Firefly"                          	: ["Entire series", "Movie"],
+  	"Flatliners"                       	: [],
+  	"Ghostbusters"                     	: [1, 2],
+  	"Guardians of the Galaxy"          	: [1],
+  	"Halo Collection"                  	: ["Legends", "Forward Unto Dawn", "Nightfall", "Fall of Reach"],
+  	"Hancock"                          	: [],
+  	"Hop"                              	: [],
+  	"How to Teach Your Dragon"         	: [2],
+  	"Inception"                        	: [],
+  	"Incredibles"                      	: [1, 2],
+  	"Iron Man"                         	: [2],
+  	"Judge Dredd"                      	: [],
+  	"Jurassic Park"                    	: [1, 2, 3, "World: 1, 2"],
+  	"Kingsmen"                         	: ["Golden Circle"],
+  	"Law Abiding Citizen"              	: [],
+  	"Lilo and Stitch"                  	: [1, 2],
+  	"Maleficent"                       	: [1],
+  	"Megamind"                         	: [],
+	"Moana"				  	 		   	: [2],
+  	"Mulan"                            	: [1, 2],
+  	"My Little Pony"                   	: ["Movie"],
+  	"Oblivion"                         	: [],
+  	"Paranorman"                       	: [],
+  	"Pirates of the Caribbean"         	: [1, 2, 3, 4, 5],
+  	"Pixar Shorts"                     	: [],
+  	"Planet of the Apes"               	: ["War"],
+  	"Pocahontas"                       	: [],
+  	"Ralph Breaks the Internet"        	: [],
+  	"Red vs Blue"                      	: ["Season 10"],
+  	"Resident Evil"                    	: [1, 2, 3],
+  	"Rise of the Guardians"            	: [],
+  	"RoboCop"                          	: [1, 2, 3, "Reboot"],
+  	"Sailor Moon"                      	: ["Crystal Vol: 1", "Super S", "R"],
+  	"Scrooged"                         	: [],
+  	"Shawshank Redemption"             	: [],
+  	"Shazam"                           	: [],
+  	"Sherlock Holmes"                  	: [1, 2],
+  	"Shrek"                            	: [1, 2, 3, 4],
+  	"Sonic The Hedgehog Movie"         	: [],
+  	"Spiderman"                        	: ["Original/Raimi: 1, 2, 3", "Amazing: 1, 2", "Homecoming", "Far from Home"],
+  	"Starship Yamato"                  	: [],
+  	"Star Trek"                        	: ["TAS", "TOS", "TNG", "All movies", "Kelvin/JJ: 1, Beyond, Into Darkness", "Lower Decks: 1-5", "PIC"],
+  	"Superman"                         	: [1, 2, 3, 4, "Returns", "Unbounded", "Red Son (Steelbook)"],
+	"Tangled"			   			   	: ["The Entire Series"],
+  	"Ted"                              	: [1, 2],
+  	"Terminator"                       	: [1, 2, 3, "Salvation", "Dark Fate"],
+  	"The Adjustment Bureau"            	: [],
+  	"The Avengers"                     	: ["Ultimate Collection"],
+  	"The Corpse Bride"                 	: [],
+  	"The Greatest Showman"             	: [],
+  	"The Green Mile"                   	: [],
+	"The Iron Giant"		           	: [],
+  	"The Little Mermaid"               	: [1, 2, 3],
+  	"The Martian"                      	: [],
+  	"Thing"                            	: [],
+  	"Thor"                             	: [1],
+  	"Thumbelina"                       	: [],
+  	"Tomorrowland"                     	: [],
+  	"Total Recall"                     	: ["Original", "Remake"],
+	"Toy Story"			   			   	: [1, 2, 3, 4],
+  	"Transformers"                     	: [1, "Revenge of the Fallen", "Age of Extinction"],
+  	"V for Vendetta"                   	: [],
+  	"Vice"                             	: [],
+  	"Virtuosity"                       	: [],
+  	"WALL-E"                           	: [],
+    "Watchmen"                         	: ["Director's Cut (Steelbook)", "Motion Comic"],
+  	"Who Framed Roger Rabbit"          	: [],
+  	"Wonder Woman"                     	: [],
+  	"World War Z"                      	: [],
+  	"X-Men"                            	: ["All movies up to Apocalypse"],
+  
+  }, "DVD": {
+  	"An evening with Kevin Smith"     	: [1, 2],
+  	"Astroboy"                         	: ["Entire original series"],
+  	"Batman Beyond"                    	: ["Entire series"],
+  	"Bedazzled"                        	: [],
+	"Card Captor Sakura"               	: ["Entire Series"],
+  	"Darkwing Duck"                    	: ["Vol 1, 2"],
+  	"Dilbert"                          	: ["The entire animated series"],
+  	"Family Guy"                       	: ["Vol 1, 2"],
+  	"Full Metal Panic"                 	: ["Mission 1"],
+  	"Futurama"                         	: ["Vol 1"],
+  	"Gargoyles"                        	: ["All but the last non-existent season"],
+  	"God, the Devil and Bob"           	: ["The entire series"],
+	"Idol Project"                     	: ["Vol 1", "Vol 2"],
+   	"Iria"                             	: ["Metal Box"],
+	"Jewel BEM Hunter"                 	: [],
+  	"Just Shoot Me"                    	: ["Season 1 and 2"],
+	"Justice League Unlimited"	   	   	: ["Season 1"],
+  	"Life Aquatic"                     	: [],
+  	"Lifepod"                          	: [],
+  	"Lost in Translation"              	: [],
+	"Magic User's Club"                	: ["Vol 1"],
+  	"Married... With Children"         	: ["Entire series"],
+  	"Metal Gear Solid"                 	: ["Vol 1", "Vol 2"],
+  	"Moon Phase"                       	: ["Entire series"],
+  	"Mr Bean"                          	: ["The Animated series"],
+  	"Otoboku"                          	: ["Entire series"],
+  	"Pretty in Pink"                   	: [],
+  	"RoboCop"                          	: ["Entire Series"],
+  	"Simpsons"                         	: ["Vol 1"],
+  	"Slayers"                          	: ["Original", "Try", "Next", "Movies", "OVA"],
+  	"Smallville"                       	: ["Seasons: 4, 5"],
+  	"Superman: The Animated Series"    	: ["Entire Series"],
+  	"Tekkaman Blade"                   	: [1, 2],
+  	"TekWar"                           	: ["Entire Series"],	  
+	"The Adventures of Super Mario Bros. 3" : [],
+  	"The Jerk"                         	: ["Entire series"],
+  	"The View Askewniverse"            	: ["Clerks (1, 2, TAS)", "Mallrats", "Chasing Amy", "Jay and Silent Bob"],
+  	"Trigun"                           	: ["High Noon", "Puppet Master"],
+	"V"                                	: ["Season 1 (Steelbook)"],
+  	"Xenosaga"                         	: [],
+  	"You're Under Arrest"              	: [],
+  
+  }, "UMD": {
+  	"Final Fantasy 7: Advent Children" 	: [],
+  	"Resident Evil"                    	: ["Apocalypse"],
+  	"Starship Troopers"                	: [],
+  
+  }};
+</SCRIPT>
