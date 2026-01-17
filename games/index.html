@@ -7,14 +7,14 @@ classes: wide
 
 <HEADER CLASS="horizontal">
    <UL>
-	   	<LI><A HREF="#" ONCLICK="switchtab('controllers');">Controllers</A></LI>
+	   	<LI><A HREF="#" ONCLICK="switchtab('controllertab');">Controllers</A></LI>
      	<LI><A HREF="#" ONCLICK="switchtab('games');">My Games</A></LI>
 		<LI><A HREF="#" ONCLICK="switchtab('compatibility');">Compatibility with Controllers</A></LI>
 		<LI><A HREF="#" ONCLICK="switchtab('movies');">My Movies</A></LI>
    </UL>
 </HEADER>
 
-<DIV ID="controllers">
+<DIV ID="controllertab">
 	<TABLE CLASS="table">
 		<THEAD>
 			<TR>
@@ -585,7 +585,7 @@ classes: wide
 		query_games(true);
 		query_movies();
 
-		switchtab('controllers');
+		switchtab('controllertab');
   });
 
    function switchtab(towhat){
