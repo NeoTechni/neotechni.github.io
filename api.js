@@ -693,7 +693,7 @@ function enum_consoles(){
 
 function showgames(section, asAlert = true){
 	var HTML = '<TABLE CLASS="table"><TBODY>';
-	if(!asAlert){
+	if(asAlert == false){
 		HTML += '<TR><TH COLSPAN="2" CLASS="header">' + section + '</TH></TR>';
 	}
 	if(games[section].hasOwnProperty("URL")){
