@@ -869,7 +869,7 @@ function make_controller(controller = false, stat = false, name = false){
 			case "normal": case "list":
 				HTML += '<TABLE ID="' + classname + '" NAME="' + controller.peripheralName.toLowerCase() + '" CLASS="table searchable">' + make_controller(controller, true, iif(style == "list", "noimage", style));
 				if(style == "list"){
-					HTML += '<TR><TD COLSPAN="2" CLASS="listtable"><TABLE CLASS="listtable"><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Description</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
+					HTML += '<TR><TD COLSPAN="3" CLASS="listtable"><TABLE CLASS="listtable"><THEAD><TR><TH>ID</TH><TH>Name</TH><TH>Description</TH><TH>Obtained</TH></TR></THEAD><TBODY>' + make_controller(controller, true, style);
 				}				
 				if(controller.hasOwnProperty("attachments")){
 					for(var i = 0; i < controller.attachments.length; i++){
