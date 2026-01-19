@@ -8368,7 +8368,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 },{
 	peripheral: "526-D",
 	attached: "526-A",
-	company: "Nintendo",
+	company: "Catapult Entertainment",
 	type: "comms",
 	peripheralName: "XBAND",
 	systems: "SNES",
