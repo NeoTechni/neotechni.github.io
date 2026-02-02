@@ -7821,7 +7821,8 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "Kickstarter",
 	peripheralName: "VM2",
 	systems: "DC",
-	cost: 166,	
+	cost: 166,
+	type: "portable",
 	obtained: "2023-10-10",
 	specificVersion: "Black",
 	otherVersions: "White",
@@ -8372,6 +8373,63 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	type: "comms",
 	peripheralName: "XBAND",
 	systems: "SNES",
+	cost: 100,
 	obtained: "2026-01-17",
 	description: `A modem for the SNES`
+},{
+	peripheral: "527",
+	company: "8BitMods",
+	type: "portable",
+	peripheralName: "VMU Pro",
+	systems: "DC",
+	cost: 139,
+	obtained: "2026-01-29",
+	specificVersion: "Pink",
+	otherVersions: "White, Black, Blue, Green",
+	description: `A VMU for the DreamCast with a color screen, wifi+bluetooth, an SD slot, USB-C, and enough power to emulate other systems
+	Dpad, 2 face buttons, 2 system buttons, 3 OS buttons, bi-gendered VMU connector, lanyard, 240x240 LCD, Wifi/BT, speaker, built-in rechargeable battery (charges via USB-C)`,
+},{
+	peripheral: "528-A",
+	company: "Retro Remake",
+	peripheralName: "Super Station One",
+	systems: "SYS",
+	cost: 275,
+	obtained: "2026-01-29",
+	specificVersion: "Clear Blue",
+	otherVersions: "Grey, Black",
+	description: `Hardware: Cyclone V FPGA, 128MB BGA SDRAM, 24-Bit ADV7125 Video DAC, Built-in Wi-Fi/BT, NFC Reader with Support for Zaparoo, Support for Active/Passive Cooling
+   Video Output: HDMI 1536p/1440p, VGA, DIN10, Composite / RCA, Component
+   Audio Output: 3.5mm Analog Audio, TOSLINK Digital Audio
+   Ports: USB Type C (Power), 3x USB Type A, Ethernet, TF Card Slot, Dual Combo PS1 SNAC Ports, IO Expansion Slot for SuperDock
+   Package Contents: SuperStation One, 64GB Micro SD (pre-installed), HDMI Cable, USB Type-C Cable
+   SuperDock (still under construction): 4 USB ports, CD drive (tray), slot for an NVME SSD`,
+},{
+	peripheral: "529",
+	company: "Red Bull",
+	type: "portable",
+	games: "Tetris",
+	peripheralName: "Tetris Can",
+	systems: "SYS",
+	cost: 100,
+	obtained: "2026-01-29",
+	description: `dpad, 2 face buttons, 3 system buttons, takes 3xAAA batteries (not included), unknown resolution LCD, speaker`,
+},{
+	peripheral: "530",
+	company: "IINE",
+	peripheralName: "Game Brick",
+	systems: "PC",
+	cost: 10,
+	obtained: "2026-01-29",
+	specificVersion: "Famicom",
+	otherVersions: "NES",
+	description: `dpad, 2 face buttons, built-in rechargeable battery (charges via USB-C), bluetooth`,
+},{
+	peripheral: "531",
+	company: "Logitech",
+	peripheralName: "Flight Force",
+	games: "Air Force Delta Strike",
+	systems: "PS2",
+	cost: 80,
+	obtained: "2026-01-29",
+	description: `8-way hat switch, 6 face buttons, 1 trigger, twist handle, throttle, force feedback, powered via an AC adapter, connects via USB`,
 }]; 
