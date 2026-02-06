@@ -8410,6 +8410,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	games: "Tetris",
 	peripheralName: "Tetris Can",
 	systems: "SYS",
+	id: "8,467 / 10,000",
 	cost: 100,
 	obtained: "2026-01-29",
 	description: `dpad, 2 face buttons, 3 system buttons, takes 3xAAA batteries (not included), unknown resolution LCD, speaker`,
