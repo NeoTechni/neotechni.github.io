@@ -8428,7 +8428,8 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	peripheral: "531",
 	company: "Logitech",
 	peripheralName: "Flight Force",
-	games: "Air Force Delta Strike",
+	games: `PS2: Air Force Delta Strike
+			PC: Digital Combat Simulator (DCS), Microsoft Flight Simulator (MSFS 2020 and earlier), Elite Dangerous, X‑Plane, Star Citizen, War Thunder`,
 	systems: "PS2",
 	cost: 80,
 	obtained: "2026-01-29",
