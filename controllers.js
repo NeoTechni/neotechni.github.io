@@ -7047,7 +7047,6 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 				Expansion sets
 				<UL>
 					<LI>Guarded Fortress Expansion Set</LI>
-					<LI>Desert Pokey Expansion Set</LI>
 					<LI>Whomp’s Lava Trouble Expansion Set</LI>
 					<LI>Piranha Plant Power Slide Expansion Set</LI>
 					<LI>Boomer Bill Barrage Expansion Set</LI>
@@ -7068,6 +7067,7 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 
 				Character Packs
 				<UL>
+					<LI CLASS="bold">Luigi</LI>
 					<LI>Paragoomba</LI>
 					<LI>Fuzzy</LI>
 					<LI>Spiny</LI>
@@ -7089,6 +7089,15 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 	obtained: "2022-09-23",
 	cost: 25,
 	description: "180 LEGO pieces",
+},{
+	peripheral: "431-B",
+	attached: "431",
+	company: "LEGO",
+	peripheralName: "Peach",
+	systems: "misc",
+	obtained: "2026-02-22",
+	cost: 50,
+	description: "LCD for the eyes and chest, downwards-facing camera with an LED to provide lighting, motion sensing, bluetooth, uses 2xAAA batteries, 2 buttons, connects to a phone app",
 },{
 	peripheral: "432",
 	company: "SEGA",
