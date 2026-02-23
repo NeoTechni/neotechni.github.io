@@ -7036,6 +7036,7 @@ Cost included $130 for a starter kit (came with 2 lightcons if you preordered), 
 },{
 	peripheral: "431",
 	company: "LEGO",
+	title: "LEGO Super Mario",
 	location: "BIN-02",
 	peripheralName: "Mario",
 	systems: "misc",
