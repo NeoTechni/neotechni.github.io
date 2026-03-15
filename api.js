@@ -7,6 +7,7 @@ var is_firefox_for_android = is_firefox && is_android;
 var is_IOS = (/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) && !window.MSStream;
 var newline = "\r\n";
 var missingimages = [];
+var currentURL = window.location.href.split('?')[0];
 const urlSearchParams = new URLSearchParams(window.location.search);
 var params = Object.fromEntries(urlSearchParams.entries());
 params.hash = false;
