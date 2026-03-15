@@ -208,9 +208,9 @@ classes: wide
 	function queryappend(thequery, key, value){
 		if(value){
 			if(thequery.length == 0){
-				thequery = "?" + key + "=" & value;
+				thequery = "?" + key + "=" + value;
 			} else {	
-				thequery += "&" + key + "=" & value;
+				thequery += "&" + key + "=" + value;
 			}
 		}
 		return 			thequery;
@@ -225,22 +225,23 @@ classes: wide
 		if(!text){
 			text 		= set_HTML("searchtext", null, "val");
 		}
-		var sect 		= set_HTML("sections", null, "val");
-		var comp 		= set_HTML("companies", null, "val");
-		var syst 		= set_HTML("systems", null, "val");
-		var obtained	= set_HTML("obtained", null, "val");
-		var ctype		= set_HTML("type", null, "val");
-		var locations	= set_HTML("locations", null, "val");
+		var sect 		= set_HTML("sections", 	null, 	"val");
+		var comp 		= set_HTML("companies", null, 	"val");
+		var syst 		= set_HTML("systems", 	null, 	"val");
+		var obtained	= set_HTML("obtained", 	null, 	"val");
+		var ctype		= set_HTML("type", 		null, 	"val");
+		var locations	= set_HTML("locations",	null, 	"val");
 
-		var thequery = queryappend("", "sections", sect);
-		thequery = queryappend(thequery, "companies", comp);
-		thequery = queryappend(thequery, "systems", syst);
-		thequery = queryappend(thequery, "obtained", obtained);
-		thequery = queryappend(thequery, "type", ctype);
-		thequery = queryappend(thequery, "locations", locations);
+		var thequery = queryappend("",   "sections", 	sect);
+		thequery = queryappend(thequery, "companies", 	comp);
+		thequery = queryappend(thequery, "systems", 	syst);
+		thequery = queryappend(thequery, "obtained", 	obtained);
+		thequery = queryappend(thequery, "type", 		ctype);
+		thequery = queryappend(thequery, "locations", 	locations);
+		thequery = queryappend(thequery, "searchtext", 	text);
 		history.replaceState("", document.title, currentURL + thequery);
 		
-		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype + " loc: " + locations);
+		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype + " loc: " + locations + " query: " + thequery);
 		for(var i = 0; i < controllers.length; i++){
 			var controller 	= controllers[i];
 			if(test_controller(controller, text, sect, comp, syst, obtained, ctype, locations)){
