@@ -7361,6 +7361,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "Azeron",
 	peripheralName: "Cyborg",
 	systems: "PC",
+	type: "1hand",
 	specificVersion: "Made to Order",
 	obtained: "2022-04-19",
 	cost: 200,
