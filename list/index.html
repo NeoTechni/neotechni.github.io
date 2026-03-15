@@ -55,7 +55,6 @@ classes: wide
 	var stats 				= {};
 	
 	window.addEventListener('load', function () {
-		query();
 		makeselect("companies", enum_property("company"), "Companies");
 		makeselect("systems", enum_consoles(), "Systems");
 		makeselect("sections", Object.keys(sections), "Sections");
@@ -76,6 +75,7 @@ classes: wide
 			}
 		}
 		set_HTML("obtained", HTML);
+		query();
 	});
 	
 	function sortby(column){
@@ -204,6 +204,17 @@ classes: wide
 			}
 		}
 	} 
+
+	function queryappend(thequery, key, value){
+		if(value){
+			if(thequery.length == 0){
+				thequery = "?" + key + "=" & value;
+			} else {	
+				thequery += "&" + key + "=" & value;
+			}
+		}
+		return 			thequery;
+	}
 	
 	function enum_controllers(text = false){
 		ret 			= [];
@@ -220,6 +231,14 @@ classes: wide
 		var obtained	= set_HTML("obtained", null, "val");
 		var ctype		= set_HTML("type", null, "val");
 		var locations	= set_HTML("locations", null, "val");
+
+		var thequery = queryappend("", "sections", sect);
+		thequery = queryappend(thequery, "companies", comp);
+		thequery = queryappend(thequery, "systems", syst);
+		thequery = queryappend(thequery, "obtained", obtained);
+		thequery = queryappend(thequery, "type", ctype);
+		thequery = queryappend(thequery, "locations", locations);
+		history.replaceState("", document.title, currentURL + thequery);
 		
 		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype + " loc: " + locations);
 		for(var i = 0; i < controllers.length; i++){
