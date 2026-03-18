@@ -215,6 +215,22 @@ classes: wide
 		}
 		return 			thequery;
 	}
+
+	var tabstates 		= {};
+	function tabstate(tab, state = false){
+		if(state === false){
+			if(tabstates.hasOwnProperty(tab)){
+				state	= tabstates[tab];
+			} else {
+				state 	= "?tab=" + tab;
+			}
+		} else {			
+			tabstates[tab] = state;
+		}
+		history.replaceState("", document.title, currentURL + state);
+		return 			state;
+	}
+	
 	
 	function enum_controllers(text = false){
 		ret 			= [];
@@ -232,14 +248,15 @@ classes: wide
 		var ctype		= set_HTML("type", 		null, 	"val");
 		var locations	= set_HTML("locations",	null, 	"val");
 
-		var thequery = queryappend("",   "sections", 	sect);
+		var thequery = "?tab=controllertab";
+		thequery = queryappend(thequery,   "sections", 	sect);
 		thequery = queryappend(thequery, "companies", 	comp);
 		thequery = queryappend(thequery, "systems", 	syst);
 		thequery = queryappend(thequery, "obtained", 	obtained);
 		thequery = queryappend(thequery, "type", 		ctype);
 		thequery = queryappend(thequery, "locations", 	locations);
 		thequery = queryappend(thequery, "searchtext", 	text);
-		history.replaceState("", document.title, currentURL + thequery);
+		tabstate("controllertab", thequery);
 		
 		console.log("Querying text: '" + text + "' section: '" + sect + "' company: '" + comp + "' system: '" + syst + "' obtained: " + obtained + " type: " + ctype + " loc: " + locations + " query: " + thequery);
 		for(var i = 0; i < controllers.length; i++){
@@ -603,20 +620,21 @@ classes: wide
 		query_games(true);
 		query_movies();
 
-		switchtab('controllertab');
+		switchtab(get("tab", 'controllertab'));
   });
 
    function switchtab(towhat){
 	  	setVisible(".tabs", false);
 	    setVisible("#" + towhat, true);
+		tabstate(towhat);
    }
 	
   function query_movies(){
 	    var HTML                            = '';
 	    var results                         = 0;
-	    var text 		                = set_HTML("name", null, "val");
-	    var medi   		                = set_HTML("medium", null, "val");
-	    total				= 0;
+	    var text 		                	= set_HTML("name", null, "val");
+	    var medi   		                	= set_HTML("medium", null, "val");
+	    total								= 0;
 	    for(var medium in movies){
 	      if(movies.hasOwnProperty(medium)){//makes sure it's my data and not a JS property
 	        if(!medi || medium == medi){
@@ -636,11 +654,16 @@ classes: wide
   }
   
    function query_games(firsttime = false){
-      var HTML                          = '';
+      var HTML                          = '?tab=games';
       var results                       = 0;
       var text 		                	= set_HTML("game-name", null, "val");
       var medi   		        		= set_HTML("game-medium", null, "val");
-      total				= 0;
+	  HTML 								= queryappend(HTML,  "game-medium", 	medi);
+	  HTML 								= queryappend(HTML,  "game-name", 		text);
+	  tabstate("games", HTML);
+	   
+	  HTML								= ''; 
+      total								= 0;
       if(firsttime){
          firsttime                      = '<OPTION VALUE="">System</OPTION>';
       }
@@ -653,9 +676,9 @@ classes: wide
                    for(var movie in thegames[medium]){
                         if(thegames[medium].hasOwnProperty(movie)){//makes sure it's my data and not a JS property
                              if(!text || movie.contains(text) || arraycontains(thegames[medium][movie], text)){
-                                  HTML += make_game(medium, movie);
-                                  results ++;
-				  total ++;
+                                  	HTML += make_game(medium, movie);
+                                  	results ++;
+				  					total ++;
                              }
                         }
                    }
