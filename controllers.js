@@ -8441,6 +8441,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	peripheral: "531",
 	company: "Logitech",
 	peripheralName: "Flight Force",
+	type: "forcefeedback",
 	games: `PS2: Air Force Delta Strike, Ace Combat 4: Shattered Skies, Ace Combat 5: The Unsung War, Ace Combat Zero: The Belkan War, Lethal Skies II
 			PC: Digital Combat Simulator (DCS), Microsoft Flight Simulator (MSFS 2020 and earlier), Elite Dangerous, X‑Plane, Star Citizen, War Thunder`,
 	systems: "PS2",
