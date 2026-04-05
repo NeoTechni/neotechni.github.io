@@ -8483,6 +8483,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 },{
 	peripheral: "534",
 	company: "Nintendo",
+	obtained: "2026-04-04",
 	peripheralName: "Virtual Boy",
 	systems: "Switch",
 	type: "3d",
