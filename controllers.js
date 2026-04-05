@@ -8448,4 +8448,36 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 80,
 	obtained: "2026-01-29",
 	description: `8-way hat switch, 6 face buttons, 1 trigger, twist handle, throttle, force feedback, powered via an AC adapter, connects via USB`,
+},{
+	peripheral: "532",
+	company: "GameSir",
+	peripheralName: "Pocket Taco",
+	systems: "Android/iOS",
+	obtained: "2026-04-04",
+	cost: 50,
+	description: `Wireless (via Bluetooth), built-in battery (charges via USB-C), dpad, 4 face buttons, 4 triggers, 2 system buttons, 2 OS buttons`,
+	games: "PC/Android/iOS games",
+},{
+	peripheral: "533",
+	company: "Honeycomb",
+	peripheralName: "Echo Aviation Controller",
+	systems: "PC",
+	obtained: "2026-04-04",
+	cost: 250,
+	type: "simulator",
+	description: `• Wireless (via USB dongle)
+	• built-in battery (charges via USB-C)
+	• dpad HAT
+	• 4 face buttons
+	• 4 triggers
+	• 2 system buttons
+	• 2 OS buttons
+	• Hall-effect thumbstick
+	• 4 sliding levers with replaceable tips
+	• scroll wheel
+	• Mechanically linked, self-recentering Hall-Effect pedals
+	• 3 switches (one push/pull, one momentary, one up/down)
+	• hard case
+	• a cool box`,
+	games: "Flight Sims",
 }]; 
