@@ -8480,4 +8480,12 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	• hard case
 	• a cool box`,
 	games: "Flight Sims",
+},{
+	peripheral: "534",
+	company: "Nintendo",
+	peripheralName: "Virtual Boy",
+	systems: "Switch",
+	type: "3d",
+	cost: 120,
+	description: "A case for the Switch 1 and 2 that splits the screen like the Solid Eye so you can see in 3D",
 }]; 
