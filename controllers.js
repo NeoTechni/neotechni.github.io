@@ -8489,4 +8489,15 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	type: "3d",
 	cost: 120,
 	description: "A case for the Switch 1 and 2 that splits the screen like the Solid Eye so you can see in 3D",
+},{
+	peripheral: "535",
+	company: "Bandai",
+	peripheralName: "Rock 'n Dock",
+	systems: "WS",
+	type: "comms",
+	obtained: "2026-04-04",
+	cost: 50,
+	description: "A device that plugs into the EXT port to allow games to communicate with certain models of Digivices",
+	games: "Digimon ver. WonderSwan",
+	importOnly: true,
 }]; 
