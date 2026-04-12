@@ -8498,7 +8498,11 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	obtained: "2026-04-04",
 	cost: 50,
 	description: `A device that plugs into the EXT port to allow games to communicate with certain models of Digivices
-	Compatible with: original devices, Ver. Complete, A-com, D-com, WiFiCom`,
-	games: "Digimon ver. WonderSwan",
+	Compatible with: original devices, Ver. Complete, And the hacking devices: A-com, D-com, WiFiCom
+	Cathode Tamer: older v-pets and the Adventure Digivices
+	Tag Tamers and D-1 Tamer: adds D-3 and D-Terminal compatibility 
+	Brave Tamer and the Battle Spirit games: adds D-Arcs compatibility	
+	`,
+	games: "Digimon ver. WonderSwan, Cathode Tamer, Tag Tamers, D-1 Tamer, Brave Tamer, Battle Spirit",
 	importOnly: true,
 }]; 
