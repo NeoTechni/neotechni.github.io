@@ -8497,7 +8497,8 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	type: "comms",
 	obtained: "2026-04-04",
 	cost: 50,
-	description: "A device that plugs into the EXT port to allow games to communicate with certain models of Digivices",
+	description: `A device that plugs into the EXT port to allow games to communicate with certain models of Digivices
+	Compatible with: original devices, Ver. Complete, A-com, D-com, WiFiCom`,
 	games: "Digimon ver. WonderSwan",
 	importOnly: true,
 }]; 
