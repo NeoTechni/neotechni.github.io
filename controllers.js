@@ -8498,12 +8498,12 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	obtained: "2026-04-04",
 	cost: 50,
 	description: `A device that plugs into the EXT port to allow games to communicate with certain models of Digivices
-	Compatible with: original devices, Ver. Complete, And the hacking devices: A-com, D-com, WiFiCom
-	Cathode Tamer: older v-pets and the Adventure Digivices
+	Compatible with: <A HREF="https://www.reddit.com/r/digimon/comments/lzlyk9/the_only_modern_device_that_work_with_wonderswan/ofpk6e3/">original devices, Ver. Complete, And the hacking devices: A-com, D-com, WiFiCom</A>
+	<A HREF="https://www.reddit.com/r/digimon/comments/jg2g8w/wonderswan_compatibility_with_japanese_digivices/">Cathode Tamer: older v-pets and the Adventure Digivices
 	Tag Tamers and D-1 Tamer: adds D-3 and D-Terminal compatibility 
-	Brave Tamer and the Battle Spirit games: adds D-Arcs compatibility	
-	Ver. Wonderswan: first four original v-pets as well as a few from the Pendulum 1.0 
-	`,
+	Brave Tamer and the Battle Spirit games: adds D-Arcs compatibility</A>
+	<A HREF="https://withthewill.net/threads/digimon-version-wonderswan.9876/post-158574">Ver. Wonderswan: first four original v-pets as well as a few from the Pendulum 1.0</A>
+	<A HREF="https://wikimon.net/D-Power_Digivice_Toy_(EU/AS)">And it seems they can use the D-Power Digivice</A>`,
 	games: "Digimon ver. WonderSwan, Cathode Tamer, Tag Tamers, D-1 Tamer, Brave Tamer, Battle Spirit",
 	importOnly: true,
 }]; 
