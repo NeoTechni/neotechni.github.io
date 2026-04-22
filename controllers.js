@@ -8506,4 +8506,12 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	<A HREF="https://wikimon.net/D-Power_Digivice_Toy_(EU/AS)">And it seems they can use the D-Power Digivice</A>`,
 	games: "Digimon ver. WonderSwan, Cathode Tamer, Tag Tamers, D-1 Tamer, Brave Tamer, Battle Spirit",
 	importOnly: true,
+},{
+	peripheral: "536",
+	company: "Microsoft",
+	peripheralName: "SideWinder Plug & Play Game Pad",
+	systems: "PC",
+	obtained: "2026-04-21",
+	cost: 6,
+	description: `dpad, 4 face buttons, 2 triggers, wired (via USB)`,
 }]; 
