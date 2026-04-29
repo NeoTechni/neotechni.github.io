@@ -8551,4 +8551,15 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 45,
 	games: "Doom (2026 version)",
 	description: `Dpad, 2 system buttons, 2 triggers, 4 face buttons, 2 rumble motors`,
+},{
+	peripheral: "541-A",
+	title: "Freak Series",
+	style: "list",
+	company: "Gemini ",
+	peripheralName: "Samurai",
+	systems: "PS2",
+	obtained: "2026-04-28",
+	cost: 60,
+	otherVersions: "Berserker, Fleshy, Samurai vs Ninja (PS2), Dragon Fire, Alien Infection (XBOX)",
+	description: "A series of ugly controllers",
 }]; 
