@@ -8535,7 +8535,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 },{
 	peripheral: "539",
 	company: "Intec Gaming",
-	peripheralName: "Time Breaker LightGun for PS1 /PS2",
+	peripheralName: "Time Breaker LightGun",
 	systems: "PS1/PS2",
 	obtained: "2026-04-25",
 	cost: 220,
