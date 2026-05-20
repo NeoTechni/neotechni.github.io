@@ -8597,5 +8597,5 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	systems: "PC",
 	cost: 150,
 	obtained: "2026-05-19",
-	description: `dpad, 2 clickable thumbsticks, 2 touchpads, 4 face buttons, 2 system buttons, 8 triggers, 2 OS buttons, wired (via USB-C), wireless (via Bluetooth and dongle), capacitive touch sensor in the grips`,
+	description: `dpad, 2 clickable thumbsticks, 2 touchpads, 4 face buttons, 2 system buttons, 8 triggers, 2 OS buttons, rumble, wired (via USB-C), wireless (via Bluetooth and dongle), capacitive touch sensor in the grips`,
 }]; 
