@@ -8420,6 +8420,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	peripheral: "528-B",
 	attached: "528-A",
 	company: "Sony",
+	section: "systems",
 	peripheralName: "Clear Blue DualShock",
 	systems: "PS1",
 	cost: 15,
