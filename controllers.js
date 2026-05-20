@@ -8579,7 +8579,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	systems: "PC",
 	cost: 50,
 	obtained: "2026-05-19",
-	description: `dpad, 1 clickable thumbstick, trackball, 4 face buttons, 2 system buttons, 4 triggers, 2 OS buttons, wired (via USB-C)`,
+	description: `dpad, 1 clickable thumbstick, trackball, 4 face buttons, 2 system buttons, 6 triggers, 2 OS buttons, wired (via USB-C)`,
 },{
 	peripheral: "543",
 	company: "RaceRoom",
