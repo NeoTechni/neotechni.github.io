@@ -8417,6 +8417,15 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
    Package Contents: SuperStation One, 64GB Micro SD (pre-installed), HDMI Cable, USB Type-C Cable
    SuperDock (still under construction): 4 USB ports, CD drive (tray), slot for an NVME SSD`,
 },{
+	peripheral: "528-B",
+	attached: "528-A",
+	company: "Sony",
+	peripheralName: "Clear Blue DualShock",
+	systems: "PS1",
+	cost: 15,
+	obtained: "2026-05-19",
+	description: `dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 triggers, 1 OS button`,
+},{
 	peripheral: "529",
 	company: "Red Bull",
 	type: "portable",
@@ -8562,4 +8571,30 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 60,
 	otherVersions: "Berserker, Fleshy, Samurai vs Ninja (PS2), Dragon Fire, Alien Infection (XBOX)",
 	description: "A series of ugly controllers",
+},{
+	peripheral: "542",
+	company: "Unknown",
+	peripheralName: "Trackball controller",
+	systems: "PC",
+	cost: 50,
+	obtained: "2026-05-19",
+	description: `dpad, 1 clickable thumbstick, trackball, 4 face buttons, 2 system buttons, 4 triggers, 2 OS buttons, wired (via USB-C)`,
+},{
+	peripheral: "543",
+	company: "RaceRoom",
+	peripheralName: "RR DC2 – Driving Controller",
+	systems: "PS3",
+	cost: 50,
+	specificVersion: "wireless",
+	otherVersions: "wired",
+	obtained: "2026-05-19",
+	description: `dpad, steering wheel, 4 face buttons, 2 system buttons, 4 triggers, 2 OS buttons, wireless (via Bluetooth)`,
+},{
+	peripheral: "544",
+	company: "Valve",
+	peripheralName: "Steam Controller mkII",
+	systems: "PC",
+	cost: 150,
+	obtained: "2026-05-19",
+	description: `dpad, 2 clickable thumbsticks, 2 touchpads, 4 face buttons, 2 system buttons, 8 triggers, 2 OS buttons, wired (via USB-C), wireless (via Bluetooth and dongle), capacitive touch sensor in the grips`,
 }]; 
