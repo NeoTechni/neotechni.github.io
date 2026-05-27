@@ -8579,7 +8579,8 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	systems: "PC",
 	cost: 50,
 	obtained: "2026-05-19",
-	description: `dpad, 1 clickable thumbstick, trackball, 4 face buttons, 2 system buttons, 6 triggers, 2 OS buttons, wired (via USB-C)`,
+	description: `dpad, 1 clickable thumbstick, trackball, 4 face buttons, 2 system buttons, 6 triggers, 2 OS buttons, wired (via USB-C)
+	The trackball does not replace a right analog stick in software, but acts as a separate mouse connected at the same time`,
 },{
 	peripheral: "543",
 	company: "RaceRoom",
@@ -8589,7 +8590,8 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	specificVersion: "wireless",
 	otherVersions: "wired",
 	obtained: "2026-05-19",
-	description: `dpad, steering wheel, 4 face buttons, 2 system buttons, 4 triggers, 2 OS buttons, wireless (via Bluetooth)`,
+	description: `dpad, steering wheel, 4 face buttons, 2 system buttons, 4 triggers, 1 OS button
+	Wireless model: wireless (via Bluetooth), built-in battery (charges via USB mini B)`,
 },{
 	peripheral: "544",
 	company: "Valve",
