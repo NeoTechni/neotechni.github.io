@@ -7985,7 +7985,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	obtained: "2026-06-22",
 	cost: 20,
 	description: `Similar to the e-Swap, but the dpad module can't be swapped out and there are no buttons along the front edge`,
-},,{
+},{
 	peripheral: "494-A",
 	peripheralName: "IR adapter",
 	company: "Nintendo",
