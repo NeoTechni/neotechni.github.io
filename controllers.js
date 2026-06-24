@@ -8319,6 +8319,14 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 		Foot Pedal: connects via USB-C, unlike the gun it does not support standard protocols
 	`,
 },{
+	peripheral: "521-B",
+	attached: "521",
+	company: "GAIME",
+	peripheralName: "Case",
+	cost: 0,
+	obtained: "2026-06-22",
+	description: `A case for the Lightgun Console`
+},{
 	peripheral: "522",
 	company: "My Arcade",
 	peripheralName: "Gamestation Gamepad",
