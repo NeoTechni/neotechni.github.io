@@ -7976,6 +7976,16 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	description: `Standard dualshock layout but the 3 modules (2 analog sticks + dpad) can be swapped out for others and are held in with strong magnets, a mini-steering wheel module, trigger stops, 4 back buttons, a cool box, wired-only, button remapping via an X1/PC program or a mode switch, stores 2 profiles, 
 	buttons along the front edge for: Volume +/-, mute/unmute mic, profile switching, remapping mode`,
 },{
+	peripheral: "493-B",
+	peripheralName: "e-Swap S",
+	attached: "493",
+	company: "Tomy",
+	systems: "PC/X1",
+	section: "xbox",
+	obtained: "2026-06-22",
+	cost: 20,
+	description: `Similar to the e-Swap, but the dpad module can't be swapped out and there are no buttons along the front edge`,
+},,{
 	peripheral: "494-A",
 	peripheralName: "IR adapter",
 	company: "Nintendo",
