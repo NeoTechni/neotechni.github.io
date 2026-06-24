@@ -7979,7 +7979,7 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	peripheral: "493-B",
 	peripheralName: "e-Swap S",
 	attached: "493",
-	company: "Tomy",
+	company: "Thrustmaster",
 	systems: "PC/X1",
 	section: "xbox",
 	obtained: "2026-06-22",
