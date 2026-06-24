@@ -8618,4 +8618,12 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 150,
 	obtained: "2026-05-19",
 	description: `dpad, 2 clickable thumbsticks, 2 touchpads, 4 face buttons, 2 system buttons, 8 triggers, 2 OS buttons, rumble, wired (via USB-C), wireless (via Bluetooth and dongle), capacitive touch sensor in the grips`,
+},{
+	peripheral: "545",
+	company: "Microsoft",
+	peripheralName: "Sculpt Touch Mouse",
+	systems: "PC",
+	cost: 0,
+	obtained: "2025-07-26",
+	description: `Wireless (via Bluetooth), takes 2xAA batteries, 2 face buttons, optical mouse sensor, clickable touchpad, rumble`,
 }]; 
