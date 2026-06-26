@@ -8606,10 +8606,19 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	systems: "PS3",
 	cost: 50,
 	specificVersion: "wireless",
-	otherVersions: "wired",
 	obtained: "2026-05-19",
 	description: `dpad, steering wheel, 4 face buttons, 2 system buttons, 4 triggers, 1 OS button
-	Wireless model: wireless (via Bluetooth), built-in battery (charges via USB mini B)`,
+	Wireless model: wireless (via dongle), built-in battery (charges via USB mini B)`,
+},{
+	peripheral: "543-B",
+	company: "RaceRoom",
+	peripheralName: "DTM Experience Controller",
+	systems: "PS3",
+	attached: "543",
+	cost: 50,
+	specificVersion: "wired",
+	obtained: "2026-06-24",
+	description: `dpad, steering wheel, 4 analog face buttons, 2 system buttons, 4 analog triggers, 1 OS button, wired (via USB), rumble`,
 },{
 	peripheral: "544",
 	company: "Valve",
