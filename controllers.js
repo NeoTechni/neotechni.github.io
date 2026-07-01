@@ -8443,7 +8443,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	systems: "PS1",
 	cost: 15,
 	obtained: "2026-05-19",
-	description: `dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 triggers, 1 OS button`,
+	description: `dpad, 2 clickable thumbsticks, 4 face buttons, 2 system buttons, 4 triggers, 1 OS button, rumble`,
 },{
 	peripheral: "529",
 	company: "Red Bull",
