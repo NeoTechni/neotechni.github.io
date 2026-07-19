@@ -8462,7 +8462,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 10,
 	obtained: "2026-07-15",
 	description: `Allows native use of a SNES controller on an FPGA system equipped with a USB SNAC port (ie: The SuperStation Dock)`,
-},,{
+},{
 	peripheral: "529",
 	company: "Red Bull",
 	type: "portable",
