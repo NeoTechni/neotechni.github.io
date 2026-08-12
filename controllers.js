@@ -5107,6 +5107,15 @@ Has 4 USB ports (2 master ports to plug controllers into, 2 micro USB ports [out
 	cost: 50,
 	description: `An adapter to use PS3/PS4 controllers on DC. The Titan Two also works on it`,
 },{
+	peripheral: "302-E",
+	attached: "302-A",
+	company: "Besavior",
+	peripheralName: "P5 General",
+	systems: "PS5",
+	obtained: "2026-08-11",
+	cost: 40,
+	description: `An adapter to authenticate the Titan Two on PS5`,
+},{
 	peripheral: "303",
 	company: "Motorola",
 	peripheralName: "Moto 360 (1st gen)",
@@ -7558,6 +7567,15 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	},
 	description: `Same inputs/outputs/etc as the DualSense, 2 reassignable back buttons, a cool case, trigger travel stoppers, removable/replaceable thumbstick modules, USB-C cable, different thumbstick caps and back buttons`,
 },{
+	peripheral: "463-B",
+	attached: "463",
+	company: "Besavior",
+	peripheralName: "TMR Edge Modules",
+	cost: 30,
+	systems: "PS5",
+	obtained: "2026-08-11",
+	description: "Replacement modules for the Edge controller that should never get stick drift",
+},{
 	peripheral: "464",
 	company: "Logitech",
 	type: "simulator",
@@ -8352,7 +8370,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	systems: "PS1",
 	cost: 10,
 	obtained: "2025-12-24",
-	description: "I really long sensor bar that goes near the TV, motion sensing seems to operate via ultra-sonic waves similar to the Power Glove, 2 buttons",
+	description: "A really long sensor bar that goes near the TV, motion sensing seems to operate via ultra-sonic waves similar to the Power Glove, 2 buttons",
 },{
 	peripheral: "524",
 	company: "Vxion",
@@ -8653,4 +8671,29 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 0,
 	obtained: "2025-07-26",
 	description: `Wireless (via Bluetooth), takes 2xAA batteries, 2 face buttons, optical mouse sensor, clickable touchpad, rumble`,
-}]; 
+},{
+	peripheral: "546",
+	company: "SEGA",
+	peripheralName: "Samba de Amigo Maracas",
+	systems: "DC",
+	cost: 50,
+	obtained: "2026-08-11",
+	description: `A really long sensor bar that goes near the TV, motion sensing seems to operate via ultra-sonic waves similar to the Power Glove, and Mini-Moni. Shakatto Tambourine! Dapyon!`,
+},{
+	peripheral: "547",
+	company: "Cheerdots",
+	peripheralName: "CheerPlay",
+	systems: "Android",
+	cost: 50,
+	obtained: "2026-08-11",
+	description: `A scroll wheel with a switch to toggle between zero resistance and clicked scrolling, 2 buttons (one with a lot more click than the other), a touchpad, wireless (via Bluetooth), built-in battery (charges via USB-C), non functional dial and slider`,
+},{
+	peripheral: "548",
+	company: "Gravis",
+	peripheralName: "Xterminator Force",
+	systems: "PC",
+	type: "forcefeedback",
+	cost: 100,
+	obtained: "2026-08-11",
+	description: `An analog dpad with force feedback, 2 analog triggers, 2 digital triggers, 8 face buttons, uses USB`,
+}];
