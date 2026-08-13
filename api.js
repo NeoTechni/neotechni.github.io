@@ -649,10 +649,10 @@ Number.prototype.pad = function (size = 2, rightside = false, character = "0") {
 };
 
 var lastname = "";
-function makename(name, why = "unknown"){
+function makename(name, why = "unknown", includeid = false){
 	if(lastname != name){
 		lastname = name;
-		return '<A CLASS="' + why + '" NAME="' + name + '"></A>';
+		return '<A CLASS="' + why + '" NAME="' + name + '"' + iif(includeid, ' ID="' + name + '"') + '></A>';
 	}
 	return "";
 }
@@ -769,7 +769,7 @@ function make_controller(controller = false, stat = false, name = false){
 				if(name == "noimage" && controller.hasOwnProperty("title")){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.title + '</TH></TR><TR>';
 				}
-				HTML += '<TR><TH COLSPAN="2" CLASS="header">' + makename(classname, "make1") + controller.peripheralName + '</TH></TR><TR>';
+				HTML += '<TR><TH COLSPAN="2" CLASS="header">' + makename(classname, "make1", true) + controller.peripheralName + '</TH></TR><TR>';
 				if(name == "normal"){
 					HTML += '<TD ROWSPAN="2" CLASS="image top">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
 				} else {
