@@ -957,7 +957,7 @@ function make_photos(titles = true, folder = 'photos'){
 		if(photos.hasOwnProperty(key)){
 			if(photos[key].hasOwnProperty("text")){
 				var classname = toclassname(key);
-				HTML += makename(classname, "makephotos") '<TABLE ID="photo-' + classname + '" NAME="' + key.toLowerCase() + '" CLASS="table searchable">';
+				HTML += makename(classname, "makephotos") + '<TABLE ID="photo-' + classname + '" NAME="' + key.toLowerCase() + '" CLASS="table searchable">';
 				if(titles){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + key + '</TH></TR><TR>';
 					LIST += '<LI><A HREF="#' + toclassname(key) + '">' + key + '</A></LI>';
