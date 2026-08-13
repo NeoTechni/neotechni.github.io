@@ -648,6 +648,15 @@ Number.prototype.pad = function (size = 2, rightside = false, character = "0") {
     return s.pad(size, rightside, character);
 };
 
+var lastname = "";
+function makename(name, why = "unknown"){
+	if(lastname != name){
+		lastname = name;
+		return '<A CLASS="' + why + '" NAME="' + name + '"></A>';
+	}
+	return "";
+}
+
 var anames = document.querySelectorAll(".header");
 if(anames.length > 1){
   document.getElementById('body').insertAdjacentHTML('afterbegin', '<H1 CLASS="tos">Table of Contents</H1><UL ID="tos" CLASS="tos"></UL>');
@@ -742,7 +751,7 @@ function make_controller(controller = false, stat = false, name = false){
 				if(name == "noimage" && controller.hasOwnProperty("title")){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.title + '</TH></TR><TR>';
 				}
-				HTML += '<TR><TH COLSPAN="2" CLASS="header"><A CLASS="make1" NAME="' + classname + '"></A>' + controller.peripheralName + '</TH></TR><TR>';
+				HTML += '<TR><TH COLSPAN="2" CLASS="header">' + makename(classname, "make1") + controller.peripheralName + '</TH></TR><TR>';
 				if(name == "normal"){
 					HTML += '<TD ROWSPAN="2" CLASS="image top">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
 				} else {
@@ -779,7 +788,7 @@ function make_controller(controller = false, stat = false, name = false){
 				if(controller.hasOwnProperty("peripheral")){
 					HTML += controller.peripheral;
 				}
-				HTML += '</TD><TD CLASS="minwidth"><A CLASS="make2" NAME="' + classname + '"></A>' + controller.peripheralName + '</TD><TD>';
+				HTML += '</TD><TD CLASS="minwidth">' + makename(classname, "make2") + controller.peripheralName + '</TD><TD>';
 				if(controller.hasOwnProperty("description")){
 					HTML += nl2br(controller.description);
 				}
@@ -861,7 +870,7 @@ function make_controller(controller = false, stat = false, name = false){
 		}
 	} else {//do a specific controller
 		var classname = toclassname(controller.peripheralName);
-		HTML += '<A CLASS="make3" NAME="' + classname + '"></A>';
+		HTML += makename(classname, "make3");
 		var style = "normal";
 		if(controller.hasOwnProperty("style")){
 			style = controller.style;
@@ -948,7 +957,7 @@ function make_photos(titles = true, folder = 'photos'){
 		if(photos.hasOwnProperty(key)){
 			if(photos[key].hasOwnProperty("text")){
 				var classname = toclassname(key);
-				HTML += '<A CLASS="makephotos" NAME="' + classname + '"></A><TABLE ID="photo-' + classname + '" NAME="' + key.toLowerCase() + '" CLASS="table searchable">';
+				HTML += makename(classname, "makephotos") '<TABLE ID="photo-' + classname + '" NAME="' + key.toLowerCase() + '" CLASS="table searchable">';
 				if(titles){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + key + '</TH></TR><TR>';
 					LIST += '<LI><A HREF="#' + toclassname(key) + '">' + key + '</A></LI>';
@@ -991,7 +1000,7 @@ function make_photos(titles = true, folder = 'photos'){
 			} else {
 				var name = toclassname(key);
 				LIST += iif(level > 0, iif(titles, '</UL>') + '</LI>') + '<LI><A HREF="#' + name + '">' + key + '</A>' + iif(titles, '<UL>', '</LI>');
-				HTML += '<A CLASS="makephotos2" NAME="' + name + '"></A><H2>' + key + '</H2>';
+				HTML += makename(name, "makephotos2") + '<H2>' + key + '</H2>';
 				level = 1;
 			}
 		}
