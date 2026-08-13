@@ -678,12 +678,29 @@ function set_HTML(elementID, HTML, param = "html"){
 		}
 	} 
 	switch(param){
-		case "html": element.innerHTML = HTML; break;
-		case "val": element.value = HTML; break;
+		case "html": 
+			element.innerHTML = HTML; 
+			if(elementID == "controllers" && params.hash){
+				scrollto(params.hash);
+			}
+			break;
+		case "val": 
+			element.value = HTML; 
+			break;
 	}
 	//if(window.location.hash) {
       	//	var hash = window.location.hash.substring(1);
 	//}
+	
+}
+
+function scrollto(element){
+	if(typeof element == "string"){
+		element = document.getElementById(element);
+	}
+	if(element){
+		element.scrollIntoView({ behavior: "smooth" });
+	}
 }
 
 function enum_consoles(){
