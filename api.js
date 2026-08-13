@@ -699,7 +699,8 @@ function scrollto(element){
 		element = document.getElementById(element);
 	}
 	if(element){
-		element.scrollIntoView({ behavior: "smooth" });
+		element.scrollIntoView(true);
+		//element.scrollIntoView({ behavior: "smooth" });
 	}
 }
 
