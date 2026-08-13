@@ -742,11 +742,11 @@ function make_controller(controller = false, stat = false, name = false){
 				if(name == "noimage" && controller.hasOwnProperty("title")){
 					HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.title + '</TH></TR><TR>';
 				}
-				HTML += '<TR><TH COLSPAN="2" CLASS="header">' + controller.peripheralName + '</TH></TR><TR>';
+				HTML += '<TR><TH COLSPAN="2" CLASS="header"><A NAME="' + classname + '"></A>' + controller.peripheralName + '</TH></TR><TR>';
 				if(name == "normal"){
 					HTML += '<TD ROWSPAN="2" CLASS="image top">' + make_controller(controller, "images") + '</TD><TD CLASS="controllerinfo top">';
 				} else {
-					HTML += '<TD CLASS="controllerinfo top" COLSPAN="2"><A NAME="' + classname + '"></A>';
+					HTML += '<TD CLASS="controllerinfo top" COLSPAN="2">';
 				}
 				HTML += make_controller(controller, "peripheral", 		"Peripheral ID");
 				
@@ -779,7 +779,7 @@ function make_controller(controller = false, stat = false, name = false){
 				if(controller.hasOwnProperty("peripheral")){
 					HTML += controller.peripheral;
 				}
-				HTML += '</TD><TD CLASS="minwidth">' + controller.peripheralName + '</TD><TD>';
+				HTML += '</TD><TD CLASS="minwidth"><A NAME="' + classname + '"></A>' + controller.peripheralName + '</TD><TD>';
 				if(controller.hasOwnProperty("description")){
 					HTML += nl2br(controller.description);
 				}
