@@ -5112,6 +5112,7 @@ Has 4 USB ports (2 master ports to plug controllers into, 2 micro USB ports [out
 	company: "Besavior",
 	peripheralName: "P5 General",
 	systems: "PS5",
+	section: "misc",
 	obtained: "2026-08-11",
 	cost: 40,
 	description: `An adapter to authenticate the Titan Two on PS5`,
