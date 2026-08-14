@@ -6065,6 +6065,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "DC",
 	obtained: "2018-03-09",
 	cost: 60,
+	type: "comms",
 	description: "Allows 2 Dreamcasts to connect for multiplayer using 2 copies of the game and 2 TVs",
 	games: "Dreamcast Link Cable",
 },{
@@ -6114,7 +6115,7 @@ https://github.com/shinyquagsire23/Switch-Fightstick`,
 	systems: "SYS",
 	obtained: "2018-03-29",
 	cost: 100,
-	description: `2" 220×176 (high resolution) 110×88 (fastest resolution) 128×64 (Arduboy emulation) 84×48 (Gamebuino emulation) LCD, some assembly required
+	description: `2" 220×176 LCD, some assembly required
 		Dpad, 2 face buttons, 1 system button, 2 OS buttons (on the back), GPIO ports, microSD slot, USB micro (for charging and programming), exposed GPIO connector, open platform
 		You get to pick the colors of the front plate, back plate, and the dpad/buttons`,
 	games: "Pokitto games",
@@ -8679,7 +8680,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	systems: "DC",
 	cost: 50,
 	obtained: "2026-08-11",
-	description: `A really long sensor bar that goes near the TV, motion sensing seems to operate via ultra-sonic waves similar to the Power Glove, and Mini-Moni. Shakatto Tambourine! Dapyon!`,
+	description: `A really long sensor bar that goes near the TV, motion sensing seems to operate via ultra-sonic waves similar to the Power Glove, and <A HREF="/playstation/#mini-moni_shakatto_tambourine_dapyon">Mini-Moni. Shakatto Tambourine! Dapyon!</A>`,
 },{
 	peripheral: "547",
 	company: "Cheerdots",
