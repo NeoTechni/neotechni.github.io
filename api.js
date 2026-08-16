@@ -850,7 +850,7 @@ function make_controller(controller = false, stat = false, name = false){
 						if(Array.isArray(controller[stat])){
 							HTML += controller[stat].join(", ");
 						} else {
-							HTML += controller[stat];
+							HTML += nl2br(controller[stat]);
 						}
 						break;
 					default:
