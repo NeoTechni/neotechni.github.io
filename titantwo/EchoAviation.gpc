@@ -1,0 +1,88 @@
+#pragma METAINFO("EchoAviation", 1, 0, "NeoTechni")
+
+fix32 temp;
+fix32 temp2;
+
+int remap(int source, int destination){
+	temp = get_actual(source);
+	if(temp > 0.0){
+		set_val(destination, temp);
+	}
+	return 0;
+}
+
+main {
+	//blank slate
+	set_val(BUTTON_1, 0);
+	set_val(BUTTON_4, 0);
+	set_val(BUTTON_5, 0);//R2
+	set_val(BUTTON_6, 0);
+	set_val(BUTTON_8, 0);//L2
+	set_val(BUTTON_9, 0);
+	set_val(BUTTON_15, 0);
+	set_val(BUTTON_16, 0);
+	set_val(BUTTON_17, 0);
+	set_val(BUTTON_18, 0);
+	set_val(BUTTON_19, 0);
+	set_val(BUTTON_20, 0);
+	set_val(BUTTON_21, 0);	
+	
+	//simple remappings
+	remap(BUTTON_4, BUTTON_15);// fix L2
+	remap(BUTTON_18, BUTTON_4);// fix R1
+	remap(BUTTON_5, BUTTON_16);// fix R2
+	remap(PADDLE_1, BUTTON_9);//right/white switch up to L3 (PADDLE_1 -> BUTTON_9)
+	remap(PADDLE_2, BUTTON_6);//right/white switch down to R3 (PADDLE_2 -> BUTTON_6)
+	remap(BUTTON_9, BUTTON_1);//fix PS
+	remap(BUTTON_6, BUTTON_18);//fix screenshot
+	remap(BUTTON_17, BUTTON_16);//fix cross
+	remap(BUTTON_15, BUTTON_17);//fix square	
+	remap(BUTTON_16, BUTTON_15);//fix circle
+	
+	//throttle behavior: back rudder sliders
+	temp = get_actual(BUTTON_8);
+	if(temp > 51.0){//50 to 100 becomes L2 (0 to 100)
+		set_val(BUTTON_8, (temp - 50.0) * 2.0);
+	} else if(temp < 49.0){//50 to 0 becomes R2 (0 to 100)
+		set_val(BUTTON_5, (50.0 - temp) * 2.0);
+	} else {
+		temp = 50.0;//force neutrality
+	}
+	if(get_actual(BUTTON_19)){//round switch is in the down (19) position		
+		set_val(STICK_1_X, 0);
+		set_val(STICK_1_Y, 0);
+		set_val(POINT_2_X, 0);
+		set_val(POINT_2_Y, 0);	
+		if(temp == 50.0){//rudder is neutral
+			temp = get_actual(STICK_1_X);//-100 to 100
+			temp2 = get_actual(STICK_1_Y);
+			if(temp2 > temp){
+				temp = temp2;
+			}
+			temp2 = get_actual(POINT_2_X);
+			if(temp2 > temp){
+				temp = temp2;
+			}
+			temp2 = get_actual(POINT_2_Y);
+			if(temp2 > temp){
+				temp = temp2;
+			}
+			if(temp < 10.0){//-100 to 0 becomes 0 to 100 for L2: BUTTON_8
+				temp = abs(temp);
+				set_val(BUTTON_8, temp);				
+				led_set(LED_1, 100.0, 1);
+				led_set(LED_2, 0.0, 0); 
+				led_set(LED_3, 0.0, 0);		
+			} else if(temp > 10.0) {//0  to 100 becomes 0 to 100 for R2: BUTTON_5
+				set_val(BUTTON_5, temp);	
+				led_set(LED_1, 0.0, 0); 
+				led_set(LED_2, 100.0, 1);
+				led_set(LED_3, 0.0, 0);		
+			} else {
+				led_set(LED_1, 0.0, 0); 
+				led_set(LED_2, 0.0, 0);
+				led_set(LED_3, 100.0, 1);
+			}
+		}
+	}
+}

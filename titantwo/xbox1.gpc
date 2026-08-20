@@ -1,0 +1,55 @@
+/* *
+* GPC SCRIPT
+*
+*  GPC is a scripting language with C-like syntax.
+*  To learn more access GPC Language Reference on Help menu.
+* *********************************************************** */
+int share;
+
+// CHANGE THESE NUMBERS TO CHANGE YOUR SETTINGS
+define stick = 0;	//0 = use left stick, 1 = use right stick
+define Sens = 90;   // sensitivity - Default: 100 - Range [0 to 327]
+                    // set a number below 100 for less sens - above 100 for more sens
+                    
+main {
+
+    //
+    // The main procedure is called before every report is sent to
+    // console. You can think of this procedure as a loop which only
+    // ends when the script is unloaded.
+    //
+
+	if (get_val(XB1_VIEW)) {
+		share=0;
+		set_val(PS4_TOUCH, 100);
+		
+		if (stick == 0){
+			ps4_set_touchpad(get_val(XB1_LX), get_val(XB1_LY));//Sets touchpad to Left analog stick
+			if (get_val(PS4_L3)) {//if L3, click share
+				share=100;
+				set_val(PS4_L3, 0);
+			}
+			set_val(XB1_LX, 0);
+			set_val(XB1_LY, 0);
+		} else {
+			ps4_set_touchpad(get_val(XB1_RX), get_val(XB1_RY));//Sets touchpad to Right analog stick
+			if (get_val(PS4_R3)) {//if R3, click share
+				share=100;
+				set_val(PS4_R3, 0);
+			}
+			set_val(XB1_RX, 0);
+			set_val(XB1_RY, 0);
+		}
+        set_val(XB1_VIEW, share);
+    }
+
+	if (Sens != 100) {
+		 // right stick
+	    sensitivity( 9, 50, Sens);
+	    sensitivity(10, 50, Sens);
+	 
+	    // left stick    
+	    sensitivity(11, 50, Sens);
+	    sensitivity(12, 50, Sens);
+    }
+}

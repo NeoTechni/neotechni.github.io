@@ -1,0 +1,19 @@
+/* *
+* GPC SCRIPT
+* 
+*  GPC is a scripting language with C-like syntax.
+*  To learn more access GPC Language Reference on Help menu.
+* *********************************************************** */
+
+main {
+
+    //
+    // The main procedure is called before every report is sent to
+    // console. You can think of this procedure as a loop which only
+    // ends when the script is unloaded.
+    //
+    // TODO: handle/change values of buttons, analog stick and/or sensors
+    //
+    set_val(PS3_RX, get_val(PS3_RX) * -1);
+    set_val(PS3_RY, get_val(PS3_RY) * -1);
+}

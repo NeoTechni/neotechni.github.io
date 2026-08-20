@@ -1,0 +1,58 @@
+// GPC Online Library
+// ace_combat_infinity__use_the_aceedge_flight_stick_for_360.gpc
+
+/* *
+* GPC SCRIPT
+* 
+*  GPC is a scripting language with C-like syntax.
+*  To learn more access GPC Online Help on Help menu.
+* *********************************************************** */
+int x, Triangle;
+main {
+
+    //
+    // The main procedure is called before every report be sent to
+    // console, you can think in this procedure as a loop which only
+    // ends when the script is unloaded.
+    //
+    // TODO: handle/change values of buttons, analog stick and/or sensors
+    //
+    if (get_val(XB360_X)) {
+        set_val(XB360_X, 0);
+        //set_val(PS3_CIRCLE, 100);  //not working, becomes triangle cause of the XB360_B code
+    }
+    if (get_val(XB360_Y)){
+        set_val(XB360_Y, 0);
+        set_val(PS3_SQUARE, 100);
+    }
+    if (get_val(XB360_B)) {
+        set_val(XB360_B, 0);
+        set_val(PS3_TRIANGLE, 100);
+    }
+    if (get_val(XB360_RB)) { 
+        set_val(XB360_RB,0);
+        set_val(PS3_CIRCLE, 100);  
+    }
+
+    x = get_val(XB360_LT);
+    if ( x < 50) {
+        x = (50 - x) * 2;
+        if (x < 7) {x = 0;}
+        set_val(PS3_R1, 0);
+        set_val(PS3_L1, x);
+    } else {
+        x = (x - 50) * 2;
+        set_val(PS3_R1, x);
+    }
+    
+    x = get_val(XB360_RT)
+    if ( x < 50) {
+        x = (50 - x) * 2;
+        set_val(PS3_L2, x);
+        set_val(PS3_R2, 0);
+    } else {
+        x = (x - 50) * 2;
+        set_val(PS3_L2, 0);
+        set_val(PS3_R2, x);
+    }    
+}
