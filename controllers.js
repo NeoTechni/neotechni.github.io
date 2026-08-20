@@ -5077,6 +5077,10 @@ Antlers: Adds LEDs powered by their own battery for motion sensing`,
 	obtained: "2017-02-22",
 	photographed: true,
 	cost: 90,
+	urls: {
+		"/titantwo/": "My Scripts",
+		"https://www.consoletuner.com/wiki/index.php?id=t2:gpc_scripting": "Documentation",
+	},
 	image: "302-A.png",
 	description: `Allows you to use PC/PS3/PS4/Wii/Wii U/360/X1/Switch controllers on any other system (so you can use PS3 on 360/X1/PS4/PC, 360 on PS3/PS4/PC/VitaTV, or Wii on 360/X1/PS3/PS4/PC/VitaTV)
 Lets you set up profiles to remap controls, and store up to 9 on the device (4 internally, the rest require a microSD card). Switch between them via button on the device, or button combo on the controller. You can even disable buttons (L3/R3) invert axis for games that don't allow it, change dead zones. Includes a USB cable. (Hold both up/down buttons when plugging a USB cable into the PROG port to reset the firmware)
