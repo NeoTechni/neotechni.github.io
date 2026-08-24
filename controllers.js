@@ -8456,8 +8456,7 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
    Video Output: HDMI 1536p/1440p, VGA, DIN10, Composite / RCA, Component
    Audio Output: 3.5mm Analog Audio, TOSLINK Digital Audio
    Ports: USB Type C (Power), 3x USB Type A, Ethernet, TF Card Slot, Dual Combo PS1 SNAC Ports, IO Expansion Slot for SuperDock
-   Package Contents: SuperStation One, 64GB Micro SD (pre-installed), HDMI Cable, USB Type-C Cable
-   SuperDock (still under construction): 4 USB ports, CD drive (tray), slot for an NVME SSD`,
+   Package Contents: SuperStation One, 64GB Micro SD (pre-installed), HDMI Cable, USB Type-C Cable `,
 },{
 	peripheral: "528-B",
 	attached: "528-A",
@@ -8486,6 +8485,24 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 10,
 	obtained: "2026-07-15",
 	description: `Allows native use of a SNES controller on an FPGA system equipped with a USB SNAC port (ie: The SuperStation Dock)`,
+},{
+	peripheral: "528-E",
+	attached: "528-A",
+	company: "Retro Remake",
+	section: "systems",
+	peripheralName: "Super Dock",
+	cost: 0,
+	obtained: "2026-07-23",
+	description: `4 USB-A ports, DVD drive (tray), slot for an NVME SSD, 2 USB-C ports (1 for debugging, 1 to use the DVD drive and SSD on a PC), infrared port, 1 USB-A SNAC port to use adapters such as 528-D and 528-E`,
+},{
+	peripheral: "528-F",
+	attached: "528-A",
+	company: "Retro Remake",
+	section: "systems",
+	peripheralName: "L336 Learning Remote",
+	cost: 0,
+	obtained: "2026-07-23",
+	description: `A cheap/generic remove for use with 528-E`,
 },{
 	peripheral: "529",
 	company: "Red Bull",
