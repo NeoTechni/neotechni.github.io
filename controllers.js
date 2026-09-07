@@ -8720,4 +8720,13 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 100,
 	obtained: "2026-08-11",
 	description: `An analog dpad with force feedback, 2 analog triggers, 2 digital triggers, 8 face buttons, uses USB`,
+},{
+	peripheral: "549",
+	company: "Logitech",
+	peripheralName: "Wingman ForceFeedback Mouse",
+	systems: "PC",
+	type: "forcefeedback",
+	cost: 100,
+	obtained: "2026-09-05",
+	description: `3 button mouse with forcefeedback`,
 }];
