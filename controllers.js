@@ -8729,4 +8729,21 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 100,
 	obtained: "2026-09-05",
 	description: `3 button mouse with forcefeedback`,
+},{
+	peripheral: "550",
+	company: "Nintendo",
+	peripheralName: "R.O.B. (Robotic Operating Buddy)",
+	systems: "NES",
+	cost: 300,
+	obtained: "2026-09-23",
+	description: `I don't really know what it does...`,
+},{
+	peripheral: "551",
+	company: "Microsoft",
+	peripheralName: "Sidewinder Force Feedback 2",
+	systems: "PC",
+	type: "forcefeedback",
+	cost: 40,
+	obtained: "2026-09-23",
+	description: `Joystick with force feedback, dpad/top hat, 1 trigger, 3 face buttons on the stick, 4 face buttons on the base, a single-axis analog lever, USB, powered via AC (built in AC-DC adapter)`,
 }];
