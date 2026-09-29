@@ -853,6 +853,9 @@ function make_controller(controller = false, stat = false, name = false){
 							HTML += nl2br(controller[stat]);
 						}
 						break;
+					case "company":
+						HTML += '<A HREF="/list/?tab=controllertab&companies=' + controller[stat] + '">' + controller[stat] + '</A>';
+						break;
 					default:
 						HTML += controller[stat];
 				}
