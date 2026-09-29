@@ -8737,4 +8737,12 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 300,
 	obtained: "2026-09-23",
 	description: `I don't really know what it does...`,
+},{
+	peripheral: "551",
+	company: "Harmonix",
+	peripheralName: "Rockband Drums",
+	systems: "Wii",
+	cost: 3,
+	obtained: "2026-09-27",
+	description: `dpad, 1 foot pedal (connects via a headphone port), 4 drum impact sensors, 4 face buttons, 2 system buttons, connects via USB`,
 }];
