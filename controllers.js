@@ -8204,7 +8204,12 @@ analog triggers, Bluetooth, built in battery, USB-C charging, microphone, mute b
 	company: "Retro Mod Works",
 	obtained: "2025-04-19",
 	cost: 175,
-	description: `A consolization conversion kit for PSP 2K/3K models, adds bluetooth`,
+	urls: {
+		"https://ste2425.github.io/PSP-Bluetooth/": "Config site"	
+	},
+	description: `A consolization conversion kit for PSP 2K/3K models, adds bluetooth
+	Reset button clears the paired controllers, hold the Mode button to pair a new one
+	A paired controller is required to turn the system on`,
 	specificVersion: "Silver",
 },{
 	peripheral: "508",
