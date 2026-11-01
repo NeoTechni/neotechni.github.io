@@ -8756,6 +8756,23 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	peripheralName: "Sidewinder Force Feedback 2",
 	systems: "PC",
 	cost: 80,
+	games: `• FreeSpace 1 & 2
+• Star Wars: X-Wing Alliance
+• Star Wars: Rogue Squadron 3D
+• Star Wars: Shadows of the Empire
+• Star Wars: Episode 1 Racer
+• Star Wars Galaxies: Jump to Lightspeed
+• Starlancer, Klingon Academy, Recoil
+• Beast Wars: Transformers & Cyber Strike 2 
+• IL-2 Sturmovik series
+• Digital Combat Simulator
+• Microsoft Flight Simulator series (FS98 through FSX)
+• Comanche 4 (2001)
+• Crimson Skies, Descent 2, Extreme Assault, Forsaken (original version)
+• MechWarrior 3 & 4
+• Battlezone II: Combat Commander
+• G-Police, Hardwar
+• Tiny Combat Arena`,
 	type: "forcefeedback",
 	obtained: "2026-10-31",
 	description: `stick: Force Feedback, 1 trigger, dpad, 3 buttons
