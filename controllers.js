@@ -8750,4 +8750,14 @@ Third-party devices support: 6"~7" screen with DisplayPort over USB-C (Maximum d
 	cost: 3,
 	obtained: "2026-09-27",
 	description: `dpad, 1 foot pedal (connects via a headphone port), 4 drum impact sensors, 4 face buttons, 2 system buttons, connects via USB`,
+},{
+	peripheral: "552",
+	company: "Microsoft",
+	peripheralName: "Sidewinder Force Feedback 2",
+	systems: "PC",
+	cost: 80,
+	type: "forcefeedback",
+	obtained: "2026-10-31",
+	description: `stick: Force Feedback, 1 trigger, dpad, 3 buttons
+	base: indicator light, 4 face buttons, single-axis lever, plugs in via USB, built-in AC adapter that plugs into a wall outlet`,
 }];
